@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Element>
+  <ElementTable TableName="VerifyUser">
+    <ElementInfo UserName="admin" PassWord="admin">
+    </ElementInfo>
+  </ElementTable>
+  <ElementTable TableName="ServicePath">
+    <ElementInfo ID="ServiceIP" Name="服务地址IP"><![CDATA[192.168.2.119]]></ElementInfo>
+    <ElementInfo ID="Package" Name="获取工作流包信息"><![CDATA[http://{IP}:8082/GisqPlatformDesigner-Rest/service/workflow/modelcategories-all]]></ElementInfo>
+    <ElementInfo ID="Prodef" Name="获取流程定义信息"><![CDATA[http://{IP}:8081/activiti-rest/service/repository/process-definitions]]></ElementInfo>
+    <ElementInfo ID="Actdef" Name="获取环节定义信息"><![CDATA[http://{IP}:8081/activiti-rest/service/repository/process-definitions-task]]></ElementInfo>
+    <ElementInfo ID="Department" Name="获取部门信息"><![CDATA[http://{IP}:8082/GisqPlatformDesigner-Rest/service/identity/departments-tree]]></ElementInfo>
+    <ElementInfo ID="User" Name="获取部门用户信息"><![CDATA[http://{IP}:8082/GisqPlatformDesigner-Rest/service/identity/users]]></ElementInfo>
+    <ElementInfo ID="Bizdef" Name="业务定制信息"><![CDATA[http://{IP}:8082/GisqPlatformDesigner-Rest/service/bpf/definition/brief]]></ElementInfo>
+    <ElementInfo ID="BizdefForm" Name="业务定制信息"><![CDATA[http://{IP}:8082/GisqPlatformDesigner-Rest/service/bpf/definition/filebag/nodes]]></ElementInfo>
+    <ElementInfo ID="RestService" Name="后台服务访问地址"><![CDATA[http://{IP}:8085/GisqRealEstate-Rest/service]]></ElementInfo>
+  </ElementTable>
+  <ElementTable TableName="ChromeDriver">
+    <ElementInfo ID="ChromeDriverUrl"><![CDATA[C:\Program Files (x86)\Google\Chrome\Application\chromedriver.exe]]></ElementInfo>
+  </ElementTable>
+  <ElementTable TableName="Login">
+    <ElementInfo ID="LoginUrl"><![CDATA[http://{IP}:8082/GisqPlatformExplorer/a/login;JSESSIONID=7a22b82495884077a7860a3b86e8ac2f]]></ElementInfo>
+    <ElementInfo ID="LoginUserName"><![CDATA[wangy12]]></ElementInfo>
+    <ElementInfo ID="LoginPassWord"><![CDATA[1234]]></ElementInfo>
+    <ElementInfo ID="YJName"><![CDATA[王岩]]></ElementInfo>
+  </ElementTable>
+  <ElementTable TableName="Iframe">
+    <ElementInfo ID="FirstPageIframe" Name="首页iframe名称"><![CDATA[view_首页0]]></ElementInfo>
+    <ElementInfo ID="CreateProIframe" Name="新建办件iframe名称"><![CDATA[view_新收办件-1]]></ElementInfo>
+    <ElementInfo ID="WorkFlowFrameIframe" Name="办件环节iframe名称"><![CDATA[clientContainer]]></ElementInfo>
+    <ElementInfo ID="DataCategory" Name="窗口收件资料"><![CDATA[GisqPlatformExplorer/modules/bizmodel/datums_submit]]></ElementInfo>
+  </ElementTable>
+  <ElementTable TableName="DBConnection">
+    <ElementInfo ID="DbName" Name="数据库实例名"><![CDATA[testbdc]]></ElementInfo>
+    <ElementInfo ID="DbUserName" Name="数据库用户名"><![CDATA[bdcdj]]></ElementInfo>
+    <ElementInfo ID="DbPassWord" Name="数据库密码"><![CDATA[bdcdj119]]></ElementInfo>
+  </ElementTable>
+</Element>

@@ -1,0 +1,158 @@
+2017-02-07 13:34:24,291 [INFO]: Microsoft Windows [版本 10.0.14393]
+2017-02-07 13:34:24,455 [INFO]: (c) 2016 Microsoft Corporation。保留所有权利。
+2017-02-07 13:34:24,457 [INFO]: 
+2017-02-07 13:34:24,480 [INFO]: E:\不动产登记系统\trunk\07.系统实现\自动化测试\SeleniumConfig\bin\Debug>java -jar E:\不动产登记系统\trunk\07.系统实现\自动化测试\SeleniumConfig\bin\Debug\\SeleniumJAVA\Selenium.jar C#
+2017-02-07 13:34:24,499 [INFO]: /E:/不动产登记系统/trunk/07.系统实现/自动化测试/SeleniumConfig/bin/Debug
+2017-02-07 13:34:24,501 [INFO]: 开始准备数据
+2017-02-07 13:34:24,503 [INFO]: 开始缓存总体参数配置文件
+2017-02-07 13:34:24,697 [WARN]: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2017-02-07 13:34:24,699 [WARN]: SLF4J: Defaulting to no-operation (NOP) logger implementation
+2017-02-07 13:34:24,701 [WARN]: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2017-02-07 13:34:24,996 [INFO]: 缓存总体参数配置文件成功！
+2017-02-07 13:34:25,025 [INFO]: 开始缓存SQL配置信息
+2017-02-07 13:34:25,031 [INFO]: 缓存SQL配置信息成功！
+2017-02-07 13:34:25,035 [INFO]: 开始缓存SQL配置的SQL语句信息
+2017-02-07 13:34:25,380 [INFO]: 缓存SQL配置的SQL语句信息成功！
+2017-02-07 13:34:25,382 [INFO]: 开始缓存自动化测试配置方案文件
+2017-02-07 13:34:25,388 [INFO]: 缓存自动化测试配置方案文件成功！
+2017-02-07 13:34:25,390 [INFO]: 开始缓存初始化配置参数成功！
+2017-02-07 13:34:25,407 [INFO]: 缓存流程配置信息成功！
+2017-02-07 13:34:25,648 [WARN]: Starting ChromeDriver (v2.10.267521) on port 29795
+2017-02-07 13:34:25,654 [WARN]: Only local connections are allowed.
+2017-02-07 13:34:26,474 [INFO]: 初始化ChromeDriver成功！
+2017-02-07 13:34:26,603 [WARN]: log4j:WARN No such property [maxFileSize] in org.apache.log4j.DailyRollingFileAppender.
+2017-02-07 13:34:26,885 [WARN]: Starting ChromeDriver (v2.10.267521) on port 19820
+2017-02-07 13:34:26,891 [WARN]: Only local connections are allowed.
+2017-02-07 13:34:27,977 [WARN]: log4j:WARN No appenders could be found for logger (org.apache.http.client.protocol.RequestAddCookies).
+2017-02-07 13:34:27,984 [WARN]: log4j:WARN Please initialize the log4j system properly.
+2017-02-07 13:34:27,992 [WARN]: log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+2017-02-07 13:34:33,512 [INFO]: 初始化WebDriver成功！
+2017-02-07 13:34:33,517 [INFO]: 系统登陆地址：http://192.168.20.119:8082/GisqPlatformExplorer/a/login;JSESSIONID=7a22b82495884077a7860a3b86e8ac2f
+2017-02-07 13:34:34,481 [INFO]: 系统登陆成功！
+2017-02-07 13:34:36,649 [INFO]: 开始流程自动化测试！
+2017-02-07 13:34:36,661 [INFO]: 流程内码：2d107839-0de3-11e6-b878-000c2984e60c,流程名称首次登记
+2017-02-07 13:34:38,994 [INFO]: 流程启动成功，主框架句柄：CDwindow-DD136E3C-B317-433F-9332-7CD42115CCEB
+2017-02-07 13:34:41,046 [INFO]: 当前环节环节名称：收件受理,环节内码sid-075095F3-5F75-4295-B4D1-5843F0D20C8E
+2017-02-07 13:34:41,055 [INFO]: 开始操作Ifame，Iframe名称：窗口资料收取
+2017-02-07 13:34:43,761 [ERROR]: System.InvalidOperationException: 在创建窗口句柄之前，不能在控件上调用 Invoke 或 BeginInvoke。
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 SeleniumConfig.SeleniumSchema.FrmJAVASeleniumOutPut.p_OutputDataReceived(Object sender, DataReceivedEventArgs e) 位置 e:\不动产登记系统\trunk\07.系统实现\自动化测试\SeleniumConfig\SeleniumSchema\FrmJAVASeleniumOutPut.cs:行号 72
+2017-02-07 13:45:21,508 [INFO]: Microsoft Windows [版本 10.0.14393]
+2017-02-07 13:45:21,518 [INFO]: (c) 2016 Microsoft Corporation。保留所有权利。
+2017-02-07 13:45:21,520 [INFO]: 
+2017-02-07 13:45:21,521 [INFO]: E:\不动产登记系统\trunk\07.系统实现\自动化测试\SeleniumConfig\bin\Debug>java -jar E:\不动产登记系统\trunk\07.系统实现\自动化测试\SeleniumConfig\bin\Debug\\SeleniumJAVA\Selenium.jar C#
+2017-02-07 13:45:21,590 [INFO]: /E:/不动产登记系统/trunk/07.系统实现/自动化测试/SeleniumConfig/bin/Debug
+2017-02-07 13:45:21,592 [INFO]: 开始准备数据
+2017-02-07 13:45:21,594 [INFO]: 开始缓存总体参数配置文件
+2017-02-07 13:45:21,809 [WARN]: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2017-02-07 13:45:21,812 [WARN]: SLF4J: Defaulting to no-operation (NOP) logger implementation
+2017-02-07 13:45:21,815 [WARN]: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2017-02-07 13:45:22,074 [INFO]: 缓存总体参数配置文件成功！
+2017-02-07 13:45:22,076 [INFO]: 开始缓存SQL配置信息
+2017-02-07 13:45:22,101 [INFO]: 缓存SQL配置信息成功！
+2017-02-07 13:45:22,103 [INFO]: 开始缓存SQL配置的SQL语句信息
+2017-02-07 13:45:22,499 [INFO]: 缓存SQL配置的SQL语句信息成功！
+2017-02-07 13:45:22,502 [INFO]: 开始缓存自动化测试配置方案文件
+2017-02-07 13:45:22,506 [INFO]: 缓存自动化测试配置方案文件成功！
+2017-02-07 13:45:22,509 [INFO]: 开始缓存初始化配置参数成功！
+2017-02-07 13:45:22,523 [INFO]: 缓存流程配置信息成功！
+2017-02-07 13:45:22,643 [WARN]: Starting ChromeDriver (v2.10.267521) on port 10286
+2017-02-07 13:45:22,650 [WARN]: Only local connections are allowed.
+2017-02-07 13:45:23,592 [INFO]: 初始化ChromeDriver成功！
+2017-02-07 13:45:23,693 [WARN]: log4j:WARN No such property [maxFileSize] in org.apache.log4j.DailyRollingFileAppender.
+2017-02-07 13:45:23,963 [WARN]: Starting ChromeDriver (v2.10.267521) on port 61041
+2017-02-07 13:45:23,970 [WARN]: Only local connections are allowed.
+2017-02-07 13:45:25,073 [WARN]: log4j:WARN No appenders could be found for logger (org.apache.http.client.protocol.RequestAddCookies).
+2017-02-07 13:45:25,079 [WARN]: log4j:WARN Please initialize the log4j system properly.
+2017-02-07 13:45:25,087 [WARN]: log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+2017-02-07 13:46:26,667 [WARN]: 二月 07, 2017 1:46:26 下午 org.openqa.selenium.os.UnixProcess$SeleniumWatchDog destroyHarder
+2017-02-07 13:46:26,671 [WARN]: 信息: Command failed to close cleanly. Destroying forcefully (v2). org.openqa.selenium.os.UnixProcess$SeleniumWatchDog@eda25e5
+2017-02-07 13:46:27,282 [WARN]: org.openqa.selenium.WebDriverException: unknown error: Chrome failed to start: exited normally
+2017-02-07 13:46:27,290 [WARN]:   (Driver info: chromedriver=2.10.267521,platform=Windows NT 6.3 x86_64) (WARNING: The server did not provide any stacktrace information)
+2017-02-07 13:46:27,295 [WARN]: Command duration or timeout: 61.63 seconds
+2017-02-07 13:46:27,301 [WARN]: Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+2017-02-07 13:46:27,308 [WARN]: System info: host: 'assassin', ip: '169.254.212.148', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+2017-02-07 13:46:27,315 [WARN]: Driver info: org.openqa.selenium.chrome.ChromeDriver
+2017-02-07 13:46:27,322 [WARN]: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+2017-02-07 13:46:27,328 [WARN]: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+2017-02-07 13:46:27,335 [WARN]: 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+2017-02-07 13:46:27,344 [WARN]: 	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+2017-02-07 13:46:27,350 [WARN]: 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+2017-02-07 13:46:27,358 [WARN]: 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+2017-02-07 13:46:27,365 [WARN]: 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+2017-02-07 13:46:27,373 [WARN]: 	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:242)
+2017-02-07 13:46:27,380 [WARN]: 	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:128)
+2017-02-07 13:46:27,388 [WARN]: 	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:141)
+2017-02-07 13:46:27,395 [WARN]: 	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:170)
+2017-02-07 13:46:27,401 [WARN]: 	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:159)
+2017-02-07 13:46:27,408 [WARN]: 	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:148)
+2017-02-07 13:46:27,414 [WARN]: 	at configSelenium.ConfigSeleniumStart.main(ConfigSeleniumStart.java:92)
+2017-02-07 13:46:27,601 [WARN]: Picked up JAVA_TOOL_OPTIONS: -agentlib:jvmhook
+2017-02-07 13:46:27,624 [WARN]: Picked up _JAVA_OPTIONS: -Xrunjvmhook -Xbootclasspath/a:"D:\Program Files\HP\Unified Functional Testing\bin\java_shared\classes";"D:\Program Files\HP\Unified Functional Testing\bin\java_shared\classes\jasmine.jar"
+2017-02-07 13:46:27,654 [INFO]: 
+2017-02-07 13:48:41,003 [INFO]: Microsoft Windows [版本 10.0.14393]
+2017-02-07 13:48:41,007 [INFO]: (c) 2016 Microsoft Corporation。保留所有权利。
+2017-02-07 13:48:41,009 [INFO]: 
+2017-02-07 13:48:41,011 [INFO]: E:\不动产登记系统\trunk\07.系统实现\自动化测试\SeleniumConfig\bin\Debug>java -jar E:\不动产登记系统\trunk\07.系统实现\自动化测试\SeleniumConfig\bin\Debug\\SeleniumJAVA\Selenium.jar C#
+2017-02-07 13:48:41,132 [INFO]: /E:/不动产登记系统/trunk/07.系统实现/自动化测试/SeleniumConfig/bin/Debug
+2017-02-07 13:48:41,133 [INFO]: 开始准备数据
+2017-02-07 13:48:41,135 [INFO]: 开始缓存总体参数配置文件
+2017-02-07 13:48:41,405 [WARN]: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2017-02-07 13:48:41,407 [WARN]: SLF4J: Defaulting to no-operation (NOP) logger implementation
+2017-02-07 13:48:41,409 [WARN]: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2017-02-07 13:48:41,704 [INFO]: 缓存总体参数配置文件成功！
+2017-02-07 13:48:41,706 [INFO]: 开始缓存SQL配置信息
+2017-02-07 13:48:41,728 [INFO]: 缓存SQL配置信息成功！
+2017-02-07 13:48:41,731 [INFO]: 开始缓存SQL配置的SQL语句信息
+2017-02-07 13:48:42,117 [INFO]: 缓存SQL配置的SQL语句信息成功！
+2017-02-07 13:48:42,120 [INFO]: 开始缓存自动化测试配置方案文件
+2017-02-07 13:48:42,124 [INFO]: 缓存自动化测试配置方案文件成功！
+2017-02-07 13:48:42,127 [INFO]: 开始缓存初始化配置参数成功！
+2017-02-07 13:48:42,141 [INFO]: 缓存流程配置信息成功！
+2017-02-07 13:48:42,224 [WARN]: Starting ChromeDriver (v2.10.267521) on port 56184
+2017-02-07 13:48:42,229 [WARN]: Only local connections are allowed.
+2017-02-07 13:48:43,209 [INFO]: 初始化ChromeDriver成功！
+2017-02-07 13:48:43,285 [WARN]: log4j:WARN No such property [maxFileSize] in org.apache.log4j.DailyRollingFileAppender.
+2017-02-07 13:48:43,615 [WARN]: Starting ChromeDriver (v2.10.267521) on port 5397
+2017-02-07 13:48:43,621 [WARN]: Only local connections are allowed.
+2017-02-07 13:48:44,684 [WARN]: log4j:WARN No appenders could be found for logger (org.apache.http.client.protocol.RequestAddCookies).
+2017-02-07 13:48:44,690 [WARN]: log4j:WARN Please initialize the log4j system properly.
+2017-02-07 13:48:44,697 [WARN]: log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+2017-02-07 13:48:58,795 [INFO]: 
+2017-02-07 13:55:29,678 [ERROR]: http://192.168.20.119:8081/activiti-rest/service/repository/process-definitions?category=1277810c-842b-11e5-b188-305a3a80a2ad&size=100&latest=true&order=desc
+2017-02-07 13:55:29,713 [ERROR]: System.Net.WebException: 请求被中止: 请求已被取消。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 SeleniumConfig.CommonClass.RestUserLoginService.HttpRequest(HttpWebRequest request) 位置 e:\不动产登记系统\trunk\07.系统实现\自动化测试\SeleniumConfig\CommonClass\RestUserLoginService.cs:行号 120
+2017-02-07 13:59:01,996 [INFO]: Microsoft Windows [版本 10.0.14393]
+2017-02-07 13:59:02,000 [INFO]: (c) 2016 Microsoft Corporation。保留所有权利。
+2017-02-07 13:59:02,003 [INFO]: 
+2017-02-07 13:59:02,006 [INFO]: E:\不动产登记系统\trunk\07.系统实现\自动化测试\SeleniumConfig\bin\Debug>java -jar E:\不动产登记系统\trunk\07.系统实现\自动化测试\SeleniumConfig\bin\Debug\\SeleniumJAVA\Selenium.jar C#
+2017-02-07 13:59:02,128 [INFO]: /E:/不动产登记系统/trunk/07.系统实现/自动化测试/SeleniumConfig/bin/Debug
+2017-02-07 13:59:02,130 [INFO]: 开始准备数据
+2017-02-07 13:59:02,132 [INFO]: 开始缓存总体参数配置文件
+2017-02-07 13:59:02,623 [INFO]: 缓存总体参数配置文件成功！
+2017-02-07 13:59:02,626 [INFO]: 开始缓存SQL配置信息
+2017-02-07 13:59:02,647 [INFO]: 缓存SQL配置信息成功！
+2017-02-07 13:59:02,649 [INFO]: 开始缓存SQL配置的SQL语句信息
+2017-02-07 13:59:02,995 [INFO]: 缓存SQL配置的SQL语句信息成功！
+2017-02-07 13:59:02,998 [INFO]: 开始缓存自动化测试配置方案文件
+2017-02-07 13:59:03,003 [INFO]: 缓存自动化测试配置方案文件成功！
+2017-02-07 13:59:03,005 [INFO]: 开始缓存初始化配置参数成功！
+2017-02-07 13:59:03,016 [INFO]: 缓存流程配置信息成功！
+2017-02-07 13:59:03,975 [WARN]: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2017-02-07 13:59:03,985 [WARN]: SLF4J: Defaulting to no-operation (NOP) logger implementation
+2017-02-07 13:59:04,009 [WARN]: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2017-02-07 13:59:04,028 [WARN]: Starting ChromeDriver (v2.10.267521) on port 56137
+2017-02-07 13:59:04,039 [WARN]: Only local connections are allowed.
+2017-02-07 13:59:04,076 [INFO]: 初始化ChromeDriver成功！
+2017-02-07 13:59:04,147 [WARN]: log4j:WARN No such property [maxFileSize] in org.apache.log4j.DailyRollingFileAppender.
+2017-02-07 13:59:04,419 [WARN]: Starting ChromeDriver (v2.10.267521) on port 28209
+2017-02-07 13:59:04,425 [WARN]: Only local connections are allowed.
+2017-02-07 13:59:05,522 [WARN]: log4j:WARN No appenders could be found for logger (org.apache.http.client.protocol.RequestAddCookies).
+2017-02-07 13:59:05,530 [WARN]: log4j:WARN Please initialize the log4j system properly.
+2017-02-07 13:59:05,540 [WARN]: log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+2017-02-07 14:00:09,425 [ERROR]: System.InvalidOperationException: 在创建窗口句柄之前，不能在控件上调用 Invoke 或 BeginInvoke。
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 SeleniumConfig.SeleniumSchema.FrmJAVASeleniumOutPut.p_OutputDataReceived(Object sender, DataReceivedEventArgs e) 位置 e:\不动产登记系统\trunk\07.系统实现\自动化测试\SeleniumConfig\SeleniumSchema\FrmJAVASeleniumOutPut.cs:行号 72

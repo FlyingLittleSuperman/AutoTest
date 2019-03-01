@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Element>
+  <SqlSchema ID="c135e9e5-6139-4497-ad45-d315e86ed4b1" Name="房地首次登记添加数据">
+    <TableRelation>
+      <DetialRelation ID="87f84dd1-2908-40db-8faf-641fb978854e" FTableSpaceName="SDE" FTableName="FW_H" FColumnName="ZDBSM" LTableSpaceName="SDE" LTableName="T_ZD" LColumnName="ZD_ID"><![CDATA[SDE.FW_H.ZDBSM=SDE.T_ZD.ZD_ID]]></DetialRelation>
+      <DetialRelation ID="82dcd6dc-0ff3-4cb4-812d-8a3701dbe7d4" FTableSpaceName="SDE" FTableName="FW_H" FColumnName="ZRZBSM" LTableSpaceName="SDE" LTableName="ST_ZRZ" LColumnName="BSM"><![CDATA[SDE.FW_H.ZRZBSM=SDE.ST_ZRZ.BSM]]></DetialRelation>
+      <DetialRelation ID="5783fb92-3937-45dc-acbc-183fb44deb22" FTableSpaceName="BDCDJ" FTableName="BDCDY" FColumnName="DCDZWDYBSM" LTableSpaceName="SDE" LTableName="FW_H" LColumnName="BDCDJBSM"><![CDATA[BDCDJ.BDCDY.DCDZWDYBSM=SDE.FW_H.BDCDJBSM]]></DetialRelation>
+      <DetialRelation ID="100c12ad-5f17-4bf3-9200-2dd28d5645f3" FTableSpaceName="BDCDJ" FTableName="BDCDY" FColumnName="DCZBSM" LTableSpaceName="SDE" LTableName="ST_ZRZ" LColumnName="BSM"><![CDATA[BDCDJ.BDCDY.DCZBSM=SDE.ST_ZRZ.BSM]]></DetialRelation>
+      <DetialRelation ID="25dcd126-044e-43e4-9c39-ebc013e7898b" FTableSpaceName="BDCDJ" FTableName="BDCDY" FColumnName="DCZDZHBSM" LTableSpaceName="SDE" LTableName="T_ZD" LColumnName="ZD_ID"><![CDATA[BDCDJ.BDCDY.DCZDZHBSM=SDE.T_ZD.ZD_ID]]></DetialRelation>
+      <DetialRelation ID="0c413b57-c447-43a3-b415-8c888f7aa4d3" FTableSpaceName="BDCDJ" FTableName="BDCDYZ" FColumnName="DCZBSM" LTableSpaceName="SDE" LTableName="ST_ZRZ" LColumnName="BSM"><![CDATA[BDCDJ.BDCDYZ.DCZBSM=SDE.ST_ZRZ.BSM]]></DetialRelation>
+      <DetialRelation ID="9e82fd6f-512c-423b-a17c-985633a34b41" FTableSpaceName="BDCDJ" FTableName="BDCDYZ" FColumnName="DCZDZHBSM" LTableSpaceName="SDE" LTableName="T_ZD" LColumnName="ZD_ID"><![CDATA[BDCDJ.BDCDYZ.DCZDZHBSM=SDE.T_ZD.ZD_ID]]></DetialRelation>
+      <DetialRelation ID="52b899a1-5bde-4fbb-b295-84df54798860" FTableSpaceName="BDCDJ" FTableName="DC_DYBH" FColumnName="XDCBSM" LTableSpaceName="SDE" LTableName="FW_H" LColumnName="BSM"><![CDATA[BDCDJ.DC_DYBH.XDCBSM=SDE.FW_H.BSM]]></DetialRelation>
+      <DetialRelation ID="3e44529e-a8a5-4fc8-86b6-a62828c3f048" FTableSpaceName="BDCDJ" FTableName="DC_DYBH" FColumnName="XDJBSM" LTableSpaceName="SDE" LTableName="FW_H" LColumnName="BDCDJBSM"><![CDATA[BDCDJ.DC_DYBH.XDJBSM=SDE.FW_H.BDCDJBSM]]></DetialRelation>
+    </TableRelation>
+    <Table ID="FW_H" Name="" TableSpace="SDE">
+      <Column ID="OBJECTID" Name="" Type="NUMBER" Length="22" Scale="0"><![CDATA[#SEQ_BSM#]]></Column>
+      <Column ID="BDCDJBSM" Name="" Type="NUMBER" Length="22" Scale="8"><![CDATA[#SEQ_BSM#]]></Column>
+      <Column ID="BDCDYH" Name="" Type="NVARCHAR2" Length="60" Scale=""><![CDATA[#FBDCDYH#]]></Column>
+      <Column ID="BSM" Name="" Type="NUMBER" Length="22" Scale="0"><![CDATA[#SEQ_BSM#]]></Column>
+      <Column ID="DYTDMJ" Name="" Type="NUMBER" Length="22" Scale="8"><![CDATA[0.00]]></Column>
+      <Column ID="FTTDMJ" Name="" Type="NUMBER" Length="22" Scale="8"><![CDATA[1.0]]></Column>
+      <Column ID="FWLX" Name="" Type="NVARCHAR2" Length="4" Scale=""><![CDATA[1]]></Column>
+      <Column ID="FWXZ" Name="" Type="NVARCHAR2" Length="4" Scale=""><![CDATA[96]]></Column>
+      <Column ID="FWYT" Name="" Type="NVARCHAR2" Length="20" Scale=""><![CDATA[071]]></Column>
+      <Column ID="GHYT" Name="" Type="NVARCHAR2" Length="20" Scale=""><![CDATA[住宅]]></Column>
+      <Column ID="JGSJ" Name="" Type="DATE" Length="7" Scale=""><![CDATA[2016-10-12]]></Column>
+      <Column ID="QXDM" Name="" Type="NUMBER" Length="22" Scale="0"><![CDATA[#QXDM#]]></Column>
+      <Column ID="RKSJ" Name="" Type="DATE" Length="7" Scale=""><![CDATA[#SYSDATE#]]></Column>
+      <Column ID="SCFTJZMJ" Name="" Type="NUMBER" Length="22" Scale="8"><![CDATA[5.23]]></Column>
+      <Column ID="SCJZMJ" Name="" Type="NUMBER" Length="22" Scale="8"><![CDATA[45.23]]></Column>
+      <Column ID="SCQTJZMJ" Name="" Type="NUMBER" Length="22" Scale="8"><![CDATA[40]]></Column>
+      <Column ID="SCTNJZMJ" Name="" Type="NUMBER" Length="22" Scale="8"><![CDATA[40]]></Column>
+      <Column ID="SFJSMJ" Name="" Type="NUMBER" Length="22" Scale="0"><![CDATA[1]]></Column>
+      <Column ID="TDQLXZ" Name="" Type="NVARCHAR2" Length="20" Scale=""><![CDATA[1]]></Column>
+      <Column ID="TDSYQMJ" Name="" Type="NUMBER" Length="22" Scale="8"><![CDATA[1]]></Column>
+      <Column ID="TDYT" Name="" Type="NVARCHAR2" Length="20" Scale=""><![CDATA[07]]></Column>
+      <Column ID="TDYTMC" Name="" Type="NVARCHAR2" Length="60" Scale=""><![CDATA[住宅]]></Column>
+      <Column ID="YFWXZ" Name="" Type="NVARCHAR2" Length="100" Scale=""><![CDATA[商品房]]></Column>
+      <Column ID="YFWYT" Name="" Type="NVARCHAR2" Length="100" Scale=""><![CDATA[07]]></Column>
+      <Column ID="YFWYTMC" Name="" Type="NVARCHAR2" Length="60" Scale=""><![CDATA[住宅]]></Column>
+      <Column ID="YGHYT" Name="" Type="NVARCHAR2" Length="100" Scale=""><![CDATA[07]]></Column>
+      <Column ID="ZDDM" Name="" Type="NVARCHAR2" Length="100" Scale=""><![CDATA[#ZDDM#]]></Column>
+      <Column ID="ZL" Name="" Type="NVARCHAR2" Length="400" Scale=""><![CDATA[121231321231]]></Column>
+    </Table>
+    <Table ID="T_ZD" Name="" TableSpace="SDE">
+      <Column ID="ZD_ID" Name="" Type="NUMBER" Length="22" Scale="0"><![CDATA[#SEQ_BSM#]]></Column>
+      <Column ID="BDCDJBSM" Name="" Type="NUMBER" Length="22" Scale=""><![CDATA[#SEQ_BSM#]]></Column>
+      <Column ID="BDCDYH" Name="" Type="NVARCHAR2" Length="60" Scale=""><![CDATA[#WBDCDYH#]]></Column>
+      <Column ID="DJQDM" Name="" Type="NVARCHAR2" Length="30" Scale=""><![CDATA[#DJQDM#]]></Column>
+      <Column ID="DJQZH" Name="" Type="NUMBER" Length="22" Scale="0"><![CDATA[#DJQZH#]]></Column>
+      <Column ID="QXDM" Name="" Type="NUMBER" Length="22" Scale="0"><![CDATA[#QXDM#]]></Column>
+      <Column ID="ZDDM" Name="" Type="NVARCHAR2" Length="100" Scale=""><![CDATA[#ZDDM#]]></Column>
+      <Column ID="ZD_SYQLX" Name="" Type="NVARCHAR2" Length="2" Scale=""><![CDATA[#ZDSYQLX#]]></Column>
+      <Column ID="ZD_TZM" Name="" Type="NVARCHAR2" Length="2" Scale=""><![CDATA[#ZDTZM#]]></Column>
+    </Table>
+    <Table ID="ST_ZRZ" Name="" TableSpace="SDE">
+      <Column ID="OBJECTID" Name="" Type="NUMBER" Length="22" Scale="0"><![CDATA[#SEQ_BSM#]]></Column>
+      <Column ID="BDCDJBSM" Name="" Type="NUMBER" Length="22" Scale="8"><![CDATA[#SEQ_BSM#]]></Column>
+      <Column ID="BDCDYH" Name="" Type="NVARCHAR2" Length="100" Scale=""><![CDATA[#FZDYH#]]></Column>
+      <Column ID="BSM" Name="" Type="NUMBER" Length="22" Scale="0"><![CDATA[#SEQ_BSM#]]></Column>
+      <Column ID="QXDM" Name="" Type="NUMBER" Length="22" Scale="0"><![CDATA[#QXDM#]]></Column>
+    </Table>
+    <Table ID="BDCDY" Name="不动产单元" TableSpace="BDCDJ">
+      <Column ID="BSM" Name="标识码" Type="NUMBER" Length="22" Scale="0"><![CDATA[#SEQ_BSM#]]></Column>
+      <Column ID="BDCDYH" Name="不动产单元号" Type="VARCHAR2" Length="50" Scale=""><![CDATA[#FBDCDYH#]]></Column>
+      <Column ID="DCDZWDYBM" Name="调查定着物单元表名" Type="VARCHAR2" Length="50" Scale=""><![CDATA[FW_H]]></Column>
+      <Column ID="DCZDZHBM" Name="调查宗地（海）表名" Type="VARCHAR2" Length="50" Scale=""><![CDATA[ST_ZD]]></Column>
+      <Column ID="DZWSXH" Name="定着物顺序号" Type="NUMBER" Length="22" Scale="0"><![CDATA[#DZWSXH#]]></Column>
+      <Column ID="DZWTZM" Name="定着物特征码" Type="VARCHAR2" Length="10" Scale=""><![CDATA[#FDZWTZM#]]></Column>
+      <Column ID="GXSJ" Name="更新时间" Type="DATE" Length="7" Scale=""><![CDATA[#SYSDATE#]]></Column>
+      <Column ID="QXDM" Name="区县代码" Type="NUMBER" Length="22" Scale="0"><![CDATA[#QXDM#]]></Column>
+      <Column ID="REV_" Name="" Type="NUMBER" Length="22" Scale="0"><![CDATA[1]]></Column>
+    </Table>
+    <Table ID="BDCDYZ" Name="不动产单元幢" TableSpace="BDCDJ">
+      <Column ID="BSM" Name="标识码" Type="NUMBER" Length="22" Scale="0"><![CDATA[#SEQ_BSM#]]></Column>
+      <Column ID="DCZDZHBM" Name="调查宗地（海）表名" Type="VARCHAR2" Length="50" Scale=""><![CDATA[ST_ZD]]></Column>
+      <Column ID="GXSJ" Name="更新时间" Type="DATE" Length="7" Scale=""><![CDATA[#SYSDATE#]]></Column>
+      <Column ID="QXDM" Name="区县代码" Type="NUMBER" Length="22" Scale="0"><![CDATA[#QXDM#]]></Column>
+      <Column ID="REV_" Name="" Type="NUMBER" Length="22" Scale="0"><![CDATA[1]]></Column>
+      <Column ID="ZDYH" Name="幢单元号" Type="VARCHAR2" Length="50" Scale=""><![CDATA[#FZDYH#]]></Column>
+      <Column ID="ZDZHDM" Name="宗地（宗海）代码" Type="VARCHAR2" Length="50" Scale=""><![CDATA[#ZDDM#]]></Column>
+      <Column ID="ZSXH" Name="幢顺序号" Type="NUMBER" Length="22" Scale="0"><![CDATA[#ZSXH#]]></Column>
+    </Table>
+    <Table ID="SF" Name="" TableSpace="BDCDJ">
+      <Column ID="BSM" Name="标识码" Type="NUMBER" Length="22" Scale="0"><![CDATA[#SEQ_BSM#]]></Column>
+      <Column ID="GXSJ" Name="更新时间" Type="DATE" Length="7" Scale=""><![CDATA[#SYSDATE#]]></Column>
+      <Column ID="REV_" Name="" Type="NUMBER" Length="22" Scale="0"><![CDATA[1]]></Column>
+      <Column ID="YSJE" Name="应收金额" Type="NUMBER" Length="22" Scale="4"><![CDATA[100]]></Column>
+    </Table>
+    <Table ID="DC_DYBH" Name="" TableSpace="BDCDJ">
+      <Column ID="BSM" Name="标识码" Type="NUMBER" Length="22" Scale="0"><![CDATA[#SEQ_BSM#]]></Column>
+      <Column ID="BHSJ" Name="变化时间" Type="DATE" Length="7" Scale=""><![CDATA[#SYSDATE#]]></Column>
+      <Column ID="BHXW" Name="行为" Type="NUMBER" Length="22" Scale="0"><![CDATA[1]]></Column>
+      <Column ID="BHXWMS" Name="行为描述" Type="NVARCHAR2" Length="20" Scale=""><![CDATA[新增]]></Column>
+      <Column ID="BJXMH" Name="编辑项目号" Type="NVARCHAR2" Length="40" Scale=""><![CDATA[#SEQ_BSM#]]></Column>
+      <Column ID="DCDYBM" Name="调查单元表名" Type="NVARCHAR2" Length="100" Scale=""><![CDATA[FW_H]]></Column>
+      <Column ID="DJDYBM" Name="登记单元表名" Type="NVARCHAR2" Length="100" Scale=""><![CDATA[H]]></Column>
+      <Column ID="LCYWH" Name="流程业务号" Type="NVARCHAR2" Length="60" Scale=""><![CDATA[#SEQ_BSM#]]></Column>
+      <Column ID="QXDM" Name="区县代码" Type="NUMBER" Length="22" Scale="0"><![CDATA[#QXDM#]]></Column>
+      <Column ID="XBDCDYH" Name="新不动产单元号" Type="NVARCHAR2" Length="56" Scale=""><![CDATA[#FBDCDYH#]]></Column>
+    </Table>
+  </SqlSchema>
+  <SqlSchema ID="a2c7f1a9-0e8f-403c-8d6e-f6e41de34e44" Name="单个产权添加数据" />
+  <SqlSchema ID="828eb0ac-092a-4e76-967a-fa5d107af8b0" Name="测试方案2" />
+  <SqlSchema ID="843ec3e8-fb88-46d0-b99f-93be933b4005" Name="这是一个测试方案-修改">
+    <Table ID="FW_H" Name="" TableSpace="SDE" />
+  </SqlSchema>
+</Element>

@@ -1,0 +1,346 @@
+2019-01-18 13:43:54,627 [INFO]: Microsoft Windows [版本 6.1.7601]
+2019-01-18 13:43:54,649 [INFO]: 版权所有 (c) 2009 Microsoft Corporation。保留所有权利。
+2019-01-18 13:43:54,655 [INFO]: 
+2019-01-18 13:43:54,671 [INFO]: D:\work_space\js_de\debug\SeleniumConfig\bin\Debug>java -jar D:\work_space\js_de\debug\SeleniumConfig\bin\Debug\\SeleniumJAVA\Selenium.jar C#
+2019-01-18 13:43:56,936 [INFO]: /D:/work_space/js_de/debug/SeleniumConfig/bin/Debug
+2019-01-18 13:43:56,947 [INFO]: 开始准备数据
+2019-01-18 13:43:56,952 [INFO]: 开始缓存总体参数配置文件
+2019-01-18 13:43:57,266 [WARN]: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2019-01-18 13:43:57,272 [WARN]: SLF4J: Defaulting to no-operation (NOP) logger implementation
+2019-01-18 13:43:57,279 [WARN]: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2019-01-18 13:43:57,946 [INFO]: 缓存总体参数配置文件成功！
+2019-01-18 13:43:57,959 [INFO]: 开始缓存SQL配置信息
+2019-01-18 13:43:57,983 [INFO]: 缓存SQL配置信息成功！
+2019-01-18 13:43:57,995 [INFO]: 开始缓存SQL配置的SQL语句信息
+2019-01-18 13:43:59,254 [INFO]: 缓存SQL配置的SQL语句信息成功！
+2019-01-18 13:43:59,263 [INFO]: 开始缓存自动化测试配置方案文件
+2019-01-18 13:43:59,272 [INFO]: 缓存自动化测试配置方案文件成功！
+2019-01-18 13:43:59,279 [INFO]: 开始缓存初始化配置参数成功！
+2019-01-18 13:43:59,286 [INFO]: 缓存流程配置信息成功！
+2019-01-18 13:44:00,205 [WARN]: Starting ChromeDriver (v2.9.248315) on port 18195
+2019-01-18 13:44:00,360 [INFO]: 初始化ChromeDriver成功！
+2019-01-18 13:44:00,500 [WARN]: log4j:WARN No such property [maxFileSize] in org.apache.log4j.DailyRollingFileAppender.
+2019-01-18 13:44:01,538 [WARN]: Starting ChromeDriver (v2.9.248315) on port 39639
+2019-01-18 13:44:01,901 [WARN]: log4j:WARN No appenders could be found for logger (org.apache.http.client.protocol.RequestAddCookies).
+2019-01-18 13:44:01,914 [WARN]: log4j:WARN Please initialize the log4j system properly.
+2019-01-18 13:44:01,931 [WARN]: log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+2019-01-18 13:44:13,769 [INFO]: 初始化WebDriver成功！
+2019-01-18 13:44:13,776 [INFO]: 系统登陆地址：http://192.168.2.119:8082/GisqPlatformExplorer/a/login;JSESSIONID=7a22b82495884077a7860a3b86e8ac2f
+2019-01-18 13:44:14,913 [INFO]: 系统登陆成功！
+2019-01-18 13:44:16,115 [WARN]: [14.567][SEVERE]: Unable to receive message from renderer
+2019-01-18 13:44:16,325 [WARN]: java.lang.NullPointerException
+2019-01-18 13:44:16,338 [WARN]: 	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:392)
+2019-01-18 13:44:16,348 [WARN]: 	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByCssSelector(RemoteWebDriver.java:451)
+2019-01-18 13:44:16,362 [WARN]: 	at org.openqa.selenium.By$ByCssSelector.findElements(By.java:437)
+2019-01-18 13:44:16,374 [WARN]: 	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:346)
+2019-01-18 13:44:16,387 [WARN]: 	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.frame(RemoteWebDriver.java:881)
+2019-01-18 13:44:16,417 [WARN]: 	at configSelenium.ConfigSeleniumStart.main(ConfigSeleniumStart.java:192)
+2019-01-18 13:50:21,435 [INFO]: Microsoft Windows [版本 6.1.7601]
+2019-01-18 13:50:21,451 [INFO]: 版权所有 (c) 2009 Microsoft Corporation。保留所有权利。
+2019-01-18 13:50:21,459 [INFO]: 
+2019-01-18 13:50:21,464 [INFO]: D:\work_space\js_de\debug\SeleniumConfig\bin\Debug>java -jar D:\work_space\js_de\debug\SeleniumConfig\bin\Debug\\SeleniumJAVA\Selenium.jar C#
+2019-01-18 13:50:23,416 [INFO]: /D:/work_space/js_de/debug/SeleniumConfig/bin/Debug
+2019-01-18 13:50:23,428 [INFO]: 开始准备数据
+2019-01-18 13:50:23,438 [INFO]: 开始缓存总体参数配置文件
+2019-01-18 13:50:23,734 [WARN]: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2019-01-18 13:50:23,740 [WARN]: SLF4J: Defaulting to no-operation (NOP) logger implementation
+2019-01-18 13:50:23,745 [WARN]: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2019-01-18 13:50:24,453 [INFO]: 缓存总体参数配置文件成功！
+2019-01-18 13:50:24,475 [INFO]: 开始缓存SQL配置信息
+2019-01-18 13:50:24,503 [INFO]: 缓存SQL配置信息成功！
+2019-01-18 13:50:24,509 [INFO]: 开始缓存SQL配置的SQL语句信息
+2019-01-18 13:50:25,702 [INFO]: 缓存SQL配置的SQL语句信息成功！
+2019-01-18 13:50:25,708 [INFO]: 开始缓存自动化测试配置方案文件
+2019-01-18 13:50:25,741 [INFO]: 缓存自动化测试配置方案文件成功！
+2019-01-18 13:50:25,768 [INFO]: 开始缓存初始化配置参数成功！
+2019-01-18 13:50:25,783 [INFO]: 缓存流程配置信息成功！
+2019-01-18 13:50:26,001 [WARN]: Starting ChromeDriver (v2.9.248315) on port 9996
+2019-01-18 13:50:26,331 [INFO]: 初始化ChromeDriver成功！
+2019-01-18 13:50:26,444 [WARN]: log4j:WARN No such property [maxFileSize] in org.apache.log4j.DailyRollingFileAppender.
+2019-01-18 13:50:26,796 [WARN]: Starting ChromeDriver (v2.9.248315) on port 38366
+2019-01-18 13:50:27,769 [WARN]: log4j:WARN No appenders could be found for logger (org.apache.http.client.protocol.RequestAddCookies).
+2019-01-18 13:50:27,782 [WARN]: log4j:WARN Please initialize the log4j system properly.
+2019-01-18 13:50:27,793 [WARN]: log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+2019-01-18 13:50:32,366 [INFO]: 初始化WebDriver成功！
+2019-01-18 13:50:32,375 [INFO]: 系统登陆地址：http://192.168.2.119:8082/GisqPlatformExplorer/a/login;JSESSIONID=7a22b82495884077a7860a3b86e8ac2f
+2019-01-18 13:50:34,097 [INFO]: 系统登陆成功！
+2019-01-18 13:50:37,002 [WARN]: java.lang.NullPointerException
+2019-01-18 13:50:37,010 [WARN]: 	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:392)
+2019-01-18 13:50:37,029 [WARN]: 	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByCssSelector(RemoteWebDriver.java:451)
+2019-01-18 13:50:37,038 [WARN]: 	at org.openqa.selenium.By$ByCssSelector.findElements(By.java:437)
+2019-01-18 13:50:37,050 [WARN]: 	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:346)
+2019-01-18 13:50:37,061 [WARN]: 	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.frame(RemoteWebDriver.java:881)
+2019-01-18 13:50:37,072 [WARN]: 	at configSelenium.ConfigSeleniumStart.main(ConfigSeleniumStart.java:185)
+2019-01-18 13:50:38,696 [WARN]: 一月 18, 2019 1:50:38 下午 org.openqa.selenium.os.UnixProcess$SeleniumWatchDog destroyHarder
+2019-01-18 13:50:38,706 [WARN]: 信息: Command failed to close cleanly. Destroying forcefully (v2). org.openqa.selenium.os.UnixProcess$SeleniumWatchDog@7bc10d84
+2019-01-18 13:53:56,755 [INFO]: Microsoft Windows [版本 6.1.7601]
+2019-01-18 13:53:56,775 [INFO]: 版权所有 (c) 2009 Microsoft Corporation。保留所有权利。
+2019-01-18 13:53:56,782 [INFO]: 
+2019-01-18 13:53:56,789 [INFO]: D:\work_space\js_de\debug\SeleniumConfig\bin\Debug>java -jar D:\work_space\js_de\debug\SeleniumConfig\bin\Debug\\SeleniumJAVA\Selenium.jar C#
+2019-01-18 13:53:58,700 [INFO]: /D:/work_space/js_de/debug/SeleniumConfig/bin/Debug
+2019-01-18 13:53:58,709 [INFO]: 开始准备数据
+2019-01-18 13:53:58,716 [INFO]: 开始缓存总体参数配置文件
+2019-01-18 13:53:59,025 [WARN]: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2019-01-18 13:53:59,033 [WARN]: SLF4J: Defaulting to no-operation (NOP) logger implementation
+2019-01-18 13:53:59,056 [WARN]: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2019-01-18 13:53:59,711 [INFO]: 缓存总体参数配置文件成功！
+2019-01-18 13:53:59,716 [INFO]: 开始缓存SQL配置信息
+2019-01-18 13:53:59,763 [INFO]: 缓存SQL配置信息成功！
+2019-01-18 13:53:59,774 [INFO]: 开始缓存SQL配置的SQL语句信息
+2019-01-18 13:54:01,146 [INFO]: 缓存SQL配置的SQL语句信息成功！
+2019-01-18 13:54:01,155 [INFO]: 开始缓存自动化测试配置方案文件
+2019-01-18 13:54:01,161 [INFO]: 缓存自动化测试配置方案文件成功！
+2019-01-18 13:54:01,168 [INFO]: 开始缓存初始化配置参数成功！
+2019-01-18 13:54:01,174 [INFO]: 缓存流程配置信息成功！
+2019-01-18 13:54:01,438 [WARN]: Starting ChromeDriver (v2.9.248315) on port 9688
+2019-01-18 13:54:02,240 [INFO]: 初始化ChromeDriver成功！
+2019-01-18 13:54:02,348 [WARN]: log4j:WARN No such property [maxFileSize] in org.apache.log4j.DailyRollingFileAppender.
+2019-01-18 13:54:02,679 [WARN]: Starting ChromeDriver (v2.9.248315) on port 38655
+2019-01-18 13:54:03,674 [WARN]: log4j:WARN No appenders could be found for logger (org.apache.http.client.protocol.RequestAddCookies).
+2019-01-18 13:54:03,686 [WARN]: log4j:WARN Please initialize the log4j system properly.
+2019-01-18 13:54:03,700 [WARN]: log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+2019-01-18 13:54:07,015 [WARN]: [4.309][SEVERE]: Unable to receive message from renderer
+2019-01-18 13:54:07,205 [INFO]: 初始化WebDriver成功！
+2019-01-18 13:54:07,222 [INFO]: 系统登陆地址：http://192.168.2.119:8082/GisqPlatformExplorer/a/login;JSESSIONID=7a22b82495884077a7860a3b86e8ac2f
+2019-01-18 13:54:07,238 [WARN]: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+2019-01-18 13:54:07,248 [WARN]: from unknown error: web view not found
+2019-01-18 13:54:07,262 [WARN]:   (Session info: chrome=34.0.1838.2)
+2019-01-18 13:54:07,374 [WARN]:   (Driver info: chromedriver=2.9.248315,platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+2019-01-18 13:54:07,428 [WARN]: Command duration or timeout: 8 milliseconds
+2019-01-18 13:54:07,444 [WARN]: Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+2019-01-18 13:54:07,456 [WARN]: System info: host: 'MTC-20180624XMT', ip: '192.168.6.79', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_191'
+2019-01-18 13:54:07,471 [WARN]: Driver info: org.openqa.selenium.chrome.ChromeDriver
+2019-01-18 13:54:07,486 [WARN]: Capabilities [{applicationCacheEnabled=false, rotatable=false, chrome={userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\scoped_dir4776_29790}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=34.0.1838.2, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+2019-01-18 13:54:07,553 [WARN]: Session ID: 8f914f5f373a9d2275afb173fa2a41d6
+2019-01-18 13:54:07,594 [WARN]: *** Element info: {Using=id, value=username}
+2019-01-18 13:54:07,611 [WARN]: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+2019-01-18 13:54:07,623 [WARN]: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+2019-01-18 13:54:07,634 [WARN]: 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+2019-01-18 13:54:07,647 [WARN]: 	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+2019-01-18 13:54:07,661 [WARN]: 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+2019-01-18 13:54:07,676 [WARN]: 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+2019-01-18 13:54:07,690 [WARN]: 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+2019-01-18 13:54:07,702 [WARN]: 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+2019-01-18 13:54:07,714 [WARN]: 	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:399)
+2019-01-18 13:54:07,769 [WARN]: 	at org.openqa.selenium.By$ById.findElement(By.java:215)
+2019-01-18 13:54:07,781 [WARN]: 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+2019-01-18 13:54:07,794 [WARN]: 	at configSelenium.ConfigSeleniumStart.main(ConfigSeleniumStart.java:149)
+2019-01-18 13:54:09,190 [WARN]: 一月 18, 2019 1:54:09 下午 org.openqa.selenium.os.UnixProcess$SeleniumWatchDog destroyHarder
+2019-01-18 13:54:09,209 [WARN]: 信息: Command failed to close cleanly. Destroying forcefully (v2). org.openqa.selenium.os.UnixProcess$SeleniumWatchDog@1bb1fde8
+2019-01-18 13:54:10,958 [WARN]: 一月 18, 2019 1:54:10 下午 org.openqa.selenium.os.UnixProcess$SeleniumWatchDog destroyHarder
+2019-01-18 13:54:10,969 [WARN]: 信息: Command failed to close cleanly. Destroying forcefully (v2). org.openqa.selenium.os.UnixProcess$SeleniumWatchDog@7383eae2
+2019-01-18 13:54:11,473 [INFO]: 
+2019-01-18 13:54:15,680 [ERROR]: System.ObjectDisposedException: 无法访问已释放的对象。
+对象名:“FrmJAVASeleniumOutPut”。
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 SeleniumConfig.SeleniumSchema.FrmJAVASeleniumOutPut.p_OutputDataReceived(Object sender, DataReceivedEventArgs e)
+2019-01-18 13:56:09,284 [INFO]: Microsoft Windows [版本 6.1.7601]
+2019-01-18 13:56:09,292 [INFO]: 版权所有 (c) 2009 Microsoft Corporation。保留所有权利。
+2019-01-18 13:56:09,298 [INFO]: 
+2019-01-18 13:56:09,303 [INFO]: D:\work_space\js_de\debug\SeleniumConfig\bin\Debug>java -jar D:\work_space\js_de\debug\SeleniumConfig\bin\Debug\\SeleniumJAVA\Selenium.jar C#
+2019-01-18 13:56:11,759 [INFO]: /D:/work_space/js_de/debug/SeleniumConfig/bin/Debug
+2019-01-18 13:56:11,764 [INFO]: 开始准备数据
+2019-01-18 13:56:11,769 [INFO]: 开始缓存总体参数配置文件
+2019-01-18 13:56:12,132 [WARN]: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2019-01-18 13:56:12,138 [WARN]: SLF4J: Defaulting to no-operation (NOP) logger implementation
+2019-01-18 13:56:12,144 [WARN]: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2019-01-18 13:56:12,927 [INFO]: 缓存总体参数配置文件成功！
+2019-01-18 13:56:12,933 [INFO]: 开始缓存SQL配置信息
+2019-01-18 13:56:13,006 [INFO]: 缓存SQL配置信息成功！
+2019-01-18 13:56:13,013 [INFO]: 开始缓存SQL配置的SQL语句信息
+2019-01-18 13:56:14,343 [INFO]: 缓存SQL配置的SQL语句信息成功！
+2019-01-18 13:56:14,353 [INFO]: 开始缓存自动化测试配置方案文件
+2019-01-18 13:56:14,361 [INFO]: 缓存自动化测试配置方案文件成功！
+2019-01-18 13:56:14,371 [INFO]: 开始缓存初始化配置参数成功！
+2019-01-18 13:56:14,386 [INFO]: 缓存流程配置信息成功！
+2019-01-18 13:56:14,655 [WARN]: Starting ChromeDriver (v2.9.248315) on port 42937
+2019-01-18 13:56:15,509 [INFO]: 初始化ChromeDriver成功！
+2019-01-18 13:56:15,653 [WARN]: log4j:WARN No such property [maxFileSize] in org.apache.log4j.DailyRollingFileAppender.
+2019-01-18 13:56:16,253 [WARN]: Starting ChromeDriver (v2.9.248315) on port 41256
+2019-01-18 13:56:17,105 [WARN]: log4j:WARN No appenders could be found for logger (org.apache.http.client.protocol.RequestAddCookies).
+2019-01-18 13:56:17,152 [WARN]: log4j:WARN Please initialize the log4j system properly.
+2019-01-18 13:56:17,174 [WARN]: log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+2019-01-18 13:56:23,062 [INFO]: 初始化WebDriver成功！
+2019-01-18 13:56:23,072 [INFO]: 系统登陆地址：http://192.168.2.119:8082/GisqPlatformExplorer/a/login;JSESSIONID=7a22b82495884077a7860a3b86e8ac2f
+2019-01-18 13:56:24,264 [INFO]: 系统登陆成功！
+2019-01-18 13:56:25,785 [WARN]: java.lang.NullPointerException
+2019-01-18 13:56:25,793 [WARN]: 	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:392)
+2019-01-18 13:56:25,804 [WARN]: 	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByCssSelector(RemoteWebDriver.java:451)
+2019-01-18 13:56:25,813 [WARN]: 	at org.openqa.selenium.By$ByCssSelector.findElements(By.java:437)
+2019-01-18 13:56:25,823 [WARN]: 	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:346)
+2019-01-18 13:56:25,846 [WARN]: 	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.frame(RemoteWebDriver.java:881)
+2019-01-18 13:56:25,863 [WARN]: 	at configSelenium.ConfigSeleniumStart.main(ConfigSeleniumStart.java:185)
+2019-01-18 13:56:27,848 [WARN]: 一月 18, 2019 1:56:27 下午 org.openqa.selenium.os.UnixProcess$SeleniumWatchDog destroyHarder
+2019-01-18 13:56:27,864 [WARN]: 信息: Command failed to close cleanly. Destroying forcefully (v2). org.openqa.selenium.os.UnixProcess$SeleniumWatchDog@7bc10d84
+2019-01-18 13:56:29,468 [WARN]: 一月 18, 2019 1:56:29 下午 org.openqa.selenium.os.UnixProcess$SeleniumWatchDog destroyHarder
+2019-01-18 13:56:29,482 [WARN]: 信息: Command failed to close cleanly. Destroying forcefully (v2). org.openqa.selenium.os.UnixProcess$SeleniumWatchDog@297ea53a
+2019-01-18 13:56:30,040 [INFO]: 
+2019-01-18 14:00:13,752 [ERROR]: System.InvalidOperationException: 在创建窗口句柄之前，不能在控件上调用 Invoke 或 BeginInvoke。
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 SeleniumConfig.SeleniumSchema.FrmJAVASeleniumOutPut.p_OutputDataReceived(Object sender, DataReceivedEventArgs e)
+2019-01-18 14:00:14,748 [INFO]: Microsoft Windows [版本 6.1.7601]
+2019-01-18 14:00:14,755 [INFO]: 版权所有 (c) 2009 Microsoft Corporation。保留所有权利。
+2019-01-18 14:00:14,761 [INFO]: 
+2019-01-18 14:00:14,767 [INFO]: D:\work_space\js_de\debug\SeleniumConfig\bin\Debug>java -jar D:\work_space\js_de\debug\SeleniumConfig\bin\Debug\\SeleniumJAVA\Selenium.jar C#
+2019-01-18 14:00:16,801 [INFO]: /D:/work_space/js_de/debug/SeleniumConfig/bin/Debug
+2019-01-18 14:00:16,808 [INFO]: 开始准备数据
+2019-01-18 14:00:16,813 [INFO]: 开始缓存总体参数配置文件
+2019-01-18 14:00:17,125 [WARN]: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2019-01-18 14:00:17,133 [WARN]: SLF4J: Defaulting to no-operation (NOP) logger implementation
+2019-01-18 14:00:17,139 [WARN]: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2019-01-18 14:00:17,808 [INFO]: 缓存总体参数配置文件成功！
+2019-01-18 14:00:17,814 [INFO]: 开始缓存SQL配置信息
+2019-01-18 14:00:17,860 [INFO]: 缓存SQL配置信息成功！
+2019-01-18 14:00:17,866 [INFO]: 开始缓存SQL配置的SQL语句信息
+2019-01-18 14:00:19,137 [INFO]: 缓存SQL配置的SQL语句信息成功！
+2019-01-18 14:00:19,144 [INFO]: 开始缓存自动化测试配置方案文件
+2019-01-18 14:00:19,150 [INFO]: 缓存自动化测试配置方案文件成功！
+2019-01-18 14:00:19,156 [INFO]: 开始缓存初始化配置参数成功！
+2019-01-18 14:00:19,182 [INFO]: 缓存流程配置信息成功！
+2019-01-18 14:00:19,435 [WARN]: Starting ChromeDriver (v2.9.248315) on port 47085
+2019-01-18 14:00:19,755 [INFO]: 初始化ChromeDriver成功！
+2019-01-18 14:00:19,865 [WARN]: log4j:WARN No such property [maxFileSize] in org.apache.log4j.DailyRollingFileAppender.
+2019-01-18 14:00:20,203 [WARN]: Starting ChromeDriver (v2.9.248315) on port 11080
+2019-01-18 14:00:21,196 [WARN]: log4j:WARN No appenders could be found for logger (org.apache.http.client.protocol.RequestAddCookies).
+2019-01-18 14:00:21,207 [WARN]: log4j:WARN Please initialize the log4j system properly.
+2019-01-18 14:00:21,227 [WARN]: log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+2019-01-18 14:00:23,699 [WARN]: [3.495][SEVERE]: Unable to receive message from renderer
+2019-01-18 14:00:23,767 [WARN]: org.openqa.selenium.WebDriverException: unknown error: cannot get automation extension
+2019-01-18 14:00:23,803 [WARN]: from disconnected: Unable to receive message from renderer
+2019-01-18 14:00:23,822 [WARN]:   (Session info: chrome=34.0.1838.2)
+2019-01-18 14:00:23,832 [WARN]:   (Driver info: chromedriver=2.9.248315,platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+2019-01-18 14:00:23,844 [WARN]: Command duration or timeout: 1.10 seconds
+2019-01-18 14:00:23,870 [WARN]: Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+2019-01-18 14:00:23,887 [WARN]: System info: host: 'MTC-20180624XMT', ip: '192.168.6.79', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_191'
+2019-01-18 14:00:23,899 [WARN]: Driver info: org.openqa.selenium.chrome.ChromeDriver
+2019-01-18 14:00:23,913 [WARN]: Capabilities [{applicationCacheEnabled=false, rotatable=false, chrome={userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\scoped_dir13132_20375}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=34.0.1838.2, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+2019-01-18 14:00:23,927 [WARN]: Session ID: 94dda67d6d478a80c2be831be8434ecd
+2019-01-18 14:00:23,938 [WARN]: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+2019-01-18 14:00:23,951 [WARN]: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+2019-01-18 14:00:24,067 [WARN]: 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+2019-01-18 14:00:24,179 [WARN]: 	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+2019-01-18 14:00:24,315 [WARN]: 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+2019-01-18 14:00:24,376 [WARN]: 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+2019-01-18 14:00:24,394 [WARN]: 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+2019-01-18 14:00:24,405 [WARN]: 	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:843)
+2019-01-18 14:00:24,418 [WARN]: 	at configSelenium.ConfigSeleniumStart.main(ConfigSeleniumStart.java:124)
+2019-01-18 14:00:25,911 [WARN]: 一月 18, 2019 2:00:25 下午 org.openqa.selenium.os.UnixProcess$SeleniumWatchDog destroyHarder
+2019-01-18 14:00:25,919 [WARN]: 信息: Command failed to close cleanly. Destroying forcefully (v2). org.openqa.selenium.os.UnixProcess$SeleniumWatchDog@7a8fa663
+2019-01-18 14:00:27,651 [WARN]: 一月 18, 2019 2:00:27 下午 org.openqa.selenium.os.UnixProcess$SeleniumWatchDog destroyHarder
+2019-01-18 14:00:27,658 [WARN]: 信息: Command failed to close cleanly. Destroying forcefully (v2). org.openqa.selenium.os.UnixProcess$SeleniumWatchDog@f6c03cb
+2019-01-18 14:00:28,146 [INFO]: 
+2019-01-18 14:16:30,218 [ERROR]: System.InvalidOperationException: 在创建窗口句柄之前，不能在控件上调用 Invoke 或 BeginInvoke。
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 SeleniumConfig.SeleniumSchema.FrmJAVASeleniumOutPut.p_OutputDataReceived(Object sender, DataReceivedEventArgs e)
+2019-01-18 14:16:31,444 [INFO]: Microsoft Windows [版本 6.1.7601]
+2019-01-18 14:16:31,451 [INFO]: 版权所有 (c) 2009 Microsoft Corporation。保留所有权利。
+2019-01-18 14:16:31,457 [INFO]: 
+2019-01-18 14:16:31,462 [INFO]: D:\work_space\js_de\debug\SeleniumConfig\bin\Debug>java -jar D:\work_space\js_de\debug\SeleniumConfig\bin\Debug\\SeleniumJAVA\Selenium.jar C#
+2019-01-18 14:16:33,596 [INFO]: /D:/work_space/js_de/debug/SeleniumConfig/bin/Debug
+2019-01-18 14:16:33,606 [INFO]: 开始准备数据
+2019-01-18 14:16:33,611 [INFO]: 开始缓存总体参数配置文件
+2019-01-18 14:16:33,907 [WARN]: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2019-01-18 14:16:33,915 [WARN]: SLF4J: Defaulting to no-operation (NOP) logger implementation
+2019-01-18 14:16:33,921 [WARN]: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2019-01-18 14:16:34,608 [INFO]: 缓存总体参数配置文件成功！
+2019-01-18 14:16:34,625 [INFO]: 开始缓存SQL配置信息
+2019-01-18 14:16:34,644 [INFO]: 缓存SQL配置信息成功！
+2019-01-18 14:16:34,650 [INFO]: 开始缓存SQL配置的SQL语句信息
+2019-01-18 14:16:35,873 [INFO]: 缓存SQL配置的SQL语句信息成功！
+2019-01-18 14:16:35,879 [INFO]: 开始缓存自动化测试配置方案文件
+2019-01-18 14:16:35,887 [INFO]: 缓存自动化测试配置方案文件成功！
+2019-01-18 14:16:35,892 [INFO]: 开始缓存初始化配置参数成功！
+2019-01-18 14:16:35,915 [INFO]: 缓存流程配置信息成功！
+2019-01-18 14:16:36,174 [WARN]: Starting ChromeDriver (v2.9.248315) on port 26806
+2019-01-18 14:16:36,486 [INFO]: 初始化ChromeDriver成功！
+2019-01-18 14:16:36,497 [INFO]: org.openqa.selenium.chrome.ChromeOptions@36462c6a
+2019-01-18 14:16:36,591 [WARN]: log4j:WARN No such property [maxFileSize] in org.apache.log4j.DailyRollingFileAppender.
+2019-01-18 14:16:36,940 [WARN]: Starting ChromeDriver (v2.9.248315) on port 15519
+2019-01-18 14:16:37,428 [WARN]: log4j:WARN No appenders could be found for logger (org.apache.http.client.protocol.RequestAddCookies).
+2019-01-18 14:16:37,438 [WARN]: log4j:WARN Please initialize the log4j system properly.
+2019-01-18 14:16:37,461 [WARN]: log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+2019-01-18 14:16:42,137 [INFO]: 初始化WebDriver成功！
+2019-01-18 14:16:42,146 [INFO]: 系统登陆地址：http://192.168.2.119:8082/GisqPlatformExplorer/a/login;JSESSIONID=7a22b82495884077a7860a3b86e8ac2f
+2019-01-18 14:16:43,241 [INFO]: 系统登陆成功！
+2019-01-18 14:16:45,374 [INFO]: 开始流程自动化测试！
+2019-01-18 14:16:45,384 [INFO]: 流程内码：2d107839-0de3-11e6-b878-000c2984e60c,流程名称首次登记
+2019-01-18 14:16:47,806 [INFO]: 流程启动成功，主框架句柄：CDwindow-42B41543-95F7-407A-8642-58BD0FC37104
+2019-01-18 14:16:47,821 [INFO]: 包的id：38bcedca-df88-11e5-b408-000c29187a9e
+2019-01-18 14:16:47,835 [INFO]: schemaid:05e220fe-b4a0-45b7-a649-ceaf2e18c251
+2019-01-18 14:16:47,844 [INFO]: schemaname:首次登记调试
+2019-01-18 14:16:47,856 [INFO]: prodef:2d107839-0de3-11e6-b878-000c2984e60c
+2019-01-18 14:16:47,870 [INFO]: prodef:首次登记
+2019-01-18 14:16:47,881 [INFO]: packname:国有建设用地使用权及房屋所有权（大宗地）
+2019-01-18 14:16:47,893 [INFO]: cchild:406d712e-c64b-45e6-b882-be1383e1ab34
+2019-01-18 14:16:47,904 [INFO]: childname:验证帆软表单输出
+2019-01-18 14:16:47,919 [INFO]: path:D:/SootScreen/2019-01-18 14_16/(首次登记调试)05e220fe-b4a0-45b7-a649-ceaf2e18c251/(验证帆软表单输出)406d712e-c64b-45e6-b882-be1383e1ab34/(国有建设用地使用权及房屋所有权（大宗地）)38bcedca-df88-11e5-b408-000c29187a9e/(首次登记)2d107839-0de3-11e6-b878-000c2984e60c/
+2019-01-18 14:16:50,086 [INFO]: 20190118-0000830
+2019-01-18 14:16:50,099 [INFO]: sid-075095F3-5F75-4295-B4D1-5843F0D20C8E
+2019-01-18 14:16:50,111 [INFO]: 当前环节环节名称：收件受理,环节内码sid-075095F3-5F75-4295-B4D1-5843F0D20C8E
+2019-01-18 14:16:50,124 [INFO]: 开始操作Ifame，Iframe名称：窗口资料收取
+2019-01-18 14:16:53,099 [INFO]: 
+2019-01-18 14:16:53,246 [INFO]: 点击完成啦
+2019-01-18 14:16:53,300 [INFO]: 窗口资料收取
+2019-01-18 14:16:53,424 [INFO]: 点击完成1
+2019-01-18 14:16:53,480 [INFO]: 获取到所有的iframe了2019-01-18 14:16:53
+2019-01-18 14:16:53,515 [INFO]: ifame地址1是：GisqPlatformExplorer/modules/bizmodel/datums_submit2019-01-18 14:16:53
+2019-01-18 14:16:53,559 [INFO]: 获取到ID是：TAB_IF_a4d5cb42-1ae8-11e9-b0f7-00505683a2312019-01-18 14:16:53
+2019-01-18 14:16:55,706 [INFO]: 切换到指定的iframe了2019-01-18 14:16:55
+2019-01-18 14:16:55,714 [INFO]: Iframe地址：GisqPlatformExplorer/modules/bizmodel/datums_submit
+2019-01-18 14:16:55,766 [INFO]: 当前iframe(窗口资料收取)操作元素：
+2019-01-18 14:16:55,777 [INFO]:        定位方式：XPATH
+2019-01-18 14:16:55,790 [INFO]:        定位路径：//div[@role='combobox']
+2019-01-18 14:16:55,797 [INFO]:        操作方式：QT
+2019-01-18 14:16:55,825 [INFO]:        默认值：$("#{ID}").jqxDropDownList('selectIndex', 0 );
+2019-01-18 14:16:55,836 [INFO]:        是否随机数：false
+2019-01-18 14:16:55,851 [INFO]:        等待时间：0
+2019-01-18 14:16:55,862 [INFO]: 开始执行操作
+2019-01-18 14:16:56,030 [INFO]: 等待时间：0
+2019-01-18 14:16:56,048 [INFO]: 当前iframe(窗口资料收取)操作元素：
+2019-01-18 14:16:56,063 [INFO]:        定位方式：ID
+2019-01-18 14:16:56,087 [INFO]:        定位路径：saveDatum
+2019-01-18 14:16:56,105 [INFO]:        操作方式：CLICK
+2019-01-18 14:16:56,117 [INFO]:        默认值：
+2019-01-18 14:16:56,130 [INFO]:        是否随机数：false
+2019-01-18 14:16:56,140 [INFO]:        等待时间：3000
+2019-01-18 14:16:56,162 [INFO]: 开始执行操作
+2019-01-18 14:16:56,172 [INFO]: 我在执行可点击判断
+2019-01-18 14:16:56,206 [INFO]: 我已经准备点击了
+2019-01-18 14:16:56,564 [INFO]: 我已经点击完成了
+2019-01-18 14:16:57,499 [INFO]: 等待时间：3000
+2019-01-18 14:16:57,510 [INFO]: 3000
+2019-01-18 14:16:57,538 [INFO]: 2019-01-18 14:16:57
+2019-01-18 14:16:57,554 [INFO]: 是否存在Ajax请求：true,IRL地址http://192.168.2.119:8082/GisqPlatformExplorer/modules/bizmodel/datums_submit?ID=a4d5cb42-1ae8-11e9-b0f7-00505683a231&CATEGORY=BDC03&RECORDNUMBER=9acf59dc-24e5-46db-8b01-2a760ec79996&BIZDEF_GUID=f18677f1-e05d-11e5-8188-000c29187a9e&BIZINST_GUID=a4777e4d-1ae8-11e9-b0f7-00505683a231&TYPE=datum_submit&userId=f2e37658-69d2-11e5-a045-000c297c0f34&TRANSACTOR=zscs&aid=sid-075095F3-5F75-4295-B4D1-5843F0D20C8E&ACTDEFID=sid-075095F3-5F75-4295-B4D1-5843F0D20C8E&tid=a28e9a4d-1ae8-11e9-9f98-00505683a231&ACTINSTID=a28e9a4d-1ae8-11e9-9f98-00505683a231&pid=2d107839-0de3-11e6-b878-000c2984e60c&PRODEFID=2d107839-0de3-11e6-b878-000c2984e60c&instid=a28c2947-1ae8-11e9-9f98-00505683a231&PROINSTID=a28c2947-1ae8-11e9-9f98-00505683a231&businesskey=20190118-0000830&PROJECTID=20190118-0000830&LCBM=2101&HJDM=SJ&XZQBM=3314,33&task_state=firstTask
+2019-01-18 14:16:57,575 [INFO]: 2019-01-18 14:16:57
+2019-01-18 14:16:57,587 [INFO]: 当前iframe(窗口资料收取)操作元素：
+2019-01-18 14:16:57,598 [INFO]:        定位方式：
+2019-01-18 14:16:57,607 [INFO]:        定位路径：
+2019-01-18 14:16:57,622 [INFO]:        操作方式：SHOOT
+2019-01-18 14:16:57,662 [INFO]:        默认值：资料收取
+2019-01-18 14:16:57,674 [INFO]:        是否随机数：false
+2019-01-18 14:16:57,684 [INFO]:        等待时间：3000
+2019-01-18 14:16:57,698 [INFO]: 开始执行操作
+2019-01-18 14:16:57,709 [INFO]: real_scrol:595
+2019-01-18 14:16:57,730 [INFO]: real_top:0
+2019-01-18 14:17:05,371 [INFO]: 这就是底部吗？
+2019-01-18 14:17:05,377 [INFO]: 等待时间：3000
+2019-01-18 14:17:05,383 [INFO]: 3000
+2019-01-18 14:17:05,389 [INFO]: 2019-01-18 14:17:05
+2019-01-18 14:17:05,458 [INFO]: 是否存在Ajax请求：true,IRL地址http://192.168.2.119:8082/GisqPlatformExplorer/modules/bizmodel/datums_submit?ID=a4d5cb42-1ae8-11e9-b0f7-00505683a231&CATEGORY=BDC03&RECORDNUMBER=9acf59dc-24e5-46db-8b01-2a760ec79996&BIZDEF_GUID=f18677f1-e05d-11e5-8188-000c29187a9e&BIZINST_GUID=a4777e4d-1ae8-11e9-b0f7-00505683a231&TYPE=datum_submit&userId=f2e37658-69d2-11e5-a045-000c297c0f34&TRANSACTOR=zscs&aid=sid-075095F3-5F75-4295-B4D1-5843F0D20C8E&ACTDEFID=sid-075095F3-5F75-4295-B4D1-5843F0D20C8E&tid=a28e9a4d-1ae8-11e9-9f98-00505683a231&ACTINSTID=a28e9a4d-1ae8-11e9-9f98-00505683a231&pid=2d107839-0de3-11e6-b878-000c2984e60c&PRODEFID=2d107839-0de3-11e6-b878-000c2984e60c&instid=a28c2947-1ae8-11e9-9f98-00505683a231&PROINSTID=a28c2947-1ae8-11e9-9f98-00505683a231&businesskey=20190118-0000830&PROJECTID=20190118-0000830&LCBM=2101&HJDM=SJ&XZQBM=3314,33&task_state=firstTask
+2019-01-18 14:17:05,470 [INFO]: 2019-01-18 14:17:05
+2019-01-18 14:17:06,678 [INFO]: 开始操作Ifame，Iframe名称：申请信息
+2019-01-18 14:17:08,265 [WARN]: java.lang.NullPointerException
+2019-01-18 14:17:08,275 [WARN]: 	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:392)
+2019-01-18 14:17:08,308 [WARN]: 	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:459)
+2019-01-18 14:17:08,346 [WARN]: 	at org.openqa.selenium.By$ByXPath.findElements(By.java:353)
+2019-01-18 14:17:08,356 [WARN]: 	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:346)
+2019-01-18 14:17:08,369 [WARN]: 	at configSelenium.ConfigSeleniumStart.ActdefAction(ConfigSeleniumStart.java:323)
+2019-01-18 14:17:08,380 [WARN]: 	at configSelenium.ConfigSeleniumStart.main(ConfigSeleniumStart.java:211)
+2019-01-18 14:17:08,625 [INFO]: 
+2019-01-18 14:18:16,156 [ERROR]: System.InvalidOperationException: 在创建窗口句柄之前，不能在控件上调用 Invoke 或 BeginInvoke。
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 SeleniumConfig.SeleniumSchema.FrmJAVASeleniumOutPut.p_OutputDataReceived(Object sender, DataReceivedEventArgs e)

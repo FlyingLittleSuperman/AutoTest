@@ -1,0 +1,174 @@
+2017-01-18 09:48:22,574 [INFO]: Microsoft Windows [版本 10.0.14393]
+2017-01-18 09:48:22,728 [INFO]: (c) 2016 Microsoft Corporation。保留所有权利。
+2017-01-18 09:48:22,734 [INFO]: 
+2017-01-18 09:48:22,738 [INFO]: E:\不动产登记系统\trunk\07.系统实现\自动化测试\SeleniumConfig\bin\Debug>java -jar E:\不动产登记系统\trunk\07.系统实现\自动化测试\SeleniumConfig\bin\Debug\\SeleniumJAVA\Selenium.jar C#
+2017-01-18 09:48:22,763 [INFO]: /E:/不动产登记系统/trunk/07.系统实现/自动化测试/SeleniumConfig/bin/Debug
+2017-01-18 09:48:22,767 [INFO]: 开始准备数据
+2017-01-18 09:48:22,771 [INFO]: 开始缓存总体参数配置文件
+2017-01-18 09:48:23,025 [WARN]: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2017-01-18 09:48:23,028 [WARN]: SLF4J: Defaulting to no-operation (NOP) logger implementation
+2017-01-18 09:48:23,031 [WARN]: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2017-01-18 09:48:23,397 [INFO]: 缓存总体参数配置文件成功！
+2017-01-18 09:48:23,400 [INFO]: 开始缓存SQL配置信息
+2017-01-18 09:48:23,416 [INFO]: 缓存SQL配置信息成功！
+2017-01-18 09:48:23,420 [INFO]: 开始缓存SQL配置的SQL语句信息
+2017-01-18 09:48:23,881 [INFO]: 缓存SQL配置的SQL语句信息成功！
+2017-01-18 09:48:23,883 [INFO]: 开始缓存自动化测试配置方案文件
+2017-01-18 09:48:23,888 [INFO]: 缓存自动化测试配置方案文件成功！
+2017-01-18 09:48:23,899 [INFO]: 开始缓存初始化配置参数成功！
+2017-01-18 09:48:23,908 [INFO]: 缓存流程配置信息成功！
+2017-01-18 09:48:24,198 [WARN]: Starting ChromeDriver (v2.10.267521) on port 57878
+2017-01-18 09:48:24,211 [WARN]: Only local connections are allowed.
+2017-01-18 09:48:25,053 [INFO]: 初始化ChromeDriver成功！
+2017-01-18 09:48:25,443 [WARN]: log4j:WARN No such property [maxFileSize] in org.apache.log4j.DailyRollingFileAppender.
+2017-01-18 09:48:26,220 [WARN]: Starting ChromeDriver (v2.10.267521) on port 10868
+2017-01-18 09:48:26,226 [WARN]: Only local connections are allowed.
+2017-01-18 09:48:26,868 [WARN]: log4j:WARN No appenders could be found for logger (org.apache.http.client.protocol.RequestAddCookies).
+2017-01-18 09:48:26,876 [WARN]: log4j:WARN Please initialize the log4j system properly.
+2017-01-18 09:48:26,882 [WARN]: log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+2017-01-18 09:48:31,165 [INFO]: 初始化WebDriver成功！
+2017-01-18 09:48:31,171 [INFO]: 系统登陆地址：http://192.168.7.200:8082/GisqPlatformExplorer/a/login;JSESSIONID=7a22b82495884077a7860a3b86e8ac2f
+2017-01-18 09:48:32,289 [INFO]: 系统登陆成功！
+2017-01-18 09:48:34,538 [INFO]: 开始流程自动化测试！
+2017-01-18 09:48:34,546 [INFO]: 流程内码：2d107839-0de3-11e6-b878-000c2984e60c,流程名称首次登记
+2017-01-18 09:48:36,775 [INFO]: 流程启动成功，主框架句柄：CDwindow-C54D451C-FB49-4538-97FC-4DE7B5813FAC
+2017-01-18 09:48:39,380 [INFO]: 当前环节环节名称：收件受理,环节内码sid-075095F3-5F75-4295-B4D1-5843F0D20C8E
+2017-01-18 09:48:39,385 [INFO]: 开始操作Ifame，Iframe名称：窗口资料收取
+2017-01-18 09:48:41,566 [INFO]: Iframe地址：GisqPlatformExplorer/modules/bizmodel/datums_submit
+2017-01-18 09:48:41,582 [INFO]: 当前iframe(窗口资料收取)操作元素：
+2017-01-18 09:48:41,645 [INFO]:        定位方式：XPATH
+2017-01-18 09:48:41,648 [INFO]:        定位路径：//div[@role='combobox']
+2017-01-18 09:48:41,651 [INFO]:        操作方式：QT
+2017-01-18 09:48:41,654 [INFO]:        默认值：$("#{ID}").jqxDropDownList('selectIndex', 0 );
+2017-01-18 09:48:41,657 [INFO]:        是否随机数：false
+2017-01-18 09:48:41,660 [INFO]:        等待时间：0
+2017-01-18 09:48:41,737 [INFO]: 当前iframe(窗口资料收取)操作元素：
+2017-01-18 09:48:41,740 [INFO]:        定位方式：ID
+2017-01-18 09:48:41,743 [INFO]:        定位路径：saveDatum
+2017-01-18 09:48:41,748 [INFO]:        操作方式：CLICK
+2017-01-18 09:48:41,753 [INFO]:        默认值：
+2017-01-18 09:48:41,757 [INFO]:        是否随机数：false
+2017-01-18 09:48:41,762 [INFO]:        等待时间：0
+2017-01-18 09:48:43,053 [INFO]: 开始操作Ifame，Iframe名称：申请信息
+2017-01-18 09:48:50,398 [INFO]: Iframe地址：GisqQueryList/views/reports/realestate/common/acceptance/Acceptance_HouseRight_Initial.jsp?reportlet=realestate/common/acceptance/Acceptance_HouseRight_Initial.cpt
+2017-01-18 09:48:50,421 [INFO]: 当前iframe(申请信息)操作元素：
+2017-01-18 09:48:50,437 [INFO]:        定位方式：ID
+2017-01-18 09:48:50,440 [INFO]:        定位路径：CXBDC
+2017-01-18 09:48:50,443 [INFO]:        操作方式：CLICK
+2017-01-18 09:48:50,446 [INFO]:        默认值：
+2017-01-18 09:48:50,451 [INFO]:        是否随机数：false
+2017-01-18 09:48:50,456 [INFO]:        等待时间：2000
+2017-01-18 09:48:50,551 [INFO]: 2000
+2017-01-18 09:48:50,599 [INFO]: 2017-01-18 09:48:50
+2017-01-18 09:48:50,608 [INFO]: 是否存在Ajax请求：true,IRL地址http://192.168.7.200:8084/GisqQueryList/views/reports/realestate/common/acceptance/Acceptance_HouseRight_Initial.jsp?reportlet=realestate/common/acceptance/Acceptance_HouseRight_Initial.cpt&op=write&BDFR_GUID=f186c61b-e05d-11e5-8188-000c29187a9e&ID=24969957-dd20-11e6-a3b3-9c5c8e949727&CATEGORY=BDC&RECORDNUMBER=492f2533-ead6-4738-a7e6-3bf31cd9df09&BIZDEF_GUID=f18677f1-e05d-11e5-8188-000c29187a9e&BIZINST_GUID=237f0ecf-dd20-11e6-a3b3-9c5c8e949727&TYPE=form&userId=f2e37658-69d2-11e5-a045-000c297c0f34&TRANSACTOR=zscs&aid=sid-075095F3-5F75-4295-B4D1-5843F0D20C8E&ACTDEFID=sid-075095F3-5F75-4295-B4D1-5843F0D20C8E&tid=226f7359-dd20-11e6-8de6-9c5c8e949727&ACTINSTID=226f7359-dd20-11e6-8de6-9c5c8e949727&pid=2d107839-0de3-11e6-b878-000c2984e60c&PRODEFID=2d107839-0de3-11e6-b878-000c2984e60c&instid=226f2533-dd20-11e6-8de6-9c5c8e949727&PROINSTID=226f2533-dd20-11e6-8de6-9c5c8e949727&businesskey=20170118-0000345&PROJECTID=20170118-0000345&LCBM=2101&HJDM=SJ&XZQBM=33021&task_state=firstTask
+2017-01-18 09:48:50,613 [INFO]: 2017-01-18 09:48:50
+2017-01-18 09:48:50,617 [INFO]: 当前iframe(申请信息)操作元素：
+2017-01-18 09:48:50,620 [INFO]:        定位方式：ID
+2017-01-18 09:48:50,625 [INFO]:        定位路径：iFrameDY
+2017-01-18 09:48:50,628 [INFO]:        操作方式：IFRAME
+2017-01-18 09:48:50,633 [INFO]:        默认值：iFrameDY
+2017-01-18 09:48:50,639 [INFO]:        是否随机数：false
+2017-01-18 09:48:50,643 [INFO]:        等待时间：0
+2017-01-18 09:48:54,104 [INFO]: 当前iframe(iFrameDY)操作元素：
+2017-01-18 09:48:54,107 [INFO]:       定位方式：ID
+2017-01-18 09:48:54,110 [INFO]:       定位路径：bdcdyh
+2017-01-18 09:48:54,113 [INFO]:       操作方式：SENDKEYS
+2017-01-18 09:48:54,118 [INFO]:       默认值：SDE.FW_H.BDCDYH
+2017-01-18 09:48:54,122 [INFO]:       是否随机数：false
+2017-01-18 09:48:54,125 [INFO]:       等待时间：0
+2017-01-18 09:48:56,229 [WARN]: org.openqa.selenium.NoSuchElementException: no such element
+2017-01-18 09:48:56,232 [WARN]:   (Session info: chrome=34.0.1847.116)
+2017-01-18 09:48:56,237 [WARN]:   (Driver info: chromedriver=2.10.267521,platform=Windows NT 6.3 x86_64) (WARNING: The server did not provide any stacktrace information)
+2017-01-18 09:48:56,251 [WARN]: Command duration or timeout: 2.04 seconds
+2017-01-18 09:48:56,255 [WARN]: For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+2017-01-18 09:48:56,259 [WARN]: Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+2017-01-18 09:48:56,262 [WARN]: System info: host: 'assassin', ip: '169.254.212.148', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+2017-01-18 09:48:56,266 [WARN]: Driver info: org.openqa.selenium.chrome.ChromeDriver
+2017-01-18 09:48:56,272 [WARN]: Capabilities [{applicationCacheEnabled=false, rotatable=false, chrome={userDataDir=C:\Users\ADMINI~1.MTC\AppData\Local\Temp\scoped_dir3828_30581}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=34.0.1847.116, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+2017-01-18 09:48:56,277 [WARN]: Session ID: 7aee10ba65a81f7126ddd8894e5ec809
+2017-01-18 09:48:56,280 [WARN]: *** Element info: {Using=id, value=bdcdyh}
+2017-01-18 09:48:56,285 [WARN]: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+2017-01-18 09:48:56,290 [WARN]: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+2017-01-18 09:48:56,296 [WARN]: 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+2017-01-18 09:48:56,300 [WARN]: 	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+2017-01-18 09:48:56,304 [WARN]: 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+2017-01-18 09:48:56,308 [WARN]: 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+2017-01-18 09:48:56,312 [WARN]: 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+2017-01-18 09:48:56,317 [WARN]: 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+2017-01-18 09:48:56,321 [WARN]: 	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:399)
+2017-01-18 09:48:56,323 [WARN]: 	at org.openqa.selenium.By$ById.findElement(By.java:215)
+2017-01-18 09:48:56,326 [WARN]: 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+2017-01-18 09:48:56,342 [WARN]: 	at configSelenium.ConfigSeleniumStart.ActdefAction(ConfigSeleniumStart.java:339)
+2017-01-18 09:48:56,345 [WARN]: 	at configSelenium.ConfigSeleniumStart.main(ConfigSeleniumStart.java:152)
+2017-01-18 09:53:31,694 [INFO]: Microsoft Windows [版本 10.0.14393]
+2017-01-18 09:53:31,697 [INFO]: (c) 2016 Microsoft Corporation。保留所有权利。
+2017-01-18 09:53:31,700 [INFO]: 
+2017-01-18 09:53:31,706 [INFO]: E:\不动产登记系统\trunk\07.系统实现\自动化测试\SeleniumConfig\bin\Debug>java -jar E:\不动产登记系统\trunk\07.系统实现\自动化测试\SeleniumConfig\bin\Debug\\SeleniumJAVA\Selenium.jar C#
+2017-01-18 09:53:31,908 [INFO]: /E:/不动产登记系统/trunk/07.系统实现/自动化测试/SeleniumConfig/bin/Debug
+2017-01-18 09:53:31,910 [INFO]: 开始准备数据
+2017-01-18 09:53:31,912 [INFO]: 开始缓存总体参数配置文件
+2017-01-18 09:53:32,099 [WARN]: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2017-01-18 09:53:32,108 [WARN]: SLF4J: Defaulting to no-operation (NOP) logger implementation
+2017-01-18 09:53:32,110 [WARN]: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2017-01-18 09:53:32,481 [INFO]: 缓存总体参数配置文件成功！
+2017-01-18 09:53:32,483 [INFO]: 开始缓存SQL配置信息
+2017-01-18 09:53:32,508 [INFO]: 缓存SQL配置信息成功！
+2017-01-18 09:53:32,511 [INFO]: 开始缓存SQL配置的SQL语句信息
+2017-01-18 09:53:33,107 [INFO]: 缓存SQL配置的SQL语句信息成功！
+2017-01-18 09:53:33,110 [INFO]: 开始缓存自动化测试配置方案文件
+2017-01-18 09:53:33,113 [INFO]: 缓存自动化测试配置方案文件成功！
+2017-01-18 09:53:33,116 [INFO]: 开始缓存初始化配置参数成功！
+2017-01-18 09:53:33,131 [INFO]: 缓存流程配置信息成功！
+2017-01-18 09:53:33,254 [WARN]: Starting ChromeDriver (v2.10.267521) on port 9178
+2017-01-18 09:53:33,260 [WARN]: Only local connections are allowed.
+2017-01-18 09:53:34,199 [INFO]: 初始化ChromeDriver成功！
+2017-01-18 09:53:34,323 [WARN]: log4j:WARN No such property [maxFileSize] in org.apache.log4j.DailyRollingFileAppender.
+2017-01-18 09:53:34,632 [WARN]: Starting ChromeDriver (v2.10.267521) on port 28834
+2017-01-18 09:53:34,638 [WARN]: Only local connections are allowed.
+2017-01-18 09:53:35,757 [WARN]: log4j:WARN No appenders could be found for logger (org.apache.http.client.protocol.RequestAddCookies).
+2017-01-18 09:53:35,764 [WARN]: log4j:WARN Please initialize the log4j system properly.
+2017-01-18 09:53:35,770 [WARN]: log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+2017-01-18 09:53:38,659 [INFO]: 初始化WebDriver成功！
+2017-01-18 09:53:38,673 [INFO]: 系统登陆地址：http://192.168.7.200:8082/GisqPlatformExplorer/a/login;JSESSIONID=7a22b82495884077a7860a3b86e8ac2f
+2017-01-18 09:53:39,526 [INFO]: 系统登陆成功！
+2017-01-18 09:53:41,653 [INFO]: 开始流程自动化测试！
+2017-01-18 09:53:41,656 [INFO]: 流程内码：2d107839-0de3-11e6-b878-000c2984e60c,流程名称首次登记
+2017-01-18 09:53:43,826 [INFO]: 流程启动成功，主框架句柄：CDwindow-A2025528-7F61-4913-A027-D319DA3EB972
+2017-01-18 09:53:45,891 [INFO]: 当前环节环节名称：收件受理,环节内码sid-075095F3-5F75-4295-B4D1-5843F0D20C8E
+2017-01-18 09:53:45,894 [INFO]: 开始操作Ifame，Iframe名称：窗口资料收取
+2017-01-18 09:53:48,086 [INFO]: Iframe地址：GisqPlatformExplorer/modules/bizmodel/datums_submit
+2017-01-18 09:53:48,101 [INFO]: 当前iframe(窗口资料收取)操作元素：
+2017-01-18 09:53:48,104 [INFO]:        定位方式：XPATH
+2017-01-18 09:53:48,108 [INFO]:        定位路径：//div[@role='combobox']
+2017-01-18 09:53:48,112 [INFO]:        操作方式：QT
+2017-01-18 09:53:48,115 [INFO]:        默认值：$("#{ID}").jqxDropDownList('selectIndex', 0 );
+2017-01-18 09:53:48,119 [INFO]:        是否随机数：false
+2017-01-18 09:53:48,122 [INFO]:        等待时间：0
+2017-01-18 09:53:48,231 [INFO]: 当前iframe(窗口资料收取)操作元素：
+2017-01-18 09:53:48,234 [INFO]:        定位方式：ID
+2017-01-18 09:53:48,238 [INFO]:        定位路径：saveDatum
+2017-01-18 09:53:48,242 [INFO]:        操作方式：CLICK
+2017-01-18 09:53:48,245 [INFO]:        默认值：
+2017-01-18 09:53:48,250 [INFO]:        是否随机数：false
+2017-01-18 09:53:48,256 [INFO]:        等待时间：0
+2017-01-18 09:53:49,587 [INFO]: 开始操作Ifame，Iframe名称：申请信息
+2017-01-18 09:53:52,998 [INFO]: Iframe地址：GisqQueryList/views/reports/realestate/common/acceptance/Acceptance_HouseRight_Initial.jsp?reportlet=realestate/common/acceptance/Acceptance_HouseRight_Initial.cpt
+2017-01-18 09:53:53,013 [WARN]: org.openqa.selenium.WebDriverException: unknown error: $ is not defined
+2017-01-18 09:53:53,030 [WARN]:   (Session info: chrome=34.0.1847.116)
+2017-01-18 09:53:53,033 [WARN]:   (Driver info: chromedriver=2.10.267521,platform=Windows NT 6.3 x86_64) (WARNING: The server did not provide any stacktrace information)
+2017-01-18 09:53:53,036 [WARN]: Command duration or timeout: 4 milliseconds
+2017-01-18 09:53:53,039 [WARN]: Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+2017-01-18 09:53:53,042 [WARN]: System info: host: 'assassin', ip: '169.254.212.148', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+2017-01-18 09:53:53,051 [WARN]: Driver info: org.openqa.selenium.chrome.ChromeDriver
+2017-01-18 09:53:53,054 [WARN]: Capabilities [{applicationCacheEnabled=false, rotatable=false, chrome={userDataDir=C:\Users\ADMINI~1.MTC\AppData\Local\Temp\scoped_dir20440_17235}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=34.0.1847.116, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+2017-01-18 09:53:53,056 [WARN]: Session ID: 31fef80489a84d2a1aa812654c72336a
+2017-01-18 09:53:53,060 [WARN]: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+2017-01-18 09:53:53,068 [WARN]: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+2017-01-18 09:53:53,071 [WARN]: 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+2017-01-18 09:53:53,074 [WARN]: 	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+2017-01-18 09:53:53,077 [WARN]: 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+2017-01-18 09:53:53,084 [WARN]: 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+2017-01-18 09:53:53,088 [WARN]: 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+2017-01-18 09:53:53,091 [WARN]: 	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:514)
+2017-01-18 09:53:53,095 [WARN]: 	at configSelenium.ConfigSeleniumStart.ActdefAction(ConfigSeleniumStart.java:207)
+2017-01-18 09:53:53,102 [WARN]: 	at configSelenium.ConfigSeleniumStart.main(ConfigSeleniumStart.java:152)

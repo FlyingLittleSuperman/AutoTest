@@ -1,0 +1,365 @@
+2018-12-20 19:04:27,281 [INFO]: 当前iframe(审批表)操作元素：
+2018-12-20 19:04:27,299 [INFO]:        定位方式：XPATH
+2018-12-20 19:04:27,329 [INFO]:        定位路径：//div[@title='意见页']
+2018-12-20 19:04:27,337 [INFO]:        操作方式：CLICK
+2018-12-20 19:04:27,345 [INFO]:        默认值：
+2018-12-20 19:04:27,371 [INFO]:        是否随机数：false
+2018-12-20 19:04:27,380 [INFO]:        等待时间：1000
+2018-12-20 19:04:27,394 [INFO]: 开始执行操作
+2018-12-20 19:04:27,422 [INFO]: 元素可见了吧
+2018-12-20 19:04:27,468 [INFO]: 已经判断完成可点击了：element to be clickable: [[ChromeDriver: chrome on XP (7369f59830d29d79c6602288db462ecd)] -> xpath: //div[@title='意见页']]
+2018-12-20 19:04:27,919 [INFO]: 已经完成点击事件了
+2018-12-20 19:04:27,932 [INFO]: 等待时间：1000
+2018-12-20 19:04:27,974 [INFO]: 1000
+2018-12-20 19:04:27,989 [INFO]: 2018-12-20 19:04:27
+2018-12-20 19:04:28,106 [INFO]: 是否存在Ajax请求：true,IRL地址http://192.168.2.119:8084/realestate/ReportServer?reportlet=realestate/common/approveform/ApproveForm.cpt&op=write&BDFR_GUID=f186c615-e05d-11e5-8188-000c29187a9e&ID=aa8f4abc-0446-11e9-88da-00505683a231&CATEGORY=BDC03&RECORDNUMBER=1e036f38-6498-47ff-86c4-07e9682ff583&BIZDEF_GUID=f18677f1-e05d-11e5-8188-000c29187a9e&BIZINST_GUID=a9f70234-0446-11e9-88da-00505683a231&TYPE=form&userId=f2e37658-69d2-11e5-a045-000c297c0f34&TRANSACTOR=zscs&aid=sid-919D701A-D922-4252-8200-16E74FFD5C47&ACTDEFID=sid-919D701A-D922-4252-8200-16E74FFD5C47&tid=f22ae572-0446-11e9-b948-00505683a231&ACTINSTID=f22ae572-0446-11e9-b948-00505683a231&pid=2d107839-0de3-11e6-b878-000c2984e60c&PRODEFID=2d107839-0de3-11e6-b878-000c2984e60c&instid=a78c1cde-0446-11e9-b948-00505683a231&PROINSTID=a78c1cde-0446-11e9-b948-00505683a231&businesskey=20181220-0011915&PROJECTID=20181220-0011915&LCBM=2101&HJDM=CS&XZQBM=3314,33&task_state=null
+2018-12-20 19:04:28,114 [INFO]: 2018-12-20 19:04:28
+2018-12-20 19:04:28,121 [INFO]: 当前iframe(审批表)操作元素：
+2018-12-20 19:04:28,146 [INFO]:        定位方式：ID
+2018-12-20 19:04:28,152 [INFO]:        定位路径：GTCSYJ
+2018-12-20 19:04:28,171 [INFO]:        操作方式：FR
+2018-12-20 19:04:28,181 [INFO]:        默认值：倪明奇初审意见
+2018-12-20 19:04:28,197 [INFO]:        是否随机数：true
+2018-12-20 19:04:28,203 [INFO]:        等待时间：0
+2018-12-20 19:04:28,212 [INFO]: 开始执行操作
+2018-12-20 19:04:28,620 [INFO]: 等待时间：0
+2018-12-20 19:04:28,629 [INFO]: 当前iframe(审批表)操作元素：
+2018-12-20 19:04:28,641 [INFO]:        定位方式：ID
+2018-12-20 19:04:28,646 [INFO]:        定位路径：GTCSR
+2018-12-20 19:04:28,674 [INFO]:        操作方式：FR
+2018-12-20 19:04:28,681 [INFO]:        默认值：倪明奇初审
+2018-12-20 19:04:28,690 [INFO]:        是否随机数：false
+2018-12-20 19:04:28,707 [INFO]:        等待时间：0
+2018-12-20 19:04:28,713 [INFO]: 开始执行操作
+2018-12-20 19:04:29,135 [INFO]: 等待时间：0
+2018-12-20 19:04:29,141 [INFO]: 当前iframe(审批表)操作元素：
+2018-12-20 19:04:29,151 [INFO]:        定位方式：ID
+2018-12-20 19:04:29,159 [INFO]:        定位路径：FCCSSJ
+2018-12-20 19:04:29,165 [INFO]:        操作方式：FR
+2018-12-20 19:04:29,191 [INFO]:        默认值：{NOW}
+2018-12-20 19:04:29,197 [INFO]:        是否随机数：false
+2018-12-20 19:04:29,217 [INFO]:        等待时间：0
+2018-12-20 19:04:29,225 [INFO]: 开始执行操作
+2018-12-20 19:04:29,651 [INFO]: 等待时间：0
+2018-12-20 19:04:29,661 [INFO]: 当前iframe(审批表)操作元素：
+2018-12-20 19:04:29,670 [INFO]:        定位方式：XPATH
+2018-12-20 19:04:29,694 [INFO]:        定位路径：//button[@class='fr-btn-text x-emb-submit']
+2018-12-20 19:04:29,702 [INFO]:        操作方式：CLICK
+2018-12-20 19:04:29,718 [INFO]:        默认值：
+2018-12-20 19:04:29,726 [INFO]:        是否随机数：false
+2018-12-20 19:04:29,747 [INFO]:        等待时间：0
+2018-12-20 19:04:29,755 [INFO]: 开始执行操作
+2018-12-20 19:04:29,769 [INFO]: 元素可见了吧
+2018-12-20 19:04:29,806 [INFO]: 已经判断完成可点击了：element to be clickable: [[ChromeDriver: chrome on XP (7369f59830d29d79c6602288db462ecd)] -> xpath: //button[@class='fr-btn-text x-emb-submit']]
+2018-12-20 19:04:30,092 [INFO]: 已经完成点击事件了
+2018-12-20 19:04:30,107 [INFO]: 等待时间：0
+2018-12-20 19:04:33,851 [INFO]: 转出
+2018-12-20 19:04:44,931 [INFO]: 项目编号20181220-0011915
+2018-12-20 19:04:48,529 [INFO]: 包的id：38bcedca-df88-11e5-b408-000c29187a9e
+2018-12-20 19:04:48,537 [INFO]: schemaid:05e220fe-b4a0-45b7-a649-ceaf2e18c251
+2018-12-20 19:04:48,561 [INFO]: schemaname:转移登记方案2dfgdfgdf
+2018-12-20 19:04:48,569 [INFO]: prodef:2d107839-0de3-11e6-b878-000c2984e60c
+2018-12-20 19:04:48,602 [INFO]: prodef:首次登记
+2018-12-20 19:04:48,615 [INFO]: packname:国有建设用地使用权及房屋所有权（大宗地）
+2018-12-20 19:04:48,634 [INFO]: cchild:b9621fc9-fce8-4ed4-8a95-2aa464cf92f5
+2018-12-20 19:04:48,644 [INFO]: childname:自动化测试-房地首次登记-单个单元单个权利
+2018-12-20 19:04:48,652 [INFO]: path:D:/SootScreen/2018-12-20 19_04/(转移登记方案2dfgdfgdf)05e220fe-b4a0-45b7-a649-ceaf2e18c251/(自动化测试-房地首次登记-单个单元单个权利)b9621fc9-fce8-4ed4-8a95-2aa464cf92f5/(国有建设用地使用权及房屋所有权（大宗地）)38bcedca-df88-11e5-b408-000c29187a9e/(首次登记)2d107839-0de3-11e6-b878-000c2984e60c/
+2018-12-20 19:04:51,292 [INFO]: 20181220-0011915
+2018-12-20 19:04:51,300 [INFO]: sid-EB9DF64C-1CF1-495C-B7FE-906BCDD56F7C
+2018-12-20 19:04:51,315 [INFO]: 当前环节环节名称：复审,环节内码sid-EB9DF64C-1CF1-495C-B7FE-906BCDD56F7C
+2018-12-20 19:04:51,332 [INFO]: 开始操作Ifame，Iframe名称：审批表
+2018-12-20 19:04:51,460 [INFO]: 1
+2018-12-20 19:04:51,513 [INFO]: 审批表
+2018-12-20 19:04:51,783 [INFO]: 点击完成
+2018-12-20 19:04:51,865 [INFO]: 获取到所有的iframe了2018-12-20 19:04:51
+2018-12-20 19:04:51,877 [INFO]: ifame地址1是：realestate/ReportServer?reportlet=realestate/common/approveform/ApproveForm_TZ.cpt2018-12-20 19:04:51
+2018-12-20 19:04:51,899 [INFO]: 获取到ID是：TAB_IF_aa8f4abc-0446-11e9-88da-00505683a2312018-12-20 19:04:51
+2018-12-20 19:04:54,311 [INFO]: 切换到指定的iframe了2018-12-20 19:04:54
+2018-12-20 19:04:54,336 [INFO]: Iframe地址：realestate/ReportServer?reportlet=realestate/common/approveform/ApproveForm_TZ.cpt
+2018-12-20 19:04:54,445 [INFO]: 当前iframe(审批表)操作元素：
+2018-12-20 19:04:54,460 [INFO]:        定位方式：XPATH
+2018-12-20 19:04:54,489 [INFO]:        定位路径：//div[@title='意见页']
+2018-12-20 19:04:54,498 [INFO]:        操作方式：CLICK
+2018-12-20 19:04:54,521 [INFO]:        默认值：
+2018-12-20 19:04:54,529 [INFO]:        是否随机数：false
+2018-12-20 19:04:54,543 [INFO]:        等待时间：1000
+2018-12-20 19:04:54,551 [INFO]: 开始执行操作
+2018-12-20 19:04:54,608 [INFO]: 元素可见了吧
+2018-12-20 19:04:54,679 [INFO]: 已经判断完成可点击了：element to be clickable: [[ChromeDriver: chrome on XP (7369f59830d29d79c6602288db462ecd)] -> xpath: //div[@title='意见页']]
+2018-12-20 19:04:54,948 [INFO]: 已经完成点击事件了
+2018-12-20 19:04:54,974 [INFO]: 等待时间：1000
+2018-12-20 19:04:54,982 [INFO]: 1000
+2018-12-20 19:04:55,046 [INFO]: 2018-12-20 19:04:54
+2018-12-20 19:04:55,062 [INFO]: 是否存在Ajax请求：true,IRL地址http://192.168.2.119:8084/realestate/ReportServer?reportlet=realestate/common/approveform/ApproveForm.cpt&op=write&BDFR_GUID=f186c615-e05d-11e5-8188-000c29187a9e&ID=aa8f4abc-0446-11e9-88da-00505683a231&CATEGORY=BDC03&RECORDNUMBER=1e036f38-6498-47ff-86c4-07e9682ff583&BIZDEF_GUID=f18677f1-e05d-11e5-8188-000c29187a9e&BIZINST_GUID=a9f70234-0446-11e9-88da-00505683a231&TYPE=form&userId=f2e37658-69d2-11e5-a045-000c297c0f34&TRANSACTOR=zscs&aid=sid-EB9DF64C-1CF1-495C-B7FE-906BCDD56F7C&ACTDEFID=sid-EB9DF64C-1CF1-495C-B7FE-906BCDD56F7C&tid=0538373b-0447-11e9-b948-00505683a231&ACTINSTID=0538373b-0447-11e9-b948-00505683a231&pid=2d107839-0de3-11e6-b878-000c2984e60c&PRODEFID=2d107839-0de3-11e6-b878-000c2984e60c&instid=a78c1cde-0446-11e9-b948-00505683a231&PROINSTID=a78c1cde-0446-11e9-b948-00505683a231&businesskey=20181220-0011915&PROJECTID=20181220-0011915&LCBM=2101&HJDM=FS&XZQBM=3314,33&task_state=null
+2018-12-20 19:04:55,073 [INFO]: 2018-12-20 19:04:55
+2018-12-20 19:04:55,100 [INFO]: 当前iframe(审批表)操作元素：
+2018-12-20 19:04:55,110 [INFO]:        定位方式：ID
+2018-12-20 19:04:55,125 [INFO]:        定位路径：GTFSYJ
+2018-12-20 19:04:55,135 [INFO]:        操作方式：FR
+2018-12-20 19:04:55,164 [INFO]:        默认值：复审意见
+2018-12-20 19:04:55,171 [INFO]:        是否随机数：true
+2018-12-20 19:04:55,188 [INFO]:        等待时间：0
+2018-12-20 19:04:55,208 [INFO]: 开始执行操作
+2018-12-20 19:04:59,446 [INFO]: 等待时间：0
+2018-12-20 19:04:59,468 [INFO]: 当前iframe(审批表)操作元素：
+2018-12-20 19:04:59,477 [INFO]:        定位方式：ID
+2018-12-20 19:04:59,497 [INFO]:        定位路径：GTFSR
+2018-12-20 19:04:59,506 [INFO]:        操作方式：FR
+2018-12-20 19:04:59,538 [INFO]:        默认值：复审人-倪明奇
+2018-12-20 19:04:59,546 [INFO]:        是否随机数：true
+2018-12-20 19:04:59,568 [INFO]:        等待时间：0
+2018-12-20 19:04:59,591 [INFO]: 开始执行操作
+2018-12-20 19:05:00,003 [INFO]: 等待时间：0
+2018-12-20 19:05:00,012 [INFO]: 当前iframe(审批表)操作元素：
+2018-12-20 19:05:00,020 [INFO]:        定位方式：ID
+2018-12-20 19:05:00,043 [INFO]:        定位路径：FCFSSJ
+2018-12-20 19:05:00,050 [INFO]:        操作方式：FR
+2018-12-20 19:05:00,063 [INFO]:        默认值：2016-12-11
+2018-12-20 19:05:00,071 [INFO]:        是否随机数：false
+2018-12-20 19:05:00,089 [INFO]:        等待时间：0
+2018-12-20 19:05:00,104 [INFO]: 开始执行操作
+2018-12-20 19:05:00,559 [INFO]: 等待时间：0
+2018-12-20 19:05:00,568 [INFO]: 当前iframe(审批表)操作元素：
+2018-12-20 19:05:00,578 [INFO]:        定位方式：XPATH
+2018-12-20 19:05:00,604 [INFO]:        定位路径：//button[@class='fr-btn-text x-emb-submit']
+2018-12-20 19:05:00,614 [INFO]:        操作方式：CLICK
+2018-12-20 19:05:00,635 [INFO]:        默认值：
+2018-12-20 19:05:00,645 [INFO]:        是否随机数：false
+2018-12-20 19:05:00,728 [INFO]:        等待时间：0
+2018-12-20 19:05:01,156 [INFO]: 开始执行操作
+2018-12-20 19:05:01,303 [INFO]: 元素可见了吧
+2018-12-20 19:05:01,565 [INFO]: 已经判断完成可点击了：element to be clickable: [[ChromeDriver: chrome on XP (7369f59830d29d79c6602288db462ecd)] -> xpath: //button[@class='fr-btn-text x-emb-submit']]
+2018-12-20 19:05:02,524 [INFO]: 已经完成点击事件了
+2018-12-20 19:05:02,535 [INFO]: 等待时间：0
+2018-12-20 19:05:06,945 [INFO]: 转出
+2018-12-20 19:05:18,629 [INFO]: 项目编号20181220-0011915
+2018-12-20 19:05:22,276 [INFO]: 包的id：38bcedca-df88-11e5-b408-000c29187a9e
+2018-12-20 19:05:22,339 [INFO]: schemaid:05e220fe-b4a0-45b7-a649-ceaf2e18c251
+2018-12-20 19:05:22,353 [INFO]: schemaname:转移登记方案2dfgdfgdf
+2018-12-20 19:05:22,384 [INFO]: prodef:2d107839-0de3-11e6-b878-000c2984e60c
+2018-12-20 19:05:22,404 [INFO]: prodef:首次登记
+2018-12-20 19:05:22,434 [INFO]: packname:国有建设用地使用权及房屋所有权（大宗地）
+2018-12-20 19:05:22,449 [INFO]: cchild:b9621fc9-fce8-4ed4-8a95-2aa464cf92f5
+2018-12-20 19:05:22,477 [INFO]: childname:自动化测试-房地首次登记-单个单元单个权利
+2018-12-20 19:05:22,490 [INFO]: path:D:/SootScreen/2018-12-20 19_05/(转移登记方案2dfgdfgdf)05e220fe-b4a0-45b7-a649-ceaf2e18c251/(自动化测试-房地首次登记-单个单元单个权利)b9621fc9-fce8-4ed4-8a95-2aa464cf92f5/(国有建设用地使用权及房屋所有权（大宗地）)38bcedca-df88-11e5-b408-000c29187a9e/(首次登记)2d107839-0de3-11e6-b878-000c2984e60c/
+2018-12-20 19:05:25,812 [INFO]: 20181220-0011915
+2018-12-20 19:05:25,836 [INFO]: sid-C4D286DE-38D6-4793-BAEA-6257B46BCBEB
+2018-12-20 19:05:25,893 [INFO]: 当前环节环节名称：核定,环节内码sid-C4D286DE-38D6-4793-BAEA-6257B46BCBEB
+2018-12-20 19:05:25,908 [INFO]: 开始操作Ifame，Iframe名称：审批表
+2018-12-20 19:05:29,060 [INFO]: 1
+2018-12-20 19:05:29,135 [INFO]: 审批表
+2018-12-20 19:05:29,465 [INFO]: 点击完成
+2018-12-20 19:05:29,505 [INFO]: 获取到所有的iframe了2018-12-20 19:05:29
+2018-12-20 19:05:29,529 [INFO]: ifame地址1是：realestate/ReportServer?reportlet=realestate/common/approveform/ApproveForm_TZ.cpt2018-12-20 19:05:29
+2018-12-20 19:05:29,575 [INFO]: 获取到ID是：TAB_IF_aa8f4abc-0446-11e9-88da-00505683a2312018-12-20 19:05:29
+2018-12-20 19:05:31,629 [INFO]: 切换到指定的iframe了2018-12-20 19:05:31
+2018-12-20 19:05:31,651 [INFO]: Iframe地址：realestate/ReportServer?reportlet=realestate/common/approveform/ApproveForm_TZ.cpt
+2018-12-20 19:05:31,688 [INFO]: 当前iframe(审批表)操作元素：
+2018-12-20 19:05:31,706 [INFO]:        定位方式：XPATH
+2018-12-20 19:05:31,714 [INFO]:        定位路径：//div[@title='意见页']
+2018-12-20 19:05:31,748 [INFO]:        操作方式：CLICK
+2018-12-20 19:05:31,755 [INFO]:        默认值：
+2018-12-20 19:05:31,764 [INFO]:        是否随机数：false
+2018-12-20 19:05:31,789 [INFO]:        等待时间：1000
+2018-12-20 19:05:31,803 [INFO]: 开始执行操作
+2018-12-20 19:05:31,820 [INFO]: 元素可见了吧
+2018-12-20 19:05:31,856 [INFO]: 已经判断完成可点击了：element to be clickable: [[ChromeDriver: chrome on XP (7369f59830d29d79c6602288db462ecd)] -> xpath: //div[@title='意见页']]
+2018-12-20 19:05:32,035 [INFO]: 已经完成点击事件了
+2018-12-20 19:05:32,048 [INFO]: 等待时间：1000
+2018-12-20 19:05:32,070 [INFO]: 1000
+2018-12-20 19:05:32,078 [INFO]: 2018-12-20 19:05:32
+2018-12-20 19:05:32,172 [INFO]: 是否存在Ajax请求：true,IRL地址http://192.168.2.119:8084/realestate/ReportServer?reportlet=realestate/common/approveform/ApproveForm.cpt&op=write&BDFR_GUID=f186c615-e05d-11e5-8188-000c29187a9e&ID=aa8f4abc-0446-11e9-88da-00505683a231&CATEGORY=BDC03&RECORDNUMBER=1e036f38-6498-47ff-86c4-07e9682ff583&BIZDEF_GUID=f18677f1-e05d-11e5-8188-000c29187a9e&BIZINST_GUID=a9f70234-0446-11e9-88da-00505683a231&TYPE=form&userId=f2e37658-69d2-11e5-a045-000c297c0f34&TRANSACTOR=zscs&aid=sid-C4D286DE-38D6-4793-BAEA-6257B46BCBEB&ACTDEFID=sid-C4D286DE-38D6-4793-BAEA-6257B46BCBEB&tid=194dd142-0447-11e9-b948-00505683a231&ACTINSTID=194dd142-0447-11e9-b948-00505683a231&pid=2d107839-0de3-11e6-b878-000c2984e60c&PRODEFID=2d107839-0de3-11e6-b878-000c2984e60c&instid=a78c1cde-0446-11e9-b948-00505683a231&PROINSTID=a78c1cde-0446-11e9-b948-00505683a231&businesskey=20181220-0011915&PROJECTID=20181220-0011915&LCBM=2101&HJDM=HD&XZQBM=3314,33&task_state=null
+2018-12-20 19:05:32,183 [INFO]: 2018-12-20 19:05:32
+2018-12-20 19:05:32,211 [INFO]: 当前iframe(审批表)操作元素：
+2018-12-20 19:05:32,219 [INFO]:        定位方式：ID
+2018-12-20 19:05:32,233 [INFO]:        定位路径：HDYJ
+2018-12-20 19:05:32,242 [INFO]:        操作方式：FR
+2018-12-20 19:05:32,250 [INFO]:        默认值：自动化测试核定意见
+2018-12-20 19:05:32,277 [INFO]:        是否随机数：true
+2018-12-20 19:05:32,283 [INFO]:        等待时间：0
+2018-12-20 19:05:32,311 [INFO]: 开始执行操作
+2018-12-20 19:05:32,687 [INFO]: 等待时间：0
+2018-12-20 19:05:32,716 [INFO]: 当前iframe(审批表)操作元素：
+2018-12-20 19:05:32,723 [INFO]:        定位方式：ID
+2018-12-20 19:05:32,740 [INFO]:        定位路径：HDFZR
+2018-12-20 19:05:32,749 [INFO]:        操作方式：FR
+2018-12-20 19:05:32,763 [INFO]:        默认值：测试核定人
+2018-12-20 19:05:32,770 [INFO]:        是否随机数：true
+2018-12-20 19:05:32,801 [INFO]:        等待时间：0
+2018-12-20 19:05:32,809 [INFO]: 开始执行操作
+2018-12-20 19:05:33,203 [INFO]: 等待时间：0
+2018-12-20 19:05:33,215 [INFO]: 当前iframe(审批表)操作元素：
+2018-12-20 19:05:33,230 [INFO]:        定位方式：ID
+2018-12-20 19:05:33,239 [INFO]:        定位路径：HDRQ
+2018-12-20 19:05:33,255 [INFO]:        操作方式：FR
+2018-12-20 19:05:33,264 [INFO]:        默认值：{NOW}
+2018-12-20 19:05:33,272 [INFO]:        是否随机数：false
+2018-12-20 19:05:33,293 [INFO]:        等待时间：0
+2018-12-20 19:05:33,301 [INFO]: 开始执行操作
+2018-12-20 19:05:33,721 [INFO]: 等待时间：0
+2018-12-20 19:05:33,729 [INFO]: 当前iframe(审批表)操作元素：
+2018-12-20 19:05:33,749 [INFO]:        定位方式：XPATH
+2018-12-20 19:05:33,809 [INFO]:        定位路径：//button[@class='fr-btn-text x-emb-submit']
+2018-12-20 19:05:33,834 [INFO]:        操作方式：CLICK
+2018-12-20 19:05:33,842 [INFO]:        默认值：
+2018-12-20 19:05:33,861 [INFO]:        是否随机数：false
+2018-12-20 19:05:33,873 [INFO]:        等待时间：0
+2018-12-20 19:05:33,895 [INFO]: 开始执行操作
+2018-12-20 19:05:33,906 [INFO]: 元素可见了吧
+2018-12-20 19:05:33,927 [INFO]: 已经判断完成可点击了：element to be clickable: [[ChromeDriver: chrome on XP (7369f59830d29d79c6602288db462ecd)] -> xpath: //button[@class='fr-btn-text x-emb-submit']]
+2018-12-20 19:05:34,226 [INFO]: 已经完成点击事件了
+2018-12-20 19:05:34,240 [INFO]: 等待时间：0
+2018-12-20 19:05:37,868 [INFO]: 转出
+2018-12-20 19:05:48,276 [INFO]: 项目编号20181220-0011915
+2018-12-20 19:05:51,863 [INFO]: 包的id：38bcedca-df88-11e5-b408-000c29187a9e
+2018-12-20 19:05:51,873 [INFO]: schemaid:05e220fe-b4a0-45b7-a649-ceaf2e18c251
+2018-12-20 19:05:51,879 [INFO]: schemaname:转移登记方案2dfgdfgdf
+2018-12-20 19:05:51,890 [INFO]: prodef:2d107839-0de3-11e6-b878-000c2984e60c
+2018-12-20 19:05:51,908 [INFO]: prodef:首次登记
+2018-12-20 19:05:51,950 [INFO]: packname:国有建设用地使用权及房屋所有权（大宗地）
+2018-12-20 19:05:51,957 [INFO]: cchild:b9621fc9-fce8-4ed4-8a95-2aa464cf92f5
+2018-12-20 19:05:51,976 [INFO]: childname:自动化测试-房地首次登记-单个单元单个权利
+2018-12-20 19:05:51,985 [INFO]: path:D:/SootScreen/2018-12-20 19_05/(转移登记方案2dfgdfgdf)05e220fe-b4a0-45b7-a649-ceaf2e18c251/(自动化测试-房地首次登记-单个单元单个权利)b9621fc9-fce8-4ed4-8a95-2aa464cf92f5/(国有建设用地使用权及房屋所有权（大宗地）)38bcedca-df88-11e5-b408-000c29187a9e/(首次登记)2d107839-0de3-11e6-b878-000c2984e60c/
+2018-12-20 19:05:54,113 [INFO]: 20181220-0011915
+2018-12-20 19:05:54,123 [INFO]: sid-69DA37DF-F769-4B36-9EB1-B5AD0A9A5ED1
+2018-12-20 19:05:54,144 [INFO]: 当前环节环节名称：登簿,环节内码sid-69DA37DF-F769-4B36-9EB1-B5AD0A9A5ED1
+2018-12-20 19:05:54,152 [INFO]: 开始操作Ifame，Iframe名称：登簿
+2018-12-20 19:05:54,202 [INFO]: 1
+2018-12-20 19:05:54,241 [INFO]: 登簿
+2018-12-20 19:05:54,360 [INFO]: 点击完成
+2018-12-20 19:05:54,390 [INFO]: 获取到所有的iframe了2018-12-20 19:05:54
+2018-12-20 19:05:54,415 [INFO]: ifame地址1是：GisqQueryList/views/reports/realestate/common/recordregbook/RECertiRecordRegBook_Initial.jsp?reportlet=realestate/common/recordregbook/RECertiRecordRegBook_Initial.cpt2018-12-20 19:05:54
+2018-12-20 19:05:54,447 [INFO]: 获取到ID是：TAB_IF_aa8f4ab7-0446-11e9-88da-00505683a2312018-12-20 19:05:54
+2018-12-20 19:05:56,542 [INFO]: 切换到指定的iframe了2018-12-20 19:05:56
+2018-12-20 19:05:56,549 [INFO]: Iframe地址：GisqQueryList/views/reports/realestate/common/recordregbook/RECertiRecordRegBook_Initial.jsp?reportlet=realestate/common/recordregbook/RECertiRecordRegBook_Initial.cpt
+2018-12-20 19:05:56,600 [INFO]: 当前iframe(登簿)操作元素：
+2018-12-20 19:05:56,608 [INFO]:        定位方式：XPATH
+2018-12-20 19:05:56,633 [INFO]:        定位路径：//button[@type='button']@@@保存
+2018-12-20 19:05:56,643 [INFO]:        操作方式：CLICK
+2018-12-20 19:05:56,673 [INFO]:        默认值：
+2018-12-20 19:05:56,681 [INFO]:        是否随机数：false
+2018-12-20 19:05:56,702 [INFO]:        等待时间：2000
+2018-12-20 19:05:56,711 [INFO]: 找到保存元素
+2018-12-20 19:05:56,723 [INFO]: 开始执行操作
+2018-12-20 19:05:56,743 [INFO]: 元素可见了吧
+2018-12-20 19:05:56,792 [INFO]: 已经判断完成可点击了：element to be clickable: [[ChromeDriver: chrome on XP (7369f59830d29d79c6602288db462ecd)] -> xpath: //button[@type='button']]
+2018-12-20 19:06:26,274 [INFO]: 已经完成点击事件了
+2018-12-20 19:06:26,315 [INFO]: 等待时间：2000
+2018-12-20 19:06:26,323 [INFO]: 2000
+2018-12-20 19:06:26,340 [INFO]: 2018-12-20 19:06:26
+2018-12-20 19:06:26,353 [INFO]: 是否存在Ajax请求：true,IRL地址http://192.168.2.119:8084/GisqQueryList/views/reports/realestate/common/recordregbook/RECertiRecordRegBook_Initial_F.jsp?reportlet=realestate/common/recordregbook/RECertiRecordRegBook_Initial_F.cpt&op=write&BDFR_GUID=76cb87db-e68f-11e5-a54a-000c29187a9e&ID=aa8f4ab7-0446-11e9-88da-00505683a231&CATEGORY=BDC03&RECORDNUMBER=1e036f38-6498-47ff-86c4-07e9682ff583&BIZDEF_GUID=f18677f1-e05d-11e5-8188-000c29187a9e&BIZINST_GUID=a9f70234-0446-11e9-88da-00505683a231&TYPE=form&userId=f2e37658-69d2-11e5-a045-000c297c0f34&TRANSACTOR=zscs&aid=sid-69DA37DF-F769-4B36-9EB1-B5AD0A9A5ED1&ACTDEFID=sid-69DA37DF-F769-4B36-9EB1-B5AD0A9A5ED1&tid=2b6159b6-0447-11e9-b948-00505683a231&ACTINSTID=2b6159b6-0447-11e9-b948-00505683a231&pid=2d107839-0de3-11e6-b878-000c2984e60c&PRODEFID=2d107839-0de3-11e6-b878-000c2984e60c&instid=a78c1cde-0446-11e9-b948-00505683a231&PROINSTID=a78c1cde-0446-11e9-b948-00505683a231&businesskey=20181220-0011915&PROJECTID=20181220-0011915&LCBM=2101&HJDM=DB&XZQBM=3314,33&task_state=null
+2018-12-20 19:06:26,364 [INFO]: 2018-12-20 19:06:26
+2018-12-20 19:06:26,377 [INFO]: 当前iframe(登簿)操作元素：
+2018-12-20 19:06:26,403 [INFO]:        定位方式：XPATH
+2018-12-20 19:06:26,413 [INFO]:        定位路径：//div[@class='btnSure']
+2018-12-20 19:06:26,436 [INFO]:        操作方式：CLICK
+2018-12-20 19:06:26,447 [INFO]:        默认值：
+2018-12-20 19:06:26,468 [INFO]:        是否随机数：false
+2018-12-20 19:06:26,477 [INFO]:        等待时间：3000
+2018-12-20 19:06:26,500 [INFO]: 开始执行操作
+2018-12-20 19:06:26,507 [INFO]: 元素可见了吧
+2018-12-20 19:06:26,533 [INFO]: 已经判断完成可点击了：element to be clickable: [[ChromeDriver: chrome on XP (7369f59830d29d79c6602288db462ecd)] -> xpath: //div[@class='btnSure']]
+2018-12-20 19:06:26,628 [INFO]: 已经完成点击事件了
+2018-12-20 19:06:26,655 [INFO]: 等待时间：3000
+2018-12-20 19:06:26,664 [INFO]: 3000
+2018-12-20 19:06:26,725 [INFO]: 2018-12-20 19:06:26
+2018-12-20 19:06:26,736 [INFO]: 是否存在Ajax请求：true,IRL地址http://192.168.2.119:8084/GisqQueryList/views/reports/realestate/common/recordregbook/RECertiRecordRegBook_Initial_F.jsp?reportlet=realestate/common/recordregbook/RECertiRecordRegBook_Initial_F.cpt&op=write&BDFR_GUID=76cb87db-e68f-11e5-a54a-000c29187a9e&ID=aa8f4ab7-0446-11e9-88da-00505683a231&CATEGORY=BDC03&RECORDNUMBER=1e036f38-6498-47ff-86c4-07e9682ff583&BIZDEF_GUID=f18677f1-e05d-11e5-8188-000c29187a9e&BIZINST_GUID=a9f70234-0446-11e9-88da-00505683a231&TYPE=form&userId=f2e37658-69d2-11e5-a045-000c297c0f34&TRANSACTOR=zscs&aid=sid-69DA37DF-F769-4B36-9EB1-B5AD0A9A5ED1&ACTDEFID=sid-69DA37DF-F769-4B36-9EB1-B5AD0A9A5ED1&tid=2b6159b6-0447-11e9-b948-00505683a231&ACTINSTID=2b6159b6-0447-11e9-b948-00505683a231&pid=2d107839-0de3-11e6-b878-000c2984e60c&PRODEFID=2d107839-0de3-11e6-b878-000c2984e60c&instid=a78c1cde-0446-11e9-b948-00505683a231&PROINSTID=a78c1cde-0446-11e9-b948-00505683a231&businesskey=20181220-0011915&PROJECTID=20181220-0011915&LCBM=2101&HJDM=DB&XZQBM=3314,33&task_state=null
+2018-12-20 19:06:26,766 [INFO]: 2018-12-20 19:06:26
+2018-12-20 19:06:26,773 [INFO]: 当前iframe(登簿)操作元素：
+2018-12-20 19:06:26,795 [INFO]:        定位方式：XPATH
+2018-12-20 19:06:26,802 [INFO]:        定位路径：//button[@type='button']@@@确认登簿
+2018-12-20 19:06:26,829 [INFO]:        操作方式：CLICK
+2018-12-20 19:06:26,840 [INFO]:        默认值：
+2018-12-20 19:06:26,859 [INFO]:        是否随机数：false
+2018-12-20 19:06:26,867 [INFO]:        等待时间：0
+2018-12-20 19:06:26,896 [INFO]: 找到确认登簿元素
+2018-12-20 19:06:26,913 [INFO]: 开始执行操作
+2018-12-20 19:06:26,944 [INFO]: 元素可见了吧
+2018-12-20 19:06:26,959 [INFO]: 已经判断完成可点击了：element to be clickable: [[ChromeDriver: chrome on XP (7369f59830d29d79c6602288db462ecd)] -> xpath: //button[@type='button']]
+2018-12-20 19:06:27,199 [INFO]: 已经完成点击事件了
+2018-12-20 19:06:27,215 [INFO]: 等待时间：0
+2018-12-20 19:06:27,226 [INFO]: 当前iframe(登簿)操作元素：
+2018-12-20 19:06:27,240 [INFO]:        定位方式：XPATH
+2018-12-20 19:06:27,250 [INFO]:        定位路径：//div[@class='btnSure novTime']
+2018-12-20 19:06:27,272 [INFO]:        操作方式：CLICK
+2018-12-20 19:06:27,280 [INFO]:        默认值：
+2018-12-20 19:06:27,296 [INFO]:        是否随机数：false
+2018-12-20 19:06:27,306 [INFO]:        等待时间：5000
+2018-12-20 19:06:27,329 [INFO]: 开始执行操作
+2018-12-20 19:06:27,337 [INFO]: 元素可见了吧
+2018-12-20 19:06:27,372 [INFO]: 已经判断完成可点击了：element to be clickable: [[ChromeDriver: chrome on XP (7369f59830d29d79c6602288db462ecd)] -> xpath: //div[@class='btnSure novTime']]
+2018-12-20 19:06:50,009 [INFO]: 已经完成点击事件了
+2018-12-20 19:06:50,042 [INFO]: 等待时间：5000
+2018-12-20 19:06:50,050 [INFO]: 5000
+2018-12-20 19:06:50,076 [INFO]: 2018-12-20 19:06:50
+2018-12-20 19:06:50,089 [INFO]: 是否存在Ajax请求：true,IRL地址http://192.168.2.119:8084/GisqQueryList/views/reports/realestate/common/recordregbook/RECertiRecordRegBook_Initial_F.jsp?reportlet=realestate/common/recordregbook/RECertiRecordRegBook_Initial_F.cpt&op=write&BDFR_GUID=76cb87db-e68f-11e5-a54a-000c29187a9e&ID=aa8f4ab7-0446-11e9-88da-00505683a231&CATEGORY=BDC03&RECORDNUMBER=1e036f38-6498-47ff-86c4-07e9682ff583&BIZDEF_GUID=f18677f1-e05d-11e5-8188-000c29187a9e&BIZINST_GUID=a9f70234-0446-11e9-88da-00505683a231&TYPE=form&userId=f2e37658-69d2-11e5-a045-000c297c0f34&TRANSACTOR=zscs&aid=sid-69DA37DF-F769-4B36-9EB1-B5AD0A9A5ED1&ACTDEFID=sid-69DA37DF-F769-4B36-9EB1-B5AD0A9A5ED1&tid=2b6159b6-0447-11e9-b948-00505683a231&ACTINSTID=2b6159b6-0447-11e9-b948-00505683a231&pid=2d107839-0de3-11e6-b878-000c2984e60c&PRODEFID=2d107839-0de3-11e6-b878-000c2984e60c&instid=a78c1cde-0446-11e9-b948-00505683a231&PROINSTID=a78c1cde-0446-11e9-b948-00505683a231&businesskey=20181220-0011915&PROJECTID=20181220-0011915&LCBM=2101&HJDM=DB&XZQBM=3314,33&task_state=null
+2018-12-20 19:06:50,096 [INFO]: 2018-12-20 19:06:50
+2018-12-20 19:06:53,786 [INFO]: 转出
+2018-12-20 19:07:04,009 [INFO]: 项目编号20181220-0011915
+2018-12-20 19:07:07,491 [INFO]: 包的id：38bcedca-df88-11e5-b408-000c29187a9e
+2018-12-20 19:07:07,499 [INFO]: schemaid:05e220fe-b4a0-45b7-a649-ceaf2e18c251
+2018-12-20 19:07:07,515 [INFO]: schemaname:转移登记方案2dfgdfgdf
+2018-12-20 19:07:07,524 [INFO]: prodef:2d107839-0de3-11e6-b878-000c2984e60c
+2018-12-20 19:07:07,548 [INFO]: prodef:首次登记
+2018-12-20 19:07:07,555 [INFO]: packname:国有建设用地使用权及房屋所有权（大宗地）
+2018-12-20 19:07:07,579 [INFO]: cchild:b9621fc9-fce8-4ed4-8a95-2aa464cf92f5
+2018-12-20 19:07:07,605 [INFO]: childname:自动化测试-房地首次登记-单个单元单个权利
+2018-12-20 19:07:07,612 [INFO]: path:D:/SootScreen/2018-12-20 19_07/(转移登记方案2dfgdfgdf)05e220fe-b4a0-45b7-a649-ceaf2e18c251/(自动化测试-房地首次登记-单个单元单个权利)b9621fc9-fce8-4ed4-8a95-2aa464cf92f5/(国有建设用地使用权及房屋所有权（大宗地）)38bcedca-df88-11e5-b408-000c29187a9e/(首次登记)2d107839-0de3-11e6-b878-000c2984e60c/
+2018-12-20 19:07:09,871 [INFO]: 20181220-0011915
+2018-12-20 19:07:09,880 [INFO]: sid-77EDD353-06E8-4755-B486-143EF23C63C8
+2018-12-20 19:07:09,900 [INFO]: 当前环节环节名称：缮证,环节内码sid-77EDD353-06E8-4755-B486-143EF23C63C8
+2018-12-20 19:07:09,907 [INFO]: 开始操作Ifame，Iframe名称：证书信息
+2018-12-20 19:07:09,966 [INFO]: 1
+2018-12-20 19:07:10,003 [INFO]: 证书信息
+2018-12-20 19:07:10,114 [INFO]: 点击完成
+2018-12-20 19:07:10,136 [INFO]: 获取到所有的iframe了2018-12-20 19:07:10
+2018-12-20 19:07:10,160 [INFO]: ifame地址1是：realestate/ReportServer?reportlet=realestate/recerti/RECertiList.cpt2018-12-20 19:07:10
+2018-12-20 19:07:10,182 [INFO]: 获取到ID是：TAB_IF_aa8f4ad1-0446-11e9-88da-00505683a2312018-12-20 19:07:10
+2018-12-20 19:07:12,291 [INFO]: 切换到指定的iframe了2018-12-20 19:07:12
+2018-12-20 19:07:12,305 [INFO]: Iframe地址：realestate/ReportServer?reportlet=realestate/recerti/RECertiList.cpt
+2018-12-20 19:07:12,341 [INFO]: 当前iframe(证书信息)操作元素：
+2018-12-20 19:07:12,363 [INFO]:        定位方式：ID
+2018-12-20 19:07:12,370 [INFO]:        定位路径：txtCode
+2018-12-20 19:07:12,396 [INFO]:        操作方式：SENDKEYS
+2018-12-20 19:07:12,403 [INFO]:        默认值：33{ZSGBH}
+2018-12-20 19:07:12,432 [INFO]:        是否随机数：false
+2018-12-20 19:07:12,441 [INFO]:        等待时间：0
+2018-12-20 19:07:12,456 [INFO]: 开始执行操作
+2018-12-20 19:07:12,591 [INFO]: 等待时间：0
+2018-12-20 19:07:12,598 [INFO]: 当前iframe(证书信息)操作元素：
+2018-12-20 19:07:12,621 [INFO]:        定位方式：XPATH
+2018-12-20 19:07:12,646 [INFO]:        定位路径：//button[@type='button']@@@保存
+2018-12-20 19:07:12,676 [INFO]:        操作方式：CLICK
+2018-12-20 19:07:12,685 [INFO]:        默认值：
+2018-12-20 19:07:12,707 [INFO]:        是否随机数：false
+2018-12-20 19:07:12,715 [INFO]:        等待时间：1000
+2018-12-20 19:07:12,743 [INFO]: 找到保存元素
+2018-12-20 19:07:12,750 [INFO]: 开始执行操作
+2018-12-20 19:07:12,771 [INFO]: 元素可见了吧
+2018-12-20 19:07:12,787 [INFO]: 已经判断完成可点击了：element to be clickable: [[ChromeDriver: chrome on XP (7369f59830d29d79c6602288db462ecd)] -> xpath: //button[@type='button']]
+2018-12-20 19:07:12,887 [INFO]: 已经完成点击事件了
+2018-12-20 19:07:12,903 [INFO]: 等待时间：1000
+2018-12-20 19:07:12,913 [INFO]: 1000
+2018-12-20 19:07:12,943 [INFO]: 2018-12-20 19:07:12
+2018-12-20 19:07:12,953 [INFO]: 是否存在Ajax请求：false,IRL地址http://192.168.2.119:8084/GisqQueryList/views/reports/realestate/common/certificate/RECertiInfo.jsp?reportlet=realestate/common/certificate/RECertiInfo.cpt&bizinst_guid=a9f70234-0446-11e9-88da-00505683a231&PROJECTID=20181220-0011915&userId=f2e37658-69d2-11e5-a045-000c297c0f34&hjdm=SZ&PROINSTID=a78c1cde-0446-11e9-b948-00505683a231&ACTDEFID=sid-77EDD353-06E8-4755-B486-143EF23C63C8&BDFR_GUID=f186c619-e05d-11e5-8188-000c29187a9e&LCBM=2101
+2018-12-20 19:07:13,453 [INFO]: 2018-12-20 19:07:13
+2018-12-20 19:07:13,483 [INFO]: 是否存在Ajax请求：false,IRL地址http://192.168.2.119:8084/GisqQueryList/views/reports/realestate/common/certificate/RECertiInfo.jsp?reportlet=realestate/common/certificate/RECertiInfo.cpt&bizinst_guid=a9f70234-0446-11e9-88da-00505683a231&PROJECTID=20181220-0011915&userId=f2e37658-69d2-11e5-a045-000c297c0f34&hjdm=SZ&PROINSTID=a78c1cde-0446-11e9-b948-00505683a231&ACTDEFID=sid-77EDD353-06E8-4755-B486-143EF23C63C8&BDFR_GUID=f186c619-e05d-11e5-8188-000c29187a9e&LCBM=2101
+2018-12-20 19:07:13,983 [INFO]: 2018-12-20 19:07:13
+2018-12-20 19:07:14,010 [INFO]: 是否存在Ajax请求：false,IRL地址http://192.168.2.119:8084/GisqQueryList/views/reports/realestate/common/certificate/RECertiInfo.jsp?reportlet=realestate/common/certificate/RECertiInfo.cpt&bizinst_guid=a9f70234-0446-11e9-88da-00505683a231&PROJECTID=20181220-0011915&userId=f2e37658-69d2-11e5-a045-000c297c0f34&hjdm=SZ&PROINSTID=a78c1cde-0446-11e9-b948-00505683a231&ACTDEFID=sid-77EDD353-06E8-4755-B486-143EF23C63C8&BDFR_GUID=f186c619-e05d-11e5-8188-000c29187a9e&LCBM=2101
+2018-12-20 19:07:14,037 [WARN]: org.openqa.selenium.TimeoutException: Timed out after 1 seconds waiting for configSelenium.ConfigSeleniumStart$1@499b2a5c
+2018-12-20 19:07:14,065 [WARN]: Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+2018-12-20 19:07:14,073 [WARN]: System info: host: 'MTC-20180624XMT', ip: '192.168.6.79', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_191'
+2018-12-20 19:07:14,094 [WARN]: Driver info: org.openqa.selenium.chrome.ChromeDriver
+2018-12-20 19:07:14,102 [WARN]: Capabilities [{applicationCacheEnabled=false, rotatable=false, chrome={userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\scoped_dir20276_8432}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=34.0.1838.2, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+2018-12-20 19:07:14,127 [WARN]: Session ID: 7369f59830d29d79c6602288db462ecd
+2018-12-20 19:07:14,133 [WARN]: 	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+2018-12-20 19:07:14,146 [WARN]: 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:229)
+2018-12-20 19:07:14,173 [WARN]: 	at configSelenium.ConfigSeleniumStart.waitForAjaxControls(ConfigSeleniumStart.java:716)
+2018-12-20 19:07:14,182 [WARN]: 	at configSelenium.ConfigSeleniumStart.ActdefAction(ConfigSeleniumStart.java:668)
+2018-12-20 19:07:14,205 [WARN]: 	at configSelenium.ConfigSeleniumStart.ActdefAction(ConfigSeleniumStart.java:708)
+2018-12-20 19:07:14,213 [WARN]: 	at configSelenium.ConfigSeleniumStart.ActdefAction(ConfigSeleniumStart.java:708)
+2018-12-20 19:07:14,236 [WARN]: 	at configSelenium.ConfigSeleniumStart.ActdefAction(ConfigSeleniumStart.java:708)
+2018-12-20 19:07:14,242 [WARN]: 	at configSelenium.ConfigSeleniumStart.ActdefAction(ConfigSeleniumStart.java:708)
+2018-12-20 19:07:14,256 [WARN]: 	at configSelenium.ConfigSeleniumStart.ActdefAction(ConfigSeleniumStart.java:708)
+2018-12-20 19:07:14,282 [WARN]: 	at configSelenium.ConfigSeleniumStart.main(ConfigSeleniumStart.java:178)
+2018-12-20 19:07:14,374 [INFO]: 

@@ -1,0 +1,994 @@
+2019-01-17 17:13:27,789 [ERROR]: http://192.168.2.119:8082/GisqPlatformDesigner-Rest/service/workflow/modelcategories-all?parentId=
+2019-01-17 17:13:27,847 [ERROR]: System.Net.WebException: 请求被中止: 操作超时。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 SeleniumConfig.CommonClass.RestUserLoginService.HttpRequest(HttpWebRequest request)
+2019-01-17 19:00:20,570 [INFO]: Microsoft Windows [版本 6.1.7601]
+2019-01-17 19:00:20,578 [INFO]: 版权所有 (c) 2009 Microsoft Corporation。保留所有权利。
+2019-01-17 19:00:20,582 [INFO]: 
+2019-01-17 19:00:20,585 [INFO]: D:\work_space\js_de\debug\SeleniumConfig\bin\Debug>java -jar D:\work_space\js_de\debug\SeleniumConfig\bin\Debug\\SeleniumJAVA\Selenium.jar C#
+2019-01-17 19:00:24,613 [INFO]: /D:/work_space/js_de/debug/SeleniumConfig/bin/Debug
+2019-01-17 19:00:24,617 [INFO]: 开始准备数据
+2019-01-17 19:00:24,621 [INFO]: 开始缓存总体参数配置文件
+2019-01-17 19:00:25,489 [WARN]: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2019-01-17 19:00:25,493 [WARN]: SLF4J: Defaulting to no-operation (NOP) logger implementation
+2019-01-17 19:00:25,497 [WARN]: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2019-01-17 19:00:27,113 [INFO]: 缓存总体参数配置文件成功！
+2019-01-17 19:00:27,117 [INFO]: 开始缓存SQL配置信息
+2019-01-17 19:00:27,155 [INFO]: 缓存SQL配置信息成功！
+2019-01-17 19:00:27,159 [INFO]: 开始缓存SQL配置的SQL语句信息
+2019-01-17 19:00:30,320 [INFO]: 缓存SQL配置的SQL语句信息成功！
+2019-01-17 19:00:30,325 [INFO]: 开始缓存自动化测试配置方案文件
+2019-01-17 19:00:30,330 [INFO]: 缓存自动化测试配置方案文件成功！
+2019-01-17 19:00:30,334 [INFO]: 开始缓存初始化配置参数成功！
+2019-01-17 19:00:30,351 [INFO]: 缓存流程配置信息成功！
+2019-01-17 19:00:31,138 [WARN]: Starting ChromeDriver (v2.9.248315) on port 16947
+2019-01-17 19:00:31,885 [INFO]: 初始化ChromeDriver成功！
+2019-01-17 19:00:32,220 [WARN]: log4j:WARN No such property [maxFileSize] in org.apache.log4j.DailyRollingFileAppender.
+2019-01-17 19:00:32,993 [WARN]: Starting ChromeDriver (v2.9.248315) on port 35511
+2019-01-17 19:00:34,240 [WARN]: log4j:WARN No appenders could be found for logger (org.apache.http.client.protocol.RequestAddCookies).
+2019-01-17 19:00:34,245 [WARN]: log4j:WARN Please initialize the log4j system properly.
+2019-01-17 19:00:34,251 [WARN]: log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+2019-01-17 19:00:38,860 [INFO]: 初始化WebDriver成功！
+2019-01-17 19:00:38,867 [INFO]: 系统登陆地址：http://192.168.2.119:8082/GisqPlatformExplorer/a/login;JSESSIONID=7a22b82495884077a7860a3b86e8ac2f
+2019-01-17 19:00:40,087 [INFO]: 系统登陆成功！
+2019-01-17 19:00:42,356 [INFO]: 开始流程自动化测试！
+2019-01-17 19:00:42,361 [INFO]: 流程内码：2d107839-0de3-11e6-b878-000c2984e60c,流程名称首次登记
+2019-01-17 19:00:44,796 [INFO]: 流程启动成功，主框架句柄：CDwindow-CEB1777A-AFF7-4C34-9406-521575FD4266
+2019-01-17 19:00:44,802 [INFO]: 包的id：38bcedca-df88-11e5-b408-000c29187a9e
+2019-01-17 19:00:44,809 [INFO]: schemaid:05e220fe-b4a0-45b7-a649-ceaf2e18c251
+2019-01-17 19:00:44,817 [INFO]: schemaname:首次登记调试
+2019-01-17 19:00:44,823 [INFO]: prodef:2d107839-0de3-11e6-b878-000c2984e60c
+2019-01-17 19:00:44,828 [INFO]: prodef:首次登记
+2019-01-17 19:00:44,834 [INFO]: packname:国有建设用地使用权及房屋所有权（大宗地）
+2019-01-17 19:00:44,839 [INFO]: cchild:406d712e-c64b-45e6-b882-be1383e1ab34
+2019-01-17 19:00:44,846 [INFO]: childname:验证帆软表单输出
+2019-01-17 19:00:44,852 [INFO]: path:D:/SootScreen/2019-01-17 19_00/(首次登记调试)05e220fe-b4a0-45b7-a649-ceaf2e18c251/(验证帆软表单输出)406d712e-c64b-45e6-b882-be1383e1ab34/(国有建设用地使用权及房屋所有权（大宗地）)38bcedca-df88-11e5-b408-000c29187a9e/(首次登记)2d107839-0de3-11e6-b878-000c2984e60c/
+2019-01-17 19:00:47,107 [INFO]: 20190117-0000804
+2019-01-17 19:00:47,115 [INFO]: sid-075095F3-5F75-4295-B4D1-5843F0D20C8E
+2019-01-17 19:00:47,136 [INFO]: 当前环节环节名称：收件受理,环节内码sid-075095F3-5F75-4295-B4D1-5843F0D20C8E
+2019-01-17 19:00:47,144 [INFO]: 开始操作Ifame，Iframe名称：窗口资料收取
+2019-01-17 19:01:04,827 [INFO]: 
+2019-01-17 19:01:04,965 [INFO]: 点击完成啦
+2019-01-17 19:01:05,024 [INFO]: 窗口资料收取
+2019-01-17 19:01:05,134 [INFO]: 点击完成1
+2019-01-17 19:01:05,169 [INFO]: 获取到所有的iframe了2019-01-17 19:01:05
+2019-01-17 19:01:05,193 [INFO]: ifame地址1是：GisqPlatformExplorer/modules/bizmodel/datums_submit2019-01-17 19:01:05
+2019-01-17 19:01:05,213 [INFO]: 获取到ID是：TAB_IF_2c6a12c8-1a47-11e9-b0f7-00505683a2312019-01-17 19:01:05
+2019-01-17 19:01:07,287 [INFO]: 切换到指定的iframe了2019-01-17 19:01:07
+2019-01-17 19:01:07,293 [INFO]: Iframe地址：GisqPlatformExplorer/modules/bizmodel/datums_submit
+2019-01-17 19:01:07,316 [INFO]: 当前iframe(窗口资料收取)操作元素：
+2019-01-17 19:01:07,321 [INFO]:        定位方式：XPATH
+2019-01-17 19:01:07,327 [INFO]:        定位路径：//div[@role='combobox']
+2019-01-17 19:01:07,333 [INFO]:        操作方式：QT
+2019-01-17 19:01:07,342 [INFO]:        默认值：$("#{ID}").jqxDropDownList('selectIndex', 0 );
+2019-01-17 19:01:07,348 [INFO]:        是否随机数：false
+2019-01-17 19:01:07,367 [INFO]:        等待时间：0
+2019-01-17 19:01:07,379 [INFO]: 开始执行操作
+2019-01-17 19:01:07,529 [INFO]: 等待时间：0
+2019-01-17 19:01:07,534 [INFO]: 当前iframe(窗口资料收取)操作元素：
+2019-01-17 19:01:07,547 [INFO]:        定位方式：ID
+2019-01-17 19:01:07,552 [INFO]:        定位路径：saveDatum
+2019-01-17 19:01:07,559 [INFO]:        操作方式：CLICK
+2019-01-17 19:01:07,565 [INFO]:        默认值：
+2019-01-17 19:01:07,596 [INFO]:        是否随机数：false
+2019-01-17 19:01:07,612 [INFO]:        等待时间：3000
+2019-01-17 19:01:07,842 [INFO]: 开始执行操作
+2019-01-17 19:01:07,849 [INFO]: 我在执行可点击判断
+2019-01-17 19:01:07,939 [INFO]: 我已经准备点击了
+2019-01-17 19:01:08,069 [INFO]: 我已经点击完成了
+2019-01-17 19:01:12,494 [INFO]: 等待时间：3000
+2019-01-17 19:01:12,503 [INFO]: 3000
+2019-01-17 19:01:12,509 [INFO]: 2019-01-17 19:01:12
+2019-01-17 19:01:12,527 [INFO]: 是否存在Ajax请求：true,IRL地址http://192.168.2.119:8082/GisqPlatformExplorer/modules/bizmodel/datums_submit?ID=2c6a12c8-1a47-11e9-b0f7-00505683a231&CATEGORY=BDC03&RECORDNUMBER=0e5107e9-06ba-444b-b926-4c27bc8de711&BIZDEF_GUID=f18677f1-e05d-11e5-8188-000c29187a9e&BIZINST_GUID=25064993-1a47-11e9-b0f7-00505683a231&TYPE=datum_submit&userId=f2e37658-69d2-11e5-a045-000c297c0f34&TRANSACTOR=zscs&aid=sid-075095F3-5F75-4295-B4D1-5843F0D20C8E&ACTDEFID=sid-075095F3-5F75-4295-B4D1-5843F0D20C8E&tid=23486ce9-1a47-11e9-9f98-00505683a231&ACTINSTID=23486ce9-1a47-11e9-9f98-00505683a231&pid=2d107839-0de3-11e6-b878-000c2984e60c&PRODEFID=2d107839-0de3-11e6-b878-000c2984e60c&instid=23455fa3-1a47-11e9-9f98-00505683a231&PROINSTID=23455fa3-1a47-11e9-9f98-00505683a231&businesskey=20190117-0000804&PROJECTID=20190117-0000804&LCBM=2101&HJDM=SJ&XZQBM=3314,33&task_state=firstTask
+2019-01-17 19:01:12,534 [INFO]: 2019-01-17 19:01:12
+2019-01-17 19:01:12,540 [INFO]: 当前iframe(窗口资料收取)操作元素：
+2019-01-17 19:01:12,546 [INFO]:        定位方式：
+2019-01-17 19:01:12,554 [INFO]:        定位路径：
+2019-01-17 19:01:12,559 [INFO]:        操作方式：SHOOT
+2019-01-17 19:01:12,567 [INFO]:        默认值：资料收取
+2019-01-17 19:01:12,572 [INFO]:        是否随机数：false
+2019-01-17 19:01:12,579 [INFO]:        等待时间：3000
+2019-01-17 19:01:12,585 [INFO]: 开始执行操作
+2019-01-17 19:01:12,591 [INFO]: real_scrol:595
+2019-01-17 19:01:12,607 [INFO]: real_top:0
+2019-01-17 19:01:18,888 [INFO]: 这就是底部吗？
+2019-01-17 19:01:18,895 [INFO]: 等待时间：3000
+2019-01-17 19:01:18,901 [INFO]: 3000
+2019-01-17 19:01:18,907 [INFO]: 2019-01-17 19:01:18
+2019-01-17 19:01:18,914 [INFO]: 是否存在Ajax请求：true,IRL地址http://192.168.2.119:8082/GisqPlatformExplorer/modules/bizmodel/datums_submit?ID=2c6a12c8-1a47-11e9-b0f7-00505683a231&CATEGORY=BDC03&RECORDNUMBER=0e5107e9-06ba-444b-b926-4c27bc8de711&BIZDEF_GUID=f18677f1-e05d-11e5-8188-000c29187a9e&BIZINST_GUID=25064993-1a47-11e9-b0f7-00505683a231&TYPE=datum_submit&userId=f2e37658-69d2-11e5-a045-000c297c0f34&TRANSACTOR=zscs&aid=sid-075095F3-5F75-4295-B4D1-5843F0D20C8E&ACTDEFID=sid-075095F3-5F75-4295-B4D1-5843F0D20C8E&tid=23486ce9-1a47-11e9-9f98-00505683a231&ACTINSTID=23486ce9-1a47-11e9-9f98-00505683a231&pid=2d107839-0de3-11e6-b878-000c2984e60c&PRODEFID=2d107839-0de3-11e6-b878-000c2984e60c&instid=23455fa3-1a47-11e9-9f98-00505683a231&PROINSTID=23455fa3-1a47-11e9-9f98-00505683a231&businesskey=20190117-0000804&PROJECTID=20190117-0000804&LCBM=2101&HJDM=SJ&XZQBM=3314,33&task_state=firstTask
+2019-01-17 19:01:18,920 [INFO]: 2019-01-17 19:01:18
+2019-01-17 19:01:19,957 [INFO]: 开始操作Ifame，Iframe名称：申请信息
+2019-01-17 19:01:22,093 [INFO]: 申请信息
+2019-01-17 19:01:22,361 [INFO]: 点击完成1
+2019-01-17 19:01:23,538 [INFO]: 获取到所有的iframe了2019-01-17 19:01:23
+2019-01-17 19:01:23,581 [INFO]: ifame地址1是：GisqQueryList/views/reports/realestate/common/acceptance/Acceptance_HouseRight_Initial.jsp?reportlet=realestate/common/acceptance/Acceptance_HouseRight_Initial.cpt2019-01-17 19:01:23
+2019-01-17 19:01:23,598 [INFO]: 获取到ID是：TAB_IF_2c69eb6d-1a47-11e9-b0f7-00505683a2312019-01-17 19:01:23
+2019-01-17 19:01:25,678 [INFO]: 切换到指定的iframe了2019-01-17 19:01:25
+2019-01-17 19:01:25,684 [INFO]: Iframe地址：GisqQueryList/views/reports/realestate/common/acceptance/Acceptance_HouseRight_Initial.jsp?reportlet=realestate/common/acceptance/Acceptance_HouseRight_Initial.cpt
+2019-01-17 19:01:25,708 [INFO]: 当前iframe(申请信息)操作元素：
+2019-01-17 19:01:25,714 [INFO]:        定位方式：ID
+2019-01-17 19:01:25,719 [INFO]:        定位路径：CXBDC
+2019-01-17 19:01:25,725 [INFO]:        操作方式：CLICK
+2019-01-17 19:01:25,746 [INFO]:        默认值：
+2019-01-17 19:01:25,751 [INFO]:        是否随机数：false
+2019-01-17 19:01:25,762 [INFO]:        等待时间：2000
+2019-01-17 19:01:25,773 [INFO]: 开始执行操作
+2019-01-17 19:01:25,804 [INFO]: 元素可见了吧
+2019-01-17 19:01:25,835 [INFO]: 已经判断完成可点击了：element to be clickable: [[ChromeDriver: chrome on XP (b68443df2b882d94a9a803ae2efa02ac)] -> id: CXBDC]
+2019-01-17 19:01:25,970 [INFO]: 已经完成点击事件了
+2019-01-17 19:01:25,975 [INFO]: 等待时间：2000
+2019-01-17 19:01:25,984 [INFO]: 2000
+2019-01-17 19:01:25,990 [INFO]: 2019-01-17 19:01:25
+2019-01-17 19:01:26,005 [INFO]: 是否存在Ajax请求：true,IRL地址http://192.168.2.119:8084/GisqQueryList/views/reports/realestate/common/acceptance/Acceptance_HouseRight_Initial.jsp?reportlet=realestate/common/acceptance/Acceptance_HouseRight_Initial.cpt&op=write&BDFR_GUID=f186c61b-e05d-11e5-8188-000c29187a9e&ID=2c69eb6d-1a47-11e9-b0f7-00505683a231&CATEGORY=BDC03&RECORDNUMBER=0e5107e9-06ba-444b-b926-4c27bc8de711&BIZDEF_GUID=f18677f1-e05d-11e5-8188-000c29187a9e&BIZINST_GUID=25064993-1a47-11e9-b0f7-00505683a231&TYPE=form&userId=f2e37658-69d2-11e5-a045-000c297c0f34&TRANSACTOR=zscs&aid=sid-075095F3-5F75-4295-B4D1-5843F0D20C8E&ACTDEFID=sid-075095F3-5F75-4295-B4D1-5843F0D20C8E&tid=23486ce9-1a47-11e9-9f98-00505683a231&ACTINSTID=23486ce9-1a47-11e9-9f98-00505683a231&pid=2d107839-0de3-11e6-b878-000c2984e60c&PRODEFID=2d107839-0de3-11e6-b878-000c2984e60c&instid=23455fa3-1a47-11e9-9f98-00505683a231&PROINSTID=23455fa3-1a47-11e9-9f98-00505683a231&businesskey=20190117-0000804&PROJECTID=20190117-0000804&LCBM=2101&HJDM=SJ&XZQBM=3314,33&task_state=firstTask
+2019-01-17 19:01:26,011 [INFO]: 2019-01-17 19:01:26
+2019-01-17 19:01:26,019 [INFO]: 当前iframe(申请信息)操作元素：
+2019-01-17 19:01:26,026 [INFO]:        定位方式：ID
+2019-01-17 19:01:26,032 [INFO]:        定位路径：iFrameDY
+2019-01-17 19:01:26,039 [INFO]:        操作方式：IFRAME
+2019-01-17 19:01:26,044 [INFO]:        默认值：iFrameDY
+2019-01-17 19:01:26,049 [INFO]:        是否随机数：false
+2019-01-17 19:01:26,053 [INFO]:        等待时间：5000
+2019-01-17 19:01:26,953 [INFO]: 开始执行操作
+2019-01-17 19:01:27,049 [INFO]: 当前iframe(iFrameDY)操作元素：
+2019-01-17 19:01:27,056 [INFO]:       定位方式：ID
+2019-01-17 19:01:27,063 [INFO]:       定位路径：bdcdyh
+2019-01-17 19:01:27,099 [INFO]:       操作方式：SENDKEYS
+2019-01-17 19:01:27,108 [INFO]:       默认值：SDE.FW_H.BDCDYH
+2019-01-17 19:01:27,119 [INFO]:       是否随机数：false
+2019-01-17 19:01:27,132 [INFO]:       等待时间：0
+2019-01-17 19:01:27,820 [INFO]: 执行SQL语句成功！begin
+2019-01-17 19:01:27,826 [INFO]: insert into SDE.FW_H(OBJECTID,BDCDJBSM,BDCDYH,BSM,DYTDMJ,FTTDMJ,FWLX,FWXZ,FWYT,GHYT,JGSJ,QXDM,RKSJ,SCFTJZMJ,SCJZMJ,SCQTJZMJ,SCTNJZMJ,SFJSMJ,TDQLXZ,TDSYQMJ,TDYT,TDYTMC,YFWXZ,YFWYT,YFWYTMC,YGHYT,ZDDM,ZL,ZDBSM,ZRZBSM) values(108662390,108662391,'347881466583GB31824F75325167',108662392,0.00,1.0,'1','96','071','住宅',to_date('2016-10-12','YYYY-MM-DD'),347881,to_date('2019-01-17 19:00:30','YYYY-MM-DD HH24:MI:SS'),5.23,45.23,40,40,1,'1',1,'07','住宅','商品房','07','住宅','07','347881466583GB31824','121231321231',108662393,108662397);
+2019-01-17 19:01:27,835 [INFO]: insert into SDE.T_ZD(ZD_ID,BDCDJBSM,BDCDYH,DJQDM,DJQZH,QXDM,ZDDM,ZD_SYQLX,ZD_TZM) values(108662393,108662394,'347881466583GB31824W00000000','347881466583',31824,347881,'347881466583GB31824','G','B');
+2019-01-17 19:01:27,840 [INFO]: insert into SDE.ST_ZRZ(OBJECTID,BDCDJBSM,BDCDYH,BSM,QXDM) values(108662395,108662396,'347881466583GB31824F7532',108662397,347881);
+2019-01-17 19:01:27,847 [INFO]: insert into BDCDJ.BDCDY(BSM,BDCDYH,DCDZWDYBM,DCZDZHBM,DZWSXH,DZWTZM,GXSJ,QXDM,REV_,DCDZWDYBSM,DCZBSM,DCZDZHBSM) values(108662398,'347881466583GB31824F75325167','FW_H','ST_ZD',5167,'F',to_date('2019-01-17 19:00:30','YYYY-MM-DD HH24:MI:SS'),347881,1,108662391,108662397,108662393);
+2019-01-17 19:01:27,856 [INFO]: insert into BDCDJ.BDCDYZ(BSM,DCZDZHBM,GXSJ,QXDM,REV_,ZDYH,ZDZHDM,ZSXH,DCZBSM,DCZDZHBSM) values(108662399,'ST_ZD',to_date('2019-01-17 19:00:30','YYYY-MM-DD HH24:MI:SS'),347881,1,'347881466583GB31824F7532','347881466583GB31824',7532,108662397,108662393);
+2019-01-17 19:01:27,862 [INFO]: insert into BDCDJ.SF(BSM,GXSJ,REV_,YSJE) values(108662400,to_date('2019-01-17 19:00:30','YYYY-MM-DD HH24:MI:SS'),1,100);
+2019-01-17 19:01:27,867 [INFO]: insert into BDCDJ.DC_DYBH(BSM,BHSJ,BHXW,BHXWMS,BJXMH,DCDYBM,DJDYBM,LCYWH,QXDM,XBDCDYH,XDCBSM,XDJBSM) values(108662401,to_date('2019-01-17 19:00:30','YYYY-MM-DD HH24:MI:SS'),1,'新增','108662402','FW_H','H','108662403',347881,'347881466583GB31824F75325167',108662392,108662391);
+2019-01-17 19:01:27,879 [INFO]: end;
+2019-01-17 19:01:27,885 [INFO]: 
+2019-01-17 19:01:28,293 [INFO]: 当前iframe(iFrameDY)操作元素：
+2019-01-17 19:01:28,299 [INFO]:       定位方式：ID
+2019-01-17 19:01:28,305 [INFO]:       定位路径：btn_search
+2019-01-17 19:01:28,312 [INFO]:       操作方式：CLICK
+2019-01-17 19:01:28,318 [INFO]:       默认值：
+2019-01-17 19:01:28,340 [INFO]:       是否随机数：false
+2019-01-17 19:01:28,345 [INFO]:       等待时间：30000
+2019-01-17 19:01:28,428 [INFO]: 元素可见了吧
+2019-01-17 19:01:28,458 [INFO]: 已经判断完成可点击了：element to be clickable: [[ChromeDriver: chrome on XP (b68443df2b882d94a9a803ae2efa02ac)] -> id: iFrameDY]
+2019-01-17 19:01:28,765 [INFO]: 已经完成点击事件了
+2019-01-17 19:01:28,772 [INFO]: 30000
+2019-01-17 19:01:28,778 [INFO]: 2019-01-17 19:01:28
+2019-01-17 19:01:28,819 [INFO]: 是否存在Ajax请求：false,IRL地址http://192.168.2.119:8084/GisqQueryList/QlistServer?tpl=fdcqcsdj.xml&PROINSTID=23455fa3-1a47-11e9-9f98-00505683a231&projectid=20190117-0000804&lcdm=2101&qxdm=3314,33&djlx=100&userid=f2e37658-69d2-11e5-a045-000c297c0f34&BIZINST_GUID=25064993-1a47-11e9-b0f7-00505683a231
+2019-01-17 19:01:29,319 [INFO]: 2019-01-17 19:01:29
+2019-01-17 19:01:29,351 [INFO]: 是否存在Ajax请求：false,IRL地址http://192.168.2.119:8084/GisqQueryList/QlistServer?tpl=fdcqcsdj.xml&PROINSTID=23455fa3-1a47-11e9-9f98-00505683a231&projectid=20190117-0000804&lcdm=2101&qxdm=3314,33&djlx=100&userid=f2e37658-69d2-11e5-a045-000c297c0f34&BIZINST_GUID=25064993-1a47-11e9-b0f7-00505683a231
+2019-01-17 19:01:29,850 [INFO]: 2019-01-17 19:01:29
+2019-01-17 19:01:29,968 [INFO]: 是否存在Ajax请求：true,IRL地址http://192.168.2.119:8084/GisqQueryList/QlistServer?tpl=fdcqcsdj.xml&PROINSTID=23455fa3-1a47-11e9-9f98-00505683a231&projectid=20190117-0000804&lcdm=2101&qxdm=3314,33&djlx=100&userid=f2e37658-69d2-11e5-a045-000c297c0f34&BIZINST_GUID=25064993-1a47-11e9-b0f7-00505683a231
+2019-01-17 19:01:29,974 [INFO]: 2019-01-17 19:01:29
+2019-01-17 19:01:29,980 [INFO]: 当前iframe(iFrameDY)操作元素：
+2019-01-17 19:01:29,987 [INFO]:       定位方式：XPATH
+2019-01-17 19:01:29,994 [INFO]:       定位路径：//div[@class='l-grid-hd-cell-text l-grid-hd-cell-btn-checkbox']
+2019-01-17 19:01:30,000 [INFO]:       操作方式：CLICK
+2019-01-17 19:01:30,007 [INFO]:       默认值：
+2019-01-17 19:01:30,013 [INFO]:       是否随机数：false
+2019-01-17 19:01:30,044 [INFO]:       等待时间：0
+2019-01-17 19:01:30,140 [INFO]: 元素可见了吧
+2019-01-17 19:01:30,181 [INFO]: 已经判断完成可点击了：element to be clickable: [[ChromeDriver: chrome on XP (b68443df2b882d94a9a803ae2efa02ac)] -> id: iFrameDY]
+2019-01-17 19:01:30,383 [INFO]: 已经完成点击事件了
+2019-01-17 19:01:30,390 [INFO]: 当前iframe(iFrameDY)操作元素：
+2019-01-17 19:01:30,408 [INFO]:       定位方式：ID
+2019-01-17 19:01:30,414 [INFO]:       定位路径：btn_ok
+2019-01-17 19:01:30,420 [INFO]:       操作方式：CLICK
+2019-01-17 19:01:30,429 [INFO]:       默认值：
+2019-01-17 19:01:30,439 [INFO]:       是否随机数：false
+2019-01-17 19:01:30,447 [INFO]:       等待时间：50000
+2019-01-17 19:01:30,486 [INFO]: 元素可见了吧
+2019-01-17 19:01:30,524 [INFO]: 已经判断完成可点击了：element to be clickable: [[ChromeDriver: chrome on XP (b68443df2b882d94a9a803ae2efa02ac)] -> id: iFrameDY]
+2019-01-17 19:01:30,678 [INFO]: 已经完成点击事件了
+2019-01-17 19:01:30,688 [INFO]: 50000
+2019-01-17 19:01:30,697 [INFO]: 2019-01-17 19:01:30
+2019-01-17 19:01:30,739 [INFO]: 是否存在Ajax请求：false,IRL地址http://192.168.2.119:8084/GisqQueryList/QlistServer?tpl=fdcqcsdj.xml&PROINSTID=23455fa3-1a47-11e9-9f98-00505683a231&projectid=20190117-0000804&lcdm=2101&qxdm=3314,33&djlx=100&userid=f2e37658-69d2-11e5-a045-000c297c0f34&BIZINST_GUID=25064993-1a47-11e9-b0f7-00505683a231
+2019-01-17 19:01:31,249 [INFO]: 2019-01-17 19:01:31
+2019-01-17 19:01:31,298 [INFO]: 是否存在Ajax请求：false,IRL地址http://192.168.2.119:8084/GisqQueryList/QlistServer?tpl=fdcqcsdj.xml&PROINSTID=23455fa3-1a47-11e9-9f98-00505683a231&projectid=20190117-0000804&lcdm=2101&qxdm=3314,33&djlx=100&userid=f2e37658-69d2-11e5-a045-000c297c0f34&BIZINST_GUID=25064993-1a47-11e9-b0f7-00505683a231
+2019-01-17 19:01:31,799 [INFO]: 2019-01-17 19:01:31
+2019-01-17 19:01:31,814 [INFO]: 是否存在Ajax请求：false,IRL地址http://192.168.2.119:8084/GisqQueryList/QlistServer?tpl=fdcqcsdj.xml&PROINSTID=23455fa3-1a47-11e9-9f98-00505683a231&projectid=20190117-0000804&lcdm=2101&qxdm=3314,33&djlx=100&userid=f2e37658-69d2-11e5-a045-000c297c0f34&BIZINST_GUID=25064993-1a47-11e9-b0f7-00505683a231
+2019-01-17 19:01:32,314 [INFO]: 2019-01-17 19:01:32
+2019-01-17 19:01:32,326 [INFO]: 是否存在Ajax请求：false,IRL地址http://192.168.2.119:8084/GisqQueryList/QlistServer?tpl=fdcqcsdj.xml&PROINSTID=23455fa3-1a47-11e9-9f98-00505683a231&projectid=20190117-0000804&lcdm=2101&qxdm=3314,33&djlx=100&userid=f2e37658-69d2-11e5-a045-000c297c0f34&BIZINST_GUID=25064993-1a47-11e9-b0f7-00505683a231
+2019-01-17 19:01:32,826 [INFO]: 2019-01-17 19:01:32
+2019-01-17 19:01:32,838 [INFO]: 是否存在Ajax请求：false,IRL地址http://192.168.2.119:8084/GisqQueryList/QlistServer?tpl=fdcqcsdj.xml&PROINSTID=23455fa3-1a47-11e9-9f98-00505683a231&projectid=20190117-0000804&lcdm=2101&qxdm=3314,33&djlx=100&userid=f2e37658-69d2-11e5-a045-000c297c0f34&BIZINST_GUID=25064993-1a47-11e9-b0f7-00505683a231
+2019-01-17 19:01:33,338 [INFO]: 2019-01-17 19:01:33
+2019-01-17 19:01:33,351 [INFO]: 是否存在Ajax请求：false,IRL地址http://192.168.2.119:8084/GisqQueryList/QlistServer?tpl=fdcqcsdj.xml&PROINSTID=23455fa3-1a47-11e9-9f98-00505683a231&projectid=20190117-0000804&lcdm=2101&qxdm=3314,33&djlx=100&userid=f2e37658-69d2-11e5-a045-000c297c0f34&BIZINST_GUID=25064993-1a47-11e9-b0f7-00505683a231
+2019-01-17 19:01:33,851 [INFO]: 2019-01-17 19:01:33
+2019-01-17 19:01:33,868 [INFO]: 是否存在Ajax请求：false,IRL地址http://192.168.2.119:8084/GisqQueryList/QlistServer?tpl=fdcqcsdj.xml&PROINSTID=23455fa3-1a47-11e9-9f98-00505683a231&projectid=20190117-0000804&lcdm=2101&qxdm=3314,33&djlx=100&userid=f2e37658-69d2-11e5-a045-000c297c0f34&BIZINST_GUID=25064993-1a47-11e9-b0f7-00505683a231
+2019-01-17 19:01:34,368 [INFO]: 2019-01-17 19:01:34
+2019-01-17 19:01:34,416 [INFO]: 是否存在Ajax请求：false,IRL地址http://192.168.2.119:8084/GisqQueryList/QlistServer?tpl=fdcqcsdj.xml&PROINSTID=23455fa3-1a47-11e9-9f98-00505683a231&projectid=20190117-0000804&lcdm=2101&qxdm=3314,33&djlx=100&userid=f2e37658-69d2-11e5-a045-000c297c0f34&BIZINST_GUID=25064993-1a47-11e9-b0f7-00505683a231
+2019-01-17 19:01:34,916 [INFO]: 2019-01-17 19:01:34
+2019-01-17 19:01:34,934 [INFO]: 是否存在Ajax请求：false,IRL地址http://192.168.2.119:8084/GisqQueryList/QlistServer?tpl=fdcqcsdj.xml&PROINSTID=23455fa3-1a47-11e9-9f98-00505683a231&projectid=20190117-0000804&lcdm=2101&qxdm=3314,33&djlx=100&userid=f2e37658-69d2-11e5-a045-000c297c0f34&BIZINST_GUID=25064993-1a47-11e9-b0f7-00505683a231
+2019-01-17 19:01:35,435 [INFO]: 2019-01-17 19:01:35
+2019-01-17 19:01:35,447 [INFO]: 是否存在Ajax请求：false,IRL地址http://192.168.2.119:8084/GisqQueryList/QlistServer?tpl=fdcqcsdj.xml&PROINSTID=23455fa3-1a47-11e9-9f98-00505683a231&projectid=20190117-0000804&lcdm=2101&qxdm=3314,33&djlx=100&userid=f2e37658-69d2-11e5-a045-000c297c0f34&BIZINST_GUID=25064993-1a47-11e9-b0f7-00505683a231
+2019-01-17 19:01:35,947 [INFO]: 2019-01-17 19:01:35
+2019-01-17 19:01:35,963 [INFO]: 是否存在Ajax请求：false,IRL地址http://192.168.2.119:8084/GisqQueryList/QlistServer?tpl=fdcqcsdj.xml&PROINSTID=23455fa3-1a47-11e9-9f98-00505683a231&projectid=20190117-0000804&lcdm=2101&qxdm=3314,33&djlx=100&userid=f2e37658-69d2-11e5-a045-000c297c0f34&BIZINST_GUID=25064993-1a47-11e9-b0f7-00505683a231
+2019-01-17 19:01:36,462 [INFO]: 2019-01-17 19:01:36
+2019-01-17 19:01:36,482 [INFO]: 是否存在Ajax请求：false,IRL地址http://192.168.2.119:8084/GisqQueryList/QlistServer?tpl=fdcqcsdj.xml&PROINSTID=23455fa3-1a47-11e9-9f98-00505683a231&projectid=20190117-0000804&lcdm=2101&qxdm=3314,33&djlx=100&userid=f2e37658-69d2-11e5-a045-000c297c0f34&BIZINST_GUID=25064993-1a47-11e9-b0f7-00505683a231
+2019-01-17 19:01:36,982 [INFO]: 2019-01-17 19:01:36
+2019-01-17 19:01:37,007 [INFO]: 是否存在Ajax请求：false,IRL地址http://192.168.2.119:8084/GisqQueryList/QlistServer?tpl=fdcqcsdj.xml&PROINSTID=23455fa3-1a47-11e9-9f98-00505683a231&projectid=20190117-0000804&lcdm=2101&qxdm=3314,33&djlx=100&userid=f2e37658-69d2-11e5-a045-000c297c0f34&BIZINST_GUID=25064993-1a47-11e9-b0f7-00505683a231
+2019-01-17 19:01:37,508 [INFO]: 2019-01-17 19:01:37
+2019-01-17 19:01:37,520 [INFO]: 是否存在Ajax请求：false,IRL地址http://192.168.2.119:8084/GisqQueryList/QlistServer?tpl=fdcqcsdj.xml&PROINSTID=23455fa3-1a47-11e9-9f98-00505683a231&projectid=20190117-0000804&lcdm=2101&qxdm=3314,33&djlx=100&userid=f2e37658-69d2-11e5-a045-000c297c0f34&BIZINST_GUID=25064993-1a47-11e9-b0f7-00505683a231
+2019-01-17 19:01:38,020 [INFO]: 2019-01-17 19:01:38
+2019-01-17 19:01:38,033 [INFO]: 是否存在Ajax请求：false,IRL地址http://192.168.2.119:8084/GisqQueryList/QlistServer?tpl=fdcqcsdj.xml&PROINSTID=23455fa3-1a47-11e9-9f98-00505683a231&projectid=20190117-0000804&lcdm=2101&qxdm=3314,33&djlx=100&userid=f2e37658-69d2-11e5-a045-000c297c0f34&BIZINST_GUID=25064993-1a47-11e9-b0f7-00505683a231
+2019-01-17 19:01:38,533 [INFO]: 2019-01-17 19:01:38
+2019-01-17 19:01:38,553 [INFO]: 是否存在Ajax请求：false,IRL地址http://192.168.2.119:8084/GisqQueryList/QlistServer?tpl=fdcqcsdj.xml&PROINSTID=23455fa3-1a47-11e9-9f98-00505683a231&projectid=20190117-0000804&lcdm=2101&qxdm=3314,33&djlx=100&userid=f2e37658-69d2-11e5-a045-000c297c0f34&BIZINST_GUID=25064993-1a47-11e9-b0f7-00505683a231
+2019-01-17 19:01:39,053 [INFO]: 2019-01-17 19:01:39
+2019-01-17 19:01:39,068 [INFO]: 是否存在Ajax请求：false,IRL地址http://192.168.2.119:8084/GisqQueryList/QlistServer?tpl=fdcqcsdj.xml&PROINSTID=23455fa3-1a47-11e9-9f98-00505683a231&projectid=20190117-0000804&lcdm=2101&qxdm=3314,33&djlx=100&userid=f2e37658-69d2-11e5-a045-000c297c0f34&BIZINST_GUID=25064993-1a47-11e9-b0f7-00505683a231
+2019-01-17 19:01:39,567 [INFO]: 2019-01-17 19:01:39
+2019-01-17 19:01:39,583 [INFO]: 是否存在Ajax请求：false,IRL地址http://192.168.2.119:8084/GisqQueryList/QlistServer?tpl=fdcqcsdj.xml&PROINSTID=23455fa3-1a47-11e9-9f98-00505683a231&projectid=20190117-0000804&lcdm=2101&qxdm=3314,33&djlx=100&userid=f2e37658-69d2-11e5-a045-000c297c0f34&BIZINST_GUID=25064993-1a47-11e9-b0f7-00505683a231
+2019-01-17 19:01:40,083 [INFO]: 2019-01-17 19:01:40
+2019-01-17 19:01:40,103 [INFO]: 是否存在Ajax请求：false,IRL地址http://192.168.2.119:8084/GisqQueryList/QlistServer?tpl=fdcqcsdj.xml&PROINSTID=23455fa3-1a47-11e9-9f98-00505683a231&projectid=20190117-0000804&lcdm=2101&qxdm=3314,33&djlx=100&userid=f2e37658-69d2-11e5-a045-000c297c0f34&BIZINST_GUID=25064993-1a47-11e9-b0f7-00505683a231
+2019-01-17 19:01:40,603 [INFO]: 2019-01-17 19:01:40
+2019-01-17 19:01:40,622 [INFO]: 是否存在Ajax请求：false,IRL地址http://192.168.2.119:8084/GisqQueryList/QlistServer?tpl=fdcqcsdj.xml&PROINSTID=23455fa3-1a47-11e9-9f98-00505683a231&projectid=20190117-0000804&lcdm=2101&qxdm=3314,33&djlx=100&userid=f2e37658-69d2-11e5-a045-000c297c0f34&BIZINST_GUID=25064993-1a47-11e9-b0f7-00505683a231
+2019-01-17 19:01:41,122 [INFO]: 2019-01-17 19:01:41
+2019-01-17 19:01:41,138 [INFO]: 是否存在Ajax请求：false,IRL地址http://192.168.2.119:8084/GisqQueryList/QlistServer?tpl=fdcqcsdj.xml&PROINSTID=23455fa3-1a47-11e9-9f98-00505683a231&projectid=20190117-0000804&lcdm=2101&qxdm=3314,33&djlx=100&userid=f2e37658-69d2-11e5-a045-000c297c0f34&BIZINST_GUID=25064993-1a47-11e9-b0f7-00505683a231
+2019-01-17 19:01:41,638 [INFO]: 2019-01-17 19:01:41
+2019-01-17 19:01:41,650 [INFO]: 是否存在Ajax请求：false,IRL地址http://192.168.2.119:8084/GisqQueryList/QlistServer?tpl=fdcqcsdj.xml&PROINSTID=23455fa3-1a47-11e9-9f98-00505683a231&projectid=20190117-0000804&lcdm=2101&qxdm=3314,33&djlx=100&userid=f2e37658-69d2-11e5-a045-000c297c0f34&BIZINST_GUID=25064993-1a47-11e9-b0f7-00505683a231
+2019-01-17 19:01:42,150 [INFO]: 2019-01-17 19:01:42
+2019-01-17 19:01:42,164 [INFO]: 是否存在Ajax请求：false,IRL地址http://192.168.2.119:8084/GisqQueryList/QlistServer?tpl=fdcqcsdj.xml&PROINSTID=23455fa3-1a47-11e9-9f98-00505683a231&projectid=20190117-0000804&lcdm=2101&qxdm=3314,33&djlx=100&userid=f2e37658-69d2-11e5-a045-000c297c0f34&BIZINST_GUID=25064993-1a47-11e9-b0f7-00505683a231
+2019-01-17 19:01:42,701 [INFO]: 2019-01-17 19:01:42
+2019-01-17 19:01:42,751 [INFO]: 是否存在Ajax请求：false,IRL地址http://192.168.2.119:8084/GisqQueryList/QlistServer?tpl=fdcqcsdj.xml&PROINSTID=23455fa3-1a47-11e9-9f98-00505683a231&projectid=20190117-0000804&lcdm=2101&qxdm=3314,33&djlx=100&userid=f2e37658-69d2-11e5-a045-000c297c0f34&BIZINST_GUID=25064993-1a47-11e9-b0f7-00505683a231
+2019-01-17 19:01:43,252 [INFO]: 2019-01-17 19:01:43
+2019-01-17 19:01:43,269 [INFO]: 是否存在Ajax请求：false,IRL地址http://192.168.2.119:8084/GisqQueryList/QlistServer?tpl=fdcqcsdj.xml&PROINSTID=23455fa3-1a47-11e9-9f98-00505683a231&projectid=20190117-0000804&lcdm=2101&qxdm=3314,33&djlx=100&userid=f2e37658-69d2-11e5-a045-000c297c0f34&BIZINST_GUID=25064993-1a47-11e9-b0f7-00505683a231
+2019-01-17 19:01:43,769 [INFO]: 2019-01-17 19:01:43
+2019-01-17 19:01:43,782 [INFO]: 是否存在Ajax请求：false,IRL地址http://192.168.2.119:8084/GisqQueryList/QlistServer?tpl=fdcqcsdj.xml&PROINSTID=23455fa3-1a47-11e9-9f98-00505683a231&projectid=20190117-0000804&lcdm=2101&qxdm=3314,33&djlx=100&userid=f2e37658-69d2-11e5-a045-000c297c0f34&BIZINST_GUID=25064993-1a47-11e9-b0f7-00505683a231
+2019-01-17 19:01:44,282 [INFO]: 2019-01-17 19:01:44
+2019-01-17 19:01:44,373 [INFO]: 2019-01-17 19:01:44
+2019-01-17 19:01:47,155 [INFO]: 等待时间：5000
+2019-01-17 19:01:47,166 [INFO]: 5000
+2019-01-17 19:01:47,181 [INFO]: 2019-01-17 19:01:47
+2019-01-17 19:01:47,187 [INFO]: 是否存在Ajax请求：true,IRL地址http://192.168.2.119:8084/GisqQueryList/views/reports/realestate/common/acceptance/Acceptance_HouseRight_Initial.jsp?reportlet=realestate/common/acceptance/Acceptance_HouseRight_Initial.cpt&op=write&BDFR_GUID=f186c61b-e05d-11e5-8188-000c29187a9e&ID=2c69eb6d-1a47-11e9-b0f7-00505683a231&CATEGORY=BDC03&RECORDNUMBER=0e5107e9-06ba-444b-b926-4c27bc8de711&BIZDEF_GUID=f18677f1-e05d-11e5-8188-000c29187a9e&BIZINST_GUID=25064993-1a47-11e9-b0f7-00505683a231&TYPE=form&userId=f2e37658-69d2-11e5-a045-000c297c0f34&TRANSACTOR=zscs&aid=sid-075095F3-5F75-4295-B4D1-5843F0D20C8E&ACTDEFID=sid-075095F3-5F75-4295-B4D1-5843F0D20C8E&tid=23486ce9-1a47-11e9-9f98-00505683a231&ACTINSTID=23486ce9-1a47-11e9-9f98-00505683a231&pid=2d107839-0de3-11e6-b878-000c2984e60c&PRODEFID=2d107839-0de3-11e6-b878-000c2984e60c&instid=23455fa3-1a47-11e9-9f98-00505683a231&PROINSTID=23455fa3-1a47-11e9-9f98-00505683a231&businesskey=20190117-0000804&PROJECTID=20190117-0000804&LCBM=2101&HJDM=SJ&XZQBM=3314,33&task_state=firstTask
+2019-01-17 19:01:47,195 [INFO]: 2019-01-17 19:01:47
+2019-01-17 19:01:47,211 [INFO]: 当前iframe(申请信息)操作元素：
+2019-01-17 19:01:47,218 [INFO]:        定位方式：ID
+2019-01-17 19:01:47,227 [INFO]:        定位路径：TJSQR
+2019-01-17 19:01:47,232 [INFO]:        操作方式：CLICK
+2019-01-17 19:01:47,237 [INFO]:        默认值：
+2019-01-17 19:01:47,255 [INFO]:        是否随机数：false
+2019-01-17 19:01:47,261 [INFO]:        等待时间：2000
+2019-01-17 19:01:47,267 [INFO]: 开始执行操作
+2019-01-17 19:01:47,275 [INFO]: 我要开始滚动了
+2019-01-17 19:01:47,280 [INFO]: 滚动完成了
+2019-01-17 19:01:48,063 [INFO]: 滚完，点击完成了
+2019-01-17 19:01:48,116 [INFO]: 等待时间：2000
+2019-01-17 19:01:48,132 [INFO]: 2000
+2019-01-17 19:01:48,159 [INFO]: 2019-01-17 19:01:48
+2019-01-17 19:01:48,202 [INFO]: 是否存在Ajax请求：true,IRL地址http://192.168.2.119:8084/GisqQueryList/views/reports/realestate/common/acceptance/Acceptance_HouseRight_Initial.jsp?reportlet=realestate/common/acceptance/Acceptance_HouseRight_Initial.cpt&op=write&BDFR_GUID=f186c61b-e05d-11e5-8188-000c29187a9e&ID=2c69eb6d-1a47-11e9-b0f7-00505683a231&CATEGORY=BDC03&RECORDNUMBER=0e5107e9-06ba-444b-b926-4c27bc8de711&BIZDEF_GUID=f18677f1-e05d-11e5-8188-000c29187a9e&BIZINST_GUID=25064993-1a47-11e9-b0f7-00505683a231&TYPE=form&userId=f2e37658-69d2-11e5-a045-000c297c0f34&TRANSACTOR=zscs&aid=sid-075095F3-5F75-4295-B4D1-5843F0D20C8E&ACTDEFID=sid-075095F3-5F75-4295-B4D1-5843F0D20C8E&tid=23486ce9-1a47-11e9-9f98-00505683a231&ACTINSTID=23486ce9-1a47-11e9-9f98-00505683a231&pid=2d107839-0de3-11e6-b878-000c2984e60c&PRODEFID=2d107839-0de3-11e6-b878-000c2984e60c&instid=23455fa3-1a47-11e9-9f98-00505683a231&PROINSTID=23455fa3-1a47-11e9-9f98-00505683a231&businesskey=20190117-0000804&PROJECTID=20190117-0000804&LCBM=2101&HJDM=SJ&XZQBM=3314,33&task_state=firstTask
+2019-01-17 19:01:48,217 [INFO]: 2019-01-17 19:01:48
+2019-01-17 19:01:48,248 [INFO]: 当前iframe(申请信息)操作元素：
+2019-01-17 19:01:48,265 [INFO]:        定位方式：ID
+2019-01-17 19:01:48,295 [INFO]:        定位路径：addSqr
+2019-01-17 19:01:48,314 [INFO]:        操作方式：IFRAME
+2019-01-17 19:01:48,320 [INFO]:        默认值：
+2019-01-17 19:01:48,399 [INFO]:        是否随机数：false
+2019-01-17 19:01:48,419 [INFO]:        等待时间：0
+2019-01-17 19:01:48,430 [INFO]: 开始执行操作
+2019-01-17 19:01:50,469 [INFO]: 当前iframe(addSqr)操作元素：
+2019-01-17 19:01:50,475 [INFO]:       定位方式：ID
+2019-01-17 19:01:50,484 [INFO]:       定位路径：SQRLB
+2019-01-17 19:01:50,496 [INFO]:       操作方式：SENDKEYS
+2019-01-17 19:01:50,503 [INFO]:       默认值：1
+2019-01-17 19:01:50,508 [INFO]:       是否随机数：false
+2019-01-17 19:01:50,514 [INFO]:       等待时间：0
+2019-01-17 19:01:50,756 [INFO]: 当前iframe(addSqr)操作元素：
+2019-01-17 19:01:50,774 [INFO]:       定位方式：ID
+2019-01-17 19:01:50,781 [INFO]:       定位路径：SQRMC
+2019-01-17 19:01:50,788 [INFO]:       操作方式：SENDKEYS
+2019-01-17 19:01:50,794 [INFO]:       默认值：倪明奇自动化首次登记
+2019-01-17 19:01:50,802 [INFO]:       是否随机数：true
+2019-01-17 19:01:50,812 [INFO]:       等待时间：0
+2019-01-17 19:01:51,041 [INFO]: 当前iframe(addSqr)操作元素：
+2019-01-17 19:01:51,046 [INFO]:       定位方式：ID
+2019-01-17 19:01:51,053 [INFO]:       定位路径：SQRLX
+2019-01-17 19:01:51,066 [INFO]:       操作方式：SENDKEYS
+2019-01-17 19:01:51,072 [INFO]:       默认值：1
+2019-01-17 19:01:51,078 [INFO]:       是否随机数：false
+2019-01-17 19:01:51,083 [INFO]:       等待时间：0
+2019-01-17 19:01:51,193 [INFO]: 当前iframe(addSqr)操作元素：
+2019-01-17 19:01:51,201 [INFO]:       定位方式：ID
+2019-01-17 19:01:51,222 [INFO]:       定位路径：ZJZL
+2019-01-17 19:01:51,228 [INFO]:       操作方式：SENDKEYS
+2019-01-17 19:01:51,244 [INFO]:       默认值：2
+2019-01-17 19:01:51,255 [INFO]:       是否随机数：false
+2019-01-17 19:01:51,266 [INFO]:       等待时间：0
+2019-01-17 19:01:51,446 [INFO]: 当前iframe(addSqr)操作元素：
+2019-01-17 19:01:51,452 [INFO]:       定位方式：ID
+2019-01-17 19:01:51,458 [INFO]:       定位路径：ZJH
+2019-01-17 19:01:51,464 [INFO]:       操作方式：SENDKEYS
+2019-01-17 19:01:51,469 [INFO]:       默认值：测试证件号
+2019-01-17 19:01:51,487 [INFO]:       是否随机数：true
+2019-01-17 19:01:51,494 [INFO]:       等待时间：0
+2019-01-17 19:01:51,783 [INFO]: 当前iframe(addSqr)操作元素：
+2019-01-17 19:01:51,792 [INFO]:       定位方式：ID
+2019-01-17 19:01:51,798 [INFO]:       定位路径：GYFS
+2019-01-17 19:01:51,804 [INFO]:       操作方式：SENDKEYS
+2019-01-17 19:01:51,811 [INFO]:       默认值：1
+2019-01-17 19:01:51,817 [INFO]:       是否随机数：false
+2019-01-17 19:01:51,823 [INFO]:       等待时间：0
+2019-01-17 19:01:51,963 [INFO]: 当前iframe(addSqr)操作元素：
+2019-01-17 19:01:51,971 [INFO]:       定位方式：ID
+2019-01-17 19:01:51,978 [INFO]:       定位路径：YDDH
+2019-01-17 19:01:51,984 [INFO]:       操作方式：SENDKEYS
+2019-01-17 19:01:52,015 [INFO]:       默认值：18966162328
+2019-01-17 19:01:52,020 [INFO]:       是否随机数：false
+2019-01-17 19:01:52,027 [INFO]:       等待时间：0
+2019-01-17 19:01:52,162 [INFO]: 当前iframe(addSqr)操作元素：
+2019-01-17 19:01:52,169 [INFO]:       定位方式：XPATH
+2019-01-17 19:01:52,175 [INFO]:       定位路径：//span[@class=' x-emb-submit']
+2019-01-17 19:01:52,181 [INFO]:       操作方式：CLICK
+2019-01-17 19:01:52,188 [INFO]:       默认值：
+2019-01-17 19:01:52,194 [INFO]:       是否随机数：false
+2019-01-17 19:01:52,205 [INFO]:       等待时间：1000
+2019-01-17 19:01:52,241 [INFO]: 元素可见了吧
+2019-01-17 19:01:52,286 [INFO]: 已经判断完成可点击了：element to be clickable: [[ChromeDriver: chrome on XP (b68443df2b882d94a9a803ae2efa02ac)] -> id: addSqr]
+2019-01-17 19:01:52,530 [INFO]: 已经完成点击事件了
+2019-01-17 19:01:52,536 [INFO]: 1000
+2019-01-17 19:01:52,541 [INFO]: 2019-01-17 19:01:52
+2019-01-17 19:01:52,566 [INFO]: 是否存在Ajax请求：false,IRL地址http://192.168.2.119:8084/GisqQueryList/views/reports/realestate/common/applicant/ApplicantInfo.jsp?reportlet=realestate/common/applicant/ApplicantInfo.cpt&op=write&projectid=20190117-0000804&LCBM=2101&xzqbm=3314,33&task_state=firstTask
+2019-01-17 19:01:53,066 [INFO]: 2019-01-17 19:01:53
+2019-01-17 19:01:53,485 [INFO]: 是否存在Ajax请求：true,IRL地址http://192.168.2.119:8084/GisqQueryList/views/reports/realestate/common/applicant/ApplicantInfo.jsp?reportlet=realestate/common/applicant/ApplicantInfo.cpt&op=write&projectid=20190117-0000804&LCBM=2101&xzqbm=3314,33&task_state=firstTask
+2019-01-17 19:01:53,493 [INFO]: 2019-01-17 19:01:53
+2019-01-17 19:01:55,616 [INFO]: 等待时间：0
+2019-01-17 19:01:55,622 [INFO]: 当前iframe(申请信息)操作元素：
+2019-01-17 19:01:55,629 [INFO]:        定位方式：XPATH
+2019-01-17 19:01:55,642 [INFO]:        定位路径：//a[@class='jbox-close']
+2019-01-17 19:01:55,650 [INFO]:        操作方式：CLICK
+2019-01-17 19:01:55,662 [INFO]:        默认值：
+2019-01-17 19:01:55,667 [INFO]:        是否随机数：false
+2019-01-17 19:01:55,726 [INFO]:        等待时间：0
+2019-01-17 19:01:55,732 [INFO]: 开始执行操作
+2019-01-17 19:01:55,767 [INFO]: 元素可见了吧
+2019-01-17 19:01:55,781 [INFO]: 已经判断完成可点击了：element to be clickable: [[ChromeDriver: chrome on XP (b68443df2b882d94a9a803ae2efa02ac)] -> xpath: //a[@class='jbox-close']]
+2019-01-17 19:01:55,939 [INFO]: 已经完成点击事件了
+2019-01-17 19:01:55,945 [INFO]: 等待时间：0
+2019-01-17 19:01:55,955 [INFO]: 当前iframe(申请信息)操作元素：
+2019-01-17 19:01:55,961 [INFO]:        定位方式：ID
+2019-01-17 19:01:55,981 [INFO]:        定位路径：HOUSELIST
+2019-01-17 19:01:55,989 [INFO]:        操作方式：IFRAME
+2019-01-17 19:01:56,008 [INFO]:        默认值：HOUSELIST
+2019-01-17 19:01:56,030 [INFO]:        是否随机数：false
+2019-01-17 19:01:56,036 [INFO]:        等待时间：0
+2019-01-17 19:01:56,047 [INFO]: 开始执行操作
+2019-01-17 19:01:58,262 [INFO]: 当前iframe(HOUSELIST)操作元素：
+2019-01-17 19:01:58,270 [INFO]:       定位方式：XPATH
+2019-01-17 19:01:58,276 [INFO]:       定位路径：//span[@command='FwDetail']
+2019-01-17 19:01:58,283 [INFO]:       操作方式：CLICK
+2019-01-17 19:01:58,289 [INFO]:       默认值：
+2019-01-17 19:01:58,349 [INFO]:       是否随机数：false
+2019-01-17 19:01:58,355 [INFO]:       等待时间：0
+2019-01-17 19:01:58,525 [INFO]: 元素可见了吧
+2019-01-17 19:01:58,647 [INFO]: 已经判断完成可点击了：element to be clickable: [[ChromeDriver: chrome on XP (b68443df2b882d94a9a803ae2efa02ac)] -> id: HOUSELIST]
+2019-01-17 19:02:02,292 [INFO]: 已经完成点击事件了
+2019-01-17 19:02:05,027 [INFO]: 等待时间：0
+2019-01-17 19:02:05,033 [INFO]: 当前iframe(申请信息)操作元素：
+2019-01-17 19:02:05,041 [INFO]:        定位方式：ID
+2019-01-17 19:02:05,052 [INFO]:        定位路径：EditHouseInfo
+2019-01-17 19:02:05,071 [INFO]:        操作方式：IFRAME
+2019-01-17 19:02:05,078 [INFO]:        默认值：EditHouseInfo
+2019-01-17 19:02:05,084 [INFO]:        是否随机数：false
+2019-01-17 19:02:05,098 [INFO]:        等待时间：0
+2019-01-17 19:02:05,107 [INFO]: 开始执行操作
+2019-01-17 19:02:07,193 [INFO]: 当前iframe(EditHouseInfo)操作元素：
+2019-01-17 19:02:07,199 [INFO]:       定位方式：ID
+2019-01-17 19:02:07,204 [INFO]:       定位路径：FWZL
+2019-01-17 19:02:07,211 [INFO]:       操作方式：SENDKEYS
+2019-01-17 19:02:07,229 [INFO]:       默认值：测试坐落1
+2019-01-17 19:02:07,235 [INFO]:       是否随机数：true
+2019-01-17 19:02:07,241 [INFO]:       等待时间：0
+2019-01-17 19:02:07,414 [INFO]: 当前iframe(EditHouseInfo)操作元素：
+2019-01-17 19:02:07,421 [INFO]:       定位方式：ID
+2019-01-17 19:02:07,429 [INFO]:       定位路径：YFWYT1
+2019-01-17 19:02:07,436 [INFO]:       操作方式：CLICK
+2019-01-17 19:02:07,444 [INFO]:       默认值：测试用途1
+2019-01-17 19:02:07,451 [INFO]:       是否随机数：false
+2019-01-17 19:02:07,473 [INFO]:       等待时间：0
+2019-01-17 19:02:07,497 [INFO]: 元素可见了吧
+2019-01-17 19:02:07,518 [INFO]: 已经判断完成可点击了：element to be clickable: [[ChromeDriver: chrome on XP (b68443df2b882d94a9a803ae2efa02ac)] -> id: EditHouseInfo]
+2019-01-17 19:02:07,639 [INFO]: 已经完成点击事件了
+2019-01-17 19:02:07,645 [INFO]: 当前iframe(EditHouseInfo)操作元素：
+2019-01-17 19:02:07,652 [INFO]:       定位方式：ID
+2019-01-17 19:02:07,658 [INFO]:       定位路径：TDYTDL
+2019-01-17 19:02:07,665 [INFO]:       操作方式：QT
+2019-01-17 19:02:07,692 [INFO]:       默认值：contentPane.getWidgetByName("TDYTDL").setValue("城镇住宅用地");
+2019-01-17 19:02:07,699 [INFO]:       是否随机数：false
+2019-01-17 19:02:07,707 [INFO]:       等待时间：0
+2019-01-17 19:02:07,732 [INFO]: 当前iframe(EditHouseInfo)操作元素：
+2019-01-17 19:02:07,739 [INFO]:       定位方式：ID
+2019-01-17 19:02:07,746 [INFO]:       定位路径：TDYTDL
+2019-01-17 19:02:07,752 [INFO]:       操作方式：QT
+2019-01-17 19:02:07,759 [INFO]:       默认值：$("#TDYTDL").attr("pval","071")
+2019-01-17 19:02:07,767 [INFO]:       是否随机数：false
+2019-01-17 19:02:07,775 [INFO]:       等待时间：0
+2019-01-17 19:02:07,802 [INFO]: 当前iframe(EditHouseInfo)操作元素：
+2019-01-17 19:02:07,815 [INFO]:       定位方式：ID
+2019-01-17 19:02:07,822 [INFO]:       定位路径：FWJG
+2019-01-17 19:02:07,829 [INFO]:       操作方式：SENDKEYS
+2019-01-17 19:02:07,835 [INFO]:       默认值：6
+2019-01-17 19:02:07,843 [INFO]:       是否随机数：false
+2019-01-17 19:02:07,853 [INFO]:       等待时间：0
+2019-01-17 19:02:08,017 [INFO]: 当前iframe(EditHouseInfo)操作元素：
+2019-01-17 19:02:08,034 [INFO]:       定位方式：XPATH
+2019-01-17 19:02:08,043 [INFO]:       定位路径：//button[@type='button']@@@保存
+2019-01-17 19:02:08,056 [INFO]:       操作方式：CLICK
+2019-01-17 19:02:08,063 [INFO]:       默认值：
+2019-01-17 19:02:08,072 [INFO]:       是否随机数：false
+2019-01-17 19:02:08,078 [INFO]:       等待时间：0
+2019-01-17 19:02:08,150 [INFO]: 元素可见了吧
+2019-01-17 19:02:08,172 [INFO]: 已经判断完成可点击了：element to be clickable: [[ChromeDriver: chrome on XP (b68443df2b882d94a9a803ae2efa02ac)] -> id: EditHouseInfo]
+2019-01-17 19:02:08,339 [INFO]: 已经完成点击事件了
+2019-01-17 19:02:10,440 [INFO]: 等待时间：0
+2019-01-17 19:02:10,452 [INFO]: 当前iframe(申请信息)操作元素：
+2019-01-17 19:02:10,460 [INFO]:        定位方式：XPATH
+2019-01-17 19:02:10,471 [INFO]:        定位路径：//a[@class='jbox-close']
+2019-01-17 19:02:10,479 [INFO]:        操作方式：CLICK
+2019-01-17 19:02:10,485 [INFO]:        默认值：1
+2019-01-17 19:02:10,493 [INFO]:        是否随机数：false
+2019-01-17 19:02:10,514 [INFO]:        等待时间：0
+2019-01-17 19:02:10,521 [INFO]: 开始执行操作
+2019-01-17 19:02:10,528 [INFO]: 元素可见了吧
+2019-01-17 19:02:10,535 [INFO]: 已经判断完成可点击了：element to be clickable: [[ChromeDriver: chrome on XP (b68443df2b882d94a9a803ae2efa02ac)] -> xpath: //a[@class='jbox-close']]
+2019-01-17 19:02:10,646 [INFO]: 已经完成点击事件了
+2019-01-17 19:02:10,653 [INFO]: 等待时间：0
+2019-01-17 19:02:10,662 [INFO]: 当前iframe(申请信息)操作元素：
+2019-01-17 19:02:10,668 [INFO]:        定位方式：ID
+2019-01-17 19:02:10,690 [INFO]:        定位路径：GFHTBH_TDZ
+2019-01-17 19:02:10,697 [INFO]:        操作方式：SENDKEYS
+2019-01-17 19:02:10,705 [INFO]:        默认值：测试国有土地证
+2019-01-17 19:02:10,712 [INFO]:        是否随机数：true
+2019-01-17 19:02:10,737 [INFO]:        等待时间：0
+2019-01-17 19:02:10,743 [INFO]: 开始执行操作
+2019-01-17 19:02:10,846 [INFO]: 等待时间：0
+2019-01-17 19:02:10,853 [INFO]: 当前iframe(申请信息)操作元素：
+2019-01-17 19:02:10,864 [INFO]:        定位方式：ID
+2019-01-17 19:02:10,874 [INFO]:        定位路径：CZRMC
+2019-01-17 19:02:10,890 [INFO]:        操作方式：SENDKEYS
+2019-01-17 19:02:10,900 [INFO]:        默认值：测试持证人名称
+2019-01-17 19:02:10,907 [INFO]:        是否随机数：true
+2019-01-17 19:02:10,924 [INFO]:        等待时间：0
+2019-01-17 19:02:10,931 [INFO]: 开始执行操作
+2019-01-17 19:02:11,074 [INFO]: 等待时间：0
+2019-01-17 19:02:11,081 [INFO]: 当前iframe(申请信息)操作元素：
+2019-01-17 19:02:11,088 [INFO]:        定位方式：ID
+2019-01-17 19:02:11,098 [INFO]:        定位路径：BZ
+2019-01-17 19:02:11,109 [INFO]:        操作方式：SENDKEYS
+2019-01-17 19:02:11,116 [INFO]:        默认值：测试备注
+2019-01-17 19:02:11,124 [INFO]:        是否随机数：true
+2019-01-17 19:02:11,131 [INFO]:        等待时间：0
+2019-01-17 19:02:11,138 [INFO]: 开始执行操作
+2019-01-17 19:02:11,257 [INFO]: 等待时间：0
+2019-01-17 19:02:11,265 [INFO]: 当前iframe(申请信息)操作元素：
+2019-01-17 19:02:11,272 [INFO]:        定位方式：XPATH
+2019-01-17 19:02:11,280 [INFO]:        定位路径：//input[@name='GETSFZXYTDDZ'and@value='0']
+2019-01-17 19:02:11,294 [INFO]:        操作方式：CLICK
+2019-01-17 19:02:11,301 [INFO]:        默认值：
+2019-01-17 19:02:11,310 [INFO]:        是否随机数：false
+2019-01-17 19:02:11,319 [INFO]:        等待时间：0
+2019-01-17 19:02:11,328 [INFO]: 开始执行操作
+2019-01-17 19:02:11,335 [INFO]: 元素可见了吧
+2019-01-17 19:02:11,352 [INFO]: 已经判断完成可点击了：element to be clickable: [[ChromeDriver: chrome on XP (b68443df2b882d94a9a803ae2efa02ac)] -> xpath: //input[@name='GETSFZXYTDDZ'and@value='0']]
+2019-01-17 19:02:11,448 [INFO]: 已经完成点击事件了
+2019-01-17 19:02:11,455 [INFO]: 等待时间：0
+2019-01-17 19:02:11,462 [INFO]: 当前iframe(申请信息)操作元素：
+2019-01-17 19:02:11,469 [INFO]:        定位方式：XPATH
+2019-01-17 19:02:11,484 [INFO]:        定位路径：//span[@class=' x-emb-submit']
+2019-01-17 19:02:11,492 [INFO]:        操作方式：CLICK
+2019-01-17 19:02:11,500 [INFO]:        默认值：
+2019-01-17 19:02:11,507 [INFO]:        是否随机数：false
+2019-01-17 19:02:11,521 [INFO]:        等待时间：3000
+2019-01-17 19:02:11,528 [INFO]: 开始执行操作
+2019-01-17 19:02:11,629 [INFO]: 开始等待大保存完毕
+2019-01-17 19:02:24,347 [INFO]: 大保存完毕
+2019-01-17 19:02:24,369 [INFO]: 等待时间：3000
+2019-01-17 19:02:24,376 [INFO]: 3000
+2019-01-17 19:02:24,383 [INFO]: 2019-01-17 19:02:24
+2019-01-17 19:02:24,391 [INFO]: 是否存在Ajax请求：true,IRL地址http://192.168.2.119:8084/GisqQueryList/views/reports/realestate/common/acceptance/Acceptance_HouseRight_Initial.jsp?reportlet=realestate/common/acceptance/Acceptance_HouseRight_Initial.cpt&op=write&BDFR_GUID=f186c61b-e05d-11e5-8188-000c29187a9e&ID=2c69eb6d-1a47-11e9-b0f7-00505683a231&CATEGORY=BDC03&RECORDNUMBER=0e5107e9-06ba-444b-b926-4c27bc8de711&BIZDEF_GUID=f18677f1-e05d-11e5-8188-000c29187a9e&BIZINST_GUID=25064993-1a47-11e9-b0f7-00505683a231&TYPE=form&userId=f2e37658-69d2-11e5-a045-000c297c0f34&TRANSACTOR=zscs&aid=sid-075095F3-5F75-4295-B4D1-5843F0D20C8E&ACTDEFID=sid-075095F3-5F75-4295-B4D1-5843F0D20C8E&tid=23486ce9-1a47-11e9-9f98-00505683a231&ACTINSTID=23486ce9-1a47-11e9-9f98-00505683a231&pid=2d107839-0de3-11e6-b878-000c2984e60c&PRODEFID=2d107839-0de3-11e6-b878-000c2984e60c&instid=23455fa3-1a47-11e9-9f98-00505683a231&PROINSTID=23455fa3-1a47-11e9-9f98-00505683a231&businesskey=20190117-0000804&PROJECTID=20190117-0000804&LCBM=2101&HJDM=SJ&XZQBM=3314,33&task_state=firstTask
+2019-01-17 19:02:24,413 [INFO]: 2019-01-17 19:02:24
+2019-01-17 19:02:24,424 [INFO]: 当前iframe(申请信息)操作元素：
+2019-01-17 19:02:24,436 [INFO]:        定位方式：
+2019-01-17 19:02:24,444 [INFO]:        定位路径：
+2019-01-17 19:02:24,462 [INFO]:        操作方式：SHOOT
+2019-01-17 19:02:24,469 [INFO]:        默认值：大保存
+2019-01-17 19:02:24,478 [INFO]:        是否随机数：false
+2019-01-17 19:02:24,485 [INFO]:        等待时间：3000
+2019-01-17 19:02:24,507 [INFO]: 开始执行操作
+2019-01-17 19:02:24,513 [INFO]: real_scrol:1236
+2019-01-17 19:02:24,519 [INFO]: real_top:610
+2019-01-17 19:02:40,912 [INFO]: 这不是底部啊
+2019-01-17 19:02:40,937 [INFO]: i:1
+2019-01-17 19:02:40,945 [INFO]: height:450
+2019-01-17 19:02:51,082 [INFO]: 这不是底部啊
+2019-01-17 19:02:51,107 [INFO]: i:2
+2019-01-17 19:02:51,114 [INFO]: height:900
+2019-01-17 19:03:01,238 [INFO]: 这不是底部啊
+2019-01-17 19:03:01,244 [INFO]: i:3
+2019-01-17 19:03:01,261 [INFO]: height:1350
+2019-01-17 19:03:01,268 [INFO]: 等待时间：3000
+2019-01-17 19:03:01,274 [INFO]: 3000
+2019-01-17 19:03:01,280 [INFO]: 2019-01-17 19:03:01
+2019-01-17 19:03:01,293 [INFO]: 是否存在Ajax请求：true,IRL地址http://192.168.2.119:8084/GisqQueryList/views/reports/realestate/common/acceptance/Acceptance_HouseRight_Initial.jsp?reportlet=realestate/common/acceptance/Acceptance_HouseRight_Initial.cpt&op=write&BDFR_GUID=f186c61b-e05d-11e5-8188-000c29187a9e&ID=2c69eb6d-1a47-11e9-b0f7-00505683a231&CATEGORY=BDC03&RECORDNUMBER=0e5107e9-06ba-444b-b926-4c27bc8de711&BIZDEF_GUID=f18677f1-e05d-11e5-8188-000c29187a9e&BIZINST_GUID=25064993-1a47-11e9-b0f7-00505683a231&TYPE=form&userId=f2e37658-69d2-11e5-a045-000c297c0f34&TRANSACTOR=zscs&aid=sid-075095F3-5F75-4295-B4D1-5843F0D20C8E&ACTDEFID=sid-075095F3-5F75-4295-B4D1-5843F0D20C8E&tid=23486ce9-1a47-11e9-9f98-00505683a231&ACTINSTID=23486ce9-1a47-11e9-9f98-00505683a231&pid=2d107839-0de3-11e6-b878-000c2984e60c&PRODEFID=2d107839-0de3-11e6-b878-000c2984e60c&instid=23455fa3-1a47-11e9-9f98-00505683a231&PROINSTID=23455fa3-1a47-11e9-9f98-00505683a231&businesskey=20190117-0000804&PROJECTID=20190117-0000804&LCBM=2101&HJDM=SJ&XZQBM=3314,33&task_state=firstTask
+2019-01-17 19:03:01,300 [INFO]: 2019-01-17 19:03:01
+2019-01-17 19:03:02,284 [INFO]: 开始操作Ifame，Iframe名称：不动产登记申请书
+2019-01-17 19:03:04,401 [INFO]: 不动产登记申请书
+2019-01-17 19:03:04,506 [INFO]: 点击完成1
+2019-01-17 19:03:06,959 [INFO]: 获取到所有的iframe了2019-01-17 19:03:06
+2019-01-17 19:03:06,992 [INFO]: ifame地址1是：realestate/ReportServer?reportlet=realestate/apply/Info_ApplyForm.cpt2019-01-17 19:03:06
+2019-01-17 19:03:07,012 [INFO]: 获取到ID是：TAB_IF_2c6a3a04-1a47-11e9-b0f7-00505683a2312019-01-17 19:03:07
+2019-01-17 19:03:09,066 [INFO]: 切换到指定的iframe了2019-01-17 19:03:09
+2019-01-17 19:03:09,074 [INFO]: Iframe地址：realestate/ReportServer?reportlet=realestate/apply/Info_ApplyForm.cpt
+2019-01-17 19:03:09,086 [INFO]: 当前iframe(不动产登记申请书)操作元素：
+2019-01-17 19:03:09,093 [INFO]:        定位方式：
+2019-01-17 19:03:09,108 [INFO]:        定位路径：
+2019-01-17 19:03:09,114 [INFO]:        操作方式：FRExport
+2019-01-17 19:03:09,120 [INFO]:        默认值：申请书
+2019-01-17 19:03:09,140 [INFO]:        是否随机数：false
+2019-01-17 19:03:09,146 [INFO]:        等待时间：3000
+2019-01-17 19:03:09,152 [INFO]: 开始执行操作
+2019-01-17 19:03:13,739 [INFO]: 等待时间：3000
+2019-01-17 19:03:13,747 [INFO]: 3000
+2019-01-17 19:03:13,754 [INFO]: 2019-01-17 19:03:13
+2019-01-17 19:03:13,770 [INFO]: 是否存在Ajax请求：true,IRL地址http://192.168.2.119:8084/realestate/ReportServer?reportlet=realestate/apply/Info_ApplyForm.cpt&op=write&op=write&BDFR_GUID=f186c613-e05d-11e5-8188-000c29187a9e&ID=2c6a3a04-1a47-11e9-b0f7-00505683a231&CATEGORY=BDC03&RECORDNUMBER=0e5107e9-06ba-444b-b926-4c27bc8de711&BIZDEF_GUID=f18677f1-e05d-11e5-8188-000c29187a9e&BIZINST_GUID=25064993-1a47-11e9-b0f7-00505683a231&TYPE=form&userId=f2e37658-69d2-11e5-a045-000c297c0f34&TRANSACTOR=zscs&aid=sid-075095F3-5F75-4295-B4D1-5843F0D20C8E&ACTDEFID=sid-075095F3-5F75-4295-B4D1-5843F0D20C8E&tid=23486ce9-1a47-11e9-9f98-00505683a231&ACTINSTID=23486ce9-1a47-11e9-9f98-00505683a231&pid=2d107839-0de3-11e6-b878-000c2984e60c&PRODEFID=2d107839-0de3-11e6-b878-000c2984e60c&instid=23455fa3-1a47-11e9-9f98-00505683a231&PROINSTID=23455fa3-1a47-11e9-9f98-00505683a231&businesskey=20190117-0000804&PROJECTID=20190117-0000804&LCBM=2101&HJDM=SJ&XZQBM=3314,33&task_state=firstTask
+2019-01-17 19:03:13,780 [INFO]: 2019-01-17 19:03:13
+2019-01-17 19:03:14,806 [INFO]: 开始操作Ifame，Iframe名称：不动产分摊凭证
+2019-01-17 19:03:16,928 [INFO]: 不动产分摊凭证
+2019-01-17 19:03:17,035 [INFO]: 点击完成1
+2019-01-17 19:03:17,259 [INFO]: 获取到所有的iframe了2019-01-17 19:03:17
+2019-01-17 19:03:17,305 [INFO]: ifame地址1是：realestate/ReportServer?reportlet=realestate/house/common/HouseDetailedList_SC.cpt2019-01-17 19:03:17
+2019-01-17 19:03:17,330 [INFO]: 获取到ID是：TAB_IF_2c6a3a0b-1a47-11e9-b0f7-00505683a2312019-01-17 19:03:17
+2019-01-17 19:03:19,402 [INFO]: 切换到指定的iframe了2019-01-17 19:03:19
+2019-01-17 19:03:19,409 [INFO]: Iframe地址：realestate/ReportServer?reportlet=realestate/house/common/HouseDetailedList_SC.cpt
+2019-01-17 19:03:19,424 [INFO]: 当前iframe(不动产分摊凭证)操作元素：
+2019-01-17 19:03:19,432 [INFO]:        定位方式：
+2019-01-17 19:03:19,439 [INFO]:        定位路径：
+2019-01-17 19:03:19,451 [INFO]:        操作方式：FRExport
+2019-01-17 19:03:19,458 [INFO]:        默认值：不动产分摊凭证
+2019-01-17 19:03:19,467 [INFO]:        是否随机数：false
+2019-01-17 19:03:19,477 [INFO]:        等待时间：3000
+2019-01-17 19:03:19,483 [INFO]: 开始执行操作
+2019-01-17 19:03:20,322 [INFO]: 等待时间：3000
+2019-01-17 19:03:20,328 [INFO]: 3000
+2019-01-17 19:03:20,342 [INFO]: 2019-01-17 19:03:20
+2019-01-17 19:03:20,348 [INFO]: 是否存在Ajax请求：true,IRL地址http://192.168.2.119:8084/realestate/ReportServer?reportlet=realestate/house/common/HouseDetailedList_SC.cpt&op=write&BDFR_GUID=b5dcba2b-02d5-11e6-8305-000c2984e60c&ID=2c6a3a0b-1a47-11e9-b0f7-00505683a231&CATEGORY=BDC03&RECORDNUMBER=0e5107e9-06ba-444b-b926-4c27bc8de711&BIZDEF_GUID=f18677f1-e05d-11e5-8188-000c29187a9e&BIZINST_GUID=25064993-1a47-11e9-b0f7-00505683a231&TYPE=form&userId=f2e37658-69d2-11e5-a045-000c297c0f34&TRANSACTOR=zscs&aid=sid-075095F3-5F75-4295-B4D1-5843F0D20C8E&ACTDEFID=sid-075095F3-5F75-4295-B4D1-5843F0D20C8E&tid=23486ce9-1a47-11e9-9f98-00505683a231&ACTINSTID=23486ce9-1a47-11e9-9f98-00505683a231&pid=2d107839-0de3-11e6-b878-000c2984e60c&PRODEFID=2d107839-0de3-11e6-b878-000c2984e60c&instid=23455fa3-1a47-11e9-9f98-00505683a231&PROINSTID=23455fa3-1a47-11e9-9f98-00505683a231&businesskey=20190117-0000804&PROJECTID=20190117-0000804&LCBM=2101&HJDM=SJ&XZQBM=3314,33&task_state=firstTask
+2019-01-17 19:03:20,355 [INFO]: 2019-01-17 19:03:20
+2019-01-17 19:03:21,369 [INFO]: 开始操作Ifame，Iframe名称：单元信息变化查询
+2019-01-17 19:03:23,479 [INFO]: 单元信息变化查询
+2019-01-17 19:03:23,549 [INFO]: 点击完成1
+2019-01-17 19:03:23,577 [INFO]: 单元信息变化查询
+2019-01-17 19:03:23,671 [INFO]: 点击完成1
+2019-01-17 19:03:23,942 [INFO]: 获取到所有的iframe了2019-01-17 19:03:23
+2019-01-17 19:03:23,995 [INFO]: ifame地址1是：GisqQueryList/views/reports/realestate/house/housedetailed/HouseDetailedList_CX.jsp?reportlet=realestate/house/housedetailed/HouseDetailedList_CX.cpt2019-01-17 19:03:23
+2019-01-17 19:03:24,009 [INFO]: 获取到ID是：TAB_IF_2c6a12c5-1a47-11e9-b0f7-00505683a2312019-01-17 19:03:24
+2019-01-17 19:03:26,075 [INFO]: 切换到指定的iframe了2019-01-17 19:03:26
+2019-01-17 19:03:26,082 [INFO]: Iframe地址：GisqQueryList/views/reports/realestate/house/housedetailed/HouseDetailedList_CX.jsp?reportlet=realestate/house/housedetailed/HouseDetailedList_CX.cpt
+2019-01-17 19:03:26,092 [INFO]: 当前iframe(单元信息变化查询)操作元素：
+2019-01-17 19:03:26,112 [INFO]:        定位方式：
+2019-01-17 19:03:26,118 [INFO]:        定位路径：
+2019-01-17 19:03:26,125 [INFO]:        操作方式：SHOOT
+2019-01-17 19:03:26,134 [INFO]:        默认值：单元信息变化表
+2019-01-17 19:03:26,140 [INFO]:        是否随机数：false
+2019-01-17 19:03:26,146 [INFO]:        等待时间：3000
+2019-01-17 19:03:26,152 [INFO]: 开始执行操作
+2019-01-17 19:03:26,160 [INFO]: real_scrol:593
+2019-01-17 19:03:26,166 [INFO]: real_top:0
+2019-01-17 19:03:32,253 [INFO]: 这就是底部吗？
+2019-01-17 19:03:32,262 [INFO]: 等待时间：3000
+2019-01-17 19:03:32,269 [INFO]: 3000
+2019-01-17 19:03:32,275 [INFO]: 2019-01-17 19:03:32
+2019-01-17 19:03:32,282 [INFO]: 是否存在Ajax请求：true,IRL地址http://192.168.2.119:8084/GisqQueryList/views/reports/realestate/house/housedetailed/HouseDetailedList_CX.jsp?reportlet=realestate/house/housedetailed/HouseDetailedList_CX.cpt&op=write&BDFR_GUID=52411293-1b18-11e6-af76-0050568c3496&ID=2c6a12c5-1a47-11e9-b0f7-00505683a231&CATEGORY=BDC03&RECORDNUMBER=0e5107e9-06ba-444b-b926-4c27bc8de711&BIZDEF_GUID=f18677f1-e05d-11e5-8188-000c29187a9e&BIZINST_GUID=25064993-1a47-11e9-b0f7-00505683a231&TYPE=form&userId=f2e37658-69d2-11e5-a045-000c297c0f34&TRANSACTOR=zscs&aid=sid-075095F3-5F75-4295-B4D1-5843F0D20C8E&ACTDEFID=sid-075095F3-5F75-4295-B4D1-5843F0D20C8E&tid=23486ce9-1a47-11e9-9f98-00505683a231&ACTINSTID=23486ce9-1a47-11e9-9f98-00505683a231&pid=2d107839-0de3-11e6-b878-000c2984e60c&PRODEFID=2d107839-0de3-11e6-b878-000c2984e60c&instid=23455fa3-1a47-11e9-9f98-00505683a231&PROINSTID=23455fa3-1a47-11e9-9f98-00505683a231&businesskey=20190117-0000804&PROJECTID=20190117-0000804&LCBM=2101&HJDM=SJ&XZQBM=3314,33&task_state=firstTask
+2019-01-17 19:03:32,290 [INFO]: 2019-01-17 19:03:32
+2019-01-17 19:03:33,289 [INFO]: 开始操作Ifame，Iframe名称：不动产登记结果告知单
+2019-01-17 19:03:35,441 [INFO]: 不动产登记结果告知单
+2019-01-17 19:03:35,515 [INFO]: 点击完成1
+2019-01-17 19:03:35,550 [INFO]: 不动产登记结果告知单
+2019-01-17 19:03:35,656 [INFO]: 点击完成1
+2019-01-17 19:03:35,868 [INFO]: 获取到所有的iframe了2019-01-17 19:03:35
+2019-01-17 19:03:35,920 [INFO]: ifame地址1是：realestate/ReportServer?reportlet=realestate/common/acceptance/registration_results.cpt2019-01-17 19:03:35
+2019-01-17 19:03:35,940 [INFO]: 获取到ID是：TAB_IF_2c6a3a0f-1a47-11e9-b0f7-00505683a2312019-01-17 19:03:35
+2019-01-17 19:03:38,022 [INFO]: 切换到指定的iframe了2019-01-17 19:03:38
+2019-01-17 19:03:38,029 [INFO]: Iframe地址：realestate/ReportServer?reportlet=realestate/common/acceptance/registration_results.cpt
+2019-01-17 19:03:38,038 [INFO]: 当前iframe(不动产登记结果告知单)操作元素：
+2019-01-17 19:03:38,046 [INFO]:        定位方式：
+2019-01-17 19:03:38,053 [INFO]:        定位路径：
+2019-01-17 19:03:38,063 [INFO]:        操作方式：FRExport
+2019-01-17 19:03:38,078 [INFO]:        默认值：告知单
+2019-01-17 19:03:38,084 [INFO]:        是否随机数：false
+2019-01-17 19:03:38,091 [INFO]:        等待时间：3000
+2019-01-17 19:03:38,097 [INFO]: 开始执行操作
+2019-01-17 19:03:38,660 [INFO]: 等待时间：3000
+2019-01-17 19:03:38,671 [INFO]: 3000
+2019-01-17 19:03:38,678 [INFO]: 2019-01-17 19:03:38
+2019-01-17 19:03:38,686 [INFO]: 是否存在Ajax请求：true,IRL地址http://192.168.2.119:8084/realestate/ReportServer?reportlet=realestate/common/acceptance/registration_results.cpt&op=write&BDFR_GUID=c4663c27-1c04-11e6-9539-0050568c3496&ID=2c6a3a0f-1a47-11e9-b0f7-00505683a231&CATEGORY=BDC03&RECORDNUMBER=0e5107e9-06ba-444b-b926-4c27bc8de711&BIZDEF_GUID=f18677f1-e05d-11e5-8188-000c29187a9e&BIZINST_GUID=25064993-1a47-11e9-b0f7-00505683a231&TYPE=form&userId=f2e37658-69d2-11e5-a045-000c297c0f34&TRANSACTOR=zscs&aid=sid-075095F3-5F75-4295-B4D1-5843F0D20C8E&ACTDEFID=sid-075095F3-5F75-4295-B4D1-5843F0D20C8E&tid=23486ce9-1a47-11e9-9f98-00505683a231&ACTINSTID=23486ce9-1a47-11e9-9f98-00505683a231&pid=2d107839-0de3-11e6-b878-000c2984e60c&PRODEFID=2d107839-0de3-11e6-b878-000c2984e60c&instid=23455fa3-1a47-11e9-9f98-00505683a231&PROINSTID=23455fa3-1a47-11e9-9f98-00505683a231&businesskey=20190117-0000804&PROJECTID=20190117-0000804&LCBM=2101&HJDM=SJ&XZQBM=3314,33&task_state=firstTask
+2019-01-17 19:03:38,693 [INFO]: 2019-01-17 19:03:38
+2019-01-17 19:03:42,072 [INFO]: 转出
+2019-01-17 19:03:52,391 [INFO]: 项目编号20190117-0000804
+2019-01-17 19:03:55,956 [INFO]: 包的id：38bcedca-df88-11e5-b408-000c29187a9e
+2019-01-17 19:03:55,964 [INFO]: schemaid:05e220fe-b4a0-45b7-a649-ceaf2e18c251
+2019-01-17 19:03:55,972 [INFO]: schemaname:首次登记调试
+2019-01-17 19:03:55,980 [INFO]: prodef:2d107839-0de3-11e6-b878-000c2984e60c
+2019-01-17 19:03:55,991 [INFO]: prodef:首次登记
+2019-01-17 19:03:55,998 [INFO]: packname:国有建设用地使用权及房屋所有权（大宗地）
+2019-01-17 19:03:56,007 [INFO]: cchild:406d712e-c64b-45e6-b882-be1383e1ab34
+2019-01-17 19:03:56,036 [INFO]: childname:验证帆软表单输出
+2019-01-17 19:03:56,045 [INFO]: path:D:/SootScreen/2019-01-17 19_03/(首次登记调试)05e220fe-b4a0-45b7-a649-ceaf2e18c251/(验证帆软表单输出)406d712e-c64b-45e6-b882-be1383e1ab34/(国有建设用地使用权及房屋所有权（大宗地）)38bcedca-df88-11e5-b408-000c29187a9e/(首次登记)2d107839-0de3-11e6-b878-000c2984e60c/
+2019-01-17 19:03:58,133 [INFO]: 20190117-0000804
+2019-01-17 19:03:58,147 [INFO]: sid-919D701A-D922-4252-8200-16E74FFD5C47
+2019-01-17 19:03:58,158 [INFO]: 当前环节环节名称：初审,环节内码sid-919D701A-D922-4252-8200-16E74FFD5C47
+2019-01-17 19:03:58,191 [INFO]: 开始操作Ifame，Iframe名称：收费
+2019-01-17 19:04:01,837 [INFO]: 
+2019-01-17 19:04:01,941 [INFO]: 点击完成啦
+2019-01-17 19:04:01,980 [INFO]: 收费
+2019-01-17 19:04:02,072 [INFO]: 点击完成1
+2019-01-17 19:04:02,109 [INFO]: 收费
+2019-01-17 19:04:02,800 [INFO]: 点击完成1
+2019-01-17 19:04:02,825 [INFO]: 获取到所有的iframe了2019-01-17 19:04:02
+2019-01-17 19:04:02,853 [INFO]: ifame地址1是：GisqQueryList/rChargeServer?ver=house2019-01-17 19:04:02
+2019-01-17 19:04:02,871 [INFO]: 获取到ID是：TAB_IF_2c69eb70-1a47-11e9-b0f7-00505683a2312019-01-17 19:04:02
+2019-01-17 19:04:04,960 [INFO]: 切换到指定的iframe了2019-01-17 19:04:04
+2019-01-17 19:04:04,968 [INFO]: Iframe地址：GisqQueryList/rChargeServer?ver=house
+2019-01-17 19:04:04,988 [INFO]: 当前iframe(收费)操作元素：
+2019-01-17 19:04:04,997 [INFO]:        定位方式：ID
+2019-01-17 19:04:05,021 [INFO]:        定位路径：checkAll
+2019-01-17 19:04:05,029 [INFO]:        操作方式：CLICK
+2019-01-17 19:04:05,035 [INFO]:        默认值：
+2019-01-17 19:04:05,042 [INFO]:        是否随机数：false
+2019-01-17 19:04:05,066 [INFO]:        等待时间：0
+2019-01-17 19:04:05,075 [INFO]: 开始执行操作
+2019-01-17 19:04:05,081 [INFO]: 元素可见了吧
+2019-01-17 19:04:05,097 [INFO]: 已经判断完成可点击了：element to be clickable: [[ChromeDriver: chrome on XP (b68443df2b882d94a9a803ae2efa02ac)] -> id: checkAll]
+2019-01-17 19:04:05,193 [INFO]: 已经完成点击事件了
+2019-01-17 19:04:05,201 [INFO]: 等待时间：0
+2019-01-17 19:04:05,224 [INFO]: 当前iframe(收费)操作元素：
+2019-01-17 19:04:05,231 [INFO]:        定位方式：ID
+2019-01-17 19:04:05,239 [INFO]:        定位路径：btn_save
+2019-01-17 19:04:05,253 [INFO]:        操作方式：CLICK
+2019-01-17 19:04:05,261 [INFO]:        默认值：
+2019-01-17 19:04:05,267 [INFO]:        是否随机数：false
+2019-01-17 19:04:05,275 [INFO]:        等待时间：0
+2019-01-17 19:04:05,302 [INFO]: 开始执行操作
+2019-01-17 19:04:05,308 [INFO]: 元素可见了吧
+2019-01-17 19:04:05,335 [INFO]: 已经判断完成可点击了：element to be clickable: [[ChromeDriver: chrome on XP (b68443df2b882d94a9a803ae2efa02ac)] -> id: btn_save]
+2019-01-17 19:04:05,681 [INFO]: 已经完成点击事件了
+2019-01-17 19:04:05,689 [INFO]: 等待时间：0
+2019-01-17 19:04:06,718 [INFO]: 开始操作Ifame，Iframe名称：审批表
+2019-01-17 19:04:08,831 [INFO]: 审批表
+2019-01-17 19:04:08,910 [INFO]: 点击完成1
+2019-01-17 19:04:08,931 [INFO]: 获取到所有的iframe了2019-01-17 19:04:08
+2019-01-17 19:04:08,962 [INFO]: ifame地址1是：realestate/ReportServer?reportlet=realestate/common/approveform/ApproveForm_TZ.cpt2019-01-17 19:04:08
+2019-01-17 19:04:08,986 [INFO]: 获取到ID是：TAB_IF_2c6a129b-1a47-11e9-b0f7-00505683a2312019-01-17 19:04:08
+2019-01-17 19:04:11,048 [INFO]: 切换到指定的iframe了2019-01-17 19:04:11
+2019-01-17 19:04:11,056 [INFO]: Iframe地址：realestate/ReportServer?reportlet=realestate/common/approveform/ApproveForm_TZ.cpt
+2019-01-17 19:04:11,071 [INFO]: 当前iframe(审批表)操作元素：
+2019-01-17 19:04:11,079 [INFO]:        定位方式：XPATH
+2019-01-17 19:04:11,087 [INFO]:        定位路径：//div[@title='意见页']
+2019-01-17 19:04:11,095 [INFO]:        操作方式：CLICK
+2019-01-17 19:04:11,106 [INFO]:        默认值：
+2019-01-17 19:04:11,120 [INFO]:        是否随机数：false
+2019-01-17 19:04:11,129 [INFO]:        等待时间：1000
+2019-01-17 19:04:11,139 [INFO]: 开始执行操作
+2019-01-17 19:04:11,150 [INFO]: 元素可见了吧
+2019-01-17 19:04:11,168 [INFO]: 已经判断完成可点击了：element to be clickable: [[ChromeDriver: chrome on XP (b68443df2b882d94a9a803ae2efa02ac)] -> xpath: //div[@title='意见页']]
+2019-01-17 19:04:11,287 [INFO]: 已经完成点击事件了
+2019-01-17 19:04:11,297 [INFO]: 等待时间：1000
+2019-01-17 19:04:11,308 [INFO]: 1000
+2019-01-17 19:04:11,320 [INFO]: 2019-01-17 19:04:11
+2019-01-17 19:04:11,338 [INFO]: 是否存在Ajax请求：true,IRL地址http://192.168.2.119:8084/realestate/ReportServer?reportlet=realestate/common/approveform/ApproveForm.cpt&op=write&BDFR_GUID=f186c615-e05d-11e5-8188-000c29187a9e&ID=2c6a129b-1a47-11e9-b0f7-00505683a231&CATEGORY=BDC03&RECORDNUMBER=0e5107e9-06ba-444b-b926-4c27bc8de711&BIZDEF_GUID=f18677f1-e05d-11e5-8188-000c29187a9e&BIZINST_GUID=25064993-1a47-11e9-b0f7-00505683a231&TYPE=form&userId=f2e37658-69d2-11e5-a045-000c297c0f34&TRANSACTOR=zscs&aid=sid-919D701A-D922-4252-8200-16E74FFD5C47&ACTDEFID=sid-919D701A-D922-4252-8200-16E74FFD5C47&tid=8e8f7fd7-1a47-11e9-9f98-00505683a231&ACTINSTID=8e8f7fd7-1a47-11e9-9f98-00505683a231&pid=2d107839-0de3-11e6-b878-000c2984e60c&PRODEFID=2d107839-0de3-11e6-b878-000c2984e60c&instid=23455fa3-1a47-11e9-9f98-00505683a231&PROINSTID=23455fa3-1a47-11e9-9f98-00505683a231&businesskey=20190117-0000804&PROJECTID=20190117-0000804&LCBM=2101&HJDM=CS&XZQBM=3314,33&task_state=null
+2019-01-17 19:04:11,346 [INFO]: 2019-01-17 19:04:11
+2019-01-17 19:04:11,369 [INFO]: 当前iframe(审批表)操作元素：
+2019-01-17 19:04:11,377 [INFO]:        定位方式：ID
+2019-01-17 19:04:11,386 [INFO]:        定位路径：GTCSYJ
+2019-01-17 19:04:11,394 [INFO]:        操作方式：FR
+2019-01-17 19:04:11,417 [INFO]:        默认值：倪明奇初审意见
+2019-01-17 19:04:11,424 [INFO]:        是否随机数：true
+2019-01-17 19:04:11,435 [INFO]:        等待时间：0
+2019-01-17 19:04:11,444 [INFO]: 开始执行操作
+2019-01-17 19:04:11,829 [INFO]: 等待时间：0
+2019-01-17 19:04:11,836 [INFO]: 当前iframe(审批表)操作元素：
+2019-01-17 19:04:11,852 [INFO]:        定位方式：ID
+2019-01-17 19:04:11,859 [INFO]:        定位路径：GTCSR
+2019-01-17 19:04:11,884 [INFO]:        操作方式：FR
+2019-01-17 19:04:11,890 [INFO]:        默认值：倪明奇初审
+2019-01-17 19:04:11,897 [INFO]:        是否随机数：false
+2019-01-17 19:04:11,903 [INFO]:        等待时间：0
+2019-01-17 19:04:11,914 [INFO]: 开始执行操作
+2019-01-17 19:04:12,340 [INFO]: 等待时间：0
+2019-01-17 19:04:12,356 [INFO]: 当前iframe(审批表)操作元素：
+2019-01-17 19:04:12,362 [INFO]:        定位方式：ID
+2019-01-17 19:04:12,370 [INFO]:        定位路径：FCCSSJ
+2019-01-17 19:04:12,379 [INFO]:        操作方式：FR
+2019-01-17 19:04:12,386 [INFO]:        默认值：{NOW}
+2019-01-17 19:04:12,398 [INFO]:        是否随机数：false
+2019-01-17 19:04:12,405 [INFO]:        等待时间：0
+2019-01-17 19:04:12,414 [INFO]: 开始执行操作
+2019-01-17 19:04:12,853 [INFO]: 等待时间：0
+2019-01-17 19:04:12,859 [INFO]: 当前iframe(审批表)操作元素：
+2019-01-17 19:04:12,866 [INFO]:        定位方式：XPATH
+2019-01-17 19:04:12,902 [INFO]:        定位路径：//button[@class='fr-btn-text x-emb-submit']
+2019-01-17 19:04:12,907 [INFO]:        操作方式：CLICK
+2019-01-17 19:04:12,914 [INFO]:        默认值：
+2019-01-17 19:04:12,920 [INFO]:        是否随机数：false
+2019-01-17 19:04:12,927 [INFO]:        等待时间：0
+2019-01-17 19:04:12,953 [INFO]: 开始执行操作
+2019-01-17 19:04:12,980 [INFO]: 元素可见了吧
+2019-01-17 19:04:13,010 [INFO]: 已经判断完成可点击了：element to be clickable: [[ChromeDriver: chrome on XP (b68443df2b882d94a9a803ae2efa02ac)] -> xpath: //button[@class='fr-btn-text x-emb-submit']]
+2019-01-17 19:04:13,302 [INFO]: 已经完成点击事件了
+2019-01-17 19:04:13,310 [INFO]: 等待时间：0
+2019-01-17 19:04:16,645 [INFO]: 转出
+2019-01-17 19:04:26,649 [INFO]: 项目编号20190117-0000804
+2019-01-17 19:04:30,097 [INFO]: 包的id：38bcedca-df88-11e5-b408-000c29187a9e
+2019-01-17 19:04:30,105 [INFO]: schemaid:05e220fe-b4a0-45b7-a649-ceaf2e18c251
+2019-01-17 19:04:30,115 [INFO]: schemaname:首次登记调试
+2019-01-17 19:04:30,121 [INFO]: prodef:2d107839-0de3-11e6-b878-000c2984e60c
+2019-01-17 19:04:30,129 [INFO]: prodef:首次登记
+2019-01-17 19:04:30,151 [INFO]: packname:国有建设用地使用权及房屋所有权（大宗地）
+2019-01-17 19:04:30,159 [INFO]: cchild:406d712e-c64b-45e6-b882-be1383e1ab34
+2019-01-17 19:04:30,166 [INFO]: childname:验证帆软表单输出
+2019-01-17 19:04:30,173 [INFO]: path:D:/SootScreen/2019-01-17 19_04/(首次登记调试)05e220fe-b4a0-45b7-a649-ceaf2e18c251/(验证帆软表单输出)406d712e-c64b-45e6-b882-be1383e1ab34/(国有建设用地使用权及房屋所有权（大宗地）)38bcedca-df88-11e5-b408-000c29187a9e/(首次登记)2d107839-0de3-11e6-b878-000c2984e60c/
+2019-01-17 19:04:32,182 [INFO]: 20190117-0000804
+2019-01-17 19:04:32,190 [INFO]: sid-EB9DF64C-1CF1-495C-B7FE-906BCDD56F7C
+2019-01-17 19:04:32,210 [INFO]: 当前环节环节名称：复审,环节内码sid-EB9DF64C-1CF1-495C-B7FE-906BCDD56F7C
+2019-01-17 19:04:32,218 [INFO]: 开始操作Ifame，Iframe名称：审批表
+2019-01-17 19:04:34,777 [INFO]: 
+2019-01-17 19:04:34,888 [INFO]: 点击完成啦
+2019-01-17 19:04:34,921 [INFO]: 审批表
+2019-01-17 19:04:35,027 [INFO]: 点击完成1
+2019-01-17 19:04:35,091 [INFO]: 获取到所有的iframe了2019-01-17 19:04:35
+2019-01-17 19:04:35,142 [INFO]: ifame地址1是：realestate/ReportServer?reportlet=realestate/common/approveform/ApproveForm_TZ.cpt2019-01-17 19:04:35
+2019-01-17 19:04:35,162 [INFO]: 获取到ID是：TAB_IF_2c6a129b-1a47-11e9-b0f7-00505683a2312019-01-17 19:04:35
+2019-01-17 19:04:37,205 [INFO]: 切换到指定的iframe了2019-01-17 19:04:37
+2019-01-17 19:04:37,213 [INFO]: Iframe地址：realestate/ReportServer?reportlet=realestate/common/approveform/ApproveForm_TZ.cpt
+2019-01-17 19:04:37,225 [INFO]: 当前iframe(审批表)操作元素：
+2019-01-17 19:04:37,239 [INFO]:        定位方式：XPATH
+2019-01-17 19:04:37,247 [INFO]:        定位路径：//div[@title='意见页']
+2019-01-17 19:04:37,256 [INFO]:        操作方式：CLICK
+2019-01-17 19:04:37,264 [INFO]:        默认值：
+2019-01-17 19:04:37,275 [INFO]:        是否随机数：false
+2019-01-17 19:04:37,296 [INFO]:        等待时间：1000
+2019-01-17 19:04:37,319 [INFO]: 开始执行操作
+2019-01-17 19:04:37,327 [INFO]: 元素可见了吧
+2019-01-17 19:04:37,337 [INFO]: 已经判断完成可点击了：element to be clickable: [[ChromeDriver: chrome on XP (b68443df2b882d94a9a803ae2efa02ac)] -> xpath: //div[@title='意见页']]
+2019-01-17 19:04:37,455 [INFO]: 已经完成点击事件了
+2019-01-17 19:04:37,483 [INFO]: 等待时间：1000
+2019-01-17 19:04:37,493 [INFO]: 1000
+2019-01-17 19:04:37,513 [INFO]: 2019-01-17 19:04:37
+2019-01-17 19:04:37,521 [INFO]: 是否存在Ajax请求：true,IRL地址http://192.168.2.119:8084/realestate/ReportServer?reportlet=realestate/common/approveform/ApproveForm.cpt&op=write&BDFR_GUID=f186c615-e05d-11e5-8188-000c29187a9e&ID=2c6a129b-1a47-11e9-b0f7-00505683a231&CATEGORY=BDC03&RECORDNUMBER=0e5107e9-06ba-444b-b926-4c27bc8de711&BIZDEF_GUID=f18677f1-e05d-11e5-8188-000c29187a9e&BIZINST_GUID=25064993-1a47-11e9-b0f7-00505683a231&TYPE=form&userId=f2e37658-69d2-11e5-a045-000c297c0f34&TRANSACTOR=zscs&aid=sid-EB9DF64C-1CF1-495C-B7FE-906BCDD56F7C&ACTDEFID=sid-EB9DF64C-1CF1-495C-B7FE-906BCDD56F7C&tid=a2c96ac0-1a47-11e9-9f98-00505683a231&ACTINSTID=a2c96ac0-1a47-11e9-9f98-00505683a231&pid=2d107839-0de3-11e6-b878-000c2984e60c&PRODEFID=2d107839-0de3-11e6-b878-000c2984e60c&instid=23455fa3-1a47-11e9-9f98-00505683a231&PROINSTID=23455fa3-1a47-11e9-9f98-00505683a231&businesskey=20190117-0000804&PROJECTID=20190117-0000804&LCBM=2101&HJDM=FS&XZQBM=3314,33&task_state=null
+2019-01-17 19:04:37,530 [INFO]: 2019-01-17 19:04:37
+2019-01-17 19:04:37,545 [INFO]: 当前iframe(审批表)操作元素：
+2019-01-17 19:04:37,554 [INFO]:        定位方式：ID
+2019-01-17 19:04:37,563 [INFO]:        定位路径：GTFSYJ
+2019-01-17 19:04:37,571 [INFO]:        操作方式：FR
+2019-01-17 19:04:37,593 [INFO]:        默认值：复审意见
+2019-01-17 19:04:37,603 [INFO]:        是否随机数：true
+2019-01-17 19:04:37,611 [INFO]:        等待时间：0
+2019-01-17 19:04:37,624 [INFO]: 开始执行操作
+2019-01-17 19:04:37,999 [INFO]: 等待时间：0
+2019-01-17 19:04:38,007 [INFO]: 当前iframe(审批表)操作元素：
+2019-01-17 19:04:38,013 [INFO]:        定位方式：ID
+2019-01-17 19:04:38,020 [INFO]:        定位路径：GTFSR
+2019-01-17 19:04:38,045 [INFO]:        操作方式：FR
+2019-01-17 19:04:38,053 [INFO]:        默认值：复审人-倪明奇
+2019-01-17 19:04:38,062 [INFO]:        是否随机数：true
+2019-01-17 19:04:38,070 [INFO]:        等待时间：0
+2019-01-17 19:04:38,089 [INFO]: 开始执行操作
+2019-01-17 19:04:38,505 [INFO]: 等待时间：0
+2019-01-17 19:04:38,511 [INFO]: 当前iframe(审批表)操作元素：
+2019-01-17 19:04:38,520 [INFO]:        定位方式：ID
+2019-01-17 19:04:38,535 [INFO]:        定位路径：FCFSSJ
+2019-01-17 19:04:38,544 [INFO]:        操作方式：FR
+2019-01-17 19:04:38,552 [INFO]:        默认值：2016-12-11
+2019-01-17 19:04:38,560 [INFO]:        是否随机数：false
+2019-01-17 19:04:38,572 [INFO]:        等待时间：0
+2019-01-17 19:04:38,580 [INFO]: 开始执行操作
+2019-01-17 19:04:39,014 [INFO]: 等待时间：0
+2019-01-17 19:04:39,023 [INFO]: 当前iframe(审批表)操作元素：
+2019-01-17 19:04:39,031 [INFO]:        定位方式：XPATH
+2019-01-17 19:04:39,065 [INFO]:        定位路径：//button[@class='fr-btn-text x-emb-submit']
+2019-01-17 19:04:39,075 [INFO]:        操作方式：CLICK
+2019-01-17 19:04:39,083 [INFO]:        默认值：
+2019-01-17 19:04:39,095 [INFO]:        是否随机数：false
+2019-01-17 19:04:39,108 [INFO]:        等待时间：0
+2019-01-17 19:04:39,116 [INFO]: 开始执行操作
+2019-01-17 19:04:39,124 [INFO]: 元素可见了吧
+2019-01-17 19:04:39,134 [INFO]: 已经判断完成可点击了：element to be clickable: [[ChromeDriver: chrome on XP (b68443df2b882d94a9a803ae2efa02ac)] -> xpath: //button[@class='fr-btn-text x-emb-submit']]
+2019-01-17 19:04:39,381 [INFO]: 已经完成点击事件了
+2019-01-17 19:04:39,402 [INFO]: 等待时间：0
+2019-01-17 19:04:42,741 [INFO]: 转出
+2019-01-17 19:04:52,758 [INFO]: 项目编号20190117-0000804
+2019-01-17 19:04:56,210 [INFO]: 包的id：38bcedca-df88-11e5-b408-000c29187a9e
+2019-01-17 19:04:56,218 [INFO]: schemaid:05e220fe-b4a0-45b7-a649-ceaf2e18c251
+2019-01-17 19:04:56,227 [INFO]: schemaname:首次登记调试
+2019-01-17 19:04:56,234 [INFO]: prodef:2d107839-0de3-11e6-b878-000c2984e60c
+2019-01-17 19:04:56,241 [INFO]: prodef:首次登记
+2019-01-17 19:04:56,250 [INFO]: packname:国有建设用地使用权及房屋所有权（大宗地）
+2019-01-17 19:04:56,256 [INFO]: cchild:406d712e-c64b-45e6-b882-be1383e1ab34
+2019-01-17 19:04:56,264 [INFO]: childname:验证帆软表单输出
+2019-01-17 19:04:56,272 [INFO]: path:D:/SootScreen/2019-01-17 19_04/(首次登记调试)05e220fe-b4a0-45b7-a649-ceaf2e18c251/(验证帆软表单输出)406d712e-c64b-45e6-b882-be1383e1ab34/(国有建设用地使用权及房屋所有权（大宗地）)38bcedca-df88-11e5-b408-000c29187a9e/(首次登记)2d107839-0de3-11e6-b878-000c2984e60c/
+2019-01-17 19:04:58,286 [INFO]: 20190117-0000804
+2019-01-17 19:04:58,294 [INFO]: sid-C4D286DE-38D6-4793-BAEA-6257B46BCBEB
+2019-01-17 19:04:58,302 [INFO]: 当前环节环节名称：核定,环节内码sid-C4D286DE-38D6-4793-BAEA-6257B46BCBEB
+2019-01-17 19:04:58,308 [INFO]: 开始操作Ifame，Iframe名称：审批表
+2019-01-17 19:05:00,834 [INFO]: 
+2019-01-17 19:05:00,952 [INFO]: 点击完成啦
+2019-01-17 19:05:00,998 [INFO]: 审批表
+2019-01-17 19:05:01,113 [INFO]: 点击完成1
+2019-01-17 19:05:01,140 [INFO]: 获取到所有的iframe了2019-01-17 19:05:01
+2019-01-17 19:05:01,169 [INFO]: ifame地址1是：realestate/ReportServer?reportlet=realestate/common/approveform/ApproveForm_TZ.cpt2019-01-17 19:05:01
+2019-01-17 19:05:01,196 [INFO]: 获取到ID是：TAB_IF_2c6a129b-1a47-11e9-b0f7-00505683a2312019-01-17 19:05:01
+2019-01-17 19:05:03,257 [INFO]: 切换到指定的iframe了2019-01-17 19:05:03
+2019-01-17 19:05:03,266 [INFO]: Iframe地址：realestate/ReportServer?reportlet=realestate/common/approveform/ApproveForm_TZ.cpt
+2019-01-17 19:05:03,286 [INFO]: 当前iframe(审批表)操作元素：
+2019-01-17 19:05:03,293 [INFO]:        定位方式：XPATH
+2019-01-17 19:05:03,301 [INFO]:        定位路径：//div[@title='意见页']
+2019-01-17 19:05:03,312 [INFO]:        操作方式：CLICK
+2019-01-17 19:05:03,333 [INFO]:        默认值：
+2019-01-17 19:05:03,342 [INFO]:        是否随机数：false
+2019-01-17 19:05:03,350 [INFO]:        等待时间：1000
+2019-01-17 19:05:03,368 [INFO]: 开始执行操作
+2019-01-17 19:05:03,380 [INFO]: 元素可见了吧
+2019-01-17 19:05:03,392 [INFO]: 已经判断完成可点击了：element to be clickable: [[ChromeDriver: chrome on XP (b68443df2b882d94a9a803ae2efa02ac)] -> xpath: //div[@title='意见页']]
+2019-01-17 19:05:03,490 [INFO]: 已经完成点击事件了
+2019-01-17 19:05:03,499 [INFO]: 等待时间：1000
+2019-01-17 19:05:03,508 [INFO]: 1000
+2019-01-17 19:05:03,536 [INFO]: 2019-01-17 19:05:03
+2019-01-17 19:05:03,588 [INFO]: 是否存在Ajax请求：true,IRL地址http://192.168.2.119:8084/realestate/ReportServer?reportlet=realestate/common/approveform/ApproveForm.cpt&op=write&BDFR_GUID=f186c615-e05d-11e5-8188-000c29187a9e&ID=2c6a129b-1a47-11e9-b0f7-00505683a231&CATEGORY=BDC03&RECORDNUMBER=0e5107e9-06ba-444b-b926-4c27bc8de711&BIZDEF_GUID=f18677f1-e05d-11e5-8188-000c29187a9e&BIZINST_GUID=25064993-1a47-11e9-b0f7-00505683a231&TYPE=form&userId=f2e37658-69d2-11e5-a045-000c297c0f34&TRANSACTOR=zscs&aid=sid-C4D286DE-38D6-4793-BAEA-6257B46BCBEB&ACTDEFID=sid-C4D286DE-38D6-4793-BAEA-6257B46BCBEB&tid=b263b5d7-1a47-11e9-9f98-00505683a231&ACTINSTID=b263b5d7-1a47-11e9-9f98-00505683a231&pid=2d107839-0de3-11e6-b878-000c2984e60c&PRODEFID=2d107839-0de3-11e6-b878-000c2984e60c&instid=23455fa3-1a47-11e9-9f98-00505683a231&PROINSTID=23455fa3-1a47-11e9-9f98-00505683a231&businesskey=20190117-0000804&PROJECTID=20190117-0000804&LCBM=2101&HJDM=HD&XZQBM=3314,33&task_state=null
+2019-01-17 19:05:03,597 [INFO]: 2019-01-17 19:05:03
+2019-01-17 19:05:03,607 [INFO]: 当前iframe(审批表)操作元素：
+2019-01-17 19:05:03,628 [INFO]:        定位方式：ID
+2019-01-17 19:05:03,637 [INFO]:        定位路径：HDYJ
+2019-01-17 19:05:03,645 [INFO]:        操作方式：FR
+2019-01-17 19:05:03,654 [INFO]:        默认值：自动化测试核定意见
+2019-01-17 19:05:03,675 [INFO]:        是否随机数：true
+2019-01-17 19:05:03,682 [INFO]:        等待时间：0
+2019-01-17 19:05:03,690 [INFO]: 开始执行操作
+2019-01-17 19:05:04,100 [INFO]: 等待时间：0
+2019-01-17 19:05:04,105 [INFO]: 当前iframe(审批表)操作元素：
+2019-01-17 19:05:04,111 [INFO]:        定位方式：ID
+2019-01-17 19:05:04,118 [INFO]:        定位路径：HDFZR
+2019-01-17 19:05:04,144 [INFO]:        操作方式：FR
+2019-01-17 19:05:04,151 [INFO]:        默认值：测试核定人
+2019-01-17 19:05:04,158 [INFO]:        是否随机数：true
+2019-01-17 19:05:04,165 [INFO]:        等待时间：0
+2019-01-17 19:05:04,173 [INFO]: 开始执行操作
+2019-01-17 19:05:04,606 [INFO]: 等待时间：0
+2019-01-17 19:05:04,614 [INFO]: 当前iframe(审批表)操作元素：
+2019-01-17 19:05:04,621 [INFO]:        定位方式：ID
+2019-01-17 19:05:04,643 [INFO]:        定位路径：HDRQ
+2019-01-17 19:05:04,650 [INFO]:        操作方式：FR
+2019-01-17 19:05:04,657 [INFO]:        默认值：{NOW}
+2019-01-17 19:05:04,666 [INFO]:        是否随机数：false
+2019-01-17 19:05:04,672 [INFO]:        等待时间：0
+2019-01-17 19:05:04,689 [INFO]: 开始执行操作
+2019-01-17 19:05:05,114 [INFO]: 等待时间：0
+2019-01-17 19:05:05,124 [INFO]: 当前iframe(审批表)操作元素：
+2019-01-17 19:05:05,133 [INFO]:        定位方式：XPATH
+2019-01-17 19:05:05,159 [INFO]:        定位路径：//button[@class='fr-btn-text x-emb-submit']
+2019-01-17 19:05:05,167 [INFO]:        操作方式：CLICK
+2019-01-17 19:05:05,174 [INFO]:        默认值：
+2019-01-17 19:05:05,186 [INFO]:        是否随机数：false
+2019-01-17 19:05:05,205 [INFO]:        等待时间：0
+2019-01-17 19:05:05,216 [INFO]: 开始执行操作
+2019-01-17 19:05:05,228 [INFO]: 元素可见了吧
+2019-01-17 19:05:05,238 [INFO]: 已经判断完成可点击了：element to be clickable: [[ChromeDriver: chrome on XP (b68443df2b882d94a9a803ae2efa02ac)] -> xpath: //button[@class='fr-btn-text x-emb-submit']]
+2019-01-17 19:05:05,513 [INFO]: 已经完成点击事件了
+2019-01-17 19:05:05,521 [INFO]: 等待时间：0
+2019-01-17 19:05:08,863 [INFO]: 转出
+2019-01-17 19:05:18,923 [INFO]: 项目编号20190117-0000804
+2019-01-17 19:05:22,394 [INFO]: 包的id：38bcedca-df88-11e5-b408-000c29187a9e
+2019-01-17 19:05:22,403 [INFO]: schemaid:05e220fe-b4a0-45b7-a649-ceaf2e18c251
+2019-01-17 19:05:22,410 [INFO]: schemaname:首次登记调试
+2019-01-17 19:05:22,419 [INFO]: prodef:2d107839-0de3-11e6-b878-000c2984e60c
+2019-01-17 19:05:22,443 [INFO]: prodef:首次登记
+2019-01-17 19:05:22,451 [INFO]: packname:国有建设用地使用权及房屋所有权（大宗地）
+2019-01-17 19:05:22,458 [INFO]: cchild:406d712e-c64b-45e6-b882-be1383e1ab34
+2019-01-17 19:05:22,467 [INFO]: childname:验证帆软表单输出
+2019-01-17 19:05:22,476 [INFO]: path:D:/SootScreen/2019-01-17 19_05/(首次登记调试)05e220fe-b4a0-45b7-a649-ceaf2e18c251/(验证帆软表单输出)406d712e-c64b-45e6-b882-be1383e1ab34/(国有建设用地使用权及房屋所有权（大宗地）)38bcedca-df88-11e5-b408-000c29187a9e/(首次登记)2d107839-0de3-11e6-b878-000c2984e60c/
+2019-01-17 19:05:24,478 [INFO]: 20190117-0000804
+2019-01-17 19:05:24,487 [INFO]: sid-69DA37DF-F769-4B36-9EB1-B5AD0A9A5ED1
+2019-01-17 19:05:24,496 [INFO]: 当前环节环节名称：登簿,环节内码sid-69DA37DF-F769-4B36-9EB1-B5AD0A9A5ED1
+2019-01-17 19:05:24,505 [INFO]: 开始操作Ifame，Iframe名称：登簿
+2019-01-17 19:05:26,332 [INFO]: 
+2019-01-17 19:05:26,521 [INFO]: 点击完成啦
+2019-01-17 19:05:26,552 [INFO]: 登簿
+2019-01-17 19:05:26,627 [INFO]: 点击完成1
+2019-01-17 19:05:26,646 [INFO]: 获取到所有的iframe了2019-01-17 19:05:26
+2019-01-17 19:05:26,727 [INFO]: ifame地址1是：GisqQueryList/views/reports/realestate/common/recordregbook/RECertiRecordRegBook_Initial.jsp?reportlet=realestate/common/recordregbook/RECertiRecordRegBook_Initial.cpt2019-01-17 19:05:26
+2019-01-17 19:05:26,750 [INFO]: 获取到ID是：TAB_IF_2c6a1296-1a47-11e9-b0f7-00505683a2312019-01-17 19:05:26
+2019-01-17 19:05:28,844 [INFO]: 切换到指定的iframe了2019-01-17 19:05:28
+2019-01-17 19:05:28,852 [INFO]: Iframe地址：GisqQueryList/views/reports/realestate/common/recordregbook/RECertiRecordRegBook_Initial.jsp?reportlet=realestate/common/recordregbook/RECertiRecordRegBook_Initial.cpt
+2019-01-17 19:05:28,861 [INFO]: 当前iframe(登簿)操作元素：
+2019-01-17 19:05:28,870 [INFO]:        定位方式：XPATH
+2019-01-17 19:05:28,901 [INFO]:        定位路径：//button[@type='button']@@@保存
+2019-01-17 19:05:28,910 [INFO]:        操作方式：CLICK
+2019-01-17 19:05:28,920 [INFO]:        默认值：
+2019-01-17 19:05:28,949 [INFO]:        是否随机数：false
+2019-01-17 19:05:28,958 [INFO]:        等待时间：2000
+2019-01-17 19:05:28,966 [INFO]: 找到保存元素
+2019-01-17 19:05:28,977 [INFO]: 开始执行操作
+2019-01-17 19:05:28,994 [INFO]: 元素可见了吧
+2019-01-17 19:05:29,004 [INFO]: 已经判断完成可点击了：element to be clickable: [[ChromeDriver: chrome on XP (b68443df2b882d94a9a803ae2efa02ac)] -> xpath: //button[@type='button']]
+2019-01-17 19:05:33,760 [INFO]: 已经完成点击事件了
+2019-01-17 19:05:33,766 [INFO]: 等待时间：2000
+2019-01-17 19:05:33,799 [INFO]: 2000
+2019-01-17 19:05:33,814 [INFO]: 2019-01-17 19:05:33
+2019-01-17 19:05:33,827 [INFO]: 是否存在Ajax请求：true,IRL地址http://192.168.2.119:8084/GisqQueryList/views/reports/realestate/common/recordregbook/RECertiRecordRegBook_Initial_F.jsp?reportlet=realestate/common/recordregbook/RECertiRecordRegBook_Initial_F.cpt&op=write&BDFR_GUID=76cb87db-e68f-11e5-a54a-000c29187a9e&ID=2c6a1296-1a47-11e9-b0f7-00505683a231&CATEGORY=BDC03&RECORDNUMBER=0e5107e9-06ba-444b-b926-4c27bc8de711&BIZDEF_GUID=f18677f1-e05d-11e5-8188-000c29187a9e&BIZINST_GUID=25064993-1a47-11e9-b0f7-00505683a231&TYPE=form&userId=f2e37658-69d2-11e5-a045-000c297c0f34&TRANSACTOR=zscs&aid=sid-69DA37DF-F769-4B36-9EB1-B5AD0A9A5ED1&ACTDEFID=sid-69DA37DF-F769-4B36-9EB1-B5AD0A9A5ED1&tid=c1e98e8b-1a47-11e9-9f98-00505683a231&ACTINSTID=c1e98e8b-1a47-11e9-9f98-00505683a231&pid=2d107839-0de3-11e6-b878-000c2984e60c&PRODEFID=2d107839-0de3-11e6-b878-000c2984e60c&instid=23455fa3-1a47-11e9-9f98-00505683a231&PROINSTID=23455fa3-1a47-11e9-9f98-00505683a231&businesskey=20190117-0000804&PROJECTID=20190117-0000804&LCBM=2101&HJDM=DB&XZQBM=3314,33&task_state=null
+2019-01-17 19:05:33,838 [INFO]: 2019-01-17 19:05:33
+2019-01-17 19:05:33,846 [INFO]: 当前iframe(登簿)操作元素：
+2019-01-17 19:05:33,857 [INFO]:        定位方式：XPATH
+2019-01-17 19:05:33,866 [INFO]:        定位路径：//div[@class='btnSure']
+2019-01-17 19:05:33,875 [INFO]:        操作方式：CLICK
+2019-01-17 19:05:33,888 [INFO]:        默认值：
+2019-01-17 19:05:33,904 [INFO]:        是否随机数：false
+2019-01-17 19:05:33,915 [INFO]:        等待时间：3000
+2019-01-17 19:05:33,927 [INFO]: 开始执行操作
+2019-01-17 19:05:33,939 [INFO]: 元素可见了吧
+2019-01-17 19:05:33,962 [INFO]: 已经判断完成可点击了：element to be clickable: [[ChromeDriver: chrome on XP (b68443df2b882d94a9a803ae2efa02ac)] -> xpath: //div[@class='btnSure']]
+2019-01-17 19:05:34,040 [INFO]: 已经完成点击事件了
+2019-01-17 19:05:34,049 [INFO]: 等待时间：3000
+2019-01-17 19:05:34,061 [INFO]: 3000
+2019-01-17 19:05:34,081 [INFO]: 2019-01-17 19:05:34
+2019-01-17 19:05:34,090 [INFO]: 是否存在Ajax请求：true,IRL地址http://192.168.2.119:8084/GisqQueryList/views/reports/realestate/common/recordregbook/RECertiRecordRegBook_Initial_F.jsp?reportlet=realestate/common/recordregbook/RECertiRecordRegBook_Initial_F.cpt&op=write&BDFR_GUID=76cb87db-e68f-11e5-a54a-000c29187a9e&ID=2c6a1296-1a47-11e9-b0f7-00505683a231&CATEGORY=BDC03&RECORDNUMBER=0e5107e9-06ba-444b-b926-4c27bc8de711&BIZDEF_GUID=f18677f1-e05d-11e5-8188-000c29187a9e&BIZINST_GUID=25064993-1a47-11e9-b0f7-00505683a231&TYPE=form&userId=f2e37658-69d2-11e5-a045-000c297c0f34&TRANSACTOR=zscs&aid=sid-69DA37DF-F769-4B36-9EB1-B5AD0A9A5ED1&ACTDEFID=sid-69DA37DF-F769-4B36-9EB1-B5AD0A9A5ED1&tid=c1e98e8b-1a47-11e9-9f98-00505683a231&ACTINSTID=c1e98e8b-1a47-11e9-9f98-00505683a231&pid=2d107839-0de3-11e6-b878-000c2984e60c&PRODEFID=2d107839-0de3-11e6-b878-000c2984e60c&instid=23455fa3-1a47-11e9-9f98-00505683a231&PROINSTID=23455fa3-1a47-11e9-9f98-00505683a231&businesskey=20190117-0000804&PROJECTID=20190117-0000804&LCBM=2101&HJDM=DB&XZQBM=3314,33&task_state=null
+2019-01-17 19:05:34,101 [INFO]: 2019-01-17 19:05:34
+2019-01-17 19:05:34,117 [INFO]: 当前iframe(登簿)操作元素：
+2019-01-17 19:05:34,127 [INFO]:        定位方式：XPATH
+2019-01-17 19:05:34,135 [INFO]:        定位路径：//button[@type='button']@@@确认登簿
+2019-01-17 19:05:34,145 [INFO]:        操作方式：CLICK
+2019-01-17 19:05:34,158 [INFO]:        默认值：
+2019-01-17 19:05:34,167 [INFO]:        是否随机数：false
+2019-01-17 19:05:34,175 [INFO]:        等待时间：0
+2019-01-17 19:05:34,184 [INFO]: 找到确认登簿元素
+2019-01-17 19:05:34,194 [INFO]: 开始执行操作
+2019-01-17 19:05:34,205 [INFO]: 元素可见了吧
+2019-01-17 19:05:34,215 [INFO]: 已经判断完成可点击了：element to be clickable: [[ChromeDriver: chrome on XP (b68443df2b882d94a9a803ae2efa02ac)] -> xpath: //button[@type='button']]
+2019-01-17 19:05:34,345 [INFO]: 已经完成点击事件了
+2019-01-17 19:05:34,382 [INFO]: 等待时间：0
+2019-01-17 19:05:34,395 [INFO]: 当前iframe(登簿)操作元素：
+2019-01-17 19:05:34,403 [INFO]:        定位方式：XPATH
+2019-01-17 19:05:34,412 [INFO]:        定位路径：//div[@class='btnSure novTime']
+2019-01-17 19:05:34,423 [INFO]:        操作方式：CLICK
+2019-01-17 19:05:34,433 [INFO]:        默认值：
+2019-01-17 19:05:34,442 [INFO]:        是否随机数：false
+2019-01-17 19:05:34,451 [INFO]:        等待时间：5000
+2019-01-17 19:05:34,470 [INFO]: 开始执行操作
+2019-01-17 19:05:34,481 [INFO]: 元素可见了吧
+2019-01-17 19:05:34,490 [INFO]: 已经判断完成可点击了：element to be clickable: [[ChromeDriver: chrome on XP (b68443df2b882d94a9a803ae2efa02ac)] -> xpath: //div[@class='btnSure novTime']]
+2019-01-17 19:05:43,666 [INFO]: 已经完成点击事件了
+2019-01-17 19:05:43,672 [INFO]: 等待时间：5000
+2019-01-17 19:05:43,680 [INFO]: 5000
+2019-01-17 19:05:43,689 [INFO]: 2019-01-17 19:05:43
+2019-01-17 19:05:43,714 [INFO]: 是否存在Ajax请求：true,IRL地址http://192.168.2.119:8084/GisqQueryList/views/reports/realestate/common/recordregbook/RECertiRecordRegBook_Initial_F.jsp?reportlet=realestate/common/recordregbook/RECertiRecordRegBook_Initial_F.cpt&op=write&BDFR_GUID=76cb87db-e68f-11e5-a54a-000c29187a9e&ID=2c6a1296-1a47-11e9-b0f7-00505683a231&CATEGORY=BDC03&RECORDNUMBER=0e5107e9-06ba-444b-b926-4c27bc8de711&BIZDEF_GUID=f18677f1-e05d-11e5-8188-000c29187a9e&BIZINST_GUID=25064993-1a47-11e9-b0f7-00505683a231&TYPE=form&userId=f2e37658-69d2-11e5-a045-000c297c0f34&TRANSACTOR=zscs&aid=sid-69DA37DF-F769-4B36-9EB1-B5AD0A9A5ED1&ACTDEFID=sid-69DA37DF-F769-4B36-9EB1-B5AD0A9A5ED1&tid=c1e98e8b-1a47-11e9-9f98-00505683a231&ACTINSTID=c1e98e8b-1a47-11e9-9f98-00505683a231&pid=2d107839-0de3-11e6-b878-000c2984e60c&PRODEFID=2d107839-0de3-11e6-b878-000c2984e60c&instid=23455fa3-1a47-11e9-9f98-00505683a231&PROINSTID=23455fa3-1a47-11e9-9f98-00505683a231&businesskey=20190117-0000804&PROJECTID=20190117-0000804&LCBM=2101&HJDM=DB&XZQBM=3314,33&task_state=null
+2019-01-17 19:05:43,725 [INFO]: 2019-01-17 19:05:43
+2019-01-17 19:05:58,627 [INFO]: 转出
+2019-01-17 19:06:05,475 [WARN]: org.openqa.selenium.ElementNotVisibleException: element not visible
+2019-01-17 19:06:05,483 [WARN]:   (Session info: chrome=34.0.1838.2)
+2019-01-17 19:06:05,492 [WARN]:   (Driver info: chromedriver=2.9.248315,platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+2019-01-17 19:06:05,515 [WARN]: Command duration or timeout: 13 milliseconds
+2019-01-17 19:06:05,537 [WARN]: Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+2019-01-17 19:06:05,544 [WARN]: System info: host: 'MTC-20180624XMT', ip: '192.168.6.79', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_191'
+2019-01-17 19:06:05,552 [WARN]: Driver info: org.openqa.selenium.chrome.ChromeDriver
+2019-01-17 19:06:05,566 [WARN]: Capabilities [{applicationCacheEnabled=false, rotatable=false, chrome={userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\scoped_dir9296_13840}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=34.0.1838.2, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+2019-01-17 19:06:05,574 [WARN]: Session ID: b68443df2b882d94a9a803ae2efa02ac
+2019-01-17 19:06:05,582 [WARN]: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+2019-01-17 19:06:05,589 [WARN]: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+2019-01-17 19:06:05,609 [WARN]: 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+2019-01-17 19:06:05,617 [WARN]: 	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+2019-01-17 19:06:05,625 [WARN]: 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+2019-01-17 19:06:05,639 [WARN]: 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+2019-01-17 19:06:05,648 [WARN]: 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+2019-01-17 19:06:05,657 [WARN]: 	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:269)
+2019-01-17 19:06:05,667 [WARN]: 	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:80)
+2019-01-17 19:06:05,687 [WARN]: 	at configSelenium.ConfigSeleniumStart.SelectPro(ConfigSeleniumStart.java:876)
+2019-01-17 19:06:05,693 [WARN]: 	at configSelenium.ConfigSeleniumStart.ActdefAction(ConfigSeleniumStart.java:830)
+2019-01-17 19:06:05,701 [WARN]: 	at configSelenium.ConfigSeleniumStart.ActdefAction(ConfigSeleniumStart.java:835)
+2019-01-17 19:06:05,708 [WARN]: 	at configSelenium.ConfigSeleniumStart.ActdefAction(ConfigSeleniumStart.java:835)
+2019-01-17 19:06:05,732 [WARN]: 	at configSelenium.ConfigSeleniumStart.ActdefAction(ConfigSeleniumStart.java:835)
+2019-01-17 19:06:05,741 [WARN]: 	at configSelenium.ConfigSeleniumStart.ActdefAction(ConfigSeleniumStart.java:835)
+2019-01-17 19:06:05,749 [WARN]: 	at configSelenium.ConfigSeleniumStart.main(ConfigSeleniumStart.java:214)
+2019-01-17 19:06:05,924 [INFO]: 
+2019-01-17 19:12:30,253 [ERROR]: System.ObjectDisposedException: 无法访问已释放的对象。
+对象名:“FrmJAVASeleniumOutPut”。
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 SeleniumConfig.SeleniumSchema.FrmJAVASeleniumOutPut.p_OutputDataReceived(Object sender, DataReceivedEventArgs e)

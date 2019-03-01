@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Element>
+  <Prodef ID="2d107839-0de3-11e6-b878-000c2984e60c" Name="首次登记" PackageName="国有建设用地使用权及房屋所有权（大宗地）">
+    <ProdefChild ID="406d712e-c64b-45e6-b882-be1383e1ab34" Name="验证帆软表单输出" />
+    <ProdefChild ID="92fad704-bbd3-405b-bb3e-069dd762b34d" Name="自动化测试-房地首次登记-单个单元多个权利" />
+    <ProdefChild ID="cf6b7a80-32ec-4a87-8d8f-f1cd0bee561e" Name="自动化测试-房地首次登记-主辅房单个权利" />
+    <ProdefChild ID="9810fa0a-57d7-4288-84b8-327b3ec7561c" Name="自动化测试-房地首次登记-主辅房多个权利" />
+    <ProdefChild ID="c9420e1b-433b-428f-bcd5-e1f7a5f47d9a" Name="自动化测试-房地首次登记-测试用例1" />
+    <ProdefChild ID="4edd6f37-b023-4fa9-8aea-6e7c4ad02e5a" Name="自动化测试-房地首次登记-测试用例2" />
+    <ProdefChild ID="3bd56fd5-e863-4bdc-83a4-de0143a75266" Name="自动化测试-房地首次登记-测试用例3" />
+    <ProdefChild ID="09f3afe4-3a53-44d1-a870-71b57f95842a" Name="465456" />
+    <ProdefChild ID="25a8e3ab-fa3a-4e14-a700-124f5a13cca5" Name="自动化测试-房地首次登记-单个单元单个权利_copy_5992" />
+    <ProdefChild ID="b9621fc9-fce8-4ed4-8a95-2aa464cf92f5" Name="now——自动化测试-房地首次登记-单个单元单个权利" />
+    <ProdefChild ID="d72f9a04-47f3-48f0-a214-6666f87fbda1" Name="1--验证帆软表单输出_copy_62664" />
+    <ProdefChild ID="570e7c39-963d-490b-a42a-222a4f353303" Name="2--验证帆软表单输出_copy_86940" />
+    <ProdefChild ID="e8004ee3-82cf-4b34-a3d5-0650169ce13b" Name="1--多流程测试" />
+    <ProdefChild ID="e63aed8b-a69b-4f71-bd50-b5c88ac0eb68" Name="2--多流程测试" />
+  </Prodef>
+  <Prodef ID="3ce22705-0de3-11e6-b878-000c2984e60c" Name="转移登记" PackageName="国有建设用地使用权及房屋所有权（大宗地）">
+    <ProdefChild ID="0a445cbf-999f-4b8c-925f-abf4b30ce8ad" Name="国有房地转移登记-单个单元单个权利" />
+  </Prodef>
+  <Prodef ID="77344499-0de3-11e6-b878-000c2984e60c" Name="补换证登记" PackageName="国有建设用地使用权及房屋所有权（大宗地）">
+    <ProdefChild ID="f8aed828-b175-4718-a41d-bfe5256e8667" Name="自动化测试-房地首次登记-单个单元单个权利_copye03df6ad-67ea-4f7b-9a56-04db2e228aa8" />
+    <ProdefChild ID="d1b2161a-7130-46f1-a4a7-dcc33b096f36" Name="自动化测试-房地首次登记-单个单元单个权利_copy83419db6-5127-46ab-9c83-431b1f903f32" />
+  </Prodef>
+  <Prodef ID="632c1803-0de3-11e6-b878-000c2984e60c" Name="更正登记" PackageName="国有建设用地使用权及房屋所有权（大宗地）">
+    <ProdefChild ID="cd187e3a-362b-4984-970a-25d35ab0e7ed" Name="自动化测试-房地首次登记-单个单元单个权利_copy7441db2e-55f1-4d38-ab7e-d9f9ac03e075" />
+  </Prodef>
+  <Prodef ID="507b1701-0de3-11e6-b878-000c2984e60c" Name="变更登记" PackageName="国有建设用地使用权及房屋所有权（大宗地）">
+    <ProdefChild ID="4b106616-f2b0-42ae-9718-641d70b4e9b3" Name="自动化测试-房地首次登记-单个单元单个权利_copy54c8acce-700b-46e4-8d7a-b0641a4e2cef" />
+  </Prodef>
+  <Prodef ID="19ce4fc0-0de2-11e6-b878-000c2984e60c" Name="首次登记" PackageName="集体建设用地使用权及房屋所有权">
+    <ProdefChild ID="44278b7a-8f01-4825-99f0-eb44bf3d45ac" Name="自动化测试-房地首次登记-单个单元单个权利_copy1b9fccd6-c70c-4683-9967-fc9fcf95b371" />
+  </Prodef>
+  <Prodef ID="d189d2de-0b92-11e6-b878-000c2984e60c" Name="转移登记" PackageName="集体建设用地使用权及房屋所有权">
+    <ProdefChild ID="896b46f9-b4c4-43cc-9cfe-65bac3ee1102" Name="自动化测试-房地首次登记-单个单元单个权利_copyc8d7e9af-2c78-43b8-8457-77622b5f52f8" />
+  </Prodef>
+  <Prodef ID="61476e5e-0de2-11e6-b878-000c2984e60c" Name="补换证登记" PackageName="集体建设用地使用权及房屋所有权">
+    <ProdefChild ID="d92a5147-ea12-4b89-9a6b-f7709c53d0ad" Name="自动化测试-房地首次登记-单个单元单个权利_copy2c4f9995-1e01-4a7f-b320-bb79db9bfcf3" />
+  </Prodef>
+  <Prodef ID="8e24dfe0-0de2-11e6-b878-000c2984e60c" Name="注销登记" PackageName="集体建设用地使用权及房屋所有权">
+    <ProdefChild ID="0ee4f035-caae-429e-bca4-b79d084fab5a" Name="自动化测试-房地首次登记-单个单元单个权利_copyb863c8d8-48ad-4c29-bc0c-ff4f413f97eb" />
+  </Prodef>
+  <Prodef ID="b238724f-7ea4-11e8-831b-00505683a231" Name="首次登记" PackageName="租赁权登记" PackageID="9e118720-7e67-11e8-92e1-00505683a231">
+  </Prodef>
+  <Prodef ID="262e24ae-1f00-11e9-9cb9-00505683a231" Name="宅基地资格权与房屋租赁使用权" PackageName="三权分置">
+    <ProdefChild ID="895673ba-1dee-41cb-babc-bd73c1a3f983" Name="自动化测试-房地首次登记-单个单元单个权利_copye20d7f0b-618a-47ed-9d3e-9e58074a28cd" />
+    <ProdefChild ID="2dfa17ca-aa84-4e40-a149-a4ae6f549292" Name="验证帆软表单输出_copy3606ab16-28c7-4e0f-a9cf-bbd12aa75a37" />
+    <ProdefChild ID="d77209df-e836-4293-911e-5046d4f2d16a" Name="自动化测试-房地首次登记-单个单元单个权利_copy0ca416bf-58b4-41d3-a2b8-db7d0aff1fa6" />
+    <ProdefChild ID="e751380e-946a-45d4-84a7-dac011f3d85c" Name="验证帆软表单输出_" />
+    <ProdefChild ID="1a1e5906-d0af-43df-b847-31f26d695ec7" Name="马斌倩----三权分置" />
+    <ProdefChild ID="de63c3d4-f4ed-44c7-9c17-68787b3cdf2a" Name="12314" />
+    <ProdefChild ID="e2691dd5-5652-408a-956e-9998d4972d1f" Name="马斌倩----三权分置_copy_9301" />
+    <ProdefChild ID="2a94b334-9fd2-42bb-b85e-0e2ee84c10f9" Name="马斌倩----三权分置_copy_9301_copy_78954" />
+    <ProdefChild ID="ff83def7-30e9-4f4c-b58a-f0625d48838a" Name="1马" />
+    <ProdefChild ID="e34292f6-a26d-4299-a8d5-0fa7ecd055f7" Name="1马_copy_4662" />
+    <ProdefChild ID="2262823f-2c10-45ca-9bee-9e50faf5f272" Name="马斌倩----三权分置_copy_48071" />
+    <ProdefChild ID="1aadc4cc-c4cf-4ed7-bcde-b0a207e8c3e4" Name="马斌倩----三权分置_copy_12185" />
+  </Prodef>
+  <Prodef ID="7135dad5-1efe-11e6-9344-0050568c7e7f" Name="房地行政限制注销" PackageName="房地行政限制" PackageID="cca8ccbd-9986-11e5-86c5-305a3a80a2ad">
+    <ProdefChild ID="d149de41-56a2-4929-a3b2-cf247fc5fac1" Name="验证帆软表单输出_copydf0585cd-5f9e-43ea-a027-afcfb72d3ee0" />
+  </Prodef>
+  <Prodef ID="21ddfa85-695d-11e7-bf87-00505683a231" Name="首次登记及预查封转现" PackageName="房地组合登记">
+    <ProdefChild ID="fc0e094d-ac41-4ffa-b619-b8a137f2ed7c" Name="1234" />
+  </Prodef>
+  <Prodef ID="ff961425-5993-11e8-966f-00505683a231" Name="不动产转移预告及抵押权预告变更登记" PackageName="房地组合登记">
+    <ProdefChild ID="1e9dac67-acc4-4077-af97-30cb89c3b395" Name="20190130" />
+  </Prodef>
+  <Prodef ID="f818e40e-0284-11e9-914b-00505683a231" Name="首次登记（银行专用）" PackageName="抵押登记" PackageID="e2fdf1c3-5207-11e5-b3a7-000c2948487c">
+    <ProdefChild ID="3e7da36c-92d2-4938-8ace-5b914eed9eef" Name="1_copy09f557e0-bbc9-4f57-bac1-c87e7e226a5b" />
+  </Prodef>
+  <Prodef ID="ba1d8a6a-18a1-11e9-9f98-00505683a231" Name="首次登记" PackageName="抵押登记" PackageID="e2fdf1c3-5207-11e5-b3a7-000c2948487c">
+    <ProdefChild ID="78ef7673-7e11-42ed-bb42-caf03f1e9dd6" Name="2" />
+  </Prodef>
+  <Prodef ID="fe964bad-02a6-11e9-914b-00505683a231" Name="首次登记（银行专用）" PackageName="抵押登记" PackageID="e2fdf1c3-5207-11e5-b3a7-000c2948487c">
+    <ProdefChild ID="5c8d1ba4-ddde-45a2-be89-b967df8f6ac1" Name="1_copy09f557e0-bbc9-4f57-bac1-c87e7e226a5b_copy40b29cf2-082d-4a16-b9ba-2c7cb4258818" />
+  </Prodef>
+</Element>

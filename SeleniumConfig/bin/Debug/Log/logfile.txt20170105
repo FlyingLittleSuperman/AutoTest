@@ -1,0 +1,939 @@
+2017-01-05 17:07:22,806 [ERROR]: http://192.168.7.200:8081/activiti-rest/service/repository/process-definitions-task
+2017-01-05 17:07:22,908 [ERROR]: System.Net.WebException: 请求被中止: 请求已被取消。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 SeleniumConfig.CommonClass.RestUserLoginService.HttpRequest(HttpWebRequest request) 位置 e:\不动产登记系统\trunk\07.系统实现\自动化测试\SeleniumConfig\CommonClass\RestUserLoginService.cs:行号 120
+2017-01-05 19:13:13,126 [INFO]: Microsoft Windows [版本 10.0.14393]
+2017-01-05 19:13:13,289 [WARN]: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2017-01-05 19:13:13,292 [INFO]: (c) 2016 Microsoft Corporation。保留所有权利。
+2017-01-05 19:13:13,296 [WARN]: SLF4J: Defaulting to no-operation (NOP) logger implementation
+2017-01-05 19:13:13,298 [INFO]: 
+2017-01-05 19:13:13,300 [WARN]: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2017-01-05 19:13:13,302 [INFO]: E:\不动产登记系统\trunk\07.系统实现\自动化测试\SeleniumConfig\bin\Debug>java -jar E:\不动产登记系统\trunk\07.系统实现\自动化测试\SeleniumConfig\bin\Debug\\SeleniumJAVA\Selenium.jar C#
+2017-01-05 19:13:13,337 [INFO]: /E:/不动产登记系统/trunk/07.系统实现/自动化测试/SeleniumConfig/bin/Debug
+2017-01-05 19:13:13,339 [INFO]: 开始准备数据
+2017-01-05 19:13:13,341 [INFO]: 开始缓存总体参数配置文件
+2017-01-05 19:13:13,554 [INFO]: 缓存总体参数配置文件成功！
+2017-01-05 19:13:13,573 [INFO]: 开始缓存SQL配置信息
+2017-01-05 19:13:13,575 [INFO]: 缓存SQL配置信息成功！
+2017-01-05 19:13:13,578 [INFO]: 开始缓存SQL配置的SQL语句信息
+2017-01-05 19:13:13,643 [WARN]: log4j:WARN No such property [maxFileSize] in org.apache.log4j.DailyRollingFileAppender.
+2017-01-05 19:13:13,664 [WARN]: java.lang.ClassNotFoundException: oracle.jdbc.driver.OracleDriver
+2017-01-05 19:13:13,666 [WARN]: 	at java.net.URLClassLoader.findClass(Unknown Source)
+2017-01-05 19:13:13,668 [WARN]: 	at java.lang.ClassLoader.loadClass(Unknown Source)
+2017-01-05 19:13:13,677 [WARN]: 	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+2017-01-05 19:13:13,684 [WARN]: 	at java.lang.ClassLoader.loadClass(Unknown Source)
+2017-01-05 19:13:13,691 [WARN]: 	at java.lang.Class.forName0(Native Method)
+2017-01-05 19:13:13,697 [WARN]: 	at java.lang.Class.forName(Unknown Source)
+2017-01-05 19:13:13,704 [WARN]: 	at util.DataBase.<clinit>(DataBase.java:40)
+2017-01-05 19:13:13,712 [WARN]: 	at configSelenium.InitCommonParameter.FilterValue(InitCommonParameter.java:414)
+2017-01-05 19:13:13,719 [WARN]: 	at configSelenium.InitCommonParameter.InitSqlConfigBatchSql(InitCommonParameter.java:319)
+2017-01-05 19:13:13,725 [WARN]: 	at configSelenium.ConfigSeleniumStart.main(ConfigSeleniumStart.java:68)
+2017-01-05 19:13:13,732 [WARN]: java.lang.NullPointerException
+2017-01-05 19:13:13,740 [WARN]: 	at util.DataBase.GetNewID(DataBase.java:113)
+2017-01-05 19:13:13,747 [WARN]: 	at configSelenium.InitCommonParameter.FilterValue(InitCommonParameter.java:414)
+2017-01-05 19:13:13,754 [WARN]: 	at configSelenium.InitCommonParameter.InitSqlConfigBatchSql(InitCommonParameter.java:319)
+2017-01-05 19:13:13,762 [WARN]: 	at configSelenium.ConfigSeleniumStart.main(ConfigSeleniumStart.java:68)
+2017-01-05 19:13:13,768 [WARN]: java.lang.NullPointerException
+2017-01-05 19:13:13,776 [WARN]: 	at util.DataBase.GetNewID(DataBase.java:113)
+2017-01-05 19:13:13,784 [WARN]: 	at configSelenium.InitCommonParameter.FilterValue(InitCommonParameter.java:414)
+2017-01-05 19:13:13,790 [WARN]: 	at configSelenium.InitCommonParameter.InitSqlConfigBatchSql(InitCommonParameter.java:319)
+2017-01-05 19:13:13,799 [WARN]: 	at configSelenium.ConfigSeleniumStart.main(ConfigSeleniumStart.java:68)
+2017-01-05 19:13:13,806 [WARN]: java.lang.NullPointerException
+2017-01-05 19:13:13,814 [WARN]: 	at util.DataBase.GetNewID(DataBase.java:113)
+2017-01-05 19:13:13,821 [WARN]: 	at configSelenium.InitCommonParameter.FilterValue(InitCommonParameter.java:414)
+2017-01-05 19:13:13,829 [WARN]: 	at configSelenium.InitCommonParameter.InitSqlConfigBatchSql(InitCommonParameter.java:319)
+2017-01-05 19:13:13,836 [WARN]: 	at configSelenium.ConfigSeleniumStart.main(ConfigSeleniumStart.java:68)
+2017-01-05 19:13:13,862 [WARN]: java.lang.NullPointerException
+2017-01-05 19:13:13,873 [WARN]: 	at util.DataBase.GetNewID(DataBase.java:113)
+2017-01-05 19:13:13,880 [WARN]: 	at configSelenium.InitCommonParameter.FilterValue(InitCommonParameter.java:414)
+2017-01-05 19:13:13,887 [WARN]: 	at configSelenium.InitCommonParameter.InitSqlConfigBatchSql(InitCommonParameter.java:319)
+2017-01-05 19:13:13,895 [WARN]: 	at configSelenium.ConfigSeleniumStart.main(ConfigSeleniumStart.java:68)
+2017-01-05 19:13:13,903 [WARN]: java.lang.NullPointerException
+2017-01-05 19:13:13,910 [WARN]: 	at util.DataBase.GetNewID(DataBase.java:113)
+2017-01-05 19:13:13,918 [WARN]: 	at configSelenium.InitCommonParameter.FilterValue(InitCommonParameter.java:414)
+2017-01-05 19:13:13,926 [WARN]: 	at configSelenium.InitCommonParameter.InitSqlConfigBatchSql(InitCommonParameter.java:319)
+2017-01-05 19:13:13,934 [WARN]: 	at configSelenium.ConfigSeleniumStart.main(ConfigSeleniumStart.java:68)
+2017-01-05 19:13:13,942 [WARN]: java.lang.NullPointerException
+2017-01-05 19:13:13,951 [WARN]: 	at util.DataBase.GetNewID(DataBase.java:113)
+2017-01-05 19:13:13,958 [INFO]: insert into SDE.FW_H(OBJECTID,BDCDJBSM,BDCDYH,BSM,JGSJ,QXDM,RKSJ,ZDDM,ZDBSM,ZRZBSM) values(0,0,'500095446565GB62279F84068859',0,to_date('2016-10-12','YYYY-MM-DD'),500095,to_date('2017-01-05 19:13:13','YYYY-MM-DD HH24:MI:SS'),'500095446565GB62279',0,0);
+2017-01-05 19:13:13,968 [WARN]: 	at configSelenium.InitCommonParameter.FilterValue(InitCommonParameter.java:414)
+2017-01-05 19:13:13,975 [INFO]: insert into SDE.T_ZD(ZD_ID,BDCDJBSM,BDCDYH,DJQDM,DJQZH,QXDM,ZDDM,ZD_SYQLX,ZD_TZM) values(0,0,'500095446565GB62279W00000000','500095446565',62279,500095,'500095446565GB62279','G','B');
+2017-01-05 19:13:13,984 [WARN]: 	at configSelenium.InitCommonParameter.InitSqlConfigBatchSql(InitCommonParameter.java:319)
+2017-01-05 19:13:13,991 [INFO]: insert into SDE.ST_ZRZ(OBJECTID,BDCDJBSM,BDCDYH,BSM,QXDM) values(0,0,'500095446565GB62279F8406',0,500095);
+2017-01-05 19:13:13,999 [WARN]: 	at configSelenium.ConfigSeleniumStart.main(ConfigSeleniumStart.java:68)
+2017-01-05 19:13:14,007 [INFO]: insert into BDCDJ.BDCDY(BSM,BDCDYH,DCDZWDYBM,DCZDZHBM,DZWSXH,DZWTZM,GXSJ,QXDM,REV_,DCDZWDYBSM,DCZBSM,DCZDZHBSM) values(0,'500095446565GB62279F84068859','FW_H','ST_ZD',8859,'F',to_date('2017-01-05 19:13:13','YYYY-MM-DD HH24:MI:SS'),500095,1,0,0,0);
+2017-01-05 19:13:14,015 [WARN]: java.lang.NullPointerException
+2017-01-05 19:13:14,023 [INFO]: insert into BDCDJ.BDCDYZ(BSM,DCZDZHBM,GXSJ,QXDM,REV_,ZDYH,ZDZHDM,ZSXH,DCZBSM,DCZDZHBSM) values(0,'ST_ZD',to_date('2017-01-05 19:13:13','YYYY-MM-DD HH24:MI:SS'),500095,1,'500095446565GB62279F8406','500095446565GB62279',8406,0,0);
+2017-01-05 19:13:14,031 [WARN]: 	at util.DataBase.GetNewID(DataBase.java:113)
+2017-01-05 19:13:14,039 [INFO]: 缓存SQL配置的SQL语句信息成功！
+2017-01-05 19:13:14,047 [WARN]: 	at configSelenium.InitCommonParameter.FilterValue(InitCommonParameter.java:414)
+2017-01-05 19:13:14,055 [INFO]: 开始缓存自动化测试配置方案文件
+2017-01-05 19:13:14,064 [WARN]: 	at configSelenium.InitCommonParameter.InitSqlConfigBatchSql(InitCommonParameter.java:319)
+2017-01-05 19:13:14,072 [INFO]: 缓存自动化测试配置方案文件成功！
+2017-01-05 19:13:14,079 [WARN]: 	at configSelenium.ConfigSeleniumStart.main(ConfigSeleniumStart.java:68)
+2017-01-05 19:13:14,085 [INFO]: 开始缓存初始化配置参数成功！
+2017-01-05 19:13:14,100 [WARN]: java.lang.NullPointerException
+2017-01-05 19:13:14,106 [INFO]: 缓存流程配置信息成功！
+2017-01-05 19:13:14,113 [WARN]: 	at util.DataBase.GetNewID(DataBase.java:113)
+2017-01-05 19:13:14,122 [WARN]: 	at configSelenium.InitCommonParameter.FilterValue(InitCommonParameter.java:414)
+2017-01-05 19:13:14,129 [WARN]: 	at configSelenium.InitCommonParameter.InitSqlConfigBatchSql(InitCommonParameter.java:319)
+2017-01-05 19:13:14,137 [WARN]: 	at configSelenium.ConfigSeleniumStart.main(ConfigSeleniumStart.java:68)
+2017-01-05 19:13:14,143 [WARN]: java.lang.NullPointerException
+2017-01-05 19:13:14,152 [WARN]: 	at util.DataBase.GetNewID(DataBase.java:113)
+2017-01-05 19:13:14,158 [WARN]: 	at configSelenium.InitCommonParameter.FilterValue(InitCommonParameter.java:414)
+2017-01-05 19:13:14,169 [WARN]: 	at configSelenium.InitCommonParameter.InitSqlConfigBatchSql(InitCommonParameter.java:319)
+2017-01-05 19:13:14,179 [WARN]: 	at configSelenium.ConfigSeleniumStart.main(ConfigSeleniumStart.java:68)
+2017-01-05 19:13:14,186 [WARN]: java.lang.NullPointerException
+2017-01-05 19:13:14,191 [WARN]: 	at util.DataBase.GetNewID(DataBase.java:113)
+2017-01-05 19:13:14,199 [WARN]: 	at configSelenium.InitCommonParameter.FilterValue(InitCommonParameter.java:414)
+2017-01-05 19:13:14,205 [WARN]: 	at configSelenium.InitCommonParameter.InitSqlConfigBatchSql(InitCommonParameter.java:319)
+2017-01-05 19:13:14,213 [WARN]: 	at configSelenium.ConfigSeleniumStart.main(ConfigSeleniumStart.java:68)
+2017-01-05 19:13:14,223 [WARN]: Starting ChromeDriver (v2.10.267521) on port 15838
+2017-01-05 19:13:14,230 [WARN]: Only local connections are allowed.
+2017-01-05 19:13:14,706 [INFO]: 初始化ChromeDriver成功！
+2017-01-05 19:13:15,016 [WARN]: Starting ChromeDriver (v2.10.267521) on port 31211
+2017-01-05 19:13:15,022 [WARN]: Only local connections are allowed.
+2017-01-05 19:13:15,587 [WARN]: 一月 05, 2017 7:13:15 下午 org.openqa.selenium.remote.ProtocolHandshake createSession
+2017-01-05 19:13:15,594 [WARN]: 信息: Attempting bi-dialect session, assuming Postel's Law holds true on the remote end
+2017-01-05 19:13:15,638 [WARN]: log4j:WARN No appenders could be found for logger (org.apache.http.client.protocol.RequestAddCookies).
+2017-01-05 19:13:15,643 [WARN]: log4j:WARN Please initialize the log4j system properly.
+2017-01-05 19:13:15,652 [WARN]: log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+2017-01-05 19:13:16,231 [WARN]: 一月 05, 2017 7:13:16 下午 org.openqa.selenium.remote.ProtocolHandshake createSession
+2017-01-05 19:13:16,235 [WARN]: 信息: Detected dialect: OSS
+2017-01-05 19:13:18,142 [INFO]: 初始化WebDriver成功！
+2017-01-05 19:13:18,153 [INFO]: 系统登陆地址：http://192.168.7.200:8082/GisqPlatformExplorer/a/login;JSESSIONID=7a22b82495884077a7860a3b86e8ac2f
+2017-01-05 19:13:18,574 [INFO]: 系统登陆成功！
+2017-01-05 19:13:20,767 [INFO]: 开始流程自动化测试！
+2017-01-05 19:13:20,787 [INFO]: 流程内码：2d107839-0de3-11e6-b878-000c2984e60c,流程名称首次登记
+2017-01-05 19:13:22,929 [INFO]: 流程启动成功，主框架句柄：CDwindow-FE30725A-08C5-434F-A38F-1FBB81069067
+2017-01-05 19:13:25,051 [INFO]: 当前环节环节名称：收件受理,环节内码sid-075095F3-5F75-4295-B4D1-5843F0D20C8E
+2017-01-05 19:13:25,056 [INFO]: 开始操作Ifame，Iframe名称：窗口资料收取
+2017-01-05 19:13:27,251 [INFO]: Iframe地址：GisqPlatformExplorer/modules/bizmodel/datums_submit
+2017-01-05 19:13:27,269 [INFO]: 当前iframe(窗口资料收取)操作元素：
+2017-01-05 19:13:27,287 [INFO]:        定位方式：XPATH
+2017-01-05 19:13:27,294 [INFO]:        定位路径：//div[@role='combobox']
+2017-01-05 19:13:27,302 [INFO]:        操作方式：QT
+2017-01-05 19:13:27,308 [INFO]:        默认值：$("#{ID}").jqxDropDownList('selectIndex', 0 );
+2017-01-05 19:13:27,317 [INFO]:        是否随机数：false
+2017-01-05 19:13:27,325 [INFO]:        等待时间：0
+2017-01-05 19:13:27,441 [INFO]: 当前iframe(窗口资料收取)操作元素：
+2017-01-05 19:13:27,448 [INFO]:        定位方式：ID
+2017-01-05 19:13:27,456 [INFO]:        定位路径：saveDatum
+2017-01-05 19:13:27,463 [INFO]:        操作方式：CLICK
+2017-01-05 19:13:27,471 [INFO]:        默认值：
+2017-01-05 19:13:27,479 [INFO]:        是否随机数：false
+2017-01-05 19:13:27,490 [INFO]:        等待时间：0
+2017-01-05 19:13:28,807 [INFO]: 开始操作Ifame，Iframe名称：申请信息
+2017-01-05 19:13:32,236 [INFO]: Iframe地址：GisqQueryList/views/reports/realestate/common/acceptance/Acceptance_HouseRight_Initial.jsp?reportlet=realestate/common/acceptance/Acceptance_HouseRight_Initial.cpt
+2017-01-05 19:13:32,257 [INFO]: 当前iframe(申请信息)操作元素：
+2017-01-05 19:13:32,263 [INFO]:        定位方式：ID
+2017-01-05 19:13:32,273 [INFO]:        定位路径：CXBDC
+2017-01-05 19:13:32,281 [INFO]:        操作方式：CLICK
+2017-01-05 19:13:32,290 [INFO]:        默认值：
+2017-01-05 19:13:32,303 [INFO]:        是否随机数：false
+2017-01-05 19:13:32,311 [INFO]:        等待时间：2000
+2017-01-05 19:13:32,424 [INFO]: 2000
+2017-01-05 19:13:32,661 [INFO]: 2017-01-05 19:13:32
+2017-01-05 19:13:33,327 [INFO]: 是否存在Ajax请求：true,IRL地址http://192.168.7.200:8084/GisqQueryList/views/reports/realestate/common/acceptance/Acceptance_HouseRight_Initial.jsp?reportlet=realestate/common/acceptance/Acceptance_HouseRight_Initial.cpt&op=write&BDFR_GUID=f186c61b-e05d-11e5-8188-000c29187a9e&ID=e65598b5-d337-11e6-ad0c-9c5c8e949727&CATEGORY=BDC&RECORDNUMBER=4c522567-2321-40d0-84d6-195bcbf234a1&BIZDEF_GUID=f18677f1-e05d-11e5-8188-000c29187a9e&BIZINST_GUID=e64aea4d-d337-11e6-ad0c-9c5c8e949727&TYPE=form&userId=f2e37658-69d2-11e5-a045-000c297c0f34&TRANSACTOR=zscs&aid=sid-075095F3-5F75-4295-B4D1-5843F0D20C8E&ACTDEFID=sid-075095F3-5F75-4295-B4D1-5843F0D20C8E&tid=e5909a90-d337-11e6-a76b-9c5c8e949727&ACTINSTID=e5909a90-d337-11e6-a76b-9c5c8e949727&pid=2d107839-0de3-11e6-b878-000c2984e60c&PRODEFID=2d107839-0de3-11e6-b878-000c2984e60c&instid=e5904c6a-d337-11e6-a76b-9c5c8e949727&PROINSTID=e5904c6a-d337-11e6-a76b-9c5c8e949727&businesskey=20170105-0000174&PROJECTID=20170105-0000174&LCBM=2101&HJDM=SJ&XZQBM=33021&task_state=firstTask
+2017-01-05 19:13:33,337 [INFO]: 2017-01-05 19:13:33
+2017-01-05 19:13:33,349 [INFO]: 当前iframe(申请信息)操作元素：
+2017-01-05 19:13:33,357 [INFO]:        定位方式：ID
+2017-01-05 19:13:33,365 [INFO]:        定位路径：iFrameDY
+2017-01-05 19:13:33,373 [INFO]:        操作方式：IFRAME
+2017-01-05 19:13:33,380 [INFO]:        默认值：iFrameDY
+2017-01-05 19:13:33,396 [INFO]:        是否随机数：false
+2017-01-05 19:13:33,404 [INFO]:        等待时间：0
+2017-01-05 19:13:33,449 [INFO]: 当前iframe(iFrameDY)操作元素：
+2017-01-05 19:13:33,457 [INFO]:       定位方式：ID
+2017-01-05 19:13:33,463 [INFO]:       定位路径：bdcdyh
+2017-01-05 19:13:33,471 [INFO]:       操作方式：SENDKEYS
+2017-01-05 19:13:33,490 [INFO]:       默认值：SDE.FW_H.BDCDYH
+2017-01-05 19:13:33,496 [WARN]: java.lang.NullPointerException
+2017-01-05 19:13:33,504 [INFO]:       是否随机数：false
+2017-01-05 19:13:33,512 [WARN]: 	at util.DataBase.ExecuteSql(DataBase.java:78)
+2017-01-05 19:13:33,522 [INFO]:       等待时间：0
+2017-01-05 19:13:33,537 [WARN]: 	at configSelenium.ConfigSeleniumStart.ActdefAction(ConfigSeleniumStart.java:375)
+2017-01-05 19:13:33,542 [WARN]: 	at configSelenium.ConfigSeleniumStart.main(ConfigSeleniumStart.java:154)
+2017-01-05 19:15:41,122 [INFO]: Microsoft Windows [版本 10.0.14393]
+2017-01-05 19:15:41,126 [INFO]: (c) 2016 Microsoft Corporation。保留所有权利。
+2017-01-05 19:15:41,129 [INFO]: 
+2017-01-05 19:15:41,131 [INFO]: E:\不动产登记系统\trunk\07.系统实现\自动化测试\SeleniumConfig\bin\Debug>java -jar E:\不动产登记系统\trunk\07.系统实现\自动化测试\SeleniumConfig\bin\Debug\\SeleniumJAVA\Selenium.jar C#
+2017-01-05 19:15:41,355 [INFO]: /E:/不动产登记系统/trunk/07.系统实现/自动化测试/SeleniumConfig/bin/Debug
+2017-01-05 19:15:41,359 [INFO]: 开始准备数据
+2017-01-05 19:15:41,360 [INFO]: 开始缓存总体参数配置文件
+2017-01-05 19:15:41,572 [WARN]: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2017-01-05 19:15:41,575 [WARN]: SLF4J: Defaulting to no-operation (NOP) logger implementation
+2017-01-05 19:15:41,577 [WARN]: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2017-01-05 19:15:41,855 [INFO]: 缓存总体参数配置文件成功！
+2017-01-05 19:15:41,858 [INFO]: 开始缓存SQL配置信息
+2017-01-05 19:15:41,878 [INFO]: 缓存SQL配置信息成功！
+2017-01-05 19:15:41,880 [INFO]: 开始缓存SQL配置的SQL语句信息
+2017-01-05 19:15:41,931 [WARN]: log4j:WARN No such property [maxFileSize] in org.apache.log4j.DailyRollingFileAppender.
+2017-01-05 19:15:41,937 [WARN]: java.lang.ClassNotFoundException: oracle.jdbc.driver.OracleDriver
+2017-01-05 19:15:41,939 [WARN]: 	at java.net.URLClassLoader.findClass(Unknown Source)
+2017-01-05 19:15:41,941 [WARN]: 	at java.lang.ClassLoader.loadClass(Unknown Source)
+2017-01-05 19:15:41,950 [WARN]: 	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+2017-01-05 19:15:41,956 [WARN]: 	at java.lang.ClassLoader.loadClass(Unknown Source)
+2017-01-05 19:15:41,963 [WARN]: 	at java.lang.Class.forName0(Native Method)
+2017-01-05 19:15:41,970 [WARN]: 	at java.lang.Class.forName(Unknown Source)
+2017-01-05 19:15:41,978 [WARN]: 	at util.DataBase.<clinit>(DataBase.java:40)
+2017-01-05 19:15:41,986 [WARN]: 	at configSelenium.InitCommonParameter.FilterValue(InitCommonParameter.java:414)
+2017-01-05 19:15:41,994 [WARN]: 	at configSelenium.InitCommonParameter.InitSqlConfigBatchSql(InitCommonParameter.java:319)
+2017-01-05 19:15:42,001 [WARN]: 	at configSelenium.ConfigSeleniumStart.main(ConfigSeleniumStart.java:68)
+2017-01-05 19:15:42,009 [WARN]: java.lang.NullPointerException
+2017-01-05 19:15:42,022 [WARN]: 	at util.DataBase.GetNewID(DataBase.java:115)
+2017-01-05 19:15:42,030 [WARN]: 	at configSelenium.InitCommonParameter.FilterValue(InitCommonParameter.java:414)
+2017-01-05 19:15:42,038 [WARN]: 	at configSelenium.InitCommonParameter.InitSqlConfigBatchSql(InitCommonParameter.java:319)
+2017-01-05 19:15:42,047 [WARN]: 	at configSelenium.ConfigSeleniumStart.main(ConfigSeleniumStart.java:68)
+2017-01-05 19:15:42,054 [WARN]: java.lang.NullPointerException
+2017-01-05 19:15:42,063 [WARN]: 	at util.DataBase.GetNewID(DataBase.java:115)
+2017-01-05 19:15:42,071 [WARN]: 	at configSelenium.InitCommonParameter.FilterValue(InitCommonParameter.java:414)
+2017-01-05 19:15:42,080 [WARN]: 	at configSelenium.InitCommonParameter.InitSqlConfigBatchSql(InitCommonParameter.java:319)
+2017-01-05 19:15:42,088 [WARN]: 	at configSelenium.ConfigSeleniumStart.main(ConfigSeleniumStart.java:68)
+2017-01-05 19:15:42,097 [WARN]: java.lang.NullPointerException
+2017-01-05 19:15:42,105 [WARN]: 	at util.DataBase.GetNewID(DataBase.java:115)
+2017-01-05 19:15:42,113 [WARN]: 	at configSelenium.InitCommonParameter.FilterValue(InitCommonParameter.java:414)
+2017-01-05 19:15:42,120 [WARN]: 	at configSelenium.InitCommonParameter.InitSqlConfigBatchSql(InitCommonParameter.java:319)
+2017-01-05 19:15:42,128 [WARN]: 	at configSelenium.ConfigSeleniumStart.main(ConfigSeleniumStart.java:68)
+2017-01-05 19:15:42,146 [WARN]: java.lang.NullPointerException
+2017-01-05 19:15:42,164 [WARN]: 	at util.DataBase.GetNewID(DataBase.java:115)
+2017-01-05 19:15:42,171 [WARN]: 	at configSelenium.InitCommonParameter.FilterValue(InitCommonParameter.java:414)
+2017-01-05 19:15:42,180 [WARN]: 	at configSelenium.InitCommonParameter.InitSqlConfigBatchSql(InitCommonParameter.java:319)
+2017-01-05 19:15:42,187 [WARN]: 	at configSelenium.ConfigSeleniumStart.main(ConfigSeleniumStart.java:68)
+2017-01-05 19:15:42,194 [WARN]: java.lang.NullPointerException
+2017-01-05 19:15:42,202 [WARN]: 	at util.DataBase.GetNewID(DataBase.java:115)
+2017-01-05 19:15:42,210 [WARN]: 	at configSelenium.InitCommonParameter.FilterValue(InitCommonParameter.java:414)
+2017-01-05 19:15:42,217 [WARN]: 	at configSelenium.InitCommonParameter.InitSqlConfigBatchSql(InitCommonParameter.java:319)
+2017-01-05 19:15:42,225 [WARN]: 	at configSelenium.ConfigSeleniumStart.main(ConfigSeleniumStart.java:68)
+2017-01-05 19:15:42,232 [WARN]: java.lang.NullPointerException
+2017-01-05 19:15:42,239 [WARN]: 	at util.DataBase.GetNewID(DataBase.java:115)
+2017-01-05 19:15:42,248 [WARN]: 	at configSelenium.InitCommonParameter.FilterValue(InitCommonParameter.java:414)
+2017-01-05 19:15:42,256 [WARN]: 	at configSelenium.InitCommonParameter.InitSqlConfigBatchSql(InitCommonParameter.java:319)
+2017-01-05 19:15:42,265 [WARN]: 	at configSelenium.ConfigSeleniumStart.main(ConfigSeleniumStart.java:68)
+2017-01-05 19:15:42,275 [WARN]: java.lang.NullPointerException
+2017-01-05 19:15:42,282 [INFO]: insert into SDE.FW_H(OBJECTID,BDCDJBSM,BDCDYH,BSM,JGSJ,QXDM,RKSJ,ZDDM,ZDBSM,ZRZBSM) values(0,0,'637884465221GB99307F67833329',0,to_date('2016-10-12','YYYY-MM-DD'),637884,to_date('2017-01-05 19:15:41','YYYY-MM-DD HH24:MI:SS'),'637884465221GB99307',0,0);
+2017-01-05 19:15:42,290 [WARN]: 	at util.DataBase.GetNewID(DataBase.java:115)
+2017-01-05 19:15:42,299 [INFO]: insert into SDE.T_ZD(ZD_ID,BDCDJBSM,BDCDYH,DJQDM,DJQZH,QXDM,ZDDM,ZD_SYQLX,ZD_TZM) values(0,0,'637884465221GB99307W00000000','637884465221',99307,637884,'637884465221GB99307','G','B');
+2017-01-05 19:15:42,309 [WARN]: 	at configSelenium.InitCommonParameter.FilterValue(InitCommonParameter.java:414)
+2017-01-05 19:15:42,315 [INFO]: insert into SDE.ST_ZRZ(OBJECTID,BDCDJBSM,BDCDYH,BSM,QXDM) values(0,0,'637884465221GB99307F6783',0,637884);
+2017-01-05 19:15:42,325 [WARN]: 	at configSelenium.InitCommonParameter.InitSqlConfigBatchSql(InitCommonParameter.java:319)
+2017-01-05 19:15:42,334 [INFO]: insert into BDCDJ.BDCDY(BSM,BDCDYH,DCDZWDYBM,DCZDZHBM,DZWSXH,DZWTZM,GXSJ,QXDM,REV_,DCDZWDYBSM,DCZBSM,DCZDZHBSM) values(0,'637884465221GB99307F67833329','FW_H','ST_ZD',3329,'F',to_date('2017-01-05 19:15:42','YYYY-MM-DD HH24:MI:SS'),637884,1,0,0,0);
+2017-01-05 19:15:42,343 [WARN]: 	at configSelenium.ConfigSeleniumStart.main(ConfigSeleniumStart.java:68)
+2017-01-05 19:15:42,350 [INFO]: insert into BDCDJ.BDCDYZ(BSM,DCZDZHBM,GXSJ,QXDM,REV_,ZDYH,ZDZHDM,ZSXH,DCZBSM,DCZDZHBSM) values(0,'ST_ZD',to_date('2017-01-05 19:15:42','YYYY-MM-DD HH24:MI:SS'),637884,1,'637884465221GB99307F6783','637884465221GB99307',6783,0,0);
+2017-01-05 19:15:42,359 [WARN]: java.lang.NullPointerException
+2017-01-05 19:15:42,366 [INFO]: 缓存SQL配置的SQL语句信息成功！
+2017-01-05 19:15:42,374 [WARN]: 	at util.DataBase.GetNewID(DataBase.java:115)
+2017-01-05 19:15:42,382 [INFO]: 开始缓存自动化测试配置方案文件
+2017-01-05 19:15:42,389 [WARN]: 	at configSelenium.InitCommonParameter.FilterValue(InitCommonParameter.java:414)
+2017-01-05 19:15:42,397 [INFO]: 缓存自动化测试配置方案文件成功！
+2017-01-05 19:15:42,404 [WARN]: 	at configSelenium.InitCommonParameter.InitSqlConfigBatchSql(InitCommonParameter.java:319)
+2017-01-05 19:15:42,427 [INFO]: 开始缓存初始化配置参数成功！
+2017-01-05 19:15:42,433 [WARN]: 	at configSelenium.ConfigSeleniumStart.main(ConfigSeleniumStart.java:68)
+2017-01-05 19:15:42,440 [INFO]: 缓存流程配置信息成功！
+2017-01-05 19:15:42,448 [WARN]: java.lang.NullPointerException
+2017-01-05 19:15:42,455 [WARN]: 	at util.DataBase.GetNewID(DataBase.java:115)
+2017-01-05 19:15:42,463 [WARN]: 	at configSelenium.InitCommonParameter.FilterValue(InitCommonParameter.java:414)
+2017-01-05 19:15:42,470 [WARN]: 	at configSelenium.InitCommonParameter.InitSqlConfigBatchSql(InitCommonParameter.java:319)
+2017-01-05 19:15:42,477 [WARN]: 	at configSelenium.ConfigSeleniumStart.main(ConfigSeleniumStart.java:68)
+2017-01-05 19:15:42,485 [WARN]: java.lang.NullPointerException
+2017-01-05 19:15:42,506 [WARN]: 	at util.DataBase.GetNewID(DataBase.java:115)
+2017-01-05 19:15:42,516 [WARN]: 	at configSelenium.InitCommonParameter.FilterValue(InitCommonParameter.java:414)
+2017-01-05 19:15:42,523 [WARN]: 	at configSelenium.InitCommonParameter.InitSqlConfigBatchSql(InitCommonParameter.java:319)
+2017-01-05 19:15:42,532 [WARN]: 	at configSelenium.ConfigSeleniumStart.main(ConfigSeleniumStart.java:68)
+2017-01-05 19:15:42,574 [WARN]: Starting ChromeDriver (v2.10.267521) on port 25878
+2017-01-05 19:15:42,579 [WARN]: Only local connections are allowed.
+2017-01-05 19:15:43,067 [INFO]: 初始化ChromeDriver成功！
+2017-01-05 19:15:43,390 [WARN]: Starting ChromeDriver (v2.10.267521) on port 58451
+2017-01-05 19:15:43,412 [WARN]: Only local connections are allowed.
+2017-01-05 19:15:43,972 [WARN]: 一月 05, 2017 7:15:43 下午 org.openqa.selenium.remote.ProtocolHandshake createSession
+2017-01-05 19:15:43,980 [WARN]: 信息: Attempting bi-dialect session, assuming Postel's Law holds true on the remote end
+2017-01-05 19:15:44,027 [WARN]: log4j:WARN No appenders could be found for logger (org.apache.http.client.protocol.RequestAddCookies).
+2017-01-05 19:15:44,032 [WARN]: log4j:WARN Please initialize the log4j system properly.
+2017-01-05 19:15:44,039 [WARN]: log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+2017-01-05 19:15:44,864 [WARN]: 一月 05, 2017 7:15:44 下午 org.openqa.selenium.remote.ProtocolHandshake createSession
+2017-01-05 19:15:44,914 [WARN]: 信息: Detected dialect: OSS
+2017-01-05 19:15:47,574 [INFO]: 初始化WebDriver成功！
+2017-01-05 19:15:47,581 [INFO]: 系统登陆地址：http://192.168.7.200:8082/GisqPlatformExplorer/a/login;JSESSIONID=7a22b82495884077a7860a3b86e8ac2f
+2017-01-05 19:15:48,019 [INFO]: 系统登陆成功！
+2017-01-05 19:15:50,082 [INFO]: 开始流程自动化测试！
+2017-01-05 19:15:50,085 [INFO]: 流程内码：2d107839-0de3-11e6-b878-000c2984e60c,流程名称首次登记
+2017-01-05 19:15:52,244 [INFO]: 流程启动成功，主框架句柄：CDwindow-D90AE6CC-CD0E-4AD0-A00F-F31111F2BE4F
+2017-01-05 19:15:55,056 [WARN]: org.openqa.selenium.WebDriverException: chrome not reachable
+2017-01-05 19:15:55,063 [WARN]:   (Session info: chrome=34.0.1847.116)
+2017-01-05 19:15:55,069 [WARN]:   (Driver info: chromedriver=2.10.267521,platform=Windows NT 6.3 x86_64) (WARNING: The server did not provide any stacktrace information)
+2017-01-05 19:15:55,073 [WARN]: Command duration or timeout: 2.81 seconds
+2017-01-05 19:15:55,079 [WARN]: Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+2017-01-05 19:15:55,084 [WARN]: System info: host: 'assassin', ip: '169.254.212.148', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+2017-01-05 19:15:55,088 [WARN]: Driver info: org.openqa.selenium.chrome.ChromeDriver
+2017-01-05 19:15:55,091 [WARN]: Capabilities [{applicationCacheEnabled=false, rotatable=false, chrome={userDataDir=C:\Users\ADMINI~1.MTC\AppData\Local\Temp\scoped_dir16552_13790}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=34.0.1847.116, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+2017-01-05 19:15:55,097 [WARN]: Session ID: 2613027f1ea5d2d92c13090aad417096
+2017-01-05 19:15:55,102 [WARN]: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+2017-01-05 19:15:55,123 [WARN]: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+2017-01-05 19:15:55,132 [WARN]: 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+2017-01-05 19:15:55,136 [WARN]: 	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+2017-01-05 19:15:55,147 [WARN]: 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+2017-01-05 19:15:55,152 [WARN]: 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+2017-01-05 19:15:55,157 [WARN]: 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+2017-01-05 19:15:55,167 [WARN]: 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:658)
+2017-01-05 19:15:55,171 [WARN]: 	at org.openqa.selenium.remote.RemoteWebDriver.getWindowHandles(RemoteWebDriver.java:506)
+2017-01-05 19:15:55,176 [WARN]: 	at selenium.common.ChangeDriver.change(ChangeDriver.java:12)
+2017-01-05 19:15:55,182 [WARN]: 	at configSelenium.ConfigSeleniumStart.ActdefAction(ConfigSeleniumStart.java:175)
+2017-01-05 19:15:55,192 [WARN]: 	at configSelenium.ConfigSeleniumStart.main(ConfigSeleniumStart.java:154)
+2017-01-05 19:17:46,813 [INFO]: Microsoft Windows [版本 10.0.14393]
+2017-01-05 19:17:46,816 [INFO]: (c) 2016 Microsoft Corporation。保留所有权利。
+2017-01-05 19:17:46,819 [INFO]: 
+2017-01-05 19:17:46,821 [INFO]: E:\不动产登记系统\trunk\07.系统实现\自动化测试\SeleniumConfig\bin\Debug>java -jar E:\不动产登记系统\trunk\07.系统实现\自动化测试\SeleniumConfig\bin\Debug\\SeleniumJAVA\Selenium.jar C#
+2017-01-05 19:17:46,990 [INFO]: /E:/不动产登记系统/trunk/07.系统实现/自动化测试/SeleniumConfig/bin/Debug
+2017-01-05 19:17:46,993 [INFO]: 开始准备数据
+2017-01-05 19:17:46,997 [INFO]: 开始缓存总体参数配置文件
+2017-01-05 19:17:47,507 [INFO]: 缓存总体参数配置文件成功！
+2017-01-05 19:17:47,509 [INFO]: 开始缓存SQL配置信息
+2017-01-05 19:17:47,529 [INFO]: 缓存SQL配置信息成功！
+2017-01-05 19:17:47,532 [INFO]: 开始缓存SQL配置的SQL语句信息
+2017-01-05 19:17:48,529 [WARN]: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2017-01-05 19:17:48,534 [WARN]: SLF4J: Defaulting to no-operation (NOP) logger implementation
+2017-01-05 19:17:48,537 [INFO]: insert into SDE.FW_H(OBJECTID,BDCDJBSM,BDCDYH,BSM,JGSJ,QXDM,RKSJ,ZDDM,ZDBSM,ZRZBSM) values(0,0,'724853724972GB13620F22962188',0,to_date('2016-10-12','YYYY-MM-DD'),724853,to_date('2017-01-05 19:17:47','YYYY-MM-DD HH24:MI:SS'),'724853724972GB13620',0,0);
+2017-01-05 19:17:48,542 [WARN]: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2017-01-05 19:17:48,546 [INFO]: insert into SDE.T_ZD(ZD_ID,BDCDJBSM,BDCDYH,DJQDM,DJQZH,QXDM,ZDDM,ZD_SYQLX,ZD_TZM) values(0,0,'724853724972GB13620W00000000','724853724972',13620,724853,'724853724972GB13620','G','B');
+2017-01-05 19:17:48,550 [WARN]: log4j:WARN No such property [maxFileSize] in org.apache.log4j.DailyRollingFileAppender.
+2017-01-05 19:17:48,565 [INFO]: insert into SDE.ST_ZRZ(OBJECTID,BDCDJBSM,BDCDYH,BSM,QXDM) values(0,0,'724853724972GB13620F2296',0,724853);
+2017-01-05 19:17:48,576 [WARN]: java.lang.ClassNotFoundException: oracle.jdbc.driver.OracleDriver
+2017-01-05 19:17:48,588 [INFO]: insert into BDCDJ.BDCDY(BSM,BDCDYH,DCDZWDYBM,DCZDZHBM,DZWSXH,DZWTZM,GXSJ,QXDM,REV_,DCDZWDYBSM,DCZBSM,DCZDZHBSM) values(0,'724853724972GB13620F22962188','FW_H','ST_ZD',2188,'F',to_date('2017-01-05 19:17:47','YYYY-MM-DD HH24:MI:SS'),724853,1,0,0,0);
+2017-01-05 19:17:48,599 [WARN]: 	at java.net.URLClassLoader.findClass(Unknown Source)
+2017-01-05 19:17:48,607 [INFO]: insert into BDCDJ.BDCDYZ(BSM,DCZDZHBM,GXSJ,QXDM,REV_,ZDYH,ZDZHDM,ZSXH,DCZBSM,DCZDZHBSM) values(0,'ST_ZD',to_date('2017-01-05 19:17:48','YYYY-MM-DD HH24:MI:SS'),724853,1,'724853724972GB13620F2296','724853724972GB13620',2296,0,0);
+2017-01-05 19:17:48,615 [WARN]: 	at java.lang.ClassLoader.loadClass(Unknown Source)
+2017-01-05 19:17:48,621 [INFO]: 缓存SQL配置的SQL语句信息成功！
+2017-01-05 19:17:48,631 [WARN]: 	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+2017-01-05 19:17:48,638 [INFO]: 开始缓存自动化测试配置方案文件
+2017-01-05 19:17:48,647 [WARN]: 	at java.lang.ClassLoader.loadClass(Unknown Source)
+2017-01-05 19:17:48,653 [INFO]: 缓存自动化测试配置方案文件成功！
+2017-01-05 19:17:48,659 [WARN]: 	at java.lang.Class.forName0(Native Method)
+2017-01-05 19:17:48,667 [INFO]: 开始缓存初始化配置参数成功！
+2017-01-05 19:17:48,674 [WARN]: 	at java.lang.Class.forName(Unknown Source)
+2017-01-05 19:17:48,682 [INFO]: 缓存流程配置信息成功！
+2017-01-05 19:17:48,688 [WARN]: 	at util.DataBase.<clinit>(DataBase.java:40)
+2017-01-05 19:17:48,695 [WARN]: 	at configSelenium.InitCommonParameter.FilterValue(InitCommonParameter.java:414)
+2017-01-05 19:17:48,702 [WARN]: 	at configSelenium.InitCommonParameter.InitSqlConfigBatchSql(InitCommonParameter.java:319)
+2017-01-05 19:17:48,710 [WARN]: 	at configSelenium.ConfigSeleniumStart.main(ConfigSeleniumStart.java:68)
+2017-01-05 19:17:48,718 [WARN]: java.lang.NullPointerException
+2017-01-05 19:17:48,726 [WARN]: 	at util.DataBase.GetNewID(DataBase.java:115)
+2017-01-05 19:17:48,734 [WARN]: 	at configSelenium.InitCommonParameter.FilterValue(InitCommonParameter.java:414)
+2017-01-05 19:17:48,741 [WARN]: 	at configSelenium.InitCommonParameter.InitSqlConfigBatchSql(InitCommonParameter.java:319)
+2017-01-05 19:17:48,748 [WARN]: 	at configSelenium.ConfigSeleniumStart.main(ConfigSeleniumStart.java:68)
+2017-01-05 19:17:48,755 [WARN]: java.lang.NullPointerException
+2017-01-05 19:17:48,761 [WARN]: 	at util.DataBase.GetNewID(DataBase.java:115)
+2017-01-05 19:17:48,769 [WARN]: 	at configSelenium.InitCommonParameter.FilterValue(InitCommonParameter.java:414)
+2017-01-05 19:17:48,776 [WARN]: 	at configSelenium.InitCommonParameter.InitSqlConfigBatchSql(InitCommonParameter.java:319)
+2017-01-05 19:17:48,784 [WARN]: 	at configSelenium.ConfigSeleniumStart.main(ConfigSeleniumStart.java:68)
+2017-01-05 19:17:48,790 [WARN]: java.lang.NullPointerException
+2017-01-05 19:17:48,799 [WARN]: 	at util.DataBase.GetNewID(DataBase.java:115)
+2017-01-05 19:17:48,807 [WARN]: 	at configSelenium.InitCommonParameter.FilterValue(InitCommonParameter.java:414)
+2017-01-05 19:17:48,814 [WARN]: 	at configSelenium.InitCommonParameter.InitSqlConfigBatchSql(InitCommonParameter.java:319)
+2017-01-05 19:17:48,821 [WARN]: 	at configSelenium.ConfigSeleniumStart.main(ConfigSeleniumStart.java:68)
+2017-01-05 19:17:48,827 [WARN]: java.lang.NullPointerException
+2017-01-05 19:17:48,835 [WARN]: 	at util.DataBase.GetNewID(DataBase.java:115)
+2017-01-05 19:17:48,841 [WARN]: 	at configSelenium.InitCommonParameter.FilterValue(InitCommonParameter.java:414)
+2017-01-05 19:17:48,847 [WARN]: 	at configSelenium.InitCommonParameter.InitSqlConfigBatchSql(InitCommonParameter.java:319)
+2017-01-05 19:17:48,854 [WARN]: 	at configSelenium.ConfigSeleniumStart.main(ConfigSeleniumStart.java:68)
+2017-01-05 19:17:48,860 [WARN]: java.lang.NullPointerException
+2017-01-05 19:17:48,867 [WARN]: 	at util.DataBase.GetNewID(DataBase.java:115)
+2017-01-05 19:17:48,874 [WARN]: 	at configSelenium.InitCommonParameter.FilterValue(InitCommonParameter.java:414)
+2017-01-05 19:17:48,881 [WARN]: 	at configSelenium.InitCommonParameter.InitSqlConfigBatchSql(InitCommonParameter.java:319)
+2017-01-05 19:17:48,887 [WARN]: 	at configSelenium.ConfigSeleniumStart.main(ConfigSeleniumStart.java:68)
+2017-01-05 19:17:48,893 [WARN]: java.lang.NullPointerException
+2017-01-05 19:17:48,900 [WARN]: 	at util.DataBase.GetNewID(DataBase.java:115)
+2017-01-05 19:17:48,906 [WARN]: 	at configSelenium.InitCommonParameter.FilterValue(InitCommonParameter.java:414)
+2017-01-05 19:17:48,914 [WARN]: 	at configSelenium.InitCommonParameter.InitSqlConfigBatchSql(InitCommonParameter.java:319)
+2017-01-05 19:17:48,930 [WARN]: 	at configSelenium.ConfigSeleniumStart.main(ConfigSeleniumStart.java:68)
+2017-01-05 19:17:48,936 [WARN]: java.lang.NullPointerException
+2017-01-05 19:17:48,943 [WARN]: 	at util.DataBase.GetNewID(DataBase.java:115)
+2017-01-05 19:17:48,949 [WARN]: 	at configSelenium.InitCommonParameter.FilterValue(InitCommonParameter.java:414)
+2017-01-05 19:17:48,954 [WARN]: 	at configSelenium.InitCommonParameter.InitSqlConfigBatchSql(InitCommonParameter.java:319)
+2017-01-05 19:17:48,962 [WARN]: 	at configSelenium.ConfigSeleniumStart.main(ConfigSeleniumStart.java:68)
+2017-01-05 19:17:48,969 [WARN]: java.lang.NullPointerException
+2017-01-05 19:17:48,975 [WARN]: 	at util.DataBase.GetNewID(DataBase.java:115)
+2017-01-05 19:17:48,982 [WARN]: 	at configSelenium.InitCommonParameter.FilterValue(InitCommonParameter.java:414)
+2017-01-05 19:17:48,987 [WARN]: 	at configSelenium.InitCommonParameter.InitSqlConfigBatchSql(InitCommonParameter.java:319)
+2017-01-05 19:17:49,005 [WARN]: 	at configSelenium.ConfigSeleniumStart.main(ConfigSeleniumStart.java:68)
+2017-01-05 19:17:49,010 [WARN]: java.lang.NullPointerException
+2017-01-05 19:17:49,017 [WARN]: 	at util.DataBase.GetNewID(DataBase.java:115)
+2017-01-05 19:17:49,023 [WARN]: 	at configSelenium.InitCommonParameter.FilterValue(InitCommonParameter.java:414)
+2017-01-05 19:17:49,030 [WARN]: 	at configSelenium.InitCommonParameter.InitSqlConfigBatchSql(InitCommonParameter.java:319)
+2017-01-05 19:17:49,037 [WARN]: 	at configSelenium.ConfigSeleniumStart.main(ConfigSeleniumStart.java:68)
+2017-01-05 19:17:49,042 [WARN]: java.lang.NullPointerException
+2017-01-05 19:17:49,049 [WARN]: 	at util.DataBase.GetNewID(DataBase.java:115)
+2017-01-05 19:17:49,055 [WARN]: 	at configSelenium.InitCommonParameter.FilterValue(InitCommonParameter.java:414)
+2017-01-05 19:17:49,069 [WARN]: 	at configSelenium.InitCommonParameter.InitSqlConfigBatchSql(InitCommonParameter.java:319)
+2017-01-05 19:17:49,075 [WARN]: 	at configSelenium.ConfigSeleniumStart.main(ConfigSeleniumStart.java:68)
+2017-01-05 19:17:49,083 [WARN]: Starting ChromeDriver (v2.10.267521) on port 50778
+2017-01-05 19:17:49,090 [WARN]: Only local connections are allowed.
+2017-01-05 19:17:49,305 [INFO]: 初始化ChromeDriver成功！
+2017-01-05 19:17:49,611 [WARN]: Starting ChromeDriver (v2.10.267521) on port 38889
+2017-01-05 19:17:49,618 [WARN]: Only local connections are allowed.
+2017-01-05 19:17:50,174 [WARN]: 一月 05, 2017 7:17:50 下午 org.openqa.selenium.remote.ProtocolHandshake createSession
+2017-01-05 19:17:50,183 [WARN]: 信息: Attempting bi-dialect session, assuming Postel's Law holds true on the remote end
+2017-01-05 19:17:50,224 [WARN]: log4j:WARN No appenders could be found for logger (org.apache.http.client.protocol.RequestAddCookies).
+2017-01-05 19:17:50,231 [WARN]: log4j:WARN Please initialize the log4j system properly.
+2017-01-05 19:17:50,238 [WARN]: log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+2017-01-05 19:17:51,520 [WARN]: 一月 05, 2017 7:17:51 下午 org.openqa.selenium.remote.ProtocolHandshake createSession
+2017-01-05 19:17:51,526 [WARN]: 信息: Detected dialect: OSS
+2017-01-05 19:17:52,549 [INFO]: 初始化WebDriver成功！
+2017-01-05 19:17:52,571 [INFO]: 系统登陆地址：http://192.168.7.200:8082/GisqPlatformExplorer/a/login;JSESSIONID=7a22b82495884077a7860a3b86e8ac2f
+2017-01-05 19:17:52,592 [WARN]: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+2017-01-05 19:17:52,606 [WARN]: from unknown error: web view not found
+2017-01-05 19:17:52,621 [WARN]:   (Session info: chrome=34.0.1847.116)
+2017-01-05 19:17:52,634 [WARN]:   (Driver info: chromedriver=2.10.267521,platform=Windows NT 6.3 x86_64) (WARNING: The server did not provide any stacktrace information)
+2017-01-05 19:17:52,643 [WARN]: Command duration or timeout: 31 milliseconds
+2017-01-05 19:17:52,655 [WARN]: Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+2017-01-05 19:17:52,679 [WARN]: System info: host: 'assassin', ip: '169.254.212.148', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+2017-01-05 19:17:52,689 [WARN]: Driver info: org.openqa.selenium.chrome.ChromeDriver
+2017-01-05 19:17:52,697 [WARN]: Capabilities [{applicationCacheEnabled=false, rotatable=false, chrome={userDataDir=C:\Users\ADMINI~1.MTC\AppData\Local\Temp\scoped_dir13788_21050}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=34.0.1847.116, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+2017-01-05 19:17:52,707 [WARN]: Session ID: 310335fa1bb04d36d0b938b0c9437d6f
+2017-01-05 19:17:52,716 [WARN]: *** Element info: {Using=id, value=username}
+2017-01-05 19:17:52,727 [WARN]: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+2017-01-05 19:17:52,740 [WARN]: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+2017-01-05 19:17:52,749 [WARN]: 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+2017-01-05 19:17:52,756 [WARN]: 	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+2017-01-05 19:17:52,764 [WARN]: 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+2017-01-05 19:17:52,772 [WARN]: 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+2017-01-05 19:17:52,779 [WARN]: 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+2017-01-05 19:17:52,805 [WARN]: 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+2017-01-05 19:17:52,812 [WARN]: 	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:417)
+2017-01-05 19:17:52,821 [WARN]: 	at org.openqa.selenium.By$ById.findElement(By.java:215)
+2017-01-05 19:17:52,829 [WARN]: 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+2017-01-05 19:17:52,838 [WARN]: 	at configSelenium.ConfigSeleniumStart.main(ConfigSeleniumStart.java:111)
+2017-01-05 19:17:55,037 [INFO]: 
+2017-01-05 19:21:16,556 [INFO]: Microsoft Windows [版本 10.0.14393]
+2017-01-05 19:21:16,559 [INFO]: (c) 2016 Microsoft Corporation。保留所有权利。
+2017-01-05 19:21:16,562 [INFO]: 
+2017-01-05 19:21:16,564 [INFO]: E:\不动产登记系统\trunk\07.系统实现\自动化测试\SeleniumConfig\bin\Debug>java -jar E:\不动产登记系统\trunk\07.系统实现\自动化测试\SeleniumConfig\bin\Debug\\SeleniumJAVA\Selenium.jar C#
+2017-01-05 19:21:16,687 [INFO]: /E:/不动产登记系统/trunk/07.系统实现/自动化测试/SeleniumConfig/bin/Debug
+2017-01-05 19:21:16,689 [INFO]: 开始准备数据
+2017-01-05 19:21:16,691 [INFO]: 开始缓存总体参数配置文件
+2017-01-05 19:21:17,188 [INFO]: 缓存总体参数配置文件成功！
+2017-01-05 19:21:17,190 [INFO]: 开始缓存SQL配置信息
+2017-01-05 19:21:17,204 [INFO]: 缓存SQL配置信息成功！
+2017-01-05 19:21:17,206 [INFO]: 开始缓存SQL配置的SQL语句信息
+2017-01-05 19:21:18,039 [WARN]: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2017-01-05 19:21:18,047 [WARN]: SLF4J: Defaulting to no-operation (NOP) logger implementation
+2017-01-05 19:21:18,052 [INFO]: insert into SDE.FW_H(OBJECTID,BDCDJBSM,BDCDYH,BSM,JGSJ,QXDM,RKSJ,ZDDM,ZDBSM,ZRZBSM) values(0,0,'924039886972GB56071F16926586',0,to_date('2016-10-12','YYYY-MM-DD'),924039,to_date('2017-01-05 19:21:17','YYYY-MM-DD HH24:MI:SS'),'924039886972GB56071',0,0);
+2017-01-05 19:21:18,059 [WARN]: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2017-01-05 19:21:18,066 [INFO]: insert into SDE.T_ZD(ZD_ID,BDCDJBSM,BDCDYH,DJQDM,DJQZH,QXDM,ZDDM,ZD_SYQLX,ZD_TZM) values(0,0,'924039886972GB56071W00000000','924039886972',56071,924039,'924039886972GB56071','G','B');
+2017-01-05 19:21:18,073 [WARN]: log4j:WARN No such property [maxFileSize] in org.apache.log4j.DailyRollingFileAppender.
+2017-01-05 19:21:18,098 [INFO]: insert into SDE.ST_ZRZ(OBJECTID,BDCDJBSM,BDCDYH,BSM,QXDM) values(0,0,'924039886972GB56071F1692',0,924039);
+2017-01-05 19:21:18,116 [WARN]: java.lang.ClassNotFoundException: oracle.jdbc.driver.OracleDriver
+2017-01-05 19:21:18,133 [INFO]: insert into BDCDJ.BDCDY(BSM,BDCDYH,DCDZWDYBM,DCZDZHBM,DZWSXH,DZWTZM,GXSJ,QXDM,REV_,DCDZWDYBSM,DCZBSM,DCZDZHBSM) values(0,'924039886972GB56071F16926586','FW_H','ST_ZD',6586,'F',to_date('2017-01-05 19:21:17','YYYY-MM-DD HH24:MI:SS'),924039,1,0,0,0);
+2017-01-05 19:21:18,151 [WARN]: 	at java.net.URLClassLoader.findClass(Unknown Source)
+2017-01-05 19:21:18,159 [INFO]: insert into BDCDJ.BDCDYZ(BSM,DCZDZHBM,GXSJ,QXDM,REV_,ZDYH,ZDZHDM,ZSXH,DCZBSM,DCZDZHBSM) values(0,'ST_ZD',to_date('2017-01-05 19:21:18','YYYY-MM-DD HH24:MI:SS'),924039,1,'924039886972GB56071F1692','924039886972GB56071',1692,0,0);
+2017-01-05 19:21:18,168 [WARN]: 	at java.lang.ClassLoader.loadClass(Unknown Source)
+2017-01-05 19:21:18,178 [INFO]: 缓存SQL配置的SQL语句信息成功！
+2017-01-05 19:21:18,186 [WARN]: 	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+2017-01-05 19:21:18,212 [INFO]: 开始缓存自动化测试配置方案文件
+2017-01-05 19:21:18,217 [WARN]: 	at java.lang.ClassLoader.loadClass(Unknown Source)
+2017-01-05 19:21:18,225 [INFO]: 缓存自动化测试配置方案文件成功！
+2017-01-05 19:21:18,233 [WARN]: 	at java.lang.Class.forName0(Native Method)
+2017-01-05 19:21:18,240 [INFO]: 开始缓存初始化配置参数成功！
+2017-01-05 19:21:18,248 [WARN]: 	at java.lang.Class.forName(Unknown Source)
+2017-01-05 19:21:18,256 [INFO]: 缓存流程配置信息成功！
+2017-01-05 19:21:18,264 [WARN]: 	at util.DataBase.<clinit>(DataBase.java:40)
+2017-01-05 19:21:18,271 [WARN]: 	at configSelenium.InitCommonParameter.FilterValue(InitCommonParameter.java:414)
+2017-01-05 19:21:18,278 [WARN]: 	at configSelenium.InitCommonParameter.InitSqlConfigBatchSql(InitCommonParameter.java:319)
+2017-01-05 19:21:18,285 [WARN]: 	at configSelenium.ConfigSeleniumStart.main(ConfigSeleniumStart.java:68)
+2017-01-05 19:21:18,292 [WARN]: java.lang.NullPointerException
+2017-01-05 19:21:18,301 [WARN]: 	at util.DataBase.GetNewID(DataBase.java:115)
+2017-01-05 19:21:18,308 [WARN]: 	at configSelenium.InitCommonParameter.FilterValue(InitCommonParameter.java:414)
+2017-01-05 19:21:18,316 [WARN]: 	at configSelenium.InitCommonParameter.InitSqlConfigBatchSql(InitCommonParameter.java:319)
+2017-01-05 19:21:18,324 [WARN]: 	at configSelenium.ConfigSeleniumStart.main(ConfigSeleniumStart.java:68)
+2017-01-05 19:21:18,332 [WARN]: java.lang.NullPointerException
+2017-01-05 19:21:18,339 [WARN]: 	at util.DataBase.GetNewID(DataBase.java:115)
+2017-01-05 19:21:18,348 [WARN]: 	at configSelenium.InitCommonParameter.FilterValue(InitCommonParameter.java:414)
+2017-01-05 19:21:18,355 [WARN]: 	at configSelenium.InitCommonParameter.InitSqlConfigBatchSql(InitCommonParameter.java:319)
+2017-01-05 19:21:18,362 [WARN]: 	at configSelenium.ConfigSeleniumStart.main(ConfigSeleniumStart.java:68)
+2017-01-05 19:21:18,367 [WARN]: java.lang.NullPointerException
+2017-01-05 19:21:18,373 [WARN]: 	at util.DataBase.GetNewID(DataBase.java:115)
+2017-01-05 19:21:18,381 [WARN]: 	at configSelenium.InitCommonParameter.FilterValue(InitCommonParameter.java:414)
+2017-01-05 19:21:18,386 [WARN]: 	at configSelenium.InitCommonParameter.InitSqlConfigBatchSql(InitCommonParameter.java:319)
+2017-01-05 19:21:18,392 [WARN]: 	at configSelenium.ConfigSeleniumStart.main(ConfigSeleniumStart.java:68)
+2017-01-05 19:21:18,399 [WARN]: java.lang.NullPointerException
+2017-01-05 19:21:18,404 [WARN]: 	at util.DataBase.GetNewID(DataBase.java:115)
+2017-01-05 19:21:18,411 [WARN]: 	at configSelenium.InitCommonParameter.FilterValue(InitCommonParameter.java:414)
+2017-01-05 19:21:18,418 [WARN]: 	at configSelenium.InitCommonParameter.InitSqlConfigBatchSql(InitCommonParameter.java:319)
+2017-01-05 19:21:18,424 [WARN]: 	at configSelenium.ConfigSeleniumStart.main(ConfigSeleniumStart.java:68)
+2017-01-05 19:21:18,432 [WARN]: java.lang.NullPointerException
+2017-01-05 19:21:18,438 [WARN]: 	at util.DataBase.GetNewID(DataBase.java:115)
+2017-01-05 19:21:18,446 [WARN]: 	at configSelenium.InitCommonParameter.FilterValue(InitCommonParameter.java:414)
+2017-01-05 19:21:18,451 [WARN]: 	at configSelenium.InitCommonParameter.InitSqlConfigBatchSql(InitCommonParameter.java:319)
+2017-01-05 19:21:18,458 [WARN]: 	at configSelenium.ConfigSeleniumStart.main(ConfigSeleniumStart.java:68)
+2017-01-05 19:21:18,465 [WARN]: java.lang.NullPointerException
+2017-01-05 19:21:18,470 [WARN]: 	at util.DataBase.GetNewID(DataBase.java:115)
+2017-01-05 19:21:18,477 [WARN]: 	at configSelenium.InitCommonParameter.FilterValue(InitCommonParameter.java:414)
+2017-01-05 19:21:18,483 [WARN]: 	at configSelenium.InitCommonParameter.InitSqlConfigBatchSql(InitCommonParameter.java:319)
+2017-01-05 19:21:18,489 [WARN]: 	at configSelenium.ConfigSeleniumStart.main(ConfigSeleniumStart.java:68)
+2017-01-05 19:21:18,496 [WARN]: java.lang.NullPointerException
+2017-01-05 19:21:18,506 [WARN]: 	at util.DataBase.GetNewID(DataBase.java:115)
+2017-01-05 19:21:18,512 [WARN]: 	at configSelenium.InitCommonParameter.FilterValue(InitCommonParameter.java:414)
+2017-01-05 19:21:18,518 [WARN]: 	at configSelenium.InitCommonParameter.InitSqlConfigBatchSql(InitCommonParameter.java:319)
+2017-01-05 19:21:18,524 [WARN]: 	at configSelenium.ConfigSeleniumStart.main(ConfigSeleniumStart.java:68)
+2017-01-05 19:21:18,532 [WARN]: java.lang.NullPointerException
+2017-01-05 19:21:18,537 [WARN]: 	at util.DataBase.GetNewID(DataBase.java:115)
+2017-01-05 19:21:18,543 [WARN]: 	at configSelenium.InitCommonParameter.FilterValue(InitCommonParameter.java:414)
+2017-01-05 19:21:18,550 [WARN]: 	at configSelenium.InitCommonParameter.InitSqlConfigBatchSql(InitCommonParameter.java:319)
+2017-01-05 19:21:18,557 [WARN]: 	at configSelenium.ConfigSeleniumStart.main(ConfigSeleniumStart.java:68)
+2017-01-05 19:21:18,565 [WARN]: java.lang.NullPointerException
+2017-01-05 19:21:18,585 [WARN]: 	at util.DataBase.GetNewID(DataBase.java:115)
+2017-01-05 19:21:18,591 [WARN]: 	at configSelenium.InitCommonParameter.FilterValue(InitCommonParameter.java:414)
+2017-01-05 19:21:18,598 [WARN]: 	at configSelenium.InitCommonParameter.InitSqlConfigBatchSql(InitCommonParameter.java:319)
+2017-01-05 19:21:18,603 [WARN]: 	at configSelenium.ConfigSeleniumStart.main(ConfigSeleniumStart.java:68)
+2017-01-05 19:21:18,608 [WARN]: java.lang.NullPointerException
+2017-01-05 19:21:18,616 [WARN]: 	at util.DataBase.GetNewID(DataBase.java:115)
+2017-01-05 19:21:18,621 [WARN]: 	at configSelenium.InitCommonParameter.FilterValue(InitCommonParameter.java:414)
+2017-01-05 19:21:18,629 [WARN]: 	at configSelenium.InitCommonParameter.InitSqlConfigBatchSql(InitCommonParameter.java:319)
+2017-01-05 19:21:18,647 [WARN]: 	at configSelenium.ConfigSeleniumStart.main(ConfigSeleniumStart.java:68)
+2017-01-05 19:21:18,653 [WARN]: Starting ChromeDriver (v2.10.267521) on port 29941
+2017-01-05 19:21:18,659 [WARN]: Only local connections are allowed.
+2017-01-05 19:21:19,133 [WARN]: Starting ChromeDriver (v2.10.267521) on port 49120
+2017-01-05 19:21:20,018 [INFO]: 初始化ChromeDriver成功！
+2017-01-05 19:21:21,018 [WARN]: Only local connections are allowed.
+2017-01-05 19:21:21,026 [WARN]: 一月 05, 2017 7:21:19 下午 org.openqa.selenium.remote.ProtocolHandshake createSession
+2017-01-05 19:21:21,032 [WARN]: 信息: Attempting bi-dialect session, assuming Postel's Law holds true on the remote end
+2017-01-05 19:21:21,056 [WARN]: log4j:WARN No appenders could be found for logger (org.apache.http.client.protocol.RequestAddCookies).
+2017-01-05 19:21:21,060 [WARN]: log4j:WARN Please initialize the log4j system properly.
+2017-01-05 19:21:21,064 [WARN]: log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+2017-01-05 19:21:21,067 [WARN]: 一月 05, 2017 7:21:20 下午 org.openqa.selenium.remote.ProtocolHandshake createSession
+2017-01-05 19:21:21,070 [WARN]: 信息: Detected dialect: OSS
+2017-01-05 19:21:21,654 [INFO]: 初始化WebDriver成功！
+2017-01-05 19:21:21,659 [INFO]: 系统登陆地址：http://192.168.7.200:8082/GisqPlatformExplorer/a/login;JSESSIONID=7a22b82495884077a7860a3b86e8ac2f
+2017-01-05 19:21:21,690 [WARN]: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+2017-01-05 19:21:21,704 [WARN]: from unknown error: web view not found
+2017-01-05 19:21:21,714 [WARN]:   (Session info: chrome=34.0.1847.116)
+2017-01-05 19:21:21,727 [WARN]:   (Driver info: chromedriver=2.10.267521,platform=Windows NT 6.3 x86_64) (WARNING: The server did not provide any stacktrace information)
+2017-01-05 19:21:21,737 [WARN]: Command duration or timeout: 29 milliseconds
+2017-01-05 19:21:21,750 [WARN]: Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+2017-01-05 19:21:21,758 [WARN]: System info: host: 'assassin', ip: '169.254.212.148', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+2017-01-05 19:21:21,772 [WARN]: Driver info: org.openqa.selenium.chrome.ChromeDriver
+2017-01-05 19:21:21,782 [WARN]: Capabilities [{applicationCacheEnabled=false, rotatable=false, chrome={userDataDir=C:\Users\ADMINI~1.MTC\AppData\Local\Temp\scoped_dir14080_27997}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=34.0.1847.116, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+2017-01-05 19:21:21,789 [WARN]: Session ID: 2c7525021343ad041686e4127818a8e4
+2017-01-05 19:21:21,797 [WARN]: *** Element info: {Using=id, value=username}
+2017-01-05 19:21:21,804 [WARN]: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+2017-01-05 19:21:21,813 [WARN]: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+2017-01-05 19:21:21,834 [WARN]: 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+2017-01-05 19:21:21,842 [WARN]: 	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+2017-01-05 19:21:21,851 [WARN]: 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+2017-01-05 19:21:21,858 [WARN]: 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+2017-01-05 19:21:21,867 [WARN]: 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+2017-01-05 19:21:21,875 [WARN]: 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+2017-01-05 19:21:21,898 [WARN]: 	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:417)
+2017-01-05 19:21:21,905 [WARN]: 	at org.openqa.selenium.By$ById.findElement(By.java:215)
+2017-01-05 19:21:21,915 [WARN]: 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+2017-01-05 19:21:21,922 [WARN]: 	at configSelenium.ConfigSeleniumStart.main(ConfigSeleniumStart.java:111)
+2017-01-05 19:21:23,810 [INFO]: 
+2017-01-05 19:27:55,881 [INFO]: Microsoft Windows [版本 10.0.14393]
+2017-01-05 19:27:55,887 [INFO]: (c) 2016 Microsoft Corporation。保留所有权利。
+2017-01-05 19:27:55,890 [INFO]: 
+2017-01-05 19:27:55,892 [INFO]: E:\不动产登记系统\trunk\07.系统实现\自动化测试\SeleniumConfig\bin\Debug>java -jar E:\不动产登记系统\trunk\07.系统实现\自动化测试\SeleniumConfig\bin\Debug\\SeleniumJAVA\Selenium.jar C#
+2017-01-05 19:27:56,016 [INFO]: /E:/不动产登记系统/trunk/07.系统实现/自动化测试/SeleniumConfig/bin/Debug
+2017-01-05 19:27:56,020 [INFO]: 开始准备数据
+2017-01-05 19:27:56,022 [INFO]: 开始缓存总体参数配置文件
+2017-01-05 19:27:56,506 [INFO]: 缓存总体参数配置文件成功！
+2017-01-05 19:27:56,508 [INFO]: 开始缓存SQL配置信息
+2017-01-05 19:27:56,527 [INFO]: 缓存SQL配置信息成功！
+2017-01-05 19:27:56,529 [INFO]: 开始缓存SQL配置的SQL语句信息
+2017-01-05 19:27:56,896 [INFO]: 缓存SQL配置的SQL语句信息成功！
+2017-01-05 19:27:56,898 [INFO]: 开始缓存自动化测试配置方案文件
+2017-01-05 19:27:56,904 [INFO]: 缓存自动化测试配置方案文件成功！
+2017-01-05 19:27:56,906 [INFO]: 开始缓存初始化配置参数成功！
+2017-01-05 19:27:56,935 [INFO]: 缓存流程配置信息成功！
+2017-01-05 19:27:57,877 [WARN]: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2017-01-05 19:27:57,884 [WARN]: SLF4J: Defaulting to no-operation (NOP) logger implementation
+2017-01-05 19:27:57,907 [WARN]: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2017-01-05 19:27:57,920 [WARN]: Starting ChromeDriver (v2.10.267521) on port 37303
+2017-01-05 19:27:57,932 [WARN]: Only local connections are allowed.
+2017-01-05 19:27:57,993 [INFO]: 初始化ChromeDriver成功！
+2017-01-05 19:27:58,026 [WARN]: Exception in thread "main" java.lang.NoSuchMethodError: org.openqa.selenium.remote.service.DriverCommandExecutor.<init>(Lorg/openqa/selenium/remote/service/DriverService;Ljava/util/Map;)V
+2017-01-05 19:27:58,033 [WARN]: 	at org.openqa.selenium.chrome.ChromeDriverCommandExecutor.<init>(ChromeDriverCommandExecutor.java:40)
+2017-01-05 19:27:58,039 [WARN]: 	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:174)
+2017-01-05 19:27:58,045 [WARN]: 	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:163)
+2017-01-05 19:27:58,053 [WARN]: 	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:152)
+2017-01-05 19:27:58,059 [WARN]: 	at configSelenium.ConfigSeleniumStart.main(ConfigSeleniumStart.java:102)
+2017-01-05 19:30:01,126 [INFO]: Microsoft Windows [版本 10.0.14393]
+2017-01-05 19:30:01,128 [INFO]: (c) 2016 Microsoft Corporation。保留所有权利。
+2017-01-05 19:30:01,131 [INFO]: 
+2017-01-05 19:30:01,133 [INFO]: E:\不动产登记系统\trunk\07.系统实现\自动化测试\SeleniumConfig\bin\Debug>java -jar E:\不动产登记系统\trunk\07.系统实现\自动化测试\SeleniumConfig\bin\Debug\\SeleniumJAVA\Selenium.jar C#
+2017-01-05 19:30:01,345 [INFO]: /E:/不动产登记系统/trunk/07.系统实现/自动化测试/SeleniumConfig/bin/Debug
+2017-01-05 19:30:01,361 [INFO]: 开始准备数据
+2017-01-05 19:30:01,363 [INFO]: 开始缓存总体参数配置文件
+2017-01-05 19:30:01,574 [WARN]: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2017-01-05 19:30:01,576 [WARN]: SLF4J: Defaulting to no-operation (NOP) logger implementation
+2017-01-05 19:30:01,578 [WARN]: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2017-01-05 19:30:01,841 [INFO]: 缓存总体参数配置文件成功！
+2017-01-05 19:30:01,843 [INFO]: 开始缓存SQL配置信息
+2017-01-05 19:30:01,857 [INFO]: 缓存SQL配置信息成功！
+2017-01-05 19:30:01,859 [INFO]: 开始缓存SQL配置的SQL语句信息
+2017-01-05 19:30:02,164 [INFO]: 缓存SQL配置的SQL语句信息成功！
+2017-01-05 19:30:02,166 [INFO]: 开始缓存自动化测试配置方案文件
+2017-01-05 19:30:02,171 [INFO]: 缓存自动化测试配置方案文件成功！
+2017-01-05 19:30:02,177 [INFO]: 开始缓存初始化配置参数成功！
+2017-01-05 19:30:02,192 [INFO]: 缓存流程配置信息成功！
+2017-01-05 19:30:02,310 [WARN]: Starting ChromeDriver (v2.10.267521) on port 45774
+2017-01-05 19:30:02,318 [WARN]: Only local connections are allowed.
+2017-01-05 19:30:03,262 [INFO]: 初始化ChromeDriver成功！
+2017-01-05 19:30:03,301 [WARN]: Exception in thread "main" java.lang.NoSuchMethodError: org.openqa.selenium.remote.service.DriverCommandExecutor.<init>(Lorg/openqa/selenium/remote/service/DriverService;Ljava/util/Map;)V
+2017-01-05 19:30:03,311 [WARN]: 	at org.openqa.selenium.chrome.ChromeDriverCommandExecutor.<init>(ChromeDriverCommandExecutor.java:40)
+2017-01-05 19:30:03,317 [WARN]: 	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:174)
+2017-01-05 19:30:03,325 [WARN]: 	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:163)
+2017-01-05 19:30:03,333 [WARN]: 	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:152)
+2017-01-05 19:30:03,341 [WARN]: 	at configSelenium.ConfigSeleniumStart.main(ConfigSeleniumStart.java:102)
+2017-01-05 19:32:34,558 [INFO]: Microsoft Windows [版本 10.0.14393]
+2017-01-05 19:32:34,562 [INFO]: (c) 2016 Microsoft Corporation。保留所有权利。
+2017-01-05 19:32:34,564 [INFO]: 
+2017-01-05 19:32:34,566 [INFO]: E:\不动产登记系统\trunk\07.系统实现\自动化测试\SeleniumConfig\bin\Debug>java -jar E:\不动产登记系统\trunk\07.系统实现\自动化测试\SeleniumConfig\bin\Debug\\SeleniumJAVA\Selenium.jar C#
+2017-01-05 19:32:34,747 [INFO]: /E:/不动产登记系统/trunk/07.系统实现/自动化测试/SeleniumConfig/bin/Debug
+2017-01-05 19:32:34,749 [INFO]: 开始准备数据
+2017-01-05 19:32:34,751 [INFO]: 开始缓存总体参数配置文件
+2017-01-05 19:32:35,231 [INFO]: 缓存总体参数配置文件成功！
+2017-01-05 19:32:35,233 [INFO]: 开始缓存SQL配置信息
+2017-01-05 19:32:35,254 [INFO]: 缓存SQL配置信息成功！
+2017-01-05 19:32:35,257 [INFO]: 开始缓存SQL配置的SQL语句信息
+2017-01-05 19:32:35,562 [INFO]: 缓存SQL配置的SQL语句信息成功！
+2017-01-05 19:32:35,564 [INFO]: 开始缓存自动化测试配置方案文件
+2017-01-05 19:32:35,567 [INFO]: 缓存自动化测试配置方案文件成功！
+2017-01-05 19:32:35,570 [INFO]: 开始缓存初始化配置参数成功！
+2017-01-05 19:32:35,582 [INFO]: 缓存流程配置信息成功！
+2017-01-05 19:32:36,534 [WARN]: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2017-01-05 19:32:36,539 [WARN]: SLF4J: Defaulting to no-operation (NOP) logger implementation
+2017-01-05 19:32:36,552 [WARN]: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2017-01-05 19:32:36,565 [WARN]: Starting ChromeDriver (v2.10.267521) on port 10827
+2017-01-05 19:32:36,577 [WARN]: Only local connections are allowed.
+2017-01-05 19:32:36,635 [INFO]: 初始化ChromeDriver成功！
+2017-01-05 19:32:36,667 [WARN]: Exception in thread "main" java.lang.NoSuchMethodError: org.openqa.selenium.remote.service.DriverCommandExecutor.<init>(Lorg/openqa/selenium/remote/service/DriverService;Ljava/util/Map;)V
+2017-01-05 19:32:36,674 [WARN]: 	at org.openqa.selenium.chrome.ChromeDriverCommandExecutor.<init>(ChromeDriverCommandExecutor.java:40)
+2017-01-05 19:32:36,682 [WARN]: 	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:174)
+2017-01-05 19:32:36,690 [WARN]: 	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:163)
+2017-01-05 19:32:36,697 [WARN]: 	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:152)
+2017-01-05 19:32:36,703 [WARN]: 	at configSelenium.ConfigSeleniumStart.main(ConfigSeleniumStart.java:102)
+2017-01-05 19:37:20,775 [INFO]: Microsoft Windows [版本 10.0.14393]
+2017-01-05 19:37:20,782 [INFO]: (c) 2016 Microsoft Corporation。保留所有权利。
+2017-01-05 19:37:20,786 [INFO]: 
+2017-01-05 19:37:20,789 [INFO]: E:\不动产登记系统\trunk\07.系统实现\自动化测试\SeleniumConfig\bin\Debug>java -jar E:\不动产登记系统\trunk\07.系统实现\自动化测试\SeleniumConfig\bin\Debug\\SeleniumJAVA\Selenium.jar C#
+2017-01-05 19:37:21,010 [INFO]: /E:/不动产登记系统/trunk/07.系统实现/自动化测试/SeleniumConfig/bin/Debug
+2017-01-05 19:37:21,012 [INFO]: 开始准备数据
+2017-01-05 19:37:21,015 [INFO]: 开始缓存总体参数配置文件
+2017-01-05 19:37:21,490 [INFO]: 缓存总体参数配置文件成功！
+2017-01-05 19:37:21,493 [INFO]: 开始缓存SQL配置信息
+2017-01-05 19:37:21,516 [INFO]: 缓存SQL配置信息成功！
+2017-01-05 19:37:21,518 [INFO]: 开始缓存SQL配置的SQL语句信息
+2017-01-05 19:37:21,843 [INFO]: 缓存SQL配置的SQL语句信息成功！
+2017-01-05 19:37:21,846 [INFO]: 开始缓存自动化测试配置方案文件
+2017-01-05 19:37:21,850 [INFO]: 缓存自动化测试配置方案文件成功！
+2017-01-05 19:37:21,854 [INFO]: 开始缓存初始化配置参数成功！
+2017-01-05 19:37:21,885 [INFO]: 缓存流程配置信息成功！
+2017-01-05 19:37:22,744 [WARN]: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2017-01-05 19:37:22,749 [WARN]: SLF4J: Defaulting to no-operation (NOP) logger implementation
+2017-01-05 19:37:22,764 [WARN]: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2017-01-05 19:37:22,775 [WARN]: Starting ChromeDriver (v2.10.267521) on port 7967
+2017-01-05 19:37:22,787 [WARN]: Only local connections are allowed.
+2017-01-05 19:37:22,946 [INFO]: 初始化ChromeDriver成功！
+2017-01-05 19:37:22,965 [WARN]: Exception in thread "main" java.lang.NoSuchMethodError: org.openqa.selenium.remote.service.DriverCommandExecutor.<init>(Lorg/openqa/selenium/remote/service/DriverService;Ljava/util/Map;)V
+2017-01-05 19:37:22,971 [WARN]: 	at org.openqa.selenium.chrome.ChromeDriverCommandExecutor.<init>(ChromeDriverCommandExecutor.java:40)
+2017-01-05 19:37:22,979 [WARN]: 	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:174)
+2017-01-05 19:37:22,992 [WARN]: 	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:163)
+2017-01-05 19:37:22,999 [WARN]: 	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:152)
+2017-01-05 19:37:23,005 [WARN]: 	at configSelenium.ConfigSeleniumStart.main(ConfigSeleniumStart.java:102)
+2017-01-05 19:40:40,979 [INFO]: 
+2017-01-05 19:40:45,036 [ERROR]: System.InvalidOperationException: 在创建窗口句柄之前，不能在控件上调用 Invoke 或 BeginInvoke。
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 SeleniumConfig.SeleniumSchema.FrmJAVASeleniumOutPut.p_OutputDataReceived(Object sender, DataReceivedEventArgs e) 位置 e:\不动产登记系统\trunk\07.系统实现\自动化测试\SeleniumConfig\SeleniumSchema\FrmJAVASeleniumOutPut.cs:行号 72
+2017-01-05 19:40:45,465 [ERROR]: System.InvalidOperationException: 在创建窗口句柄之前，不能在控件上调用 Invoke 或 BeginInvoke。
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 SeleniumConfig.SeleniumSchema.FrmJAVASeleniumOutPut.p_OutputDataReceived(Object sender, DataReceivedEventArgs e) 位置 e:\不动产登记系统\trunk\07.系统实现\自动化测试\SeleniumConfig\SeleniumSchema\FrmJAVASeleniumOutPut.cs:行号 72
+2017-01-05 19:40:47,747 [ERROR]: System.InvalidOperationException: 在创建窗口句柄之前，不能在控件上调用 Invoke 或 BeginInvoke。
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 SeleniumConfig.SeleniumSchema.FrmJAVASeleniumOutPut.p_OutputDataReceived(Object sender, DataReceivedEventArgs e) 位置 e:\不动产登记系统\trunk\07.系统实现\自动化测试\SeleniumConfig\SeleniumSchema\FrmJAVASeleniumOutPut.cs:行号 72
+2017-01-05 19:40:48,942 [ERROR]: System.InvalidOperationException: 在创建窗口句柄之前，不能在控件上调用 Invoke 或 BeginInvoke。
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 SeleniumConfig.SeleniumSchema.FrmJAVASeleniumOutPut.p_OutputDataReceived(Object sender, DataReceivedEventArgs e) 位置 e:\不动产登记系统\trunk\07.系统实现\自动化测试\SeleniumConfig\SeleniumSchema\FrmJAVASeleniumOutPut.cs:行号 72
+2017-01-05 19:40:50,787 [ERROR]: System.InvalidOperationException: 在创建窗口句柄之前，不能在控件上调用 Invoke 或 BeginInvoke。
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 SeleniumConfig.SeleniumSchema.FrmJAVASeleniumOutPut.p_OutputDataReceived(Object sender, DataReceivedEventArgs e) 位置 e:\不动产登记系统\trunk\07.系统实现\自动化测试\SeleniumConfig\SeleniumSchema\FrmJAVASeleniumOutPut.cs:行号 72
+2017-01-05 19:41:12,027 [INFO]: Microsoft Windows [版本 10.0.14393]
+2017-01-05 19:41:12,033 [INFO]: (c) 2016 Microsoft Corporation。保留所有权利。
+2017-01-05 19:41:12,038 [INFO]: 
+2017-01-05 19:41:12,042 [INFO]: E:\不动产登记系统\trunk\07.系统实现\自动化测试\SeleniumConfig\bin\Debug>java -jar E:\不动产登记系统\trunk\07.系统实现\自动化测试\SeleniumConfig\bin\Debug\\SeleniumJAVA\Selenium.jar C#
+2017-01-05 19:41:12,710 [INFO]: 
+2017-01-05 19:41:13,527 [WARN]: E:\不动产登记系统\trunk\07.系统实现\自动化测试\SeleniumConfig\bin\Debug\\SeleniumJAVA\Selenium.jar中没有主清单属性
+2017-01-05 19:43:04,169 [INFO]: Microsoft Windows [版本 10.0.14393]
+2017-01-05 19:43:04,172 [INFO]: (c) 2016 Microsoft Corporation。保留所有权利。
+2017-01-05 19:43:04,174 [INFO]: 
+2017-01-05 19:43:04,176 [INFO]: E:\不动产登记系统\trunk\07.系统实现\自动化测试\SeleniumConfig\bin\Debug>java -jar E:\不动产登记系统\trunk\07.系统实现\自动化测试\SeleniumConfig\bin\Debug\\SeleniumJAVA\Selenium.jar C#
+2017-01-05 19:43:04,300 [INFO]: /E:/不动产登记系统/trunk/07.系统实现/自动化测试/SeleniumConfig/bin/Debug
+2017-01-05 19:43:04,302 [INFO]: 开始准备数据
+2017-01-05 19:43:04,304 [INFO]: 开始缓存总体参数配置文件
+2017-01-05 19:43:04,755 [INFO]: 缓存总体参数配置文件成功！
+2017-01-05 19:43:04,757 [INFO]: 开始缓存SQL配置信息
+2017-01-05 19:43:04,772 [INFO]: 缓存SQL配置信息成功！
+2017-01-05 19:43:04,774 [INFO]: 开始缓存SQL配置的SQL语句信息
+2017-01-05 19:43:05,084 [INFO]: 缓存SQL配置的SQL语句信息成功！
+2017-01-05 19:43:05,086 [INFO]: 开始缓存自动化测试配置方案文件
+2017-01-05 19:43:05,091 [INFO]: 缓存自动化测试配置方案文件成功！
+2017-01-05 19:43:05,093 [INFO]: 开始缓存初始化配置参数成功！
+2017-01-05 19:43:05,106 [INFO]: 缓存流程配置信息成功！
+2017-01-05 19:43:05,652 [WARN]: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2017-01-05 19:43:05,658 [WARN]: SLF4J: Defaulting to no-operation (NOP) logger implementation
+2017-01-05 19:43:05,675 [WARN]: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2017-01-05 19:43:05,687 [WARN]: Starting ChromeDriver (v2.10.267521) on port 17290
+2017-01-05 19:43:05,696 [WARN]: Only local connections are allowed.
+2017-01-05 19:43:06,163 [INFO]: 初始化ChromeDriver成功！
+2017-01-05 19:43:06,209 [WARN]: Exception in thread "main" java.lang.NoSuchMethodError: org.openqa.selenium.remote.service.DriverCommandExecutor.<init>(Lorg/openqa/selenium/remote/service/DriverService;Ljava/util/Map;)V
+2017-01-05 19:43:06,216 [WARN]: 	at org.openqa.selenium.chrome.ChromeDriverCommandExecutor.<init>(ChromeDriverCommandExecutor.java:40)
+2017-01-05 19:43:06,221 [WARN]: 	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:174)
+2017-01-05 19:43:06,228 [WARN]: 	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:163)
+2017-01-05 19:43:06,235 [WARN]: 	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:152)
+2017-01-05 19:43:06,241 [WARN]: 	at configSelenium.ConfigSeleniumStart.main(ConfigSeleniumStart.java:102)
+2017-01-05 19:47:32,964 [INFO]: 
+2017-01-05 19:47:54,599 [INFO]: Microsoft Windows [版本 10.0.14393]
+2017-01-05 19:47:54,601 [INFO]: (c) 2016 Microsoft Corporation。保留所有权利。
+2017-01-05 19:47:54,603 [INFO]: 
+2017-01-05 19:47:54,608 [INFO]: E:\不动产登记系统\trunk\07.系统实现\自动化测试\SeleniumConfig\bin\Debug>java -jar E:\不动产登记系统\trunk\07.系统实现\自动化测试\SeleniumConfig\bin\Debug\\SeleniumJAVA\Selenium.jar C#
+2017-01-05 19:47:54,613 [INFO]: /E:/不动产登记系统/trunk/07.系统实现/自动化测试/SeleniumConfig/bin/Debug
+2017-01-05 19:47:54,615 [INFO]: 开始准备数据
+2017-01-05 19:47:54,617 [INFO]: 开始缓存总体参数配置文件
+2017-01-05 19:47:55,083 [INFO]: 缓存总体参数配置文件成功！
+2017-01-05 19:47:55,085 [INFO]: 开始缓存SQL配置信息
+2017-01-05 19:47:55,101 [INFO]: 缓存SQL配置信息成功！
+2017-01-05 19:47:55,103 [INFO]: 开始缓存SQL配置的SQL语句信息
+2017-01-05 19:47:55,391 [INFO]: 缓存SQL配置的SQL语句信息成功！
+2017-01-05 19:47:55,393 [INFO]: 开始缓存自动化测试配置方案文件
+2017-01-05 19:47:55,398 [INFO]: 缓存自动化测试配置方案文件成功！
+2017-01-05 19:47:55,400 [INFO]: 开始缓存初始化配置参数成功！
+2017-01-05 19:47:55,417 [INFO]: 缓存流程配置信息成功！
+2017-01-05 19:47:56,098 [WARN]: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2017-01-05 19:47:56,102 [WARN]: SLF4J: Defaulting to no-operation (NOP) logger implementation
+2017-01-05 19:47:56,111 [WARN]: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2017-01-05 19:47:56,122 [WARN]: Starting ChromeDriver (v2.10.267521) on port 56135
+2017-01-05 19:47:56,129 [WARN]: Only local connections are allowed.
+2017-01-05 19:47:56,473 [INFO]: 初始化ChromeDriver成功！
+2017-01-05 19:47:56,622 [WARN]: log4j:WARN No such property [maxFileSize] in org.apache.log4j.DailyRollingFileAppender.
+2017-01-05 19:47:57,317 [WARN]: Starting ChromeDriver (v2.10.267521) on port 48508
+2017-01-05 19:47:57,326 [WARN]: Only local connections are allowed.
+2017-01-05 19:47:58,419 [WARN]: log4j:WARN No appenders could be found for logger (org.apache.http.client.protocol.RequestAddCookies).
+2017-01-05 19:47:58,426 [WARN]: log4j:WARN Please initialize the log4j system properly.
+2017-01-05 19:47:58,433 [WARN]: log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+2017-01-05 19:48:01,071 [INFO]: 初始化WebDriver成功！
+2017-01-05 19:48:01,092 [INFO]: 系统登陆地址：http://192.168.7.200:8082/GisqPlatformExplorer/a/login;JSESSIONID=7a22b82495884077a7860a3b86e8ac2f
+2017-01-05 19:48:01,600 [INFO]: 系统登陆成功！
+2017-01-05 19:48:03,687 [INFO]: 开始流程自动化测试！
+2017-01-05 19:48:03,691 [INFO]: 流程内码：2d107839-0de3-11e6-b878-000c2984e60c,流程名称首次登记
+2017-01-05 19:48:05,910 [INFO]: 流程启动成功，主框架句柄：CDwindow-E8A20C10-BA30-40A7-8618-37559AE3F4C9
+2017-01-05 19:48:08,345 [INFO]: 当前环节环节名称：收件受理,环节内码sid-075095F3-5F75-4295-B4D1-5843F0D20C8E
+2017-01-05 19:48:08,350 [INFO]: 开始操作Ifame，Iframe名称：窗口资料收取
+2017-01-05 19:48:10,544 [INFO]: Iframe地址：GisqPlatformExplorer/modules/bizmodel/datums_submit
+2017-01-05 19:48:10,564 [INFO]: 当前iframe(窗口资料收取)操作元素：
+2017-01-05 19:48:10,567 [INFO]:        定位方式：XPATH
+2017-01-05 19:48:10,571 [INFO]:        定位路径：//div[@role='combobox']
+2017-01-05 19:48:10,574 [INFO]:        操作方式：QT
+2017-01-05 19:48:10,577 [INFO]:        默认值：$("#{ID}").jqxDropDownList('selectIndex', 0 );
+2017-01-05 19:48:10,587 [INFO]:        是否随机数：false
+2017-01-05 19:48:10,590 [INFO]:        等待时间：0
+2017-01-05 19:48:10,724 [INFO]: 当前iframe(窗口资料收取)操作元素：
+2017-01-05 19:48:10,727 [INFO]:        定位方式：ID
+2017-01-05 19:48:10,730 [INFO]:        定位路径：saveDatum
+2017-01-05 19:48:10,733 [INFO]:        操作方式：CLICK
+2017-01-05 19:48:10,741 [INFO]:        默认值：
+2017-01-05 19:48:10,746 [INFO]:        是否随机数：false
+2017-01-05 19:48:10,756 [INFO]:        等待时间：0
+2017-01-05 19:48:12,081 [INFO]: 开始操作Ifame，Iframe名称：申请信息
+2017-01-05 19:48:15,799 [INFO]: Iframe地址：GisqQueryList/views/reports/realestate/common/acceptance/Acceptance_HouseRight_Initial.jsp?reportlet=realestate/common/acceptance/Acceptance_HouseRight_Initial.cpt
+2017-01-05 19:48:15,824 [INFO]: 当前iframe(申请信息)操作元素：
+2017-01-05 19:48:15,830 [INFO]:        定位方式：ID
+2017-01-05 19:48:15,837 [INFO]:        定位路径：CXBDC
+2017-01-05 19:48:15,840 [INFO]:        操作方式：CLICK
+2017-01-05 19:48:15,843 [INFO]:        默认值：
+2017-01-05 19:48:15,846 [INFO]:        是否随机数：false
+2017-01-05 19:48:15,855 [INFO]:        等待时间：2000
+2017-01-05 19:48:15,964 [INFO]: 2000
+2017-01-05 19:48:15,968 [INFO]: 2017-01-05 19:48:15
+2017-01-05 19:48:15,980 [INFO]: 是否存在Ajax请求：true,IRL地址http://192.168.7.200:8084/GisqQueryList/views/reports/realestate/common/acceptance/Acceptance_HouseRight_Initial.jsp?reportlet=realestate/common/acceptance/Acceptance_HouseRight_Initial.cpt&op=write&BDFR_GUID=f186c61b-e05d-11e5-8188-000c29187a9e&ID=c0fa8202-d33c-11e6-ad0c-9c5c8e949727&CATEGORY=BDC&RECORDNUMBER=f643ee26-f891-4acf-aeeb-2e5d9b316fe8&BIZDEF_GUID=f18677f1-e05d-11e5-8188-000c29187a9e&BIZINST_GUID=c017ea2a-d33c-11e6-ad0c-9c5c8e949727&TYPE=form&userId=f2e37658-69d2-11e5-a045-000c297c0f34&TRANSACTOR=zscs&aid=sid-075095F3-5F75-4295-B4D1-5843F0D20C8E&ACTDEFID=sid-075095F3-5F75-4295-B4D1-5843F0D20C8E&tid=bf3c5746-d33c-11e6-a76b-9c5c8e949727&ACTINSTID=bf3c5746-d33c-11e6-a76b-9c5c8e949727&pid=2d107839-0de3-11e6-b878-000c2984e60c&PRODEFID=2d107839-0de3-11e6-b878-000c2984e60c&instid=bf3c3030-d33c-11e6-a76b-9c5c8e949727&PROINSTID=bf3c3030-d33c-11e6-a76b-9c5c8e949727&businesskey=20170105-0000176&PROJECTID=20170105-0000176&LCBM=2101&HJDM=SJ&XZQBM=33021&task_state=firstTask
+2017-01-05 19:48:15,987 [INFO]: 2017-01-05 19:48:15
+2017-01-05 19:48:15,990 [INFO]: 当前iframe(申请信息)操作元素：
+2017-01-05 19:48:15,996 [INFO]:        定位方式：ID
+2017-01-05 19:48:16,004 [INFO]:        定位路径：iFrameDY
+2017-01-05 19:48:16,006 [INFO]:        操作方式：IFRAME
+2017-01-05 19:48:16,011 [INFO]:        默认值：iFrameDY
+2017-01-05 19:48:16,015 [INFO]:        是否随机数：false
+2017-01-05 19:48:16,022 [INFO]:        等待时间：0
+2017-01-05 19:48:16,793 [INFO]: 当前iframe(iFrameDY)操作元素：
+2017-01-05 19:48:16,797 [INFO]:       定位方式：ID
+2017-01-05 19:48:16,805 [INFO]:       定位路径：bdcdyh
+2017-01-05 19:48:16,808 [INFO]:       操作方式：SENDKEYS
+2017-01-05 19:48:16,812 [INFO]:       默认值：SDE.FW_H.BDCDYH
+2017-01-05 19:48:16,821 [INFO]:       是否随机数：false
+2017-01-05 19:48:16,823 [INFO]:       等待时间：0
+2017-01-05 19:48:16,854 [INFO]: 执行SQL语句成功！begin
+2017-01-05 19:48:16,857 [INFO]: insert into SDE.FW_H(OBJECTID,BDCDJBSM,BDCDYH,BSM,JGSJ,QXDM,RKSJ,ZDDM,ZDBSM,ZRZBSM) values(94497643,94497644,'526651348449GB88304F76749942',94497645,to_date('2016-10-12','YYYY-MM-DD'),526651,to_date('2017-01-05 19:47:55','YYYY-MM-DD HH24:MI:SS'),'526651348449GB88304',94497646,94497650);
+2017-01-05 19:48:16,861 [INFO]: insert into SDE.T_ZD(ZD_ID,BDCDJBSM,BDCDYH,DJQDM,DJQZH,QXDM,ZDDM,ZD_SYQLX,ZD_TZM) values(94497646,94497647,'526651348449GB88304W00000000','526651348449',88304,526651,'526651348449GB88304','G','B');
+2017-01-05 19:48:16,864 [INFO]: insert into SDE.ST_ZRZ(OBJECTID,BDCDJBSM,BDCDYH,BSM,QXDM) values(94497648,94497649,'526651348449GB88304F7674',94497650,526651);
+2017-01-05 19:48:16,872 [INFO]: insert into BDCDJ.BDCDY(BSM,BDCDYH,DCDZWDYBM,DCZDZHBM,DZWSXH,DZWTZM,GXSJ,QXDM,REV_,DCDZWDYBSM,DCZBSM,DCZDZHBSM) values(94497651,'526651348449GB88304F76749942','FW_H','ST_ZD',9942,'F',to_date('2017-01-05 19:47:55','YYYY-MM-DD HH24:MI:SS'),526651,1,94497644,94497650,94497646);
+2017-01-05 19:48:16,876 [INFO]: insert into BDCDJ.BDCDYZ(BSM,DCZDZHBM,GXSJ,QXDM,REV_,ZDYH,ZDZHDM,ZSXH,DCZBSM,DCZDZHBSM) values(94497652,'ST_ZD',to_date('2017-01-05 19:47:55','YYYY-MM-DD HH24:MI:SS'),526651,1,'526651348449GB88304F7674','526651348449GB88304',7674,94497650,94497646);
+2017-01-05 19:48:16,879 [INFO]: end;
+2017-01-05 19:48:16,888 [INFO]: 
+2017-01-05 19:48:17,231 [INFO]: 当前iframe(iFrameDY)操作元素：
+2017-01-05 19:48:17,236 [INFO]:       定位方式：ID
+2017-01-05 19:48:17,256 [INFO]:       定位路径：btn_search
+2017-01-05 19:48:17,259 [INFO]:       操作方式：CLICK
+2017-01-05 19:48:17,272 [INFO]:       默认值：
+2017-01-05 19:48:17,275 [INFO]:       是否随机数：false
+2017-01-05 19:48:17,280 [INFO]:       等待时间：2000
+2017-01-05 19:48:17,459 [INFO]: 2000
+2017-01-05 19:48:17,464 [INFO]: 2017-01-05 19:48:17
+2017-01-05 19:48:17,534 [INFO]: 是否存在Ajax请求：false,IRL地址http://192.168.7.200:8084/GisqQueryList/QlistServer?tpl=fdcqcsdj.xml&PROINSTID=bf3c3030-d33c-11e6-a76b-9c5c8e949727&projectid=20170105-0000176&lcdm=2101&qxdm=33021&djlx=100&userid=f2e37658-69d2-11e5-a045-000c297c0f34&BIZINST_GUID=c017ea2a-d33c-11e6-ad0c-9c5c8e949727
+2017-01-05 19:48:18,034 [INFO]: 2017-01-05 19:48:18
+2017-01-05 19:48:18,053 [INFO]: 是否存在Ajax请求：true,IRL地址http://192.168.7.200:8084/GisqQueryList/QlistServer?tpl=fdcqcsdj.xml&PROINSTID=bf3c3030-d33c-11e6-a76b-9c5c8e949727&projectid=20170105-0000176&lcdm=2101&qxdm=33021&djlx=100&userid=f2e37658-69d2-11e5-a045-000c297c0f34&BIZINST_GUID=c017ea2a-d33c-11e6-ad0c-9c5c8e949727
+2017-01-05 19:48:18,058 [INFO]: 2017-01-05 19:48:18
+2017-01-05 19:48:18,062 [INFO]: 当前iframe(iFrameDY)操作元素：
+2017-01-05 19:48:18,066 [INFO]:       定位方式：XPATH
+2017-01-05 19:48:18,075 [INFO]:       定位路径：//div[@class='l-grid-hd-cell-text l-grid-hd-cell-btn-checkbox']
+2017-01-05 19:48:18,078 [INFO]:       操作方式：CLICK
+2017-01-05 19:48:18,081 [INFO]:       默认值：
+2017-01-05 19:48:18,090 [INFO]:       是否随机数：false
+2017-01-05 19:48:18,099 [INFO]:       等待时间：0
+2017-01-05 19:48:18,179 [INFO]: 当前iframe(iFrameDY)操作元素：
+2017-01-05 19:48:18,184 [INFO]:       定位方式：ID
+2017-01-05 19:48:18,191 [INFO]:       定位路径：btn_ok
+2017-01-05 19:48:18,194 [INFO]:       操作方式：CLICK
+2017-01-05 19:48:18,198 [INFO]:       默认值：
+2017-01-05 19:48:18,208 [INFO]:       是否随机数：false
+2017-01-05 19:48:18,212 [INFO]:       等待时间：10000
+2017-01-05 19:48:18,323 [INFO]: 10000
+2017-01-05 19:48:18,327 [INFO]: 2017-01-05 19:48:18
+2017-01-05 19:48:18,379 [INFO]: 是否存在Ajax请求：false,IRL地址http://192.168.7.200:8084/GisqQueryList/QlistServer?tpl=fdcqcsdj.xml&PROINSTID=bf3c3030-d33c-11e6-a76b-9c5c8e949727&projectid=20170105-0000176&lcdm=2101&qxdm=33021&djlx=100&userid=f2e37658-69d2-11e5-a045-000c297c0f34&BIZINST_GUID=c017ea2a-d33c-11e6-ad0c-9c5c8e949727
+2017-01-05 19:48:18,879 [INFO]: 2017-01-05 19:48:18
+2017-01-05 19:48:18,892 [INFO]: 是否存在Ajax请求：false,IRL地址http://192.168.7.200:8084/GisqQueryList/QlistServer?tpl=fdcqcsdj.xml&PROINSTID=bf3c3030-d33c-11e6-a76b-9c5c8e949727&projectid=20170105-0000176&lcdm=2101&qxdm=33021&djlx=100&userid=f2e37658-69d2-11e5-a045-000c297c0f34&BIZINST_GUID=c017ea2a-d33c-11e6-ad0c-9c5c8e949727
+2017-01-05 19:48:19,393 [INFO]: 2017-01-05 19:48:19
+2017-01-05 19:48:20,304 [INFO]: 是否存在Ajax请求：false,IRL地址http://192.168.7.200:8084/GisqQueryList/QlistServer?tpl=fdcqcsdj.xml&PROINSTID=bf3c3030-d33c-11e6-a76b-9c5c8e949727&projectid=20170105-0000176&lcdm=2101&qxdm=33021&djlx=100&userid=f2e37658-69d2-11e5-a045-000c297c0f34&BIZINST_GUID=c017ea2a-d33c-11e6-ad0c-9c5c8e949727
+2017-01-05 19:48:20,409 [INFO]: 2017-01-05 19:48:19
+2017-01-05 19:48:20,413 [INFO]: 是否存在Ajax请求：false,IRL地址http://192.168.7.200:8084/GisqQueryList/QlistServer?tpl=fdcqcsdj.xml&PROINSTID=bf3c3030-d33c-11e6-a76b-9c5c8e949727&projectid=20170105-0000176&lcdm=2101&qxdm=33021&djlx=100&userid=f2e37658-69d2-11e5-a045-000c297c0f34&BIZINST_GUID=c017ea2a-d33c-11e6-ad0c-9c5c8e949727
+2017-01-05 19:48:20,419 [INFO]: 2017-01-05 19:48:20
+2017-01-05 19:48:20,732 [INFO]: 2017-01-05 19:48:20
+2017-01-05 19:48:22,787 [INFO]: 当前iframe(申请信息)操作元素：
+2017-01-05 19:48:22,791 [INFO]:        定位方式：ID
+2017-01-05 19:48:22,794 [INFO]:        定位路径：TJSQR
+2017-01-05 19:48:22,801 [INFO]:        操作方式：CLICK
+2017-01-05 19:48:22,805 [INFO]:        默认值：
+2017-01-05 19:48:22,811 [INFO]:        是否随机数：false
+2017-01-05 19:48:22,816 [INFO]:        等待时间：2000
+2017-01-05 19:48:23,302 [INFO]: 2000
+2017-01-05 19:48:23,305 [INFO]: 2017-01-05 19:48:23
+2017-01-05 19:48:23,368 [INFO]: 是否存在Ajax请求：true,IRL地址http://192.168.7.200:8084/GisqQueryList/views/reports/realestate/common/acceptance/Acceptance_HouseRight_Initial.jsp?reportlet=realestate/common/acceptance/Acceptance_HouseRight_Initial.cpt&op=write&BDFR_GUID=f186c61b-e05d-11e5-8188-000c29187a9e&ID=c0fa8202-d33c-11e6-ad0c-9c5c8e949727&CATEGORY=BDC&RECORDNUMBER=f643ee26-f891-4acf-aeeb-2e5d9b316fe8&BIZDEF_GUID=f18677f1-e05d-11e5-8188-000c29187a9e&BIZINST_GUID=c017ea2a-d33c-11e6-ad0c-9c5c8e949727&TYPE=form&userId=f2e37658-69d2-11e5-a045-000c297c0f34&TRANSACTOR=zscs&aid=sid-075095F3-5F75-4295-B4D1-5843F0D20C8E&ACTDEFID=sid-075095F3-5F75-4295-B4D1-5843F0D20C8E&tid=bf3c5746-d33c-11e6-a76b-9c5c8e949727&ACTINSTID=bf3c5746-d33c-11e6-a76b-9c5c8e949727&pid=2d107839-0de3-11e6-b878-000c2984e60c&PRODEFID=2d107839-0de3-11e6-b878-000c2984e60c&instid=bf3c3030-d33c-11e6-a76b-9c5c8e949727&PROINSTID=bf3c3030-d33c-11e6-a76b-9c5c8e949727&businesskey=20170105-0000176&PROJECTID=20170105-0000176&LCBM=2101&HJDM=SJ&XZQBM=33021&task_state=firstTask
+2017-01-05 19:48:23,373 [INFO]: 2017-01-05 19:48:23
+2017-01-05 19:48:23,377 [INFO]: 当前iframe(申请信息)操作元素：
+2017-01-05 19:48:23,384 [INFO]:        定位方式：ID
+2017-01-05 19:48:23,388 [INFO]:        定位路径：addSqr
+2017-01-05 19:48:23,392 [INFO]:        操作方式：IFRAME
+2017-01-05 19:48:23,413 [INFO]:        默认值：
+2017-01-05 19:48:23,418 [INFO]:        是否随机数：false
+2017-01-05 19:48:23,423 [INFO]:        等待时间：0
+2017-01-05 19:48:25,525 [INFO]: 当前iframe(addSqr)操作元素：
+2017-01-05 19:48:25,529 [INFO]:       定位方式：ID
+2017-01-05 19:48:25,533 [INFO]:       定位路径：SQRLB
+2017-01-05 19:48:25,537 [INFO]:       操作方式：SENDKEYS
+2017-01-05 19:48:25,541 [INFO]:       默认值：1
+2017-01-05 19:48:25,546 [INFO]:       是否随机数：false
+2017-01-05 19:48:25,551 [INFO]:       等待时间：0
+2017-01-05 19:48:25,645 [INFO]: 当前iframe(addSqr)操作元素：
+2017-01-05 19:48:25,653 [INFO]:       定位方式：ID
+2017-01-05 19:48:25,657 [INFO]:       定位路径：SQRMC
+2017-01-05 19:48:25,661 [INFO]:       操作方式：SENDKEYS
+2017-01-05 19:48:25,667 [INFO]:       默认值：倪明奇自动化首次登记
+2017-01-05 19:48:25,670 [INFO]:       是否随机数：true
+2017-01-05 19:48:25,674 [INFO]:       等待时间：0
+2017-01-05 19:48:25,926 [INFO]: 当前iframe(addSqr)操作元素：
+2017-01-05 19:48:25,932 [INFO]:       定位方式：ID
+2017-01-05 19:48:25,936 [INFO]:       定位路径：SQRLX
+2017-01-05 19:48:25,940 [INFO]:       操作方式：SENDKEYS
+2017-01-05 19:48:25,943 [INFO]:       默认值：1
+2017-01-05 19:48:25,950 [INFO]:       是否随机数：false
+2017-01-05 19:48:25,954 [INFO]:       等待时间：0
+2017-01-05 19:48:26,058 [INFO]: 当前iframe(addSqr)操作元素：
+2017-01-05 19:48:26,062 [INFO]:       定位方式：ID
+2017-01-05 19:48:26,066 [INFO]:       定位路径：ZJZL
+2017-01-05 19:48:26,072 [INFO]:       操作方式：SENDKEYS
+2017-01-05 19:48:26,077 [INFO]:       默认值：2
+2017-01-05 19:48:26,081 [INFO]:       是否随机数：false
+2017-01-05 19:48:26,087 [INFO]:       等待时间：0
+2017-01-05 19:48:26,294 [INFO]: 当前iframe(addSqr)操作元素：
+2017-01-05 19:48:26,299 [INFO]:       定位方式：ID
+2017-01-05 19:48:26,317 [INFO]:       定位路径：ZJH
+2017-01-05 19:48:26,322 [INFO]:       操作方式：SENDKEYS
+2017-01-05 19:48:26,326 [INFO]:       默认值：测试证件号
+2017-01-05 19:48:26,331 [INFO]:       是否随机数：true
+2017-01-05 19:48:26,335 [INFO]:       等待时间：0
+2017-01-05 19:48:26,492 [INFO]: 当前iframe(addSqr)操作元素：
+2017-01-05 19:48:26,495 [INFO]:       定位方式：ID
+2017-01-05 19:48:26,500 [INFO]:       定位路径：GYFS
+2017-01-05 19:48:26,506 [INFO]:       操作方式：SENDKEYS
+2017-01-05 19:48:26,511 [INFO]:       默认值：1
+2017-01-05 19:48:26,519 [INFO]:       是否随机数：false
+2017-01-05 19:48:26,524 [INFO]:       等待时间：0
+2017-01-05 19:48:26,608 [INFO]: 当前iframe(addSqr)操作元素：
+2017-01-05 19:48:26,611 [INFO]:       定位方式：ID
+2017-01-05 19:48:26,616 [INFO]:       定位路径：YDDH
+2017-01-05 19:48:26,631 [INFO]:       操作方式：SENDKEYS
+2017-01-05 19:48:26,636 [INFO]:       默认值：18966162328
+2017-01-05 19:48:26,640 [INFO]:       是否随机数：false
+2017-01-05 19:48:26,643 [INFO]:       等待时间：0
+2017-01-05 19:48:26,745 [INFO]: 当前iframe(addSqr)操作元素：
+2017-01-05 19:48:26,756 [INFO]:       定位方式：XPATH
+2017-01-05 19:48:26,759 [INFO]:       定位路径：//span[@class=' x-emb-submit']
+2017-01-05 19:48:26,763 [INFO]:       操作方式：CLICK
+2017-01-05 19:48:26,768 [INFO]:       默认值：
+2017-01-05 19:48:26,772 [INFO]:       是否随机数：false
+2017-01-05 19:48:26,777 [INFO]:       等待时间：1000
+2017-01-05 19:48:26,933 [INFO]: 1000
+2017-01-05 19:48:26,937 [INFO]: 2017-01-05 19:48:26
+2017-01-05 19:48:26,957 [INFO]: 是否存在Ajax请求：false,IRL地址http://192.168.7.200:8084/GisqQueryList/views/reports/realestate/common/applicant/ApplicantInfo.jsp?reportlet=realestate/common/applicant/ApplicantInfo.cpt&op=write&projectid=20170105-0000176&LCBM=2101&xzqbm=33021
+2017-01-05 19:48:27,458 [INFO]: 2017-01-05 19:48:27
+2017-01-05 19:48:27,592 [INFO]: 是否存在Ajax请求：true,IRL地址http://192.168.7.200:8084/GisqQueryList/views/reports/realestate/common/applicant/ApplicantInfo.jsp?reportlet=realestate/common/applicant/ApplicantInfo.cpt&op=write&projectid=20170105-0000176&LCBM=2101&xzqbm=33021
+2017-01-05 19:48:27,598 [INFO]: 2017-01-05 19:48:27
+2017-01-05 19:48:29,662 [INFO]: 当前iframe(申请信息)操作元素：
+2017-01-05 19:48:29,665 [INFO]:        定位方式：XPATH
+2017-01-05 19:48:29,671 [INFO]:        定位路径：//a[@class='jbox-close']
+2017-01-05 19:48:29,676 [INFO]:        操作方式：CLICK
+2017-01-05 19:48:29,681 [INFO]:        默认值：
+2017-01-05 19:48:29,686 [INFO]:        是否随机数：false
+2017-01-05 19:48:29,691 [INFO]:        等待时间：0
+2017-01-05 19:48:29,762 [INFO]: 当前iframe(申请信息)操作元素：
+2017-01-05 19:48:29,773 [INFO]:        定位方式：ID
+2017-01-05 19:48:29,777 [INFO]:        定位路径：HOUSELIST
+2017-01-05 19:48:29,780 [INFO]:        操作方式：IFRAME
+2017-01-05 19:48:29,785 [INFO]:        默认值：HOUSELIST
+2017-01-05 19:48:29,804 [INFO]:        是否随机数：false
+2017-01-05 19:48:29,819 [INFO]:        等待时间：0
+2017-01-05 19:48:30,043 [WARN]: org.openqa.selenium.UnhandledAlertException: unexpected alert open
+2017-01-05 19:48:30,046 [WARN]:   (Session info: chrome=34.0.1847.116)
+2017-01-05 19:48:30,049 [WARN]:   (Driver info: chromedriver=2.10.267521,platform=Windows NT 6.3 x86_64) (WARNING: The server did not provide any stacktrace information)
+2017-01-05 19:48:30,070 [WARN]: Command duration or timeout: 171 milliseconds: null
+2017-01-05 19:48:30,073 [WARN]: Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+2017-01-05 19:48:30,076 [WARN]: System info: host: 'assassin', ip: '169.254.212.148', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+2017-01-05 19:48:30,080 [WARN]: Driver info: org.openqa.selenium.chrome.ChromeDriver
+2017-01-05 19:48:30,101 [WARN]: Capabilities [{applicationCacheEnabled=false, rotatable=false, chrome={userDataDir=C:\Users\ADMINI~1.MTC\AppData\Local\Temp\scoped_dir19196_19180}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=34.0.1847.116, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+2017-01-05 19:48:30,105 [WARN]: Session ID: ec9039ba9825da97b0a9ff02d5db7551
+2017-01-05 19:48:30,107 [WARN]: *** Element info: {Using=css selector, value=frame[name='HOUSELIST'],iframe[name='HOUSELIST']}
+2017-01-05 19:48:30,111 [WARN]: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+2017-01-05 19:48:30,114 [WARN]: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+2017-01-05 19:48:30,134 [WARN]: 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+2017-01-05 19:48:30,137 [WARN]: 	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+2017-01-05 19:48:30,141 [WARN]: 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+2017-01-05 19:48:30,148 [WARN]: 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:162)
+2017-01-05 19:48:30,153 [WARN]: 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+2017-01-05 19:48:30,163 [WARN]: 	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:383)
+2017-01-05 19:48:30,172 [WARN]: 	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByCssSelector(RemoteWebDriver.java:451)
+2017-01-05 19:48:30,175 [WARN]: 	at org.openqa.selenium.By$ByCssSelector.findElements(By.java:437)
+2017-01-05 19:48:30,178 [WARN]: 	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:346)
+2017-01-05 19:48:30,192 [WARN]: 	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.frame(RemoteWebDriver.java:881)
+2017-01-05 19:48:30,195 [WARN]: 	at configSelenium.ConfigSeleniumStart.ActdefAction(ConfigSeleniumStart.java:304)
+2017-01-05 19:48:30,198 [WARN]: 	at configSelenium.ConfigSeleniumStart.main(ConfigSeleniumStart.java:152)

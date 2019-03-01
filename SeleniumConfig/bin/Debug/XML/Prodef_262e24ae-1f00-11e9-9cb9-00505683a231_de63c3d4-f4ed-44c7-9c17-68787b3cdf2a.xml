@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Element>
+  <Prodef ID="262e24ae-1f00-11e9-9cb9-00505683a231" Name="宅基地资格权与房屋租赁使用权" PackageID="71fa2431-7e67-11e8-92e1-00505683a231">
+    <Actdef ID="sid-2179c451-1f00-11e9-9cb9-00505683a231" Name="收件受理">
+      <iframe>
+        <iframeChild ID="783ce12f-3310-496a-915e-cf325629117d" Name="窗口资料收取" URL="GisqPlatformExplorer/modules/bizmodel/datums_submit" />
+        <iframeChild ID="0a51db12-188e-11e9-b0f7-00505683a231" Name="申请信息" URL="GisqQueryList/views/reports/realestate/leaseHold/Acceptance_ThreeRightSplit.jsp?reportlet=realestate/leaseHold/Acceptance_ThreeRightSplit.cpt" />
+      </iframe>
+    </Actdef>
+    <Actdef ID="sid-2179c452-1f00-11e9-9cb9-00505683a231" Name="初审">
+      <iframe>
+        <iframeChild ID="0a5891e3-188e-11e9-b0f7-00505683a231" Name="审批表" URL="realestate/ReportServer?reportlet=realestate/leaseHold/common/ApproveForm_Z.cpt" />
+      </iframe>
+    </Actdef>
+  </Prodef>
+</Element>

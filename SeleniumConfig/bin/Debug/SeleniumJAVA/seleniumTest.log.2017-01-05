@@ -1,0 +1,72 @@
+2017-01-05 19:13:13,662 [main] ERROR [util.LoggerUtils] - java.lang.ClassNotFoundException: oracle.jdbc.driver.OracleDriver
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Unknown Source)
+	at util.DataBase.<clinit>(DataBase.java:40)
+	at configSelenium.InitCommonParameter.FilterValue(InitCommonParameter.java:414)
+	at configSelenium.InitCommonParameter.InitSqlConfigBatchSql(InitCommonParameter.java:319)
+	at configSelenium.ConfigSeleniumStart.main(ConfigSeleniumStart.java:68)
+
+2017-01-05 19:13:13,664 [main] ERROR [util.LoggerUtils] - java.lang.RuntimeException: 获取数据库连接失败！
+	at util.DataBase.<clinit>(DataBase.java:49)
+	at configSelenium.InitCommonParameter.FilterValue(InitCommonParameter.java:414)
+	at configSelenium.InitCommonParameter.InitSqlConfigBatchSql(InitCommonParameter.java:319)
+	at configSelenium.ConfigSeleniumStart.main(ConfigSeleniumStart.java:68)
+
+2017-01-05 19:15:41,936 [main] ERROR [util.LoggerUtils] - java.lang.ClassNotFoundException: oracle.jdbc.driver.OracleDriver
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Unknown Source)
+	at util.DataBase.<clinit>(DataBase.java:40)
+	at configSelenium.InitCommonParameter.FilterValue(InitCommonParameter.java:414)
+	at configSelenium.InitCommonParameter.InitSqlConfigBatchSql(InitCommonParameter.java:319)
+	at configSelenium.ConfigSeleniumStart.main(ConfigSeleniumStart.java:68)
+
+2017-01-05 19:15:41,937 [main] ERROR [util.LoggerUtils] - java.lang.RuntimeException: 获取数据库连接失败！
+	at util.DataBase.<clinit>(DataBase.java:49)
+	at configSelenium.InitCommonParameter.FilterValue(InitCommonParameter.java:414)
+	at configSelenium.InitCommonParameter.InitSqlConfigBatchSql(InitCommonParameter.java:319)
+	at configSelenium.ConfigSeleniumStart.main(ConfigSeleniumStart.java:68)
+
+2017-01-05 19:17:47,592 [main] ERROR [util.LoggerUtils] - java.lang.ClassNotFoundException: oracle.jdbc.driver.OracleDriver
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Unknown Source)
+	at util.DataBase.<clinit>(DataBase.java:40)
+	at configSelenium.InitCommonParameter.FilterValue(InitCommonParameter.java:414)
+	at configSelenium.InitCommonParameter.InitSqlConfigBatchSql(InitCommonParameter.java:319)
+	at configSelenium.ConfigSeleniumStart.main(ConfigSeleniumStart.java:68)
+
+2017-01-05 19:17:47,592 [main] ERROR [util.LoggerUtils] - java.lang.RuntimeException: 获取数据库连接失败！
+	at util.DataBase.<clinit>(DataBase.java:49)
+	at configSelenium.InitCommonParameter.FilterValue(InitCommonParameter.java:414)
+	at configSelenium.InitCommonParameter.InitSqlConfigBatchSql(InitCommonParameter.java:319)
+	at configSelenium.ConfigSeleniumStart.main(ConfigSeleniumStart.java:68)
+
+2017-01-05 19:21:17,274 [main] ERROR [util.LoggerUtils] - java.lang.ClassNotFoundException: oracle.jdbc.driver.OracleDriver
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Unknown Source)
+	at util.DataBase.<clinit>(DataBase.java:40)
+	at configSelenium.InitCommonParameter.FilterValue(InitCommonParameter.java:414)
+	at configSelenium.InitCommonParameter.InitSqlConfigBatchSql(InitCommonParameter.java:319)
+	at configSelenium.ConfigSeleniumStart.main(ConfigSeleniumStart.java:68)
+
+2017-01-05 19:21:17,274 [main] ERROR [util.LoggerUtils] - java.lang.RuntimeException: 获取数据库连接失败！
+	at util.DataBase.<clinit>(DataBase.java:49)
+	at configSelenium.InitCommonParameter.FilterValue(InitCommonParameter.java:414)
+	at configSelenium.InitCommonParameter.InitSqlConfigBatchSql(InitCommonParameter.java:319)
+	at configSelenium.ConfigSeleniumStart.main(ConfigSeleniumStart.java:68)
+

@@ -1,0 +1,8 @@
+2017-01-06 17:12:17,202 [ERROR]: http://192.168.7.200:8081/activiti-rest/service/repository/process-definitions?category=497b4aed-e015-11e5-8530-000c29187a9e&size=100&latest=true&order=desc
+2017-01-06 17:12:17,353 [ERROR]: System.Net.WebException: 请求被中止: 请求已被取消。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 SeleniumConfig.CommonClass.RestUserLoginService.HttpRequest(HttpWebRequest request) 位置 e:\不动产登记系统\trunk\07.系统实现\自动化测试\SeleniumConfig\CommonClass\RestUserLoginService.cs:行号 120
+2017-01-06 17:12:19,881 [ERROR]: http://192.168.7.200:8081/activiti-rest/service/repository/process-definitions?category=497b4aed-e015-11e5-8530-000c29187a9e&size=100&latest=true&order=desc
+2017-01-06 17:12:19,882 [ERROR]: System.Net.WebException: 请求被中止: 请求已被取消。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 SeleniumConfig.CommonClass.RestUserLoginService.HttpRequest(HttpWebRequest request) 位置 e:\不动产登记系统\trunk\07.系统实现\自动化测试\SeleniumConfig\CommonClass\RestUserLoginService.cs:行号 120

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Element>
+    <Prodef ID="289f5a05-24d3-11e6-87fc-0050568c7e7f" Name="首次登记" PackageID="e2fdf1c3-5207-11e5-b3a7-000c2948487c">
+        <Actdef ID="sid-DE37594E-C5E6-45EB-9A19-7AFE99E7A7A7" Name="收件受理">
+            <iframe>
+                <iframeChild ID="f8e54b6f-304f-4d3f-8f7a-2d85911d63fc" Name="窗口资料收取"
+                             URL="GisqPlatformExplorer/modules/bizmodel/datums_submit"/>
+                <iframeChild ID="5c920f18-1d6f-11e6-93b1-0050568c3496" Name="查询证明记录"
+                             URL="realestate/ReportServer?reportlet=realestate/consult/ConsultRecord.cpt"/>
+            </iframe>
+        </Actdef>
+    </Prodef>
+</Element>

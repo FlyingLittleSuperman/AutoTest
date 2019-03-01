@@ -1,0 +1,293 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7CD0CA45-3E7B-46CE-B469-DE089BEF6033}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SeleniumConfig</RootNamespace>
+    <AssemblyName>SeleniumConfig</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>png-0445.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevComponents.DotNetBar.Design">
+      <HintPath>..\..\不动产清理工具\Patched_dll_12900\DevComponents.DotNetBar.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="DevComponents.DotNetBar2">
+      <HintPath>..\..\不动产清理工具\Patched_dll_12900\DevComponents.DotNetBar2.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\不动产统一办理平台\ClientScanTool\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\不动产清理工具\Patched_dll_12900\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Bizdef\Entity\BizdefEntity.cs" />
+    <Compile Include="Bizdef\Entity\BizdefFormEntity.cs" />
+    <Compile Include="Bizdef\Entity\BizdefFormDataEntity.cs" />
+    <Compile Include="Bizdef\Entity\BizdefPackageEntity.cs" />
+    <Compile Include="Bizdef\BizdefTree.cs" />
+    <Compile Include="CommonClass\Compare.cs" />
+    <Compile Include="CommonClass\interface\BizdefInterface.cs" />
+    <Compile Include="CommonClass\interface\ChildProdefInterface.cs" />
+    <Compile Include="CommonClass\interface\ISqlSchemaInterface.cs" />
+    <Compile Include="CommonClass\interface\ISqlSchemaSelectInterface.cs" />
+    <Compile Include="MainForms\Entity\ChildProdefEntity.cs" />
+    <Compile Include="CommonClass\CommonExtend.cs" />
+    <Compile Include="CommonClass\loading\MyOpaqueLayer.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CommonClass\loading\OpaqueCommand.cs" />
+    <Compile Include="CommonClass\interface\SeleniumSchemaInterface.cs" />
+    <Compile Include="CommonClass\TypeConvert.cs" />
+    <Compile Include="CreateAction\Entity\IFrameEntity.cs" />
+    <Compile Include="CommonClass\Logger.cs" />
+    <Compile Include="CommonClass\RestUserLoginService.cs" />
+    <Compile Include="CommonClass\Entity\ServicePath.cs" />
+    <Compile Include="CommonClass\StaticValue.cs" />
+    <Compile Include="CreateAction\Entity\LocationElementEntity.cs" />
+    <Compile Include="CreateAction\CreateActionUtil.cs" />
+    <Compile Include="CreateAction\CreateActionCommon.cs" />
+    <Compile Include="DeparmentUser\Entity\DepartmentEntity.cs" />
+    <Compile Include="DeparmentUser\DepartmentTree.cs" />
+    <Compile Include="CommonClass\interface\DepartmentInterface.cs" />
+    <Compile Include="DeparmentUser\Entity\DepartmentUserEntity.cs" />
+    <Compile Include="CreateAction\frmAddChildElmentIframe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CreateAction\frmAddChildElmentIframe.Designer.cs">
+      <DependentUpon>frmAddChildElmentIframe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForms\frmAddChildProdef.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForms\frmAddChildProdef.Designer.cs">
+      <DependentUpon>frmAddChildProdef.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForms\frmCopyProdefSchema.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForms\frmCopyProdefSchema.Designer.cs">
+      <DependentUpon>frmCopyProdefSchema.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SeleniumSchema\Entity\SeleniumSchemaEntity.cs" />
+    <Compile Include="SeleniumSchema\frmAddChildSchema.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SeleniumSchema\frmAddChildSchema.Designer.cs">
+      <DependentUpon>frmAddChildSchema.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bizdef\frmBizdef.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bizdef\frmBizdef.Designer.cs">
+      <DependentUpon>frmBizdef.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DeparmentUser\frmDepartmentUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeparmentUser\frmDepartmentUser.Designer.cs">
+      <DependentUpon>frmDepartmentUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SeleniumSchema\FrmJAVASeleniumOutPut.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SeleniumSchema\FrmJAVASeleniumOutPut.Designer.cs">
+      <DependentUpon>FrmJAVASeleniumOutPut.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SeleniumSchema\frmSeleniumSchemacs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SeleniumSchema\frmSeleniumSchemacs.Designer.cs">
+      <DependentUpon>frmSeleniumSchemacs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForms\frmSeleuiumConfig.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForms\frmSeleuiumConfig.Designer.cs">
+      <DependentUpon>frmSeleuiumConfig.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="ProInfo\Entity\ActdefEntity.cs" />
+    <Compile Include="ProInfo\Entity\ActdefDataEntity.cs" />
+    <Compile Include="ProInfo\Entity\ProdefEntity.cs" />
+    <Compile Include="ProInfo\Entity\ProdefDataEntity.cs" />
+    <Compile Include="ProInfo\Entity\PropackageEntity.cs" />
+    <Compile Include="ProInfo\ProTree.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SQLConfig\Entity\ColumnEntity.cs" />
+    <Compile Include="SQLConfig\Entity\SQLConfigEntity.cs" />
+    <Compile Include="SQLConfig\Entity\SqlSchemaEntity.cs" />
+    <Compile Include="SQLConfig\Entity\TableRelationEntity.cs" />
+    <Compile Include="SQLConfig\frmAddSqlSchema.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SQLConfig\frmAddSqlSchema.Designer.cs">
+      <DependentUpon>frmAddSqlSchema.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SQLConfig\frmSelectSchema.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SQLConfig\frmSelectSchema.Designer.cs">
+      <DependentUpon>frmSelectSchema.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SQLConfig\frmSQLConfig.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SQLConfig\frmSQLConfig.Designer.cs">
+      <DependentUpon>frmSQLConfig.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SQLConfig\FrmTableRelation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SQLConfig\FrmTableRelation.Designer.cs">
+      <DependentUpon>FrmTableRelation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SQLConfig\SQLConfig.cs" />
+    <Compile Include="SQLConfig\Entity\TableEntity.cs" />
+    <EmbeddedResource Include="CreateAction\frmAddChildElmentIframe.resx">
+      <DependentUpon>frmAddChildElmentIframe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForms\frmAddChildProdef.resx">
+      <DependentUpon>frmAddChildProdef.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForms\frmCopyProdefSchema.resx">
+      <DependentUpon>frmCopyProdefSchema.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SeleniumSchema\frmAddChildSchema.resx">
+      <DependentUpon>frmAddChildSchema.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bizdef\frmBizdef.resx">
+      <DependentUpon>frmBizdef.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeparmentUser\frmDepartmentUser.resx">
+      <DependentUpon>frmDepartmentUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SeleniumSchema\FrmJAVASeleniumOutPut.resx">
+      <DependentUpon>FrmJAVASeleniumOutPut.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SeleniumSchema\frmSeleniumSchemacs.resx">
+      <DependentUpon>frmSeleniumSchemacs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForms\frmSeleuiumConfig.resx">
+      <DependentUpon>frmSeleuiumConfig.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="SQLConfig\frmAddSqlSchema.resx">
+      <DependentUpon>frmAddSqlSchema.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQLConfig\frmSelectSchema.resx">
+      <DependentUpon>frmSelectSchema.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQLConfig\frmSQLConfig.resx">
+      <DependentUpon>frmSQLConfig.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQLConfig\FrmTableRelation.resx">
+      <DependentUpon>FrmTableRelation.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\icon\application_form.png" />
+    <Content Include="bin\Debug\icon\book.png" />
+    <Content Include="bin\Debug\icon\folder.png" />
+    <Content Include="bin\Debug\icon\package.png" />
+    <Content Include="bin\Debug\icon\page_go.png" />
+    <Content Include="bin\Debug\icon\user.png" />
+    <Content Include="bin\Debug\SeleniumSchema.xml" />
+    <Content Include="bin\Debug\ServicePath.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="bin\Debug\SQLConfig.xml" />
+    <Content Include="bin\Debug\XML\ProdefList.xml" />
+    <Content Include="bin\Debug\XML\Prodef_2d107839-0de3-11e6-b878-000c2984e60c_b9621fc9-fce8-4ed4-8a95-2aa464cf92f5.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="png-0445.ico" />
+    <None Include="Resources\computer_magnify.png" />
+    <None Include="Resources\comments.png" />
+    <None Include="Resources\png-0253.ico" />
+    <None Include="Resources\t01633b4be67e4a6e08.png" />
+    <None Include="Resources\xhtml.png" />
+    <None Include="Resources\arrow_switch.png" />
+    <None Include="Resources\arrow_refresh_small.png" />
+    <None Include="Resources\application_osx_start.png" />
+    <None Include="Resources\application_edit.png" />
+    <None Include="Resources\loading.gif" />
+    <None Include="Resources\application_add.png" />
+    <None Include="Resources\accept.png" />
+    <None Include="Resources\decline.png" />
+    <None Include="Resources\delete.png" />
+    <None Include="Resources\add.png" />
+    <None Include="Resources\disk.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GisqRealEstate.ProDataSource\GisqRealEstate.ProDataSource.csproj">
+      <Project>{7a51c4b3-d251-46c4-8f64-8403d4b44f7b}</Project>
+      <Name>GisqRealEstate.ProDataSource</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

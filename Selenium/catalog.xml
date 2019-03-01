@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Element>
+    <ElementTable id="a7ae0b16-4bd0-11e5-9e1b-000c2948487c" name="组合登记" desc=" 不动产登记- 组合登记- 房地组合登记">
+        <ElementInfo id="pid-8773ed94-99c4-11e6-9d7a-9c5c8e949727" name="转移登记及预查封转正式查封"/>
+        <ElementInfo id="pid-2d8954e5-7496-11e6-a2b9-9c5c8e949727" name="补换证登记及抵押权变更登记"/>
+        <ElementInfo id="pid-4d255d8d-bb9e-11e6-8749-9c5c8e949727" name="房屋首次登记及在建工程抵押转现及预查封转现"/>
+        <ElementInfo id="pid-d13f0d4d-d406-44d6-95d0-4cc289ee6df3" name="预购商品房预告登记及抵押预告登记"/>
+        <ElementInfo id="pid-69ade27d-4812-492c-8c2c-6f141bc6a64f" name="预购商品房预告转现及预购商品房抵押权预告转现登记"/>
+        <ElementInfo id="pid-d4c41d7d-a7aa-11e6-b411-9c5c8e949727" name="预购商品房预告及抵押权预告变更登记"/>
+    </ElementTable>
+</Element>
