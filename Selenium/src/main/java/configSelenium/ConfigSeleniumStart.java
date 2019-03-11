@@ -1,13 +1,14 @@
 package configSelenium;
 
-import configSelenium.Assert.Assert_database;
-import configSelenium.Assert.Assertion;
+import Test.Assert.Assert_database;
+import Test.SendEmail;
 import configSelenium.Entity.CommonConfig;
 import configSelenium.Entity.ProInfo.Actdef;
 import configSelenium.Entity.ProInfo.Prodef;
 import configSelenium.Entity.SeleniumTest.ChildLocationElement;
 import configSelenium.Entity.SeleniumTest.Iframe;
 import configSelenium.Entity.SeleniumTest.LocationElement;
+import Test.DataProviderSet_Assert;
 import dao.DataProviderSet_procedure;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.*;
@@ -20,13 +21,9 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.*;
-import org.testng.annotations.Test;
-import org.testng.annotations.*;
+
 import selenium.common.ChangeDriver;
-import util.CacheUtils;
-import util.DataBase;
-import util.DateUtils;
-import util.FRValue;
+import util.*;
 
 import java.io.File;
 import java.sql.ResultSet;
@@ -37,7 +34,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.concurrent.TimeUnit;
 
-import static configSelenium.ScreenShot.getDateFormat;
+
 
 
 /**
@@ -49,6 +46,11 @@ public class ConfigSeleniumStart {
     public static ChromeDriverService service;
     public static String actual;
     public static String except;
+
+    //创建集合：实际结果、预期结果、描述
+    public static List<String> actuallist=new ArrayList<>();
+    public static List<String> exceptlist=new ArrayList<>();
+    public static List<String> descriptionlist=new ArrayList<>();
 
 
     public static void main(String[] args) throws Exception {
@@ -69,7 +71,6 @@ public class ConfigSeleniumStart {
         WebElement webElement = null;
 
         try {
-
             System.out.println("开始准备数据");
             Reporter.log("开始准备测试数据 ");
             System.out.println("开始缓存总体参数配置文件");
@@ -115,6 +116,7 @@ public class ConfigSeleniumStart {
 
             driver = new ChromeDriver(options);
 
+
             driver.manage().window().maximize();
             driver.get(commonConfig.getLoginUrl());
             System.out.println("初始化WebDriver成功！");
@@ -126,7 +128,6 @@ public class ConfigSeleniumStart {
              */
             WebElement username = driver.findElement(By.id("username"));
             username.sendKeys(commonConfig.getLoginUserName());
-            Assert.assertEquals(commonConfig.getLoginUserName(), "wangy12", "is not equal");
             WebElement password = driver.findElement(By.id("password"));
             password.sendKeys(commonConfig.getLoginPassWord());
             driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
@@ -180,7 +181,24 @@ public class ConfigSeleniumStart {
                     String currentWindow = driver.getWindowHandle();
 
                     System.out.println("流程启动成功，主框架句柄：" + currentWindow);
+                    TestNG testNG = new TestNG();
+                    Class[] classes = {DataProviderSet_Assert.class};
+                    testNG.setTestClasses(classes);
+                    Reporter.setEscapeHtml(false);
+                    testNG.setOutputDirectory(Path.reportPath());
+                    testNG.setDefaultTestName("断言结果");
+                    testNG.setDefaultSuiteName("自动化测试套");
+
+
+
                     ActdefAction(driver, currentWindow, prodef, commonConfig, mapAllSchema, mapColumnValue);
+                    System.out.println("开始运行tastsuit");
+
+                    testNG.run();
+                    System.out.println("准备开始发送邮件");
+//                    SendEmail.sendEmail(commonConfig.getReceiveEmailAdd());
+//                    SendEmail.sendEmail("1184013083@qq.com");
+                    SendEmail.sendEmail("179712247@qq.com");
 
 
                 } catch (Exception er) {
@@ -196,8 +214,8 @@ public class ConfigSeleniumStart {
             er.printStackTrace();
             System.out.println("试试关闭情况--249");
             if (driver != null) {
-                //quit和close的区别，close关闭的更加彻底
-                driver.close();
+
+                driver.quit();
                 service.stop();
             }
 
@@ -216,19 +234,6 @@ public class ConfigSeleniumStart {
                                     Map<String, StringBuilder> mapAllSchema, Map<String, String> mapColumnValue) throws Exception {
 
         try {
-            TestNG testNG = new TestNG();
-            Class[] classes = {ConfigSeleniumStart.class};
-            List<String> suites = new ArrayList<String>();
-            suites.add("D:\\work_space\\js_de\\debug\\Selenium\\TestNG\\testng.xml");//此处为xml的绝对路径
-            testNG.setTestSuites(suites);
-            System.out.println("testng已经就位");
-
-//            testNG.setTestClasses(classes);
-            testNG.setOutputDirectory("D:\\AutoTest_Reports");
-//            testNG.setXmlPathInJar(".\testng.xml");
-//            testNG.setTestJar("D:\\work_space\\js_de\\debug\\SeleniumConfig\\bin\\Debug\\SeleniumJAVA");
-//            testNG.setXmlPathInJar("/");
-
 
 
             WebDriverWait wait2 = new WebDriverWait(driver, 50); // 最多等50秒
@@ -239,40 +244,9 @@ public class ConfigSeleniumStart {
             SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH");
             String ds = sdf.format(da).replace(":", "_");
             //包id
-            String packid = prodef.getPackageID();
-            System.out.println("包的id：" + packid);
-            String schemaid = InitCommonParameter.schemaid;
-            System.out.println("schemaid:" + schemaid);
-
-            String schemaname = InitCommonParameter.schemaname;
-            System.out.println("schemaname:" + schemaname);
 
             String prodefid = InitCommonParameter.prodefid;
-            System.out.println("prodef:" + prodefid);
-            String prodefname = InitCommonParameter.prodefname;
-            System.out.println("prodef:" + prodefname);
-
-            String packagename = InitCommonParameter.packagename;
-            System.out.println("packname:" + packagename);
-
             String childprodefid = InitCommonParameter.childprodefid;
-            System.out.println("cchild:" + childprodefid);
-            String childprodefname = InitCommonParameter.childprodefname;
-            System.out.println("childname:" + childprodefname);
-
-            String schema = "(" + schemaname + ")" + schemaid;
-            String child = "(" + childprodefname + ")" + childprodefid;
-            String bao = "(" + packagename + ")" + packid;
-            String lc = "(" + prodefname + ")" + prodefid;
-
-
-            String path = "D:/SootScreen/" + ds + "/" + schema + "/" + child + "/" + bao + "/" + lc + "/";
-
-            File f = new File(path);
-
-            if (!f.exists()) {
-                f.mkdirs();
-            }
 
 
             WebDriver webNewWindow = wait2.until((ExpectedCondition<WebDriver>) d -> {
@@ -347,6 +321,7 @@ public class ConfigSeleniumStart {
                 for (LocationElement locationElement : locationElementList) {
                     String locationType = locationElement.getLocationType();
                     String locationPath = locationElement.getLocationPath();
+                    String introduce=locationElement.getIntroduce();
                     String operateType = locationElement.getOperateType();
                     String defaultValue = locationElement.getDefaultValue();
                     Boolean isRandom = locationElement.getRandom();
@@ -362,6 +337,9 @@ public class ConfigSeleniumStart {
                     WebElement needLocationElement = null;
                     List<WebElement> needLocationElementList = null;
                     Actions action = new Actions(driveIframe);
+                    //帆软表单输出路径
+                    String filename=locationElement.getDefaultValue()+prodefid+childprodefid+ds;
+
 
                     switch (locationType) {
                         case "ID":
@@ -462,11 +440,11 @@ public class ConfigSeleniumStart {
                             } catch (Exception er) {
                                 System.out.println("======exception reason=======" + er);
                                 //图片名称加时间戳
-                                String dateString = getDateFormat();
-                                // getScreenshotAs()对当前窗口进行截图
-                                File srcFile = ((TakesScreenshot) driverFilePage).getScreenshotAs(OutputType.FILE);
-                                // 需要指定图片的保存路径及文件名
-                                FileUtils.copyFile(srcFile, new File("./error_png" + dateString + ".png"));
+//                                String dateString = getDateFormat();
+//                                // getScreenshotAs()对当前窗口进行截图
+//                                File srcFile = ((TakesScreenshot) driverFilePage).getScreenshotAs(OutputType.FILE);
+//                                // 需要指定图片的保存路径及文件名
+//                                FileUtils.copyFile(srcFile, new File("./error_png" + dateString + ".png"));
                                 er.printStackTrace();
                                 throw er;
 
@@ -551,6 +529,7 @@ public class ConfigSeleniumStart {
                                         childDefaultValue = mapColumnValue.get(childDefaultValue); //重新处理默认值
                                     }
                                 }
+
                                 switch (childOperateType) {
 
                                     case "CIRCLESENDKEYS": //循环赋值
@@ -614,11 +593,12 @@ public class ConfigSeleniumStart {
                                         break;
                                     case "FRExport":
                                         //表单输出
+
                                         try {
 
                                             String outurl = driverFilePage.getCurrentUrl() + "&format=pdf";
                                             DownLoadPdf.downLoadFromUrl(outurl,
-                                                    locationElement.getDefaultValue() + ".pdf", path);
+                                                    filename+ ".pdf", Path.FRPath());
 
                                         } catch (Exception e) {
                                             e.getStackTrace();
@@ -627,71 +607,34 @@ public class ConfigSeleniumStart {
 
                                     case "SHOOT":
 //                                      谷歌截图--可见区域
-                                        Object js1_result;
-                                        String real_top, real_scroll_h;
-                                        String js1 = "return document.body.scrollHeight.toString()+','+document.body.scrollTop.toString()";
-                                        js1_result = ((JavascriptExecutor) driverIframeDY).executeScript(js1);
-                                        real_scroll_h = js1_result.toString().split(",")[0];
-                                        real_top = js1_result.toString().split(",")[1];
-                                        System.out.println("real_scrol:" + real_scroll_h);
-                                        System.out.println("real_top:" + real_top);
-                                        if (Integer.valueOf(real_top) != 0) {
-                                            ((JavascriptExecutor) driverIframeDY).executeScript("window.scrollTo(document.body.scrollHeight,0)");
-                                        }
-                                        Thread.sleep(5000);
-                                        File scrFile = ((TakesScreenshot) driverIframeDY).getScreenshotAs(OutputType.FILE);
-                                        FileUtils.copyFile(scrFile, new File(path + locationElement.getDefaultValue() + ".png"));
-                                        Thread.sleep(1000);
-
-                                        String setscroll;
-                                        int height = 0;
-                                        String path1;
-
-                                        for (int i = 1; i < (Integer.valueOf(real_scroll_h) / 400) + 1; i++) {
-
-                                            if (height > Integer.valueOf(real_scroll_h) || Integer.valueOf(real_scroll_h) < 750) {
-//                                                System.out.println("这就是底部吗？");
-                                                break;
-
-                                            } else {
-
-                                                Thread.sleep(5000);
-                                                height = i * 450;
-                                                setscroll = "document.body.scrollTop=" + height;
-                                                JavascriptExecutor jse = (JavascriptExecutor) driverIframeDY;
-                                                jse.executeScript("0," + setscroll);
-                                                Thread.sleep(5000);
-                                                File scrFile1 = ((TakesScreenshot) driverIframeDY).getScreenshotAs(OutputType.FILE);
-
-                                                FileUtils.copyFile(scrFile1, new File(path + locationElement.getDefaultValue() + (i + 1) + ".png"));
-                                                path1 = path + locationElement.getDefaultValue() + (i + 1) + ".png";
-//                                                System.out.println("这不是底部啊");
-                                            }
-                                            System.out.println("i:" + i);
-                                            System.out.println("height:" + height);
-//                                            报告输出图片
-//                                            Reporter.log("<img src=" + path1 + "  onclick='window.open(\"" + path1 + "\")' height='108' width='192'/>");
-                                        }
-
+                                        Screenshoot.getShoot(driverIframeDY,locationElement.getDefaultValue());
 
                                         break;
                                     case "Assert":
+                                        if(needLocationElement.getText().isEmpty()){
+                                            new WebDriverWait(driverIframeDY,50).until(ExpectedConditions.visibilityOf(needChildLocationElement));
+                                            Thread.sleep(3000);
+
+                                        }
+
                                         if (childDefaultValue.contains("select")) {
                                             String result = "";
                                             ResultSet rs = Assert_database.getResult(childDefaultValue);
                                             if (rs.next()) {
                                                 result = rs.getString(1);
                                             }
-                                            actual=needChildLocationElement.getText();
-                                            except=result;
+//                                            actual=needChildLocationElement.getText();
+//                                            except=result;
+                                            actuallist.add(needChildLocationElement.getText());
+                                            descriptionlist.add(introduce);
+                                            exceptlist.add(result);
                                         } else {
-                                            actual=needChildLocationElement.getText();
-                                            except=childDefaultValue;
+                                            actuallist.add(needChildLocationElement.getText());
+                                            descriptionlist.add(introduce);
+                                            exceptlist.add(childDefaultValue);
 
                                         }
-                                        System.out.println("我要运行测试了");
-                                        testNG.run();
-                                        System.out.println("运行完成了");
+
                                         break;
 
                                     case "Clear":
@@ -739,7 +682,7 @@ public class ConfigSeleniumStart {
 
                                 String outurl = driverFilePage.getCurrentUrl() + "&format=pdf";
                                 DownLoadPdf.downLoadFromUrl(outurl,
-                                        locationElement.getDefaultValue() + ".pdf", path);
+                                        filename + ".pdf",Path.FRPath() );
 
                             } catch (Exception e) {
                                 // TODO: handle exception
@@ -749,50 +692,18 @@ public class ConfigSeleniumStart {
                         case "SHOOT":
 
 //                            谷歌截图--可见区域
-                            Object js1_result;
-                            String real_top, real_scroll_h;
-                            String js1 = "return document.body.scrollHeight.toString()+','+document.body.scrollTop.toString()";
-                            js1_result = ((JavascriptExecutor) driverFilePage).executeScript(js1);
-                            real_scroll_h = js1_result.toString().split(",")[0];
-                            real_top = js1_result.toString().split(",")[1];
-                            System.out.println("real_scrol:" + real_scroll_h);
-                            System.out.println("real_top:" + real_top);
-                            if (Integer.valueOf(real_top) != 0) {
-                                ((JavascriptExecutor) driverFilePage).executeScript("window.scrollTo(document.body.scrollHeight,0)");
-                            }
-                            Thread.sleep(5000);
-                            File scrFile = ((TakesScreenshot) driverFilePage).getScreenshotAs(OutputType.FILE);
-                            FileUtils.copyFile(scrFile, new File(path + locationElement.getDefaultValue() + ".png"));
-                            Thread.sleep(1000);
-
-                            String setscroll;
-                            int height = 0;
-
-
-                            for (int i = 1; i < (Integer.valueOf(real_scroll_h) / 400) + 1; i++) {
-
-                                if (height > Integer.valueOf(real_scroll_h) || Integer.valueOf(real_scroll_h) < 720) {
-
-                                    break;
-
-                                } else {
-                                    Thread.sleep(5000);
-                                    height = i * 450;
-                                    setscroll = "window.scrollTo" + "(" + "0," + height + ")";
-                                    JavascriptExecutor jse = (JavascriptExecutor) driver;
-                                    jse.executeScript("0," + setscroll);
-                                    Thread.sleep(5000);
-                                    File scrFile1 = ((TakesScreenshot) driverFilePage).getScreenshotAs(OutputType.FILE);
-                                    FileUtils.copyFile(scrFile1, new File(path + locationElement.getDefaultValue() + i + ".png"));
-
-                                }
-                                System.out.println("i:" + i);
-                                System.out.println("height:" + height);
-                            }
+                            Screenshoot.getShoot(driverFilePage,locationElement.getDefaultValue());
 
                             break;
                         case "Assert":
-                            System.out.println("断言处理");
+//
+                            if(needLocationElement.getText().isEmpty()){
+                                new WebDriverWait(driverFilePage,50).until(ExpectedConditions.visibilityOf(needLocationElement));
+                                Thread.sleep(3000);
+
+                            }
+
+
                             if (defaultValue.contains("select")) {
                                 String result = "";
                                 ResultSet rs = null;
@@ -803,8 +714,11 @@ public class ConfigSeleniumStart {
                                     if (rs.next()) {
                                         result = rs.getString(1);
                                     }
-                                    actual=needLocationElement.getText();
-                                    except=result;
+//                                    except=result;
+                                    System.out.println("看看："+needLocationElement.getText());
+                                    actuallist.add(needLocationElement.getText());
+                                    exceptlist.add(result);
+                                    descriptionlist.add(introduce);
 
                                 }
 
@@ -820,13 +734,14 @@ public class ConfigSeleniumStart {
 //                                }
 
                             } else {
-                                actual=needLocationElement.getText();
-                                except=defaultValue;
+//                                except=defaultValue;
+                                System.out.println("看一下取到值额吗："+needLocationElement.getText());
+                                actuallist.add(needLocationElement.getText());
+                                exceptlist.add(defaultValue);
+                                descriptionlist.add(introduce);
 
                             }
-                            System.out.println("我要运行测试了-out");
-                            testNG.run();
-                            System.out.println("运行完成了-out");
+
                             break;
                         case "Clear":
                             needLocationElement.clear();
@@ -875,13 +790,6 @@ public class ConfigSeleniumStart {
             }
         } catch (Exception er) {
             System.out.println("======exception reason=======" + er);
-            //图片名称加时间戳
-            Reporter.log(er.getStackTrace().toString());
-            String dateString = getDateFormat();
-            // getScreenshotAs()对当前窗口进行截图
-            File srcFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-            // 需要指定图片的保存路径及文件名
-            FileUtils.copyFile(srcFile, new File("./error_png" + dateString + ".png"));
             er.printStackTrace();
             throw er;
 
@@ -968,6 +876,7 @@ public class ConfigSeleniumStart {
                     ww.until(ExpectedConditions.visibilityOf(elementNewPJ));
                     ww.until(ExpectedConditions.elementToBeClickable(elementNewPJ));
                     elementNewPJ.click();
+//                    System.out.println("点击办件呢");
 
                     break;
                 }
@@ -978,12 +887,12 @@ public class ConfigSeleniumStart {
             return isHaveNext;
         } catch (Exception er) {
             System.out.println("======exception reason=======" + er);
-            //图片名称加时间戳
-            String dateString = getDateFormat();
-            // getScreenshotAs()对当前窗口进行截图
-            File srcFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-            // 需要指定图片的保存路径及文件名
-            FileUtils.copyFile(srcFile, new File("./error_png" + dateString + ".png"));
+//            //图片名称加时间戳
+//            String dateString = getDateFormat();
+//            // getScreenshotAs()对当前窗口进行截图
+//            File srcFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+//            // 需要指定图片的保存路径及文件名
+//            FileUtils.copyFile(srcFile, new File("./error_png" + dateString + ".png"));
             er.printStackTrace();
             throw er;
 
@@ -1042,12 +951,6 @@ public class ConfigSeleniumStart {
             }
         } catch (Exception er) {
             System.out.println("======exception reason=======" + er);
-            //图片名称加时间戳
-            String dateString = getDateFormat();
-            // getScreenshotAs()对当前窗口进行截图
-            File srcFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-            // 需要指定图片的保存路径及文件名
-            FileUtils.copyFile(srcFile, new File("./error_png" + dateString + ".png"));
             er.printStackTrace();
             throw er;
 
@@ -1055,21 +958,6 @@ public class ConfigSeleniumStart {
 //            driver.close();
 //            service.stop();
         }
-    }
-
-    public void AsserFailStop(){
-        Assert.assertEquals(actual,except);
-        Reporter.log(Assertion.errors.iterator().next().toString());
-    }
-
-   @Test
-    public void AssertReult(){
-        Assertion.verifyEquals(actual, except);
-        Reporter.log(Assertion.errors.iterator().next().getMessage());
-    }
-    @AfterTest
-    public void closeDB(){
-        Assert_database.getClose();
     }
 
 }

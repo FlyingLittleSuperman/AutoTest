@@ -44,6 +44,7 @@ public class InitCommonParameter {
         commonConfig.setLoginUserName(document.selectSingleNode("//ElementInfo[@ID='LoginUserName']").getText());
         commonConfig.setYJName(document.selectSingleNode("//ElementInfo[@ID='YJName']").getText());
         commonConfig.setLoginPassWord(document.selectSingleNode("//ElementInfo[@ID='LoginPassWord']").getText());
+        commonConfig.setReceiveEmailAdd(document.selectSingleNode("//ElementInfo[@ID='ReceiveEmailAdd']").getText());
         commonConfig.setFirstPageIframe(document.selectSingleNode("//ElementInfo[@ID='FirstPageIframe']").getText());
         commonConfig.setCreateProIframe(document.selectSingleNode("//ElementInfo[@ID='CreateProIframe']").getText());
         commonConfig.setWorkFlowFrameIframe(document.selectSingleNode("//ElementInfo[@ID='WorkFlowFrameIframe']").getText());

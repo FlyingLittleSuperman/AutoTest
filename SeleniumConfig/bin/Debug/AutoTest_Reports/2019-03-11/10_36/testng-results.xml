@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="3" total="5" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[开始准备测试数据 ]]>
+    </line>
+    <line>
+      <![CDATA[申请信息截图 10_37]]>
+    </line>
+    <line>
+      <![CDATA[<br/><img src="D:\work_space\js_de\debug\SeleniumConfig\bin\Debug\SootScreens\2019-03-11\申请信息截图 10_37.png"  hight="800" width="800" />]]>
+    </line>
+    <line>
+      <![CDATA[申请信息截图 10_37(2)]]>
+    </line>
+    <line>
+      <![CDATA[<br/><img src="D:\work_space\js_de\debug\SeleniumConfig\bin\Debug\SootScreens\2019-03-11\申请信息截图 10_37(2).png"  hight="800" width="800"  />]]>
+    </line>
+    <line>
+      <![CDATA[申请信息截图 10_37(3)]]>
+    </line>
+    <line>
+      <![CDATA[<br/><img src="D:\work_space\js_de\debug\SeleniumConfig\bin\Debug\SootScreens\2019-03-11\申请信息截图 10_37(3).png"  hight="800" width="800"  />]]>
+    </line>
+    <line>
+      <![CDATA[不动产单元信息比对]]>
+    </line>
+    <line>
+      <![CDATA[项目信息断言]]>
+    </line>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="174" started-at="2019-03-11T02:37:59Z" finished-at="2019-03-11T02:37:59Z">
+    <groups>
+    </groups>
+    <test name="自动化测试报告" duration-ms="174" started-at="2019-03-11T02:37:59Z" finished-at="2019-03-11T02:37:59Z">
+      <class name="dao.DataProviderSet_Assert">
+        <test-method status="PASS" signature="insetToExcel()[pri:0, instance:dao.DataProviderSet_Assert@43c67247]" name="insetToExcel" is-config="true" duration-ms="625" started-at="2019-03-11T10:37:58Z" finished-at="2019-03-11T10:37:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- insetToExcel -->
+        <test-method status="FAIL" signature="star(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:dao.DataProviderSet_Assert@43c67247]" name="star" duration-ms="38" started-at="2019-03-11T10:37:59Z" data-provider="AssertData" finished-at="2019-03-11T10:37:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[申请人信息]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[申请人]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[申请人信息标题断言]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.junit.ComparisonFailure">
+            <message>
+              <![CDATA[expected:<"申请人[]"> but was:<"申请人[信息]">]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.junit.ComparisonFailure: expected:<"申请人[]"> but was:<"申请人[信息]">
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at dao.DataProviderSet_Assert.star(DataProviderSet_Assert.java:32)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at configSelenium.ConfigSeleniumStart.main(ConfigSeleniumStart.java:203)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.junit.ComparisonFailure -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- star -->
+        <test-method status="PASS" signature="star(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:dao.DataProviderSet_Assert@43c67247]" name="star" duration-ms="0" started-at="2019-03-11T10:37:59Z" data-provider="AssertData" finished-at="2019-03-11T10:37:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[不动产单元信息]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[不动产单元信息]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[不动产单元信息比对]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[不动产单元信息比对]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- star -->
+        <test-method status="PASS" signature="star(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:dao.DataProviderSet_Assert@43c67247]" name="star" duration-ms="2" started-at="2019-03-11T10:37:59Z" data-provider="AssertData" finished-at="2019-03-11T10:37:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[项目信息]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[项目信息]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[项目信息断言]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[项目信息断言]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- star -->
+        <test-method status="FAIL" signature="star(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:dao.DataProviderSet_Assert@43c67247]" name="star" duration-ms="1" started-at="2019-03-11T10:37:59Z" data-provider="AssertData" finished-at="2019-03-11T10:37:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[开发商名称：]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[开发商名称 ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[开发商名称断言]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.junit.ComparisonFailure">
+            <message>
+              <![CDATA[expected:<"开发商名称[ ]"> but was:<"开发商名称[：]">]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.junit.ComparisonFailure: expected:<"开发商名称[ ]"> but was:<"开发商名称[：]">
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at dao.DataProviderSet_Assert.star(DataProviderSet_Assert.java:32)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at configSelenium.ConfigSeleniumStart.main(ConfigSeleniumStart.java:203)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.junit.ComparisonFailure -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- star -->
+        <test-method status="FAIL" signature="star(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:dao.DataProviderSet_Assert@43c67247]" name="star" duration-ms="0" started-at="2019-03-11T10:37:59Z" data-provider="AssertData" finished-at="2019-03-11T10:37:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[项目名称：]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[项目]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[项目名称断言]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.junit.ComparisonFailure">
+            <message>
+              <![CDATA[expected:<"项目[]"> but was:<"项目[名称：]">]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.junit.ComparisonFailure: expected:<"项目[]"> but was:<"项目[名称：]">
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at dao.DataProviderSet_Assert.star(DataProviderSet_Assert.java:32)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at configSelenium.ConfigSeleniumStart.main(ConfigSeleniumStart.java:203)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.junit.ComparisonFailure -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- star -->
+      </class> <!-- dao.DataProviderSet_Assert -->
+    </test> <!-- 自动化测试报告 -->
+  </suite> <!-- Command line suite -->
+</testng-results>

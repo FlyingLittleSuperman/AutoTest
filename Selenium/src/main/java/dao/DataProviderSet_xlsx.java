@@ -63,7 +63,7 @@ public class DataProviderSet_xlsx {
                 records.add(files);
 
             }
-            System.out.println("records"+records.get(0));
+
             Object[][] results = new Object[records.size()][];
             for (int i = 0; i < records.size(); i++) {
 

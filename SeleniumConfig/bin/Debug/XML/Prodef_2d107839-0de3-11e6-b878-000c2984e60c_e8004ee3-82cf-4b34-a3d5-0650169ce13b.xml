@@ -20,7 +20,7 @@
           <LocationElement ID="245fa308-e194-45ed-8f37-49d20196b776" LocationType="ID" Path="TJSQR" OperateType="CLICK" Order="3" DefaultValue="" Introduce="添加申请人" IsRandom="False" WaitSecond="2000" SqlSchemaId="" />
           <LocationElement ID="57508697-0c35-4956-9bd5-95fb3ffeeafb" LocationType="ID" Path="addSqr" OperateType="IFRAME" Order="4" DefaultValue="" Introduce="弹出申请人添加界面" IsRandom="False" WaitSecond="0" SqlSchemaId="">
             <ChildLocationElement ID="7f3a8304-9cc8-4c4d-a337-86f0a3492b28" LocationType="ID" Path="SQRLB" OperateType="SENDKEYS" Order="1" DefaultValue="1" Introduce="申请人类别" IsRandom="False" />
-            <ChildLocationElement ID="d44a59db-a510-455a-8d38-ccbe43bd0660" LocationType="ID" Path="SQRMC" OperateType="SENDKEYS" Order="2" DefaultValue="张三丰" Introduce="申请人名称" IsRandom="True" SqlSchemaId="" WaitSecond="0" />
+            <ChildLocationElement ID="d44a59db-a510-455a-8d38-ccbe43bd0660" LocationType="ID" Path="SQRMC" OperateType="SENDKEYS" Order="2" DefaultValue="张三丰" Introduce="申请人名称" IsRandom="False" SqlSchemaId="" WaitSecond="0" />
             <ChildLocationElement ID="0bbb51cf-5093-4cb1-8151-51c0be4facd9" LocationType="ID" Path="SQRLX" OperateType="SENDKEYS" Order="3" DefaultValue="1" Introduce="申请人类型" IsRandom="False" />
             <ChildLocationElement ID="0af43a60-b347-4a82-b6fc-5f36ec670e34" LocationType="ID" Path="SQRMC" OperateType="Assert" Order="4" DefaultValue="张三丰" SqlSchemaId="" Introduce="申请人名称断言" IsRandom="False" WaitSecond="0" />
             <ChildLocationElement ID="a173155d-310e-4138-8da7-f9ffba26e1e7" LocationType="ID" Path="ZJZL" OperateType="SENDKEYS" Order="5" DefaultValue="2" Introduce="证件种类" IsRandom="False" />
@@ -30,10 +30,11 @@
             <ChildLocationElement ID="c680fd5f-25f9-4041-b5ec-a09d0a42631e" LocationType="XPATH" Path="//span[@class=' x-emb-submit']" OperateType="CLICK" Order="9" DefaultValue="" Introduce="保存申请人" IsRandom="False" WaitSecond="1000" />
           </LocationElement>
           <LocationElement ID="9ca024dc-a3a5-444e-bad2-e1a78b95e14e" LocationType="XPATH" Path="//a[@class='jbox-close']" OperateType="CLICK" Order="5" DefaultValue="" Introduce="关闭申请人编辑界面" IsRandom="False" WaitSecond="0" SqlSchemaId="" />
-          <LocationElement ID="4c840c2b-d2f5-424b-a18d-94a968861657" LocationType="ID" Path="HOUSELIST" OperateType="IFRAME" Order="6" DefaultValue="HOUSELIST" Introduce="单元列表界面" IsRandom="False" WaitSecond="0" SqlSchemaId="">
+          <LocationElement ID="aaba2409-bffb-4b84-838f-501ed28747d8" LocationType="XPATH" Path="//*[@id=&quot;maingrid|2|r1001|c103&quot;]/div" OperateType="Assert" Order="6" DefaultValue="select bdcdyh from slsq where ywh='{YWH}'" SqlSchemaId="" Introduce="断言不动产单元号" IsRandom="False" WaitSecond="5000" />
+          <LocationElement ID="4c840c2b-d2f5-424b-a18d-94a968861657" LocationType="ID" Path="HOUSELIST" OperateType="IFRAME" Order="7" DefaultValue="HOUSELIST" Introduce="单元列表界面" IsRandom="False" WaitSecond="0" SqlSchemaId="">
             <ChildLocationElement ID="f037f2b8-becf-4488-9d59-709dfccaead8" LocationType="XPATH" Path="//span[@command='FwDetail']" OperateType="CLICK" Order="1" DefaultValue="" Introduce="单元信息编辑" IsRandom="False" WaitSecond="0" />
           </LocationElement>
-          <LocationElement ID="c558982a-993e-474b-95c4-37c923aba9ea" LocationType="ID" Path="EditHouseInfo" OperateType="IFRAME" Order="7" DefaultValue="EditHouseInfo" Introduce="弹出户室信息编辑界面" IsRandom="False" WaitSecond="0" SqlSchemaId="">
+          <LocationElement ID="c558982a-993e-474b-95c4-37c923aba9ea" LocationType="ID" Path="EditHouseInfo" OperateType="IFRAME" Order="8" DefaultValue="EditHouseInfo" Introduce="弹出户室信息编辑界面" IsRandom="False" WaitSecond="0" SqlSchemaId="">
             <ChildLocationElement ID="6643eb25-6959-4a31-8193-b20a36b6254b" LocationType="ID" Path="FWZL" OperateType="SENDKEYS" Order="1" DefaultValue="测试坐落1" Introduce="坐落" IsRandom="True" WaitSecond="0" />
             <ChildLocationElement ID="c49fe932-4496-4451-bf98-d679e74fa405" LocationType="ID" Path="YFWYT1" OperateType="CLICK" Order="2" DefaultValue="测试用途1" Introduce="用途名称" IsRandom="False" WaitSecond="0" />
             <ChildLocationElement ID="6192b8fd-05c5-4f10-8e00-f5dc77c881e2" LocationType="ID" Path="TDYTDL" OperateType="QT" Order="3" DefaultValue="contentPane.getWidgetByName(&quot;TDYTDL&quot;).setValue(&quot;城镇住宅用地&quot;);" Introduce="土地用途赋值" IsRandom="False" WaitSecond="0" />
@@ -42,14 +43,15 @@
             <ChildLocationElement ID="93c7b28c-1d73-4157-a298-94fb59a98dab" LocationType="ID" Path="FWJG" OperateType="SENDKEYS" Order="6" DefaultValue="6" Introduce="房屋结构" IsRandom="False" WaitSecond="0" />
             <ChildLocationElement ID="de8d4615-f1ba-41d3-9e8b-4c8ee0b1d319" LocationType="XPATH" Path="//button[@type='button']@@@保存" OperateType="CLICK" Order="7" DefaultValue="" Introduce="保存户室信息" IsRandom="False" WaitSecond="0" />
           </LocationElement>
-          <LocationElement ID="47e35c9a-bfe7-476b-ae44-abecd5e45a46" LocationType="XPATH" Path="//a[@class='jbox-close']" OperateType="CLICK" Order="8" DefaultValue="1" Introduce="关闭户室信息编辑界面" IsRandom="False" WaitSecond="0" />
-          <LocationElement ID="9dd94c15-c561-4599-ae14-fe5c28c4876c" LocationType="ID" Path="GFHTBH_TDZ" OperateType="SENDKEYS" Order="9" DefaultValue="测试国有土地证" Introduce="SDE.FW_H.BDCDYH" IsRandom="True" WaitSecond="0" />
-          <LocationElement ID="de160ac2-af55-4f6c-9ce5-e9010b3d7395" LocationType="ID" Path="CZRMC" OperateType="SENDKEYS" Order="10" DefaultValue="测试持证人名称" Introduce="持证人" IsRandom="True" SqlSchemaId="" WaitSecond="0" />
-          <LocationElement ID="59e640cb-74ac-4ae9-a3df-547617733696" LocationType="XPATH" Path="/html/body/div[3]/table/tbody/tr[5]/td[3]" OperateType="Assert" Order="11" DefaultValue="select qlrmc from slsq where ywh='{YWH}'" SqlSchemaId="" Introduce="断言权利人名称" IsRandom="False" WaitSecond="5000" />
-          <LocationElement ID="bdb3cbf7-ce9e-43a6-9e6d-8d31390ff322" LocationType="XPATH" Path="//input[@name='GETSFZXYTDDZ'and@value='0']" OperateType="CLICK" Order="13" DefaultValue="" Introduce="不注销土地大证" IsRandom="False" />
-          <LocationElement ID="77c6ade3-11fc-4ca3-97ab-b14d21a4f195" LocationType="XPATH" Path="//*[@id=&quot;SSXZQ&quot;]" OperateType="SENDKEYS" Order="14" DefaultValue="1" SqlSchemaId="" Introduce="行政区赋值" IsRandom="False" WaitSecond="5000" />
-          <LocationElement ID="d0dc70c2-81b9-4b3c-8b58-2d342bb4ad7f" LocationType="XPATH" Path="/html/body/div[3]/table/tbody/tr[5]/td[3]" OperateType="Assert" Order="15" DefaultValue="select qlrmc from slsq where ywh='{YWH}'" SqlSchemaId="" Introduce="对比权利人名称" IsRandom="False" WaitSecond="8000" />
-          <LocationElement ID="34eb6854-0636-4d38-ac98-0b107ae3f20c" LocationType="XPATH" Path="//span[@class=' x-emb-submit']" OperateType="CLICK" Order="16" DefaultValue="" Introduce="大保存" IsRandom="False" WaitSecond="3000" />
+          <LocationElement ID="47e35c9a-bfe7-476b-ae44-abecd5e45a46" LocationType="XPATH" Path="//a[@class='jbox-close']" OperateType="CLICK" Order="9" DefaultValue="1" Introduce="关闭户室信息编辑界面" IsRandom="False" WaitSecond="0" />
+          <LocationElement ID="9dd94c15-c561-4599-ae14-fe5c28c4876c" LocationType="ID" Path="GFHTBH_TDZ" OperateType="SENDKEYS" Order="10" DefaultValue="测试国有土地证" Introduce="SDE.FW_H.BDCDYH" IsRandom="True" WaitSecond="0" />
+          <LocationElement ID="de160ac2-af55-4f6c-9ce5-e9010b3d7395" LocationType="ID" Path="CZRMC" OperateType="SENDKEYS" Order="11" DefaultValue="测试持证人名称" Introduce="持证人" IsRandom="True" SqlSchemaId="" WaitSecond="0" />
+          <LocationElement ID="59e640cb-74ac-4ae9-a3df-547617733696" LocationType="XPATH" Path="/html/body/div[3]/table/tbody/tr[5]/td[3]" OperateType="Assert" Order="12" DefaultValue="select qlrmc from slsq where ywh='{YWH}'" SqlSchemaId="" Introduce="断言权利人名称" IsRandom="False" WaitSecond="5000" />
+          <LocationElement ID="bdb3cbf7-ce9e-43a6-9e6d-8d31390ff322" LocationType="XPATH" Path="//input[@name='GETSFZXYTDDZ'and@value='0']" OperateType="CLICK" Order="14" DefaultValue="" Introduce="不注销土地大证" IsRandom="False" />
+          <LocationElement ID="77c6ade3-11fc-4ca3-97ab-b14d21a4f195" LocationType="XPATH" Path="//*[@id=&quot;SSXZQ&quot;]" OperateType="SENDKEYS" Order="15" DefaultValue="1" SqlSchemaId="" Introduce="行政区赋值" IsRandom="False" WaitSecond="5000" />
+          <LocationElement ID="d0dc70c2-81b9-4b3c-8b58-2d342bb4ad7f" LocationType="XPATH" Path="/html/body/div[3]/table/tbody/tr[5]/td[3]" OperateType="Assert" Order="16" DefaultValue="select qlrmc from slsq where ywh='{YWH}'" SqlSchemaId="" Introduce="对比权利人名称" IsRandom="False" WaitSecond="8000" />
+          <LocationElement ID="34eb6854-0636-4d38-ac98-0b107ae3f20c" LocationType="XPATH" Path="//span[@class=' x-emb-submit']" OperateType="CLICK" Order="17" DefaultValue="" Introduce="大保存" IsRandom="False" WaitSecond="3000" />
+          <LocationElement ID="dca64a88-eb80-4f6b-a6a0-3d52291402e9" LocationType="XPATH" Path="/html/body/div[3]/table/tbody/tr[5]/td[3]" OperateType="Assert" Order="18" DefaultValue="select qlrmc from slsq where ywh='{YWH}'" SqlSchemaId="" Introduce="判断申请人名称" IsRandom="False" WaitSecond="10000" />
         </iframeChild>
       </iframe>
     </Actdef>

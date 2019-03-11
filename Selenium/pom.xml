@@ -22,7 +22,7 @@
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
         <!--&lt;!&ndash;添加读取报告配置&ndash;&gt;-->
-        <!--<xmlFileName>testng.xml</xmlFileName>-->
+        <xmlFileName>testng.xml</xmlFileName>
     </properties>
     <dependencies>
         <dependency>
@@ -118,8 +118,8 @@
         <!-- https://mvnrepository.com/artifact/org.apache.log4j/com.springsource.org.apache.log4j -->
         <dependency>
             <groupId>org.apache.log4j</groupId>
-            <artifactId>nmq.log4j</artifactId>
-            <version>1.0.0</version>
+            <artifactId>com.springsource.org.apache.log4j</artifactId>
+            <version>1.2.16</version>
         </dependency>
 
         <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
@@ -161,13 +161,6 @@
         <!--<version>4.12</version>-->
         <!--<scope>test</scope>-->
         <!--</dependency>-->
-        <dependency>
-            <groupId>org.testng</groupId>
-            <artifactId>testng</artifactId>
-            <version>RELEASE</version>
-            <scope>compile</scope>
-        </dependency>
-
 
         <!--aseertJ断言框架依赖-->
         <dependency>
@@ -186,7 +179,7 @@
         <dependency>
             <groupId>org.uncommons</groupId>
             <artifactId>reportng</artifactId>
-            <version>1.1.5</version>
+            <version>1.1.8</version>
             <scope>compile</scope>
             <exclusions>
                 <exclusion>
@@ -226,10 +219,17 @@
             <version>3.8</version>
         </dependency>
         <dependency>
-            <groupId>org.apache.poi</groupId>
-            <artifactId>poi</artifactId>
-            <version>3.8</version>
+            <groupId>commons-io</groupId>
+            <artifactId>commons-io</artifactId>
+            <version>2.5</version>
         </dependency>
+
+        <dependency>
+            <groupId>javax.mail</groupId>
+            <artifactId>mail</artifactId>
+            <version>1.4.1</version>
+        </dependency>
+
         <dependency>
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
@@ -270,7 +270,6 @@
                 <version>2.5</version>
 
                 <configuration>
-                    <!--<forkMode>never</forkMode>-->
                     <properties>
                         <property>
                             <name>usedefaultlisteners</name>
@@ -282,9 +281,13 @@
                         </property>
                     </properties>
 
-                    <!--<suiteXmlFiles>-->
-                        <!--<suiteXmlFile>src/main/resources/testng.xml</suiteXmlFile>-->
-                    <!--</suiteXmlFiles>-->
+                    <!-- testng.xml文件路径吗，项目下路径为"res/testng.xml" ，则定义为res/${xmlFileName} -->
+                    <suiteXmlFiles>
+                        <suiteXmlFile>${xmlFileName}</suiteXmlFile>
+                    </suiteXmlFiles>
+                    <!--<workingDirectory>target/</workingDirectory>-->
+
+                    <reportsDirectory>report-output/</reportsDirectory>
                     <systemPropertyVariables>
                         <org.uncommons.reportng.escape-output>false</org.uncommons.reportng.escape-output>
                     </systemPropertyVariables>

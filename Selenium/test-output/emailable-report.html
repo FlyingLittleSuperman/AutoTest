@@ -8,12 +8,16 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="7">Command line suite</th></tr>
-<tr><td><a href="#t0">Command line test</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">41</td><td></td><td></td></tr>
+<tr><th colspan="7">自定义suit</th></tr>
+<tr><td><a href="#t0">Command line test</a></td><td class="num">1</td><td class="num">0</td><td class="num attn">1</td><td class="num">162</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Command line suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Command line test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">configSelenium.Assert.TestCase</td><td><a href="#m0">Case1</a></td><td rowspan="1">1551250778720</td><td rowspan="1">11</td></tr><tr class="passedeven"><td><a href="#m1">Case2</a></td><td rowspan="1">1551250778733</td><td rowspan="1">0</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">自定义suit</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Command line test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">Test.Assert.TestCase</td><td><a href="#m0">Case2</a></td><td rowspan="1">1552271385924</td><td rowspan="1">101</td></tr><tr><th colspan="4">Command line test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">Test.Assert.TestCase</td><td><a href="#m1">Case1</a></td><td rowspan="1">1552271385907</td><td rowspan="1">15</td></tr></tbody>
 </table>
-<h2>Command line test</h2><h3 id="m0">configSelenium.Assert.TestCase#Case1</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">configSelenium.Assert.TestCase#Case2</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Command line test</h2><h3 id="m0">configSelenium.Assert.TestCase#Case2</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.junit.ComparisonFailure:
+    [不相等啊] expected:&lt;&quot;[地主]&quot;&gt; but was:&lt;&quot;[旺达]&quot;&gt;
+    at Test.Assert.TestCase.Case2(TestCase.java:93)
+    at Test.Assert.TestCase.main(TestCase.java:44)
+    ... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">configSelenium.Assert.TestCase#Case1</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">看一下哈12312312</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

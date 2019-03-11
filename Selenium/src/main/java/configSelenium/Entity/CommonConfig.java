@@ -10,7 +10,8 @@ public class CommonConfig implements Serializable {
     private String PhatomJSDriverUrl; //PhatomJSDriver地址
     private String LoginUrl;//系统登陆地址
     private String LoginUserName;//系统登陆用户
-    private String YJName;//移交名称
+    private String YJName;//移交人名称
+    private String ReceiveEmailAdd;//邮件接收人地址
     private String LoginPassWord; //系统登陆密码
     private String FirstPageIframe; //首页iframe名称
     private String CreateProIframe;//新建办件iframe名称
@@ -90,6 +91,7 @@ public class CommonConfig implements Serializable {
 //        PhatomJSDriverUrl = phatomjsDriverUrl;
 //    }
 
+
     public String getChromeDriverUrl() {
         return ChromeDriverUrl;
     }
@@ -138,4 +140,11 @@ public class CommonConfig implements Serializable {
     private String DbPassWord;
 
 
+    public String getReceiveEmailAdd() {
+        return ReceiveEmailAdd;
+    }
+
+    public void setReceiveEmailAdd(String receiveEmailAdd) {
+        ReceiveEmailAdd = receiveEmailAdd;
+    }
 }

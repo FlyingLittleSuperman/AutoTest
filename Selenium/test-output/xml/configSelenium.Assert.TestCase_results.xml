@@ -6,7 +6,7 @@
            skipped="1"
            time="0.000">
   <properties />
-            <testcase name="as" time="0.000" classname="configSelenium.Assert.TestCase">
+            <testcase name="as" time="0.000" classname="Test.Assert.TestCase">
                 <failure type="org.testng.TestNGException"
                   message="
 Can inject only one of &lt;ITestContext, XmlTest&gt; into a @BeforeTest annotated as.
@@ -40,7 +40,7 @@ For more information on native dependency injection please refer to http://testn
 
           </testcase>
   
-            <testcase name="Case1" time="0.0" classname="configSelenium.Assert.TestCase">
+            <testcase name="Case1" time="0.0" classname="Test.Assert.TestCase">
           <skipped />
     </testcase>
   
