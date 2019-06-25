@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[该流程未完成，请留意!]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+  </reporter-output>
+  <suite name="预购商品房预告登记流程-预购商品房预告登记-预购商品房抵押权预告登记-预购商品房-抵押权预告登记（王岩）" duration-ms="0" started-at="2019-05-16T09:35:40Z" finished-at="2019-05-16T09:35:40Z">
+    <groups>
+    </groups>
+    <test name="断言详情查看" duration-ms="0" started-at="2019-05-16T09:35:40Z" finished-at="2019-05-16T09:35:40Z">
+      <class name="Test.NoAssert">
+        <test-method status="PASS" signature="showReport()[pri:0, instance:Test.NoAssert@4a4c0946]" name="showReport" duration-ms="0" started-at="2019-05-16T09:35:40Z" finished-at="2019-05-16T09:35:40Z">
+          <reporter-output>
+            <line>
+              <![CDATA[]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- showReport -->
+      </class> <!-- Test.NoAssert -->
+    </test> <!-- 断言详情查看 -->
+  </suite> <!-- 预购商品房预告登记流程-预购商品房预告登记-预购商品房抵押权预告登记-预购商品房-抵押权预告登记（王岩） -->
+</testng-results>

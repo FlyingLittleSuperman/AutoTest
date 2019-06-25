@@ -1,9 +1,11 @@
 package util;
 
 import configSelenium.StaticValue;
+import org.testng.Reporter;
 
 import java.io.PrintWriter;
 import java.io.StringWriter;
+
 
 /**
  * Created by Administrator on 2016/12/26.
@@ -33,6 +35,7 @@ public class LoggerUtils {
 
     public static void error(String msg) {
         log.info(msg);
+        Reporter.log(msg);
     }
 
 
@@ -46,6 +49,7 @@ public class LoggerUtils {
         PrintWriter pw = new PrintWriter(sw);
         er.printStackTrace(pw);
         log.error(sw.toString());
+        Reporter.log(sw.toString());
     }
 
     /**

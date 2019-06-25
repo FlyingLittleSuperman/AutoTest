@@ -37,7 +37,6 @@ public class InitCommonParameter {
     public static void SetCommonConfigCache() throws Exception {
 
         Document document = XmlUtils.CreateDocumentByPath(StaticValue.ApplicationPath + "/ServicePath.xml");
-        System.out.println("读取服务地址"+StaticValue.ApplicationPath);
         CommonConfig commonConfig = new CommonConfig();
         commonConfig.setChromeDriverUrl(document.selectSingleNode("//ElementInfo[@ID='ChromeDriverUrl']").getText());
         commonConfig.setLoginUrl(document.selectSingleNode("//ElementInfo[@ID='LoginUrl']").getText());
@@ -45,15 +44,18 @@ public class InitCommonParameter {
         commonConfig.setYJName(document.selectSingleNode("//ElementInfo[@ID='YJName']").getText());
         commonConfig.setLoginPassWord(document.selectSingleNode("//ElementInfo[@ID='LoginPassWord']").getText());
         commonConfig.setReceiveEmailAdd(document.selectSingleNode("//ElementInfo[@ID='ReceiveEmailAdd']").getText());
+        commonConfig.setSendEmail(Boolean.valueOf(document.selectSingleNode("//ElementInfo[@ID='SendEmail']").getText()));
         commonConfig.setFirstPageIframe(document.selectSingleNode("//ElementInfo[@ID='FirstPageIframe']").getText());
         commonConfig.setCreateProIframe(document.selectSingleNode("//ElementInfo[@ID='CreateProIframe']").getText());
         commonConfig.setWorkFlowFrameIframe(document.selectSingleNode("//ElementInfo[@ID='WorkFlowFrameIframe']").getText());
         commonConfig.setDataCategory(document.selectSingleNode("//ElementInfo[@ID='DataCategory']").getText());
         commonConfig.setServiceIP(document.selectSingleNode("//ElementInfo[@ID='ServiceIP']").getText());
 
+        commonConfig.setDbIpAdress(document.selectSingleNode("//ElementInfo[@ID='DbIpAdress']").getText());
         commonConfig.setDbName(document.selectSingleNode("//ElementInfo[@ID='DbName']").getText());
         commonConfig.setDbUserName(document.selectSingleNode("//ElementInfo[@ID='DbUserName']").getText());
         commonConfig.setDbPassWord(document.selectSingleNode("//ElementInfo[@ID='DbPassWord']").getText());
+
 
         CacheUtils.put(StaticValue.CommonConfigCacheName, StaticValue.InitParameterKeyName, commonConfig);
     }
@@ -92,6 +94,7 @@ public class InitCommonParameter {
                 prodef.setId(elementProdef.attributeValue("ID"));
                 prodef.setName(elementProdef.attributeValue("Name"));
                 prodef.setPackageID(elementProdef.attributeValue("PackageID"));
+//                prodef.setPackageName(elementProdef.attributeValue("PackageName"));
 
 
                 List<Actdef> actdefList = new ArrayList<Actdef>();
@@ -130,6 +133,7 @@ public class InitCommonParameter {
                             locationElement.setDefaultValue(elementLocationElement.attributeValue("DefaultValue"));
                             locationElement.setIntroduce(elementLocationElement.attributeValue("Introduce"));
                             locationElement.setRandom(Boolean.valueOf(elementLocationElement.attributeValue("IsRandom") == "" ? "false" : elementLocationElement.attributeValue("IsRandom")));
+                            locationElement.setNameRandom(Boolean.valueOf(elementLocationElement.attributeValue("IsNameRandom") == "" ? "false" : elementLocationElement.attributeValue("IsNameRandom")));
                             locationElement.setWaitSecond(elementLocationElement.attributeValue("WaitSecond") == null ? 0 : Integer.valueOf(elementLocationElement.attributeValue("WaitSecond")));
                             locationElement.setSqlSchemaId(elementLocationElement.attributeValue("SqlSchemaId") == null ? "" : elementLocationElement.attributeValue("SqlSchemaId"));
                             locationElementList.add(locationElement);
@@ -146,6 +150,7 @@ public class InitCommonParameter {
                                 childLocationElement.setDefaultValue(elementChildLocationElement.attributeValue("DefaultValue"));
                                 childLocationElement.setIntroduce(elementChildLocationElement.attributeValue("Introduce"));
                                 childLocationElement.setRandom(Boolean.valueOf(elementChildLocationElement.attributeValue("IsRandom") == "" ? "false" : elementChildLocationElement.attributeValue("IsRandom")));
+                                childLocationElement.setNameRandom(Boolean.valueOf(elementChildLocationElement.attributeValue("IsNameRandom") == "" ? "false" : elementChildLocationElement.attributeValue("IsNameRandom")));
                                 childLocationElement.setWaitSecond(elementChildLocationElement.attributeValue("WaitSecond") == null ? 0 : Integer.valueOf(elementChildLocationElement.attributeValue("WaitSecond")));
                                 childLocationElement.setSqlSchemaId(elementChildLocationElement.attributeValue("SqlSchemaId") == null ? "" : elementChildLocationElement.attributeValue("SqlSchemaId"));
                                 childLocationElementList.add(childLocationElement);
@@ -195,6 +200,7 @@ public class InitCommonParameter {
                 String prodefId = elementProdef.attributeValue("ID");
                 String prodefName = elementProdef.attributeValue("Name");
                 String packageName = elementProdef.attributeValue("PackageName");
+                String packageId = elementProdef.attributeValue("PackageID");
                  elementProdefChildList = elementProdef.elements("ProdefChild");
                 for (Element elementProdefChild : elementProdefChildList) {
 
@@ -206,6 +212,7 @@ public class InitCommonParameter {
                     seleniumSchema.setProdefId(prodefId);
                     seleniumSchema.setProdefName(prodefName);
                     seleniumSchema.setPackageName(packageName);
+                    seleniumSchema.setPackageId(packageId);
                     seleniumSchema.setChildProdefId(childProdefId);
                     seleniumSchema.setChildProdefName(childProdefName);
                     schemaid =seleniumSchema.getId();

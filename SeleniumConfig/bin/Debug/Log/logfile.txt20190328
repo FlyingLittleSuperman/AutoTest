@@ -1,0 +1,1316 @@
+2019-03-28 17:06:39,386 [INFO]: Microsoft Windows [版本 6.1.7601]
+2019-03-28 17:06:39,398 [INFO]: 版权所有 (c) 2009 Microsoft Corporation。保留所有权利。
+2019-03-28 17:06:39,402 [INFO]: 
+2019-03-28 17:06:39,407 [INFO]: D:\work_space\js_de\debug\SeleniumConfig\bin\Debug>java -jar D:\work_space\js_de\debug\SeleniumConfig\bin\Debug\\SeleniumJAVA\Selenium.jar C#
+2019-03-28 17:06:41,681 [INFO]: 开始准备数据
+2019-03-28 17:06:41,686 [INFO]: 开始缓存总体参数配置文件
+2019-03-28 17:06:41,690 [INFO]: path:/D:/work_space/js_de/debug/SeleniumConfig/bin/Debug/SeleniumJAVA/Selenium.jar
+2019-03-28 17:06:41,838 [INFO]: 读取服务地址/D:/work_space/js_de/debug/SeleniumConfig/bin/Debug
+2019-03-28 17:06:42,108 [WARN]: SLF4J: The requested version 1.7.16 by your slf4j binding is not compatible with [1.6]
+2019-03-28 17:06:42,112 [WARN]: SLF4J: See http://www.slf4j.org/codes.html#version_mismatch for further details.
+2019-03-28 17:06:42,493 [INFO]: 17:06:42.491 [main] WARN  n.s.e.config.CacheConfiguration - Cache 'Common' is set to eternal but also has TTI/TTL set.  To avoid this warning, clean up the config removing conflicting values of eternal, TTI and TTL. Effective configuration for Cache 'Common' will be eternal='true', timeToIdleSeconds='0', timeToLiveSeconds='0'.
+2019-03-28 17:06:42,501 [INFO]: 缓存总体参数配置文件成功！
+2019-03-28 17:06:42,507 [INFO]: 开始缓存SQL配置信息
+2019-03-28 17:06:42,531 [INFO]: 17:06:42.531 [main] WARN  n.s.e.config.CacheConfiguration - Cache 'SQLConfig' is set to eternal but also has TTI/TTL set.  To avoid this warning, clean up the config removing conflicting values of eternal, TTI and TTL. Effective configuration for Cache 'SQLConfig' will be eternal='true', timeToIdleSeconds='0', timeToLiveSeconds='0'.
+2019-03-28 17:06:42,536 [INFO]: 缓存SQL配置信息成功！
+2019-03-28 17:06:42,541 [INFO]: 开始缓存SQL配置的SQL语句信息
+2019-03-28 17:06:42,554 [INFO]: 17:06:42.553 [%0053%0051%004c%0043onfig.data] ERROR n.s.e.store.disk.DiskStorageFactory - Disk Write of InitSqlConfig failed: 
+2019-03-28 17:06:42,565 [INFO]: java.io.NotSerializableException: configSelenium.Entity.SQL.Column
+2019-03-28 17:06:42,578 [INFO]: 	at java.io.ObjectOutputStream.writeObject0(Unknown Source)
+2019-03-28 17:06:42,614 [INFO]: 	at java.io.ObjectOutputStream.writeObject(Unknown Source)
+2019-03-28 17:06:42,656 [INFO]: 	at java.util.ArrayList.writeObject(Unknown Source)
+2019-03-28 17:06:42,663 [INFO]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+2019-03-28 17:06:42,672 [INFO]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+2019-03-28 17:06:42,680 [INFO]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+2019-03-28 17:06:42,689 [INFO]: 	at java.lang.reflect.Method.invoke(Unknown Source)
+2019-03-28 17:06:42,701 [INFO]: 	at java.io.ObjectStreamClass.invokeWriteObject(Unknown Source)
+2019-03-28 17:06:42,717 [INFO]: 	at java.io.ObjectOutputStream.writeSerialData(Unknown Source)
+2019-03-28 17:06:42,725 [INFO]: 	at java.io.ObjectOutputStream.writeOrdinaryObject(Unknown Source)
+2019-03-28 17:06:42,738 [INFO]: 	at java.io.ObjectOutputStream.writeObject0(Unknown Source)
+2019-03-28 17:06:42,749 [INFO]: 	at java.io.ObjectOutputStream.defaultWriteFields(Unknown Source)
+2019-03-28 17:06:42,770 [INFO]: 	at java.io.ObjectOutputStream.writeSerialData(Unknown Source)
+2019-03-28 17:06:42,779 [INFO]: 	at java.io.ObjectOutputStream.writeOrdinaryObject(Unknown Source)
+2019-03-28 17:06:42,786 [INFO]: 	at java.io.ObjectOutputStream.writeObject0(Unknown Source)
+2019-03-28 17:06:42,794 [INFO]: 	at java.io.ObjectOutputStream.writeObject(Unknown Source)
+2019-03-28 17:06:42,801 [INFO]: 	at java.util.ArrayList.writeObject(Unknown Source)
+2019-03-28 17:06:42,812 [INFO]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+2019-03-28 17:06:42,819 [INFO]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+2019-03-28 17:06:42,830 [INFO]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+2019-03-28 17:06:42,844 [INFO]: 	at java.lang.reflect.Method.invoke(Unknown Source)
+2019-03-28 17:06:42,855 [INFO]: 	at java.io.ObjectStreamClass.invokeWriteObject(Unknown Source)
+2019-03-28 17:06:42,862 [INFO]: 	at java.io.ObjectOutputStream.writeSerialData(Unknown Source)
+2019-03-28 17:06:42,871 [INFO]: 	at java.io.ObjectOutputStream.writeOrdinaryObject(Unknown Source)
+2019-03-28 17:06:42,878 [INFO]: 	at java.io.ObjectOutputStream.writeObject0(Unknown Source)
+2019-03-28 17:06:42,887 [INFO]: 	at java.io.ObjectOutputStream.defaultWriteFields(Unknown Source)
+2019-03-28 17:06:42,894 [INFO]: 	at java.io.ObjectOutputStream.writeSerialData(Unknown Source)
+2019-03-28 17:06:42,910 [INFO]: 	at java.io.ObjectOutputStream.writeOrdinaryObject(Unknown Source)
+2019-03-28 17:06:42,923 [INFO]: 	at java.io.ObjectOutputStream.writeObject0(Unknown Source)
+2019-03-28 17:06:42,949 [INFO]: 	at java.io.ObjectOutputStream.writeObject(Unknown Source)
+2019-03-28 17:06:42,956 [INFO]: 	at java.util.HashMap.internalWriteEntries(Unknown Source)
+2019-03-28 17:06:42,964 [INFO]: 	at java.util.HashMap.writeObject(Unknown Source)
+2019-03-28 17:06:42,973 [INFO]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+2019-03-28 17:06:43,004 [INFO]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+2019-03-28 17:06:43,035 [INFO]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+2019-03-28 17:06:43,044 [INFO]: 	at java.lang.reflect.Method.invoke(Unknown Source)
+2019-03-28 17:06:43,063 [INFO]: 	at java.io.ObjectStreamClass.invokeWriteObject(Unknown Source)
+2019-03-28 17:06:43,074 [INFO]: 	at java.io.ObjectOutputStream.writeSerialData(Unknown Source)
+2019-03-28 17:06:43,082 [INFO]: 	at java.io.ObjectOutputStream.writeOrdinaryObject(Unknown Source)
+2019-03-28 17:06:43,091 [INFO]: 	at java.io.ObjectOutputStream.writeObject0(Unknown Source)
+2019-03-28 17:06:43,098 [INFO]: 	at java.io.ObjectOutputStream.defaultWriteFields(Unknown Source)
+2019-03-28 17:06:43,119 [INFO]: 	at java.io.ObjectOutputStream.defaultWriteObject(Unknown Source)
+2019-03-28 17:06:43,126 [INFO]: 	at net.sf.ehcache.Element.writeObject(Element.java:835)
+2019-03-28 17:06:43,136 [INFO]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+2019-03-28 17:06:43,143 [INFO]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+2019-03-28 17:06:43,153 [INFO]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+2019-03-28 17:06:43,161 [INFO]: 	at java.lang.reflect.Method.invoke(Unknown Source)
+2019-03-28 17:06:43,170 [INFO]: 	at java.io.ObjectStreamClass.invokeWriteObject(Unknown Source)
+2019-03-28 17:06:43,177 [INFO]: 	at java.io.ObjectOutputStream.writeSerialData(Unknown Source)
+2019-03-28 17:06:43,186 [INFO]: 	at java.io.ObjectOutputStream.writeOrdinaryObject(Unknown Source)
+2019-03-28 17:06:43,193 [INFO]: 	at java.io.ObjectOutputStream.writeObject0(Unknown Source)
+2019-03-28 17:06:43,211 [INFO]: 	at java.io.ObjectOutputStream.writeObject(Unknown Source)
+2019-03-28 17:06:43,219 [INFO]: 	at net.sf.ehcache.util.MemoryEfficientByteArrayOutputStream.serialize(MemoryEfficientByteArrayOutputStream.java:97)
+2019-03-28 17:06:43,228 [INFO]: 	at net.sf.ehcache.store.disk.DiskStorageFactory.serializeElement(DiskStorageFactory.java:405)
+2019-03-28 17:06:43,236 [INFO]: 	at net.sf.ehcache.store.disk.DiskStorageFactory.write(DiskStorageFactory.java:384)
+2019-03-28 17:06:43,245 [INFO]: 	at net.sf.ehcache.store.disk.DiskStorageFactory$DiskWriteTask.call(DiskStorageFactory.java:485)
+2019-03-28 17:06:43,252 [INFO]: 	at net.sf.ehcache.store.disk.DiskStorageFactory$PersistentDiskWriteTask.call(DiskStorageFactory.java:1088)
+2019-03-28 17:06:43,261 [INFO]: 	at net.sf.ehcache.store.disk.DiskStorageFactory$PersistentDiskWriteTask.call(DiskStorageFactory.java:1072)
+2019-03-28 17:06:43,269 [INFO]: 	at java.util.concurrent.FutureTask.run(Unknown Source)
+2019-03-28 17:06:43,278 [INFO]: 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+2019-03-28 17:06:43,290 [INFO]: 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+2019-03-28 17:06:43,297 [INFO]: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+2019-03-28 17:06:43,307 [INFO]: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+2019-03-28 17:06:43,314 [INFO]: 	at java.lang.Thread.run(Unknown Source)
+2019-03-28 17:06:43,785 [INFO]: 缓存SQL配置的SQL语句信息成功！
+2019-03-28 17:06:43,819 [INFO]: 开始缓存自动化测试配置方案文件
+2019-03-28 17:06:43,831 [INFO]: 17:06:43.785 [main] WARN  n.s.e.config.CacheConfiguration - Cache 'Schema' is set to eternal but also has TTI/TTL set.  To avoid this warning, clean up the config removing conflicting values of eternal, TTI and TTL. Effective configuration for Cache 'Schema' will be eternal='true', timeToIdleSeconds='0', timeToLiveSeconds='0'.
+2019-03-28 17:06:43,839 [INFO]: 缓存自动化测试配置方案文件成功！
+2019-03-28 17:06:43,852 [INFO]: 开始缓存初始化配置参数成功！
+2019-03-28 17:06:43,860 [INFO]: 17:06:43.807 [main] WARN  n.s.e.config.CacheConfiguration - Cache 'PRODEF' is set to eternal but also has TTI/TTL set.  To avoid this warning, clean up the config removing conflicting values of eternal, TTI and TTL. Effective configuration for Cache 'PRODEF' will be eternal='true', timeToIdleSeconds='0', timeToLiveSeconds='0'.
+2019-03-28 17:06:43,870 [INFO]: 缓存流程配置信息成功！
+2019-03-28 17:06:43,878 [INFO]: 17:06:43.820 [%0050%0052%004f%0044%0045%0046.data] ERROR n.s.e.store.disk.DiskStorageFactory - Disk Write of InitProdef failed: 
+2019-03-28 17:06:43,891 [INFO]: java.io.NotSerializableException: configSelenium.Entity.SeleniumTest.LocationElement
+2019-03-28 17:06:43,919 [INFO]: 	at java.io.ObjectOutputStream.writeObject0(Unknown Source)
+2019-03-28 17:06:43,927 [INFO]: 	at java.io.ObjectOutputStream.writeObject(Unknown Source)
+2019-03-28 17:06:43,946 [INFO]: 	at java.util.ArrayList.writeObject(Unknown Source)
+2019-03-28 17:06:43,954 [INFO]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+2019-03-28 17:06:43,964 [INFO]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+2019-03-28 17:06:43,972 [INFO]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+2019-03-28 17:06:43,982 [INFO]: 	at java.lang.reflect.Method.invoke(Unknown Source)
+2019-03-28 17:06:43,992 [INFO]: 	at java.io.ObjectStreamClass.invokeWriteObject(Unknown Source)
+2019-03-28 17:06:44,004 [INFO]: 	at java.io.ObjectOutputStream.writeSerialData(Unknown Source)
+2019-03-28 17:06:44,026 [INFO]: 	at java.io.ObjectOutputStream.writeOrdinaryObject(Unknown Source)
+2019-03-28 17:06:44,034 [INFO]: 	at java.io.ObjectOutputStream.writeObject0(Unknown Source)
+2019-03-28 17:06:44,042 [INFO]: 	at java.io.ObjectOutputStream.defaultWriteFields(Unknown Source)
+2019-03-28 17:06:44,049 [INFO]: 	at java.io.ObjectOutputStream.writeSerialData(Unknown Source)
+2019-03-28 17:06:44,058 [INFO]: 	at java.io.ObjectOutputStream.writeOrdinaryObject(Unknown Source)
+2019-03-28 17:06:44,064 [INFO]: 	at java.io.ObjectOutputStream.writeObject0(Unknown Source)
+2019-03-28 17:06:44,074 [INFO]: 	at java.io.ObjectOutputStream.writeObject(Unknown Source)
+2019-03-28 17:06:44,081 [INFO]: 	at java.util.ArrayList.writeObject(Unknown Source)
+2019-03-28 17:06:44,091 [INFO]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+2019-03-28 17:06:44,098 [INFO]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+2019-03-28 17:06:44,107 [INFO]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+2019-03-28 17:06:44,114 [INFO]: 	at java.lang.reflect.Method.invoke(Unknown Source)
+2019-03-28 17:06:44,133 [INFO]: 	at java.io.ObjectStreamClass.invokeWriteObject(Unknown Source)
+2019-03-28 17:06:44,141 [INFO]: 	at java.io.ObjectOutputStream.writeSerialData(Unknown Source)
+2019-03-28 17:06:44,150 [INFO]: 	at java.io.ObjectOutputStream.writeOrdinaryObject(Unknown Source)
+2019-03-28 17:06:44,158 [INFO]: 	at java.io.ObjectOutputStream.writeObject0(Unknown Source)
+2019-03-28 17:06:44,168 [INFO]: 	at java.io.ObjectOutputStream.defaultWriteFields(Unknown Source)
+2019-03-28 17:06:44,176 [INFO]: 	at java.io.ObjectOutputStream.writeSerialData(Unknown Source)
+2019-03-28 17:06:44,196 [WARN]: Starting ChromeDriver (v2.9.248315) on port 15775
+2019-03-28 17:06:44,204 [INFO]: 	at java.io.ObjectOutputStream.writeOrdinaryObject(Unknown Source)
+2019-03-28 17:06:44,213 [INFO]: 	at java.io.ObjectOutputStream.writeObject0(Unknown Source)
+2019-03-28 17:06:44,220 [INFO]: 	at java.io.ObjectOutputStream.writeObject(Unknown Source)
+2019-03-28 17:06:44,230 [INFO]: 	at java.util.ArrayList.writeObject(Unknown Source)
+2019-03-28 17:06:44,239 [INFO]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+2019-03-28 17:06:44,261 [INFO]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+2019-03-28 17:06:44,268 [INFO]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+2019-03-28 17:06:44,280 [INFO]: 	at java.lang.reflect.Method.invoke(Unknown Source)
+2019-03-28 17:06:44,291 [INFO]: 	at java.io.ObjectStreamClass.invokeWriteObject(Unknown Source)
+2019-03-28 17:06:44,299 [INFO]: 	at java.io.ObjectOutputStream.writeSerialData(Unknown Source)
+2019-03-28 17:06:44,321 [INFO]: 	at java.io.ObjectOutputStream.writeOrdinaryObject(Unknown Source)
+2019-03-28 17:06:44,329 [INFO]: 	at java.io.ObjectOutputStream.writeObject0(Unknown Source)
+2019-03-28 17:06:44,343 [INFO]: 	at java.io.ObjectOutputStream.defaultWriteFields(Unknown Source)
+2019-03-28 17:06:44,355 [INFO]: 	at java.io.ObjectOutputStream.writeSerialData(Unknown Source)
+2019-03-28 17:06:44,364 [INFO]: 	at java.io.ObjectOutputStream.writeOrdinaryObject(Unknown Source)
+2019-03-28 17:06:44,383 [INFO]: 	at java.io.ObjectOutputStream.writeObject0(Unknown Source)
+2019-03-28 17:06:44,392 [INFO]: 	at java.io.ObjectOutputStream.writeObject(Unknown Source)
+2019-03-28 17:06:44,402 [INFO]: 	at java.util.ArrayList.writeObject(Unknown Source)
+2019-03-28 17:06:44,411 [INFO]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+2019-03-28 17:06:44,422 [INFO]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+2019-03-28 17:06:44,447 [INFO]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+2019-03-28 17:06:44,457 [INFO]: 	at java.lang.reflect.Method.invoke(Unknown Source)
+2019-03-28 17:06:44,467 [INFO]: 	at java.io.ObjectStreamClass.invokeWriteObject(Unknown Source)
+2019-03-28 17:06:44,476 [INFO]: 	at java.io.ObjectOutputStream.writeSerialData(Unknown Source)
+2019-03-28 17:06:44,484 [INFO]: 	at java.io.ObjectOutputStream.writeOrdinaryObject(Unknown Source)
+2019-03-28 17:06:44,508 [INFO]: 	at java.io.ObjectOutputStream.writeObject0(Unknown Source)
+2019-03-28 17:06:44,515 [INFO]: 	at java.io.ObjectOutputStream.defaultWriteFields(Unknown Source)
+2019-03-28 17:06:44,525 [INFO]: 	at java.io.ObjectOutputStream.defaultWriteObject(Unknown Source)
+2019-03-28 17:06:44,534 [INFO]: 	at net.sf.ehcache.Element.writeObject(Element.java:835)
+2019-03-28 17:06:44,546 [INFO]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+2019-03-28 17:06:44,570 [INFO]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+2019-03-28 17:06:44,578 [INFO]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+2019-03-28 17:06:44,587 [INFO]: 	at java.lang.reflect.Method.invoke(Unknown Source)
+2019-03-28 17:06:44,595 [INFO]: 	at java.io.ObjectStreamClass.invokeWriteObject(Unknown Source)
+2019-03-28 17:06:44,607 [INFO]: 	at java.io.ObjectOutputStream.writeSerialData(Unknown Source)
+2019-03-28 17:06:44,616 [INFO]: 	at java.io.ObjectOutputStream.writeOrdinaryObject(Unknown Source)
+2019-03-28 17:06:44,624 [INFO]: 	at java.io.ObjectOutputStream.writeObject0(Unknown Source)
+2019-03-28 17:06:44,634 [INFO]: 	at java.io.ObjectOutputStream.writeObject(Unknown Source)
+2019-03-28 17:06:44,642 [INFO]: 	at net.sf.ehcache.util.MemoryEfficientByteArrayOutputStream.serialize(MemoryEfficientByteArrayOutputStream.java:97)
+2019-03-28 17:06:44,665 [INFO]: 	at net.sf.ehcache.store.disk.DiskStorageFactory.serializeElement(DiskStorageFactory.java:405)
+2019-03-28 17:06:44,673 [INFO]: 	at net.sf.ehcache.store.disk.DiskStorageFactory.write(DiskStorageFactory.java:384)
+2019-03-28 17:06:44,681 [INFO]: 	at net.sf.ehcache.store.disk.DiskStorageFactory$DiskWriteTask.call(DiskStorageFactory.java:485)
+2019-03-28 17:06:44,689 [INFO]: 	at net.sf.ehcache.store.disk.DiskStorageFactory$PersistentDiskWriteTask.call(DiskStorageFactory.java:1088)
+2019-03-28 17:06:44,710 [INFO]: 	at net.sf.ehcache.store.disk.DiskStorageFactory$PersistentDiskWriteTask.call(DiskStorageFactory.java:1072)
+2019-03-28 17:06:44,717 [INFO]: 	at java.util.concurrent.FutureTask.run(Unknown Source)
+2019-03-28 17:06:44,727 [INFO]: 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+2019-03-28 17:06:44,734 [INFO]: 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+2019-03-28 17:06:44,745 [INFO]: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+2019-03-28 17:06:44,760 [INFO]: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+2019-03-28 17:06:44,767 [INFO]: 	at java.lang.Thread.run(Unknown Source)
+2019-03-28 17:06:44,920 [INFO]: 初始化ChromeDriver成功！
+2019-03-28 17:06:45,262 [WARN]: Starting ChromeDriver (v2.9.248315) on port 24103
+2019-03-28 17:06:50,447 [INFO]: 初始化WebDriver成功！
+2019-03-28 17:06:54,277 [INFO]: childname:首次登记
+2019-03-28 17:06:54,283 [INFO]: 开始流程自动化测试！
+2019-03-28 17:06:54,293 [INFO]: 流程内码：889d6b0b-7ca7-11e7-a782-00505683a231,流程名称首次登记
+2019-03-28 17:07:01,579 [INFO]: 流程启动成功，主框架句柄：CDwindow-FBA9DA2C-0092-4F9B-820B-7F81D37DF110
+2019-03-28 17:07:01,591 [INFO]: prodef:首次登记
+2019-03-28 17:07:01,603 [INFO]: childname:断言调试
+2019-03-28 17:07:06,168 [INFO]: 获取所有参数
+2019-03-28 17:07:06,204 [INFO]: sid-3187BFC9-9025-41DC-B122-FE3C5CB5CCE6
+2019-03-28 17:07:06,213 [INFO]: 当前环节环节名称：收件受理,环节内码sid-3187BFC9-9025-41DC-B122-FE3C5CB5CCE6
+2019-03-28 17:07:06,224 [INFO]: 开始操作Ifame，Iframe名称：窗口资料收取
+2019-03-28 17:07:16,837 [INFO]: 获取到所有的iframe了2019-03-28 17:07:16
+2019-03-28 17:07:16,856 [INFO]: ifame地址1是：GisqPlatformExplorer/modules/bizmodel/datums_submit2019-03-28 17:07:16
+2019-03-28 17:07:16,883 [INFO]: 获取到ID是：TAB_IF_dff0cf7d-5138-11e9-9d95-00505683a2312019-03-28 17:07:16
+2019-03-28 17:07:18,936 [INFO]: 切换到指定的iframe了2019-03-28 17:07:18
+2019-03-28 17:07:18,956 [INFO]: Iframe地址：GisqPlatformExplorer/modules/bizmodel/datums_submit
+2019-03-28 17:07:18,974 [INFO]: 当前iframe(窗口资料收取)操作元素：
+2019-03-28 17:07:18,985 [INFO]:        定位方式：XPATH
+2019-03-28 17:07:18,994 [INFO]:        定位路径：//div[@role='combobox']
+2019-03-28 17:07:19,006 [INFO]:        操作方式：QT
+2019-03-28 17:07:19,022 [INFO]:        默认值：$("#{ID}").jqxDropDownList('selectIndex', 0 );
+2019-03-28 17:07:19,034 [INFO]:        是否随机数：false
+2019-03-28 17:07:19,044 [INFO]:        等待时间：0
+2019-03-28 17:07:19,064 [INFO]: 开始执行操作
+2019-03-28 17:07:19,245 [INFO]: 等待时间：0
+2019-03-28 17:07:19,256 [INFO]: 当前iframe(窗口资料收取)操作元素：
+2019-03-28 17:07:19,267 [INFO]:        定位方式：ID
+2019-03-28 17:07:19,284 [INFO]:        定位路径：saveDatum
+2019-03-28 17:07:19,293 [INFO]:        操作方式：CLICK
+2019-03-28 17:07:19,304 [INFO]:        默认值：
+2019-03-28 17:07:19,321 [INFO]:        是否随机数：false
+2019-03-28 17:07:19,335 [INFO]:        等待时间：3000
+2019-03-28 17:07:19,362 [INFO]: 开始执行操作
+2019-03-28 17:07:21,609 [INFO]: 等待时间：3000
+2019-03-28 17:07:21,620 [INFO]: 3000
+2019-03-28 17:07:21,629 [INFO]: 2019-03-28 17:07:21
+2019-03-28 17:07:22,118 [INFO]: 2019-03-28 17:07:22
+2019-03-28 17:07:22,130 [INFO]: 2019-03-28 17:07:22
+2019-03-28 17:07:22,144 [INFO]: 当前iframe(窗口资料收取)操作元素：
+2019-03-28 17:07:22,155 [INFO]:        定位方式：
+2019-03-28 17:07:22,163 [INFO]:        定位路径：
+2019-03-28 17:07:22,173 [INFO]:        操作方式：SHOOT
+2019-03-28 17:07:22,197 [INFO]:        默认值：资料收取
+2019-03-28 17:07:22,204 [INFO]:        是否随机数：false
+2019-03-28 17:07:22,213 [INFO]:        等待时间：3000
+2019-03-28 17:07:22,221 [INFO]: 开始执行操作
+2019-03-28 17:07:28,376 [INFO]: 等待时间：3000
+2019-03-28 17:07:28,382 [INFO]: 3000
+2019-03-28 17:07:28,387 [INFO]: 2019-03-28 17:07:28
+2019-03-28 17:07:28,404 [INFO]: 2019-03-28 17:07:28
+2019-03-28 17:07:29,441 [INFO]: 开始操作Ifame，Iframe名称：申请信息
+2019-03-28 17:07:32,496 [INFO]: 获取到所有的iframe了2019-03-28 17:07:32
+2019-03-28 17:07:32,521 [INFO]: ifame地址1是：GisqQueryList/views/reports/realestate/common/acceptance/Acceptance_HouseRight_Initial.jsp?reportlet=realestate/common/acceptance/Acceptance_HouseRight_Initial.cpt2019-03-28 17:07:32
+2019-03-28 17:07:32,539 [INFO]: 获取到ID是：TAB_IF_dfee5e64-5138-11e9-9d95-00505683a2312019-03-28 17:07:32
+2019-03-28 17:07:34,580 [INFO]: 切换到指定的iframe了2019-03-28 17:07:34
+2019-03-28 17:07:34,589 [INFO]: Iframe地址：GisqQueryList/views/reports/realestate/common/acceptance/Acceptance_HouseRight_Initial.jsp?reportlet=realestate/common/acceptance/Acceptance_HouseRight_Initial.cpt
+2019-03-28 17:07:34,604 [INFO]: 当前iframe(申请信息)操作元素：
+2019-03-28 17:07:34,610 [INFO]:        定位方式：XPATH
+2019-03-28 17:07:34,616 [INFO]:        定位路径：/html/body/div[2]/table/tbody/tr[2]/td[2]
+2019-03-28 17:07:34,621 [INFO]:        操作方式：Assert
+2019-03-28 17:07:34,628 [INFO]:        默认值：申请信息
+2019-03-28 17:07:34,634 [INFO]:        是否随机数：false
+2019-03-28 17:07:34,639 [INFO]:        等待时间：0
+2019-03-28 17:07:34,645 [INFO]: 开始执行操作
+2019-03-28 17:07:35,229 [INFO]: 等待时间：0
+2019-03-28 17:07:35,234 [INFO]: 当前iframe(申请信息)操作元素：
+2019-03-28 17:07:35,243 [INFO]:        定位方式：XPATH
+2019-03-28 17:07:35,253 [INFO]:        定位路径：/html/body/div[2]/table/tbody/tr[12]/td[2]
+2019-03-28 17:07:35,260 [INFO]:        操作方式：Assert
+2019-03-28 17:07:35,265 [INFO]:        默认值：项目信息
+2019-03-28 17:07:35,270 [INFO]:        是否随机数：false
+2019-03-28 17:07:35,277 [INFO]:        等待时间：0
+2019-03-28 17:07:35,282 [INFO]: 开始执行操作
+2019-03-28 17:07:35,519 [INFO]: 等待时间：0
+2019-03-28 17:07:35,534 [INFO]: 当前iframe(申请信息)操作元素：
+2019-03-28 17:07:35,542 [INFO]:        定位方式：ID
+2019-03-28 17:07:35,547 [INFO]:        定位路径：TJSQR
+2019-03-28 17:07:35,556 [INFO]:        操作方式：Assert
+2019-03-28 17:07:35,561 [INFO]:        默认值：听
+2019-03-28 17:07:35,566 [INFO]:        是否随机数：false
+2019-03-28 17:07:35,572 [INFO]:        等待时间：0
+2019-03-28 17:07:35,581 [INFO]: 开始执行操作
+2019-03-28 17:07:35,812 [INFO]: 等待时间：0
+2019-03-28 17:07:41,571 [INFO]: zhua:true
+2019-03-28 17:07:41,604 [INFO]: 文本：请添加需要登记的不动产单元！ 请添加办件相关申请人！
+2019-03-28 17:07:41,639 [WARN]: [56.377][SEVERE]: Unable to receive message from renderer
+2019-03-28 17:07:46,736 [INFO]: 开始比对：
+2019-03-28 17:07:46,765 [INFO]: 运行自动化测试
+2019-03-28 17:07:46,907 [INFO]: [TestNG] Running:
+2019-03-28 17:07:46,915 [INFO]:   断言调试-国有建设用地使用权及房屋所有权（单套）-首次登记
+2019-03-28 17:07:46,924 [INFO]: 
+2019-03-28 17:07:47,756 [INFO]: result[TestResult name=star status=FAILURE method=DataProviderSet_Assert.star(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Test.DataProviderSet_Assert@55b5e331] output={null}]
+2019-03-28 17:07:47,767 [INFO]: star
+2019-03-28 17:07:47,776 [INFO]: 截图插入报告
+2019-03-28 17:07:47,791 [INFO]: 截图插入报告
+2019-03-28 17:07:47,802 [INFO]: 截图插入报告
+2019-03-28 17:07:47,814 [INFO]: result[TestResult name=star status=SUCCESS method=DataProviderSet_Assert.star(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Test.DataProviderSet_Assert@55b5e331] output=<img src="D:\work_space\js_de\debug\SeleniumConfig\bin\Debug\Elementshoot\2019-03-28\17_07\项目信息标题断言.png"  hight="200" width="200" onclick="javascript:window.open(this.src);"/>]
+2019-03-28 17:07:47,823 [INFO]: star
+2019-03-28 17:07:47,833 [INFO]: 截图插入报告
+2019-03-28 17:07:47,858 [INFO]: 截图插入报告
+2019-03-28 17:07:47,868 [INFO]: 截图插入报告
+2019-03-28 17:07:47,890 [INFO]: result[TestResult name=star status=FAILURE method=DataProviderSet_Assert.star(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Test.DataProviderSet_Assert@55b5e331] output={null}]
+2019-03-28 17:07:47,923 [INFO]: star
+2019-03-28 17:07:47,942 [INFO]: 截图插入报告
+2019-03-28 17:07:47,955 [INFO]: 截图插入报告
+2019-03-28 17:07:47,964 [INFO]: 截图插入报告
+2019-03-28 17:07:47,972 [INFO]: 关闭数据库连接！
+2019-03-28 17:07:48,089 [INFO]: 要关闭了
+2019-03-28 17:07:48,104 [INFO]: 删除成功！
+2019-03-28 17:07:48,117 [INFO]: 
+2019-03-28 17:07:48,129 [INFO]: ===============================================
+2019-03-28 17:07:48,156 [INFO]: 断言调试-国有建设用地使用权及房屋所有权（单套）-首次登记
+2019-03-28 17:07:48,166 [INFO]: Total tests run: 3, Failures: 2, Skips: 0
+2019-03-28 17:07:48,180 [INFO]: ===============================================
+2019-03-28 17:07:48,197 [INFO]: 
+2019-03-28 17:07:48,209 [INFO]: 准备发送邮件
+2019-03-28 17:07:49,379 [INFO]: 生成XML文件成功准备退出
+2019-03-28 17:07:51,036 [WARN]: 三月 28, 2019 5:07:51 下午 org.openqa.selenium.os.UnixProcess$SeleniumWatchDog destroyHarder
+2019-03-28 17:07:51,046 [WARN]: 信息: Command failed to close cleanly. Destroying forcefully (v2). org.openqa.selenium.os.UnixProcess$SeleniumWatchDog@5496c165
+2019-03-28 17:07:52,582 [WARN]: 三月 28, 2019 5:07:52 下午 org.openqa.selenium.os.UnixProcess$SeleniumWatchDog destroyHarder
+2019-03-28 17:07:52,599 [WARN]: 信息: Command failed to close cleanly. Destroying forcefully (v2). org.openqa.selenium.os.UnixProcess$SeleniumWatchDog@21ac5eb4
+2019-03-28 17:07:52,947 [INFO]: 
+2019-03-28 17:15:47,019 [INFO]: Microsoft Windows [版本 6.1.7601]
+2019-03-28 17:15:47,025 [INFO]: 版权所有 (c) 2009 Microsoft Corporation。保留所有权利。
+2019-03-28 17:15:47,028 [INFO]: 
+2019-03-28 17:15:47,032 [INFO]: D:\work_space\js_de\debug\SeleniumConfig\bin\Debug>java -jar D:\work_space\js_de\debug\SeleniumConfig\bin\Debug\\SeleniumJAVA\Selenium.jar C#
+2019-03-28 17:15:49,482 [INFO]: 开始准备数据
+2019-03-28 17:15:49,487 [INFO]: 开始缓存总体参数配置文件
+2019-03-28 17:15:49,491 [INFO]: path:/D:/work_space/js_de/debug/SeleniumConfig/bin/Debug/SeleniumJAVA/Selenium.jar
+2019-03-28 17:15:49,652 [INFO]: 读取服务地址/D:/work_space/js_de/debug/SeleniumConfig/bin/Debug
+2019-03-28 17:15:49,933 [WARN]: SLF4J: The requested version 1.7.16 by your slf4j binding is not compatible with [1.6]
+2019-03-28 17:15:49,936 [WARN]: SLF4J: See http://www.slf4j.org/codes.html#version_mismatch for further details.
+2019-03-28 17:15:50,322 [INFO]: 17:15:50.319 [main] WARN  n.s.e.config.CacheConfiguration - Cache 'Common' is set to eternal but also has TTI/TTL set.  To avoid this warning, clean up the config removing conflicting values of eternal, TTI and TTL. Effective configuration for Cache 'Common' will be eternal='true', timeToIdleSeconds='0', timeToLiveSeconds='0'.
+2019-03-28 17:15:50,329 [INFO]: 缓存总体参数配置文件成功！
+2019-03-28 17:15:50,333 [INFO]: 开始缓存SQL配置信息
+2019-03-28 17:15:50,367 [INFO]: 17:15:50.366 [main] WARN  n.s.e.config.CacheConfiguration - Cache 'SQLConfig' is set to eternal but also has TTI/TTL set.  To avoid this warning, clean up the config removing conflicting values of eternal, TTI and TTL. Effective configuration for Cache 'SQLConfig' will be eternal='true', timeToIdleSeconds='0', timeToLiveSeconds='0'.
+2019-03-28 17:15:50,391 [INFO]: 缓存SQL配置信息成功！
+2019-03-28 17:15:50,400 [INFO]: 开始缓存SQL配置的SQL语句信息
+2019-03-28 17:15:50,407 [INFO]: 17:15:50.393 [%0053%0051%004c%0043onfig.data] ERROR n.s.e.store.disk.DiskStorageFactory - Disk Write of InitSqlConfig failed: 
+2019-03-28 17:15:50,429 [INFO]: java.io.NotSerializableException: configSelenium.Entity.SQL.Column
+2019-03-28 17:15:50,445 [INFO]: 	at java.io.ObjectOutputStream.writeObject0(Unknown Source)
+2019-03-28 17:15:50,454 [INFO]: 	at java.io.ObjectOutputStream.writeObject(Unknown Source)
+2019-03-28 17:15:50,464 [INFO]: 	at java.util.ArrayList.writeObject(Unknown Source)
+2019-03-28 17:15:50,481 [INFO]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+2019-03-28 17:15:50,488 [INFO]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+2019-03-28 17:15:50,500 [INFO]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+2019-03-28 17:15:50,518 [INFO]: 	at java.lang.reflect.Method.invoke(Unknown Source)
+2019-03-28 17:15:50,528 [INFO]: 	at java.io.ObjectStreamClass.invokeWriteObject(Unknown Source)
+2019-03-28 17:15:50,537 [INFO]: 	at java.io.ObjectOutputStream.writeSerialData(Unknown Source)
+2019-03-28 17:15:50,563 [INFO]: 	at java.io.ObjectOutputStream.writeOrdinaryObject(Unknown Source)
+2019-03-28 17:15:50,580 [INFO]: 	at java.io.ObjectOutputStream.writeObject0(Unknown Source)
+2019-03-28 17:15:50,593 [INFO]: 	at java.io.ObjectOutputStream.defaultWriteFields(Unknown Source)
+2019-03-28 17:15:50,602 [INFO]: 	at java.io.ObjectOutputStream.writeSerialData(Unknown Source)
+2019-03-28 17:15:50,615 [INFO]: 	at java.io.ObjectOutputStream.writeOrdinaryObject(Unknown Source)
+2019-03-28 17:15:50,635 [INFO]: 	at java.io.ObjectOutputStream.writeObject0(Unknown Source)
+2019-03-28 17:15:50,644 [INFO]: 	at java.io.ObjectOutputStream.writeObject(Unknown Source)
+2019-03-28 17:15:50,656 [INFO]: 	at java.util.ArrayList.writeObject(Unknown Source)
+2019-03-28 17:15:50,665 [INFO]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+2019-03-28 17:15:50,683 [INFO]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+2019-03-28 17:15:50,692 [INFO]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+2019-03-28 17:15:50,702 [INFO]: 	at java.lang.reflect.Method.invoke(Unknown Source)
+2019-03-28 17:15:50,710 [INFO]: 	at java.io.ObjectStreamClass.invokeWriteObject(Unknown Source)
+2019-03-28 17:15:50,727 [INFO]: 	at java.io.ObjectOutputStream.writeSerialData(Unknown Source)
+2019-03-28 17:15:50,737 [INFO]: 	at java.io.ObjectOutputStream.writeOrdinaryObject(Unknown Source)
+2019-03-28 17:15:50,745 [INFO]: 	at java.io.ObjectOutputStream.writeObject0(Unknown Source)
+2019-03-28 17:15:50,754 [INFO]: 	at java.io.ObjectOutputStream.defaultWriteFields(Unknown Source)
+2019-03-28 17:15:50,768 [INFO]: 	at java.io.ObjectOutputStream.writeSerialData(Unknown Source)
+2019-03-28 17:15:50,779 [INFO]: 	at java.io.ObjectOutputStream.writeOrdinaryObject(Unknown Source)
+2019-03-28 17:15:50,786 [INFO]: 	at java.io.ObjectOutputStream.writeObject0(Unknown Source)
+2019-03-28 17:15:50,796 [INFO]: 	at java.io.ObjectOutputStream.writeObject(Unknown Source)
+2019-03-28 17:15:50,803 [INFO]: 	at java.util.HashMap.internalWriteEntries(Unknown Source)
+2019-03-28 17:15:50,813 [INFO]: 	at java.util.HashMap.writeObject(Unknown Source)
+2019-03-28 17:15:50,824 [INFO]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+2019-03-28 17:15:50,832 [INFO]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+2019-03-28 17:15:50,841 [INFO]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+2019-03-28 17:15:50,848 [INFO]: 	at java.lang.reflect.Method.invoke(Unknown Source)
+2019-03-28 17:15:50,856 [INFO]: 	at java.io.ObjectStreamClass.invokeWriteObject(Unknown Source)
+2019-03-28 17:15:50,864 [INFO]: 	at java.io.ObjectOutputStream.writeSerialData(Unknown Source)
+2019-03-28 17:15:50,876 [INFO]: 	at java.io.ObjectOutputStream.writeOrdinaryObject(Unknown Source)
+2019-03-28 17:15:50,886 [INFO]: 	at java.io.ObjectOutputStream.writeObject0(Unknown Source)
+2019-03-28 17:15:50,894 [INFO]: 	at java.io.ObjectOutputStream.defaultWriteFields(Unknown Source)
+2019-03-28 17:15:50,903 [INFO]: 	at java.io.ObjectOutputStream.defaultWriteObject(Unknown Source)
+2019-03-28 17:15:50,911 [INFO]: 	at net.sf.ehcache.Element.writeObject(Element.java:835)
+2019-03-28 17:15:50,918 [INFO]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+2019-03-28 17:15:50,927 [INFO]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+2019-03-28 17:15:50,937 [INFO]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+2019-03-28 17:15:50,945 [INFO]: 	at java.lang.reflect.Method.invoke(Unknown Source)
+2019-03-28 17:15:50,955 [INFO]: 	at java.io.ObjectStreamClass.invokeWriteObject(Unknown Source)
+2019-03-28 17:15:50,964 [INFO]: 	at java.io.ObjectOutputStream.writeSerialData(Unknown Source)
+2019-03-28 17:15:50,972 [INFO]: 	at java.io.ObjectOutputStream.writeOrdinaryObject(Unknown Source)
+2019-03-28 17:15:50,981 [INFO]: 	at java.io.ObjectOutputStream.writeObject0(Unknown Source)
+2019-03-28 17:15:51,003 [INFO]: 	at java.io.ObjectOutputStream.writeObject(Unknown Source)
+2019-03-28 17:15:51,014 [INFO]: 	at net.sf.ehcache.util.MemoryEfficientByteArrayOutputStream.serialize(MemoryEfficientByteArrayOutputStream.java:97)
+2019-03-28 17:15:51,032 [INFO]: 	at net.sf.ehcache.store.disk.DiskStorageFactory.serializeElement(DiskStorageFactory.java:405)
+2019-03-28 17:15:51,044 [INFO]: 	at net.sf.ehcache.store.disk.DiskStorageFactory.write(DiskStorageFactory.java:384)
+2019-03-28 17:15:51,052 [INFO]: 	at net.sf.ehcache.store.disk.DiskStorageFactory$DiskWriteTask.call(DiskStorageFactory.java:485)
+2019-03-28 17:15:51,063 [INFO]: 	at net.sf.ehcache.store.disk.DiskStorageFactory$PersistentDiskWriteTask.call(DiskStorageFactory.java:1088)
+2019-03-28 17:15:51,088 [INFO]: 	at net.sf.ehcache.store.disk.DiskStorageFactory$PersistentDiskWriteTask.call(DiskStorageFactory.java:1072)
+2019-03-28 17:15:51,096 [INFO]: 	at java.util.concurrent.FutureTask.run(Unknown Source)
+2019-03-28 17:15:51,105 [INFO]: 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+2019-03-28 17:15:51,112 [INFO]: 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+2019-03-28 17:15:51,120 [INFO]: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+2019-03-28 17:15:51,128 [INFO]: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+2019-03-28 17:15:51,136 [INFO]: 	at java.lang.Thread.run(Unknown Source)
+2019-03-28 17:15:51,572 [INFO]: 缓存SQL配置的SQL语句信息成功！
+2019-03-28 17:15:51,590 [INFO]: 开始缓存自动化测试配置方案文件
+2019-03-28 17:15:51,648 [INFO]: 17:15:51.582 [main] WARN  n.s.e.config.CacheConfiguration - Cache 'Schema' is set to eternal but also has TTI/TTL set.  To avoid this warning, clean up the config removing conflicting values of eternal, TTI and TTL. Effective configuration for Cache 'Schema' will be eternal='true', timeToIdleSeconds='0', timeToLiveSeconds='0'.
+2019-03-28 17:15:51,657 [INFO]: 缓存自动化测试配置方案文件成功！
+2019-03-28 17:15:51,667 [INFO]: 开始缓存初始化配置参数成功！
+2019-03-28 17:15:51,677 [INFO]: 17:15:51.628 [main] WARN  n.s.e.config.CacheConfiguration - Cache 'PRODEF' is set to eternal but also has TTI/TTL set.  To avoid this warning, clean up the config removing conflicting values of eternal, TTI and TTL. Effective configuration for Cache 'PRODEF' will be eternal='true', timeToIdleSeconds='0', timeToLiveSeconds='0'.
+2019-03-28 17:15:51,687 [INFO]: 缓存流程配置信息成功！
+2019-03-28 17:15:51,697 [INFO]: 17:15:51.639 [%0050%0052%004f%0044%0045%0046.data] ERROR n.s.e.store.disk.DiskStorageFactory - Disk Write of InitProdef failed: 
+2019-03-28 17:15:51,706 [INFO]: java.io.NotSerializableException: configSelenium.Entity.SeleniumTest.LocationElement
+2019-03-28 17:15:51,739 [INFO]: 	at java.io.ObjectOutputStream.writeObject0(Unknown Source)
+2019-03-28 17:15:51,752 [INFO]: 	at java.io.ObjectOutputStream.writeObject(Unknown Source)
+2019-03-28 17:15:51,763 [INFO]: 	at java.util.ArrayList.writeObject(Unknown Source)
+2019-03-28 17:15:51,770 [INFO]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+2019-03-28 17:15:51,780 [INFO]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+2019-03-28 17:15:51,788 [INFO]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+2019-03-28 17:15:51,798 [INFO]: 	at java.lang.reflect.Method.invoke(Unknown Source)
+2019-03-28 17:15:51,812 [INFO]: 	at java.io.ObjectStreamClass.invokeWriteObject(Unknown Source)
+2019-03-28 17:15:51,821 [INFO]: 	at java.io.ObjectOutputStream.writeSerialData(Unknown Source)
+2019-03-28 17:15:51,829 [INFO]: 	at java.io.ObjectOutputStream.writeOrdinaryObject(Unknown Source)
+2019-03-28 17:15:51,839 [INFO]: 	at java.io.ObjectOutputStream.writeObject0(Unknown Source)
+2019-03-28 17:15:51,847 [INFO]: 	at java.io.ObjectOutputStream.defaultWriteFields(Unknown Source)
+2019-03-28 17:15:51,855 [INFO]: 	at java.io.ObjectOutputStream.writeSerialData(Unknown Source)
+2019-03-28 17:15:51,863 [INFO]: 	at java.io.ObjectOutputStream.writeOrdinaryObject(Unknown Source)
+2019-03-28 17:15:51,883 [INFO]: 	at java.io.ObjectOutputStream.writeObject0(Unknown Source)
+2019-03-28 17:15:51,892 [INFO]: 	at java.io.ObjectOutputStream.writeObject(Unknown Source)
+2019-03-28 17:15:51,901 [INFO]: 	at java.util.ArrayList.writeObject(Unknown Source)
+2019-03-28 17:15:51,910 [WARN]: Starting ChromeDriver (v2.9.248315) on port 1441
+2019-03-28 17:15:51,920 [INFO]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+2019-03-28 17:15:51,946 [INFO]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+2019-03-28 17:15:51,954 [INFO]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+2019-03-28 17:15:51,962 [INFO]: 	at java.lang.reflect.Method.invoke(Unknown Source)
+2019-03-28 17:15:51,969 [INFO]: 	at java.io.ObjectStreamClass.invokeWriteObject(Unknown Source)
+2019-03-28 17:15:51,978 [INFO]: 	at java.io.ObjectOutputStream.writeSerialData(Unknown Source)
+2019-03-28 17:15:51,986 [INFO]: 	at java.io.ObjectOutputStream.writeOrdinaryObject(Unknown Source)
+2019-03-28 17:15:52,009 [INFO]: 	at java.io.ObjectOutputStream.writeObject0(Unknown Source)
+2019-03-28 17:15:52,017 [INFO]: 	at java.io.ObjectOutputStream.defaultWriteFields(Unknown Source)
+2019-03-28 17:15:52,032 [INFO]: 	at java.io.ObjectOutputStream.writeSerialData(Unknown Source)
+2019-03-28 17:15:52,047 [INFO]: 	at java.io.ObjectOutputStream.writeOrdinaryObject(Unknown Source)
+2019-03-28 17:15:52,056 [INFO]: 	at java.io.ObjectOutputStream.writeObject0(Unknown Source)
+2019-03-28 17:15:52,070 [INFO]: 	at java.io.ObjectOutputStream.writeObject(Unknown Source)
+2019-03-28 17:15:52,077 [INFO]: 	at java.util.ArrayList.writeObject(Unknown Source)
+2019-03-28 17:15:52,084 [INFO]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+2019-03-28 17:15:52,095 [INFO]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+2019-03-28 17:15:52,102 [INFO]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+2019-03-28 17:15:52,110 [INFO]: 	at java.lang.reflect.Method.invoke(Unknown Source)
+2019-03-28 17:15:52,134 [INFO]: 	at java.io.ObjectStreamClass.invokeWriteObject(Unknown Source)
+2019-03-28 17:15:52,142 [INFO]: 	at java.io.ObjectOutputStream.writeSerialData(Unknown Source)
+2019-03-28 17:15:52,150 [INFO]: 	at java.io.ObjectOutputStream.writeOrdinaryObject(Unknown Source)
+2019-03-28 17:15:52,157 [INFO]: 	at java.io.ObjectOutputStream.writeObject0(Unknown Source)
+2019-03-28 17:15:52,165 [INFO]: 	at java.io.ObjectOutputStream.defaultWriteFields(Unknown Source)
+2019-03-28 17:15:52,180 [INFO]: 	at java.io.ObjectOutputStream.writeSerialData(Unknown Source)
+2019-03-28 17:15:52,187 [INFO]: 	at java.io.ObjectOutputStream.writeOrdinaryObject(Unknown Source)
+2019-03-28 17:15:52,196 [INFO]: 	at java.io.ObjectOutputStream.writeObject0(Unknown Source)
+2019-03-28 17:15:52,203 [INFO]: 	at java.io.ObjectOutputStream.writeObject(Unknown Source)
+2019-03-28 17:15:52,212 [INFO]: 	at java.util.ArrayList.writeObject(Unknown Source)
+2019-03-28 17:15:52,227 [INFO]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+2019-03-28 17:15:52,234 [INFO]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+2019-03-28 17:15:52,245 [INFO]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+2019-03-28 17:15:52,254 [INFO]: 	at java.lang.reflect.Method.invoke(Unknown Source)
+2019-03-28 17:15:52,261 [INFO]: 	at java.io.ObjectStreamClass.invokeWriteObject(Unknown Source)
+2019-03-28 17:15:52,273 [INFO]: 	at java.io.ObjectOutputStream.writeSerialData(Unknown Source)
+2019-03-28 17:15:52,281 [INFO]: 	at java.io.ObjectOutputStream.writeOrdinaryObject(Unknown Source)
+2019-03-28 17:15:52,290 [INFO]: 	at java.io.ObjectOutputStream.writeObject0(Unknown Source)
+2019-03-28 17:15:52,298 [INFO]: 	at java.io.ObjectOutputStream.defaultWriteFields(Unknown Source)
+2019-03-28 17:15:52,309 [INFO]: 	at java.io.ObjectOutputStream.defaultWriteObject(Unknown Source)
+2019-03-28 17:15:52,320 [INFO]: 	at net.sf.ehcache.Element.writeObject(Element.java:835)
+2019-03-28 17:15:52,327 [INFO]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+2019-03-28 17:15:52,334 [INFO]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+2019-03-28 17:15:52,344 [INFO]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+2019-03-28 17:15:52,354 [INFO]: 	at java.lang.reflect.Method.invoke(Unknown Source)
+2019-03-28 17:15:52,361 [INFO]: 	at java.io.ObjectStreamClass.invokeWriteObject(Unknown Source)
+2019-03-28 17:15:52,369 [INFO]: 	at java.io.ObjectOutputStream.writeSerialData(Unknown Source)
+2019-03-28 17:15:52,377 [INFO]: 	at java.io.ObjectOutputStream.writeOrdinaryObject(Unknown Source)
+2019-03-28 17:15:52,386 [INFO]: 	at java.io.ObjectOutputStream.writeObject0(Unknown Source)
+2019-03-28 17:15:52,398 [INFO]: 	at java.io.ObjectOutputStream.writeObject(Unknown Source)
+2019-03-28 17:15:52,407 [INFO]: 	at net.sf.ehcache.util.MemoryEfficientByteArrayOutputStream.serialize(MemoryEfficientByteArrayOutputStream.java:97)
+2019-03-28 17:15:52,414 [INFO]: 	at net.sf.ehcache.store.disk.DiskStorageFactory.serializeElement(DiskStorageFactory.java:405)
+2019-03-28 17:15:52,421 [INFO]: 	at net.sf.ehcache.store.disk.DiskStorageFactory.write(DiskStorageFactory.java:384)
+2019-03-28 17:15:52,445 [INFO]: 	at net.sf.ehcache.store.disk.DiskStorageFactory$DiskWriteTask.call(DiskStorageFactory.java:485)
+2019-03-28 17:15:52,452 [INFO]: 	at net.sf.ehcache.store.disk.DiskStorageFactory$PersistentDiskWriteTask.call(DiskStorageFactory.java:1088)
+2019-03-28 17:15:52,462 [INFO]: 	at net.sf.ehcache.store.disk.DiskStorageFactory$PersistentDiskWriteTask.call(DiskStorageFactory.java:1072)
+2019-03-28 17:15:52,469 [INFO]: 	at java.util.concurrent.FutureTask.run(Unknown Source)
+2019-03-28 17:15:52,479 [INFO]: 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+2019-03-28 17:15:52,492 [INFO]: 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+2019-03-28 17:15:52,499 [INFO]: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+2019-03-28 17:15:52,510 [INFO]: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+2019-03-28 17:15:52,517 [INFO]: 	at java.lang.Thread.run(Unknown Source)
+2019-03-28 17:15:52,736 [INFO]: 初始化ChromeDriver成功！
+2019-03-28 17:15:53,030 [WARN]: Starting ChromeDriver (v2.9.248315) on port 20713
+2019-03-28 17:15:58,341 [INFO]: 初始化WebDriver成功！
+2019-03-28 17:16:02,679 [INFO]: childname:转移登记
+2019-03-28 17:16:02,714 [INFO]: 开始流程自动化测试！
+2019-03-28 17:16:02,732 [INFO]: 流程内码：35a75c27-d11c-11e8-8026-00505683a231,流程名称转移登记
+2019-03-28 17:16:10,061 [INFO]: 流程启动成功，主框架句柄：CDwindow-FFD03767-1D76-4DD3-8D04-5FC46EF80EE1
+2019-03-28 17:16:10,068 [INFO]: prodef:首次登记
+2019-03-28 17:16:10,089 [INFO]: childname:断言调试
+2019-03-28 17:16:14,628 [INFO]: 获取所有参数
+2019-03-28 17:16:14,697 [INFO]: sid-0BDAD184-954C-41C5-B601-D131E9DA88F6
+2019-03-28 17:16:14,703 [INFO]: 当前环节环节名称：收件受理,环节内码sid-0BDAD184-954C-41C5-B601-D131E9DA88F6
+2019-03-28 17:16:14,739 [INFO]: 开始操作Ifame，Iframe名称：窗口资料收取
+2019-03-28 17:16:17,464 [INFO]: 获取到所有的iframe了2019-03-28 17:16:17
+2019-03-28 17:16:17,485 [INFO]: ifame地址1是：GisqPlatformExplorer/modules/bizmodel/datums_submit2019-03-28 17:16:17
+2019-03-28 17:16:17,520 [INFO]: 获取到ID是：TAB_IF_2460d78d-513a-11e9-9d95-00505683a2312019-03-28 17:16:17
+2019-03-28 17:16:19,599 [INFO]: 切换到指定的iframe了2019-03-28 17:16:19
+2019-03-28 17:16:19,609 [INFO]: Iframe地址：GisqPlatformExplorer/modules/bizmodel/datums_submit
+2019-03-28 17:16:19,632 [INFO]: 当前iframe(窗口资料收取)操作元素：
+2019-03-28 17:16:19,643 [INFO]:        定位方式：XPATH
+2019-03-28 17:16:19,656 [INFO]:        定位路径：//div[@role='combobox']
+2019-03-28 17:16:19,666 [INFO]:        操作方式：QT
+2019-03-28 17:16:19,677 [INFO]:        默认值：$("#{ID}").jqxDropDownList('selectIndex', 0 );
+2019-03-28 17:16:19,687 [INFO]:        是否随机数：false
+2019-03-28 17:16:19,700 [INFO]:        等待时间：0
+2019-03-28 17:16:19,730 [INFO]: 开始执行操作
+2019-03-28 17:16:19,866 [INFO]: 等待时间：0
+2019-03-28 17:16:19,876 [INFO]: 当前iframe(窗口资料收取)操作元素：
+2019-03-28 17:16:19,890 [INFO]:        定位方式：ID
+2019-03-28 17:16:19,912 [INFO]:        定位路径：saveDatum
+2019-03-28 17:16:19,927 [INFO]:        操作方式：CLICK
+2019-03-28 17:16:19,942 [INFO]:        默认值：
+2019-03-28 17:16:19,967 [INFO]:        是否随机数：false
+2019-03-28 17:16:19,985 [INFO]:        等待时间：3000
+2019-03-28 17:16:20,030 [INFO]: 开始执行操作
+2019-03-28 17:16:22,979 [INFO]: 等待时间：3000
+2019-03-28 17:16:23,017 [INFO]: 3000
+2019-03-28 17:16:23,036 [INFO]: 2019-03-28 17:16:22
+2019-03-28 17:16:23,054 [INFO]: 2019-03-28 17:16:23
+2019-03-28 17:16:23,064 [INFO]: 当前iframe(窗口资料收取)操作元素：
+2019-03-28 17:16:23,083 [INFO]:        定位方式：
+2019-03-28 17:16:23,092 [INFO]:        定位路径：
+2019-03-28 17:16:23,108 [INFO]:        操作方式：SHOOT
+2019-03-28 17:16:23,118 [INFO]:        默认值：资料收取
+2019-03-28 17:16:23,130 [INFO]:        是否随机数：false
+2019-03-28 17:16:23,139 [INFO]:        等待时间：3000
+2019-03-28 17:16:23,152 [INFO]: 开始执行操作
+2019-03-28 17:16:29,396 [INFO]: 等待时间：3000
+2019-03-28 17:16:29,404 [INFO]: 3000
+2019-03-28 17:16:29,410 [INFO]: 2019-03-28 17:16:29
+2019-03-28 17:16:29,416 [INFO]: 2019-03-28 17:16:29
+2019-03-28 17:16:30,443 [INFO]: 开始操作Ifame，Iframe名称：申请信息
+2019-03-28 17:16:32,163 [INFO]: 获取到所有的iframe了2019-03-28 17:16:32
+2019-03-28 17:16:32,198 [INFO]: ifame地址1是：GisqQueryList/views/reports/realestate/common/acceptance/Acceptance_HouseRight.jsp?reportlet=realestate/common/acceptance/Acceptance_HouseRight.cpt2019-03-28 17:16:32
+2019-03-28 17:16:32,216 [INFO]: 获取到ID是：TAB_IF_2460d770-513a-11e9-9d95-00505683a2312019-03-28 17:16:32
+2019-03-28 17:16:34,277 [INFO]: 切换到指定的iframe了2019-03-28 17:16:34
+2019-03-28 17:16:34,284 [INFO]: Iframe地址：GisqQueryList/views/reports/realestate/common/acceptance/Acceptance_HouseRight.jsp?reportlet=realestate/common/acceptance/Acceptance_HouseRight.cpt
+2019-03-28 17:16:34,297 [INFO]: 当前iframe(申请信息)操作元素：
+2019-03-28 17:16:34,314 [INFO]:        定位方式：ID
+2019-03-28 17:16:34,321 [INFO]:        定位路径：CXBDC
+2019-03-28 17:16:34,328 [INFO]:        操作方式：CLICK
+2019-03-28 17:16:34,336 [INFO]:        默认值：
+2019-03-28 17:16:34,345 [INFO]:        是否随机数：false
+2019-03-28 17:16:34,351 [INFO]:        等待时间：2000
+2019-03-28 17:16:34,363 [INFO]: 开始执行操作
+2019-03-28 17:16:35,751 [INFO]: 等待时间：2000
+2019-03-28 17:16:35,758 [INFO]: 2000
+2019-03-28 17:16:35,764 [INFO]: 2019-03-28 17:16:35
+2019-03-28 17:16:35,781 [INFO]: 2019-03-28 17:16:35
+2019-03-28 17:16:35,796 [INFO]: 当前iframe(申请信息)操作元素：
+2019-03-28 17:16:35,803 [INFO]:        定位方式：ID
+2019-03-28 17:16:35,814 [INFO]:        定位路径：iFrameDY
+2019-03-28 17:16:35,825 [INFO]:        操作方式：IFRAME
+2019-03-28 17:16:35,845 [INFO]:        默认值：iFrameDY
+2019-03-28 17:16:35,851 [INFO]:        是否随机数：false
+2019-03-28 17:16:35,856 [INFO]:        等待时间：5000
+2019-03-28 17:16:35,874 [INFO]: 开始执行操作
+2019-03-28 17:16:40,904 [INFO]: 当前iframe(iFrameDY)操作元素：
+2019-03-28 17:16:40,910 [INFO]:       定位方式：ID
+2019-03-28 17:16:40,919 [INFO]:       定位路径：bdcdyh
+2019-03-28 17:16:40,928 [INFO]:       操作方式：SENDKEYS
+2019-03-28 17:16:40,935 [INFO]:       默认值：330101450985GB43816F51646184
+2019-03-28 17:16:40,941 [INFO]:       是否随机数：false
+2019-03-28 17:16:40,961 [INFO]:       等待时间：0
+2019-03-28 17:16:41,371 [INFO]: 当前iframe(iFrameDY)操作元素：
+2019-03-28 17:16:41,377 [INFO]:       定位方式：ID
+2019-03-28 17:16:41,385 [INFO]:       定位路径：btn_search
+2019-03-28 17:16:41,396 [INFO]:       操作方式：CLICK
+2019-03-28 17:16:41,402 [INFO]:       默认值：
+2019-03-28 17:16:41,408 [INFO]:       是否随机数：false
+2019-03-28 17:16:41,427 [INFO]:       等待时间：25000
+2019-03-28 17:16:41,761 [INFO]: 已经完成点击事件了
+2019-03-28 17:16:41,765 [INFO]: 25000
+2019-03-28 17:16:41,769 [INFO]: 2019-03-28 17:16:41
+2019-03-28 17:16:42,298 [INFO]: 2019-03-28 17:16:42
+2019-03-28 17:16:42,808 [INFO]: 2019-03-28 17:16:42
+2019-03-28 17:16:43,319 [INFO]: 2019-03-28 17:16:43
+2019-03-28 17:16:43,330 [INFO]: 2019-03-28 17:16:43
+2019-03-28 17:16:43,336 [INFO]: 当前iframe(iFrameDY)操作元素：
+2019-03-28 17:16:43,345 [INFO]:       定位方式：XPATH
+2019-03-28 17:16:43,352 [INFO]:       定位路径：//div[@class='l-grid-hd-cell-text l-grid-hd-cell-btn-checkbox']
+2019-03-28 17:16:43,363 [INFO]:       操作方式：CLICK
+2019-03-28 17:16:43,370 [INFO]:       默认值：
+2019-03-28 17:16:43,376 [INFO]:       是否随机数：false
+2019-03-28 17:16:43,393 [INFO]:       等待时间：0
+2019-03-28 17:16:43,518 [INFO]: 已经完成点击事件了
+2019-03-28 17:16:43,525 [INFO]: 当前iframe(iFrameDY)操作元素：
+2019-03-28 17:16:43,535 [INFO]:       定位方式：ID
+2019-03-28 17:16:43,542 [INFO]:       定位路径：btn_ok
+2019-03-28 17:16:43,547 [INFO]:       操作方式：CLICK
+2019-03-28 17:16:43,552 [INFO]:       默认值：
+2019-03-28 17:16:43,564 [INFO]:       是否随机数：false
+2019-03-28 17:16:43,572 [INFO]:       等待时间：50000
+2019-03-28 17:16:43,715 [INFO]: 已经完成点击事件了
+2019-03-28 17:16:43,736 [INFO]: 50000
+2019-03-28 17:16:43,745 [INFO]: 2019-03-28 17:16:43
+2019-03-28 17:16:44,259 [INFO]: 2019-03-28 17:16:44
+2019-03-28 17:16:44,267 [INFO]: 2019-03-28 17:16:44
+2019-03-28 17:16:46,400 [INFO]: 等待时间：5000
+2019-03-28 17:16:46,419 [INFO]: 5000
+2019-03-28 17:16:46,429 [INFO]: 2019-03-28 17:16:46
+2019-03-28 17:16:46,437 [INFO]: 2019-03-28 17:16:46
+2019-03-28 17:16:46,450 [INFO]: 当前iframe(申请信息)操作元素：
+2019-03-28 17:16:46,457 [INFO]:        定位方式：ID
+2019-03-28 17:16:46,463 [INFO]:        定位路径：TJSQR
+2019-03-28 17:16:46,469 [INFO]:        操作方式：CLICK
+2019-03-28 17:16:46,483 [INFO]:        默认值：
+2019-03-28 17:16:46,490 [INFO]:        是否随机数：false
+2019-03-28 17:16:46,496 [INFO]:        等待时间：2000
+2019-03-28 17:16:46,513 [INFO]: 开始执行操作
+2019-03-28 17:16:52,199 [INFO]: 等待时间：2000
+2019-03-28 17:16:52,205 [INFO]: 2000
+2019-03-28 17:16:52,213 [INFO]: 2019-03-28 17:16:52
+2019-03-28 17:16:52,219 [INFO]: 2019-03-28 17:16:52
+2019-03-28 17:16:52,226 [INFO]: 当前iframe(申请信息)操作元素：
+2019-03-28 17:16:52,233 [INFO]:        定位方式：ID
+2019-03-28 17:16:52,254 [INFO]:        定位路径：addSqr
+2019-03-28 17:16:52,262 [INFO]:        操作方式：IFRAME
+2019-03-28 17:16:52,268 [INFO]:        默认值：
+2019-03-28 17:16:52,288 [INFO]:        是否随机数：false
+2019-03-28 17:16:52,295 [INFO]:        等待时间：0
+2019-03-28 17:16:52,304 [INFO]: 开始执行操作
+2019-03-28 17:16:59,398 [INFO]: 当前iframe(addSqr)操作元素：
+2019-03-28 17:16:59,407 [INFO]:       定位方式：ID
+2019-03-28 17:16:59,419 [INFO]:       定位路径：SQRMC
+2019-03-28 17:16:59,428 [INFO]:       操作方式：SENDKEYS
+2019-03-28 17:16:59,441 [INFO]:       默认值：自动化测试-申请人
+2019-03-28 17:16:59,451 [INFO]:       是否随机数：true
+2019-03-28 17:16:59,463 [INFO]:       等待时间：0
+2019-03-28 17:16:59,682 [INFO]: 当前iframe(addSqr)操作元素：
+2019-03-28 17:16:59,690 [INFO]:       定位方式：ID
+2019-03-28 17:16:59,700 [INFO]:       定位路径：ZJZL
+2019-03-28 17:16:59,709 [INFO]:       操作方式：SENDKEYS
+2019-03-28 17:16:59,719 [INFO]:       默认值：2
+2019-03-28 17:16:59,746 [INFO]:       是否随机数：false
+2019-03-28 17:16:59,754 [INFO]:       等待时间：0
+2019-03-28 17:16:59,891 [INFO]: 当前iframe(addSqr)操作元素：
+2019-03-28 17:16:59,917 [INFO]:       定位方式：ID
+2019-03-28 17:16:59,927 [INFO]:       定位路径：ZJH
+2019-03-28 17:16:59,941 [INFO]:       操作方式：SENDKEYS
+2019-03-28 17:16:59,956 [INFO]:       默认值：test-zjh
+2019-03-28 17:16:59,983 [INFO]:       是否随机数：true
+2019-03-28 17:16:59,993 [INFO]:       等待时间：0
+2019-03-28 17:17:00,053 [INFO]: 当前iframe(addSqr)操作元素：
+2019-03-28 17:17:00,063 [INFO]:       定位方式：ID
+2019-03-28 17:17:00,072 [INFO]:       定位路径：SQRLB
+2019-03-28 17:17:00,087 [INFO]:       操作方式：SENDKEYS
+2019-03-28 17:17:00,095 [INFO]:       默认值：1
+2019-03-28 17:17:00,105 [INFO]:       是否随机数：false
+2019-03-28 17:17:00,118 [INFO]:       等待时间：0
+2019-03-28 17:17:00,179 [INFO]: 当前iframe(addSqr)操作元素：
+2019-03-28 17:17:00,191 [INFO]:       定位方式：ID
+2019-03-28 17:17:00,212 [INFO]:       定位路径：SQRLX
+2019-03-28 17:17:00,220 [INFO]:       操作方式：SENDKEYS
+2019-03-28 17:17:00,230 [INFO]:       默认值：1
+2019-03-28 17:17:00,239 [INFO]:       是否随机数：false
+2019-03-28 17:17:00,258 [INFO]:       等待时间：0
+2019-03-28 17:17:00,314 [INFO]: 当前iframe(addSqr)操作元素：
+2019-03-28 17:17:00,324 [INFO]:       定位方式：ID
+2019-03-28 17:17:00,336 [INFO]:       定位路径：GYFS
+2019-03-28 17:17:00,345 [INFO]:       操作方式：SENDKEYS
+2019-03-28 17:17:00,361 [INFO]:       默认值：1
+2019-03-28 17:17:00,437 [INFO]:       是否随机数：false
+2019-03-28 17:17:00,529 [INFO]:       等待时间：0
+2019-03-28 17:17:00,589 [INFO]: 当前iframe(addSqr)操作元素：
+2019-03-28 17:17:00,604 [INFO]:       定位方式：ID
+2019-03-28 17:17:00,612 [INFO]:       定位路径：YDDH
+2019-03-28 17:17:00,629 [INFO]:       操作方式：SENDKEYS
+2019-03-28 17:17:00,650 [INFO]:       默认值：18966162328
+2019-03-28 17:17:00,659 [INFO]:       是否随机数：false
+2019-03-28 17:17:00,672 [INFO]:       等待时间：0
+2019-03-28 17:17:00,704 [INFO]: 当前iframe(addSqr)操作元素：
+2019-03-28 17:17:00,716 [INFO]:       定位方式：XPATH
+2019-03-28 17:17:00,729 [INFO]:       定位路径：//span[@class=' x-emb-submit']
+2019-03-28 17:17:00,742 [INFO]:       操作方式：CLICK
+2019-03-28 17:17:00,766 [INFO]:       默认值：
+2019-03-28 17:17:00,778 [INFO]:       是否随机数：false
+2019-03-28 17:17:00,787 [INFO]:       等待时间：1000
+2019-03-28 17:17:01,211 [INFO]: 已经完成点击事件了
+2019-03-28 17:17:01,220 [INFO]: 1000
+2019-03-28 17:17:01,244 [INFO]: 2019-03-28 17:17:01
+2019-03-28 17:17:01,780 [INFO]: 2019-03-28 17:17:01
+2019-03-28 17:17:01,804 [INFO]: 2019-03-28 17:17:01
+2019-03-28 17:17:03,899 [INFO]: 等待时间：0
+2019-03-28 17:17:03,905 [INFO]: 当前iframe(申请信息)操作元素：
+2019-03-28 17:17:03,911 [INFO]:        定位方式：XPATH
+2019-03-28 17:17:03,925 [INFO]:        定位路径：//a[@class='jbox-close']
+2019-03-28 17:17:03,931 [INFO]:        操作方式：CLICK
+2019-03-28 17:17:03,937 [INFO]:        默认值：
+2019-03-28 17:17:03,955 [INFO]:        是否随机数：false
+2019-03-28 17:17:03,962 [INFO]:        等待时间：0
+2019-03-28 17:17:03,968 [INFO]: 开始执行操作
+2019-03-28 17:17:04,132 [INFO]: 等待时间：0
+2019-03-28 17:17:04,138 [INFO]: 当前iframe(申请信息)操作元素：
+2019-03-28 17:17:04,145 [INFO]:        定位方式：XPATH
+2019-03-28 17:17:04,151 [INFO]:        定位路径：/html/body/div[2]/table/tbody/tr[11]/td[9]/div/span[1]
+2019-03-28 17:17:04,159 [INFO]:        操作方式：CLICK
+2019-03-28 17:17:04,165 [INFO]:        默认值：
+2019-03-28 17:17:04,172 [INFO]:        是否随机数：false
+2019-03-28 17:17:04,180 [INFO]:        等待时间：0
+2019-03-28 17:17:04,269 [INFO]: 开始执行操作
+2019-03-28 17:17:05,033 [INFO]: 等待时间：0
+2019-03-28 17:17:05,041 [INFO]: 当前iframe(申请信息)操作元素：
+2019-03-28 17:17:05,047 [INFO]:        定位方式：ID
+2019-03-28 17:17:05,055 [INFO]:        定位路径：EditHouseInfo
+2019-03-28 17:17:05,061 [INFO]:        操作方式：IFRAME
+2019-03-28 17:17:05,068 [INFO]:        默认值：EditHouseInfo
+2019-03-28 17:17:05,074 [INFO]:        是否随机数：false
+2019-03-28 17:17:05,080 [INFO]:        等待时间：0
+2019-03-28 17:17:05,117 [INFO]: 开始执行操作
+2019-03-28 17:17:12,279 [INFO]: 当前iframe(EditHouseInfo)操作元素：
+2019-03-28 17:17:12,293 [INFO]:       定位方式：ID
+2019-03-28 17:17:12,306 [INFO]:       定位路径：FWZL
+2019-03-28 17:17:12,328 [INFO]:       操作方式：SENDKEYS
+2019-03-28 17:17:12,340 [INFO]:       默认值：自动化测试-坐落
+2019-03-28 17:17:12,361 [INFO]:       是否随机数：true
+2019-03-28 17:17:12,375 [INFO]:       等待时间：0
+2019-03-28 17:17:12,853 [INFO]: 当前iframe(EditHouseInfo)操作元素：
+2019-03-28 17:17:12,865 [INFO]:       定位方式：ID
+2019-03-28 17:17:12,872 [INFO]:       定位路径：YFWYT1
+2019-03-28 17:17:12,883 [INFO]:       操作方式：CLICK
+2019-03-28 17:17:12,897 [INFO]:       默认值：自动化测试-房屋用途
+2019-03-28 17:17:12,904 [INFO]:       是否随机数：false
+2019-03-28 17:17:12,912 [INFO]:       等待时间：0
+2019-03-28 17:17:13,112 [INFO]: 已经完成点击事件了
+2019-03-28 17:17:13,118 [INFO]: 当前iframe(EditHouseInfo)操作元素：
+2019-03-28 17:17:13,124 [INFO]:       定位方式：ID
+2019-03-28 17:17:13,146 [INFO]:       定位路径：TDYTDL
+2019-03-28 17:17:13,157 [INFO]:       操作方式：QT
+2019-03-28 17:17:13,164 [INFO]:       默认值：contentPane.getWidgetByName("TDYTDL").setValue("城镇住宅用地");
+2019-03-28 17:17:13,169 [INFO]:       是否随机数：false
+2019-03-28 17:17:13,177 [INFO]:       等待时间：0
+2019-03-28 17:17:13,199 [INFO]: 当前iframe(EditHouseInfo)操作元素：
+2019-03-28 17:17:13,206 [INFO]:       定位方式：ID
+2019-03-28 17:17:13,214 [INFO]:       定位路径：TDYTDL
+2019-03-28 17:17:13,229 [INFO]:       操作方式：QT
+2019-03-28 17:17:13,235 [INFO]:       默认值：$("#TDYTDL").attr("pval","071")
+2019-03-28 17:17:13,245 [INFO]:       是否随机数：false
+2019-03-28 17:17:13,251 [INFO]:       等待时间：0
+2019-03-28 17:17:13,270 [INFO]: 当前iframe(EditHouseInfo)操作元素：
+2019-03-28 17:17:13,277 [INFO]:       定位方式：ID
+2019-03-28 17:17:13,300 [INFO]:       定位路径：FWJG
+2019-03-28 17:17:13,306 [INFO]:       操作方式：SENDKEYS
+2019-03-28 17:17:13,313 [INFO]:       默认值：6
+2019-03-28 17:17:13,320 [INFO]:       是否随机数：false
+2019-03-28 17:17:13,327 [INFO]:       等待时间：0
+2019-03-28 17:17:13,428 [INFO]: 当前iframe(EditHouseInfo)操作元素：
+2019-03-28 17:17:13,432 [INFO]:       定位方式：ID
+2019-03-28 17:17:13,438 [INFO]:       定位路径：TDYTMC
+2019-03-28 17:17:13,457 [INFO]:       操作方式：SENDKEYS
+2019-03-28 17:17:13,463 [INFO]:       默认值：城镇住宅用地
+2019-03-28 17:17:13,469 [INFO]:       是否随机数：false
+2019-03-28 17:17:13,488 [INFO]:       等待时间：0
+2019-03-28 17:17:13,562 [INFO]: 当前iframe(EditHouseInfo)操作元素：
+2019-03-28 17:17:13,581 [INFO]:       定位方式：ID
+2019-03-28 17:17:13,587 [INFO]:       定位路径：GHYT
+2019-03-28 17:17:13,593 [INFO]:       操作方式：QT
+2019-03-28 17:17:13,613 [INFO]:       默认值：$("#GHYT").attr("pval","10")
+2019-03-28 17:17:13,618 [INFO]:       是否随机数：false
+2019-03-28 17:17:13,625 [INFO]:       等待时间：0
+2019-03-28 17:17:13,641 [INFO]: 当前iframe(EditHouseInfo)操作元素：
+2019-03-28 17:17:13,648 [INFO]:       定位方式：ID
+2019-03-28 17:17:13,655 [INFO]:       定位路径：FWXZ
+2019-03-28 17:17:13,675 [INFO]:       操作方式：SENDKEYS
+2019-03-28 17:17:13,681 [INFO]:       默认值：0
+2019-03-28 17:17:13,694 [INFO]:       是否随机数：false
+2019-03-28 17:17:13,718 [INFO]:       等待时间：0
+2019-03-28 17:17:13,837 [INFO]: 当前iframe(EditHouseInfo)操作元素：
+2019-03-28 17:17:13,847 [INFO]:       定位方式：ID
+2019-03-28 17:17:13,852 [INFO]:       定位路径：TDQLXZ
+2019-03-28 17:17:13,858 [INFO]:       操作方式：QT
+2019-03-28 17:17:13,879 [INFO]:       默认值：contentPane.getWidgetByName("TDQLXZ").setValue("国有土地");
+2019-03-28 17:17:13,884 [INFO]:       是否随机数：false
+2019-03-28 17:17:13,893 [INFO]:       等待时间：0
+2019-03-28 17:17:13,907 [INFO]: 当前iframe(EditHouseInfo)操作元素：
+2019-03-28 17:17:13,913 [INFO]:       定位方式：XPATH
+2019-03-28 17:17:13,924 [INFO]:       定位路径：//button[@type='button']@@@保存
+2019-03-28 17:17:13,930 [INFO]:       操作方式：CLICK
+2019-03-28 17:17:13,936 [INFO]:       默认值：
+2019-03-28 17:17:13,956 [INFO]:       是否随机数：false
+2019-03-28 17:17:13,962 [INFO]:       等待时间：0
+2019-03-28 17:17:14,254 [INFO]: 已经完成点击事件了
+2019-03-28 17:17:16,384 [INFO]: 等待时间：0
+2019-03-28 17:17:16,390 [INFO]: 当前iframe(申请信息)操作元素：
+2019-03-28 17:17:16,403 [INFO]:        定位方式：XPATH
+2019-03-28 17:17:16,411 [INFO]:        定位路径：//a[@class='jbox-close']
+2019-03-28 17:17:16,417 [INFO]:        操作方式：CLICK
+2019-03-28 17:17:16,434 [INFO]:        默认值：
+2019-03-28 17:17:16,440 [INFO]:        是否随机数：false
+2019-03-28 17:17:16,447 [INFO]:        等待时间：0
+2019-03-28 17:17:16,456 [INFO]: 开始执行操作
+2019-03-28 17:17:16,565 [INFO]: 等待时间：0
+2019-03-28 17:17:16,574 [INFO]: 当前iframe(申请信息)操作元素：
+2019-03-28 17:17:16,580 [INFO]:        定位方式：NAME
+2019-03-28 17:17:16,586 [INFO]:        定位路径：QDFS
+2019-03-28 17:17:16,607 [INFO]:        操作方式：SENDKEYS
+2019-03-28 17:17:16,613 [INFO]:        默认值：1
+2019-03-28 17:17:16,622 [INFO]:        是否随机数：false
+2019-03-28 17:17:16,629 [INFO]:        等待时间：0
+2019-03-28 17:17:16,634 [INFO]: 开始执行操作
+2019-03-28 17:17:16,692 [INFO]: 等待时间：0
+2019-03-28 17:17:16,696 [INFO]: 当前iframe(申请信息)操作元素：
+2019-03-28 17:17:16,702 [INFO]:        定位方式：NAME
+2019-03-28 17:17:16,715 [INFO]:        定位路径：FKFS
+2019-03-28 17:17:16,722 [INFO]:        操作方式：SENDKEYS
+2019-03-28 17:17:16,735 [INFO]:        默认值：1
+2019-03-28 17:17:16,747 [INFO]:        是否随机数：false
+2019-03-28 17:17:16,752 [INFO]:        等待时间：0
+2019-03-28 17:17:16,761 [INFO]: 开始执行操作
+2019-03-28 17:17:16,817 [INFO]: 等待时间：0
+2019-03-28 17:17:16,822 [INFO]: 当前iframe(申请信息)操作元素：
+2019-03-28 17:17:16,839 [INFO]:        定位方式：ID
+2019-03-28 17:17:16,847 [INFO]:        定位路径：GFHTBH
+2019-03-28 17:17:16,855 [INFO]:        操作方式：SENDKEYS
+2019-03-28 17:17:16,863 [INFO]:        默认值：（转）htbh{NOW}
+2019-03-28 17:17:16,868 [INFO]:        是否随机数：false
+2019-03-28 17:17:16,886 [INFO]:        等待时间：2000
+2019-03-28 17:17:16,896 [INFO]: 开始执行操作
+2019-03-28 17:17:16,968 [INFO]: 等待时间：2000
+2019-03-28 17:17:16,975 [INFO]: 2000
+2019-03-28 17:17:16,983 [INFO]: 2019-03-28 17:17:16
+2019-03-28 17:17:16,995 [INFO]: 2019-03-28 17:17:16
+2019-03-28 17:17:17,003 [INFO]: 当前iframe(申请信息)操作元素：
+2019-03-28 17:17:17,013 [INFO]:        定位方式：ID
+2019-03-28 17:17:17,020 [INFO]:        定位路径：JYJG
+2019-03-28 17:17:17,027 [INFO]:        操作方式：SENDKEYS
+2019-03-28 17:17:17,035 [INFO]:        默认值：123.89
+2019-03-28 17:17:17,041 [INFO]:        是否随机数：false
+2019-03-28 17:17:17,060 [INFO]:        等待时间：2000
+2019-03-28 17:17:17,065 [INFO]: 开始执行操作
+2019-03-28 17:17:17,108 [INFO]: 等待时间：2000
+2019-03-28 17:17:17,121 [INFO]: 2000
+2019-03-28 17:17:17,128 [INFO]: 2019-03-28 17:17:17
+2019-03-28 17:17:17,133 [INFO]: 2019-03-28 17:17:17
+2019-03-28 17:17:17,151 [INFO]: 当前iframe(申请信息)操作元素：
+2019-03-28 17:17:17,158 [INFO]:        定位方式：ID
+2019-03-28 17:17:17,167 [INFO]:        定位路径：SQLY
+2019-03-28 17:17:17,177 [INFO]:        操作方式：SENDKEYS
+2019-03-28 17:17:17,183 [INFO]:        默认值：转移登记设立
+2019-03-28 17:17:17,198 [INFO]:        是否随机数：false
+2019-03-28 17:17:17,205 [INFO]:        等待时间：2000
+2019-03-28 17:17:17,216 [INFO]: 开始执行操作
+2019-03-28 17:17:17,228 [INFO]: 等待时间：2000
+2019-03-28 17:17:17,236 [INFO]: 2000
+2019-03-28 17:17:17,247 [INFO]: 2019-03-28 17:17:17
+2019-03-28 17:17:17,252 [INFO]: 2019-03-28 17:17:17
+2019-03-28 17:17:17,261 [INFO]: 当前iframe(申请信息)操作元素：
+2019-03-28 17:17:17,268 [INFO]:        定位方式：ID
+2019-03-28 17:17:17,275 [INFO]:        定位路径：BZ
+2019-03-28 17:17:17,292 [INFO]:        操作方式：SENDKEYS
+2019-03-28 17:17:17,298 [INFO]:        默认值：自动化测试-转移登记备注
+2019-03-28 17:17:17,308 [INFO]:        是否随机数：true
+2019-03-28 17:17:17,315 [INFO]:        等待时间：0
+2019-03-28 17:17:17,321 [INFO]: 开始执行操作
+2019-03-28 17:17:17,382 [INFO]: 等待时间：0
+2019-03-28 17:17:17,389 [INFO]: 当前iframe(申请信息)操作元素：
+2019-03-28 17:17:17,401 [INFO]:        定位方式：XPATH
+2019-03-28 17:17:17,409 [INFO]:        定位路径：//span[@class=' x-emb-submit']
+2019-03-28 17:17:17,415 [INFO]:        操作方式：CLICK
+2019-03-28 17:17:17,435 [INFO]:        默认值：
+2019-03-28 17:17:17,441 [INFO]:        是否随机数：false
+2019-03-28 17:17:17,448 [INFO]:        等待时间：3000
+2019-03-28 17:17:17,456 [INFO]: 开始执行操作
+2019-03-28 17:17:29,135 [INFO]: 大保存完毕
+2019-03-28 17:17:29,151 [INFO]: 等待时间：3000
+2019-03-28 17:17:29,157 [INFO]: 3000
+2019-03-28 17:17:29,164 [INFO]: 2019-03-28 17:17:29
+2019-03-28 17:17:29,643 [INFO]: 2019-03-28 17:17:29
+2019-03-28 17:17:29,652 [INFO]: 2019-03-28 17:17:29
+2019-03-28 17:17:29,665 [INFO]: 当前iframe(申请信息)操作元素：
+2019-03-28 17:17:29,674 [INFO]:        定位方式：
+2019-03-28 17:17:29,682 [INFO]:        定位路径：
+2019-03-28 17:17:29,688 [INFO]:        操作方式：SHOOT
+2019-03-28 17:17:29,694 [INFO]:        默认值：大保存
+2019-03-28 17:17:29,709 [INFO]:        是否随机数：false
+2019-03-28 17:17:29,719 [INFO]:        等待时间：3000
+2019-03-28 17:17:29,727 [INFO]: 开始执行操作
+2019-03-28 17:17:46,270 [INFO]: 等待时间：3000
+2019-03-28 17:17:46,276 [INFO]: 3000
+2019-03-28 17:17:46,292 [INFO]: 2019-03-28 17:17:46
+2019-03-28 17:17:46,298 [INFO]: 2019-03-28 17:17:46
+2019-03-28 17:17:47,319 [INFO]: 开始操作Ifame，Iframe名称：权利人、单元信息变化确认
+2019-03-28 17:17:50,374 [INFO]: 获取到所有的iframe了2019-03-28 17:17:50
+2019-03-28 17:17:50,416 [INFO]: ifame地址1是：realestate/ReportServer?reportlet=realestate/common/xxbhqr.cpt2019-03-28 17:17:50
+2019-03-28 17:17:50,433 [INFO]: 获取到ID是：TAB_IF_2460d7d4-513a-11e9-9d95-00505683a2312019-03-28 17:17:50
+2019-03-28 17:17:52,474 [INFO]: 切换到指定的iframe了2019-03-28 17:17:52
+2019-03-28 17:17:52,479 [INFO]: Iframe地址：realestate/ReportServer?reportlet=realestate/common/xxbhqr.cpt
+2019-03-28 17:17:52,494 [INFO]: 当前iframe(权利人、单元信息变化确认)操作元素：
+2019-03-28 17:17:52,500 [INFO]:        定位方式：XPATH
+2019-03-28 17:17:52,523 [INFO]:        定位路径：//*[@id="fr-btn-"]/tbody/tr[2]/td[2]/em/button
+2019-03-28 17:17:52,531 [INFO]:        操作方式：CLICK
+2019-03-28 17:17:52,539 [INFO]:        默认值：
+2019-03-28 17:17:52,546 [INFO]:        是否随机数：false
+2019-03-28 17:17:52,555 [INFO]:        等待时间：0
+2019-03-28 17:17:52,561 [INFO]: 开始执行操作
+2019-03-28 17:17:52,690 [INFO]: 等待时间：0
+2019-03-28 17:17:52,700 [INFO]: 当前iframe(权利人、单元信息变化确认)操作元素：
+2019-03-28 17:17:52,719 [INFO]:        定位方式：XPATH
+2019-03-28 17:17:52,727 [INFO]:        定位路径：//*[@id="easyicon_cn_32showid_32load"]/div[2]
+2019-03-28 17:17:52,745 [INFO]:        操作方式：CLICK
+2019-03-28 17:17:52,756 [INFO]:        默认值：
+2019-03-28 17:17:52,783 [INFO]:        是否随机数：false
+2019-03-28 17:17:52,791 [INFO]:        等待时间：0
+2019-03-28 17:17:52,799 [INFO]: 开始执行操作
+2019-03-28 17:17:52,931 [INFO]: 等待时间：0
+2019-03-28 17:17:58,737 [WARN]: 三月 28, 2019 5:17:58 下午 org.openqa.selenium.support.ui.ExpectedConditions findElement
+2019-03-28 17:17:58,744 [WARN]: 警告: WebDriverException thrown by findElement(By.xpath: //*[@id="layui-layer2"]/div[2])
+2019-03-28 17:17:58,757 [WARN]: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+2019-03-28 17:17:58,772 [WARN]: from unknown error: web view not found
+2019-03-28 17:17:58,778 [WARN]:   (Session info: chrome=34.0.1847.116)
+2019-03-28 17:17:58,784 [WARN]:   (Driver info: chromedriver=2.9.248315,platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+2019-03-28 17:17:58,789 [WARN]: Command duration or timeout: 2 milliseconds
+2019-03-28 17:17:58,796 [WARN]: Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+2019-03-28 17:17:58,820 [WARN]: System info: host: 'MTC-20180624XMT', ip: '192.168.6.79', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_191'
+2019-03-28 17:17:58,828 [WARN]: Driver info: org.openqa.selenium.chrome.ChromeDriver
+2019-03-28 17:17:58,833 [WARN]: Capabilities [{applicationCacheEnabled=false, rotatable=false, chrome={userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\scoped_dir16500_17892}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=34.0.1847.116, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+2019-03-28 17:17:58,839 [WARN]: Session ID: d241d87b6927201b613a96148d4a1838
+2019-03-28 17:17:58,845 [WARN]: *** Element info: {Using=xpath, value=//*[@id="layui-layer2"]/div[2]}
+2019-03-28 17:17:58,850 [WARN]: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+2019-03-28 17:17:58,866 [WARN]: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+2019-03-28 17:17:58,873 [WARN]: 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+2019-03-28 17:17:58,878 [WARN]: 	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+2019-03-28 17:17:58,884 [WARN]: 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+2019-03-28 17:17:58,891 [WARN]: 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+2019-03-28 17:17:58,896 [WARN]: 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+2019-03-28 17:17:58,915 [WARN]: 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+2019-03-28 17:17:58,922 [WARN]: 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:455)
+2019-03-28 17:17:58,928 [WARN]: 	at org.openqa.selenium.By$ByXPath.findElement(By.java:358)
+2019-03-28 17:17:58,937 [WARN]: 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+2019-03-28 17:17:58,942 [WARN]: 	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:809)
+2019-03-28 17:17:58,960 [WARN]: 	at org.openqa.selenium.support.ui.ExpectedConditions.access$0(ExpectedConditions.java:807)
+2019-03-28 17:17:58,965 [WARN]: 	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:181)
+2019-03-28 17:17:58,972 [WARN]: 	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:1)
+2019-03-28 17:17:58,978 [WARN]: 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:209)
+2019-03-28 17:17:58,983 [WARN]: 	at configSelenium.ConfigSeleniumStart.isContentAppeared(ConfigSeleniumStart.java:1130)
+2019-03-28 17:17:58,994 [WARN]: 	at configSelenium.ConfigSeleniumStart.TrasferPro(ConfigSeleniumStart.java:1086)
+2019-03-28 17:17:58,999 [WARN]: 	at configSelenium.ConfigSeleniumStart.ActdefAction(ConfigSeleniumStart.java:902)
+2019-03-28 17:17:59,004 [WARN]: 	at configSelenium.ConfigSeleniumStart.main(ConfigSeleniumStart.java:187)
+2019-03-28 17:17:59,011 [WARN]: 
+2019-03-28 17:17:59,243 [WARN]: 三月 28, 2019 5:17:59 下午 org.openqa.selenium.support.ui.ExpectedConditions findElement
+2019-03-28 17:17:59,248 [WARN]: 警告: WebDriverException thrown by findElement(By.xpath: //*[@id="layui-layer2"]/div[2])
+2019-03-28 17:17:59,273 [WARN]: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+2019-03-28 17:17:59,278 [WARN]: from unknown error: web view not found
+2019-03-28 17:17:59,283 [WARN]:   (Session info: chrome=34.0.1847.116)
+2019-03-28 17:17:59,290 [WARN]:   (Driver info: chromedriver=2.9.248315,platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+2019-03-28 17:17:59,295 [WARN]: Command duration or timeout: 4 milliseconds
+2019-03-28 17:17:59,318 [WARN]: Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+2019-03-28 17:17:59,333 [WARN]: System info: host: 'MTC-20180624XMT', ip: '192.168.6.79', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_191'
+2019-03-28 17:17:59,340 [WARN]: Driver info: org.openqa.selenium.chrome.ChromeDriver
+2019-03-28 17:17:59,346 [WARN]: Capabilities [{applicationCacheEnabled=false, rotatable=false, chrome={userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\scoped_dir16500_17892}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=34.0.1847.116, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+2019-03-28 17:17:59,352 [WARN]: Session ID: d241d87b6927201b613a96148d4a1838
+2019-03-28 17:17:59,368 [WARN]: *** Element info: {Using=xpath, value=//*[@id="layui-layer2"]/div[2]}
+2019-03-28 17:17:59,375 [WARN]: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+2019-03-28 17:17:59,382 [WARN]: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+2019-03-28 17:17:59,388 [WARN]: 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+2019-03-28 17:17:59,393 [WARN]: 	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+2019-03-28 17:17:59,412 [WARN]: 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+2019-03-28 17:17:59,418 [WARN]: 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+2019-03-28 17:17:59,424 [WARN]: 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+2019-03-28 17:17:59,430 [WARN]: 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+2019-03-28 17:17:59,437 [WARN]: 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:455)
+2019-03-28 17:17:59,459 [WARN]: 	at org.openqa.selenium.By$ByXPath.findElement(By.java:358)
+2019-03-28 17:17:59,464 [WARN]: 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+2019-03-28 17:17:59,470 [WARN]: 	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:809)
+2019-03-28 17:17:59,478 [WARN]: 	at org.openqa.selenium.support.ui.ExpectedConditions.access$0(ExpectedConditions.java:807)
+2019-03-28 17:17:59,484 [WARN]: 	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:181)
+2019-03-28 17:17:59,508 [WARN]: 	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:1)
+2019-03-28 17:17:59,515 [WARN]: 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:209)
+2019-03-28 17:17:59,525 [WARN]: 	at configSelenium.ConfigSeleniumStart.isContentAppeared(ConfigSeleniumStart.java:1130)
+2019-03-28 17:17:59,536 [WARN]: 	at configSelenium.ConfigSeleniumStart.TrasferPro(ConfigSeleniumStart.java:1086)
+2019-03-28 17:17:59,545 [WARN]: 	at configSelenium.ConfigSeleniumStart.ActdefAction(ConfigSeleniumStart.java:902)
+2019-03-28 17:17:59,568 [WARN]: 	at configSelenium.ConfigSeleniumStart.main(ConfigSeleniumStart.java:187)
+2019-03-28 17:17:59,575 [WARN]: 
+2019-03-28 17:17:59,749 [INFO]: zhua:false
+2019-03-28 17:17:59,756 [WARN]: 三月 28, 2019 5:17:59 下午 org.openqa.selenium.support.ui.ExpectedConditions findElement
+2019-03-28 17:17:59,773 [WARN]: 警告: WebDriverException thrown by findElement(By.xpath: //*[@id="layui-layer2"]/div[2])
+2019-03-28 17:17:59,778 [WARN]: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+2019-03-28 17:17:59,783 [WARN]: from unknown error: web view not found
+2019-03-28 17:17:59,790 [WARN]:   (Session info: chrome=34.0.1847.116)
+2019-03-28 17:17:59,795 [WARN]:   (Driver info: chromedriver=2.9.248315,platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+2019-03-28 17:17:59,818 [WARN]: Command duration or timeout: 4 milliseconds
+2019-03-28 17:17:59,827 [WARN]: Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+2019-03-28 17:17:59,832 [WARN]: System info: host: 'MTC-20180624XMT', ip: '192.168.6.79', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_191'
+2019-03-28 17:17:59,839 [WARN]: Driver info: org.openqa.selenium.chrome.ChromeDriver
+2019-03-28 17:17:59,844 [WARN]: Capabilities [{applicationCacheEnabled=false, rotatable=false, chrome={userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\scoped_dir16500_17892}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=34.0.1847.116, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+2019-03-28 17:17:59,864 [WARN]: Session ID: d241d87b6927201b613a96148d4a1838
+2019-03-28 17:17:59,871 [WARN]: *** Element info: {Using=xpath, value=//*[@id="layui-layer2"]/div[2]}
+2019-03-28 17:17:59,876 [WARN]: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+2019-03-28 17:17:59,882 [WARN]: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+2019-03-28 17:17:59,896 [WARN]: 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+2019-03-28 17:17:59,903 [WARN]: 	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+2019-03-28 17:17:59,910 [WARN]: 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+2019-03-28 17:17:59,917 [WARN]: 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+2019-03-28 17:17:59,923 [WARN]: 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+2019-03-28 17:17:59,948 [WARN]: 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+2019-03-28 17:17:59,955 [WARN]: 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:455)
+2019-03-28 17:17:59,963 [WARN]: 	at org.openqa.selenium.By$ByXPath.findElement(By.java:358)
+2019-03-28 17:17:59,968 [WARN]: 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+2019-03-28 17:17:59,989 [WARN]: 	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:809)
+2019-03-28 17:17:59,995 [WARN]: 	at org.openqa.selenium.support.ui.ExpectedConditions.access$0(ExpectedConditions.java:807)
+2019-03-28 17:18:00,001 [WARN]: 	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:181)
+2019-03-28 17:18:00,007 [WARN]: 	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:1)
+2019-03-28 17:18:00,020 [WARN]: 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:209)
+2019-03-28 17:18:00,028 [WARN]: 	at configSelenium.ConfigSeleniumStart.isContentAppeared(ConfigSeleniumStart.java:1130)
+2019-03-28 17:18:00,033 [WARN]: 	at configSelenium.ConfigSeleniumStart.TrasferPro(ConfigSeleniumStart.java:1086)
+2019-03-28 17:18:00,040 [WARN]: 	at configSelenium.ConfigSeleniumStart.ActdefAction(ConfigSeleniumStart.java:902)
+2019-03-28 17:18:00,046 [WARN]: 	at configSelenium.ConfigSeleniumStart.main(ConfigSeleniumStart.java:187)
+2019-03-28 17:18:00,072 [WARN]: 
+2019-03-28 17:18:04,912 [INFO]: 点击工作中心
+2019-03-28 17:18:22,012 [INFO]: prodef:首次登记
+2019-03-28 17:18:22,021 [INFO]: childname:断言调试
+2019-03-28 17:18:24,229 [INFO]: 获取所有参数
+2019-03-28 17:18:24,265 [INFO]: sid-2C6A6E0E-7282-4E4D-B836-009F5BF096D6
+2019-03-28 17:18:24,278 [INFO]: 当前环节环节名称：初审,环节内码sid-2C6A6E0E-7282-4E4D-B836-009F5BF096D6
+2019-03-28 17:18:24,296 [INFO]: 开始操作Ifame，Iframe名称：收费
+2019-03-28 17:18:26,525 [INFO]: 获取到所有的iframe了2019-03-28 17:18:26
+2019-03-28 17:18:26,627 [INFO]: ifame地址1是：GisqQueryList/rChargeServer?ver=house2019-03-28 17:18:26
+2019-03-28 17:18:26,665 [INFO]: 获取到ID是：TAB_IF_2460d7f5-513a-11e9-9d95-00505683a2312019-03-28 17:18:26
+2019-03-28 17:18:28,704 [INFO]: 切换到指定的iframe了2019-03-28 17:18:28
+2019-03-28 17:18:28,712 [INFO]: Iframe地址：GisqQueryList/rChargeServer?ver=house
+2019-03-28 17:18:28,735 [INFO]: 当前iframe(收费)操作元素：
+2019-03-28 17:18:28,748 [INFO]:        定位方式：ID
+2019-03-28 17:18:28,755 [INFO]:        定位路径：checkAll
+2019-03-28 17:18:28,762 [INFO]:        操作方式：CLICK
+2019-03-28 17:18:28,790 [INFO]:        默认值：
+2019-03-28 17:18:28,798 [INFO]:        是否随机数：false
+2019-03-28 17:18:28,807 [INFO]:        等待时间：0
+2019-03-28 17:18:28,814 [INFO]: 开始执行操作
+2019-03-28 17:18:28,932 [INFO]: 等待时间：0
+2019-03-28 17:18:28,939 [INFO]: 当前iframe(收费)操作元素：
+2019-03-28 17:18:28,946 [INFO]:        定位方式：ID
+2019-03-28 17:18:28,953 [INFO]:        定位路径：btn_save
+2019-03-28 17:18:28,968 [INFO]:        操作方式：CLICK
+2019-03-28 17:18:28,976 [INFO]:        默认值：
+2019-03-28 17:18:28,983 [INFO]:        是否随机数：false
+2019-03-28 17:18:28,990 [INFO]:        等待时间：0
+2019-03-28 17:18:29,006 [INFO]: 开始执行操作
+2019-03-28 17:18:29,759 [INFO]: 等待时间：0
+2019-03-28 17:18:30,799 [INFO]: 开始操作Ifame，Iframe名称：审批表
+2019-03-28 17:18:31,072 [INFO]: 获取到所有的iframe了2019-03-28 17:18:31
+2019-03-28 17:18:31,098 [INFO]: ifame地址1是：realestate/ReportServer?reportlet=realestate/common/approveform/ApproveForm_TZ.cpt2019-03-28 17:18:31
+2019-03-28 17:18:31,120 [INFO]: 获取到ID是：TAB_IF_2460d800-513a-11e9-9d95-00505683a2312019-03-28 17:18:31
+2019-03-28 17:18:33,191 [INFO]: 切换到指定的iframe了2019-03-28 17:18:33
+2019-03-28 17:18:33,198 [INFO]: Iframe地址：realestate/ReportServer?reportlet=realestate/common/approveform/ApproveForm_TZ.cpt
+2019-03-28 17:18:33,209 [INFO]: 当前iframe(审批表)操作元素：
+2019-03-28 17:18:33,228 [INFO]:        定位方式：XPATH
+2019-03-28 17:18:33,238 [INFO]:        定位路径：//div[@title='意见页']
+2019-03-28 17:18:33,246 [INFO]:        操作方式：CLICK
+2019-03-28 17:18:33,256 [INFO]:        默认值：
+2019-03-28 17:18:33,282 [INFO]:        是否随机数：false
+2019-03-28 17:18:33,291 [INFO]:        等待时间：1000
+2019-03-28 17:18:33,300 [INFO]: 开始执行操作
+2019-03-28 17:18:33,420 [INFO]: 等待时间：1000
+2019-03-28 17:18:33,454 [INFO]: 1000
+2019-03-28 17:18:33,461 [INFO]: 2019-03-28 17:18:33
+2019-03-28 17:18:33,943 [INFO]: 2019-03-28 17:18:33
+2019-03-28 17:18:33,951 [INFO]: 2019-03-28 17:18:33
+2019-03-28 17:18:33,966 [INFO]: 当前iframe(审批表)操作元素：
+2019-03-28 17:18:33,975 [INFO]:        定位方式：ID
+2019-03-28 17:18:33,982 [INFO]:        定位路径：GTCSYJ
+2019-03-28 17:18:33,990 [INFO]:        操作方式：FR
+2019-03-28 17:18:34,013 [INFO]:        默认值：自动化测试-初审意见
+2019-03-28 17:18:34,020 [INFO]:        是否随机数：false
+2019-03-28 17:18:34,027 [INFO]:        等待时间：0
+2019-03-28 17:18:34,035 [INFO]: 开始执行操作
+2019-03-28 17:18:38,952 [INFO]: 帆软
+2019-03-28 17:18:38,965 [INFO]: 等待时间：0
+2019-03-28 17:18:38,971 [INFO]: 当前iframe(审批表)操作元素：
+2019-03-28 17:18:38,977 [INFO]:        定位方式：ID
+2019-03-28 17:18:38,992 [INFO]:        定位路径：GTCSR
+2019-03-28 17:18:38,997 [INFO]:        操作方式：FR
+2019-03-28 17:18:39,003 [INFO]:        默认值：王岩
+2019-03-28 17:18:39,012 [INFO]:        是否随机数：false
+2019-03-28 17:18:39,023 [INFO]:        等待时间：0
+2019-03-28 17:18:39,031 [INFO]: 开始执行操作
+2019-03-28 17:18:43,965 [INFO]: 帆软
+2019-03-28 17:18:43,984 [INFO]: 等待时间：0
+2019-03-28 17:18:43,997 [INFO]: 当前iframe(审批表)操作元素：
+2019-03-28 17:18:44,006 [INFO]:        定位方式：ID
+2019-03-28 17:18:44,014 [INFO]:        定位路径：FCCSSJ
+2019-03-28 17:18:44,021 [INFO]:        操作方式：FR
+2019-03-28 17:18:44,034 [INFO]:        默认值：{NOW}
+2019-03-28 17:18:44,041 [INFO]:        是否随机数：false
+2019-03-28 17:18:44,051 [INFO]:        等待时间：0
+2019-03-28 17:18:44,057 [INFO]: 开始执行操作
+2019-03-28 17:18:48,985 [INFO]: 帆软
+2019-03-28 17:18:49,000 [INFO]: 等待时间：0
+2019-03-28 17:18:49,018 [INFO]: 当前iframe(审批表)操作元素：
+2019-03-28 17:18:49,026 [INFO]:        定位方式：XPATH
+2019-03-28 17:18:49,045 [INFO]:        定位路径：//button[@class='fr-btn-text x-emb-submit']
+2019-03-28 17:18:49,054 [INFO]:        操作方式：CLICK
+2019-03-28 17:18:49,065 [INFO]:        默认值：
+2019-03-28 17:18:49,075 [INFO]:        是否随机数：false
+2019-03-28 17:18:49,098 [INFO]:        等待时间：0
+2019-03-28 17:18:49,108 [INFO]: 开始执行操作
+2019-03-28 17:18:49,543 [INFO]: 等待时间：0
+2019-03-28 17:18:49,548 [INFO]: 当前iframe(审批表)操作元素：
+2019-03-28 17:18:49,566 [INFO]:        定位方式：ID
+2019-03-28 17:18:49,579 [INFO]:        定位路径：GTFSYJ
+2019-03-28 17:18:49,587 [INFO]:        操作方式：FR
+2019-03-28 17:18:49,593 [INFO]:        默认值：自动化测试-复审意见
+2019-03-28 17:18:49,609 [INFO]:        是否随机数：false
+2019-03-28 17:18:49,621 [INFO]:        等待时间：0
+2019-03-28 17:18:49,627 [INFO]: 开始执行操作
+2019-03-28 17:18:54,544 [INFO]: 帆软
+2019-03-28 17:18:54,560 [INFO]: 等待时间：0
+2019-03-28 17:18:54,567 [INFO]: 当前iframe(审批表)操作元素：
+2019-03-28 17:18:54,572 [INFO]:        定位方式：ID
+2019-03-28 17:18:54,579 [INFO]:        定位路径：GTFSR
+2019-03-28 17:18:54,590 [INFO]:        操作方式：FR
+2019-03-28 17:18:54,597 [INFO]:        默认值：王岩
+2019-03-28 17:18:54,603 [INFO]:        是否随机数：false
+2019-03-28 17:18:54,613 [INFO]:        等待时间：0
+2019-03-28 17:18:54,639 [INFO]: 开始执行操作
+2019-03-28 17:18:59,563 [INFO]: 帆软
+2019-03-28 17:18:59,576 [INFO]: 等待时间：0
+2019-03-28 17:18:59,582 [INFO]: 当前iframe(审批表)操作元素：
+2019-03-28 17:18:59,597 [INFO]:        定位方式：ID
+2019-03-28 17:18:59,607 [INFO]:        定位路径：FCFSSJ
+2019-03-28 17:18:59,613 [INFO]:        操作方式：FR
+2019-03-28 17:18:59,622 [INFO]:        默认值：{NOW}
+2019-03-28 17:18:59,642 [INFO]:        是否随机数：false
+2019-03-28 17:18:59,655 [INFO]:        等待时间：0
+2019-03-28 17:18:59,674 [INFO]: 开始执行操作
+2019-03-28 17:19:04,576 [INFO]: 帆软
+2019-03-28 17:19:04,590 [INFO]: 等待时间：0
+2019-03-28 17:19:04,596 [INFO]: 当前iframe(审批表)操作元素：
+2019-03-28 17:19:04,604 [INFO]:        定位方式：XPATH
+2019-03-28 17:19:04,613 [INFO]:        定位路径：//button[@class='fr-btn-text x-emb-submit']
+2019-03-28 17:19:04,641 [INFO]:        操作方式：CLICK
+2019-03-28 17:19:04,649 [INFO]:        默认值：
+2019-03-28 17:19:04,658 [INFO]:        是否随机数：false
+2019-03-28 17:19:04,666 [INFO]:        等待时间：0
+2019-03-28 17:19:04,684 [INFO]: 开始执行操作
+2019-03-28 17:19:05,000 [INFO]: 等待时间：0
+2019-03-28 17:19:05,008 [INFO]: 当前iframe(审批表)操作元素：
+2019-03-28 17:19:05,016 [INFO]:        定位方式：ID
+2019-03-28 17:19:05,042 [INFO]:        定位路径：HDYJ
+2019-03-28 17:19:05,051 [INFO]:        操作方式：FR
+2019-03-28 17:19:05,060 [INFO]:        默认值：自动化测试-核定意见
+2019-03-28 17:19:05,068 [INFO]:        是否随机数：false
+2019-03-28 17:19:05,089 [INFO]:        等待时间：0
+2019-03-28 17:19:05,097 [INFO]: 开始执行操作
+2019-03-28 17:19:10,008 [INFO]: 帆软
+2019-03-28 17:19:10,074 [INFO]: 等待时间：0
+2019-03-28 17:19:10,098 [INFO]: 当前iframe(审批表)操作元素：
+2019-03-28 17:19:10,106 [INFO]:        定位方式：ID
+2019-03-28 17:19:10,118 [INFO]:        定位路径：HDFZR
+2019-03-28 17:19:10,127 [INFO]:        操作方式：FR
+2019-03-28 17:19:10,140 [INFO]:        默认值：王岩
+2019-03-28 17:19:10,159 [INFO]:        是否随机数：false
+2019-03-28 17:19:10,166 [INFO]:        等待时间：0
+2019-03-28 17:19:10,173 [INFO]: 开始执行操作
+2019-03-28 17:19:15,074 [INFO]: 帆软
+2019-03-28 17:19:15,088 [INFO]: 等待时间：0
+2019-03-28 17:19:15,097 [INFO]: 当前iframe(审批表)操作元素：
+2019-03-28 17:19:15,108 [INFO]:        定位方式：ID
+2019-03-28 17:19:15,125 [INFO]:        定位路径：HDRQ
+2019-03-28 17:19:15,131 [INFO]:        操作方式：FR
+2019-03-28 17:19:15,137 [INFO]:        默认值：{NOW}
+2019-03-28 17:19:15,155 [INFO]:        是否随机数：false
+2019-03-28 17:19:15,161 [INFO]:        等待时间：0
+2019-03-28 17:19:15,170 [INFO]: 开始执行操作
+2019-03-28 17:19:20,088 [INFO]: 帆软
+2019-03-28 17:19:20,105 [INFO]: 等待时间：0
+2019-03-28 17:19:20,114 [INFO]: 当前iframe(审批表)操作元素：
+2019-03-28 17:19:20,122 [INFO]:        定位方式：XPATH
+2019-03-28 17:19:20,133 [INFO]:        定位路径：//button[@class='fr-btn-text x-emb-submit']
+2019-03-28 17:19:20,161 [INFO]:        操作方式：CLICK
+2019-03-28 17:19:20,170 [INFO]:        默认值：
+2019-03-28 17:19:20,180 [INFO]:        是否随机数：false
+2019-03-28 17:19:20,192 [INFO]:        等待时间：0
+2019-03-28 17:19:20,225 [INFO]: 开始执行操作
+2019-03-28 17:19:20,479 [INFO]: 等待时间：0
+2019-03-28 17:19:21,510 [INFO]: 开始操作Ifame，Iframe名称：权利人、单元信息变化确认
+2019-03-28 17:19:24,209 [INFO]: 获取到所有的iframe了2019-03-28 17:19:24
+2019-03-28 17:19:24,251 [INFO]: ifame地址1是：realestate/ReportServer?reportlet=realestate/common/xxbhqr.cpt2019-03-28 17:19:24
+2019-03-28 17:19:24,268 [INFO]: 获取到ID是：TAB_IF_2460d7d4-513a-11e9-9d95-00505683a2312019-03-28 17:19:24
+2019-03-28 17:19:26,327 [INFO]: 切换到指定的iframe了2019-03-28 17:19:26
+2019-03-28 17:19:26,335 [INFO]: Iframe地址：realestate/ReportServer?reportlet=realestate/common/xxbhqr.cpt
+2019-03-28 17:19:26,355 [INFO]: 当前iframe(权利人、单元信息变化确认)操作元素：
+2019-03-28 17:19:26,370 [INFO]:        定位方式：XPATH
+2019-03-28 17:19:26,377 [INFO]:        定位路径：//*[@id="fr-btn-"]/tbody/tr[2]/td[2]/em/button
+2019-03-28 17:19:26,393 [INFO]:        操作方式：CLICK
+2019-03-28 17:19:26,414 [INFO]:        默认值：
+2019-03-28 17:19:26,426 [INFO]:        是否随机数：false
+2019-03-28 17:19:26,435 [INFO]:        等待时间：0
+2019-03-28 17:19:26,453 [INFO]: 开始执行操作
+2019-03-28 17:19:26,730 [INFO]: 等待时间：0
+2019-03-28 17:19:26,739 [INFO]: 当前iframe(权利人、单元信息变化确认)操作元素：
+2019-03-28 17:19:26,764 [INFO]:        定位方式：XPATH
+2019-03-28 17:19:26,789 [INFO]:        定位路径：//*[@id="easyicon_cn_32showid_32load"]/div[2]
+2019-03-28 17:19:26,802 [INFO]:        操作方式：CLICK
+2019-03-28 17:19:26,812 [INFO]:        默认值：
+2019-03-28 17:19:26,820 [INFO]:        是否随机数：false
+2019-03-28 17:19:26,838 [INFO]:        等待时间：0
+2019-03-28 17:19:26,853 [INFO]: 开始执行操作
+2019-03-28 17:19:27,019 [INFO]: 等待时间：0
+2019-03-28 17:19:31,207 [INFO]: zhua:true
+2019-03-28 17:19:31,261 [INFO]: 文本：核定意见未填写，请确认！
+2019-03-28 17:19:36,342 [INFO]: 开始比对：
+2019-03-28 17:19:36,375 [INFO]: 运行自动化测试
+2019-03-28 17:19:36,603 [INFO]: [TestNG] Running:
+2019-03-28 17:19:36,632 [INFO]:   断言调试-国有建设用地使用权及房屋所有权（单套）-首次登记
+2019-03-28 17:19:36,641 [INFO]: 
+2019-03-28 17:19:37,418 [INFO]: 关闭数据库连接！
+2019-03-28 17:19:37,449 [INFO]: 要关闭了
+2019-03-28 17:19:37,486 [INFO]: 删除成功！
+2019-03-28 17:19:37,549 [INFO]: 
+2019-03-28 17:19:37,558 [INFO]: ===============================================
+2019-03-28 17:19:37,574 [INFO]: 断言调试-国有建设用地使用权及房屋所有权（单套）-首次登记
+2019-03-28 17:19:37,583 [INFO]: Total tests run: 1, Failures: 1, Skips: 0
+2019-03-28 17:19:37,591 [INFO]: ===============================================
+2019-03-28 17:19:37,599 [INFO]: 
+2019-03-28 17:19:37,888 [INFO]: 准备发送邮件
+2019-03-28 17:19:41,533 [INFO]: 生成XML文件成功childname:首次登记
+2019-03-28 17:19:41,561 [INFO]: 开始流程自动化测试！
+2019-03-28 17:19:41,596 [INFO]: 流程内码：889d6b0b-7ca7-11e7-a782-00505683a231,流程名称首次登记
+2019-03-28 17:19:48,953 [INFO]: 流程启动成功，主框架句柄：CDwindow-FFD03767-1D76-4DD3-8D04-5FC46EF80EE1
+2019-03-28 17:19:48,971 [INFO]: prodef:首次登记
+2019-03-28 17:19:48,992 [INFO]: childname:断言调试
+2019-03-28 17:19:51,074 [INFO]: 获取所有参数
+2019-03-28 17:19:51,143 [INFO]: sid-3187BFC9-9025-41DC-B122-FE3C5CB5CCE6
+2019-03-28 17:19:51,153 [INFO]: 当前环节环节名称：收件受理,环节内码sid-3187BFC9-9025-41DC-B122-FE3C5CB5CCE6
+2019-03-28 17:19:51,166 [INFO]: 开始操作Ifame，Iframe名称：窗口资料收取
+2019-03-28 17:19:53,584 [INFO]: 获取到所有的iframe了2019-03-28 17:19:53
+2019-03-28 17:19:53,616 [INFO]: ifame地址1是：GisqPlatformExplorer/modules/bizmodel/datums_submit2019-03-28 17:19:53
+2019-03-28 17:19:53,644 [INFO]: 获取到ID是：TAB_IF_a60be104-513a-11e9-9d95-00505683a2312019-03-28 17:19:53
+2019-03-28 17:19:55,705 [INFO]: 切换到指定的iframe了2019-03-28 17:19:55
+2019-03-28 17:19:55,750 [INFO]: Iframe地址：GisqPlatformExplorer/modules/bizmodel/datums_submit
+2019-03-28 17:19:55,766 [INFO]: 当前iframe(窗口资料收取)操作元素：
+2019-03-28 17:19:55,786 [INFO]:        定位方式：XPATH
+2019-03-28 17:19:55,804 [INFO]:        定位路径：//div[@role='combobox']
+2019-03-28 17:19:55,816 [INFO]:        操作方式：QT
+2019-03-28 17:19:55,825 [INFO]:        默认值：$("#{ID}").jqxDropDownList('selectIndex', 0 );
+2019-03-28 17:19:55,835 [INFO]:        是否随机数：false
+2019-03-28 17:19:55,867 [INFO]:        等待时间：0
+2019-03-28 17:19:55,875 [INFO]: 开始执行操作
+2019-03-28 17:19:55,959 [INFO]: 等待时间：0
+2019-03-28 17:19:55,967 [INFO]: 当前iframe(窗口资料收取)操作元素：
+2019-03-28 17:19:56,002 [INFO]:        定位方式：ID
+2019-03-28 17:19:56,016 [INFO]:        定位路径：saveDatum
+2019-03-28 17:19:56,026 [INFO]:        操作方式：CLICK
+2019-03-28 17:19:56,062 [INFO]:        默认值：
+2019-03-28 17:19:56,085 [INFO]:        是否随机数：false
+2019-03-28 17:19:56,094 [INFO]:        等待时间：3000
+2019-03-28 17:19:56,221 [INFO]: 开始执行操作
+2019-03-28 17:19:58,498 [INFO]: 等待时间：3000
+2019-03-28 17:19:58,509 [INFO]: 3000
+2019-03-28 17:19:58,521 [INFO]: 2019-03-28 17:19:58
+2019-03-28 17:19:58,533 [INFO]: 2019-03-28 17:19:58
+2019-03-28 17:19:58,555 [INFO]: 当前iframe(窗口资料收取)操作元素：
+2019-03-28 17:19:58,565 [INFO]:        定位方式：
+2019-03-28 17:19:58,577 [INFO]:        定位路径：
+2019-03-28 17:19:58,600 [INFO]:        操作方式：SHOOT
+2019-03-28 17:19:58,609 [INFO]:        默认值：资料收取
+2019-03-28 17:19:58,618 [INFO]:        是否随机数：false
+2019-03-28 17:19:58,629 [INFO]:        等待时间：3000
+2019-03-28 17:19:58,646 [INFO]: 开始执行操作
+2019-03-28 17:20:04,901 [INFO]: 等待时间：3000
+2019-03-28 17:20:04,908 [INFO]: 3000
+2019-03-28 17:20:04,914 [INFO]: 2019-03-28 17:20:04
+2019-03-28 17:20:04,931 [INFO]: 2019-03-28 17:20:04
+2019-03-28 17:20:05,960 [INFO]: 开始操作Ifame，Iframe名称：申请信息
+2019-03-28 17:20:08,826 [INFO]: 获取到所有的iframe了2019-03-28 17:20:08
+2019-03-28 17:20:08,857 [INFO]: ifame地址1是：GisqQueryList/views/reports/realestate/common/acceptance/Acceptance_HouseRight_Initial.jsp?reportlet=realestate/common/acceptance/Acceptance_HouseRight_Initial.cpt2019-03-28 17:20:08
+2019-03-28 17:20:08,871 [INFO]: 获取到ID是：TAB_IF_a60be0eb-513a-11e9-9d95-00505683a2312019-03-28 17:20:08
+2019-03-28 17:20:10,961 [INFO]: 切换到指定的iframe了2019-03-28 17:20:10
+2019-03-28 17:20:10,969 [INFO]: Iframe地址：GisqQueryList/views/reports/realestate/common/acceptance/Acceptance_HouseRight_Initial.jsp?reportlet=realestate/common/acceptance/Acceptance_HouseRight_Initial.cpt
+2019-03-28 17:20:11,002 [INFO]: 当前iframe(申请信息)操作元素：
+2019-03-28 17:20:11,010 [INFO]:        定位方式：XPATH
+2019-03-28 17:20:11,026 [INFO]:        定位路径：/html/body/div[2]/table/tbody/tr[2]/td[2]
+2019-03-28 17:20:11,047 [INFO]:        操作方式：Assert
+2019-03-28 17:20:11,059 [INFO]:        默认值：申请信息
+2019-03-28 17:20:11,070 [INFO]:        是否随机数：false
+2019-03-28 17:20:11,080 [INFO]:        等待时间：0
+2019-03-28 17:20:11,100 [INFO]: 开始执行操作
+2019-03-28 17:20:12,155 [INFO]: 等待时间：0
+2019-03-28 17:20:12,163 [INFO]: 当前iframe(申请信息)操作元素：
+2019-03-28 17:20:12,178 [INFO]:        定位方式：XPATH
+2019-03-28 17:20:12,186 [INFO]:        定位路径：/html/body/div[2]/table/tbody/tr[12]/td[2]
+2019-03-28 17:20:12,195 [INFO]:        操作方式：Assert
+2019-03-28 17:20:12,205 [INFO]:        默认值：项目信息
+2019-03-28 17:20:12,231 [INFO]:        是否随机数：false
+2019-03-28 17:20:12,241 [INFO]:        等待时间：0
+2019-03-28 17:20:12,250 [INFO]: 开始执行操作
+2019-03-28 17:20:12,525 [INFO]: 等待时间：0
+2019-03-28 17:20:12,534 [INFO]: 当前iframe(申请信息)操作元素：
+2019-03-28 17:20:12,547 [INFO]:        定位方式：ID
+2019-03-28 17:20:12,555 [INFO]:        定位路径：TJSQR
+2019-03-28 17:20:12,578 [INFO]:        操作方式：Assert
+2019-03-28 17:20:12,587 [INFO]:        默认值：听
+2019-03-28 17:20:12,595 [INFO]:        是否随机数：false
+2019-03-28 17:20:12,621 [INFO]:        等待时间：0
+2019-03-28 17:20:12,741 [INFO]: 开始执行操作
+2019-03-28 17:20:13,374 [INFO]: 等待时间：0
+2019-03-28 17:20:17,620 [INFO]: zhua:true
+2019-03-28 17:20:17,662 [INFO]: 文本：
+2019-03-28 17:20:22,769 [INFO]: 开始比对：
+2019-03-28 17:20:22,775 [INFO]: 运行自动化测试
+2019-03-28 17:20:22,793 [INFO]: [TestNG] Running:
+2019-03-28 17:20:22,804 [INFO]:   断言调试-国有建设用地使用权及房屋所有权（单套）-首次登记
+2019-03-28 17:20:22,813 [INFO]: 
+2019-03-28 17:20:22,903 [INFO]: result[TestResult name=star status=FAILURE method=DataProviderSet_Assert.star(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Test.DataProviderSet_Assert@574cd322] output={null}]
+2019-03-28 17:20:22,969 [INFO]: star
+2019-03-28 17:20:22,990 [INFO]: 截图插入报告
+2019-03-28 17:20:22,999 [INFO]: 截图插入报告
+2019-03-28 17:20:23,063 [INFO]: 截图插入报告
+2019-03-28 17:20:23,072 [INFO]: result[TestResult name=star status=SUCCESS method=DataProviderSet_Assert.star(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Test.DataProviderSet_Assert@574cd322] output=<img src="D:\work_space\js_de\debug\SeleniumConfig\bin\Debug\Elementshoot\2019-03-28\17_16\项目信息标题断言.png"  hight="200" width="200" onclick="javascript:window.open(this.src);"/>]
+2019-03-28 17:20:23,084 [INFO]: star
+2019-03-28 17:20:23,091 [INFO]: 截图插入报告
+2019-03-28 17:20:23,123 [INFO]: 截图插入报告
+2019-03-28 17:20:23,135 [INFO]: 截图插入报告
+2019-03-28 17:20:23,147 [INFO]: result[TestResult name=star status=FAILURE method=DataProviderSet_Assert.star(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Test.DataProviderSet_Assert@574cd322] output={null}]
+2019-03-28 17:20:23,172 [INFO]: star
+2019-03-28 17:20:23,182 [INFO]: 截图插入报告
+2019-03-28 17:20:23,192 [INFO]: 截图插入报告
+2019-03-28 17:20:23,202 [INFO]: 截图插入报告
+2019-03-28 17:20:23,265 [INFO]: 关闭数据库连接！
+2019-03-28 17:20:23,282 [INFO]: 要关闭了
+2019-03-28 17:20:23,293 [INFO]: 删除成功！
+2019-03-28 17:20:23,309 [INFO]: 
+2019-03-28 17:20:23,318 [INFO]: ===============================================
+2019-03-28 17:20:23,326 [INFO]: 断言调试-国有建设用地使用权及房屋所有权（单套）-首次登记
+2019-03-28 17:20:23,335 [INFO]: Total tests run: 3, Failures: 2, Skips: 0
+2019-03-28 17:20:23,361 [INFO]: ===============================================
+2019-03-28 17:20:23,369 [INFO]: 
+2019-03-28 17:20:23,384 [INFO]: 准备发送邮件
+2019-03-28 17:20:25,102 [INFO]: 生成XML文件成功准备退出
+2019-03-28 17:20:26,909 [WARN]: 三月 28, 2019 5:20:26 下午 org.openqa.selenium.os.UnixProcess$SeleniumWatchDog destroyHarder
+2019-03-28 17:20:26,915 [WARN]: 信息: Command failed to close cleanly. Destroying forcefully (v2). org.openqa.selenium.os.UnixProcess$SeleniumWatchDog@4a163575
+2019-03-28 17:20:28,347 [WARN]: 三月 28, 2019 5:20:28 下午 org.openqa.selenium.os.UnixProcess$SeleniumWatchDog destroyHarder
+2019-03-28 17:20:28,355 [WARN]: 信息: Command failed to close cleanly. Destroying forcefully (v2). org.openqa.selenium.os.UnixProcess$SeleniumWatchDog@17f3eefb
+2019-03-28 17:20:28,661 [INFO]: 

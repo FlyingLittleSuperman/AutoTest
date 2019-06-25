@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[业务号：20190517-0006935]]>
+    </line>
+    <line>
+      <![CDATA[该流程未完成，请留意!]]>
+    </line>
+    <line>
+      <![CDATA[资料收取<br/><img src="E:\work_space\js_de\debug\SeleniumConfig\bin\Debug\SootScreens\2019-05-17\13_14\资料收取.png"  hight="300" width="300"  onclick="javascript:window.open(this.src);"/>]]>
+    </line>
+    <line>
+      <![CDATA[收件受理-环节移交异常！转出校验信息为：
+请添加需要登记的不动产单元！ 请添加办件相关申请人！
+]]>
+    </line>
+    <line>
+      <![CDATA[转出校验提示框-2019-05-17 13_14<br/><img src="E:\work_space\js_de\debug\SeleniumConfig\bin\Debug\SootScreens\2019-05-17\13_14\转出校验提示框-2019-05-17 13_14.png"  hight="300" width="300"  onclick="javascript:window.open(this.src);"/>]]>
+    </line>
+    <line>
+      <![CDATA[业务号：20190517-0006936]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[业务号：20190517-0006936]]>
+    </line>
+    <line>
+      <![CDATA[该流程未完成，请留意!]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+  </reporter-output>
+  <suite name="国有建设用地使用权及房屋所有权（单套）-首次登记" duration-ms="1" started-at="2019-05-17T05:16:07Z" finished-at="2019-05-17T05:16:07Z">
+    <groups>
+    </groups>
+    <test name="断言详情查看" duration-ms="1" started-at="2019-05-17T05:16:07Z" finished-at="2019-05-17T05:16:07Z">
+      <class name="Test.NoAssert">
+        <test-method status="PASS" signature="showReport()[pri:0, instance:Test.NoAssert@6e95c105]" name="showReport" duration-ms="0" started-at="2019-05-17T05:16:07Z" finished-at="2019-05-17T05:16:07Z">
+          <reporter-output>
+            <line>
+              <![CDATA[]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- showReport -->
+      </class> <!-- Test.NoAssert -->
+    </test> <!-- 断言详情查看 -->
+  </suite> <!-- 国有建设用地使用权及房屋所有权（单套）-首次登记 -->
+</testng-results>

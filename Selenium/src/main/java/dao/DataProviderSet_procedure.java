@@ -1,12 +1,9 @@
 package dao;
 
-import oracle.jdbc.internal.OracleTypes;
+import oracle.jdbc.OracleTypes;
 import util.DataBase;
 
-import java.sql.CallableStatement;
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.ResultSet;
+import java.sql.*;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -22,40 +19,63 @@ public class DataProviderSet_procedure {
     private static Connection ct;
     private static String result_bdcdyh;
 
+    public static void main(String[] args){
+
+        System.out.println(call("selenium_pro_tudidy")
+        );
+    }
+
+
 
     public static String  call(String callname){
         try{
 
             Class.forName(DataBase.JdbcDriver);
-
             ct=DataBase.connection;
-            statement=ct.prepareCall("{call "+callname+"(?,?)}");
-            statement.registerOutParameter(1, OracleTypes.VARCHAR);
-            statement.registerOutParameter(2, OracleTypes.VARCHAR);
-            statement.execute();
-            String result =statement.getString(1);
+//            Class.forName("oracle.jdbc.driver.OracleDriver");
+//            ct=DriverManager.getConnection("jdbc:oracle:thin:@192.168.2.119:1521:testbdc","bdcdj","bdcdj119");
+            String result = null;
+
+            if(callname.contains("creat")){
+                statement=ct.prepareCall("{call "+callname+"(?,?)}");
+                statement.registerOutParameter(1, OracleTypes.VARCHAR);
+                statement.registerOutParameter(2, OracleTypes.VARCHAR);
+                statement.execute();
+                result =statement.getString(1);
+            }else{
+                statement=ct.prepareCall("{call "+callname+"(?)}");
+                statement.registerOutParameter(1, OracleTypes.VARCHAR);
+                statement.execute();
+                result =statement.getString(1);
+            }
             result_bdcdyh=result;
-//            String result1=statement.getString(2);
-            System.out.println("result1："+result);
 
-        }catch (Exception er){
-            er.getStackTrace();
-        }finally {
 
-            try{
 
-                statement.close();
-            }catch(Exception er){
-                er.printStackTrace();
-            }
-            try{
-                ct.close();
-
-            }catch(Exception er){
-                er.printStackTrace();
-            }
         }
+        catch (SQLException e){
+            e.printStackTrace();
+
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+        }
+//        finally {
+//
+//            try{
+//
+//                statement.close();
+//            }catch(Exception er){
+//                er.printStackTrace();
+//            }
+//            try{
+//                ct.close();
+//
+//            }catch(Exception er){
+//                er.printStackTrace();
+//            }
+//        }
         return result_bdcdyh;
 
     }
+
 }

@@ -43,6 +43,8 @@ public class Prodef implements Serializable {
     private  String id;
     private String Name;
     private String PackageID;
+//    private String PackageName;
     private List<Actdef> actdefList;
+
 
 }

@@ -5,7 +5,7 @@ import java.io.Serializable;
 /**
  * Created by Administrator on 2016/12/26.
  */
-public class SeleniumSchema implements Serializable{
+public class SeleniumSchema implements Serializable {
     private String Id;
     private String Name;
     private Boolean Execute;
@@ -37,6 +37,7 @@ public class SeleniumSchema implements Serializable{
 
     private String ProdefName;
     private String PackageName;
+    private String PackageId;
     private String ChildProdefId;
     private String ChildProdefName;
     private String filePath;
@@ -92,4 +93,11 @@ public class SeleniumSchema implements Serializable{
     }
 
 
+    public String getPackageId() {
+        return PackageId;
+    }
+
+    public void setPackageId(String packageId) {
+        PackageId = packageId;
+    }
 }

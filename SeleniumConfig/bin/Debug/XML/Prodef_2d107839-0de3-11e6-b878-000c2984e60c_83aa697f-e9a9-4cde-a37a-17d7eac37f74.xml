@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Element>
+  <Prodef ID="2d107839-0de3-11e6-b878-000c2984e60c" Name="首次登记" PackageID="38bcedca-df88-11e5-b408-000c29187a9e" PackageName="房地登记">
+    <Actdef ID="sid-075095F3-5F75-4295-B4D1-5843F0D20C8E" Name="收件受理">
+      <iframe>
+        <iframeChild ID="34c11cbd-27da-445d-9c51-a021cd0335bd" Name="窗口资料收取" URL="GisqPlatformExplorer/modules/bizmodel/datums_submit" />
+        <iframeChild ID="1053e7ec-69cb-11e5-a045-000c297c0f34" Name="申请信息" URL="GisqQueryList/views/reports/realestate/common/acceptance/Acceptance_HouseRight_Initial.jsp?reportlet=realestate/common/acceptance/Acceptance_HouseRight_Initial.cpt" />
+      </iframe>
+    </Actdef>
+  </Prodef>
+</Element>

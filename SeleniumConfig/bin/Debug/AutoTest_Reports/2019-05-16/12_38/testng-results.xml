@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[业务号：20190516-0000821]]>
+    </line>
+    <line>
+      <![CDATA[该流程已正常走完!]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+  </reporter-output>
+  <suite name="调试-预购商品房预告登记-预购商品房预告注销登记-预购商品房-预告注销登记" duration-ms="1" started-at="2019-05-16T04:43:39Z" finished-at="2019-05-16T04:43:39Z">
+    <groups>
+    </groups>
+    <test name="断言详情查看" duration-ms="1" started-at="2019-05-16T04:43:39Z" finished-at="2019-05-16T04:43:39Z">
+      <class name="Test.NoAssert">
+        <test-method status="PASS" signature="showReport()[pri:0, instance:Test.NoAssert@142eed79]" name="showReport" duration-ms="0" started-at="2019-05-16T04:43:39Z" finished-at="2019-05-16T04:43:39Z">
+          <reporter-output>
+            <line>
+              <![CDATA[]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- showReport -->
+      </class> <!-- Test.NoAssert -->
+    </test> <!-- 断言详情查看 -->
+  </suite> <!-- 调试-预购商品房预告登记-预购商品房预告注销登记-预购商品房-预告注销登记 -->
+</testng-results>

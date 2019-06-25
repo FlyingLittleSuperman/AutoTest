@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Element>
+  <Prodef ID="a36099a8-7549-11e9-b06b-fa163ea73528" Name="首次登记" PackageID="38bcedca-df88-11e5-b408-000c29187a9e">
+    <Actdef ID="sid-3187BFC9-9025-41DC-B122-FE3C5CB5CCE6" Name="收件受理">
+      <iframe>
+        <iframeChild ID="75f4aceb-69c0-479f-9e60-7d0f5afa5fd2" Name="窗口资料收取" URL="GisqPlatformExplorer/modules/bizmodel/datums_submit">
+          <LocationElement ID="19833837-810d-4151-9064-4e5d46ec83e7" LocationType="XPATH" Path="//div[@role='combobox']" OperateType="QT" Order="1" DefaultValue="$(&quot;#{ID}&quot;).jqxDropDownList('selectIndex', 0 );" Introduce="资料类别" SqlSchemaId="" IsRandom="False" WaitSecond="0">
+            <ChildLocationElement ID="248077d3-014e-457a-b26d-da6fa9c9cad9" LocationType="NAME" Path="1" OperateType="SENDKEYS" Order="1" DefaultValue="11" />
+          </LocationElement>
+          <LocationElement ID="1abd678c-ce5e-4343-8e1c-54b1d214f781" LocationType="ID" Path="saveDatum" OperateType="CLICK" Order="2" DefaultValue="" Introduce="保存窗口资料" SqlSchemaId="" IsRandom="False" WaitSecond="0" />
+        </iframeChild>
+      </iframe>
+    </Actdef>
+  </Prodef>
+</Element>

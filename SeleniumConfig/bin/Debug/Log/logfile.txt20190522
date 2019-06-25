@@ -1,0 +1,1163 @@
+2019-05-22 12:23:35,228 [INFO]: Microsoft Windows [版本 10.0.17134.765]
+2019-05-22 12:23:35,241 [INFO]: (c) 2018 Microsoft Corporation。保留所有权利。
+2019-05-22 12:23:35,252 [INFO]: 
+2019-05-22 12:23:35,259 [INFO]: E:\work_space\js_de\debug\SeleniumConfig\bin\Debug>java -jar E:\work_space\js_de\debug\SeleniumConfig\bin\Debug\\SeleniumJAVA\Selenium.jar C#
+2019-05-22 12:23:36,186 [INFO]: 开始准备数据
+2019-05-22 12:23:36,193 [INFO]: 开始缓存总体参数配置文件
+2019-05-22 12:23:36,347 [INFO]: 读取服务地址/E:/work_space/js_de/debug/SeleniumConfig/bin/Debug
+2019-05-22 12:23:36,572 [WARN]: SLF4J: The requested version 1.7.16 by your slf4j binding is not compatible with [1.6]
+2019-05-22 12:23:36,581 [WARN]: SLF4J: See http://www.slf4j.org/codes.html#version_mismatch for further details.
+2019-05-22 12:23:36,952 [INFO]: 12:23:36.950 [main] WARN  net.sf.ehcache.DiskStorePathManager - diskStorePath 'E:\work_space\js_de\debug\SeleniumConfig\bin\Debug\SeleniumJAVA\ehcache' is already used by an existing CacheManager either in the same VM or in a different process.
+2019-05-22 12:23:36,961 [INFO]: The diskStore path for this CacheManager will be set to E:\work_space\js_de\debug\SeleniumConfig\bin\Debug\SeleniumJAVA\ehcache\ehcache_auto_created6845500167701723869diskstore.
+2019-05-22 12:23:36,969 [INFO]: To avoid this warning consider using the CacheManager factory methods to create a singleton CacheManager or specifying a separate ehcache configuration (ehcache.xml) for each CacheManager instance.
+2019-05-22 12:23:36,978 [INFO]: 12:23:36.952 [main] WARN  n.s.e.store.disk.DiskStorageFactory - Data in persistent disk stores is ignored for stores from automatically created directories.
+2019-05-22 12:23:36,987 [INFO]: Remove diskPersistent or resolve the conflicting disk paths in cache configuration.
+2019-05-22 12:23:36,994 [INFO]: Deleting data file E:\work_space\js_de\debug\SeleniumConfig\bin\Debug\SeleniumJAVA\ehcache\ehcache_auto_created6845500167701723869diskstore\active%0053essions%0043ache.data
+2019-05-22 12:23:37,024 [INFO]: 缓存总体参数配置文件成功！
+2019-05-22 12:23:37,044 [INFO]: 开始缓存SQL配置信息
+2019-05-22 12:23:37,096 [INFO]: 缓存SQL配置信息成功！
+2019-05-22 12:23:37,110 [INFO]: 开始缓存SQL配置的SQL语句信息
+2019-05-22 12:23:40,609 [INFO]: 缓存SQL配置的SQL语句信息成功！
+2019-05-22 12:23:40,628 [INFO]: 开始缓存自动化测试配置方案文件
+2019-05-22 12:23:40,648 [INFO]: 缓存自动化测试配置方案文件成功！
+2019-05-22 12:23:40,667 [INFO]: 开始缓存初始化配置参数成功！
+2019-05-22 12:23:40,687 [INFO]: 缓存流程配置信息成功！
+2019-05-22 12:23:40,991 [WARN]: Starting ChromeDriver (v2.9.248315) on port 22681
+2019-05-22 12:23:41,778 [INFO]: 初始化ChromeDriver成功！
+2019-05-22 12:23:42,247 [WARN]: Starting ChromeDriver (v2.9.248315) on port 62455
+2019-05-22 12:23:47,108 [INFO]: 初始化WebDriver成功！
+2019-05-22 12:23:50,627 [INFO]: 开始流程自动化测试！
+2019-05-22 12:23:50,633 [INFO]: 当前执行方案-流程：assert_2-首次登记
+2019-05-22 12:23:53,031 [INFO]: 流程启动成功!
+2019-05-22 12:23:55,122 [INFO]: 获取所有参数
+2019-05-22 12:23:55,161 [INFO]: sid-3187BFC9-9025-41DC-B122-FE3C5CB5CCE6
+2019-05-22 12:23:55,166 [INFO]: 当前环节环节名称：收件受理,环节内码sid-3187BFC9-9025-41DC-B122-FE3C5CB5CCE6
+2019-05-22 12:23:55,174 [INFO]: 开始操作Ifame，Iframe名称：窗口资料收取
+2019-05-22 12:24:10,335 [INFO]: 获取到所有的iframe了2019-05-22 12:24:10
+2019-05-22 12:24:10,354 [INFO]: ifame地址1是：GisqPlatformExplorer/modules/bizmodel/datums_submit2019-05-22 12:24:10
+2019-05-22 12:24:10,380 [INFO]: 获取到ID是：TAB_IF_6b05a6c2-7c49-11e9-bba5-00505683a2312019-05-22 12:24:10
+2019-05-22 12:24:12,447 [INFO]: 切换到指定的iframe了2019-05-22 12:24:12
+2019-05-22 12:24:12,457 [INFO]: Iframe地址：GisqPlatformExplorer/modules/bizmodel/datums_submit
+2019-05-22 12:24:12,473 [INFO]: 当前iframe(窗口资料收取)操作元素：
+2019-05-22 12:24:12,481 [INFO]:        定位方式：XPATH
+2019-05-22 12:24:12,491 [INFO]:        定位路径：//div[@role='combobox']
+2019-05-22 12:24:12,504 [INFO]:        操作方式：QT
+2019-05-22 12:24:12,509 [INFO]:        操作默认值：$("#{ID}").jqxDropDownList('selectIndex', 0 );
+2019-05-22 12:24:12,514 [INFO]:        是否随机数：false
+2019-05-22 12:24:12,522 [INFO]:        是否Name随机数：false
+2019-05-22 12:24:12,531 [INFO]:        等待时间：0
+2019-05-22 12:24:12,539 [INFO]: 开始执行操作
+2019-05-22 12:24:12,658 [INFO]: 当前iframe(窗口资料收取)操作元素：
+2019-05-22 12:24:12,663 [INFO]:        定位方式：ID
+2019-05-22 12:24:12,668 [INFO]:        定位路径：saveDatum
+2019-05-22 12:24:12,680 [INFO]:        操作方式：CLICK
+2019-05-22 12:24:12,689 [INFO]:        操作默认值：
+2019-05-22 12:24:12,697 [INFO]:        是否随机数：false
+2019-05-22 12:24:12,707 [INFO]:        是否Name随机数：false
+2019-05-22 12:24:12,715 [INFO]:        等待时间：0
+2019-05-22 12:24:12,790 [INFO]: 开始执行操作
+2019-05-22 12:24:16,226 [INFO]: 当前iframe(窗口资料收取)操作元素：
+2019-05-22 12:24:16,232 [INFO]:        定位方式：
+2019-05-22 12:24:16,243 [INFO]:        定位路径：
+2019-05-22 12:24:16,256 [INFO]:        操作方式：SHOOT
+2019-05-22 12:24:16,269 [INFO]:        操作默认值：资料收取-assert_2
+2019-05-22 12:24:16,275 [INFO]:        是否随机数：false
+2019-05-22 12:24:16,281 [INFO]:        是否Name随机数：false
+2019-05-22 12:24:16,291 [INFO]:        等待时间：0
+2019-05-22 12:24:16,299 [INFO]: 开始执行操作
+2019-05-22 12:24:16,489 [INFO]: 查看一下截图集合的值：1
+2019-05-22 12:24:17,523 [INFO]: 开始操作Ifame，Iframe名称：申请信息
+2019-05-22 12:24:23,018 [INFO]: 获取到所有的iframe了2019-05-22 12:24:23
+2019-05-22 12:24:23,064 [INFO]: ifame地址1是：GisqQueryList/views/reports/realestate/common/acceptance/Acceptance_HouseRight_Initial.jsp?reportlet=realestate/common/acceptance/Acceptance_HouseRight_Initial.cpt2019-05-22 12:24:23
+2019-05-22 12:24:23,082 [INFO]: 获取到ID是：TAB_IF_6b05a6a9-7c49-11e9-bba5-00505683a2312019-05-22 12:24:23
+2019-05-22 12:24:25,171 [INFO]: 切换到指定的iframe了2019-05-22 12:24:25
+2019-05-22 12:24:25,180 [INFO]: Iframe地址：GisqQueryList/views/reports/realestate/common/acceptance/Acceptance_HouseRight_Initial.jsp?reportlet=realestate/common/acceptance/Acceptance_HouseRight_Initial.cpt
+2019-05-22 12:24:25,191 [INFO]: 当前iframe(申请信息)操作元素：
+2019-05-22 12:24:25,198 [INFO]:        定位方式：XPATH
+2019-05-22 12:24:25,205 [INFO]:        定位路径：/html/body/div[2]/table/tbody/tr[2]/td[2]
+2019-05-22 12:24:25,212 [INFO]:        操作方式：Assert
+2019-05-22 12:24:25,220 [INFO]:        操作默认值：申请信息
+2019-05-22 12:24:25,225 [INFO]:        是否随机数：false
+2019-05-22 12:24:25,229 [INFO]:        是否Name随机数：false
+2019-05-22 12:24:25,239 [INFO]:        等待时间：0
+2019-05-22 12:24:25,244 [INFO]: 开始执行操作
+2019-05-22 12:24:25,291 [INFO]: 当前iframe(申请信息)操作元素：
+2019-05-22 12:24:25,298 [INFO]:        定位方式：XPATH
+2019-05-22 12:24:25,304 [INFO]:        定位路径：/html/body/div[2]/table/tbody/tr[12]/td[2]
+2019-05-22 12:24:25,309 [INFO]:        操作方式：Assert
+2019-05-22 12:24:25,321 [INFO]:        操作默认值：项目信息
+2019-05-22 12:24:25,325 [INFO]:        是否随机数：false
+2019-05-22 12:24:25,336 [INFO]:        是否Name随机数：false
+2019-05-22 12:24:25,341 [INFO]:        等待时间：0
+2019-05-22 12:24:25,347 [INFO]: 开始执行操作
+2019-05-22 12:24:25,390 [INFO]: 当前iframe(申请信息)操作元素：
+2019-05-22 12:24:25,399 [INFO]:        定位方式：ID
+2019-05-22 12:24:25,406 [INFO]:        定位路径：TJSQR
+2019-05-22 12:24:25,412 [INFO]:        操作方式：Assert
+2019-05-22 12:24:25,424 [INFO]:        操作默认值：听
+2019-05-22 12:24:25,429 [INFO]:        是否随机数：false
+2019-05-22 12:24:25,434 [INFO]:        是否Name随机数：false
+2019-05-22 12:24:25,447 [INFO]:        等待时间：0
+2019-05-22 12:24:25,492 [INFO]: 开始执行操作
+2019-05-22 12:24:29,614 [INFO]: 移交校验是否出现：true
+2019-05-22 12:24:29,680 [INFO]: 校验文本：
+2019-05-22 12:24:29,693 [INFO]: 请添加需要登记的不动产单元！ 请添加办件相关申请人！
+2019-05-22 12:24:29,700 [INFO]: 
+2019-05-22 12:24:29,897 [INFO]: 查看一下截图集合的值：2
+2019-05-22 12:24:30,105 [INFO]: 该流程未完成，请留意!
+2019-05-22 12:24:30,118 [INFO]: 开始比对：
+2019-05-22 12:24:30,131 [INFO]: 运行自动化测试
+2019-05-22 12:24:30,952 [INFO]: 关闭数据库连接！
+2019-05-22 12:24:30,958 [INFO]: 要关闭了
+2019-05-22 12:24:30,964 [INFO]: 删除成功！
+2019-05-22 12:24:31,026 [INFO]: 
+2019-05-22 12:24:31,085 [INFO]: ===============================================
+2019-05-22 12:24:31,092 [INFO]: 调试-国有建设用地使用权及房屋所有权（单套）-首次登记-assert_2
+2019-05-22 12:24:31,102 [INFO]: Total tests run: 3, Failures: 2, Skips: 0
+2019-05-22 12:24:31,111 [INFO]: ===============================================
+2019-05-22 12:24:31,197 [INFO]: 
+2019-05-22 12:24:31,415 [INFO]: output:[资料收取-assert_2<br/><img src=\\\"E:\work_space\js_de\debug\SeleniumConfig\bin\Debug\SootScreens\2019-05-22\12_24_16\资料收取-assert_2.png\\\"  hight=\\\"300\\\" width=\\\"300\\\"  onclick=\\\"javascript:window.open(this.src);\\\"/>, 收件受理-环节移交异常！转出校验信息为：
+2019-05-22 12:24:31,424 [INFO]: 请添加需要登记的不动产单元！ 请添加办件相关申请人！
+2019-05-22 12:24:31,430 [INFO]: , 转出校验提示框-2019-05-22 12_24_29<br/><img src=\\\"E:\work_space\js_de\debug\SeleniumConfig\bin\Debug\SootScreens\2019-05-22\12_24_16\转出校验提示框-2019-05-22 12_24_29.png\\\"  hight=\\\"300\\\" width=\\\"300\\\"  onclick=\\\"javascript:window.open(this.src);\\\"/>, 业务号：20190522-0007130, 该流程未完成，请留意!, , , , org.junit.ComparisonFailure: expected:<\\\"申请[]信息\\\"> but was:<\\\"申请[人]信息\\\">,     sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method),     sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source),     sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source),     Test.DataProviderSet_Assert.star(DataProviderSet_Assert.java:39),     sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method),     sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source),     sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source),     java.lang.reflect.Method.invoke(Unknown Source),     org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124),     org.testng.internal.Invoker.invokeMethod(Invoker.java:583),     org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719),     org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989),     org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125),     org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109),     org.testng.TestRunner.privateRun(TestRunner.java:648),     org.testng.TestRunner.run(TestRunner.java:505),     org.testng.SuiteRunner.runTest(SuiteRunner.java:455),     org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450),     org.testng.SuiteRunner.privateRun(SuiteRunner.java:415),     org.testng.SuiteRunner.run(SuiteRunner.java:364),     org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52),     org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84),     org.testng.TestNG.runSuitesSequentially(TestNG.java:1208),     org.testng.TestNG.runSuitesLocally(TestNG.java:1137),     org.testng.TestNG.runSuites(TestNG.java:1049),     org.testng.TestNG.run(TestNG.java:1017),     configSelenium.ConfigSeleniumStart.dotestng(ConfigSeleniumStart.java:1600),     configSelenium.ConfigSeleniumStart.main(ConfigSeleniumStart.java:325), org.junit.ComparisonFailure: expected:<\"[听]\"> but was:<\"[    添加]\">,     sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method),     sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source),     sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source),     Test.DataProviderSet_Assert.star(DataProviderSet_Assert.java:39),     sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method),     sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source),     sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source),     java.lang.reflect.Method.invoke(Unknown Source),     org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124),     org.testng.internal.Invoker.invokeMethod(Invoker.java:583),     org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719),     org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989),     org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125),     org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109),     org.testng.TestRunner.privateRun(TestRunner.java:648),     org.testng.TestRunner.run(TestRunner.java:505),     org.testng.SuiteRunner.runTest(SuiteRunner.java:455),     org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450),     org.testng.SuiteRunner.privateRun(SuiteRunner.java:415),     org.testng.SuiteRunner.run(SuiteRunner.java:364),     org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52),     org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84),     org.testng.TestNG.runSuitesSequentially(TestNG.java:1208),     org.testng.TestNG.runSuitesLocally(TestNG.java:1137),     org.testng.TestNG.runSuites(TestNG.java:1049),     org.testng.TestNG.run(TestNG.java:1017),     configSelenium.ConfigSeleniumStart.dotestng(ConfigSeleniumStart.java:1600),     configSelenium.ConfigSeleniumStart.main(ConfigSeleniumStart.java:325)]
+2019-05-22 12:24:31,461 [INFO]: 开始复制文件
+2019-05-22 12:24:31,495 [INFO]: 复制完成！
+2019-05-22 12:24:31,505 [INFO]: 未设置邮件发送
+2019-05-22 12:24:31,513 [INFO]: 业务号：20190522-0007130
+2019-05-22 12:24:34,675 [INFO]: 开始流程自动化测试！
+2019-05-22 12:24:34,680 [INFO]: 当前执行方案-流程：assert_3-首次登记
+2019-05-22 12:24:36,957 [INFO]: 流程启动成功!
+2019-05-22 12:24:39,022 [INFO]: 获取所有参数
+2019-05-22 12:24:39,064 [INFO]: sid-3187BFC9-9025-41DC-B122-FE3C5CB5CCE6
+2019-05-22 12:24:39,080 [INFO]: 当前环节环节名称：收件受理,环节内码sid-3187BFC9-9025-41DC-B122-FE3C5CB5CCE6
+2019-05-22 12:24:39,090 [INFO]: 开始操作Ifame，Iframe名称：窗口资料收取
+2019-05-22 12:24:49,027 [INFO]: 获取到所有的iframe了2019-05-22 12:24:49
+2019-05-22 12:24:49,049 [INFO]: ifame地址1是：GisqPlatformExplorer/modules/bizmodel/datums_submit2019-05-22 12:24:49
+2019-05-22 12:24:49,068 [INFO]: 获取到ID是：TAB_IF_83565331-7c49-11e9-bba5-00505683a2312019-05-22 12:24:49
+2019-05-22 12:24:51,118 [INFO]: 切换到指定的iframe了2019-05-22 12:24:51
+2019-05-22 12:24:51,123 [INFO]: Iframe地址：GisqPlatformExplorer/modules/bizmodel/datums_submit
+2019-05-22 12:24:51,143 [INFO]: 当前iframe(窗口资料收取)操作元素：
+2019-05-22 12:24:51,149 [INFO]:        定位方式：XPATH
+2019-05-22 12:24:51,158 [INFO]:        定位路径：//div[@role='combobox']
+2019-05-22 12:24:51,172 [INFO]:        操作方式：QT
+2019-05-22 12:24:51,178 [INFO]:        操作默认值：$("#{ID}").jqxDropDownList('selectIndex', 0 );
+2019-05-22 12:24:51,183 [INFO]:        是否随机数：false
+2019-05-22 12:24:51,194 [INFO]:        是否Name随机数：false
+2019-05-22 12:24:51,198 [INFO]:        等待时间：0
+2019-05-22 12:24:51,217 [INFO]: 开始执行操作
+2019-05-22 12:24:51,357 [INFO]: 当前iframe(窗口资料收取)操作元素：
+2019-05-22 12:24:51,366 [INFO]:        定位方式：ID
+2019-05-22 12:24:51,378 [INFO]:        定位路径：saveDatum
+2019-05-22 12:24:51,386 [INFO]:        操作方式：CLICK
+2019-05-22 12:24:51,407 [INFO]:        操作默认值：
+2019-05-22 12:24:51,415 [INFO]:        是否随机数：false
+2019-05-22 12:24:51,429 [INFO]:        是否Name随机数：false
+2019-05-22 12:24:51,438 [INFO]:        等待时间：0
+2019-05-22 12:24:51,671 [INFO]: 开始执行操作
+2019-05-22 12:24:54,713 [INFO]: 当前iframe(窗口资料收取)操作元素：
+2019-05-22 12:24:54,722 [INFO]:        定位方式：
+2019-05-22 12:24:54,731 [INFO]:        定位路径：
+2019-05-22 12:24:54,739 [INFO]:        操作方式：SHOOT
+2019-05-22 12:24:54,753 [INFO]:        操作默认值：资料收取-assert_3
+2019-05-22 12:24:54,778 [INFO]:        是否随机数：false
+2019-05-22 12:24:54,785 [INFO]:        是否Name随机数：false
+2019-05-22 12:24:54,796 [INFO]:        等待时间：0
+2019-05-22 12:24:54,804 [INFO]: 开始执行操作
+2019-05-22 12:24:54,928 [INFO]: 查看一下截图集合的值：1
+2019-05-22 12:24:55,963 [INFO]: 开始操作Ifame，Iframe名称：申请信息
+2019-05-22 12:25:00,740 [INFO]: 获取到所有的iframe了2019-05-22 12:25:00
+2019-05-22 12:25:00,838 [INFO]: ifame地址1是：GisqQueryList/views/reports/realestate/common/acceptance/Acceptance_HouseRight_Initial.jsp?reportlet=realestate/common/acceptance/Acceptance_HouseRight_Initial.cpt2019-05-22 12:25:00
+2019-05-22 12:25:00,856 [INFO]: 获取到ID是：TAB_IF_83565318-7c49-11e9-bba5-00505683a2312019-05-22 12:25:00
+2019-05-22 12:25:02,927 [INFO]: 切换到指定的iframe了2019-05-22 12:25:02
+2019-05-22 12:25:02,943 [INFO]: Iframe地址：GisqQueryList/views/reports/realestate/common/acceptance/Acceptance_HouseRight_Initial.jsp?reportlet=realestate/common/acceptance/Acceptance_HouseRight_Initial.cpt
+2019-05-22 12:25:02,961 [INFO]: 当前iframe(申请信息)操作元素：
+2019-05-22 12:25:02,972 [INFO]:        定位方式：ID
+2019-05-22 12:25:02,978 [INFO]:        定位路径：TJSQR
+2019-05-22 12:25:02,997 [INFO]:        操作方式：Assert
+2019-05-22 12:25:03,006 [INFO]:        操作默认值：添加什么
+2019-05-22 12:25:03,013 [INFO]:        是否随机数：false
+2019-05-22 12:25:03,024 [INFO]:        是否Name随机数：false
+2019-05-22 12:25:03,031 [INFO]:        等待时间：0
+2019-05-22 12:25:03,058 [INFO]: 开始执行操作
+2019-05-22 12:25:06,942 [INFO]: 移交校验是否出现：true
+2019-05-22 12:25:07,013 [INFO]: 校验文本：
+2019-05-22 12:25:07,021 [INFO]: 请添加需要登记的不动产单元！ 请添加办件相关申请人！
+2019-05-22 12:25:07,044 [INFO]: 
+2019-05-22 12:25:07,179 [INFO]: 查看一下截图集合的值：2
+2019-05-22 12:25:07,246 [INFO]: 该流程未完成，请留意!
+2019-05-22 12:25:07,268 [INFO]: 开始比对：
+2019-05-22 12:25:07,273 [INFO]: 运行自动化测试
+2019-05-22 12:25:07,350 [INFO]: 关闭数据库连接！
+2019-05-22 12:25:07,363 [INFO]: 要关闭了
+2019-05-22 12:25:07,369 [INFO]: 删除成功！
+2019-05-22 12:25:07,402 [INFO]: 
+2019-05-22 12:25:07,416 [INFO]: ===============================================
+2019-05-22 12:25:07,441 [INFO]: 调试-国有建设用地使用权及房屋所有权（单套）-首次登记-assert_3
+2019-05-22 12:25:07,447 [INFO]: Total tests run: 1, Failures: 1, Skips: 0
+2019-05-22 12:25:07,456 [INFO]: ===============================================
+2019-05-22 12:25:07,468 [INFO]: 
+2019-05-22 12:25:07,703 [INFO]: output:[资料收取-assert_3<br/><img src=\"E:\work_space\js_de\debug\SeleniumConfig\bin\Debug\SootScreens\2019-05-22\12_24_16\资料收取-assert_3.png\"  hight=\"300\" width=\"300\"  onclick=\"javascript:window.open(this.src);\"/>, 收件受理-环节移交异常！转出校验信息为：
+2019-05-22 12:25:07,710 [INFO]: 请添加需要登记的不动产单元！ 请添加办件相关申请人！
+2019-05-22 12:25:07,721 [INFO]: , 转出校验提示框-2019-05-22 12_25_07<br/><img src=\"E:\work_space\js_de\debug\SeleniumConfig\bin\Debug\SootScreens\2019-05-22\12_24_16\转出校验提示框-2019-05-22 12_25_07.png\"  hight=\"300\" width=\"300\"  onclick=\"javascript:window.open(this.src);\"/>, 业务号：20190522-0007131, 该流程未完成，请留意!, , org.junit.ComparisonFailure: expected:<\"[添加什么]\"> but was:<\"[    添加]\">,     sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method),     sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source),     sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source),     Test.DataProviderSet_Assert.star(DataProviderSet_Assert.java:39),     sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method),     sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source),     sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source),     java.lang.reflect.Method.invoke(Unknown Source),     org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124),     org.testng.internal.Invoker.invokeMethod(Invoker.java:583),     org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719),     org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989),     org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125),     org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109),     org.testng.TestRunner.privateRun(TestRunner.java:648),     org.testng.TestRunner.run(TestRunner.java:505),     org.testng.SuiteRunner.runTest(SuiteRunner.java:455),     org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450),     org.testng.SuiteRunner.privateRun(SuiteRunner.java:415),     org.testng.SuiteRunner.run(SuiteRunner.java:364),     org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52),     org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84),     org.testng.TestNG.runSuitesSequentially(TestNG.java:1208),     org.testng.TestNG.runSuitesLocally(TestNG.java:1137),     org.testng.TestNG.runSuites(TestNG.java:1049),     org.testng.TestNG.run(TestNG.java:1017),     configSelenium.ConfigSeleniumStart.dotestng(ConfigSeleniumStart.java:1600),     configSelenium.ConfigSeleniumStart.main(ConfigSeleniumStart.java:325)]
+2019-05-22 12:25:07,729 [INFO]: 开始复制文件
+2019-05-22 12:25:07,755 [INFO]: 复制完成！
+2019-05-22 12:25:07,761 [INFO]: 未设置邮件发送
+2019-05-22 12:25:07,771 [INFO]: 业务号：20190522-0007131
+2019-05-22 12:25:08,901 [INFO]: 写入文档===
+2019-05-22 12:25:08,998 [INFO]: 写入成功！
+2019-05-22 12:25:09,163 [INFO]: 
+2019-05-22 12:25:09,169 [INFO]: ===============================================
+2019-05-22 12:25:09,179 [INFO]: 调试-国有建设用地使用权及房屋所有权（单套）-首次登记-assert_3
+2019-05-22 12:25:09,190 [INFO]: Total tests run: 1, Failures: 0, Skips: 0
+2019-05-22 12:25:09,204 [INFO]: ===============================================
+2019-05-22 12:25:09,212 [INFO]: 
+2019-05-22 12:25:09,354 [INFO]: output:[资料收取-assert_3<br/><img src=\\"E:\work_space\js_de\debug\SeleniumConfig\bin\Debug\SootScreens\2019-05-22\12_24_16\资料收取-assert_3.png\\"  hight=\\"300\\" width=\\"300\\"  onclick=\\"javascript:window.open(this.src);\\"/>, 收件受理-环节移交异常！转出校验信息为：
+2019-05-22 12:25:09,367 [INFO]: 请添加需要登记的不动产单元！ 请添加办件相关申请人！
+2019-05-22 12:25:09,382 [INFO]: , 转出校验提示框-2019-05-22 12_25_07<br/><img src=\\"E:\work_space\js_de\debug\SeleniumConfig\bin\Debug\SootScreens\2019-05-22\12_24_16\转出校验提示框-2019-05-22 12_25_07.png\\"  hight=\\"300\\" width=\\"300\\"  onclick=\\"javascript:window.open(this.src);\\"/>, 业务号：20190522-0007131, 该流程未完成，请留意!, , org.junit.ComparisonFailure: expected:<\\"[添加什么]\\"> but was:<\\"[    添加]\\">,     sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method),     sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source),     sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source),     Test.DataProviderSet_Assert.star(DataProviderSet_Assert.java:39),     sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method),     sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source),     sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source),     java.lang.reflect.Method.invoke(Unknown Source),     org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124),     org.testng.internal.Invoker.invokeMethod(Invoker.java:583),     org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719),     org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989),     org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125),     org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109),     org.testng.TestRunner.privateRun(TestRunner.java:648),     org.testng.TestRunner.run(TestRunner.java:505),     org.testng.SuiteRunner.runTest(SuiteRunner.java:455),     org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450),     org.testng.SuiteRunner.privateRun(SuiteRunner.java:415),     org.testng.SuiteRunner.run(SuiteRunner.java:364),     org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52),     org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84),     org.testng.TestNG.runSuitesSequentially(TestNG.java:1208),     org.testng.TestNG.runSuitesLocally(TestNG.java:1137),     org.testng.TestNG.runSuites(TestNG.java:1049),     org.testng.TestNG.run(TestNG.java:1017),     configSelenium.ConfigSeleniumStart.dotestng(ConfigSeleniumStart.java:1600),     configSelenium.ConfigSeleniumStart.main(ConfigSeleniumStart.java:325), ]
+2019-05-22 12:25:10,709 [WARN]: 五月 22, 2019 12:25:10 下午 org.openqa.selenium.os.UnixProcess$SeleniumWatchDog destroyHarder
+2019-05-22 12:25:10,720 [WARN]: 信息: Command failed to close cleanly. Destroying forcefully (v2). org.openqa.selenium.os.UnixProcess$SeleniumWatchDog@1caf17de
+2019-05-22 12:25:12,508 [WARN]: 五月 22, 2019 12:25:12 下午 org.openqa.selenium.os.UnixProcess$SeleniumWatchDog destroyHarder
+2019-05-22 12:25:12,531 [WARN]: 信息: Command failed to close cleanly. Destroying forcefully (v2). org.openqa.selenium.os.UnixProcess$SeleniumWatchDog@65ec7757
+2019-05-22 12:25:12,905 [INFO]: 
+2019-05-22 13:11:56,800 [INFO]: Microsoft Windows [版本 10.0.17134.765]
+2019-05-22 13:11:56,843 [INFO]: (c) 2018 Microsoft Corporation。保留所有权利。
+2019-05-22 13:11:56,867 [INFO]: 
+2019-05-22 13:11:56,902 [INFO]: E:\work_space\js_de\debug\SeleniumConfig\bin\Debug>java -jar E:\work_space\js_de\debug\SeleniumConfig\bin\Debug\\SeleniumJAVA\Selenium.jar C#
+2019-05-22 13:11:57,371 [INFO]: 开始准备数据
+2019-05-22 13:11:57,380 [INFO]: 开始缓存总体参数配置文件
+2019-05-22 13:11:57,536 [INFO]: 读取服务地址/E:/work_space/js_de/debug/SeleniumConfig/bin/Debug
+2019-05-22 13:11:57,779 [WARN]: SLF4J: The requested version 1.7.16 by your slf4j binding is not compatible with [1.6]
+2019-05-22 13:11:57,784 [WARN]: SLF4J: See http://www.slf4j.org/codes.html#version_mismatch for further details.
+2019-05-22 13:11:58,254 [INFO]: 13:11:58.251 [main] WARN  net.sf.ehcache.DiskStorePathManager - diskStorePath 'E:\work_space\js_de\debug\SeleniumConfig\bin\Debug\SeleniumJAVA\ehcache' is already used by an existing CacheManager either in the same VM or in a different process.
+2019-05-22 13:11:58,257 [INFO]: The diskStore path for this CacheManager will be set to E:\work_space\js_de\debug\SeleniumConfig\bin\Debug\SeleniumJAVA\ehcache\ehcache_auto_created3038806224290916557diskstore.
+2019-05-22 13:11:58,260 [INFO]: To avoid this warning consider using the CacheManager factory methods to create a singleton CacheManager or specifying a separate ehcache configuration (ehcache.xml) for each CacheManager instance.
+2019-05-22 13:11:58,276 [INFO]: 13:11:58.274 [main] WARN  n.s.e.store.disk.DiskStorageFactory - Data in persistent disk stores is ignored for stores from automatically created directories.
+2019-05-22 13:11:58,281 [INFO]: Remove diskPersistent or resolve the conflicting disk paths in cache configuration.
+2019-05-22 13:11:58,284 [INFO]: Deleting data file E:\work_space\js_de\debug\SeleniumConfig\bin\Debug\SeleniumJAVA\ehcache\ehcache_auto_created3038806224290916557diskstore\active%0053essions%0043ache.data
+2019-05-22 13:11:58,288 [INFO]: 缓存总体参数配置文件成功！
+2019-05-22 13:11:58,301 [INFO]: 开始缓存SQL配置信息
+2019-05-22 13:11:58,335 [INFO]: 缓存SQL配置信息成功！
+2019-05-22 13:11:58,341 [INFO]: 开始缓存SQL配置的SQL语句信息
+2019-05-22 13:12:02,510 [INFO]: 缓存SQL配置的SQL语句信息成功！
+2019-05-22 13:12:02,555 [INFO]: 开始缓存自动化测试配置方案文件
+2019-05-22 13:12:02,586 [INFO]: 缓存自动化测试配置方案文件成功！
+2019-05-22 13:12:02,630 [INFO]: 开始缓存初始化配置参数成功！
+2019-05-22 13:12:02,688 [INFO]: 缓存流程配置信息成功！
+2019-05-22 13:12:02,924 [WARN]: Starting ChromeDriver (v2.9.248315) on port 10453
+2019-05-22 13:12:03,679 [INFO]: 初始化ChromeDriver成功！
+2019-05-22 13:12:04,161 [WARN]: Starting ChromeDriver (v2.9.248315) on port 36078
+2019-05-22 13:12:09,207 [INFO]: 初始化WebDriver成功！
+2019-05-22 13:12:13,402 [INFO]: 开始流程自动化测试！
+2019-05-22 13:12:13,427 [INFO]: 当前执行方案-流程：assert_2-首次登记
+2019-05-22 13:12:15,775 [INFO]: 流程启动成功!
+2019-05-22 13:12:17,878 [INFO]: 获取所有参数
+2019-05-22 13:12:17,925 [INFO]: sid-3187BFC9-9025-41DC-B122-FE3C5CB5CCE6
+2019-05-22 13:12:17,933 [INFO]: 当前环节环节名称：收件受理,环节内码sid-3187BFC9-9025-41DC-B122-FE3C5CB5CCE6
+2019-05-22 13:12:17,947 [INFO]: 开始操作Ifame，Iframe名称：窗口资料收取
+2019-05-22 13:12:33,373 [INFO]: 获取到所有的iframe了2019-05-22 13:12:33
+2019-05-22 13:12:33,422 [INFO]: ifame地址1是：GisqPlatformExplorer/modules/bizmodel/datums_submit2019-05-22 13:12:33
+2019-05-22 13:12:33,450 [INFO]: 获取到ID是：TAB_IF_2c63b3d4-7c50-11e9-bba5-00505683a2312019-05-22 13:12:33
+2019-05-22 13:12:35,549 [INFO]: 切换到指定的iframe了2019-05-22 13:12:35
+2019-05-22 13:12:35,566 [INFO]: Iframe地址：GisqPlatformExplorer/modules/bizmodel/datums_submit
+2019-05-22 13:12:35,638 [INFO]: 当前iframe(窗口资料收取)操作元素：
+2019-05-22 13:12:35,680 [INFO]:        定位方式：XPATH
+2019-05-22 13:12:35,700 [INFO]:        定位路径：//div[@role='combobox']
+2019-05-22 13:12:35,749 [INFO]:        操作方式：QT
+2019-05-22 13:12:35,804 [INFO]:        操作默认值：$("#{ID}").jqxDropDownList('selectIndex', 0 );
+2019-05-22 13:12:35,861 [INFO]:        是否随机数：false
+2019-05-22 13:12:35,892 [INFO]:        是否Name随机数：false
+2019-05-22 13:12:35,946 [INFO]:        等待时间：0
+2019-05-22 13:12:36,026 [INFO]: 开始执行操作
+2019-05-22 13:12:36,485 [INFO]: 当前iframe(窗口资料收取)操作元素：
+2019-05-22 13:12:36,544 [INFO]:        定位方式：ID
+2019-05-22 13:12:36,597 [INFO]:        定位路径：saveDatum
+2019-05-22 13:12:36,636 [INFO]:        操作方式：CLICK
+2019-05-22 13:12:36,663 [INFO]:        操作默认值：
+2019-05-22 13:12:36,702 [INFO]:        是否随机数：false
+2019-05-22 13:12:36,748 [INFO]:        是否Name随机数：false
+2019-05-22 13:12:36,804 [INFO]:        等待时间：0
+2019-05-22 13:12:38,337 [INFO]: 开始执行操作
+2019-05-22 13:12:44,929 [INFO]: 当前iframe(窗口资料收取)操作元素：
+2019-05-22 13:12:45,004 [INFO]:        定位方式：
+2019-05-22 13:12:45,049 [INFO]:        定位路径：
+2019-05-22 13:12:45,089 [INFO]:        操作方式：SHOOT
+2019-05-22 13:12:45,118 [INFO]:        操作默认值：资料收取-assert_2
+2019-05-22 13:12:45,139 [INFO]:        是否随机数：false
+2019-05-22 13:12:45,163 [INFO]:        是否Name随机数：false
+2019-05-22 13:12:45,176 [INFO]:        等待时间：0
+2019-05-22 13:12:45,197 [INFO]: 开始执行操作
+2019-05-22 13:12:45,568 [INFO]: 查看一下截图集合的值：1
+2019-05-22 13:12:46,610 [INFO]: 开始操作Ifame，Iframe名称：申请信息
+2019-05-22 13:12:52,945 [INFO]: 获取到所有的iframe了2019-05-22 13:12:52
+2019-05-22 13:12:53,071 [INFO]: ifame地址1是：GisqQueryList/views/reports/realestate/common/acceptance/Acceptance_HouseRight_Initial.jsp?reportlet=realestate/common/acceptance/Acceptance_HouseRight_Initial.cpt2019-05-22 13:12:53
+2019-05-22 13:12:53,102 [INFO]: 获取到ID是：TAB_IF_2c63b3bb-7c50-11e9-bba5-00505683a2312019-05-22 13:12:53
+2019-05-22 13:12:56,292 [INFO]: 切换到指定的iframe了2019-05-22 13:12:56
+2019-05-22 13:12:56,322 [INFO]: Iframe地址：GisqQueryList/views/reports/realestate/common/acceptance/Acceptance_HouseRight_Initial.jsp?reportlet=realestate/common/acceptance/Acceptance_HouseRight_Initial.cpt
+2019-05-22 13:12:56,345 [INFO]: 当前iframe(申请信息)操作元素：
+2019-05-22 13:12:56,367 [INFO]:        定位方式：XPATH
+2019-05-22 13:12:56,389 [INFO]:        定位路径：/html/body/div[2]/table/tbody/tr[2]/td[2]
+2019-05-22 13:12:56,405 [INFO]:        操作方式：Assert
+2019-05-22 13:12:56,428 [INFO]:        操作默认值：申请信息
+2019-05-22 13:12:56,449 [INFO]:        是否随机数：false
+2019-05-22 13:12:56,474 [INFO]:        是否Name随机数：false
+2019-05-22 13:12:56,503 [INFO]:        等待时间：0
+2019-05-22 13:12:56,530 [INFO]: 开始执行操作
+2019-05-22 13:12:56,602 [INFO]: 当前iframe(申请信息)操作元素：
+2019-05-22 13:12:56,624 [INFO]:        定位方式：XPATH
+2019-05-22 13:12:56,646 [INFO]:        定位路径：/html/body/div[2]/table/tbody/tr[12]/td[2]
+2019-05-22 13:12:56,672 [INFO]:        操作方式：Assert
+2019-05-22 13:12:56,697 [INFO]:        操作默认值：项目信息
+2019-05-22 13:12:56,722 [INFO]:        是否随机数：false
+2019-05-22 13:12:56,742 [INFO]:        是否Name随机数：false
+2019-05-22 13:12:56,767 [INFO]:        等待时间：0
+2019-05-22 13:12:56,785 [INFO]: 开始执行操作
+2019-05-22 13:12:56,817 [INFO]: 当前iframe(申请信息)操作元素：
+2019-05-22 13:12:56,833 [INFO]:        定位方式：ID
+2019-05-22 13:12:56,853 [INFO]:        定位路径：TJSQR
+2019-05-22 13:12:56,879 [INFO]:        操作方式：Assert
+2019-05-22 13:12:56,903 [INFO]:        操作默认值：听
+2019-05-22 13:12:56,937 [INFO]:        是否随机数：false
+2019-05-22 13:12:56,955 [INFO]:        是否Name随机数：false
+2019-05-22 13:12:56,972 [INFO]:        等待时间：0
+2019-05-22 13:12:57,055 [INFO]: 开始执行操作
+2019-05-22 13:13:01,189 [INFO]: 移交校验是否出现：true
+2019-05-22 13:13:01,242 [INFO]: 校验信息未出现关键字段内容，请确认！
+2019-05-22 13:13:01,318 [INFO]: 该流程未完成，请留意!
+2019-05-22 13:13:01,324 [INFO]: 开始比对：
+2019-05-22 13:13:01,343 [INFO]: 运行自动化测试
+2019-05-22 13:13:02,299 [INFO]: 关闭数据库连接！
+2019-05-22 13:13:02,304 [INFO]: 要关闭了
+2019-05-22 13:13:02,312 [INFO]: 删除成功！
+2019-05-22 13:13:02,371 [INFO]: 
+2019-05-22 13:13:02,378 [INFO]: ===============================================
+2019-05-22 13:13:02,387 [INFO]: 调试-国有建设用地使用权及房屋所有权（单套）-首次登记-assert_2
+2019-05-22 13:13:02,395 [INFO]: Total tests run: 3, Failures: 2, Skips: 0
+2019-05-22 13:13:02,400 [INFO]: ===============================================
+2019-05-22 13:13:02,407 [INFO]: 
+2019-05-22 13:13:02,873 [INFO]: output:[资料收取-assert_2<br/><img src=\\\"E:\work_space\js_de\debug\SeleniumConfig\bin\Debug\SootScreens\2019-05-22\13_12_44\资料收取-assert_2.png\\\"  hight=\\\"300\\\" width=\\\"300\\\"  onclick=\\\"javascript:window.open(this.src);\\\"/>, 收件受理环节移交异常！转出校验信息弹窗没有内容！, 业务号：20190522-0007135, 该流程未完成，请留意!, , , , org.junit.ComparisonFailure: expected:<\\\"申请[]信息\\\"> but was:<\\\"申请[人]信息\\\">,     sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method),     sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source),     sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source),     Test.DataProviderSet_Assert.star(DataProviderSet_Assert.java:39),     sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method),     sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source),     sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source),     java.lang.reflect.Method.invoke(Unknown Source),     org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124),     org.testng.internal.Invoker.invokeMethod(Invoker.java:583),     org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719),     org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989),     org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125),     org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109),     org.testng.TestRunner.privateRun(TestRunner.java:648),     org.testng.TestRunner.run(TestRunner.java:505),     org.testng.SuiteRunner.runTest(SuiteRunner.java:455),     org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450),     org.testng.SuiteRunner.privateRun(SuiteRunner.java:415),     org.testng.SuiteRunner.run(SuiteRunner.java:364),     org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52),     org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84),     org.testng.TestNG.runSuitesSequentially(TestNG.java:1208),     org.testng.TestNG.runSuitesLocally(TestNG.java:1137),     org.testng.TestNG.runSuites(TestNG.java:1049),     org.testng.TestNG.run(TestNG.java:1017),     configSelenium.ConfigSeleniumStart.dotestng(ConfigSeleniumStart.java:1601),     configSelenium.ConfigSeleniumStart.main(ConfigSeleniumStart.java:325), org.junit.ComparisonFailure: expected:<\"[听]\"> but was:<\"[    添加]\">,     sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method),     sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source),     sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source),     Test.DataProviderSet_Assert.star(DataProviderSet_Assert.java:39),     sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method),     sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source),     sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source),     java.lang.reflect.Method.invoke(Unknown Source),     org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124),     org.testng.internal.Invoker.invokeMethod(Invoker.java:583),     org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719),     org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989),     org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125),     org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109),     org.testng.TestRunner.privateRun(TestRunner.java:648),     org.testng.TestRunner.run(TestRunner.java:505),     org.testng.SuiteRunner.runTest(SuiteRunner.java:455),     org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450),     org.testng.SuiteRunner.privateRun(SuiteRunner.java:415),     org.testng.SuiteRunner.run(SuiteRunner.java:364),     org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52),     org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84),     org.testng.TestNG.runSuitesSequentially(TestNG.java:1208),     org.testng.TestNG.runSuitesLocally(TestNG.java:1137),     org.testng.TestNG.runSuites(TestNG.java:1049),     org.testng.TestNG.run(TestNG.java:1017),     configSelenium.ConfigSeleniumStart.dotestng(ConfigSeleniumStart.java:1601),     configSelenium.ConfigSeleniumStart.main(ConfigSeleniumStart.java:325)]
+2019-05-22 13:13:02,884 [INFO]: 开始复制文件
+2019-05-22 13:13:02,923 [INFO]: 复制完成！
+2019-05-22 13:13:02,938 [INFO]: 未设置邮件发送
+2019-05-22 13:13:02,955 [INFO]: 业务号：20190522-0007135
+2019-05-22 13:13:06,630 [INFO]: 开始流程自动化测试！
+2019-05-22 13:13:06,704 [INFO]: 当前执行方案-流程：assert_3-首次登记
+2019-05-22 13:13:09,319 [INFO]: 流程启动成功!
+2019-05-22 13:13:11,411 [INFO]: 获取所有参数
+2019-05-22 13:13:11,457 [INFO]: sid-3187BFC9-9025-41DC-B122-FE3C5CB5CCE6
+2019-05-22 13:13:11,485 [INFO]: 当前环节环节名称：收件受理,环节内码sid-3187BFC9-9025-41DC-B122-FE3C5CB5CCE6
+2019-05-22 13:13:11,511 [INFO]: 开始操作Ifame，Iframe名称：窗口资料收取
+2019-05-22 13:13:23,730 [INFO]: 获取到所有的iframe了2019-05-22 13:13:23
+2019-05-22 13:13:23,804 [INFO]: ifame地址1是：GisqPlatformExplorer/modules/bizmodel/datums_submit2019-05-22 13:13:23
+2019-05-22 13:13:23,868 [INFO]: 获取到ID是：TAB_IF_4be9282d-7c50-11e9-bba5-00505683a2312019-05-22 13:13:23
+2019-05-22 13:13:25,948 [INFO]: 切换到指定的iframe了2019-05-22 13:13:25
+2019-05-22 13:13:25,972 [INFO]: Iframe地址：GisqPlatformExplorer/modules/bizmodel/datums_submit
+2019-05-22 13:13:26,011 [INFO]: 当前iframe(窗口资料收取)操作元素：
+2019-05-22 13:13:26,038 [INFO]:        定位方式：XPATH
+2019-05-22 13:13:26,067 [INFO]:        定位路径：//div[@role='combobox']
+2019-05-22 13:13:26,104 [INFO]:        操作方式：QT
+2019-05-22 13:13:26,139 [INFO]:        操作默认值：$("#{ID}").jqxDropDownList('selectIndex', 0 );
+2019-05-22 13:13:26,160 [INFO]:        是否随机数：false
+2019-05-22 13:13:26,186 [INFO]:        是否Name随机数：false
+2019-05-22 13:13:26,207 [INFO]:        等待时间：0
+2019-05-22 13:13:26,238 [INFO]: 开始执行操作
+2019-05-22 13:13:26,381 [INFO]: 当前iframe(窗口资料收取)操作元素：
+2019-05-22 13:13:26,396 [INFO]:        定位方式：ID
+2019-05-22 13:13:26,411 [INFO]:        定位路径：saveDatum
+2019-05-22 13:13:26,429 [INFO]:        操作方式：CLICK
+2019-05-22 13:13:26,451 [INFO]:        操作默认值：
+2019-05-22 13:13:26,467 [INFO]:        是否随机数：false
+2019-05-22 13:13:26,477 [INFO]:        是否Name随机数：false
+2019-05-22 13:13:26,494 [INFO]:        等待时间：0
+2019-05-22 13:13:27,149 [INFO]: 开始执行操作
+2019-05-22 13:13:31,369 [INFO]: 当前iframe(窗口资料收取)操作元素：
+2019-05-22 13:13:31,385 [INFO]:        定位方式：
+2019-05-22 13:13:31,398 [INFO]:        定位路径：
+2019-05-22 13:13:31,471 [INFO]:        操作方式：SHOOT
+2019-05-22 13:13:31,508 [INFO]:        操作默认值：资料收取-assert_3
+2019-05-22 13:13:31,542 [INFO]:        是否随机数：false
+2019-05-22 13:13:31,579 [INFO]:        是否Name随机数：false
+2019-05-22 13:13:31,601 [INFO]:        等待时间：0
+2019-05-22 13:13:31,629 [INFO]: 开始执行操作
+2019-05-22 13:13:31,806 [INFO]: 查看一下截图集合的值：1
+2019-05-22 13:13:32,978 [INFO]: 开始操作Ifame，Iframe名称：申请信息
+2019-05-22 13:13:38,082 [INFO]: 获取到所有的iframe了2019-05-22 13:13:38
+2019-05-22 13:13:38,176 [INFO]: ifame地址1是：GisqQueryList/views/reports/realestate/common/acceptance/Acceptance_HouseRight_Initial.jsp?reportlet=realestate/common/acceptance/Acceptance_HouseRight_Initial.cpt2019-05-22 13:13:38
+2019-05-22 13:13:38,193 [INFO]: 获取到ID是：TAB_IF_4be92814-7c50-11e9-bba5-00505683a2312019-05-22 13:13:38
+2019-05-22 13:13:40,433 [INFO]: 切换到指定的iframe了2019-05-22 13:13:40
+2019-05-22 13:13:40,462 [INFO]: Iframe地址：GisqQueryList/views/reports/realestate/common/acceptance/Acceptance_HouseRight_Initial.jsp?reportlet=realestate/common/acceptance/Acceptance_HouseRight_Initial.cpt
+2019-05-22 13:13:40,487 [INFO]: 当前iframe(申请信息)操作元素：
+2019-05-22 13:13:40,518 [INFO]:        定位方式：ID
+2019-05-22 13:13:40,539 [INFO]:        定位路径：TJSQR
+2019-05-22 13:13:40,563 [INFO]:        操作方式：Assert
+2019-05-22 13:13:40,597 [INFO]:        操作默认值：添加什么
+2019-05-22 13:13:40,615 [INFO]:        是否随机数：false
+2019-05-22 13:13:40,634 [INFO]:        是否Name随机数：false
+2019-05-22 13:13:40,659 [INFO]:        等待时间：0
+2019-05-22 13:13:40,676 [INFO]: 开始执行操作
+2019-05-22 13:13:44,735 [INFO]: 移交校验是否出现：true
+2019-05-22 13:13:44,813 [INFO]: 校验文本：
+2019-05-22 13:13:44,837 [INFO]: 请添加需要登记的不动产单元！ 请添加办件相关申请人！
+2019-05-22 13:13:44,863 [INFO]: 
+2019-05-22 13:13:45,119 [INFO]: 查看一下截图集合的值：2
+2019-05-22 13:13:45,238 [INFO]: 该流程未完成，请留意!
+2019-05-22 13:13:45,258 [INFO]: 开始比对：
+2019-05-22 13:13:45,284 [INFO]: 运行自动化测试
+2019-05-22 13:13:45,338 [INFO]: 关闭数据库连接！
+2019-05-22 13:13:45,380 [INFO]: 要关闭了
+2019-05-22 13:13:45,400 [INFO]: 删除成功！
+2019-05-22 13:13:45,421 [INFO]: 
+2019-05-22 13:13:45,438 [INFO]: ===============================================
+2019-05-22 13:13:45,462 [INFO]: 调试-国有建设用地使用权及房屋所有权（单套）-首次登记-assert_3
+2019-05-22 13:13:45,485 [INFO]: Total tests run: 1, Failures: 1, Skips: 0
+2019-05-22 13:13:45,512 [INFO]: ===============================================
+2019-05-22 13:13:45,529 [INFO]: 
+2019-05-22 13:13:45,785 [INFO]: output:[资料收取-assert_3<br/><img src=\"E:\work_space\js_de\debug\SeleniumConfig\bin\Debug\SootScreens\2019-05-22\13_12_44\资料收取-assert_3.png\"  hight=\"300\" width=\"300\"  onclick=\"javascript:window.open(this.src);\"/>, 收件受理-环节移交异常！转出校验信息为：
+2019-05-22 13:13:45,814 [INFO]: 请添加需要登记的不动产单元！ 请添加办件相关申请人！
+2019-05-22 13:13:45,833 [INFO]: , 转出校验提示框-2019-05-22 13_13_44<br/><img src=\"E:\work_space\js_de\debug\SeleniumConfig\bin\Debug\SootScreens\2019-05-22\13_12_44\转出校验提示框-2019-05-22 13_13_44.png\"  hight=\"300\" width=\"300\"  onclick=\"javascript:window.open(this.src);\"/>, 业务号：20190522-0007137, 该流程未完成，请留意!, , org.junit.ComparisonFailure: expected:<\"[添加什么]\"> but was:<\"[    添加]\">,     sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method),     sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source),     sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source),     Test.DataProviderSet_Assert.star(DataProviderSet_Assert.java:39),     sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method),     sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source),     sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source),     java.lang.reflect.Method.invoke(Unknown Source),     org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124),     org.testng.internal.Invoker.invokeMethod(Invoker.java:583),     org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719),     org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989),     org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125),     org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109),     org.testng.TestRunner.privateRun(TestRunner.java:648),     org.testng.TestRunner.run(TestRunner.java:505),     org.testng.SuiteRunner.runTest(SuiteRunner.java:455),     org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450),     org.testng.SuiteRunner.privateRun(SuiteRunner.java:415),     org.testng.SuiteRunner.run(SuiteRunner.java:364),     org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52),     org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84),     org.testng.TestNG.runSuitesSequentially(TestNG.java:1208),     org.testng.TestNG.runSuitesLocally(TestNG.java:1137),     org.testng.TestNG.runSuites(TestNG.java:1049),     org.testng.TestNG.run(TestNG.java:1017),     configSelenium.ConfigSeleniumStart.dotestng(ConfigSeleniumStart.java:1601),     configSelenium.ConfigSeleniumStart.main(ConfigSeleniumStart.java:325)]
+2019-05-22 13:13:45,854 [INFO]: 开始复制文件
+2019-05-22 13:13:45,880 [INFO]: 复制完成！
+2019-05-22 13:13:45,909 [INFO]: 未设置邮件发送
+2019-05-22 13:13:45,936 [INFO]: 业务号：20190522-0007137
+2019-05-22 13:13:47,287 [INFO]: 写入文档===
+2019-05-22 13:13:47,368 [INFO]: 写入成功！
+2019-05-22 13:13:48,588 [WARN]: 五月 22, 2019 1:13:48 下午 org.openqa.selenium.os.UnixProcess$SeleniumWatchDog destroyHarder
+2019-05-22 13:13:48,608 [WARN]: 信息: Command failed to close cleanly. Destroying forcefully (v2). org.openqa.selenium.os.UnixProcess$SeleniumWatchDog@74c08828
+2019-05-22 13:13:50,916 [WARN]: 五月 22, 2019 1:13:50 下午 org.openqa.selenium.os.UnixProcess$SeleniumWatchDog destroyHarder
+2019-05-22 13:13:50,926 [WARN]: 信息: Command failed to close cleanly. Destroying forcefully (v2). org.openqa.selenium.os.UnixProcess$SeleniumWatchDog@5db92249
+2019-05-22 13:13:51,665 [INFO]: 
+2019-05-22 13:18:40,369 [INFO]: Microsoft Windows [版本 10.0.17134.765]
+2019-05-22 13:18:40,385 [INFO]: (c) 2018 Microsoft Corporation。保留所有权利。
+2019-05-22 13:18:40,397 [INFO]: 
+2019-05-22 13:18:40,404 [INFO]: E:\work_space\js_de\debug\SeleniumConfig\bin\Debug>java -jar E:\work_space\js_de\debug\SeleniumConfig\bin\Debug\\SeleniumJAVA\Selenium.jar C#
+2019-05-22 13:18:41,535 [INFO]: 开始准备数据
+2019-05-22 13:18:41,546 [INFO]: 开始缓存总体参数配置文件
+2019-05-22 13:18:41,974 [INFO]: 读取服务地址/E:/work_space/js_de/debug/SeleniumConfig/bin/Debug
+2019-05-22 13:18:43,180 [INFO]: 13:18:43.177 [main] WARN  net.sf.ehcache.DiskStorePathManager - diskStorePath 'E:\work_space\js_de\debug\SeleniumConfig\bin\Debug\SeleniumJAVA\ehcache' is already used by an existing CacheManager either in the same VM or in a different process.
+2019-05-22 13:18:43,185 [INFO]: The diskStore path for this CacheManager will be set to E:\work_space\js_de\debug\SeleniumConfig\bin\Debug\SeleniumJAVA\ehcache\ehcache_auto_created7365346040432184021diskstore.
+2019-05-22 13:18:43,191 [INFO]: To avoid this warning consider using the CacheManager factory methods to create a singleton CacheManager or specifying a separate ehcache configuration (ehcache.xml) for each CacheManager instance.
+2019-05-22 13:18:43,213 [INFO]: 13:18:43.212 [main] WARN  n.s.e.store.disk.DiskStorageFactory - Data in persistent disk stores is ignored for stores from automatically created directories.
+2019-05-22 13:18:43,217 [INFO]: Remove diskPersistent or resolve the conflicting disk paths in cache configuration.
+2019-05-22 13:18:43,225 [INFO]: Deleting data file E:\work_space\js_de\debug\SeleniumConfig\bin\Debug\SeleniumJAVA\ehcache\ehcache_auto_created7365346040432184021diskstore\active%0053essions%0043ache.data
+2019-05-22 13:18:43,233 [INFO]: 缓存总体参数配置文件成功！
+2019-05-22 13:18:43,239 [INFO]: 开始缓存SQL配置信息
+2019-05-22 13:18:43,281 [INFO]: 缓存SQL配置信息成功！
+2019-05-22 13:18:43,291 [INFO]: 开始缓存SQL配置的SQL语句信息
+2019-05-22 13:18:46,647 [WARN]: SLF4J: The requested version 1.7.16 by your slf4j binding is not compatible with [1.6]
+2019-05-22 13:18:46,652 [WARN]: SLF4J: See http://www.slf4j.org/codes.html#version_mismatch for further details.
+2019-05-22 13:18:47,635 [INFO]: 缓存SQL配置的SQL语句信息成功！
+2019-05-22 13:18:47,649 [INFO]: 开始缓存自动化测试配置方案文件
+2019-05-22 13:18:47,674 [INFO]: 缓存自动化测试配置方案文件成功！
+2019-05-22 13:18:47,681 [INFO]: 开始缓存初始化配置参数成功！
+2019-05-22 13:18:47,726 [INFO]: 缓存流程配置信息成功！
+2019-05-22 13:18:48,231 [WARN]: Starting ChromeDriver (v2.9.248315) on port 17594
+2019-05-22 13:18:48,858 [INFO]: 初始化ChromeDriver成功！
+2019-05-22 13:18:49,738 [WARN]: Starting ChromeDriver (v2.9.248315) on port 36088
+2019-05-22 13:18:54,678 [INFO]: 初始化WebDriver成功！
+2019-05-22 13:18:58,393 [INFO]: 开始流程自动化测试！
+2019-05-22 13:18:58,398 [INFO]: 当前执行方案-流程：assert_2-首次登记
+2019-05-22 13:19:00,687 [INFO]: 流程启动成功!
+2019-05-22 13:19:02,742 [INFO]: 获取所有参数
+2019-05-22 13:19:02,787 [INFO]: sid-3187BFC9-9025-41DC-B122-FE3C5CB5CCE6
+2019-05-22 13:19:02,802 [INFO]: 当前环节环节名称：收件受理,环节内码sid-3187BFC9-9025-41DC-B122-FE3C5CB5CCE6
+2019-05-22 13:19:02,809 [INFO]: 开始操作Ifame，Iframe名称：窗口资料收取
+2019-05-22 13:19:15,282 [INFO]: 获取到所有的iframe了2019-05-22 13:19:15
+2019-05-22 13:19:15,300 [INFO]: ifame地址1是：GisqPlatformExplorer/modules/bizmodel/datums_submit2019-05-22 13:19:15
+2019-05-22 13:19:15,317 [INFO]: 获取到ID是：TAB_IF_1d69d19f-7c51-11e9-bba5-00505683a2312019-05-22 13:19:15
+2019-05-22 13:19:17,384 [INFO]: 切换到指定的iframe了2019-05-22 13:19:17
+2019-05-22 13:19:17,398 [INFO]: Iframe地址：GisqPlatformExplorer/modules/bizmodel/datums_submit
+2019-05-22 13:19:17,411 [INFO]: 当前iframe(窗口资料收取)操作元素：
+2019-05-22 13:19:17,416 [INFO]:        定位方式：XPATH
+2019-05-22 13:19:17,424 [INFO]:        定位路径：//div[@role='combobox']
+2019-05-22 13:19:17,430 [INFO]:        操作方式：QT
+2019-05-22 13:19:17,436 [INFO]:        操作默认值：$("#{ID}").jqxDropDownList('selectIndex', 0 );
+2019-05-22 13:19:17,444 [INFO]:        是否随机数：false
+2019-05-22 13:19:17,453 [INFO]:        是否Name随机数：false
+2019-05-22 13:19:17,461 [INFO]:        等待时间：0
+2019-05-22 13:19:17,470 [INFO]: 开始执行操作
+2019-05-22 13:19:17,613 [INFO]: 当前iframe(窗口资料收取)操作元素：
+2019-05-22 13:19:17,618 [INFO]:        定位方式：ID
+2019-05-22 13:19:17,629 [INFO]:        定位路径：saveDatum
+2019-05-22 13:19:17,637 [INFO]:        操作方式：CLICK
+2019-05-22 13:19:17,649 [INFO]:        操作默认值：
+2019-05-22 13:19:17,657 [INFO]:        是否随机数：false
+2019-05-22 13:19:17,664 [INFO]:        是否Name随机数：false
+2019-05-22 13:19:17,678 [INFO]:        等待时间：0
+2019-05-22 13:19:17,995 [INFO]: 开始执行操作
+2019-05-22 13:19:21,772 [INFO]: 当前iframe(窗口资料收取)操作元素：
+2019-05-22 13:19:21,777 [INFO]:        定位方式：
+2019-05-22 13:19:21,786 [INFO]:        定位路径：
+2019-05-22 13:19:21,803 [INFO]:        操作方式：SHOOT
+2019-05-22 13:19:21,843 [INFO]:        操作默认值：资料收取-assert_2
+2019-05-22 13:19:21,858 [INFO]:        是否随机数：false
+2019-05-22 13:19:21,878 [INFO]:        是否Name随机数：false
+2019-05-22 13:19:21,884 [INFO]:        等待时间：0
+2019-05-22 13:19:21,929 [INFO]: 开始执行操作
+2019-05-22 13:19:22,129 [INFO]: 查看一下截图集合的值：1
+2019-05-22 13:19:23,159 [INFO]: 开始操作Ifame，Iframe名称：申请信息
+2019-05-22 13:19:28,459 [INFO]: 获取到所有的iframe了2019-05-22 13:19:28
+2019-05-22 13:19:28,488 [INFO]: ifame地址1是：GisqQueryList/views/reports/realestate/common/acceptance/Acceptance_HouseRight_Initial.jsp?reportlet=realestate/common/acceptance/Acceptance_HouseRight_Initial.cpt2019-05-22 13:19:28
+2019-05-22 13:19:28,500 [INFO]: 获取到ID是：TAB_IF_1d69d186-7c51-11e9-bba5-00505683a2312019-05-22 13:19:28
+2019-05-22 13:19:30,596 [INFO]: 切换到指定的iframe了2019-05-22 13:19:30
+2019-05-22 13:19:30,601 [INFO]: Iframe地址：GisqQueryList/views/reports/realestate/common/acceptance/Acceptance_HouseRight_Initial.jsp?reportlet=realestate/common/acceptance/Acceptance_HouseRight_Initial.cpt
+2019-05-22 13:19:30,617 [INFO]: 当前iframe(申请信息)操作元素：
+2019-05-22 13:19:30,631 [INFO]:        定位方式：XPATH
+2019-05-22 13:19:30,644 [INFO]:        定位路径：/html/body/div[2]/table/tbody/tr[2]/td[2]
+2019-05-22 13:19:30,649 [INFO]:        操作方式：Assert
+2019-05-22 13:19:30,660 [INFO]:        操作默认值：申请信息
+2019-05-22 13:19:30,665 [INFO]:        是否随机数：false
+2019-05-22 13:19:30,674 [INFO]:        是否Name随机数：false
+2019-05-22 13:19:30,679 [INFO]:        等待时间：0
+2019-05-22 13:19:30,690 [INFO]: 开始执行操作
+2019-05-22 13:19:30,720 [INFO]: 当前iframe(申请信息)操作元素：
+2019-05-22 13:19:30,724 [INFO]:        定位方式：XPATH
+2019-05-22 13:19:30,736 [INFO]:        定位路径：/html/body/div[2]/table/tbody/tr[12]/td[2]
+2019-05-22 13:19:30,743 [INFO]:        操作方式：Assert
+2019-05-22 13:19:30,749 [INFO]:        操作默认值：项目信息
+2019-05-22 13:19:30,758 [INFO]:        是否随机数：false
+2019-05-22 13:19:30,764 [INFO]:        是否Name随机数：false
+2019-05-22 13:19:30,774 [INFO]:        等待时间：0
+2019-05-22 13:19:30,797 [INFO]: 开始执行操作
+2019-05-22 13:19:30,843 [INFO]: 当前iframe(申请信息)操作元素：
+2019-05-22 13:19:30,848 [INFO]:        定位方式：ID
+2019-05-22 13:19:30,855 [INFO]:        定位路径：TJSQR
+2019-05-22 13:19:30,863 [INFO]:        操作方式：Assert
+2019-05-22 13:19:30,869 [INFO]:        操作默认值：听
+2019-05-22 13:19:30,893 [INFO]:        是否随机数：false
+2019-05-22 13:19:30,899 [INFO]:        是否Name随机数：false
+2019-05-22 13:19:30,906 [INFO]:        等待时间：0
+2019-05-22 13:19:30,960 [INFO]: 开始执行操作
+2019-05-22 13:19:34,839 [INFO]: 移交校验是否出现：true
+2019-05-22 13:19:34,883 [INFO]: 校验信息未出现关键字段内容，请确认！
+2019-05-22 13:19:34,964 [INFO]: 该流程未完成，请留意!
+2019-05-22 13:19:34,973 [INFO]: 开始比对：
+2019-05-22 13:19:34,981 [INFO]: 运行自动化测试
+2019-05-22 13:19:35,742 [INFO]: 关闭数据库连接！
+2019-05-22 13:19:35,747 [INFO]: 要关闭了
+2019-05-22 13:19:35,765 [INFO]: 删除成功！
+2019-05-22 13:19:35,798 [INFO]: 
+2019-05-22 13:19:35,804 [INFO]: ===============================================
+2019-05-22 13:19:35,809 [INFO]: 调试-国有建设用地使用权及房屋所有权（单套）-首次登记-assert_2
+2019-05-22 13:19:35,817 [INFO]: Total tests run: 3, Failures: 2, Skips: 0
+2019-05-22 13:19:35,822 [INFO]: ===============================================
+2019-05-22 13:19:35,861 [INFO]: 
+2019-05-22 13:19:36,192 [INFO]: output:[资料收取-assert_2<br/><img src=\\\"E:\work_space\js_de\debug\SeleniumConfig\bin\Debug\SootScreens\2019-05-22\13_19_21\资料收取-assert_2.png\\\"  hight=\\\"300\\\" width=\\\"300\\\"  onclick=\\\"javascript:window.open(this.src);\\\"/>, 收件受理环节移交异常！转出校验信息弹窗没有内容！, 业务号：20190522-0007142, 该流程未完成，请留意!, , , , org.junit.ComparisonFailure: expected:<\\\"申请[]信息\\\"> but was:<\\\"申请[人]信息\\\">,     sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method),     sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source),     sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source),     Test.DataProviderSet_Assert.star(DataProviderSet_Assert.java:39),     sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method),     sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source),     sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source),     java.lang.reflect.Method.invoke(Unknown Source),     org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124),     org.testng.internal.Invoker.invokeMethod(Invoker.java:583),     org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719),     org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989),     org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125),     org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109),     org.testng.TestRunner.privateRun(TestRunner.java:648),     org.testng.TestRunner.run(TestRunner.java:505),     org.testng.SuiteRunner.runTest(SuiteRunner.java:455),     org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450),     org.testng.SuiteRunner.privateRun(SuiteRunner.java:415),     org.testng.SuiteRunner.run(SuiteRunner.java:364),     org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52),     org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84),     org.testng.TestNG.runSuitesSequentially(TestNG.java:1208),     org.testng.TestNG.runSuitesLocally(TestNG.java:1137),     org.testng.TestNG.runSuites(TestNG.java:1049),     org.testng.TestNG.run(TestNG.java:1017),     configSelenium.ConfigSeleniumStart.dotestng(ConfigSeleniumStart.java:1604),     configSelenium.ConfigSeleniumStart.main(ConfigSeleniumStart.java:328), org.junit.ComparisonFailure: expected:<\"[听]\"> but was:<\"[    添加]\">,     sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method),     sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source),     sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source),     Test.DataProviderSet_Assert.star(DataProviderSet_Assert.java:39),     sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method),     sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source),     sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source),     java.lang.reflect.Method.invoke(Unknown Source),     org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124),     org.testng.internal.Invoker.invokeMethod(Invoker.java:583),     org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719),     org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989),     org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125),     org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109),     org.testng.TestRunner.privateRun(TestRunner.java:648),     org.testng.TestRunner.run(TestRunner.java:505),     org.testng.SuiteRunner.runTest(SuiteRunner.java:455),     org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450),     org.testng.SuiteRunner.privateRun(SuiteRunner.java:415),     org.testng.SuiteRunner.run(SuiteRunner.java:364),     org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52),     org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84),     org.testng.TestNG.runSuitesSequentially(TestNG.java:1208),     org.testng.TestNG.runSuitesLocally(TestNG.java:1137),     org.testng.TestNG.runSuites(TestNG.java:1049),     org.testng.TestNG.run(TestNG.java:1017),     configSelenium.ConfigSeleniumStart.dotestng(ConfigSeleniumStart.java:1604),     configSelenium.ConfigSeleniumStart.main(ConfigSeleniumStart.java:328)]
+2019-05-22 13:19:36,329 [INFO]: 开始复制文件
+2019-05-22 13:19:36,369 [INFO]: 复制完成！
+2019-05-22 13:19:36,379 [INFO]: 未设置邮件发送
+2019-05-22 13:19:36,391 [INFO]: 业务号：20190522-0007142
+2019-05-22 13:19:39,504 [INFO]: 开始流程自动化测试！
+2019-05-22 13:19:39,510 [INFO]: 当前执行方案-流程：assert_3-首次登记
+2019-05-22 13:19:41,772 [INFO]: 流程启动成功!
+2019-05-22 13:19:43,837 [INFO]: 获取所有参数
+2019-05-22 13:19:43,876 [INFO]: sid-3187BFC9-9025-41DC-B122-FE3C5CB5CCE6
+2019-05-22 13:19:43,886 [INFO]: 当前环节环节名称：收件受理,环节内码sid-3187BFC9-9025-41DC-B122-FE3C5CB5CCE6
+2019-05-22 13:19:43,897 [INFO]: 开始操作Ifame，Iframe名称：窗口资料收取
+2019-05-22 13:19:53,426 [INFO]: 获取到所有的iframe了2019-05-22 13:19:53
+2019-05-22 13:19:53,442 [INFO]: ifame地址1是：GisqPlatformExplorer/modules/bizmodel/datums_submit2019-05-22 13:19:53
+2019-05-22 13:19:53,459 [INFO]: 获取到ID是：TAB_IF_34f112e1-7c51-11e9-bba5-00505683a2312019-05-22 13:19:53
+2019-05-22 13:19:55,548 [INFO]: 切换到指定的iframe了2019-05-22 13:19:55
+2019-05-22 13:19:55,554 [INFO]: Iframe地址：GisqPlatformExplorer/modules/bizmodel/datums_submit
+2019-05-22 13:19:55,570 [INFO]: 当前iframe(窗口资料收取)操作元素：
+2019-05-22 13:19:55,588 [INFO]:        定位方式：XPATH
+2019-05-22 13:19:55,602 [INFO]:        定位路径：//div[@role='combobox']
+2019-05-22 13:19:55,612 [INFO]:        操作方式：QT
+2019-05-22 13:19:55,618 [INFO]:        操作默认值：$("#{ID}").jqxDropDownList('selectIndex', 0 );
+2019-05-22 13:19:55,627 [INFO]:        是否随机数：false
+2019-05-22 13:19:55,633 [INFO]:        是否Name随机数：false
+2019-05-22 13:19:55,641 [INFO]:        等待时间：0
+2019-05-22 13:19:55,649 [INFO]: 开始执行操作
+2019-05-22 13:19:55,760 [INFO]: 当前iframe(窗口资料收取)操作元素：
+2019-05-22 13:19:55,770 [INFO]:        定位方式：ID
+2019-05-22 13:19:55,776 [INFO]:        定位路径：saveDatum
+2019-05-22 13:19:55,799 [INFO]:        操作方式：CLICK
+2019-05-22 13:19:55,815 [INFO]:        操作默认值：
+2019-05-22 13:19:55,822 [INFO]:        是否随机数：false
+2019-05-22 13:19:55,834 [INFO]:        是否Name随机数：false
+2019-05-22 13:19:55,839 [INFO]:        等待时间：0
+2019-05-22 13:19:56,029 [INFO]: 开始执行操作
+2019-05-22 13:19:59,405 [INFO]: 当前iframe(窗口资料收取)操作元素：
+2019-05-22 13:19:59,416 [INFO]:        定位方式：
+2019-05-22 13:19:59,432 [INFO]:        定位路径：
+2019-05-22 13:19:59,542 [INFO]:        操作方式：SHOOT
+2019-05-22 13:19:59,566 [INFO]:        操作默认值：资料收取-assert_3
+2019-05-22 13:19:59,573 [INFO]:        是否随机数：false
+2019-05-22 13:19:59,587 [INFO]:        是否Name随机数：false
+2019-05-22 13:19:59,601 [INFO]:        等待时间：0
+2019-05-22 13:19:59,605 [INFO]: 开始执行操作
+2019-05-22 13:19:59,691 [INFO]: 查看一下截图集合的值：1
+2019-05-22 13:20:00,723 [INFO]: 开始操作Ifame，Iframe名称：申请信息
+2019-05-22 13:20:05,492 [INFO]: 获取到所有的iframe了2019-05-22 13:20:05
+2019-05-22 13:20:05,560 [INFO]: ifame地址1是：GisqQueryList/views/reports/realestate/common/acceptance/Acceptance_HouseRight_Initial.jsp?reportlet=realestate/common/acceptance/Acceptance_HouseRight_Initial.cpt2019-05-22 13:20:05
+2019-05-22 13:20:05,572 [INFO]: 获取到ID是：TAB_IF_34f112c8-7c51-11e9-bba5-00505683a2312019-05-22 13:20:05
+2019-05-22 13:20:07,623 [INFO]: 切换到指定的iframe了2019-05-22 13:20:07
+2019-05-22 13:20:07,631 [INFO]: Iframe地址：GisqQueryList/views/reports/realestate/common/acceptance/Acceptance_HouseRight_Initial.jsp?reportlet=realestate/common/acceptance/Acceptance_HouseRight_Initial.cpt
+2019-05-22 13:20:07,652 [INFO]: 当前iframe(申请信息)操作元素：
+2019-05-22 13:20:07,661 [INFO]:        定位方式：ID
+2019-05-22 13:20:07,671 [INFO]:        定位路径：TJSQR
+2019-05-22 13:20:07,684 [INFO]:        操作方式：Assert
+2019-05-22 13:20:07,692 [INFO]:        操作默认值：添加什么
+2019-05-22 13:20:07,698 [INFO]:        是否随机数：false
+2019-05-22 13:20:07,708 [INFO]:        是否Name随机数：false
+2019-05-22 13:20:07,714 [INFO]:        等待时间：0
+2019-05-22 13:20:07,832 [INFO]: 开始执行操作
+2019-05-22 13:20:12,398 [INFO]: 移交校验是否出现：true
+2019-05-22 13:20:12,435 [INFO]: 校验信息未出现关键字段内容，请确认！
+2019-05-22 13:20:12,509 [INFO]: 该流程未完成，请留意!
+2019-05-22 13:20:12,519 [INFO]: 开始比对：
+2019-05-22 13:20:12,527 [INFO]: 运行自动化测试
+2019-05-22 13:20:12,561 [INFO]: 关闭数据库连接！
+2019-05-22 13:20:12,570 [INFO]: 要关闭了
+2019-05-22 13:20:12,578 [INFO]: 删除成功！
+2019-05-22 13:20:12,595 [INFO]: 
+2019-05-22 13:20:12,603 [INFO]: ===============================================
+2019-05-22 13:20:12,612 [INFO]: 调试-国有建设用地使用权及房屋所有权（单套）-首次登记-assert_3
+2019-05-22 13:20:12,617 [INFO]: Total tests run: 1, Failures: 1, Skips: 0
+2019-05-22 13:20:12,643 [INFO]: ===============================================
+2019-05-22 13:20:12,657 [INFO]: 
+2019-05-22 13:20:12,692 [INFO]: output:[资料收取-assert_3<br/><img src=\"E:\work_space\js_de\debug\SeleniumConfig\bin\Debug\SootScreens\2019-05-22\13_19_21\资料收取-assert_3.png\"  hight=\"300\" width=\"300\"  onclick=\"javascript:window.open(this.src);\"/>, 收件受理环节移交异常！转出校验信息弹窗没有内容！, 业务号：20190522-0007144, 该流程未完成，请留意!, , org.junit.ComparisonFailure: expected:<\"[添加什么]\"> but was:<\"[    添加]\">,     sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method),     sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source),     sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source),     Test.DataProviderSet_Assert.star(DataProviderSet_Assert.java:39),     sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method),     sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source),     sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source),     java.lang.reflect.Method.invoke(Unknown Source),     org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124),     org.testng.internal.Invoker.invokeMethod(Invoker.java:583),     org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719),     org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989),     org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125),     org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109),     org.testng.TestRunner.privateRun(TestRunner.java:648),     org.testng.TestRunner.run(TestRunner.java:505),     org.testng.SuiteRunner.runTest(SuiteRunner.java:455),     org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450),     org.testng.SuiteRunner.privateRun(SuiteRunner.java:415),     org.testng.SuiteRunner.run(SuiteRunner.java:364),     org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52),     org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84),     org.testng.TestNG.runSuitesSequentially(TestNG.java:1208),     org.testng.TestNG.runSuitesLocally(TestNG.java:1137),     org.testng.TestNG.runSuites(TestNG.java:1049),     org.testng.TestNG.run(TestNG.java:1017),     configSelenium.ConfigSeleniumStart.dotestng(ConfigSeleniumStart.java:1604),     configSelenium.ConfigSeleniumStart.main(ConfigSeleniumStart.java:328)]
+2019-05-22 13:20:12,802 [INFO]: 开始复制文件
+2019-05-22 13:20:12,847 [INFO]: 复制完成！
+2019-05-22 13:20:12,859 [INFO]: 未设置邮件发送
+2019-05-22 13:20:12,869 [INFO]: 业务号：20190522-0007144
+2019-05-22 13:20:15,654 [INFO]: 写入文档===
+2019-05-22 13:20:15,712 [INFO]: 写入成功！
+2019-05-22 13:20:16,868 [WARN]: 五月 22, 2019 1:20:16 下午 org.openqa.selenium.os.UnixProcess$SeleniumWatchDog destroyHarder
+2019-05-22 13:20:16,873 [WARN]: 信息: Command failed to close cleanly. Destroying forcefully (v2). org.openqa.selenium.os.UnixProcess$SeleniumWatchDog@5cab174b
+2019-05-22 13:20:18,745 [WARN]: 五月 22, 2019 1:20:18 下午 org.openqa.selenium.os.UnixProcess$SeleniumWatchDog destroyHarder
+2019-05-22 13:20:18,764 [WARN]: 信息: Command failed to close cleanly. Destroying forcefully (v2). org.openqa.selenium.os.UnixProcess$SeleniumWatchDog@736fc252
+2019-05-22 13:20:19,136 [INFO]: 
+2019-05-22 13:28:46,758 [INFO]: Microsoft Windows [版本 10.0.17134.765]
+2019-05-22 13:28:46,831 [INFO]: (c) 2018 Microsoft Corporation。保留所有权利。
+2019-05-22 13:28:46,899 [INFO]: 
+2019-05-22 13:28:46,968 [INFO]: E:\work_space\js_de\debug\SeleniumConfig\bin\Debug>java -jar E:\work_space\js_de\debug\SeleniumConfig\bin\Debug\\SeleniumJAVA\Selenium.jar C#
+2019-05-22 13:28:47,122 [INFO]: 开始准备数据
+2019-05-22 13:28:47,260 [INFO]: 开始缓存总体参数配置文件
+2019-05-22 13:28:47,349 [INFO]: 读取服务地址/E:/work_space/js_de/debug/SeleniumConfig/bin/Debug
+2019-05-22 13:28:47,490 [INFO]: 13:28:47.458 [main] WARN  net.sf.ehcache.DiskStorePathManager - diskStorePath 'E:\work_space\js_de\debug\SeleniumConfig\bin\Debug\SeleniumJAVA\ehcache' is already used by an existing CacheManager either in the same VM or in a different process.
+2019-05-22 13:28:47,607 [INFO]: The diskStore path for this CacheManager will be set to E:\work_space\js_de\debug\SeleniumConfig\bin\Debug\SeleniumJAVA\ehcache\ehcache_auto_created8204878265099474075diskstore.
+2019-05-22 13:28:47,735 [INFO]: To avoid this warning consider using the CacheManager factory methods to create a singleton CacheManager or specifying a separate ehcache configuration (ehcache.xml) for each CacheManager instance.
+2019-05-22 13:28:47,880 [INFO]: 13:28:47.478 [main] WARN  n.s.e.store.disk.DiskStorageFactory - Data in persistent disk stores is ignored for stores from automatically created directories.
+2019-05-22 13:28:47,987 [INFO]: Remove diskPersistent or resolve the conflicting disk paths in cache configuration.
+2019-05-22 13:28:48,103 [INFO]: Deleting data file E:\work_space\js_de\debug\SeleniumConfig\bin\Debug\SeleniumJAVA\ehcache\ehcache_auto_created8204878265099474075diskstore\active%0053essions%0043ache.data
+2019-05-22 13:28:48,278 [INFO]: 缓存总体参数配置文件成功！
+2019-05-22 13:28:48,445 [INFO]: 开始缓存SQL配置信息
+2019-05-22 13:28:48,624 [INFO]: 缓存SQL配置信息成功！
+2019-05-22 13:28:48,946 [INFO]: 开始缓存SQL配置的SQL语句信息
+2019-05-22 13:28:49,707 [WARN]: SLF4J: The requested version 1.7.16 by your slf4j binding is not compatible with [1.6]
+2019-05-22 13:28:49,726 [WARN]: SLF4J: See http://www.slf4j.org/codes.html#version_mismatch for further details.
+2019-05-22 13:28:51,182 [INFO]: 缓存SQL配置的SQL语句信息成功！
+2019-05-22 13:28:51,207 [INFO]: 开始缓存自动化测试配置方案文件
+2019-05-22 13:28:51,229 [INFO]: 缓存自动化测试配置方案文件成功！
+2019-05-22 13:28:51,257 [INFO]: 开始缓存初始化配置参数成功！
+2019-05-22 13:28:51,286 [INFO]: 缓存流程配置信息成功！
+2019-05-22 13:28:51,551 [WARN]: Starting ChromeDriver (v2.9.248315) on port 18039
+2019-05-22 13:28:51,845 [INFO]: 初始化ChromeDriver成功！
+2019-05-22 13:28:52,228 [WARN]: Starting ChromeDriver (v2.9.248315) on port 47543
+2019-05-22 13:29:00,185 [INFO]: 初始化WebDriver成功！
+2019-05-22 13:29:04,930 [INFO]: 开始流程自动化测试！
+2019-05-22 13:29:04,955 [INFO]: 当前执行方案-流程：assert_3-首次登记
+2019-05-22 13:29:07,255 [INFO]: 流程启动成功!
+2019-05-22 13:29:09,306 [INFO]: 获取所有参数
+2019-05-22 13:29:09,341 [INFO]: sid-3187BFC9-9025-41DC-B122-FE3C5CB5CCE6
+2019-05-22 13:29:09,349 [INFO]: 当前环节环节名称：收件受理,环节内码sid-3187BFC9-9025-41DC-B122-FE3C5CB5CCE6
+2019-05-22 13:29:09,355 [INFO]: 开始操作Ifame，Iframe名称：窗口资料收取
+2019-05-22 13:29:21,818 [INFO]: 获取到所有的iframe了2019-05-22 13:29:21
+2019-05-22 13:29:21,837 [INFO]: ifame地址1是：GisqPlatformExplorer/modules/bizmodel/datums_submit2019-05-22 13:29:21
+2019-05-22 13:29:21,859 [INFO]: 获取到ID是：TAB_IF_874f3c14-7c52-11e9-bba5-00505683a2312019-05-22 13:29:21
+2019-05-22 13:29:23,938 [INFO]: 切换到指定的iframe了2019-05-22 13:29:23
+2019-05-22 13:29:23,945 [INFO]: Iframe地址：GisqPlatformExplorer/modules/bizmodel/datums_submit
+2019-05-22 13:29:24,937 [INFO]: 当前iframe(窗口资料收取)操作元素：
+2019-05-22 13:29:24,944 [INFO]:        定位方式：XPATH
+2019-05-22 13:29:24,949 [INFO]:        定位路径：//div[@role='combobox']
+2019-05-22 13:29:24,955 [INFO]:        操作方式：QT
+2019-05-22 13:29:24,960 [INFO]:        操作默认值：$("#{ID}").jqxDropDownList('selectIndex', 0 );
+2019-05-22 13:29:24,969 [INFO]:        是否随机数：false
+2019-05-22 13:29:24,976 [INFO]:        是否Name随机数：false
+2019-05-22 13:29:24,983 [INFO]:        等待时间：0
+2019-05-22 13:29:24,991 [INFO]: 开始执行操作
+2019-05-22 13:29:24,997 [INFO]: 当前iframe(窗口资料收取)操作元素：
+2019-05-22 13:29:25,002 [INFO]:        定位方式：ID
+2019-05-22 13:29:25,009 [INFO]:        定位路径：saveDatum
+2019-05-22 13:29:25,019 [INFO]:        操作方式：CLICK
+2019-05-22 13:29:25,025 [INFO]:        操作默认值：
+2019-05-22 13:29:25,033 [INFO]:        是否随机数：false
+2019-05-22 13:29:25,038 [INFO]:        是否Name随机数：false
+2019-05-22 13:29:25,041 [INFO]:        等待时间：0
+2019-05-22 13:29:25,051 [INFO]: 开始执行操作
+2019-05-22 13:29:28,784 [INFO]: 当前iframe(窗口资料收取)操作元素：
+2019-05-22 13:29:28,790 [INFO]:        定位方式：
+2019-05-22 13:29:28,801 [INFO]:        定位路径：
+2019-05-22 13:29:28,815 [INFO]:        操作方式：SHOOT
+2019-05-22 13:29:28,822 [INFO]:        操作默认值：资料收取-assert_3
+2019-05-22 13:29:28,835 [INFO]:        是否随机数：false
+2019-05-22 13:29:28,845 [INFO]:        是否Name随机数：false
+2019-05-22 13:29:28,852 [INFO]:        等待时间：0
+2019-05-22 13:29:28,868 [INFO]: 开始执行操作
+2019-05-22 13:29:29,147 [INFO]: 查看一下截图集合的值：1
+2019-05-22 13:29:30,182 [INFO]: 开始操作Ifame，Iframe名称：申请信息
+2019-05-22 13:29:35,945 [INFO]: 获取到所有的iframe了2019-05-22 13:29:35
+2019-05-22 13:29:35,978 [INFO]: ifame地址1是：GisqQueryList/views/reports/realestate/common/acceptance/Acceptance_HouseRight_Initial.jsp?reportlet=realestate/common/acceptance/Acceptance_HouseRight_Initial.cpt2019-05-22 13:29:35
+2019-05-22 13:29:36,002 [INFO]: 获取到ID是：TAB_IF_874f3bfb-7c52-11e9-bba5-00505683a2312019-05-22 13:29:36
+2019-05-22 13:29:38,098 [INFO]: 切换到指定的iframe了2019-05-22 13:29:38
+2019-05-22 13:29:38,103 [INFO]: Iframe地址：GisqQueryList/views/reports/realestate/common/acceptance/Acceptance_HouseRight_Initial.jsp?reportlet=realestate/common/acceptance/Acceptance_HouseRight_Initial.cpt
+2019-05-22 13:29:38,119 [INFO]: 当前iframe(申请信息)操作元素：
+2019-05-22 13:29:38,124 [INFO]:        定位方式：ID
+2019-05-22 13:29:38,141 [INFO]:        定位路径：TJSQR
+2019-05-22 13:29:38,148 [INFO]:        操作方式：Assert
+2019-05-22 13:29:38,156 [INFO]:        操作默认值：添加什么
+2019-05-22 13:29:38,160 [INFO]:        是否随机数：false
+2019-05-22 13:29:38,166 [INFO]:        是否Name随机数：false
+2019-05-22 13:29:38,175 [INFO]:        等待时间：0
+2019-05-22 13:29:38,225 [INFO]: 开始执行操作
+2019-05-22 13:29:42,744 [INFO]: 移交校验是否出现：true
+2019-05-22 13:29:42,807 [INFO]: 校验文本：
+2019-05-22 13:29:42,815 [INFO]: 请添加需要登记的不动产单元！ 请添加办件相关申请人！
+2019-05-22 13:29:42,823 [INFO]: 
+2019-05-22 13:29:42,997 [INFO]: 查看一下截图集合的值：2
+2019-05-22 13:29:43,164 [INFO]: 该流程未完成，请留意!
+2019-05-22 13:29:43,174 [INFO]: 开始比对：
+2019-05-22 13:29:43,187 [INFO]: 运行自动化测试
+2019-05-22 13:29:43,985 [INFO]: 关闭数据库连接！
+2019-05-22 13:29:43,992 [INFO]: 要关闭了
+2019-05-22 13:29:44,001 [INFO]: 删除成功！
+2019-05-22 13:29:44,043 [INFO]: 
+2019-05-22 13:29:44,082 [INFO]: ===============================================
+2019-05-22 13:29:44,088 [INFO]: 调试-国有建设用地使用权及房屋所有权（单套）-首次登记-assert_3
+2019-05-22 13:29:44,100 [INFO]: Total tests run: 1, Failures: 1, Skips: 0
+2019-05-22 13:29:44,105 [INFO]: ===============================================
+2019-05-22 13:29:44,115 [INFO]: 
+2019-05-22 13:29:44,124 [INFO]: output:[资料收取-assert_3<br/><img src=\"E:\work_space\js_de\debug\SeleniumConfig\bin\Debug\SootScreens\2019-05-22\13_29_28\资料收取-assert_3.png\"  hight=\"300\" width=\"300\"  onclick=\"javascript:window.open(this.src);\"/>, 收件受理-环节移交异常！转出校验信息为：
+2019-05-22 13:29:44,136 [INFO]: 请添加需要登记的不动产单元！ 请添加办件相关申请人！
+2019-05-22 13:29:44,144 [INFO]: , 转出校验提示框-2019-05-22 13_29_42<br/><img src=\"E:\work_space\js_de\debug\SeleniumConfig\bin\Debug\SootScreens\2019-05-22\13_29_28\转出校验提示框-2019-05-22 13_29_42.png\"  hight=\"300\" width=\"300\"  onclick=\"javascript:window.open(this.src);\"/>, 业务号：20190522-0007152, 该流程未完成，请留意!, , org.junit.ComparisonFailure: expected:<\"[添加什么]\"> but was:<\"[    添加]\">,     sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method),     sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source),     sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source),     Test.DataProviderSet_Assert.star(DataProviderSet_Assert.java:39),     sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method),     sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source),     sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source),     java.lang.reflect.Method.invoke(Unknown Source),     org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124),     org.testng.internal.Invoker.invokeMethod(Invoker.java:583),     org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719),     org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989),     org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125),     org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109),     org.testng.TestRunner.privateRun(TestRunner.java:648),     org.testng.TestRunner.run(TestRunner.java:505),     org.testng.SuiteRunner.runTest(SuiteRunner.java:455),     org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450),     org.testng.SuiteRunner.privateRun(SuiteRunner.java:415),     org.testng.SuiteRunner.run(SuiteRunner.java:364),     org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52),     org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84),     org.testng.TestNG.runSuitesSequentially(TestNG.java:1208),     org.testng.TestNG.runSuitesLocally(TestNG.java:1137),     org.testng.TestNG.runSuites(TestNG.java:1049),     org.testng.TestNG.run(TestNG.java:1017),     configSelenium.ConfigSeleniumStart.dotestng(ConfigSeleniumStart.java:1604),     configSelenium.ConfigSeleniumStart.main(ConfigSeleniumStart.java:328)]
+2019-05-22 13:29:44,613 [INFO]: 开始复制文件
+2019-05-22 13:29:44,661 [INFO]: 复制完成！
+2019-05-22 13:29:44,668 [INFO]: 未设置邮件发送
+2019-05-22 13:29:44,675 [INFO]: 业务号：20190522-0007152
+2019-05-22 13:29:47,617 [INFO]: 写入文档===
+2019-05-22 13:29:47,701 [INFO]: 写入成功！
+2019-05-22 13:29:48,849 [WARN]: 五月 22, 2019 1:29:48 下午 org.openqa.selenium.os.UnixProcess$SeleniumWatchDog destroyHarder
+2019-05-22 13:29:48,867 [WARN]: 信息: Command failed to close cleanly. Destroying forcefully (v2). org.openqa.selenium.os.UnixProcess$SeleniumWatchDog@52a69c0e
+2019-05-22 13:29:51,229 [WARN]: 五月 22, 2019 1:29:51 下午 org.openqa.selenium.os.UnixProcess$SeleniumWatchDog destroyHarder
+2019-05-22 13:29:51,255 [WARN]: 信息: Command failed to close cleanly. Destroying forcefully (v2). org.openqa.selenium.os.UnixProcess$SeleniumWatchDog@60777a72
+2019-05-22 13:29:53,629 [INFO]: 
+2019-05-22 13:31:50,490 [INFO]: Microsoft Windows [版本 10.0.17134.765]
+2019-05-22 13:31:50,511 [INFO]: (c) 2018 Microsoft Corporation。保留所有权利。
+2019-05-22 13:31:50,538 [INFO]: 
+2019-05-22 13:31:50,571 [INFO]: E:\work_space\js_de\debug\SeleniumConfig\bin\Debug>java -jar E:\work_space\js_de\debug\SeleniumConfig\bin\Debug\\SeleniumJAVA\Selenium.jar C#
+2019-05-22 13:31:50,609 [INFO]: 开始准备数据
+2019-05-22 13:31:50,677 [INFO]: 开始缓存总体参数配置文件
+2019-05-22 13:31:50,754 [INFO]: 读取服务地址/E:/work_space/js_de/debug/SeleniumConfig/bin/Debug
+2019-05-22 13:31:51,288 [INFO]: 13:31:51.254 [main] WARN  net.sf.ehcache.DiskStorePathManager - diskStorePath 'E:\work_space\js_de\debug\SeleniumConfig\bin\Debug\SeleniumJAVA\ehcache' is already used by an existing CacheManager either in the same VM or in a different process.
+2019-05-22 13:31:51,391 [INFO]: The diskStore path for this CacheManager will be set to E:\work_space\js_de\debug\SeleniumConfig\bin\Debug\SeleniumJAVA\ehcache\ehcache_auto_created8919947969035748024diskstore.
+2019-05-22 13:31:51,472 [INFO]: To avoid this warning consider using the CacheManager factory methods to create a singleton CacheManager or specifying a separate ehcache configuration (ehcache.xml) for each CacheManager instance.
+2019-05-22 13:31:51,601 [INFO]: 13:31:51.257 [main] WARN  n.s.e.store.disk.DiskStorageFactory - Data in persistent disk stores is ignored for stores from automatically created directories.
+2019-05-22 13:31:51,749 [INFO]: Remove diskPersistent or resolve the conflicting disk paths in cache configuration.
+2019-05-22 13:31:51,870 [INFO]: Deleting data file E:\work_space\js_de\debug\SeleniumConfig\bin\Debug\SeleniumJAVA\ehcache\ehcache_auto_created8919947969035748024diskstore\active%0053essions%0043ache.data
+2019-05-22 13:31:51,942 [INFO]: 缓存总体参数配置文件成功！
+2019-05-22 13:31:52,139 [INFO]: 开始缓存SQL配置信息
+2019-05-22 13:31:52,346 [INFO]: 缓存SQL配置信息成功！
+2019-05-22 13:31:53,293 [INFO]: 开始缓存SQL配置的SQL语句信息
+2019-05-22 13:31:54,479 [WARN]: SLF4J: The requested version 1.7.16 by your slf4j binding is not compatible with [1.6]
+2019-05-22 13:31:54,522 [WARN]: SLF4J: See http://www.slf4j.org/codes.html#version_mismatch for further details.
+2019-05-22 13:31:55,245 [INFO]: 缓存SQL配置的SQL语句信息成功！
+2019-05-22 13:31:55,268 [INFO]: 开始缓存自动化测试配置方案文件
+2019-05-22 13:31:55,287 [INFO]: 缓存自动化测试配置方案文件成功！
+2019-05-22 13:31:55,306 [INFO]: 开始缓存初始化配置参数成功！
+2019-05-22 13:31:55,323 [INFO]: 缓存流程配置信息成功！
+2019-05-22 13:31:55,532 [WARN]: Starting ChromeDriver (v2.9.248315) on port 12935
+2019-05-22 13:31:56,414 [INFO]: 初始化ChromeDriver成功！
+2019-05-22 13:31:56,979 [WARN]: Starting ChromeDriver (v2.9.248315) on port 24189
+2019-05-22 13:32:10,407 [INFO]: 初始化WebDriver成功！
+2019-05-22 13:32:15,862 [INFO]: 开始流程自动化测试！
+2019-05-22 13:32:15,866 [INFO]: 当前执行方案-流程：assert_2-首次登记
+2019-05-22 13:32:18,233 [INFO]: 流程启动成功!
+2019-05-22 13:32:20,526 [INFO]: 获取所有参数
+2019-05-22 13:32:20,608 [INFO]: sid-3187BFC9-9025-41DC-B122-FE3C5CB5CCE6
+2019-05-22 13:32:20,614 [INFO]: 当前环节环节名称：收件受理,环节内码sid-3187BFC9-9025-41DC-B122-FE3C5CB5CCE6
+2019-05-22 13:32:20,620 [INFO]: 开始操作Ifame，Iframe名称：窗口资料收取
+2019-05-22 13:32:33,116 [INFO]: 获取到所有的iframe了2019-05-22 13:32:33
+2019-05-22 13:32:33,142 [INFO]: ifame地址1是：GisqPlatformExplorer/modules/bizmodel/datums_submit2019-05-22 13:32:33
+2019-05-22 13:32:33,158 [INFO]: 获取到ID是：TAB_IF_f95f5eed-7c52-11e9-bba5-00505683a2312019-05-22 13:32:33
+2019-05-22 13:32:35,217 [INFO]: 切换到指定的iframe了2019-05-22 13:32:35
+2019-05-22 13:32:35,227 [INFO]: Iframe地址：GisqPlatformExplorer/modules/bizmodel/datums_submit
+2019-05-22 13:32:35,248 [INFO]: 当前iframe(窗口资料收取)操作元素：
+2019-05-22 13:32:35,256 [INFO]:        定位方式：XPATH
+2019-05-22 13:32:35,260 [INFO]:        定位路径：//div[@role='combobox']
+2019-05-22 13:32:35,273 [INFO]:        操作方式：QT
+2019-05-22 13:32:35,278 [INFO]:        操作默认值：$("#{ID}").jqxDropDownList('selectIndex', 0 );
+2019-05-22 13:32:35,290 [INFO]:        是否随机数：false
+2019-05-22 13:32:35,299 [INFO]:        是否Name随机数：false
+2019-05-22 13:32:35,304 [INFO]:        等待时间：0
+2019-05-22 13:32:35,312 [INFO]: 开始执行操作
+2019-05-22 13:32:35,453 [INFO]: 当前iframe(窗口资料收取)操作元素：
+2019-05-22 13:32:35,462 [INFO]:        定位方式：ID
+2019-05-22 13:32:35,473 [INFO]:        定位路径：saveDatum
+2019-05-22 13:32:35,478 [INFO]:        操作方式：CLICK
+2019-05-22 13:32:35,486 [INFO]:        操作默认值：
+2019-05-22 13:32:35,493 [INFO]:        是否随机数：false
+2019-05-22 13:32:35,501 [INFO]:        是否Name随机数：false
+2019-05-22 13:32:35,507 [INFO]:        等待时间：0
+2019-05-22 13:32:35,611 [INFO]: 开始执行操作
+2019-05-22 13:32:39,100 [INFO]: 当前iframe(窗口资料收取)操作元素：
+2019-05-22 13:32:39,106 [INFO]:        定位方式：
+2019-05-22 13:32:39,117 [INFO]:        定位路径：
+2019-05-22 13:32:39,129 [INFO]:        操作方式：SHOOT
+2019-05-22 13:32:39,135 [INFO]:        操作默认值：资料收取-assert_2
+2019-05-22 13:32:39,141 [INFO]:        是否随机数：false
+2019-05-22 13:32:39,149 [INFO]:        是否Name随机数：false
+2019-05-22 13:32:39,160 [INFO]:        等待时间：0
+2019-05-22 13:32:39,166 [INFO]: 开始执行操作
+2019-05-22 13:32:39,368 [INFO]: 查看一下截图集合的值：1
+2019-05-22 13:32:40,400 [INFO]: 开始操作Ifame，Iframe名称：申请信息
+2019-05-22 13:32:45,510 [INFO]: 获取到所有的iframe了2019-05-22 13:32:45
+2019-05-22 13:32:45,574 [INFO]: ifame地址1是：GisqQueryList/views/reports/realestate/common/acceptance/Acceptance_HouseRight_Initial.jsp?reportlet=realestate/common/acceptance/Acceptance_HouseRight_Initial.cpt2019-05-22 13:32:45
+2019-05-22 13:32:45,601 [INFO]: 获取到ID是：TAB_IF_f95f5ed4-7c52-11e9-bba5-00505683a2312019-05-22 13:32:45
+2019-05-22 13:32:47,773 [INFO]: 切换到指定的iframe了2019-05-22 13:32:47
+2019-05-22 13:32:47,778 [INFO]: Iframe地址：GisqQueryList/views/reports/realestate/common/acceptance/Acceptance_HouseRight_Initial.jsp?reportlet=realestate/common/acceptance/Acceptance_HouseRight_Initial.cpt
+2019-05-22 13:32:47,796 [INFO]: 当前iframe(申请信息)操作元素：
+2019-05-22 13:32:47,801 [INFO]:        定位方式：XPATH
+2019-05-22 13:32:47,806 [INFO]:        定位路径：/html/body/div[2]/table/tbody/tr[2]/td[2]
+2019-05-22 13:32:47,811 [INFO]:        操作方式：Assert
+2019-05-22 13:32:47,819 [INFO]:        操作默认值：申请信息
+2019-05-22 13:32:47,825 [INFO]:        是否随机数：false
+2019-05-22 13:32:47,832 [INFO]:        是否Name随机数：false
+2019-05-22 13:32:47,839 [INFO]:        等待时间：0
+2019-05-22 13:32:47,852 [INFO]: 开始执行操作
+2019-05-22 13:32:47,899 [INFO]: 当前iframe(申请信息)操作元素：
+2019-05-22 13:32:47,910 [INFO]:        定位方式：XPATH
+2019-05-22 13:32:47,915 [INFO]:        定位路径：/html/body/div[2]/table/tbody/tr[12]/td[2]
+2019-05-22 13:32:47,926 [INFO]:        操作方式：Assert
+2019-05-22 13:32:47,936 [INFO]:        操作默认值：项目信息
+2019-05-22 13:32:47,944 [INFO]:        是否随机数：false
+2019-05-22 13:32:47,950 [INFO]:        是否Name随机数：false
+2019-05-22 13:32:47,956 [INFO]:        等待时间：0
+2019-05-22 13:32:47,971 [INFO]: 开始执行操作
+2019-05-22 13:32:48,017 [INFO]: 当前iframe(申请信息)操作元素：
+2019-05-22 13:32:48,031 [INFO]:        定位方式：ID
+2019-05-22 13:32:48,040 [INFO]:        定位路径：TJSQR
+2019-05-22 13:32:48,066 [INFO]:        操作方式：Assert
+2019-05-22 13:32:48,070 [INFO]:        操作默认值：听
+2019-05-22 13:32:48,079 [INFO]:        是否随机数：false
+2019-05-22 13:32:48,084 [INFO]:        是否Name随机数：false
+2019-05-22 13:32:48,089 [INFO]:        等待时间：0
+2019-05-22 13:32:48,126 [INFO]: 开始执行操作
+2019-05-22 13:32:52,185 [INFO]: 移交校验是否出现：true
+2019-05-22 13:32:52,257 [INFO]: 校验文本：
+2019-05-22 13:32:52,271 [INFO]: 请添加需要登记的不动产单元！ 请添加办件相关申请人！
+2019-05-22 13:32:52,277 [INFO]: 
+2019-05-22 13:32:52,480 [INFO]: 查看一下截图集合的值：2
+2019-05-22 13:32:52,694 [INFO]: 该流程未完成，请留意!
+2019-05-22 13:32:52,703 [INFO]: 开始比对：
+2019-05-22 13:32:52,718 [INFO]: 运行自动化测试
+2019-05-22 13:32:54,132 [INFO]: 关闭数据库连接！
+2019-05-22 13:32:54,145 [INFO]: 要关闭了
+2019-05-22 13:32:54,227 [INFO]: 删除成功！
+2019-05-22 13:32:54,311 [INFO]: 
+2019-05-22 13:32:54,317 [INFO]: ===============================================
+2019-05-22 13:32:54,324 [INFO]: 调试-国有建设用地使用权及房屋所有权（单套）-首次登记-assert_2
+2019-05-22 13:32:54,332 [INFO]: Total tests run: 3, Failures: 2, Skips: 0
+2019-05-22 13:32:54,343 [INFO]: ===============================================
+2019-05-22 13:32:54,349 [INFO]: 
+2019-05-22 13:32:54,586 [INFO]: output:[资料收取-assert_2<br/><img src=\\\"E:\work_space\js_de\debug\SeleniumConfig\bin\Debug\SootScreens\2019-05-22\13_32_39\资料收取-assert_2.png\\\"  hight=\\\"300\\\" width=\\\"300\\\"  onclick=\\\"javascript:window.open(this.src);\\\"/>, 收件受理-环节移交异常！转出校验信息为：
+2019-05-22 13:32:54,597 [INFO]: 请添加需要登记的不动产单元！ 请添加办件相关申请人！
+2019-05-22 13:32:54,604 [INFO]: , 转出校验提示框-2019-05-22 13_32_52<br/><img src=\\\"E:\work_space\js_de\debug\SeleniumConfig\bin\Debug\SootScreens\2019-05-22\13_32_39\转出校验提示框-2019-05-22 13_32_52.png\\\"  hight=\\\"300\\\" width=\\\"300\\\"  onclick=\\\"javascript:window.open(this.src);\\\"/>, 业务号：20190522-0007155, 该流程未完成，请留意!, , , , org.junit.ComparisonFailure: expected:<\\\"申请[]信息\\\"> but was:<\\\"申请[人]信息\\\">, org.junit.ComparisonFailure: expected:<\"[听]\"> but was:<\"[    添加]\">]
+2019-05-22 13:32:54,751 [INFO]: 开始复制文件
+2019-05-22 13:32:54,799 [INFO]: 复制完成！
+2019-05-22 13:32:54,806 [INFO]: 未设置邮件发送
+2019-05-22 13:32:54,818 [INFO]: 业务号：20190522-0007155
+2019-05-22 13:32:58,967 [INFO]: 开始流程自动化测试！
+2019-05-22 13:32:58,978 [INFO]: 当前执行方案-流程：assert_3-首次登记
+2019-05-22 13:33:01,272 [INFO]: 流程启动成功!
+2019-05-22 13:33:03,335 [INFO]: 获取所有参数
+2019-05-22 13:33:03,374 [INFO]: sid-3187BFC9-9025-41DC-B122-FE3C5CB5CCE6
+2019-05-22 13:33:03,383 [INFO]: 当前环节环节名称：收件受理,环节内码sid-3187BFC9-9025-41DC-B122-FE3C5CB5CCE6
+2019-05-22 13:33:03,388 [INFO]: 开始操作Ifame，Iframe名称：窗口资料收取
+2019-05-22 13:33:14,508 [INFO]: 获取到所有的iframe了2019-05-22 13:33:14
+2019-05-22 13:33:14,542 [INFO]: ifame地址1是：GisqPlatformExplorer/modules/bizmodel/datums_submit2019-05-22 13:33:14
+2019-05-22 13:33:14,591 [INFO]: 获取到ID是：TAB_IF_11dfa5f2-7c53-11e9-bba5-00505683a2312019-05-22 13:33:14
+2019-05-22 13:33:16,639 [INFO]: 切换到指定的iframe了2019-05-22 13:33:16
+2019-05-22 13:33:16,646 [INFO]: Iframe地址：GisqPlatformExplorer/modules/bizmodel/datums_submit
+2019-05-22 13:33:16,660 [INFO]: 当前iframe(窗口资料收取)操作元素：
+2019-05-22 13:33:16,666 [INFO]:        定位方式：XPATH
+2019-05-22 13:33:16,677 [INFO]:        定位路径：//div[@role='combobox']
+2019-05-22 13:33:16,686 [INFO]:        操作方式：QT
+2019-05-22 13:33:16,693 [INFO]:        操作默认值：$("#{ID}").jqxDropDownList('selectIndex', 0 );
+2019-05-22 13:33:16,705 [INFO]:        是否随机数：false
+2019-05-22 13:33:16,710 [INFO]:        是否Name随机数：false
+2019-05-22 13:33:16,720 [INFO]:        等待时间：0
+2019-05-22 13:33:16,726 [INFO]: 开始执行操作
+2019-05-22 13:33:16,879 [INFO]: 当前iframe(窗口资料收取)操作元素：
+2019-05-22 13:33:16,885 [INFO]:        定位方式：ID
+2019-05-22 13:33:16,893 [INFO]:        定位路径：saveDatum
+2019-05-22 13:33:16,899 [INFO]:        操作方式：CLICK
+2019-05-22 13:33:16,924 [INFO]:        操作默认值：
+2019-05-22 13:33:16,930 [INFO]:        是否随机数：false
+2019-05-22 13:33:16,938 [INFO]:        是否Name随机数：false
+2019-05-22 13:33:16,946 [INFO]:        等待时间：0
+2019-05-22 13:33:17,274 [INFO]: 开始执行操作
+2019-05-22 13:33:20,422 [INFO]: 当前iframe(窗口资料收取)操作元素：
+2019-05-22 13:33:20,433 [INFO]:        定位方式：
+2019-05-22 13:33:20,441 [INFO]:        定位路径：
+2019-05-22 13:33:20,451 [INFO]:        操作方式：SHOOT
+2019-05-22 13:33:20,463 [INFO]:        操作默认值：资料收取-assert_3
+2019-05-22 13:33:20,475 [INFO]:        是否随机数：false
+2019-05-22 13:33:20,483 [INFO]:        是否Name随机数：false
+2019-05-22 13:33:20,492 [INFO]:        等待时间：0
+2019-05-22 13:33:20,500 [INFO]: 开始执行操作
+2019-05-22 13:33:20,694 [INFO]: 查看一下截图集合的值：1
+2019-05-22 13:33:21,724 [INFO]: 开始操作Ifame，Iframe名称：申请信息
+2019-05-22 13:33:26,522 [INFO]: 获取到所有的iframe了2019-05-22 13:33:26
+2019-05-22 13:33:26,606 [INFO]: ifame地址1是：GisqQueryList/views/reports/realestate/common/acceptance/Acceptance_HouseRight_Initial.jsp?reportlet=realestate/common/acceptance/Acceptance_HouseRight_Initial.cpt2019-05-22 13:33:26
+2019-05-22 13:33:26,626 [INFO]: 获取到ID是：TAB_IF_11dfa5d9-7c53-11e9-bba5-00505683a2312019-05-22 13:33:26
+2019-05-22 13:33:28,880 [INFO]: 切换到指定的iframe了2019-05-22 13:33:28
+2019-05-22 13:33:28,889 [INFO]: Iframe地址：GisqQueryList/views/reports/realestate/common/acceptance/Acceptance_HouseRight_Initial.jsp?reportlet=realestate/common/acceptance/Acceptance_HouseRight_Initial.cpt
+2019-05-22 13:33:28,912 [INFO]: 当前iframe(申请信息)操作元素：
+2019-05-22 13:33:28,925 [INFO]:        定位方式：ID
+2019-05-22 13:33:28,931 [INFO]:        定位路径：TJSQR
+2019-05-22 13:33:28,943 [INFO]:        操作方式：Assert
+2019-05-22 13:33:28,952 [INFO]:        操作默认值：添加什么
+2019-05-22 13:33:28,962 [INFO]:        是否随机数：false
+2019-05-22 13:33:28,971 [INFO]:        是否Name随机数：false
+2019-05-22 13:33:28,977 [INFO]:        等待时间：0
+2019-05-22 13:33:29,037 [INFO]: 开始执行操作
+2019-05-22 13:33:33,082 [INFO]: 移交校验是否出现：true
+2019-05-22 13:33:33,146 [INFO]: 校验文本：
+2019-05-22 13:33:33,157 [INFO]: 请添加需要登记的不动产单元！ 请添加办件相关申请人！
+2019-05-22 13:33:33,167 [INFO]: 
+2019-05-22 13:33:33,339 [INFO]: 查看一下截图集合的值：2
+2019-05-22 13:33:33,401 [INFO]: 该流程未完成，请留意!
+2019-05-22 13:33:33,425 [INFO]: 开始比对：
+2019-05-22 13:33:33,439 [INFO]: 运行自动化测试
+2019-05-22 13:33:33,481 [INFO]: 关闭数据库连接！
+2019-05-22 13:33:33,494 [INFO]: 要关闭了
+2019-05-22 13:33:33,504 [INFO]: 删除成功！
+2019-05-22 13:33:33,524 [INFO]: 
+2019-05-22 13:33:33,540 [INFO]: ===============================================
+2019-05-22 13:33:33,572 [INFO]: 调试-国有建设用地使用权及房屋所有权（单套）-首次登记-assert_3
+2019-05-22 13:33:33,599 [INFO]: Total tests run: 1, Failures: 1, Skips: 0
+2019-05-22 13:33:33,612 [INFO]: ===============================================
+2019-05-22 13:33:33,619 [INFO]: 
+2019-05-22 13:33:33,713 [INFO]: output:[资料收取-assert_3<br/><img src=\"E:\work_space\js_de\debug\SeleniumConfig\bin\Debug\SootScreens\2019-05-22\13_32_39\资料收取-assert_3.png\"  hight=\"300\" width=\"300\"  onclick=\"javascript:window.open(this.src);\"/>, 收件受理-环节移交异常！转出校验信息为：
+2019-05-22 13:33:33,723 [INFO]: 请添加需要登记的不动产单元！ 请添加办件相关申请人！
+2019-05-22 13:33:33,739 [INFO]: , 转出校验提示框-2019-05-22 13_33_33<br/><img src=\"E:\work_space\js_de\debug\SeleniumConfig\bin\Debug\SootScreens\2019-05-22\13_32_39\转出校验提示框-2019-05-22 13_33_33.png\"  hight=\"300\" width=\"300\"  onclick=\"javascript:window.open(this.src);\"/>, 业务号：20190522-0007156, 该流程未完成，请留意!, , org.junit.ComparisonFailure: expected:<\"[添加什么]\"> but was:<\"[    添加]\">]
+2019-05-22 13:33:33,898 [INFO]: 开始复制文件
+2019-05-22 13:33:33,943 [INFO]: 复制完成！
+2019-05-22 13:33:33,951 [INFO]: 未设置邮件发送
+2019-05-22 13:33:33,959 [INFO]: 业务号：20190522-0007156
+2019-05-22 13:33:35,730 [INFO]: 写入文档===
+2019-05-22 13:33:35,804 [INFO]: 写入成功！
+2019-05-22 13:33:36,995 [WARN]: 五月 22, 2019 1:33:36 下午 org.openqa.selenium.os.UnixProcess$SeleniumWatchDog destroyHarder
+2019-05-22 13:33:37,016 [WARN]: 信息: Command failed to close cleanly. Destroying forcefully (v2). org.openqa.selenium.os.UnixProcess$SeleniumWatchDog@2984ea6
+2019-05-22 13:33:47,209 [WARN]: 五月 22, 2019 1:33:47 下午 org.openqa.selenium.os.UnixProcess$SeleniumWatchDog destroyHarder
+2019-05-22 13:33:47,219 [WARN]: 信息: Command failed to close cleanly. Destroying forcefully (v2). org.openqa.selenium.os.UnixProcess$SeleniumWatchDog@70ffb957
+2019-05-22 13:33:47,817 [INFO]: 
+2019-05-22 13:47:34,360 [INFO]: Microsoft Windows [版本 10.0.17134.765]
+2019-05-22 13:47:34,371 [INFO]: (c) 2018 Microsoft Corporation。保留所有权利。
+2019-05-22 13:47:34,379 [INFO]: 
+2019-05-22 13:47:34,388 [INFO]: E:\work_space\js_de\debug\SeleniumConfig\bin\Debug>java -jar E:\work_space\js_de\debug\SeleniumConfig\bin\Debug\\SeleniumJAVA\Selenium.jar C#
+2019-05-22 13:47:34,870 [INFO]: 开始准备数据
+2019-05-22 13:47:34,918 [INFO]: 开始缓存总体参数配置文件
+2019-05-22 13:47:35,067 [INFO]: 读取服务地址/E:/work_space/js_de/debug/SeleniumConfig/bin/Debug
+2019-05-22 13:47:35,774 [WARN]: SLF4J: The requested version 1.7.16 by your slf4j binding is not compatible with [1.6]
+2019-05-22 13:47:35,871 [INFO]: 13:47:35.726 [main] WARN  net.sf.ehcache.DiskStorePathManager - diskStorePath 'E:\work_space\js_de\debug\SeleniumConfig\bin\Debug\SeleniumJAVA\ehcache' is already used by an existing CacheManager either in the same VM or in a different process.
+2019-05-22 13:47:36,035 [WARN]: SLF4J: See http://www.slf4j.org/codes.html#version_mismatch for further details.
+2019-05-22 13:47:36,175 [INFO]: The diskStore path for this CacheManager will be set to E:\work_space\js_de\debug\SeleniumConfig\bin\Debug\SeleniumJAVA\ehcache\ehcache_auto_created2825337793225967593diskstore.
+2019-05-22 13:47:36,308 [INFO]: To avoid this warning consider using the CacheManager factory methods to create a singleton CacheManager or specifying a separate ehcache configuration (ehcache.xml) for each CacheManager instance.
+2019-05-22 13:47:36,511 [INFO]: 13:47:35.751 [main] WARN  n.s.e.store.disk.DiskStorageFactory - Data in persistent disk stores is ignored for stores from automatically created directories.
+2019-05-22 13:47:36,732 [INFO]: Remove diskPersistent or resolve the conflicting disk paths in cache configuration.
+2019-05-22 13:47:37,005 [INFO]: Deleting data file E:\work_space\js_de\debug\SeleniumConfig\bin\Debug\SeleniumJAVA\ehcache\ehcache_auto_created2825337793225967593diskstore\active%0053essions%0043ache.data
+2019-05-22 13:47:37,246 [INFO]: 缓存总体参数配置文件成功！
+2019-05-22 13:47:37,372 [INFO]: 开始缓存SQL配置信息
+2019-05-22 13:47:37,540 [INFO]: 缓存SQL配置信息成功！
+2019-05-22 13:47:37,644 [INFO]: 开始缓存SQL配置的SQL语句信息
+2019-05-22 13:47:39,980 [INFO]: 缓存SQL配置的SQL语句信息成功！
+2019-05-22 13:47:39,987 [INFO]: 开始缓存自动化测试配置方案文件
+2019-05-22 13:47:39,995 [INFO]: 缓存自动化测试配置方案文件成功！
+2019-05-22 13:47:40,001 [INFO]: 开始缓存初始化配置参数成功！
+2019-05-22 13:47:40,026 [INFO]: 缓存流程配置信息成功！
+2019-05-22 13:47:40,370 [WARN]: Starting ChromeDriver (v2.9.248315) on port 26516
+2019-05-22 13:47:41,157 [INFO]: 初始化ChromeDriver成功！
+2019-05-22 13:47:41,622 [WARN]: Starting ChromeDriver (v2.9.248315) on port 25019
+2019-05-22 13:47:51,556 [INFO]: 初始化WebDriver成功！
+2019-05-22 13:47:55,830 [INFO]: 开始流程自动化测试！
+2019-05-22 13:47:55,838 [INFO]: 当前执行方案-流程：assert_2-首次登记
+2019-05-22 13:47:58,195 [INFO]: 流程启动成功!
+2019-05-22 13:48:00,243 [INFO]: 获取所有参数
+2019-05-22 13:48:00,289 [INFO]: sid-3187BFC9-9025-41DC-B122-FE3C5CB5CCE6
+2019-05-22 13:48:00,300 [INFO]: 当前环节环节名称：收件受理,环节内码sid-3187BFC9-9025-41DC-B122-FE3C5CB5CCE6
+2019-05-22 13:48:00,305 [INFO]: 开始操作Ifame，Iframe名称：窗口资料收取
+2019-05-22 13:48:11,683 [INFO]: 获取到所有的iframe了2019-05-22 13:48:11
+2019-05-22 13:48:11,703 [INFO]: ifame地址1是：GisqPlatformExplorer/modules/bizmodel/datums_submit2019-05-22 13:48:11
+2019-05-22 13:48:11,718 [INFO]: 获取到ID是：TAB_IF_28e6a8b7-7c55-11e9-bba5-00505683a2312019-05-22 13:48:11
+2019-05-22 13:48:13,805 [INFO]: 切换到指定的iframe了2019-05-22 13:48:13
+2019-05-22 13:48:13,810 [INFO]: Iframe地址：GisqPlatformExplorer/modules/bizmodel/datums_submit
+2019-05-22 13:48:13,828 [INFO]: 当前iframe(窗口资料收取)操作元素：
+2019-05-22 13:48:13,834 [INFO]:        定位方式：XPATH
+2019-05-22 13:48:13,838 [INFO]:        定位路径：//div[@role='combobox']
+2019-05-22 13:48:13,847 [INFO]:        操作方式：QT
+2019-05-22 13:48:13,852 [INFO]:        操作默认值：$("#{ID}").jqxDropDownList('selectIndex', 0 );
+2019-05-22 13:48:13,861 [INFO]:        是否随机数：false
+2019-05-22 13:48:13,865 [INFO]:        是否Name随机数：false
+2019-05-22 13:48:13,871 [INFO]:        等待时间：0
+2019-05-22 13:48:13,884 [INFO]: 开始执行操作
+2019-05-22 13:48:14,806 [INFO]: 当前iframe(窗口资料收取)操作元素：
+2019-05-22 13:48:14,813 [INFO]:        定位方式：ID
+2019-05-22 13:48:14,817 [INFO]:        定位路径：saveDatum
+2019-05-22 13:48:14,822 [INFO]:        操作方式：CLICK
+2019-05-22 13:48:14,828 [INFO]:        操作默认值：
+2019-05-22 13:48:14,833 [INFO]:        是否随机数：false
+2019-05-22 13:48:14,838 [INFO]:        是否Name随机数：false
+2019-05-22 13:48:14,846 [INFO]:        等待时间：0
+2019-05-22 13:48:14,850 [INFO]: 开始执行操作
+2019-05-22 13:48:17,470 [INFO]: 当前iframe(窗口资料收取)操作元素：
+2019-05-22 13:48:17,476 [INFO]:        定位方式：
+2019-05-22 13:48:17,489 [INFO]:        定位路径：
+2019-05-22 13:48:17,508 [INFO]:        操作方式：SHOOT
+2019-05-22 13:48:17,530 [INFO]:        操作默认值：资料收取-assert_2
+2019-05-22 13:48:17,560 [INFO]:        是否随机数：false
+2019-05-22 13:48:17,572 [INFO]:        是否Name随机数：false
+2019-05-22 13:48:17,622 [INFO]:        等待时间：0
+2019-05-22 13:48:17,649 [INFO]: 开始执行操作
+2019-05-22 13:48:18,240 [INFO]: 查看一下截图集合的值：1
+2019-05-22 13:48:19,276 [INFO]: 开始操作Ifame，Iframe名称：申请信息
+2019-05-22 13:48:25,195 [INFO]: 获取到所有的iframe了2019-05-22 13:48:25
+2019-05-22 13:48:25,224 [INFO]: ifame地址1是：GisqQueryList/views/reports/realestate/common/acceptance/Acceptance_HouseRight_Initial.jsp?reportlet=realestate/common/acceptance/Acceptance_HouseRight_Initial.cpt2019-05-22 13:48:25
+2019-05-22 13:48:25,243 [INFO]: 获取到ID是：TAB_IF_28e6a89e-7c55-11e9-bba5-00505683a2312019-05-22 13:48:25
+2019-05-22 13:48:27,413 [INFO]: 切换到指定的iframe了2019-05-22 13:48:27
+2019-05-22 13:48:27,431 [INFO]: Iframe地址：GisqQueryList/views/reports/realestate/common/acceptance/Acceptance_HouseRight_Initial.jsp?reportlet=realestate/common/acceptance/Acceptance_HouseRight_Initial.cpt
+2019-05-22 13:48:27,448 [INFO]: 当前iframe(申请信息)操作元素：
+2019-05-22 13:48:27,456 [INFO]:        定位方式：XPATH
+2019-05-22 13:48:27,463 [INFO]:        定位路径：/html/body/div[2]/table/tbody/tr[2]/td[2]
+2019-05-22 13:48:27,487 [INFO]:        操作方式：Assert
+2019-05-22 13:48:27,493 [INFO]:        操作默认值：申请信息
+2019-05-22 13:48:27,499 [INFO]:        是否随机数：false
+2019-05-22 13:48:27,508 [INFO]:        是否Name随机数：false
+2019-05-22 13:48:27,517 [INFO]:        等待时间：0
+2019-05-22 13:48:27,530 [INFO]: 开始执行操作
+2019-05-22 13:48:27,600 [INFO]: 当前iframe(申请信息)操作元素：
+2019-05-22 13:48:27,606 [INFO]:        定位方式：XPATH
+2019-05-22 13:48:27,617 [INFO]:        定位路径：/html/body/div[2]/table/tbody/tr[12]/td[2]
+2019-05-22 13:48:27,625 [INFO]:        操作方式：Assert
+2019-05-22 13:48:27,632 [INFO]:        操作默认值：项目信息
+2019-05-22 13:48:27,637 [INFO]:        是否随机数：false
+2019-05-22 13:48:27,645 [INFO]:        是否Name随机数：false
+2019-05-22 13:48:27,658 [INFO]:        等待时间：0
+2019-05-22 13:48:27,666 [INFO]: 开始执行操作
+2019-05-22 13:48:27,729 [INFO]: 当前iframe(申请信息)操作元素：
+2019-05-22 13:48:27,741 [INFO]:        定位方式：ID
+2019-05-22 13:48:27,752 [INFO]:        定位路径：TJSQR
+2019-05-22 13:48:27,765 [INFO]:        操作方式：Assert
+2019-05-22 13:48:27,781 [INFO]:        操作默认值：听
+2019-05-22 13:48:27,799 [INFO]:        是否随机数：false
+2019-05-22 13:48:27,815 [INFO]:        是否Name随机数：false
+2019-05-22 13:48:27,821 [INFO]:        等待时间：0
+2019-05-22 13:48:27,883 [INFO]: 开始执行操作
+2019-05-22 13:48:32,173 [INFO]: 移交校验是否出现：true
+2019-05-22 13:48:32,247 [INFO]: 校验文本：
+2019-05-22 13:48:32,270 [INFO]: 请添加需要登记的不动产单元！ 请添加办件相关申请人！
+2019-05-22 13:48:32,284 [INFO]: 
+2019-05-22 13:48:32,507 [INFO]: 查看一下截图集合的值：2
+2019-05-22 13:48:32,644 [INFO]: 该流程未完成，请留意!
+2019-05-22 13:48:32,652 [INFO]: 开始比对：
+2019-05-22 13:48:32,673 [INFO]: 运行自动化测试
+2019-05-22 13:48:34,535 [INFO]: 关闭数据库连接！
+2019-05-22 13:48:34,541 [INFO]: 要关闭了
+2019-05-22 13:48:34,551 [INFO]: 删除成功！
+2019-05-22 13:48:34,596 [INFO]: 
+2019-05-22 13:48:34,618 [INFO]: ===============================================
+2019-05-22 13:48:34,627 [INFO]: 调试-国有建设用地使用权及房屋所有权（单套）-首次登记-assert_2
+2019-05-22 13:48:34,633 [INFO]: Total tests run: 3, Failures: 2, Skips: 0
+2019-05-22 13:48:34,640 [INFO]: ===============================================
+2019-05-22 13:48:34,650 [INFO]: 
+2019-05-22 13:48:34,790 [INFO]: output:[资料收取-assert_2<br/><img src=\\\\\"E:\work_space\js_de\debug\SeleniumConfig\bin\Debug\SootScreens\2019-05-22\13_48_17\资料收取-assert_2.png\\\\\"  hight=\\\\\"300\\\\\" width=\\\\\"300\\\\\"  onclick=\\\\\"javascript:window.open(this.src);\\\\\"/>, 收件受理-环节移交异常！转出校验信息为：
+2019-05-22 13:48:34,803 [INFO]: 请添加需要登记的不动产单元！ 请添加办件相关申请人！
+2019-05-22 13:48:34,812 [INFO]: , 转出校验提示框-2019-05-22 13_48_32<br/><img src=\\\\\"E:\work_space\js_de\debug\SeleniumConfig\bin\Debug\SootScreens\2019-05-22\13_48_17\转出校验提示框-2019-05-22 13_48_32.png\\\\\"  hight=\\\\\"300\\\\\" width=\\\\\"300\\\\\"  onclick=\\\\\"javascript:window.open(this.src);\\\\\"/>, 业务号：20190522-0007158, 该流程未完成，请留意!, , , , org.junit.ComparisonFailure: expected:<\\\\"申请[]信息\\\\"> but was:<\\\\"申请[人]信息\\\\">, org.junit.ComparisonFailure: expected:<\\"[听]\\"> but was:<\\"[    添加]\\">]
+2019-05-22 13:48:35,121 [INFO]: 开始复制文件
+2019-05-22 13:48:35,176 [INFO]: 复制完成！
+2019-05-22 13:48:35,190 [INFO]: 未设置邮件发送
+2019-05-22 13:48:35,198 [INFO]: 业务号：20190522-0007158
+2019-05-22 13:48:38,904 [INFO]: 开始流程自动化测试！
+2019-05-22 13:48:38,912 [INFO]: 当前执行方案-流程：assert_3-首次登记
+2019-05-22 13:48:41,220 [INFO]: 流程启动成功!
+2019-05-22 13:48:43,282 [INFO]: 获取所有参数
+2019-05-22 13:48:43,321 [INFO]: sid-3187BFC9-9025-41DC-B122-FE3C5CB5CCE6
+2019-05-22 13:48:43,333 [INFO]: 当前环节环节名称：收件受理,环节内码sid-3187BFC9-9025-41DC-B122-FE3C5CB5CCE6
+2019-05-22 13:48:43,346 [INFO]: 开始操作Ifame，Iframe名称：窗口资料收取
+2019-05-22 13:48:53,766 [INFO]: 获取到所有的iframe了2019-05-22 13:48:53
+2019-05-22 13:48:53,780 [INFO]: ifame地址1是：GisqPlatformExplorer/modules/bizmodel/datums_submit2019-05-22 13:48:53
+2019-05-22 13:48:53,799 [INFO]: 获取到ID是：TAB_IF_421e31cc-7c55-11e9-bba5-00505683a2312019-05-22 13:48:53
+2019-05-22 13:48:55,864 [INFO]: 切换到指定的iframe了2019-05-22 13:48:55
+2019-05-22 13:48:55,869 [INFO]: Iframe地址：GisqPlatformExplorer/modules/bizmodel/datums_submit
+2019-05-22 13:48:55,883 [INFO]: 当前iframe(窗口资料收取)操作元素：
+2019-05-22 13:48:55,889 [INFO]:        定位方式：XPATH
+2019-05-22 13:48:55,903 [INFO]:        定位路径：//div[@role='combobox']
+2019-05-22 13:48:55,914 [INFO]:        操作方式：QT
+2019-05-22 13:48:55,924 [INFO]:        操作默认值：$("#{ID}").jqxDropDownList('selectIndex', 0 );
+2019-05-22 13:48:55,930 [INFO]:        是否随机数：false
+2019-05-22 13:48:55,935 [INFO]:        是否Name随机数：false
+2019-05-22 13:48:55,940 [INFO]:        等待时间：0
+2019-05-22 13:48:55,956 [INFO]: 开始执行操作
+2019-05-22 13:48:56,039 [INFO]: 当前iframe(窗口资料收取)操作元素：
+2019-05-22 13:48:56,050 [INFO]:        定位方式：ID
+2019-05-22 13:48:56,056 [INFO]:        定位路径：saveDatum
+2019-05-22 13:48:56,063 [INFO]:        操作方式：CLICK
+2019-05-22 13:48:56,071 [INFO]:        操作默认值：
+2019-05-22 13:48:56,081 [INFO]:        是否随机数：false
+2019-05-22 13:48:56,088 [INFO]:        是否Name随机数：false
+2019-05-22 13:48:56,099 [INFO]:        等待时间：0
+2019-05-22 13:48:56,319 [INFO]: 开始执行操作
+2019-05-22 13:48:59,806 [INFO]: 当前iframe(窗口资料收取)操作元素：
+2019-05-22 13:48:59,813 [INFO]:        定位方式：
+2019-05-22 13:48:59,822 [INFO]:        定位路径：
+2019-05-22 13:48:59,835 [INFO]:        操作方式：SHOOT
+2019-05-22 13:48:59,851 [INFO]:        操作默认值：资料收取-assert_3
+2019-05-22 13:48:59,863 [INFO]:        是否随机数：false
+2019-05-22 13:48:59,883 [INFO]:        是否Name随机数：false
+2019-05-22 13:48:59,913 [INFO]:        等待时间：0
+2019-05-22 13:48:59,984 [INFO]: 开始执行操作
+2019-05-22 13:49:00,211 [INFO]: 查看一下截图集合的值：1
+2019-05-22 13:49:01,238 [INFO]: 开始操作Ifame，Iframe名称：申请信息
+2019-05-22 13:49:05,978 [INFO]: 获取到所有的iframe了2019-05-22 13:49:05
+2019-05-22 13:49:06,007 [INFO]: ifame地址1是：GisqQueryList/views/reports/realestate/common/acceptance/Acceptance_HouseRight_Initial.jsp?reportlet=realestate/common/acceptance/Acceptance_HouseRight_Initial.cpt2019-05-22 13:49:06
+2019-05-22 13:49:06,024 [INFO]: 获取到ID是：TAB_IF_421e31b3-7c55-11e9-bba5-00505683a2312019-05-22 13:49:06
+2019-05-22 13:49:08,080 [INFO]: 切换到指定的iframe了2019-05-22 13:49:08
+2019-05-22 13:49:08,099 [INFO]: Iframe地址：GisqQueryList/views/reports/realestate/common/acceptance/Acceptance_HouseRight_Initial.jsp?reportlet=realestate/common/acceptance/Acceptance_HouseRight_Initial.cpt
+2019-05-22 13:49:08,106 [INFO]: 当前iframe(申请信息)操作元素：
+2019-05-22 13:49:08,119 [INFO]:        定位方式：ID
+2019-05-22 13:49:08,124 [INFO]:        定位路径：TJSQR
+2019-05-22 13:49:08,133 [INFO]:        操作方式：Assert
+2019-05-22 13:49:08,145 [INFO]:        操作默认值：添加什么
+2019-05-22 13:49:08,160 [INFO]:        是否随机数：false
+2019-05-22 13:49:08,177 [INFO]:        是否Name随机数：false
+2019-05-22 13:49:08,194 [INFO]:        等待时间：0
+2019-05-22 13:49:08,230 [INFO]: 开始执行操作
+2019-05-22 13:49:12,648 [INFO]: 移交校验是否出现：true
+2019-05-22 13:49:12,712 [INFO]: 校验文本：
+2019-05-22 13:49:12,720 [INFO]: 请添加需要登记的不动产单元！ 请添加办件相关申请人！
+2019-05-22 13:49:12,729 [INFO]: 
+2019-05-22 13:49:12,938 [INFO]: 查看一下截图集合的值：2
+2019-05-22 13:49:13,069 [INFO]: 该流程未完成，请留意!
+2019-05-22 13:49:13,085 [INFO]: 开始比对：
+2019-05-22 13:49:13,095 [INFO]: 运行自动化测试
+2019-05-22 13:49:13,150 [INFO]: 关闭数据库连接！
+2019-05-22 13:49:13,165 [INFO]: 要关闭了
+2019-05-22 13:49:13,185 [INFO]: 删除成功！
+2019-05-22 13:49:13,194 [INFO]: 
+2019-05-22 13:49:13,204 [INFO]: ===============================================
+2019-05-22 13:49:13,213 [INFO]: 调试-国有建设用地使用权及房屋所有权（单套）-首次登记-assert_3
+2019-05-22 13:49:13,220 [INFO]: Total tests run: 1, Failures: 1, Skips: 0
+2019-05-22 13:49:13,226 [INFO]: ===============================================
+2019-05-22 13:49:13,238 [INFO]: 
+2019-05-22 13:49:13,251 [INFO]: output:[资料收取-assert_3<br/><img src=\\\"E:\work_space\js_de\debug\SeleniumConfig\bin\Debug\SootScreens\2019-05-22\13_48_17\资料收取-assert_3.png\\\"  hight=\\\"300\\\" width=\\\"300\\\"  onclick=\\\"javascript:window.open(this.src);\\\"/>, 收件受理-环节移交异常！转出校验信息为：
+2019-05-22 13:49:13,258 [INFO]: 请添加需要登记的不动产单元！ 请添加办件相关申请人！
+2019-05-22 13:49:13,266 [INFO]: , 转出校验提示框-2019-05-22 13_49_12<br/><img src=\\\"E:\work_space\js_de\debug\SeleniumConfig\bin\Debug\SootScreens\2019-05-22\13_48_17\转出校验提示框-2019-05-22 13_49_12.png\\\"  hight=\\\"300\\\" width=\\\"300\\\"  onclick=\\\"javascript:window.open(this.src);\\\"/>, 业务号：20190522-0007159, 该流程未完成，请留意!, , org.junit.ComparisonFailure: expected:<\\"[添加什么]\\"> but was:<\\"[    添加]\\">]
+2019-05-22 13:49:13,439 [INFO]: 开始复制文件
+2019-05-22 13:49:13,470 [INFO]: 复制完成！
+2019-05-22 13:49:13,477 [INFO]: 未设置邮件发送
+2019-05-22 13:49:13,501 [INFO]: 业务号：20190522-0007159
+2019-05-22 13:49:15,598 [INFO]: 写入文档===
+2019-05-22 13:49:15,701 [INFO]: 写入成功！
+2019-05-22 13:49:16,915 [WARN]: 五月 22, 2019 1:49:16 下午 org.openqa.selenium.os.UnixProcess$SeleniumWatchDog destroyHarder
+2019-05-22 13:49:16,925 [WARN]: 信息: Command failed to close cleanly. Destroying forcefully (v2). org.openqa.selenium.os.UnixProcess$SeleniumWatchDog@30462a63
+2019-05-22 13:49:19,166 [WARN]: 五月 22, 2019 1:49:19 下午 org.openqa.selenium.os.UnixProcess$SeleniumWatchDog destroyHarder
+2019-05-22 13:49:19,535 [WARN]: 信息: Command failed to close cleanly. Destroying forcefully (v2). org.openqa.selenium.os.UnixProcess$SeleniumWatchDog@3e605746
+2019-05-22 13:49:25,595 [INFO]: 

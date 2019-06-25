@@ -1,0 +1,1635 @@
+2019-03-11 09:22:40,510 [INFO]: Microsoft Windows [版本 6.1.7601]
+2019-03-11 09:22:41,041 [INFO]: 版权所有 (c) 2009 Microsoft Corporation。保留所有权利。
+2019-03-11 09:22:41,041 [INFO]: 
+2019-03-11 09:22:41,056 [INFO]: D:\work_space\js_de\debug\SeleniumConfig\bin\Debug>java -jar D:\work_space\js_de\debug\SeleniumConfig\bin\Debug\\SeleniumJAVA\Selenium.jar C#
+2019-03-11 09:22:57,613 [INFO]: path:/D:/work_space/js_de/debug/SeleniumConfig/bin/Debug/SeleniumJAVA/Selenium.jar
+2019-03-11 09:22:57,613 [INFO]: /D:/work_space/js_de/debug/SeleniumConfig/bin/Debug
+2019-03-11 09:22:57,629 [INFO]: 开始准备数据
+2019-03-11 09:22:57,629 [INFO]: 开始缓存总体参数配置文件
+2019-03-11 09:22:57,785 [INFO]: 读取服务地址/D:/work_space/js_de/debug/SeleniumConfig/bin/Debug
+2019-03-11 09:22:58,050 [WARN]: SLF4J: The requested version 1.7.16 by your slf4j binding is not compatible with [1.6]
+2019-03-11 09:22:58,050 [WARN]: SLF4J: See http://www.slf4j.org/codes.html#version_mismatch for further details.
+2019-03-11 09:22:58,456 [INFO]: 09:22:58.456 [main] WARN  n.s.e.config.CacheConfiguration - Cache 'Common' is set to eternal but also has TTI/TTL set.  To avoid this warning, clean up the config removing conflicting values of eternal, TTI and TTL. Effective configuration for Cache 'Common' will be eternal='true', timeToIdleSeconds='0', timeToLiveSeconds='0'.
+2019-03-11 09:22:58,456 [INFO]: 缓存总体参数配置文件成功！
+2019-03-11 09:22:58,472 [INFO]: 开始缓存SQL配置信息
+2019-03-11 09:22:58,503 [INFO]: 09:22:58.503 [main] WARN  n.s.e.config.CacheConfiguration - Cache 'SQLConfig' is set to eternal but also has TTI/TTL set.  To avoid this warning, clean up the config removing conflicting values of eternal, TTI and TTL. Effective configuration for Cache 'SQLConfig' will be eternal='true', timeToIdleSeconds='0', timeToLiveSeconds='0'.
+2019-03-11 09:22:58,503 [INFO]: 缓存SQL配置信息成功！
+2019-03-11 09:22:58,519 [INFO]: 开始缓存SQL配置的SQL语句信息
+2019-03-11 09:22:59,611 [INFO]: 缓存SQL配置的SQL语句信息成功！
+2019-03-11 09:22:59,611 [INFO]: 开始缓存自动化测试配置方案文件
+2019-03-11 09:22:59,626 [INFO]: 09:22:59.626 [main] WARN  n.s.e.config.CacheConfiguration - Cache 'Schema' is set to eternal but also has TTI/TTL set.  To avoid this warning, clean up the config removing conflicting values of eternal, TTI and TTL. Effective configuration for Cache 'Schema' will be eternal='true', timeToIdleSeconds='0', timeToLiveSeconds='0'.
+2019-03-11 09:22:59,626 [INFO]: 缓存自动化测试配置方案文件成功！
+2019-03-11 09:22:59,626 [INFO]: 开始缓存初始化配置参数成功！
+2019-03-11 09:22:59,642 [INFO]: 09:22:59.642 [main] WARN  n.s.e.config.CacheConfiguration - Cache 'PRODEF' is set to eternal but also has TTI/TTL set.  To avoid this warning, clean up the config removing conflicting values of eternal, TTI and TTL. Effective configuration for Cache 'PRODEF' will be eternal='true', timeToIdleSeconds='0', timeToLiveSeconds='0'.
+2019-03-11 09:22:59,642 [INFO]: 缓存流程配置信息成功！
+2019-03-11 09:23:00,219 [WARN]: Starting ChromeDriver (v2.9.248315) on port 41571
+2019-03-11 09:23:00,781 [INFO]: 初始化ChromeDriver成功！
+2019-03-11 09:23:01,579 [WARN]: Starting ChromeDriver (v2.9.248315) on port 7107
+2019-03-11 09:23:12,755 [INFO]: 初始化WebDriver成功！
+2019-03-11 09:23:12,760 [INFO]: 系统登陆地址：http://192.168.2.119:8082/GisqPlatformExplorer/a/login;JSESSIONID=7a22b82495884077a7860a3b86e8ac2f
+2019-03-11 09:23:16,510 [INFO]: 开始流程自动化测试！
+2019-03-11 09:23:16,552 [INFO]: 流程内码：2d107839-0de3-11e6-b878-000c2984e60c,流程名称首次登记
+2019-03-11 09:23:23,829 [INFO]: 流程启动成功，主框架句柄：CDwindow-20B14491-0E52-4885-B435-A91721B487E5
+2019-03-11 09:23:23,839 [INFO]: 包的id：38bcedca-df88-11e5-b408-000c29187a9e
+2019-03-11 09:23:23,845 [INFO]: schemaid:fd8c6b9a-6411-47c5-87f0-021a79f47453
+2019-03-11 09:23:23,851 [INFO]: schemaname:测试方案1
+2019-03-11 09:23:23,857 [INFO]: prodef:2d107839-0de3-11e6-b878-000c2984e60c
+2019-03-11 09:23:23,862 [INFO]: prodef:首次登记
+2019-03-11 09:23:23,875 [INFO]: packname:国有建设用地使用权及房屋所有权（大宗地）
+2019-03-11 09:23:23,883 [INFO]: cchild:1aa436eb-3fdf-4aec-97b8-94bd58f78c8f
+2019-03-11 09:23:23,890 [INFO]: childname:3---断言
+2019-03-11 09:23:25,948 [INFO]: 获取所有参数
+2019-03-11 09:23:25,997 [INFO]: sid-075095F3-5F75-4295-B4D1-5843F0D20C8E
+2019-03-11 09:23:26,002 [INFO]: 当前环节环节名称：收件受理,环节内码sid-075095F3-5F75-4295-B4D1-5843F0D20C8E
+2019-03-11 09:23:26,008 [INFO]: 开始操作Ifame，Iframe名称：窗口资料收取
+2019-03-11 09:23:28,561 [INFO]: element.getText：
+2019-03-11 09:23:28,624 [INFO]: element点击完成啦
+2019-03-11 09:23:28,729 [INFO]: 点击完成1
+2019-03-11 09:23:28,754 [INFO]: 获取到所有的iframe了2019-03-11 09:23:28
+2019-03-11 09:23:28,770 [INFO]: ifame地址1是：GisqPlatformExplorer/modules/bizmodel/datums_submit2019-03-11 09:23:28
+2019-03-11 09:23:28,785 [INFO]: 获取到ID是：TAB_IF_42a4b406-439c-11e9-b330-00505683a2312019-03-11 09:23:28
+2019-03-11 09:23:30,829 [INFO]: 切换到指定的iframe了2019-03-11 09:23:30
+2019-03-11 09:23:30,834 [INFO]: Iframe地址：GisqPlatformExplorer/modules/bizmodel/datums_submit
+2019-03-11 09:23:30,847 [INFO]: 当前iframe(窗口资料收取)操作元素：
+2019-03-11 09:23:30,852 [INFO]:        定位方式：XPATH
+2019-03-11 09:23:30,857 [INFO]:        定位路径：//div[@role='combobox']
+2019-03-11 09:23:30,864 [INFO]:        操作方式：QT
+2019-03-11 09:23:30,878 [INFO]:        默认值：$("#{ID}").jqxDropDownList('selectIndex', 0 );
+2019-03-11 09:23:30,886 [INFO]:        是否随机数：false
+2019-03-11 09:23:30,892 [INFO]:        等待时间：0
+2019-03-11 09:23:30,930 [INFO]: 开始执行操作
+2019-03-11 09:23:31,054 [INFO]: 等待时间：0
+2019-03-11 09:23:31,061 [INFO]: 当前iframe(窗口资料收取)操作元素：
+2019-03-11 09:23:31,074 [INFO]:        定位方式：ID
+2019-03-11 09:23:31,083 [INFO]:        定位路径：saveDatum
+2019-03-11 09:23:31,096 [INFO]:        操作方式：CLICK
+2019-03-11 09:23:31,111 [INFO]:        默认值：
+2019-03-11 09:23:31,122 [INFO]:        是否随机数：false
+2019-03-11 09:23:31,130 [INFO]:        等待时间：3000
+2019-03-11 09:23:31,302 [INFO]: 开始执行操作
+2019-03-11 09:23:31,410 [INFO]: 我已经点击完成了
+2019-03-11 09:23:32,498 [INFO]: 等待时间：3000
+2019-03-11 09:23:33,519 [INFO]: 开始操作Ifame，Iframe名称：申请信息
+2019-03-11 09:23:35,668 [INFO]: 点击完成1
+2019-03-11 09:23:37,085 [INFO]: 获取到所有的iframe了2019-03-11 09:23:37
+2019-03-11 09:23:37,113 [INFO]: ifame地址1是：GisqQueryList/views/reports/realestate/common/acceptance/Acceptance_HouseRight_Initial.jsp?reportlet=realestate/common/acceptance/Acceptance_HouseRight_Initial.cpt2019-03-11 09:23:37
+2019-03-11 09:23:37,131 [INFO]: 获取到ID是：TAB_IF_42a4659b-439c-11e9-b330-00505683a2312019-03-11 09:23:37
+2019-03-11 09:23:39,196 [INFO]: 切换到指定的iframe了2019-03-11 09:23:39
+2019-03-11 09:23:39,205 [INFO]: Iframe地址：GisqQueryList/views/reports/realestate/common/acceptance/Acceptance_HouseRight_Initial.jsp?reportlet=realestate/common/acceptance/Acceptance_HouseRight_Initial.cpt
+2019-03-11 09:23:39,214 [INFO]: 当前iframe(申请信息)操作元素：
+2019-03-11 09:23:39,221 [INFO]:        定位方式：XPATH
+2019-03-11 09:23:39,230 [INFO]:        定位路径：/html/body/div[3]/table/tbody/tr[2]/td[2]
+2019-03-11 09:23:39,237 [INFO]:        操作方式：Assert
+2019-03-11 09:23:39,245 [INFO]:        默认值：申请人
+2019-03-11 09:23:39,263 [INFO]:        是否随机数：false
+2019-03-11 09:23:39,270 [INFO]:        等待时间：0
+2019-03-11 09:23:39,280 [INFO]: 开始执行操作
+2019-03-11 09:23:39,287 [INFO]: 看一下取到值额吗：申请人信息
+2019-03-11 09:23:39,301 [INFO]: 等待时间：0
+2019-03-11 09:23:39,309 [INFO]: 当前iframe(申请信息)操作元素：
+2019-03-11 09:23:39,317 [INFO]:        定位方式：XPATH
+2019-03-11 09:23:39,327 [INFO]:        定位路径：/html/body/div[3]/table/tbody/tr[6]/td[2]
+2019-03-11 09:23:39,336 [INFO]:        操作方式：Assert
+2019-03-11 09:23:39,345 [INFO]:        默认值：不动产单元信息
+2019-03-11 09:23:39,369 [INFO]:        是否随机数：false
+2019-03-11 09:23:39,378 [INFO]:        等待时间：0
+2019-03-11 09:23:39,388 [INFO]: 开始执行操作
+2019-03-11 09:23:39,396 [INFO]: 看一下取到值额吗：不动产单元信息
+2019-03-11 09:23:39,405 [INFO]: 等待时间：0
+2019-03-11 09:23:39,413 [INFO]: 当前iframe(申请信息)操作元素：
+2019-03-11 09:23:39,422 [INFO]:        定位方式：XPATH
+2019-03-11 09:23:39,440 [INFO]:        定位路径：/html/body/div[3]/table/tbody/tr[12]/td[2]
+2019-03-11 09:23:39,458 [INFO]:        操作方式：Assert
+2019-03-11 09:23:39,470 [INFO]:        默认值：项目信息
+2019-03-11 09:23:39,483 [INFO]:        是否随机数：false
+2019-03-11 09:23:39,491 [INFO]:        等待时间：0
+2019-03-11 09:23:39,501 [INFO]: 开始执行操作
+2019-03-11 09:23:39,528 [INFO]: 看一下取到值额吗：项目信息
+2019-03-11 09:23:39,555 [INFO]: 等待时间：0
+2019-03-11 09:23:39,563 [INFO]: 当前iframe(申请信息)操作元素：
+2019-03-11 09:23:39,571 [INFO]:        定位方式：XPATH
+2019-03-11 09:23:39,580 [INFO]:        定位路径：/html/body/div[3]/table/tbody/tr[14]/td[2]
+2019-03-11 09:23:39,589 [INFO]:        操作方式：Assert
+2019-03-11 09:23:39,597 [INFO]:        默认值：开发商名称 
+2019-03-11 09:23:39,612 [INFO]:        是否随机数：false
+2019-03-11 09:23:39,634 [INFO]:        等待时间：0
+2019-03-11 09:23:39,642 [INFO]: 开始执行操作
+2019-03-11 09:23:39,650 [INFO]: 看一下取到值额吗：开发商名称：
+2019-03-11 09:23:39,660 [INFO]: 等待时间：0
+2019-03-11 09:23:39,668 [INFO]: 当前iframe(申请信息)操作元素：
+2019-03-11 09:23:39,677 [INFO]:        定位方式：XPATH
+2019-03-11 09:23:39,686 [INFO]:        定位路径：/html/body/div[3]/table/tbody/tr[14]/td[5]
+2019-03-11 09:23:39,694 [INFO]:        操作方式：Assert
+2019-03-11 09:23:39,704 [INFO]:        默认值：项目
+2019-03-11 09:23:39,711 [INFO]:        是否随机数：false
+2019-03-11 09:23:39,720 [INFO]:        等待时间：0
+2019-03-11 09:23:39,729 [INFO]: 开始执行操作
+2019-03-11 09:23:39,741 [INFO]: 看一下取到值额吗：项目名称：
+2019-03-11 09:23:39,752 [INFO]: 等待时间：0
+2019-03-11 09:23:39,760 [INFO]: 当前iframe(申请信息)操作元素：
+2019-03-11 09:23:39,768 [INFO]:        定位方式：
+2019-03-11 09:23:39,777 [INFO]:        定位路径：
+2019-03-11 09:23:39,792 [INFO]:        操作方式：SHOOT
+2019-03-11 09:23:39,799 [INFO]:        默认值：申请信息截图
+2019-03-11 09:23:39,807 [INFO]:        是否随机数：false
+2019-03-11 09:23:39,816 [INFO]:        等待时间：0
+2019-03-11 09:23:39,826 [INFO]: 开始执行操作
+2019-03-11 09:23:39,840 [INFO]: file绝对路径：D:\work_space\js_de\debug\SeleniumConfig\bin\Debug\SootScreens\2019-03-11
+2019-03-11 09:23:39,849 [INFO]: real_scrol:1236
+2019-03-11 09:23:39,858 [INFO]: real_top:0
+2019-03-11 09:23:56,412 [INFO]: i:1
+2019-03-11 09:23:56,424 [INFO]: height:450
+2019-03-11 09:24:06,678 [INFO]: i:2
+2019-03-11 09:24:06,685 [INFO]: height:900
+2019-03-11 09:24:06,694 [INFO]: 等待时间：0
+2019-03-11 09:24:07,736 [INFO]: 点击移交
+2019-03-11 09:24:07,821 [INFO]: 点击完成
+2019-03-11 09:24:15,406 [INFO]: 点击工作中心
+2019-03-11 09:24:20,470 [INFO]: 判断如果是新收办件，就开始了点击事件
+2019-03-11 09:24:32,313 [INFO]: 开始运行tastsuit
+2019-03-11 09:24:33,165 [INFO]: 文件路径:D:\work_space\js_de\debug\SeleniumConfig\bin\Debug\Assertdata.xlsx
+2019-03-11 09:24:33,745 [INFO]: 
+2019-03-11 09:24:33,753 [INFO]: ===============================================
+2019-03-11 09:24:33,760 [INFO]: Command line suite
+2019-03-11 09:24:33,765 [INFO]: Total tests run: 5, Failures: 3, Skips: 0
+2019-03-11 09:24:33,801 [INFO]: ===============================================
+2019-03-11 09:24:33,812 [INFO]: 
+2019-03-11 09:24:34,850 [INFO]: 
+2019-03-11 09:32:52,427 [INFO]: D:\work_space\js_de\debug\SeleniumConfig\bin\Debug>
+2019-03-11 09:33:36,765 [INFO]: Microsoft Windows [版本 6.1.7601]
+2019-03-11 09:33:36,765 [INFO]: 版权所有 (c) 2009 Microsoft Corporation。保留所有权利。
+2019-03-11 09:33:36,780 [INFO]: 
+2019-03-11 09:33:36,780 [INFO]: D:\work_space\js_de\debug\SeleniumConfig\bin\Debug>java -jar D:\work_space\js_de\debug\SeleniumConfig\bin\Debug\\SeleniumJAVA\Selenium.jar C#
+2019-03-11 09:33:40,636 [INFO]: path:/D:/work_space/js_de/debug/SeleniumConfig/bin/Debug/SeleniumJAVA/Selenium.jar
+2019-03-11 09:33:40,652 [INFO]: /D:/work_space/js_de/debug/SeleniumConfig/bin/Debug
+2019-03-11 09:33:40,652 [INFO]: 开始准备数据
+2019-03-11 09:33:40,652 [INFO]: 开始缓存总体参数配置文件
+2019-03-11 09:33:40,792 [INFO]: 读取服务地址/D:/work_space/js_de/debug/SeleniumConfig/bin/Debug
+2019-03-11 09:33:41,026 [WARN]: SLF4J: The requested version 1.7.16 by your slf4j binding is not compatible with [1.6]
+2019-03-11 09:33:41,026 [WARN]: SLF4J: See http://www.slf4j.org/codes.html#version_mismatch for further details.
+2019-03-11 09:33:41,448 [INFO]: 09:33:41.448 [main] WARN  n.s.e.config.CacheConfiguration - Cache 'Common' is set to eternal but also has TTI/TTL set.  To avoid this warning, clean up the config removing conflicting values of eternal, TTI and TTL. Effective configuration for Cache 'Common' will be eternal='true', timeToIdleSeconds='0', timeToLiveSeconds='0'.
+2019-03-11 09:33:41,448 [INFO]: 缓存总体参数配置文件成功！
+2019-03-11 09:33:41,448 [INFO]: 开始缓存SQL配置信息
+2019-03-11 09:33:41,479 [INFO]: 09:33:41.479 [main] WARN  n.s.e.config.CacheConfiguration - Cache 'SQLConfig' is set to eternal but also has TTI/TTL set.  To avoid this warning, clean up the config removing conflicting values of eternal, TTI and TTL. Effective configuration for Cache 'SQLConfig' will be eternal='true', timeToIdleSeconds='0', timeToLiveSeconds='0'.
+2019-03-11 09:33:41,479 [INFO]: 缓存SQL配置信息成功！
+2019-03-11 09:33:41,494 [INFO]: 开始缓存SQL配置的SQL语句信息
+2019-03-11 09:33:42,415 [INFO]: 缓存SQL配置的SQL语句信息成功！
+2019-03-11 09:33:42,415 [INFO]: 开始缓存自动化测试配置方案文件
+2019-03-11 09:33:42,446 [INFO]: 09:33:42.430 [main] WARN  n.s.e.config.CacheConfiguration - Cache 'Schema' is set to eternal but also has TTI/TTL set.  To avoid this warning, clean up the config removing conflicting values of eternal, TTI and TTL. Effective configuration for Cache 'Schema' will be eternal='true', timeToIdleSeconds='0', timeToLiveSeconds='0'.
+2019-03-11 09:33:42,462 [INFO]: 缓存自动化测试配置方案文件成功！
+2019-03-11 09:33:42,462 [INFO]: 开始缓存初始化配置参数成功！
+2019-03-11 09:33:42,477 [INFO]: 09:33:42.446 [main] WARN  n.s.e.config.CacheConfiguration - Cache 'PRODEF' is set to eternal but also has TTI/TTL set.  To avoid this warning, clean up the config removing conflicting values of eternal, TTI and TTL. Effective configuration for Cache 'PRODEF' will be eternal='true', timeToIdleSeconds='0', timeToLiveSeconds='0'.
+2019-03-11 09:33:42,493 [INFO]: 缓存流程配置信息成功！
+2019-03-11 09:33:42,711 [WARN]: Starting ChromeDriver (v2.9.248315) on port 29782
+2019-03-11 09:33:43,569 [INFO]: 初始化ChromeDriver成功！
+2019-03-11 09:33:43,912 [WARN]: Starting ChromeDriver (v2.9.248315) on port 40963
+2019-03-11 09:33:52,145 [INFO]: 初始化WebDriver成功！
+2019-03-11 09:33:52,150 [INFO]: 系统登陆地址：http://192.168.2.119:8082/GisqPlatformExplorer/a/login;JSESSIONID=7a22b82495884077a7860a3b86e8ac2f
+2019-03-11 09:33:55,556 [INFO]: 开始流程自动化测试！
+2019-03-11 09:33:55,560 [INFO]: 流程内码：2d107839-0de3-11e6-b878-000c2984e60c,流程名称首次登记
+2019-03-11 09:34:02,878 [INFO]: 流程启动成功，主框架句柄：CDwindow-5285004C-3E1B-4D0D-98C3-1AEE5AA7B987
+2019-03-11 09:34:02,894 [INFO]: 包的id：38bcedca-df88-11e5-b408-000c29187a9e
+2019-03-11 09:34:02,900 [INFO]: schemaid:fd8c6b9a-6411-47c5-87f0-021a79f47453
+2019-03-11 09:34:02,906 [INFO]: schemaname:测试方案1
+2019-03-11 09:34:02,911 [INFO]: prodef:2d107839-0de3-11e6-b878-000c2984e60c
+2019-03-11 09:34:02,915 [INFO]: prodef:首次登记
+2019-03-11 09:34:02,921 [INFO]: packname:国有建设用地使用权及房屋所有权（大宗地）
+2019-03-11 09:34:02,926 [INFO]: cchild:1aa436eb-3fdf-4aec-97b8-94bd58f78c8f
+2019-03-11 09:34:02,932 [INFO]: childname:3---断言
+2019-03-11 09:34:04,993 [INFO]: 获取所有参数
+2019-03-11 09:34:05,028 [INFO]: sid-075095F3-5F75-4295-B4D1-5843F0D20C8E
+2019-03-11 09:34:05,033 [INFO]: 当前环节环节名称：收件受理,环节内码sid-075095F3-5F75-4295-B4D1-5843F0D20C8E
+2019-03-11 09:34:05,038 [INFO]: 开始操作Ifame，Iframe名称：窗口资料收取
+2019-03-11 09:34:06,635 [INFO]: element.getText：
+2019-03-11 09:34:06,699 [INFO]: element点击完成啦
+2019-03-11 09:34:06,796 [INFO]: 点击完成1
+2019-03-11 09:34:06,815 [INFO]: 获取到所有的iframe了2019-03-11 09:34:06
+2019-03-11 09:34:06,836 [INFO]: ifame地址1是：GisqPlatformExplorer/modules/bizmodel/datums_submit2019-03-11 09:34:06
+2019-03-11 09:34:06,849 [INFO]: 获取到ID是：TAB_IF_bf481824-439d-11e9-b330-00505683a2312019-03-11 09:34:06
+2019-03-11 09:34:08,888 [INFO]: 切换到指定的iframe了2019-03-11 09:34:08
+2019-03-11 09:34:08,892 [INFO]: Iframe地址：GisqPlatformExplorer/modules/bizmodel/datums_submit
+2019-03-11 09:34:08,906 [INFO]: 当前iframe(窗口资料收取)操作元素：
+2019-03-11 09:34:08,912 [INFO]:        定位方式：XPATH
+2019-03-11 09:34:08,917 [INFO]:        定位路径：//div[@role='combobox']
+2019-03-11 09:34:08,922 [INFO]:        操作方式：QT
+2019-03-11 09:34:08,928 [INFO]:        默认值：$("#{ID}").jqxDropDownList('selectIndex', 0 );
+2019-03-11 09:34:08,933 [INFO]:        是否随机数：false
+2019-03-11 09:34:08,939 [INFO]:        等待时间：0
+2019-03-11 09:34:08,950 [INFO]: 开始执行操作
+2019-03-11 09:34:09,057 [INFO]: 等待时间：0
+2019-03-11 09:34:09,062 [INFO]: 当前iframe(窗口资料收取)操作元素：
+2019-03-11 09:34:09,068 [INFO]:        定位方式：ID
+2019-03-11 09:34:09,073 [INFO]:        定位路径：saveDatum
+2019-03-11 09:34:09,078 [INFO]:        操作方式：CLICK
+2019-03-11 09:34:09,084 [INFO]:        默认值：
+2019-03-11 09:34:09,091 [INFO]:        是否随机数：false
+2019-03-11 09:34:09,097 [INFO]:        等待时间：3000
+2019-03-11 09:34:09,263 [INFO]: 开始执行操作
+2019-03-11 09:34:09,364 [INFO]: 我已经点击完成了
+2019-03-11 09:34:09,902 [INFO]: 等待时间：3000
+2019-03-11 09:34:10,935 [INFO]: 开始操作Ifame，Iframe名称：申请信息
+2019-03-11 09:34:13,089 [INFO]: 点击完成1
+2019-03-11 09:34:14,415 [INFO]: 获取到所有的iframe了2019-03-11 09:34:14
+2019-03-11 09:34:14,458 [INFO]: ifame地址1是：GisqQueryList/views/reports/realestate/common/acceptance/Acceptance_HouseRight_Initial.jsp?reportlet=realestate/common/acceptance/Acceptance_HouseRight_Initial.cpt2019-03-11 09:34:14
+2019-03-11 09:34:14,478 [INFO]: 获取到ID是：TAB_IF_bf47f0c9-439d-11e9-b330-00505683a2312019-03-11 09:34:14
+2019-03-11 09:34:16,522 [INFO]: 切换到指定的iframe了2019-03-11 09:34:16
+2019-03-11 09:34:16,527 [INFO]: Iframe地址：GisqQueryList/views/reports/realestate/common/acceptance/Acceptance_HouseRight_Initial.jsp?reportlet=realestate/common/acceptance/Acceptance_HouseRight_Initial.cpt
+2019-03-11 09:34:16,536 [INFO]: 当前iframe(申请信息)操作元素：
+2019-03-11 09:34:16,541 [INFO]:        定位方式：XPATH
+2019-03-11 09:34:16,547 [INFO]:        定位路径：/html/body/div[3]/table/tbody/tr[2]/td[2]
+2019-03-11 09:34:16,551 [INFO]:        操作方式：Assert
+2019-03-11 09:34:16,558 [INFO]:        默认值：申请人
+2019-03-11 09:34:16,573 [INFO]:        是否随机数：false
+2019-03-11 09:34:16,586 [INFO]:        等待时间：0
+2019-03-11 09:34:16,782 [INFO]: 开始执行操作
+2019-03-11 09:34:16,825 [INFO]: 看一下取到值额吗：申请人信息
+2019-03-11 09:34:16,841 [INFO]: 等待时间：0
+2019-03-11 09:34:16,846 [INFO]: 当前iframe(申请信息)操作元素：
+2019-03-11 09:34:16,850 [INFO]:        定位方式：XPATH
+2019-03-11 09:34:16,855 [INFO]:        定位路径：/html/body/div[3]/table/tbody/tr[6]/td[2]
+2019-03-11 09:34:16,860 [INFO]:        操作方式：Assert
+2019-03-11 09:34:16,866 [INFO]:        默认值：不动产单元信息
+2019-03-11 09:34:16,873 [INFO]:        是否随机数：false
+2019-03-11 09:34:16,877 [INFO]:        等待时间：0
+2019-03-11 09:34:16,885 [INFO]: 开始执行操作
+2019-03-11 09:34:16,915 [INFO]: 看一下取到值额吗：不动产单元信息
+2019-03-11 09:34:16,936 [INFO]: 等待时间：0
+2019-03-11 09:34:16,941 [INFO]: 当前iframe(申请信息)操作元素：
+2019-03-11 09:34:16,947 [INFO]:        定位方式：XPATH
+2019-03-11 09:34:16,952 [INFO]:        定位路径：/html/body/div[3]/table/tbody/tr[12]/td[2]
+2019-03-11 09:34:16,957 [INFO]:        操作方式：Assert
+2019-03-11 09:34:16,962 [INFO]:        默认值：项目信息
+2019-03-11 09:34:16,967 [INFO]:        是否随机数：false
+2019-03-11 09:34:16,973 [INFO]:        等待时间：0
+2019-03-11 09:34:17,010 [INFO]: 开始执行操作
+2019-03-11 09:34:17,039 [INFO]: 看一下取到值额吗：项目信息
+2019-03-11 09:34:17,055 [INFO]: 等待时间：0
+2019-03-11 09:34:17,060 [INFO]: 当前iframe(申请信息)操作元素：
+2019-03-11 09:34:17,065 [INFO]:        定位方式：XPATH
+2019-03-11 09:34:17,071 [INFO]:        定位路径：/html/body/div[3]/table/tbody/tr[14]/td[2]
+2019-03-11 09:34:17,075 [INFO]:        操作方式：Assert
+2019-03-11 09:34:17,080 [INFO]:        默认值：开发商名称 
+2019-03-11 09:34:17,086 [INFO]:        是否随机数：false
+2019-03-11 09:34:17,102 [INFO]:        等待时间：0
+2019-03-11 09:34:17,121 [INFO]: 开始执行操作
+2019-03-11 09:34:17,150 [INFO]: 看一下取到值额吗：开发商名称：
+2019-03-11 09:34:17,160 [INFO]: 等待时间：0
+2019-03-11 09:34:17,165 [INFO]: 当前iframe(申请信息)操作元素：
+2019-03-11 09:34:17,170 [INFO]:        定位方式：XPATH
+2019-03-11 09:34:17,175 [INFO]:        定位路径：/html/body/div[3]/table/tbody/tr[14]/td[5]
+2019-03-11 09:34:17,181 [INFO]:        操作方式：Assert
+2019-03-11 09:34:17,187 [INFO]:        默认值：项目
+2019-03-11 09:34:17,193 [INFO]:        是否随机数：false
+2019-03-11 09:34:17,197 [INFO]:        等待时间：0
+2019-03-11 09:34:17,202 [INFO]: 开始执行操作
+2019-03-11 09:34:17,225 [INFO]: 看一下取到值额吗：项目名称：
+2019-03-11 09:34:17,235 [INFO]: 等待时间：0
+2019-03-11 09:34:17,240 [INFO]: 当前iframe(申请信息)操作元素：
+2019-03-11 09:34:17,246 [INFO]:        定位方式：
+2019-03-11 09:34:17,251 [INFO]:        定位路径：
+2019-03-11 09:34:17,256 [INFO]:        操作方式：SHOOT
+2019-03-11 09:34:17,272 [INFO]:        默认值：申请信息截图
+2019-03-11 09:34:17,277 [INFO]:        是否随机数：false
+2019-03-11 09:34:17,282 [INFO]:        等待时间：0
+2019-03-11 09:34:17,287 [INFO]: 开始执行操作
+2019-03-11 09:34:17,293 [INFO]: file绝对路径：D:\work_space\js_de\debug\SeleniumConfig\bin\Debug\SootScreens\2019-03-11
+2019-03-11 09:34:17,297 [INFO]: real_scrol:1236
+2019-03-11 09:34:17,301 [INFO]: real_top:0
+2019-03-11 09:34:33,756 [INFO]: i:1
+2019-03-11 09:34:33,762 [INFO]: height:450
+2019-03-11 09:34:43,995 [INFO]: i:2
+2019-03-11 09:34:44,003 [INFO]: height:900
+2019-03-11 09:34:44,011 [INFO]: 等待时间：0
+2019-03-11 09:34:45,039 [INFO]: 点击移交
+2019-03-11 09:34:45,117 [INFO]: 点击完成
+2019-03-11 09:34:52,670 [INFO]: 点击工作中心
+2019-03-11 09:34:59,760 [INFO]: ======exception reason=======org.openqa.selenium.WebDriverException: chrome not reachable
+2019-03-11 09:34:59,807 [WARN]: org.openqa.selenium.WebDriverException: chrome not reachable
+2019-03-11 09:34:59,807 [INFO]:   (Session info: chrome=34.0.1847.116)
+2019-03-11 09:34:59,807 [WARN]:   (Session info: chrome=34.0.1847.116)
+2019-03-11 09:34:59,807 [INFO]:   (Driver info: chromedriver=2.9.248315,platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+2019-03-11 09:34:59,823 [WARN]:   (Driver info: chromedriver=2.9.248315,platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+2019-03-11 09:34:59,823 [INFO]: Command duration or timeout: 2.09 seconds
+2019-03-11 09:34:59,823 [WARN]: Command duration or timeout: 2.09 seconds
+2019-03-11 09:34:59,823 [INFO]: Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+2019-03-11 09:34:59,838 [WARN]: Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+2019-03-11 09:34:59,854 [INFO]: System info: host: 'MTC-20180624XMT', ip: '192.168.6.79', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_191'
+2019-03-11 09:34:59,854 [WARN]: System info: host: 'MTC-20180624XMT', ip: '192.168.6.79', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_191'
+2019-03-11 09:34:59,854 [INFO]: Driver info: org.openqa.selenium.chrome.ChromeDriver
+2019-03-11 09:34:59,870 [WARN]: Driver info: org.openqa.selenium.chrome.ChromeDriver
+2019-03-11 09:34:59,870 [INFO]: Capabilities [{applicationCacheEnabled=false, rotatable=false, chrome={userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\scoped_dir10516_6003}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=34.0.1847.116, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+2019-03-11 09:34:59,870 [WARN]: Capabilities [{applicationCacheEnabled=false, rotatable=false, chrome={userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\scoped_dir10516_6003}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=34.0.1847.116, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+2019-03-11 09:34:59,885 [INFO]: Session ID: 5bb25ae6adaf60541306181912158492
+2019-03-11 09:34:59,885 [WARN]: Session ID: 5bb25ae6adaf60541306181912158492
+2019-03-11 09:34:59,885 [INFO]: *** Element info: {Using=xpath, value=//div[@class='PopupMenu']}
+2019-03-11 09:34:59,885 [WARN]: *** Element info: {Using=xpath, value=//div[@class='PopupMenu']}
+2019-03-11 09:34:59,901 [INFO]: ======exception reason=======org.openqa.selenium.WebDriverException: chrome not reachable
+2019-03-11 09:34:59,901 [WARN]: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+2019-03-11 09:34:59,916 [INFO]:   (Session info: chrome=34.0.1847.116)
+2019-03-11 09:34:59,916 [WARN]: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+2019-03-11 09:34:59,916 [INFO]:   (Driver info: chromedriver=2.9.248315,platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+2019-03-11 09:34:59,916 [WARN]: 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+2019-03-11 09:34:59,932 [INFO]: Command duration or timeout: 2.09 seconds
+2019-03-11 09:34:59,932 [WARN]: 	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+2019-03-11 09:34:59,948 [INFO]: Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+2019-03-11 09:34:59,948 [WARN]: 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+2019-03-11 09:34:59,948 [INFO]: System info: host: 'MTC-20180624XMT', ip: '192.168.6.79', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_191'
+2019-03-11 09:34:59,948 [WARN]: 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+2019-03-11 09:34:59,963 [INFO]: Driver info: org.openqa.selenium.chrome.ChromeDriver
+2019-03-11 09:34:59,963 [WARN]: 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+2019-03-11 09:34:59,994 [INFO]: Capabilities [{applicationCacheEnabled=false, rotatable=false, chrome={userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\scoped_dir10516_6003}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=34.0.1847.116, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+2019-03-11 09:34:59,994 [WARN]: 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+2019-03-11 09:34:59,994 [INFO]: Session ID: 5bb25ae6adaf60541306181912158492
+2019-03-11 09:34:59,994 [WARN]: 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:455)
+2019-03-11 09:35:00,010 [INFO]: *** Element info: {Using=xpath, value=//div[@class='PopupMenu']}
+2019-03-11 09:35:00,026 [WARN]: 	at org.openqa.selenium.By$ByXPath.findElement(By.java:358)
+2019-03-11 09:35:00,026 [WARN]: 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+2019-03-11 09:35:00,026 [WARN]: 	at configSelenium.ConfigSeleniumStart.SelectPro(ConfigSeleniumStart.java:878)
+2019-03-11 09:35:00,041 [WARN]: 	at configSelenium.ConfigSeleniumStart.ActdefAction(ConfigSeleniumStart.java:817)
+2019-03-11 09:35:00,041 [WARN]: 	at configSelenium.ConfigSeleniumStart.main(ConfigSeleniumStart.java:197)
+2019-03-11 09:35:00,057 [WARN]: org.openqa.selenium.WebDriverException: chrome not reachable
+2019-03-11 09:35:00,057 [WARN]:   (Session info: chrome=34.0.1847.116)
+2019-03-11 09:35:00,057 [WARN]:   (Driver info: chromedriver=2.9.248315,platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+2019-03-11 09:35:00,072 [WARN]: Command duration or timeout: 2.09 seconds
+2019-03-11 09:35:00,088 [WARN]: Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+2019-03-11 09:35:00,088 [WARN]: System info: host: 'MTC-20180624XMT', ip: '192.168.6.79', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_191'
+2019-03-11 09:35:00,088 [WARN]: Driver info: org.openqa.selenium.chrome.ChromeDriver
+2019-03-11 09:35:00,088 [WARN]: Capabilities [{applicationCacheEnabled=false, rotatable=false, chrome={userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\scoped_dir10516_6003}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=34.0.1847.116, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+2019-03-11 09:35:00,104 [WARN]: Session ID: 5bb25ae6adaf60541306181912158492
+2019-03-11 09:35:00,119 [WARN]: *** Element info: {Using=xpath, value=//div[@class='PopupMenu']}
+2019-03-11 09:35:00,119 [WARN]: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+2019-03-11 09:35:00,119 [WARN]: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+2019-03-11 09:35:00,119 [WARN]: 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+2019-03-11 09:35:00,150 [WARN]: 	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+2019-03-11 09:35:00,150 [WARN]: 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+2019-03-11 09:35:00,150 [WARN]: 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+2019-03-11 09:35:00,166 [WARN]: 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+2019-03-11 09:35:00,182 [WARN]: 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+2019-03-11 09:35:00,182 [WARN]: 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:455)
+2019-03-11 09:35:00,182 [WARN]: 	at org.openqa.selenium.By$ByXPath.findElement(By.java:358)
+2019-03-11 09:35:00,182 [WARN]: 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+2019-03-11 09:35:00,213 [WARN]: 	at configSelenium.ConfigSeleniumStart.SelectPro(ConfigSeleniumStart.java:878)
+2019-03-11 09:35:00,213 [WARN]: 	at configSelenium.ConfigSeleniumStart.ActdefAction(ConfigSeleniumStart.java:817)
+2019-03-11 09:35:00,213 [WARN]: 	at configSelenium.ConfigSeleniumStart.main(ConfigSeleniumStart.java:197)
+2019-03-11 09:35:00,213 [WARN]: org.openqa.selenium.WebDriverException: chrome not reachable
+2019-03-11 09:35:00,228 [WARN]:   (Session info: chrome=34.0.1847.116)
+2019-03-11 09:35:00,228 [WARN]:   (Driver info: chromedriver=2.9.248315,platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+2019-03-11 09:35:00,228 [WARN]: Command duration or timeout: 2.09 seconds
+2019-03-11 09:35:00,260 [WARN]: Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+2019-03-11 09:35:00,260 [WARN]: System info: host: 'MTC-20180624XMT', ip: '192.168.6.79', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_191'
+2019-03-11 09:35:00,260 [WARN]: Driver info: org.openqa.selenium.chrome.ChromeDriver
+2019-03-11 09:35:00,275 [WARN]: Capabilities [{applicationCacheEnabled=false, rotatable=false, chrome={userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\scoped_dir10516_6003}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=34.0.1847.116, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+2019-03-11 09:35:00,275 [WARN]: Session ID: 5bb25ae6adaf60541306181912158492
+2019-03-11 09:35:00,291 [WARN]: *** Element info: {Using=xpath, value=//div[@class='PopupMenu']}
+2019-03-11 09:35:00,291 [WARN]: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+2019-03-11 09:35:00,291 [WARN]: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+2019-03-11 09:35:00,306 [WARN]: 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+2019-03-11 09:35:00,306 [WARN]: 	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+2019-03-11 09:35:00,322 [WARN]: 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+2019-03-11 09:35:00,322 [WARN]: 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+2019-03-11 09:35:00,322 [WARN]: 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+2019-03-11 09:35:00,338 [WARN]: 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+2019-03-11 09:35:00,338 [WARN]: 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:455)
+2019-03-11 09:35:00,338 [WARN]: 	at org.openqa.selenium.By$ByXPath.findElement(By.java:358)
+2019-03-11 09:35:00,353 [WARN]: 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+2019-03-11 09:35:00,369 [WARN]: 	at configSelenium.ConfigSeleniumStart.SelectPro(ConfigSeleniumStart.java:878)
+2019-03-11 09:35:00,369 [WARN]: 	at configSelenium.ConfigSeleniumStart.ActdefAction(ConfigSeleniumStart.java:817)
+2019-03-11 09:35:00,369 [WARN]: 	at configSelenium.ConfigSeleniumStart.main(ConfigSeleniumStart.java:197)
+2019-03-11 09:35:00,556 [INFO]: 
+2019-03-11 09:35:09,395 [INFO]: D:\work_space\js_de\debug\SeleniumConfig\bin\Debug>
+2019-03-11 09:35:47,212 [INFO]: Microsoft Windows [版本 6.1.7601]
+2019-03-11 09:35:47,228 [INFO]: 版权所有 (c) 2009 Microsoft Corporation。保留所有权利。
+2019-03-11 09:35:47,228 [INFO]: 
+2019-03-11 09:35:47,228 [INFO]: D:\work_space\js_de\debug\SeleniumConfig\bin\Debug>java -jar D:\work_space\js_de\debug\SeleniumConfig\bin\Debug\\SeleniumJAVA\Selenium.jar C#
+2019-03-11 09:35:48,463 [INFO]: path:/D:/work_space/js_de/debug/SeleniumConfig/bin/Debug/SeleniumJAVA/Selenium.jar
+2019-03-11 09:35:48,463 [INFO]: /D:/work_space/js_de/debug/SeleniumConfig/bin/Debug
+2019-03-11 09:35:48,463 [INFO]: 开始准备数据
+2019-03-11 09:35:48,463 [INFO]: 开始缓存总体参数配置文件
+2019-03-11 09:35:48,619 [INFO]: 读取服务地址/D:/work_space/js_de/debug/SeleniumConfig/bin/Debug
+2019-03-11 09:35:48,885 [WARN]: SLF4J: The requested version 1.7.16 by your slf4j binding is not compatible with [1.6]
+2019-03-11 09:35:48,900 [WARN]: SLF4J: See http://www.slf4j.org/codes.html#version_mismatch for further details.
+2019-03-11 09:35:49,306 [INFO]: 09:35:49.306 [main] WARN  n.s.e.config.CacheConfiguration - Cache 'Common' is set to eternal but also has TTI/TTL set.  To avoid this warning, clean up the config removing conflicting values of eternal, TTI and TTL. Effective configuration for Cache 'Common' will be eternal='true', timeToIdleSeconds='0', timeToLiveSeconds='0'.
+2019-03-11 09:35:49,321 [INFO]: 缓存总体参数配置文件成功！
+2019-03-11 09:35:49,321 [INFO]: 开始缓存SQL配置信息
+2019-03-11 09:35:49,337 [INFO]: 09:35:49.337 [main] WARN  n.s.e.config.CacheConfiguration - Cache 'SQLConfig' is set to eternal but also has TTI/TTL set.  To avoid this warning, clean up the config removing conflicting values of eternal, TTI and TTL. Effective configuration for Cache 'SQLConfig' will be eternal='true', timeToIdleSeconds='0', timeToLiveSeconds='0'.
+2019-03-11 09:35:49,353 [INFO]: 缓存SQL配置信息成功！
+2019-03-11 09:35:49,353 [INFO]: 开始缓存SQL配置的SQL语句信息
+2019-03-11 09:35:50,246 [INFO]: 缓存SQL配置的SQL语句信息成功！
+2019-03-11 09:35:50,261 [INFO]: 开始缓存自动化测试配置方案文件
+2019-03-11 09:35:50,277 [INFO]: 09:35:50.277 [main] WARN  n.s.e.config.CacheConfiguration - Cache 'Schema' is set to eternal but also has TTI/TTL set.  To avoid this warning, clean up the config removing conflicting values of eternal, TTI and TTL. Effective configuration for Cache 'Schema' will be eternal='true', timeToIdleSeconds='0', timeToLiveSeconds='0'.
+2019-03-11 09:35:50,277 [INFO]: 缓存自动化测试配置方案文件成功！
+2019-03-11 09:35:50,293 [INFO]: 开始缓存初始化配置参数成功！
+2019-03-11 09:35:50,308 [INFO]: 09:35:50.308 [main] WARN  n.s.e.config.CacheConfiguration - Cache 'PRODEF' is set to eternal but also has TTI/TTL set.  To avoid this warning, clean up the config removing conflicting values of eternal, TTI and TTL. Effective configuration for Cache 'PRODEF' will be eternal='true', timeToIdleSeconds='0', timeToLiveSeconds='0'.
+2019-03-11 09:35:50,324 [INFO]: 缓存流程配置信息成功！
+2019-03-11 09:35:50,589 [WARN]: Starting ChromeDriver (v2.9.248315) on port 47832
+2019-03-11 09:35:51,447 [INFO]: 初始化ChromeDriver成功！
+2019-03-11 09:35:51,837 [WARN]: Starting ChromeDriver (v2.9.248315) on port 38853
+2019-03-11 09:36:00,478 [INFO]: 初始化WebDriver成功！
+2019-03-11 09:36:00,508 [INFO]: 系统登陆地址：http://192.168.2.119:8082/GisqPlatformExplorer/a/login;JSESSIONID=7a22b82495884077a7860a3b86e8ac2f
+2019-03-11 09:36:03,958 [INFO]: 开始流程自动化测试！
+2019-03-11 09:36:03,965 [INFO]: 流程内码：2d107839-0de3-11e6-b878-000c2984e60c,流程名称首次登记
+2019-03-11 09:36:11,271 [INFO]: 流程启动成功，主框架句柄：CDwindow-A898EB46-CFC1-42B4-A9CC-2DA3D7641F2A
+2019-03-11 09:36:11,305 [INFO]: 包的id：38bcedca-df88-11e5-b408-000c29187a9e
+2019-03-11 09:36:11,312 [INFO]: schemaid:fd8c6b9a-6411-47c5-87f0-021a79f47453
+2019-03-11 09:36:11,321 [INFO]: schemaname:测试方案1
+2019-03-11 09:36:11,330 [INFO]: prodef:2d107839-0de3-11e6-b878-000c2984e60c
+2019-03-11 09:36:11,342 [INFO]: prodef:首次登记
+2019-03-11 09:36:11,350 [INFO]: packname:国有建设用地使用权及房屋所有权（大宗地）
+2019-03-11 09:36:11,361 [INFO]: cchild:1aa436eb-3fdf-4aec-97b8-94bd58f78c8f
+2019-03-11 09:36:11,368 [INFO]: childname:3---断言
+2019-03-11 09:36:13,379 [INFO]: 获取所有参数
+2019-03-11 09:36:13,541 [INFO]: sid-075095F3-5F75-4295-B4D1-5843F0D20C8E
+2019-03-11 09:36:13,551 [INFO]: 当前环节环节名称：收件受理,环节内码sid-075095F3-5F75-4295-B4D1-5843F0D20C8E
+2019-03-11 09:36:13,559 [INFO]: 开始操作Ifame，Iframe名称：窗口资料收取
+2019-03-11 09:36:14,699 [INFO]: element.getText：
+2019-03-11 09:36:14,763 [INFO]: element点击完成啦
+2019-03-11 09:36:14,826 [INFO]: 点击完成1
+2019-03-11 09:36:14,850 [INFO]: 获取到所有的iframe了2019-03-11 09:36:14
+2019-03-11 09:36:14,865 [INFO]: ifame地址1是：GisqPlatformExplorer/modules/bizmodel/datums_submit2019-03-11 09:36:14
+2019-03-11 09:36:14,879 [INFO]: 获取到ID是：TAB_IF_0b99c05f-439e-11e9-b330-00505683a2312019-03-11 09:36:14
+2019-03-11 09:36:16,939 [INFO]: 切换到指定的iframe了2019-03-11 09:36:16
+2019-03-11 09:36:16,950 [INFO]: Iframe地址：GisqPlatformExplorer/modules/bizmodel/datums_submit
+2019-03-11 09:36:16,969 [INFO]: 当前iframe(窗口资料收取)操作元素：
+2019-03-11 09:36:16,979 [INFO]:        定位方式：XPATH
+2019-03-11 09:36:16,987 [INFO]:        定位路径：//div[@role='combobox']
+2019-03-11 09:36:16,999 [INFO]:        操作方式：QT
+2019-03-11 09:36:17,007 [INFO]:        默认值：$("#{ID}").jqxDropDownList('selectIndex', 0 );
+2019-03-11 09:36:17,015 [INFO]:        是否随机数：false
+2019-03-11 09:36:17,024 [INFO]:        等待时间：0
+2019-03-11 09:36:17,035 [INFO]: 开始执行操作
+2019-03-11 09:36:17,142 [INFO]: 等待时间：0
+2019-03-11 09:36:17,153 [INFO]: 当前iframe(窗口资料收取)操作元素：
+2019-03-11 09:36:17,161 [INFO]:        定位方式：ID
+2019-03-11 09:36:17,169 [INFO]:        定位路径：saveDatum
+2019-03-11 09:36:17,179 [INFO]:        操作方式：CLICK
+2019-03-11 09:36:17,188 [INFO]:        默认值：
+2019-03-11 09:36:17,197 [INFO]:        是否随机数：false
+2019-03-11 09:36:17,205 [INFO]:        等待时间：3000
+2019-03-11 09:36:17,362 [INFO]: 开始执行操作
+2019-03-11 09:36:17,483 [INFO]: 我已经点击完成了
+2019-03-11 09:36:18,123 [INFO]: 等待时间：3000
+2019-03-11 09:36:19,143 [INFO]: 开始操作Ifame，Iframe名称：申请信息
+2019-03-11 09:36:21,322 [INFO]: 点击完成1
+2019-03-11 09:36:22,181 [INFO]: 获取到所有的iframe了2019-03-11 09:36:22
+2019-03-11 09:36:22,214 [INFO]: ifame地址1是：GisqQueryList/views/reports/realestate/common/acceptance/Acceptance_HouseRight_Initial.jsp?reportlet=realestate/common/acceptance/Acceptance_HouseRight_Initial.cpt2019-03-11 09:36:22
+2019-03-11 09:36:22,235 [INFO]: 获取到ID是：TAB_IF_0b999904-439e-11e9-b330-00505683a2312019-03-11 09:36:22
+2019-03-11 09:36:24,296 [INFO]: 切换到指定的iframe了2019-03-11 09:36:24
+2019-03-11 09:36:24,305 [INFO]: Iframe地址：GisqQueryList/views/reports/realestate/common/acceptance/Acceptance_HouseRight_Initial.jsp?reportlet=realestate/common/acceptance/Acceptance_HouseRight_Initial.cpt
+2019-03-11 09:36:24,316 [INFO]: 当前iframe(申请信息)操作元素：
+2019-03-11 09:36:24,324 [INFO]:        定位方式：XPATH
+2019-03-11 09:36:24,333 [INFO]:        定位路径：/html/body/div[3]/table/tbody/tr[2]/td[2]
+2019-03-11 09:36:24,341 [INFO]:        操作方式：Assert
+2019-03-11 09:36:24,349 [INFO]:        默认值：申请人
+2019-03-11 09:36:24,358 [INFO]:        是否随机数：false
+2019-03-11 09:36:24,369 [INFO]:        等待时间：0
+2019-03-11 09:36:24,387 [INFO]: 开始执行操作
+2019-03-11 09:36:24,424 [INFO]: 看一下取到值额吗：申请人信息
+2019-03-11 09:36:24,441 [INFO]: 等待时间：0
+2019-03-11 09:36:24,449 [INFO]: 当前iframe(申请信息)操作元素：
+2019-03-11 09:36:24,457 [INFO]:        定位方式：XPATH
+2019-03-11 09:36:24,465 [INFO]:        定位路径：/html/body/div[3]/table/tbody/tr[6]/td[2]
+2019-03-11 09:36:24,473 [INFO]:        操作方式：Assert
+2019-03-11 09:36:24,482 [INFO]:        默认值：不动产单元信息
+2019-03-11 09:36:24,491 [INFO]:        是否随机数：false
+2019-03-11 09:36:24,501 [INFO]:        等待时间：0
+2019-03-11 09:36:24,523 [INFO]: 开始执行操作
+2019-03-11 09:36:24,531 [INFO]: 看一下取到值额吗：不动产单元信息
+2019-03-11 09:36:24,542 [INFO]: 等待时间：0
+2019-03-11 09:36:24,551 [INFO]: 当前iframe(申请信息)操作元素：
+2019-03-11 09:36:24,559 [INFO]:        定位方式：XPATH
+2019-03-11 09:36:24,568 [INFO]:        定位路径：/html/body/div[3]/table/tbody/tr[12]/td[2]
+2019-03-11 09:36:24,578 [INFO]:        操作方式：Assert
+2019-03-11 09:36:24,586 [INFO]:        默认值：项目信息
+2019-03-11 09:36:24,594 [INFO]:        是否随机数：false
+2019-03-11 09:36:24,616 [INFO]:        等待时间：0
+2019-03-11 09:36:24,624 [INFO]: 开始执行操作
+2019-03-11 09:36:24,675 [INFO]: 看一下取到值额吗：项目信息
+2019-03-11 09:36:24,698 [INFO]: 等待时间：0
+2019-03-11 09:36:24,706 [INFO]: 当前iframe(申请信息)操作元素：
+2019-03-11 09:36:24,718 [INFO]:        定位方式：XPATH
+2019-03-11 09:36:24,731 [INFO]:        定位路径：/html/body/div[3]/table/tbody/tr[14]/td[2]
+2019-03-11 09:36:24,740 [INFO]:        操作方式：Assert
+2019-03-11 09:36:24,753 [INFO]:        默认值：开发商名称 
+2019-03-11 09:36:24,765 [INFO]:        是否随机数：false
+2019-03-11 09:36:24,790 [INFO]:        等待时间：0
+2019-03-11 09:36:24,799 [INFO]: 开始执行操作
+2019-03-11 09:36:24,839 [INFO]: 看一下取到值额吗：开发商名称：
+2019-03-11 09:36:24,850 [INFO]: 等待时间：0
+2019-03-11 09:36:24,858 [INFO]: 当前iframe(申请信息)操作元素：
+2019-03-11 09:36:24,867 [INFO]:        定位方式：XPATH
+2019-03-11 09:36:24,875 [INFO]:        定位路径：/html/body/div[3]/table/tbody/tr[14]/td[5]
+2019-03-11 09:36:24,892 [INFO]:        操作方式：Assert
+2019-03-11 09:36:24,914 [INFO]:        默认值：项目
+2019-03-11 09:36:24,922 [INFO]:        是否随机数：false
+2019-03-11 09:36:24,933 [INFO]:        等待时间：0
+2019-03-11 09:36:24,942 [INFO]: 开始执行操作
+2019-03-11 09:36:24,950 [INFO]: 看一下取到值额吗：项目名称：
+2019-03-11 09:36:24,963 [INFO]: 等待时间：0
+2019-03-11 09:36:24,972 [INFO]: 当前iframe(申请信息)操作元素：
+2019-03-11 09:36:24,980 [INFO]:        定位方式：
+2019-03-11 09:36:24,989 [INFO]:        定位路径：
+2019-03-11 09:36:24,999 [INFO]:        操作方式：SHOOT
+2019-03-11 09:36:25,009 [INFO]:        默认值：申请信息截图
+2019-03-11 09:36:25,017 [INFO]:        是否随机数：false
+2019-03-11 09:36:25,024 [INFO]:        等待时间：0
+2019-03-11 09:36:25,031 [INFO]: 开始执行操作
+2019-03-11 09:36:25,039 [INFO]: file绝对路径：D:\work_space\js_de\debug\SeleniumConfig\bin\Debug\SootScreens\2019-03-11
+2019-03-11 09:36:25,047 [INFO]: real_scrol:1236
+2019-03-11 09:36:25,054 [INFO]: real_top:0
+2019-03-11 09:36:41,462 [INFO]: i:1
+2019-03-11 09:36:41,468 [INFO]: height:450
+2019-03-11 09:36:51,670 [INFO]: i:2
+2019-03-11 09:36:51,676 [INFO]: height:900
+2019-03-11 09:36:51,684 [INFO]: 等待时间：0
+2019-03-11 09:36:52,714 [INFO]: 点击移交
+2019-03-11 09:36:52,792 [INFO]: 点击完成
+2019-03-11 09:37:00,315 [INFO]: 点击工作中心
+2019-03-11 09:37:05,384 [INFO]: 判断如果是新收办件，就开始了点击事件
+2019-03-11 09:37:17,462 [INFO]: 开始运行tastsuit
+2019-03-11 09:37:18,141 [INFO]: 文件路径:D:\work_space\js_de\debug\SeleniumConfig\bin\Debug\Assertdata.xlsx
+2019-03-11 09:37:18,525 [INFO]: 
+2019-03-11 09:37:18,533 [INFO]: ===============================================
+2019-03-11 09:37:18,541 [INFO]: Command line suite
+2019-03-11 09:37:18,549 [INFO]: Total tests run: 5, Failures: 3, Skips: 0
+2019-03-11 09:37:18,558 [INFO]: ===============================================
+2019-03-11 09:37:18,708 [INFO]: 
+2019-03-11 09:37:19,465 [INFO]: 
+2019-03-11 09:47:25,726 [INFO]: Microsoft Windows [版本 6.1.7601]
+2019-03-11 09:47:25,731 [INFO]: 版权所有 (c) 2009 Microsoft Corporation。保留所有权利。
+2019-03-11 09:47:25,735 [INFO]: 
+2019-03-11 09:47:25,737 [INFO]: D:\work_space\js_de\debug\SeleniumConfig\bin\Debug>java -jar D:\work_space\js_de\debug\SeleniumConfig\bin\Debug\\SeleniumJAVA\Selenium.jar C#
+2019-03-11 09:47:25,997 [INFO]: path:/D:/work_space/js_de/debug/SeleniumConfig/bin/Debug/SeleniumJAVA/Selenium.jar
+2019-03-11 09:47:26,001 [INFO]: /D:/work_space/js_de/debug/SeleniumConfig/bin/Debug
+2019-03-11 09:47:26,005 [INFO]: 开始准备数据
+2019-03-11 09:47:26,009 [INFO]: 开始缓存总体参数配置文件
+2019-03-11 09:47:26,166 [INFO]: 读取服务地址/D:/work_space/js_de/debug/SeleniumConfig/bin/Debug
+2019-03-11 09:47:26,425 [WARN]: SLF4J: The requested version 1.7.16 by your slf4j binding is not compatible with [1.6]
+2019-03-11 09:47:26,428 [WARN]: SLF4J: See http://www.slf4j.org/codes.html#version_mismatch for further details.
+2019-03-11 09:47:26,833 [INFO]: 09:47:26.831 [main] WARN  n.s.e.config.CacheConfiguration - Cache 'Common' is set to eternal but also has TTI/TTL set.  To avoid this warning, clean up the config removing conflicting values of eternal, TTI and TTL. Effective configuration for Cache 'Common' will be eternal='true', timeToIdleSeconds='0', timeToLiveSeconds='0'.
+2019-03-11 09:47:26,837 [INFO]: 缓存总体参数配置文件成功！
+2019-03-11 09:47:26,852 [INFO]: 开始缓存SQL配置信息
+2019-03-11 09:47:26,863 [INFO]: 09:47:26.862 [main] WARN  n.s.e.config.CacheConfiguration - Cache 'SQLConfig' is set to eternal but also has TTI/TTL set.  To avoid this warning, clean up the config removing conflicting values of eternal, TTI and TTL. Effective configuration for Cache 'SQLConfig' will be eternal='true', timeToIdleSeconds='0', timeToLiveSeconds='0'.
+2019-03-11 09:47:26,870 [INFO]: 缓存SQL配置信息成功！
+2019-03-11 09:47:26,902 [INFO]: 开始缓存SQL配置的SQL语句信息
+2019-03-11 09:47:27,986 [ERROR]: System.InvalidOperationException: 在创建窗口句柄之前，不能在控件上调用 Invoke 或 BeginInvoke。
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 SeleniumConfig.SeleniumSchema.FrmJAVASeleniumOutPut.p_OutputDataReceived(Object sender, DataReceivedEventArgs e)
+2019-03-11 09:47:27,987 [ERROR]: System.InvalidOperationException: 在创建窗口句柄之前，不能在控件上调用 Invoke 或 BeginInvoke。
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 SeleniumConfig.SeleniumSchema.FrmJAVASeleniumOutPut.p_OutputDataReceived(Object sender, DataReceivedEventArgs e)
+2019-03-11 09:47:27,988 [ERROR]: System.InvalidOperationException: 在创建窗口句柄之前，不能在控件上调用 Invoke 或 BeginInvoke。
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 SeleniumConfig.SeleniumSchema.FrmJAVASeleniumOutPut.p_OutputDataReceived(Object sender, DataReceivedEventArgs e)
+2019-03-11 09:47:27,989 [ERROR]: System.InvalidOperationException: 在创建窗口句柄之前，不能在控件上调用 Invoke 或 BeginInvoke。
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 SeleniumConfig.SeleniumSchema.FrmJAVASeleniumOutPut.p_OutputDataReceived(Object sender, DataReceivedEventArgs e)
+2019-03-11 09:47:27,990 [ERROR]: System.InvalidOperationException: 在创建窗口句柄之前，不能在控件上调用 Invoke 或 BeginInvoke。
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 SeleniumConfig.SeleniumSchema.FrmJAVASeleniumOutPut.p_OutputDataReceived(Object sender, DataReceivedEventArgs e)
+2019-03-11 09:47:27,991 [ERROR]: System.InvalidOperationException: 在创建窗口句柄之前，不能在控件上调用 Invoke 或 BeginInvoke。
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 SeleniumConfig.SeleniumSchema.FrmJAVASeleniumOutPut.p_OutputDataReceived(Object sender, DataReceivedEventArgs e)
+2019-03-11 09:47:27,993 [ERROR]: System.InvalidOperationException: 在创建窗口句柄之前，不能在控件上调用 Invoke 或 BeginInvoke。
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 SeleniumConfig.SeleniumSchema.FrmJAVASeleniumOutPut.p_OutputDataReceived(Object sender, DataReceivedEventArgs e)
+2019-03-11 09:47:29,044 [ERROR]: System.InvalidOperationException: 在创建窗口句柄之前，不能在控件上调用 Invoke 或 BeginInvoke。
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 SeleniumConfig.SeleniumSchema.FrmJAVASeleniumOutPut.p_OutputDataReceived(Object sender, DataReceivedEventArgs e)
+2019-03-11 09:47:42,908 [ERROR]: System.InvalidOperationException: 在创建窗口句柄之前，不能在控件上调用 Invoke 或 BeginInvoke。
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 SeleniumConfig.SeleniumSchema.FrmJAVASeleniumOutPut.p_OutputDataReceived(Object sender, DataReceivedEventArgs e)
+2019-03-11 09:47:42,910 [ERROR]: System.InvalidOperationException: 在创建窗口句柄之前，不能在控件上调用 Invoke 或 BeginInvoke。
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 SeleniumConfig.SeleniumSchema.FrmJAVASeleniumOutPut.p_OutputDataReceived(Object sender, DataReceivedEventArgs e)
+2019-03-11 09:47:42,911 [ERROR]: System.InvalidOperationException: 在创建窗口句柄之前，不能在控件上调用 Invoke 或 BeginInvoke。
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 SeleniumConfig.SeleniumSchema.FrmJAVASeleniumOutPut.p_OutputDataReceived(Object sender, DataReceivedEventArgs e)
+2019-03-11 09:48:53,537 [INFO]: Microsoft Windows [版本 6.1.7601]
+2019-03-11 09:48:53,550 [INFO]: 版权所有 (c) 2009 Microsoft Corporation。保留所有权利。
+2019-03-11 09:48:53,553 [INFO]: 
+2019-03-11 09:48:53,556 [INFO]: D:\work_space\js_de\debug\SeleniumConfig\bin\Debug>java -jar D:\work_space\js_de\debug\SeleniumConfig\bin\Debug\\SeleniumJAVA\Selenium.jar C#
+2019-03-11 09:48:56,734 [INFO]: path:/D:/work_space/js_de/debug/SeleniumConfig/bin/Debug/SeleniumJAVA/Selenium.jar
+2019-03-11 09:48:56,737 [INFO]: /D:/work_space/js_de/debug/SeleniumConfig/bin/Debug
+2019-03-11 09:48:56,743 [INFO]: 开始准备数据
+2019-03-11 09:48:56,747 [INFO]: 开始缓存总体参数配置文件
+2019-03-11 09:48:56,902 [INFO]: 读取服务地址/D:/work_space/js_de/debug/SeleniumConfig/bin/Debug
+2019-03-11 09:48:57,165 [WARN]: SLF4J: The requested version 1.7.16 by your slf4j binding is not compatible with [1.6]
+2019-03-11 09:48:57,175 [WARN]: SLF4J: See http://www.slf4j.org/codes.html#version_mismatch for further details.
+2019-03-11 09:48:57,608 [INFO]: 09:48:57.606 [main] WARN  net.sf.ehcache.DiskStorePathManager - diskStorePath 'D:\work_space\js_de\debug\SeleniumConfig\bin\Debug\SeleniumJAVA\ehcache' is already used by an existing CacheManager either in the same VM or in a different process.
+2019-03-11 09:48:57,632 [INFO]: The diskStore path for this CacheManager will be set to D:\work_space\js_de\debug\SeleniumConfig\bin\Debug\SeleniumJAVA\ehcache\ehcache_auto_created1376287579307980279diskstore.
+2019-03-11 09:48:57,635 [INFO]: To avoid this warning consider using the CacheManager factory methods to create a singleton CacheManager or specifying a separate ehcache configuration (ehcache.xml) for each CacheManager instance.
+2019-03-11 09:48:57,654 [INFO]: 09:48:57.652 [main] WARN  n.s.e.store.disk.DiskStorageFactory - Data in persistent disk stores is ignored for stores from automatically created directories.
+2019-03-11 09:48:57,659 [INFO]: Remove diskPersistent or resolve the conflicting disk paths in cache configuration.
+2019-03-11 09:48:57,665 [INFO]: Deleting data file D:\work_space\js_de\debug\SeleniumConfig\bin\Debug\SeleniumJAVA\ehcache\ehcache_auto_created1376287579307980279diskstore\active%0053essions%0043ache.data
+2019-03-11 09:48:57,685 [INFO]: 09:48:57.662 [main] WARN  n.s.e.config.CacheConfiguration - Cache 'Common' is set to eternal but also has TTI/TTL set.  To avoid this warning, clean up the config removing conflicting values of eternal, TTI and TTL. Effective configuration for Cache 'Common' will be eternal='true', timeToIdleSeconds='0', timeToLiveSeconds='0'.
+2019-03-11 09:48:57,692 [INFO]: 缓存总体参数配置文件成功！
+2019-03-11 09:48:57,705 [INFO]: 开始缓存SQL配置信息
+2019-03-11 09:48:57,721 [INFO]: 09:48:57.696 [main] WARN  n.s.e.config.CacheConfiguration - Cache 'SQLConfig' is set to eternal but also has TTI/TTL set.  To avoid this warning, clean up the config removing conflicting values of eternal, TTI and TTL. Effective configuration for Cache 'SQLConfig' will be eternal='true', timeToIdleSeconds='0', timeToLiveSeconds='0'.
+2019-03-11 09:48:57,726 [INFO]: 缓存SQL配置信息成功！
+2019-03-11 09:48:57,731 [INFO]: 开始缓存SQL配置的SQL语句信息
+2019-03-11 09:48:58,698 [INFO]: 缓存SQL配置的SQL语句信息成功！
+2019-03-11 09:48:58,706 [INFO]: 开始缓存自动化测试配置方案文件
+2019-03-11 09:48:58,721 [INFO]: 09:48:58.708 [main] WARN  n.s.e.config.CacheConfiguration - Cache 'Schema' is set to eternal but also has TTI/TTL set.  To avoid this warning, clean up the config removing conflicting values of eternal, TTI and TTL. Effective configuration for Cache 'Schema' will be eternal='true', timeToIdleSeconds='0', timeToLiveSeconds='0'.
+2019-03-11 09:48:58,746 [INFO]: 缓存自动化测试配置方案文件成功！
+2019-03-11 09:48:58,751 [INFO]: 开始缓存初始化配置参数成功！
+2019-03-11 09:48:58,755 [INFO]: 09:48:58.725 [main] WARN  n.s.e.config.CacheConfiguration - Cache 'PRODEF' is set to eternal but also has TTI/TTL set.  To avoid this warning, clean up the config removing conflicting values of eternal, TTI and TTL. Effective configuration for Cache 'PRODEF' will be eternal='true', timeToIdleSeconds='0', timeToLiveSeconds='0'.
+2019-03-11 09:48:58,762 [INFO]: 缓存流程配置信息成功！
+2019-03-11 09:48:58,889 [WARN]: Starting ChromeDriver (v2.9.248315) on port 44755
+2019-03-11 09:48:59,806 [INFO]: 初始化ChromeDriver成功！
+2019-03-11 09:49:00,088 [WARN]: Starting ChromeDriver (v2.9.248315) on port 33665
+2019-03-11 09:49:05,220 [INFO]: 初始化WebDriver成功！
+2019-03-11 09:49:05,225 [INFO]: 系统登陆地址：http://192.168.2.119:8082/GisqPlatformExplorer/a/login;JSESSIONID=7a22b82495884077a7860a3b86e8ac2f
+2019-03-11 09:49:08,864 [INFO]: 开始流程自动化测试！
+2019-03-11 09:49:08,870 [INFO]: 流程内码：2d107839-0de3-11e6-b878-000c2984e60c,流程名称首次登记
+2019-03-11 09:49:16,134 [INFO]: 流程启动成功，主框架句柄：CDwindow-C664BD21-DDAA-414F-AC0F-5711C9BBC963
+2019-03-11 09:49:16,154 [INFO]: 包的id：38bcedca-df88-11e5-b408-000c29187a9e
+2019-03-11 09:49:16,159 [INFO]: schemaid:fd8c6b9a-6411-47c5-87f0-021a79f47453
+2019-03-11 09:49:16,164 [INFO]: schemaname:测试方案1
+2019-03-11 09:49:16,170 [INFO]: prodef:2d107839-0de3-11e6-b878-000c2984e60c
+2019-03-11 09:49:16,174 [INFO]: prodef:首次登记
+2019-03-11 09:49:16,179 [INFO]: packname:国有建设用地使用权及房屋所有权（大宗地）
+2019-03-11 09:49:16,184 [INFO]: cchild:1aa436eb-3fdf-4aec-97b8-94bd58f78c8f
+2019-03-11 09:49:16,188 [INFO]: childname:3---断言
+2019-03-11 09:49:18,201 [INFO]: 获取所有参数
+2019-03-11 09:49:18,246 [INFO]: sid-075095F3-5F75-4295-B4D1-5843F0D20C8E
+2019-03-11 09:49:18,251 [INFO]: 当前环节环节名称：收件受理,环节内码sid-075095F3-5F75-4295-B4D1-5843F0D20C8E
+2019-03-11 09:49:18,256 [INFO]: 开始操作Ifame，Iframe名称：窗口资料收取
+2019-03-11 09:49:19,718 [INFO]: element.getText：
+2019-03-11 09:49:19,848 [INFO]: element点击完成啦
+2019-03-11 09:49:19,929 [INFO]: 点击完成1
+2019-03-11 09:49:19,956 [INFO]: 获取到所有的iframe了2019-03-11 09:49:19
+2019-03-11 09:49:19,980 [INFO]: ifame地址1是：GisqPlatformExplorer/modules/bizmodel/datums_submit2019-03-11 09:49:19
+2019-03-11 09:49:19,993 [INFO]: 获取到ID是：TAB_IF_df632ae4-439f-11e9-b330-00505683a2312019-03-11 09:49:19
+2019-03-11 09:49:22,067 [INFO]: 切换到指定的iframe了2019-03-11 09:49:22
+2019-03-11 09:49:22,070 [INFO]: Iframe地址：GisqPlatformExplorer/modules/bizmodel/datums_submit
+2019-03-11 09:49:22,091 [INFO]: 当前iframe(窗口资料收取)操作元素：
+2019-03-11 09:49:22,096 [INFO]:        定位方式：XPATH
+2019-03-11 09:49:22,116 [INFO]:        定位路径：//div[@role='combobox']
+2019-03-11 09:49:22,122 [INFO]:        操作方式：QT
+2019-03-11 09:49:22,128 [INFO]:        默认值：$("#{ID}").jqxDropDownList('selectIndex', 0 );
+2019-03-11 09:49:22,133 [INFO]:        是否随机数：false
+2019-03-11 09:49:22,139 [INFO]:        等待时间：0
+2019-03-11 09:49:22,143 [INFO]: 开始执行操作
+2019-03-11 09:49:22,243 [INFO]: 等待时间：0
+2019-03-11 09:49:22,248 [INFO]: 当前iframe(窗口资料收取)操作元素：
+2019-03-11 09:49:22,253 [INFO]:        定位方式：ID
+2019-03-11 09:49:22,258 [INFO]:        定位路径：saveDatum
+2019-03-11 09:49:22,263 [INFO]:        操作方式：CLICK
+2019-03-11 09:49:22,273 [INFO]:        默认值：
+2019-03-11 09:49:22,283 [INFO]:        是否随机数：false
+2019-03-11 09:49:22,288 [INFO]:        等待时间：3000
+2019-03-11 09:49:22,448 [INFO]: 开始执行操作
+2019-03-11 09:49:22,602 [INFO]: 我已经点击完成了
+2019-03-11 09:49:23,282 [INFO]: 等待时间：3000
+2019-03-11 09:49:24,323 [INFO]: 开始操作Ifame，Iframe名称：申请信息
+2019-03-11 09:49:26,540 [INFO]: 点击完成1
+2019-03-11 09:49:27,421 [INFO]: 获取到所有的iframe了2019-03-11 09:49:27
+2019-03-11 09:49:27,444 [INFO]: ifame地址1是：GisqQueryList/views/reports/realestate/common/acceptance/Acceptance_HouseRight_Initial.jsp?reportlet=realestate/common/acceptance/Acceptance_HouseRight_Initial.cpt2019-03-11 09:49:27
+2019-03-11 09:49:27,458 [INFO]: 获取到ID是：TAB_IF_df630489-439f-11e9-b330-00505683a2312019-03-11 09:49:27
+2019-03-11 09:49:29,556 [INFO]: 切换到指定的iframe了2019-03-11 09:49:29
+2019-03-11 09:49:29,561 [INFO]: Iframe地址：GisqQueryList/views/reports/realestate/common/acceptance/Acceptance_HouseRight_Initial.jsp?reportlet=realestate/common/acceptance/Acceptance_HouseRight_Initial.cpt
+2019-03-11 09:49:29,594 [INFO]: 当前iframe(申请信息)操作元素：
+2019-03-11 09:49:29,619 [INFO]:        定位方式：XPATH
+2019-03-11 09:49:29,627 [INFO]:        定位路径：/html/body/div[3]/table/tbody/tr[2]/td[2]
+2019-03-11 09:49:29,636 [INFO]:        操作方式：Assert
+2019-03-11 09:49:29,646 [INFO]:        默认值：申请人
+2019-03-11 09:49:29,654 [INFO]:        是否随机数：false
+2019-03-11 09:49:29,660 [INFO]:        等待时间：0
+2019-03-11 09:49:29,667 [INFO]: 开始执行操作
+2019-03-11 09:49:29,683 [INFO]: 看一下取到值额吗：申请人信息
+2019-03-11 09:49:29,696 [INFO]: 等待时间：0
+2019-03-11 09:49:29,706 [INFO]: 当前iframe(申请信息)操作元素：
+2019-03-11 09:49:29,711 [INFO]:        定位方式：XPATH
+2019-03-11 09:49:29,718 [INFO]:        定位路径：/html/body/div[3]/table/tbody/tr[6]/td[2]
+2019-03-11 09:49:29,724 [INFO]:        操作方式：Assert
+2019-03-11 09:49:29,729 [INFO]:        默认值：不动产单元信息
+2019-03-11 09:49:29,734 [INFO]:        是否随机数：false
+2019-03-11 09:49:29,738 [INFO]:        等待时间：0
+2019-03-11 09:49:29,743 [INFO]: 开始执行操作
+2019-03-11 09:49:29,763 [INFO]: 看一下取到值额吗：不动产单元信息
+2019-03-11 09:49:29,775 [INFO]: 等待时间：0
+2019-03-11 09:49:29,780 [INFO]: 当前iframe(申请信息)操作元素：
+2019-03-11 09:49:29,786 [INFO]:        定位方式：XPATH
+2019-03-11 09:49:29,791 [INFO]:        定位路径：/html/body/div[3]/table/tbody/tr[12]/td[2]
+2019-03-11 09:49:29,795 [INFO]:        操作方式：Assert
+2019-03-11 09:49:29,806 [INFO]:        默认值：项目信息
+2019-03-11 09:49:29,812 [INFO]:        是否随机数：false
+2019-03-11 09:49:29,823 [INFO]:        等待时间：0
+2019-03-11 09:49:29,844 [INFO]: 开始执行操作
+2019-03-11 09:49:29,877 [INFO]: 看一下取到值额吗：项目信息
+2019-03-11 09:49:29,888 [INFO]: 等待时间：0
+2019-03-11 09:49:29,901 [INFO]: 当前iframe(申请信息)操作元素：
+2019-03-11 09:49:29,908 [INFO]:        定位方式：XPATH
+2019-03-11 09:49:29,916 [INFO]:        定位路径：/html/body/div[3]/table/tbody/tr[14]/td[2]
+2019-03-11 09:49:29,920 [INFO]:        操作方式：Assert
+2019-03-11 09:49:29,927 [INFO]:        默认值：开发商名称 
+2019-03-11 09:49:29,941 [INFO]:        是否随机数：false
+2019-03-11 09:49:29,947 [INFO]:        等待时间：0
+2019-03-11 09:49:29,952 [INFO]: 开始执行操作
+2019-03-11 09:49:29,977 [INFO]: 看一下取到值额吗：开发商名称：
+2019-03-11 09:49:29,987 [INFO]: 等待时间：0
+2019-03-11 09:49:29,994 [INFO]: 当前iframe(申请信息)操作元素：
+2019-03-11 09:49:29,999 [INFO]:        定位方式：XPATH
+2019-03-11 09:49:30,005 [INFO]:        定位路径：/html/body/div[3]/table/tbody/tr[14]/td[5]
+2019-03-11 09:49:30,018 [INFO]:        操作方式：Assert
+2019-03-11 09:49:30,023 [INFO]:        默认值：项目
+2019-03-11 09:49:30,029 [INFO]:        是否随机数：false
+2019-03-11 09:49:30,034 [INFO]:        等待时间：0
+2019-03-11 09:49:30,039 [INFO]: 开始执行操作
+2019-03-11 09:49:30,057 [INFO]: 看一下取到值额吗：项目名称：
+2019-03-11 09:49:30,068 [INFO]: 等待时间：0
+2019-03-11 09:49:30,074 [INFO]: 当前iframe(申请信息)操作元素：
+2019-03-11 09:49:30,079 [INFO]:        定位方式：
+2019-03-11 09:49:30,083 [INFO]:        定位路径：
+2019-03-11 09:49:30,087 [INFO]:        操作方式：SHOOT
+2019-03-11 09:49:30,091 [INFO]:        默认值：申请信息截图
+2019-03-11 09:49:30,096 [INFO]:        是否随机数：false
+2019-03-11 09:49:30,100 [INFO]:        等待时间：0
+2019-03-11 09:49:30,105 [INFO]: 开始执行操作
+2019-03-11 09:49:30,112 [INFO]: file绝对路径：D:\work_space\js_de\debug\SeleniumConfig\bin\Debug\SootScreens\2019-03-11
+2019-03-11 09:49:30,116 [INFO]: real_scrol:1236
+2019-03-11 09:49:30,120 [INFO]: real_top:0
+2019-03-11 09:49:46,611 [INFO]: i:1
+2019-03-11 09:49:46,617 [INFO]: height:450
+2019-03-11 09:49:56,848 [INFO]: i:2
+2019-03-11 09:49:56,855 [INFO]: height:900
+2019-03-11 09:49:56,868 [INFO]: 等待时间：0
+2019-03-11 09:49:57,902 [INFO]: 点击移交
+2019-03-11 09:49:57,980 [INFO]: 点击完成
+2019-03-11 09:50:05,478 [INFO]: 点击工作中心
+2019-03-11 09:50:10,546 [INFO]: 判断如果是新收办件，就开始了点击事件
+2019-03-11 09:50:22,423 [INFO]: 开始运行tastsuit
+2019-03-11 09:50:23,031 [INFO]: 文件路径:D:\work_space\js_de\debug\SeleniumConfig\bin\Debug\Assertdata.xlsx
+2019-03-11 09:50:23,330 [INFO]: 
+2019-03-11 09:50:23,335 [INFO]: ===============================================
+2019-03-11 09:50:23,341 [INFO]: Command line suite
+2019-03-11 09:50:23,347 [INFO]: Total tests run: 5, Failures: 3, Skips: 0
+2019-03-11 09:50:23,353 [INFO]: ===============================================
+2019-03-11 09:50:23,358 [INFO]: 
+2019-03-11 09:50:24,076 [INFO]: 
+2019-03-11 10:36:26,065 [INFO]: Microsoft Windows [版本 6.1.7601]
+2019-03-11 10:36:26,070 [INFO]: 版权所有 (c) 2009 Microsoft Corporation。保留所有权利。
+2019-03-11 10:36:26,074 [INFO]: 
+2019-03-11 10:36:26,077 [INFO]: D:\work_space\js_de\debug\SeleniumConfig\bin\Debug>java -jar D:\work_space\js_de\debug\SeleniumConfig\bin\Debug\\SeleniumJAVA\Selenium.jar C#
+2019-03-11 10:36:29,522 [INFO]: path:/D:/work_space/js_de/debug/SeleniumConfig/bin/Debug/SeleniumJAVA/Selenium.jar
+2019-03-11 10:36:29,525 [INFO]: /D:/work_space/js_de/debug/SeleniumConfig/bin/Debug
+2019-03-11 10:36:29,528 [INFO]: 开始准备数据
+2019-03-11 10:36:29,532 [INFO]: 开始缓存总体参数配置文件
+2019-03-11 10:36:29,691 [INFO]: 读取服务地址/D:/work_space/js_de/debug/SeleniumConfig/bin/Debug
+2019-03-11 10:36:29,959 [WARN]: SLF4J: The requested version 1.7.16 by your slf4j binding is not compatible with [1.6]
+2019-03-11 10:36:29,963 [WARN]: SLF4J: See http://www.slf4j.org/codes.html#version_mismatch for further details.
+2019-03-11 10:36:30,348 [INFO]: 10:36:30.346 [main] WARN  net.sf.ehcache.DiskStorePathManager - diskStorePath 'D:\work_space\js_de\debug\SeleniumConfig\bin\Debug\SeleniumJAVA\ehcache' is already used by an existing CacheManager either in the same VM or in a different process.
+2019-03-11 10:36:30,352 [INFO]: The diskStore path for this CacheManager will be set to D:\work_space\js_de\debug\SeleniumConfig\bin\Debug\SeleniumJAVA\ehcache\ehcache_auto_created7471177751280754837diskstore.
+2019-03-11 10:36:30,356 [INFO]: To avoid this warning consider using the CacheManager factory methods to create a singleton CacheManager or specifying a separate ehcache configuration (ehcache.xml) for each CacheManager instance.
+2019-03-11 10:36:30,369 [INFO]: 10:36:30.368 [main] WARN  n.s.e.store.disk.DiskStorageFactory - Data in persistent disk stores is ignored for stores from automatically created directories.
+2019-03-11 10:36:30,373 [INFO]: Remove diskPersistent or resolve the conflicting disk paths in cache configuration.
+2019-03-11 10:36:30,377 [INFO]: Deleting data file D:\work_space\js_de\debug\SeleniumConfig\bin\Debug\SeleniumJAVA\ehcache\ehcache_auto_created7471177751280754837diskstore\active%0053essions%0043ache.data
+2019-03-11 10:36:30,404 [INFO]: 10:36:30.404 [main] WARN  n.s.e.config.CacheConfiguration - Cache 'Common' is set to eternal but also has TTI/TTL set.  To avoid this warning, clean up the config removing conflicting values of eternal, TTI and TTL. Effective configuration for Cache 'Common' will be eternal='true', timeToIdleSeconds='0', timeToLiveSeconds='0'.
+2019-03-11 10:36:30,412 [INFO]: 缓存总体参数配置文件成功！
+2019-03-11 10:36:30,422 [INFO]: 开始缓存SQL配置信息
+2019-03-11 10:36:30,443 [INFO]: 10:36:30.443 [main] WARN  n.s.e.config.CacheConfiguration - Cache 'SQLConfig' is set to eternal but also has TTI/TTL set.  To avoid this warning, clean up the config removing conflicting values of eternal, TTI and TTL. Effective configuration for Cache 'SQLConfig' will be eternal='true', timeToIdleSeconds='0', timeToLiveSeconds='0'.
+2019-03-11 10:36:30,470 [INFO]: 缓存SQL配置信息成功！
+2019-03-11 10:36:30,478 [INFO]: 开始缓存SQL配置的SQL语句信息
+2019-03-11 10:36:31,423 [INFO]: 缓存SQL配置的SQL语句信息成功！
+2019-03-11 10:36:31,431 [INFO]: 开始缓存自动化测试配置方案文件
+2019-03-11 10:36:31,439 [INFO]: 10:36:31.433 [main] WARN  n.s.e.config.CacheConfiguration - Cache 'Schema' is set to eternal but also has TTI/TTL set.  To avoid this warning, clean up the config removing conflicting values of eternal, TTI and TTL. Effective configuration for Cache 'Schema' will be eternal='true', timeToIdleSeconds='0', timeToLiveSeconds='0'.
+2019-03-11 10:36:31,449 [INFO]: 缓存自动化测试配置方案文件成功！
+2019-03-11 10:36:31,503 [INFO]: 开始缓存初始化配置参数成功！
+2019-03-11 10:36:31,513 [INFO]: 10:36:31.452 [main] WARN  n.s.e.config.CacheConfiguration - Cache 'PRODEF' is set to eternal but also has TTI/TTL set.  To avoid this warning, clean up the config removing conflicting values of eternal, TTI and TTL. Effective configuration for Cache 'PRODEF' will be eternal='true', timeToIdleSeconds='0', timeToLiveSeconds='0'.
+2019-03-11 10:36:31,531 [INFO]: 缓存流程配置信息成功！
+2019-03-11 10:36:31,658 [WARN]: Starting ChromeDriver (v2.9.248315) on port 44756
+2019-03-11 10:36:32,551 [INFO]: 初始化ChromeDriver成功！
+2019-03-11 10:36:32,863 [WARN]: Starting ChromeDriver (v2.9.248315) on port 37294
+2019-03-11 10:36:37,995 [INFO]: 初始化WebDriver成功！
+2019-03-11 10:36:38,003 [INFO]: 系统登陆地址：http://192.168.2.119:8082/GisqPlatformExplorer/a/login;JSESSIONID=7a22b82495884077a7860a3b86e8ac2f
+2019-03-11 10:36:41,476 [INFO]: 开始流程自动化测试！
+2019-03-11 10:36:41,484 [INFO]: 流程内码：2d107839-0de3-11e6-b878-000c2984e60c,流程名称首次登记
+2019-03-11 10:36:48,775 [INFO]: 流程启动成功，主框架句柄：CDwindow-9165455F-DE3B-4BC8-8245-161EF6468B68
+2019-03-11 10:36:49,067 [INFO]: 包的id：38bcedca-df88-11e5-b408-000c29187a9e
+2019-03-11 10:36:49,075 [INFO]: schemaid:fd8c6b9a-6411-47c5-87f0-021a79f47453
+2019-03-11 10:36:49,085 [INFO]: schemaname:测试方案1
+2019-03-11 10:36:49,093 [INFO]: prodef:2d107839-0de3-11e6-b878-000c2984e60c
+2019-03-11 10:36:49,103 [INFO]: prodef:首次登记
+2019-03-11 10:36:49,111 [INFO]: packname:国有建设用地使用权及房屋所有权（大宗地）
+2019-03-11 10:36:49,120 [INFO]: cchild:1aa436eb-3fdf-4aec-97b8-94bd58f78c8f
+2019-03-11 10:36:49,134 [INFO]: childname:3---断言
+2019-03-11 10:36:51,111 [INFO]: 获取所有参数
+2019-03-11 10:36:51,170 [INFO]: sid-075095F3-5F75-4295-B4D1-5843F0D20C8E
+2019-03-11 10:36:51,187 [INFO]: 当前环节环节名称：收件受理,环节内码sid-075095F3-5F75-4295-B4D1-5843F0D20C8E
+2019-03-11 10:36:51,206 [INFO]: 开始操作Ifame，Iframe名称：窗口资料收取
+2019-03-11 10:36:54,411 [INFO]: element.getText：
+2019-03-11 10:36:54,491 [INFO]: element点击完成啦
+2019-03-11 10:36:54,597 [INFO]: 点击完成1
+2019-03-11 10:36:54,619 [INFO]: 获取到所有的iframe了2019-03-11 10:36:54
+2019-03-11 10:36:54,645 [INFO]: ifame地址1是：GisqPlatformExplorer/modules/bizmodel/datums_submit2019-03-11 10:36:54
+2019-03-11 10:36:54,665 [INFO]: 获取到ID是：TAB_IF_84860b62-43a6-11e9-b330-00505683a2312019-03-11 10:36:54
+2019-03-11 10:36:56,754 [INFO]: 切换到指定的iframe了2019-03-11 10:36:56
+2019-03-11 10:36:56,762 [INFO]: Iframe地址：GisqPlatformExplorer/modules/bizmodel/datums_submit
+2019-03-11 10:36:56,775 [INFO]: 当前iframe(窗口资料收取)操作元素：
+2019-03-11 10:36:56,787 [INFO]:        定位方式：XPATH
+2019-03-11 10:36:56,796 [INFO]:        定位路径：//div[@role='combobox']
+2019-03-11 10:36:56,805 [INFO]:        操作方式：QT
+2019-03-11 10:36:56,813 [INFO]:        默认值：$("#{ID}").jqxDropDownList('selectIndex', 0 );
+2019-03-11 10:36:56,822 [INFO]:        是否随机数：false
+2019-03-11 10:36:56,831 [INFO]:        等待时间：0
+2019-03-11 10:36:56,839 [INFO]: 开始执行操作
+2019-03-11 10:36:56,941 [INFO]: 等待时间：0
+2019-03-11 10:36:56,952 [INFO]: 当前iframe(窗口资料收取)操作元素：
+2019-03-11 10:36:56,963 [INFO]:        定位方式：ID
+2019-03-11 10:36:56,972 [INFO]:        定位路径：saveDatum
+2019-03-11 10:36:56,989 [INFO]:        操作方式：CLICK
+2019-03-11 10:36:57,001 [INFO]:        默认值：
+2019-03-11 10:36:57,024 [INFO]:        是否随机数：false
+2019-03-11 10:36:57,033 [INFO]:        等待时间：3000
+2019-03-11 10:36:57,041 [INFO]: 开始执行操作
+2019-03-11 10:36:57,296 [INFO]: 我已经点击完成了
+2019-03-11 10:36:58,018 [INFO]: 等待时间：3000
+2019-03-11 10:36:59,053 [INFO]: 开始操作Ifame，Iframe名称：申请信息
+2019-03-11 10:37:01,177 [INFO]: 点击完成1
+2019-03-11 10:37:02,330 [INFO]: 获取到所有的iframe了2019-03-11 10:37:02
+2019-03-11 10:37:02,369 [INFO]: ifame地址1是：GisqQueryList/views/reports/realestate/common/acceptance/Acceptance_HouseRight_Initial.jsp?reportlet=realestate/common/acceptance/Acceptance_HouseRight_Initial.cpt2019-03-11 10:37:02
+2019-03-11 10:37:02,388 [INFO]: 获取到ID是：TAB_IF_8485bcf7-43a6-11e9-b330-00505683a2312019-03-11 10:37:02
+2019-03-11 10:37:05,034 [INFO]: 切换到指定的iframe了2019-03-11 10:37:05
+2019-03-11 10:37:05,044 [INFO]: Iframe地址：GisqQueryList/views/reports/realestate/common/acceptance/Acceptance_HouseRight_Initial.jsp?reportlet=realestate/common/acceptance/Acceptance_HouseRight_Initial.cpt
+2019-03-11 10:37:05,069 [INFO]: 当前iframe(申请信息)操作元素：
+2019-03-11 10:37:05,077 [INFO]:        定位方式：XPATH
+2019-03-11 10:37:05,087 [INFO]:        定位路径：/html/body/div[3]/table/tbody/tr[2]/td[2]
+2019-03-11 10:37:05,096 [INFO]:        操作方式：Assert
+2019-03-11 10:37:05,106 [INFO]:        默认值：申请人
+2019-03-11 10:37:05,115 [INFO]:        是否随机数：false
+2019-03-11 10:37:05,124 [INFO]:        等待时间：0
+2019-03-11 10:37:05,134 [INFO]: 开始执行操作
+2019-03-11 10:37:05,160 [INFO]: 看一下取到值额吗：申请人信息
+2019-03-11 10:37:05,172 [INFO]: 等待时间：0
+2019-03-11 10:37:05,181 [INFO]: 当前iframe(申请信息)操作元素：
+2019-03-11 10:37:05,191 [INFO]:        定位方式：XPATH
+2019-03-11 10:37:05,201 [INFO]:        定位路径：/html/body/div[3]/table/tbody/tr[6]/td[2]
+2019-03-11 10:37:05,211 [INFO]:        操作方式：Assert
+2019-03-11 10:37:05,219 [INFO]:        默认值：不动产单元信息
+2019-03-11 10:37:05,230 [INFO]:        是否随机数：false
+2019-03-11 10:37:05,238 [INFO]:        等待时间：0
+2019-03-11 10:37:05,248 [INFO]: 开始执行操作
+2019-03-11 10:37:05,274 [INFO]: 看一下取到值额吗：不动产单元信息
+2019-03-11 10:37:05,286 [INFO]: 等待时间：0
+2019-03-11 10:37:05,307 [INFO]: 当前iframe(申请信息)操作元素：
+2019-03-11 10:37:05,318 [INFO]:        定位方式：XPATH
+2019-03-11 10:37:05,328 [INFO]:        定位路径：/html/body/div[3]/table/tbody/tr[12]/td[2]
+2019-03-11 10:37:05,339 [INFO]:        操作方式：Assert
+2019-03-11 10:37:05,348 [INFO]:        默认值：项目信息
+2019-03-11 10:37:05,364 [INFO]:        是否随机数：false
+2019-03-11 10:37:05,373 [INFO]:        等待时间：0
+2019-03-11 10:37:05,403 [INFO]: 开始执行操作
+2019-03-11 10:37:05,433 [INFO]: 看一下取到值额吗：项目信息
+2019-03-11 10:37:05,449 [INFO]: 等待时间：0
+2019-03-11 10:37:05,458 [INFO]: 当前iframe(申请信息)操作元素：
+2019-03-11 10:37:05,468 [INFO]:        定位方式：XPATH
+2019-03-11 10:37:05,493 [INFO]:        定位路径：/html/body/div[3]/table/tbody/tr[14]/td[2]
+2019-03-11 10:37:05,502 [INFO]:        操作方式：Assert
+2019-03-11 10:37:05,515 [INFO]:        默认值：开发商名称 
+2019-03-11 10:37:05,523 [INFO]:        是否随机数：false
+2019-03-11 10:37:05,532 [INFO]:        等待时间：0
+2019-03-11 10:37:05,546 [INFO]: 开始执行操作
+2019-03-11 10:37:05,577 [INFO]: 看一下取到值额吗：开发商名称：
+2019-03-11 10:37:05,589 [INFO]: 等待时间：0
+2019-03-11 10:37:05,598 [INFO]: 当前iframe(申请信息)操作元素：
+2019-03-11 10:37:05,608 [INFO]:        定位方式：XPATH
+2019-03-11 10:37:05,617 [INFO]:        定位路径：/html/body/div[3]/table/tbody/tr[14]/td[5]
+2019-03-11 10:37:05,625 [INFO]:        操作方式：Assert
+2019-03-11 10:37:05,635 [INFO]:        默认值：项目
+2019-03-11 10:37:05,643 [INFO]:        是否随机数：false
+2019-03-11 10:37:05,654 [INFO]:        等待时间：0
+2019-03-11 10:37:05,663 [INFO]: 开始执行操作
+2019-03-11 10:37:05,681 [INFO]: 看一下取到值额吗：项目名称：
+2019-03-11 10:37:05,693 [INFO]: 等待时间：0
+2019-03-11 10:37:05,702 [INFO]: 当前iframe(申请信息)操作元素：
+2019-03-11 10:37:05,711 [INFO]:        定位方式：
+2019-03-11 10:37:05,718 [INFO]:        定位路径：
+2019-03-11 10:37:05,726 [INFO]:        操作方式：SHOOT
+2019-03-11 10:37:05,735 [INFO]:        默认值：申请信息截图
+2019-03-11 10:37:05,746 [INFO]:        是否随机数：false
+2019-03-11 10:37:05,757 [INFO]:        等待时间：0
+2019-03-11 10:37:05,765 [INFO]: 开始执行操作
+2019-03-11 10:37:05,773 [INFO]: file绝对路径：D:\work_space\js_de\debug\SeleniumConfig\bin\Debug\SootScreens\2019-03-11
+2019-03-11 10:37:05,781 [INFO]: real_scrol:1236
+2019-03-11 10:37:05,790 [INFO]: real_top:0
+2019-03-11 10:37:22,733 [INFO]: i:1
+2019-03-11 10:37:22,746 [INFO]: height:450
+2019-03-11 10:37:32,984 [INFO]: i:2
+2019-03-11 10:37:32,989 [INFO]: height:900
+2019-03-11 10:37:32,995 [INFO]: 等待时间：0
+2019-03-11 10:37:34,032 [INFO]: 点击移交
+2019-03-11 10:37:34,131 [INFO]: 点击完成
+2019-03-11 10:37:41,617 [INFO]: 点击工作中心
+2019-03-11 10:37:46,693 [INFO]: 判断如果是新收办件，就开始了点击事件
+2019-03-11 10:37:58,280 [INFO]: 开始运行tastsuit
+2019-03-11 10:37:58,421 [INFO]: [TestNG] Running:
+2019-03-11 10:37:58,426 [INFO]:   Command line suite
+2019-03-11 10:37:58,431 [INFO]: 
+2019-03-11 10:37:58,960 [INFO]: 文件路径:D:\work_space\js_de\debug\SeleniumConfig\bin\Debug\Assertdata.xlsx
+2019-03-11 10:37:59,281 [INFO]: 
+2019-03-11 10:37:59,286 [INFO]: ===============================================
+2019-03-11 10:37:59,291 [INFO]: Command line suite
+2019-03-11 10:37:59,297 [INFO]: Total tests run: 5, Failures: 3, Skips: 0
+2019-03-11 10:37:59,313 [INFO]: ===============================================
+2019-03-11 10:37:59,319 [INFO]: 
+2019-03-11 10:38:00,057 [INFO]: 
+2019-03-11 13:54:36,819 [INFO]: Microsoft Windows [版本 6.1.7601]
+2019-03-11 13:54:36,835 [INFO]: 版权所有 (c) 2009 Microsoft Corporation。保留所有权利。
+2019-03-11 13:54:36,840 [INFO]: 
+2019-03-11 13:54:36,845 [INFO]: D:\work_space\js_de\debug\SeleniumConfig\bin\Debug>java -jar D:\work_space\js_de\debug\SeleniumConfig\bin\Debug\\SeleniumJAVA\Selenium.jar C#
+2019-03-11 13:54:40,616 [INFO]: path:/D:/work_space/js_de/debug/SeleniumConfig/bin/Debug/SeleniumJAVA/Selenium.jar
+2019-03-11 13:54:40,620 [INFO]: /D:/work_space/js_de/debug/SeleniumConfig/bin/Debug
+2019-03-11 13:54:40,625 [INFO]: 开始准备数据
+2019-03-11 13:54:40,629 [INFO]: 开始缓存总体参数配置文件
+2019-03-11 13:54:40,871 [INFO]: 读取服务地址/D:/work_space/js_de/debug/SeleniumConfig/bin/Debug
+2019-03-11 13:54:41,220 [WARN]: SLF4J: The requested version 1.7.16 by your slf4j binding is not compatible with [1.6]
+2019-03-11 13:54:41,225 [WARN]: SLF4J: See http://www.slf4j.org/codes.html#version_mismatch for further details.
+2019-03-11 13:54:41,660 [INFO]: 13:54:41.657 [main] WARN  net.sf.ehcache.DiskStorePathManager - diskStorePath 'D:\work_space\js_de\debug\SeleniumConfig\bin\Debug\SeleniumJAVA\ehcache' is already used by an existing CacheManager either in the same VM or in a different process.
+2019-03-11 13:54:41,664 [INFO]: The diskStore path for this CacheManager will be set to D:\work_space\js_de\debug\SeleniumConfig\bin\Debug\SeleniumJAVA\ehcache\ehcache_auto_created5288964346362370079diskstore.
+2019-03-11 13:54:41,668 [INFO]: To avoid this warning consider using the CacheManager factory methods to create a singleton CacheManager or specifying a separate ehcache configuration (ehcache.xml) for each CacheManager instance.
+2019-03-11 13:54:41,697 [INFO]: 13:54:41.697 [main] WARN  n.s.e.store.disk.DiskStorageFactory - Data in persistent disk stores is ignored for stores from automatically created directories.
+2019-03-11 13:54:41,700 [INFO]: Remove diskPersistent or resolve the conflicting disk paths in cache configuration.
+2019-03-11 13:54:41,705 [INFO]: Deleting data file D:\work_space\js_de\debug\SeleniumConfig\bin\Debug\SeleniumJAVA\ehcache\ehcache_auto_created5288964346362370079diskstore\active%0053essions%0043ache.data
+2019-03-11 13:54:41,748 [INFO]: 13:54:41.747 [main] WARN  n.s.e.config.CacheConfiguration - Cache 'Common' is set to eternal but also has TTI/TTL set.  To avoid this warning, clean up the config removing conflicting values of eternal, TTI and TTL. Effective configuration for Cache 'Common' will be eternal='true', timeToIdleSeconds='0', timeToLiveSeconds='0'.
+2019-03-11 13:54:41,786 [INFO]: 缓存总体参数配置文件成功！
+2019-03-11 13:54:41,813 [INFO]: 开始缓存SQL配置信息
+2019-03-11 13:54:41,824 [INFO]: 13:54:41.785 [main] WARN  n.s.e.config.CacheConfiguration - Cache 'SQLConfig' is set to eternal but also has TTI/TTL set.  To avoid this warning, clean up the config removing conflicting values of eternal, TTI and TTL. Effective configuration for Cache 'SQLConfig' will be eternal='true', timeToIdleSeconds='0', timeToLiveSeconds='0'.
+2019-03-11 13:54:41,834 [INFO]: 缓存SQL配置信息成功！
+2019-03-11 13:54:41,845 [INFO]: 开始缓存SQL配置的SQL语句信息
+2019-03-11 13:54:42,902 [INFO]: 缓存SQL配置的SQL语句信息成功！
+2019-03-11 13:54:42,914 [INFO]: 开始缓存自动化测试配置方案文件
+2019-03-11 13:54:42,926 [INFO]: 13:54:42.913 [main] WARN  n.s.e.config.CacheConfiguration - Cache 'Schema' is set to eternal but also has TTI/TTL set.  To avoid this warning, clean up the config removing conflicting values of eternal, TTI and TTL. Effective configuration for Cache 'Schema' will be eternal='true', timeToIdleSeconds='0', timeToLiveSeconds='0'.
+2019-03-11 13:54:42,935 [INFO]: 缓存自动化测试配置方案文件成功！
+2019-03-11 13:54:42,966 [INFO]: 开始缓存初始化配置参数成功！
+2019-03-11 13:54:42,978 [INFO]: 13:54:42.933 [main] WARN  n.s.e.config.CacheConfiguration - Cache 'PRODEF' is set to eternal but also has TTI/TTL set.  To avoid this warning, clean up the config removing conflicting values of eternal, TTI and TTL. Effective configuration for Cache 'PRODEF' will be eternal='true', timeToIdleSeconds='0', timeToLiveSeconds='0'.
+2019-03-11 13:54:42,987 [INFO]: 缓存流程配置信息成功！
+2019-03-11 13:54:43,259 [WARN]: Starting ChromeDriver (v2.9.248315) on port 29567
+2019-03-11 13:54:44,044 [INFO]: 初始化ChromeDriver成功！
+2019-03-11 13:54:44,385 [WARN]: Starting ChromeDriver (v2.9.248315) on port 2207
+2019-03-11 13:54:49,563 [INFO]: 初始化WebDriver成功！
+2019-03-11 13:54:49,570 [INFO]: 系统登陆地址：http://192.168.2.119:8082/GisqPlatformExplorer/a/login;JSESSIONID=7a22b82495884077a7860a3b86e8ac2f
+2019-03-11 13:54:53,822 [INFO]: 开始流程自动化测试！
+2019-03-11 13:54:53,829 [INFO]: 流程内码：2d107839-0de3-11e6-b878-000c2984e60c,流程名称首次登记
+2019-03-11 13:55:01,164 [INFO]: 流程启动成功，主框架句柄：CDwindow-287D4518-627A-4344-9268-1F5EBED957BA
+2019-03-11 13:55:01,191 [INFO]: 包的id：38bcedca-df88-11e5-b408-000c29187a9e
+2019-03-11 13:55:01,198 [INFO]: schemaid:fd8c6b9a-6411-47c5-87f0-021a79f47453
+2019-03-11 13:55:01,205 [INFO]: schemaname:测试方案1
+2019-03-11 13:55:01,211 [INFO]: prodef:2d107839-0de3-11e6-b878-000c2984e60c
+2019-03-11 13:55:01,217 [INFO]: prodef:首次登记
+2019-03-11 13:55:01,223 [INFO]: packname:国有建设用地使用权及房屋所有权（大宗地）
+2019-03-11 13:55:01,229 [INFO]: cchild:1aa436eb-3fdf-4aec-97b8-94bd58f78c8f
+2019-03-11 13:55:01,234 [INFO]: childname:3---断言
+2019-03-11 13:55:03,441 [INFO]: 获取所有参数
+2019-03-11 13:55:04,108 [INFO]: sid-075095F3-5F75-4295-B4D1-5843F0D20C8E
+2019-03-11 13:55:04,119 [INFO]: 当前环节环节名称：收件受理,环节内码sid-075095F3-5F75-4295-B4D1-5843F0D20C8E
+2019-03-11 13:55:04,127 [INFO]: 开始操作Ifame，Iframe名称：窗口资料收取
+2019-03-11 13:55:08,556 [INFO]: element.getText：
+2019-03-11 13:55:08,628 [INFO]: element点击完成啦
+2019-03-11 13:55:08,741 [INFO]: 点击完成1
+2019-03-11 13:55:08,760 [INFO]: 获取到所有的iframe了2019-03-11 13:55:08
+2019-03-11 13:55:08,782 [INFO]: ifame地址1是：GisqPlatformExplorer/modules/bizmodel/datums_submit2019-03-11 13:55:08
+2019-03-11 13:55:08,803 [INFO]: 获取到ID是：TAB_IF_3598e63c-43c2-11e9-b330-00505683a2312019-03-11 13:55:08
+2019-03-11 13:55:10,847 [INFO]: 切换到指定的iframe了2019-03-11 13:55:10
+2019-03-11 13:55:10,852 [INFO]: Iframe地址：GisqPlatformExplorer/modules/bizmodel/datums_submit
+2019-03-11 13:55:10,867 [INFO]: 当前iframe(窗口资料收取)操作元素：
+2019-03-11 13:55:10,873 [INFO]:        定位方式：XPATH
+2019-03-11 13:55:10,882 [INFO]:        定位路径：//div[@role='combobox']
+2019-03-11 13:55:10,888 [INFO]:        操作方式：QT
+2019-03-11 13:55:10,894 [INFO]:        默认值：$("#{ID}").jqxDropDownList('selectIndex', 0 );
+2019-03-11 13:55:10,912 [INFO]:        是否随机数：false
+2019-03-11 13:55:10,919 [INFO]:        等待时间：0
+2019-03-11 13:55:10,924 [INFO]: 开始执行操作
+2019-03-11 13:55:11,042 [INFO]: 等待时间：0
+2019-03-11 13:55:11,047 [INFO]: 当前iframe(窗口资料收取)操作元素：
+2019-03-11 13:55:11,053 [INFO]:        定位方式：ID
+2019-03-11 13:55:11,060 [INFO]:        定位路径：saveDatum
+2019-03-11 13:55:11,067 [INFO]:        操作方式：CLICK
+2019-03-11 13:55:11,073 [INFO]:        默认值：
+2019-03-11 13:55:11,092 [INFO]:        是否随机数：false
+2019-03-11 13:55:11,110 [INFO]:        等待时间：3000
+2019-03-11 13:55:11,142 [INFO]: 开始执行操作
+2019-03-11 13:55:11,463 [INFO]: 我已经点击完成了
+2019-03-11 13:55:12,031 [INFO]: 等待时间：3000
+2019-03-11 13:55:13,074 [INFO]: 开始操作Ifame，Iframe名称：申请信息
+2019-03-11 13:55:15,230 [INFO]: 点击完成1
+2019-03-11 13:55:16,046 [INFO]: 获取到所有的iframe了2019-03-11 13:55:16
+2019-03-11 13:55:16,081 [INFO]: ifame地址1是：GisqQueryList/views/reports/realestate/common/acceptance/Acceptance_HouseRight_Initial.jsp?reportlet=realestate/common/acceptance/Acceptance_HouseRight_Initial.cpt2019-03-11 13:55:16
+2019-03-11 13:55:16,109 [INFO]: 获取到ID是：TAB_IF_3598bfe1-43c2-11e9-b330-00505683a2312019-03-11 13:55:16
+2019-03-11 13:55:18,160 [INFO]: 切换到指定的iframe了2019-03-11 13:55:18
+2019-03-11 13:55:18,167 [INFO]: Iframe地址：GisqQueryList/views/reports/realestate/common/acceptance/Acceptance_HouseRight_Initial.jsp?reportlet=realestate/common/acceptance/Acceptance_HouseRight_Initial.cpt
+2019-03-11 13:55:18,176 [INFO]: 当前iframe(申请信息)操作元素：
+2019-03-11 13:55:18,181 [INFO]:        定位方式：XPATH
+2019-03-11 13:55:18,187 [INFO]:        定位路径：/html/body/div[3]/table/tbody/tr[2]/td[2]
+2019-03-11 13:55:18,193 [INFO]:        操作方式：Assert
+2019-03-11 13:55:18,199 [INFO]:        默认值：申请人
+2019-03-11 13:55:18,205 [INFO]:        是否随机数：false
+2019-03-11 13:55:18,211 [INFO]:        等待时间：0
+2019-03-11 13:55:18,222 [INFO]: 开始执行操作
+2019-03-11 13:55:18,264 [INFO]: 看一下取到值额吗：申请人信息
+2019-03-11 13:55:18,278 [INFO]: 等待时间：0
+2019-03-11 13:55:18,284 [INFO]: 当前iframe(申请信息)操作元素：
+2019-03-11 13:55:18,290 [INFO]:        定位方式：XPATH
+2019-03-11 13:55:18,296 [INFO]:        定位路径：/html/body/div[3]/table/tbody/tr[6]/td[2]
+2019-03-11 13:55:18,302 [INFO]:        操作方式：Assert
+2019-03-11 13:55:18,310 [INFO]:        默认值：不动产单元信息
+2019-03-11 13:55:18,318 [INFO]:        是否随机数：false
+2019-03-11 13:55:18,338 [INFO]:        等待时间：0
+2019-03-11 13:55:18,344 [INFO]: 开始执行操作
+2019-03-11 13:55:18,365 [INFO]: 看一下取到值额吗：不动产单元信息
+2019-03-11 13:55:18,381 [INFO]: 等待时间：0
+2019-03-11 13:55:18,386 [INFO]: 当前iframe(申请信息)操作元素：
+2019-03-11 13:55:18,395 [INFO]:        定位方式：XPATH
+2019-03-11 13:55:18,401 [INFO]:        定位路径：/html/body/div[3]/table/tbody/tr[12]/td[2]
+2019-03-11 13:55:18,417 [INFO]:        操作方式：Assert
+2019-03-11 13:55:18,423 [INFO]:        默认值：项目信息
+2019-03-11 13:55:18,446 [INFO]:        是否随机数：false
+2019-03-11 13:55:18,454 [INFO]:        等待时间：0
+2019-03-11 13:55:18,462 [INFO]: 开始执行操作
+2019-03-11 13:55:18,484 [INFO]: 看一下取到值额吗：项目信息
+2019-03-11 13:55:18,530 [INFO]: 等待时间：0
+2019-03-11 13:55:18,537 [INFO]: 当前iframe(申请信息)操作元素：
+2019-03-11 13:55:18,543 [INFO]:        定位方式：XPATH
+2019-03-11 13:55:18,548 [INFO]:        定位路径：/html/body/div[3]/table/tbody/tr[14]/td[2]
+2019-03-11 13:55:18,559 [INFO]:        操作方式：Assert
+2019-03-11 13:55:18,565 [INFO]:        默认值：开发商名称 
+2019-03-11 13:55:18,571 [INFO]:        是否随机数：false
+2019-03-11 13:55:18,578 [INFO]:        等待时间：0
+2019-03-11 13:55:18,583 [INFO]: 开始执行操作
+2019-03-11 13:55:18,615 [INFO]: 看一下取到值额吗：开发商名称：
+2019-03-11 13:55:18,628 [INFO]: 等待时间：0
+2019-03-11 13:55:18,634 [INFO]: 当前iframe(申请信息)操作元素：
+2019-03-11 13:55:18,649 [INFO]:        定位方式：XPATH
+2019-03-11 13:55:18,656 [INFO]:        定位路径：/html/body/div[3]/table/tbody/tr[14]/td[5]
+2019-03-11 13:55:18,661 [INFO]:        操作方式：Assert
+2019-03-11 13:55:18,667 [INFO]:        默认值：项目
+2019-03-11 13:55:18,675 [INFO]:        是否随机数：false
+2019-03-11 13:55:18,681 [INFO]:        等待时间：0
+2019-03-11 13:55:18,688 [INFO]: 开始执行操作
+2019-03-11 13:55:18,708 [INFO]: 看一下取到值额吗：项目名称：
+2019-03-11 13:55:18,723 [INFO]: 等待时间：0
+2019-03-11 13:55:18,730 [INFO]: 当前iframe(申请信息)操作元素：
+2019-03-11 13:55:18,735 [INFO]:        定位方式：
+2019-03-11 13:55:18,741 [INFO]:        定位路径：
+2019-03-11 13:55:18,746 [INFO]:        操作方式：SHOOT
+2019-03-11 13:55:18,751 [INFO]:        默认值：申请信息截图
+2019-03-11 13:55:18,757 [INFO]:        是否随机数：false
+2019-03-11 13:55:18,775 [INFO]:        等待时间：0
+2019-03-11 13:55:18,781 [INFO]: 开始执行操作
+2019-03-11 13:55:18,788 [INFO]: file绝对路径：D:\work_space\js_de\debug\SeleniumConfig\bin\Debug\SootScreens\2019-03-11
+2019-03-11 13:55:18,793 [INFO]: real_scrol:1236
+2019-03-11 13:55:18,799 [INFO]: real_top:0
+2019-03-11 13:55:35,157 [INFO]: i:1
+2019-03-11 13:55:35,162 [INFO]: height:450
+2019-03-11 13:55:45,323 [INFO]: i:2
+2019-03-11 13:55:45,328 [INFO]: height:900
+2019-03-11 13:55:45,335 [INFO]: 等待时间：0
+2019-03-11 13:55:46,377 [INFO]: 点击移交
+2019-03-11 13:55:46,452 [INFO]: 点击完成
+2019-03-11 13:55:53,996 [INFO]: 点击工作中心
+2019-03-11 13:55:59,097 [INFO]: 判断如果是新收办件，就开始了点击事件
+2019-03-11 13:56:10,922 [INFO]: 开始运行tastsuit
+2019-03-11 13:56:11,077 [INFO]: [TestNG] Running:
+2019-03-11 13:56:11,087 [INFO]:   自动化测试套
+2019-03-11 13:56:11,098 [INFO]: 
+2019-03-11 13:56:11,604 [INFO]: 文件路径:D:\work_space\js_de\debug\SeleniumConfig\bin\Debug\Assertdata.xlsx
+2019-03-11 13:56:11,949 [INFO]: 
+2019-03-11 13:56:11,960 [INFO]: ===============================================
+2019-03-11 13:56:11,983 [INFO]: 自动化测试套
+2019-03-11 13:56:12,004 [INFO]: Total tests run: 5, Failures: 3, Skips: 0
+2019-03-11 13:56:12,013 [INFO]: ===============================================
+2019-03-11 13:56:12,024 [INFO]: 
+2019-03-11 13:56:12,798 [INFO]: 
+2019-03-11 13:59:28,983 [INFO]: Microsoft Windows [版本 6.1.7601]
+2019-03-11 13:59:28,989 [INFO]: 版权所有 (c) 2009 Microsoft Corporation。保留所有权利。
+2019-03-11 13:59:28,994 [INFO]: 
+2019-03-11 13:59:28,998 [INFO]: D:\work_space\js_de\debug\SeleniumConfig\bin\Debug>java -jar D:\work_space\js_de\debug\SeleniumConfig\bin\Debug\\SeleniumJAVA\Selenium.jar C#
+2019-03-11 13:59:32,516 [INFO]: path:/D:/work_space/js_de/debug/SeleniumConfig/bin/Debug/SeleniumJAVA/Selenium.jar
+2019-03-11 13:59:32,521 [INFO]: /D:/work_space/js_de/debug/SeleniumConfig/bin/Debug
+2019-03-11 13:59:32,525 [INFO]: 开始准备数据
+2019-03-11 13:59:32,532 [INFO]: 开始缓存总体参数配置文件
+2019-03-11 13:59:32,704 [INFO]: 读取服务地址/D:/work_space/js_de/debug/SeleniumConfig/bin/Debug
+2019-03-11 13:59:32,999 [WARN]: SLF4J: The requested version 1.7.16 by your slf4j binding is not compatible with [1.6]
+2019-03-11 13:59:33,003 [WARN]: SLF4J: See http://www.slf4j.org/codes.html#version_mismatch for further details.
+2019-03-11 13:59:33,487 [INFO]: 13:59:33.484 [main] WARN  net.sf.ehcache.DiskStorePathManager - diskStorePath 'D:\work_space\js_de\debug\SeleniumConfig\bin\Debug\SeleniumJAVA\ehcache' is already used by an existing CacheManager either in the same VM or in a different process.
+2019-03-11 13:59:33,492 [INFO]: The diskStore path for this CacheManager will be set to D:\work_space\js_de\debug\SeleniumConfig\bin\Debug\SeleniumJAVA\ehcache\ehcache_auto_created4159441816019458093diskstore.
+2019-03-11 13:59:33,497 [INFO]: To avoid this warning consider using the CacheManager factory methods to create a singleton CacheManager or specifying a separate ehcache configuration (ehcache.xml) for each CacheManager instance.
+2019-03-11 13:59:33,511 [INFO]: 13:59:33.510 [main] WARN  n.s.e.store.disk.DiskStorageFactory - Data in persistent disk stores is ignored for stores from automatically created directories.
+2019-03-11 13:59:33,516 [INFO]: Remove diskPersistent or resolve the conflicting disk paths in cache configuration.
+2019-03-11 13:59:33,521 [INFO]: Deleting data file D:\work_space\js_de\debug\SeleniumConfig\bin\Debug\SeleniumJAVA\ehcache\ehcache_auto_created4159441816019458093diskstore\active%0053essions%0043ache.data
+2019-03-11 13:59:33,531 [INFO]: 13:59:33.528 [main] WARN  n.s.e.config.CacheConfiguration - Cache 'Common' is set to eternal but also has TTI/TTL set.  To avoid this warning, clean up the config removing conflicting values of eternal, TTI and TTL. Effective configuration for Cache 'Common' will be eternal='true', timeToIdleSeconds='0', timeToLiveSeconds='0'.
+2019-03-11 13:59:33,542 [INFO]: 缓存总体参数配置文件成功！
+2019-03-11 13:59:33,554 [INFO]: 开始缓存SQL配置信息
+2019-03-11 13:59:33,579 [INFO]: 13:59:33.579 [main] WARN  n.s.e.config.CacheConfiguration - Cache 'SQLConfig' is set to eternal but also has TTI/TTL set.  To avoid this warning, clean up the config removing conflicting values of eternal, TTI and TTL. Effective configuration for Cache 'SQLConfig' will be eternal='true', timeToIdleSeconds='0', timeToLiveSeconds='0'.
+2019-03-11 13:59:33,589 [INFO]: 缓存SQL配置信息成功！
+2019-03-11 13:59:33,598 [INFO]: 开始缓存SQL配置的SQL语句信息
+2019-03-11 13:59:34,620 [INFO]: 缓存SQL配置的SQL语句信息成功！
+2019-03-11 13:59:34,648 [INFO]: 开始缓存自动化测试配置方案文件
+2019-03-11 13:59:34,667 [INFO]: 13:59:34.630 [main] WARN  n.s.e.config.CacheConfiguration - Cache 'Schema' is set to eternal but also has TTI/TTL set.  To avoid this warning, clean up the config removing conflicting values of eternal, TTI and TTL. Effective configuration for Cache 'Schema' will be eternal='true', timeToIdleSeconds='0', timeToLiveSeconds='0'.
+2019-03-11 13:59:34,677 [INFO]: 缓存自动化测试配置方案文件成功！
+2019-03-11 13:59:34,687 [INFO]: 开始缓存初始化配置参数成功！
+2019-03-11 13:59:34,696 [INFO]: 13:59:34.651 [main] WARN  n.s.e.config.CacheConfiguration - Cache 'PRODEF' is set to eternal but also has TTI/TTL set.  To avoid this warning, clean up the config removing conflicting values of eternal, TTI and TTL. Effective configuration for Cache 'PRODEF' will be eternal='true', timeToIdleSeconds='0', timeToLiveSeconds='0'.
+2019-03-11 13:59:34,706 [INFO]: 缓存流程配置信息成功！
+2019-03-11 13:59:34,861 [WARN]: Starting ChromeDriver (v2.9.248315) on port 37207
+2019-03-11 13:59:35,767 [INFO]: 初始化ChromeDriver成功！
+2019-03-11 13:59:36,099 [WARN]: Starting ChromeDriver (v2.9.248315) on port 9580
+2019-03-11 13:59:41,242 [INFO]: 初始化WebDriver成功！
+2019-03-11 13:59:41,251 [INFO]: 系统登陆地址：http://192.168.2.119:8082/GisqPlatformExplorer/a/login;JSESSIONID=7a22b82495884077a7860a3b86e8ac2f
+2019-03-11 13:59:44,616 [INFO]: 开始流程自动化测试！
+2019-03-11 13:59:44,622 [INFO]: 流程内码：2d107839-0de3-11e6-b878-000c2984e60c,流程名称首次登记
+2019-03-11 13:59:51,887 [INFO]: 流程启动成功，主框架句柄：CDwindow-F4A15ED3-FE5F-4852-91B4-6FEABDC13030
+2019-03-11 13:59:51,917 [INFO]: 包的id：38bcedca-df88-11e5-b408-000c29187a9e
+2019-03-11 13:59:51,923 [INFO]: schemaid:fd8c6b9a-6411-47c5-87f0-021a79f47453
+2019-03-11 13:59:51,929 [INFO]: schemaname:测试方案1
+2019-03-11 13:59:51,935 [INFO]: prodef:2d107839-0de3-11e6-b878-000c2984e60c
+2019-03-11 13:59:51,945 [INFO]: prodef:首次登记
+2019-03-11 13:59:51,952 [INFO]: packname:国有建设用地使用权及房屋所有权（大宗地）
+2019-03-11 13:59:51,960 [INFO]: cchild:1aa436eb-3fdf-4aec-97b8-94bd58f78c8f
+2019-03-11 13:59:51,968 [INFO]: childname:3---断言
+2019-03-11 13:59:53,969 [INFO]: 获取所有参数
+2019-03-11 13:59:54,006 [INFO]: sid-075095F3-5F75-4295-B4D1-5843F0D20C8E
+2019-03-11 13:59:54,012 [INFO]: 当前环节环节名称：收件受理,环节内码sid-075095F3-5F75-4295-B4D1-5843F0D20C8E
+2019-03-11 13:59:54,018 [INFO]: 开始操作Ifame，Iframe名称：窗口资料收取
+2019-03-11 13:59:55,349 [INFO]: element.getText：
+2019-03-11 13:59:55,431 [INFO]: element点击完成啦
+2019-03-11 13:59:55,551 [INFO]: 点击完成1
+2019-03-11 13:59:55,569 [INFO]: 获取到所有的iframe了2019-03-11 13:59:55
+2019-03-11 13:59:55,597 [INFO]: ifame地址1是：GisqPlatformExplorer/modules/bizmodel/datums_submit2019-03-11 13:59:55
+2019-03-11 13:59:55,619 [INFO]: 获取到ID是：TAB_IF_e1a4efc7-43c2-11e9-b330-00505683a2312019-03-11 13:59:55
+2019-03-11 13:59:57,679 [INFO]: 切换到指定的iframe了2019-03-11 13:59:57
+2019-03-11 13:59:57,685 [INFO]: Iframe地址：GisqPlatformExplorer/modules/bizmodel/datums_submit
+2019-03-11 13:59:57,702 [INFO]: 当前iframe(窗口资料收取)操作元素：
+2019-03-11 13:59:57,709 [INFO]:        定位方式：XPATH
+2019-03-11 13:59:57,715 [INFO]:        定位路径：//div[@role='combobox']
+2019-03-11 13:59:57,735 [INFO]:        操作方式：QT
+2019-03-11 13:59:57,741 [INFO]:        默认值：$("#{ID}").jqxDropDownList('selectIndex', 0 );
+2019-03-11 13:59:57,749 [INFO]:        是否随机数：false
+2019-03-11 13:59:57,754 [INFO]:        等待时间：0
+2019-03-11 13:59:57,761 [INFO]: 开始执行操作
+2019-03-11 13:59:57,883 [INFO]: 等待时间：0
+2019-03-11 13:59:57,889 [INFO]: 当前iframe(窗口资料收取)操作元素：
+2019-03-11 13:59:57,895 [INFO]:        定位方式：ID
+2019-03-11 13:59:57,899 [INFO]:        定位路径：saveDatum
+2019-03-11 13:59:57,905 [INFO]:        操作方式：CLICK
+2019-03-11 13:59:57,922 [INFO]:        默认值：
+2019-03-11 13:59:57,930 [INFO]:        是否随机数：false
+2019-03-11 13:59:57,937 [INFO]:        等待时间：3000
+2019-03-11 13:59:58,150 [INFO]: 开始执行操作
+2019-03-11 13:59:58,275 [INFO]: 我已经点击完成了
+2019-03-11 13:59:58,747 [INFO]: 等待时间：3000
+2019-03-11 13:59:59,774 [INFO]: 开始操作Ifame，Iframe名称：申请信息
+2019-03-11 14:00:01,903 [INFO]: 点击完成1
+2019-03-11 14:00:02,626 [INFO]: 获取到所有的iframe了2019-03-11 14:00:02
+2019-03-11 14:00:02,653 [INFO]: ifame地址1是：GisqQueryList/views/reports/realestate/common/acceptance/Acceptance_HouseRight_Initial.jsp?reportlet=realestate/common/acceptance/Acceptance_HouseRight_Initial.cpt2019-03-11 14:00:02
+2019-03-11 14:00:02,668 [INFO]: 获取到ID是：TAB_IF_e1a4a15c-43c2-11e9-b330-00505683a2312019-03-11 14:00:02
+2019-03-11 14:00:04,742 [INFO]: 切换到指定的iframe了2019-03-11 14:00:04
+2019-03-11 14:00:04,748 [INFO]: Iframe地址：GisqQueryList/views/reports/realestate/common/acceptance/Acceptance_HouseRight_Initial.jsp?reportlet=realestate/common/acceptance/Acceptance_HouseRight_Initial.cpt
+2019-03-11 14:00:04,757 [INFO]: 当前iframe(申请信息)操作元素：
+2019-03-11 14:00:04,764 [INFO]:        定位方式：XPATH
+2019-03-11 14:00:04,770 [INFO]:        定位路径：/html/body/div[3]/table/tbody/tr[2]/td[2]
+2019-03-11 14:00:04,777 [INFO]:        操作方式：Assert
+2019-03-11 14:00:04,784 [INFO]:        默认值：申请人
+2019-03-11 14:00:04,792 [INFO]:        是否随机数：false
+2019-03-11 14:00:04,801 [INFO]:        等待时间：0
+2019-03-11 14:00:04,812 [INFO]: 开始执行操作
+2019-03-11 14:00:04,845 [INFO]: 看一下取到值额吗：申请人信息
+2019-03-11 14:00:04,861 [INFO]: 等待时间：0
+2019-03-11 14:00:04,867 [INFO]: 当前iframe(申请信息)操作元素：
+2019-03-11 14:00:04,874 [INFO]:        定位方式：XPATH
+2019-03-11 14:00:04,881 [INFO]:        定位路径：/html/body/div[3]/table/tbody/tr[6]/td[2]
+2019-03-11 14:00:04,888 [INFO]:        操作方式：Assert
+2019-03-11 14:00:04,896 [INFO]:        默认值：不动产单元信息
+2019-03-11 14:00:04,903 [INFO]:        是否随机数：false
+2019-03-11 14:00:04,911 [INFO]:        等待时间：0
+2019-03-11 14:00:04,919 [INFO]: 开始执行操作
+2019-03-11 14:00:04,955 [INFO]: 看一下取到值额吗：不动产单元信息
+2019-03-11 14:00:04,981 [INFO]: 等待时间：0
+2019-03-11 14:00:05,003 [INFO]: 当前iframe(申请信息)操作元素：
+2019-03-11 14:00:05,018 [INFO]:        定位方式：XPATH
+2019-03-11 14:00:05,025 [INFO]:        定位路径：/html/body/div[3]/table/tbody/tr[12]/td[2]
+2019-03-11 14:00:05,033 [INFO]:        操作方式：Assert
+2019-03-11 14:00:05,039 [INFO]:        默认值：项目信息
+2019-03-11 14:00:05,051 [INFO]:        是否随机数：false
+2019-03-11 14:00:05,061 [INFO]:        等待时间：0
+2019-03-11 14:00:05,067 [INFO]: 开始执行操作
+2019-03-11 14:00:05,096 [INFO]: 看一下取到值额吗：项目信息
+2019-03-11 14:00:05,122 [INFO]: 等待时间：0
+2019-03-11 14:00:05,139 [INFO]: 当前iframe(申请信息)操作元素：
+2019-03-11 14:00:05,167 [INFO]:        定位方式：XPATH
+2019-03-11 14:00:05,173 [INFO]:        定位路径：/html/body/div[3]/table/tbody/tr[14]/td[2]
+2019-03-11 14:00:05,180 [INFO]:        操作方式：Assert
+2019-03-11 14:00:05,187 [INFO]:        默认值：开发商名称 
+2019-03-11 14:00:05,194 [INFO]:        是否随机数：false
+2019-03-11 14:00:05,203 [INFO]:        等待时间：0
+2019-03-11 14:00:05,210 [INFO]: 开始执行操作
+2019-03-11 14:00:05,227 [INFO]: 看一下取到值额吗：开发商名称：
+2019-03-11 14:00:05,241 [INFO]: 等待时间：0
+2019-03-11 14:00:05,248 [INFO]: 当前iframe(申请信息)操作元素：
+2019-03-11 14:00:05,253 [INFO]:        定位方式：XPATH
+2019-03-11 14:00:05,260 [INFO]:        定位路径：/html/body/div[3]/table/tbody/tr[14]/td[5]
+2019-03-11 14:00:05,266 [INFO]:        操作方式：Assert
+2019-03-11 14:00:05,276 [INFO]:        默认值：项目
+2019-03-11 14:00:05,282 [INFO]:        是否随机数：false
+2019-03-11 14:00:05,289 [INFO]:        等待时间：0
+2019-03-11 14:00:05,314 [INFO]: 开始执行操作
+2019-03-11 14:00:05,352 [INFO]: 看一下取到值额吗：项目名称：
+2019-03-11 14:00:05,368 [INFO]: 等待时间：0
+2019-03-11 14:00:05,375 [INFO]: 当前iframe(申请信息)操作元素：
+2019-03-11 14:00:05,382 [INFO]:        定位方式：
+2019-03-11 14:00:05,388 [INFO]:        定位路径：
+2019-03-11 14:00:05,394 [INFO]:        操作方式：SHOOT
+2019-03-11 14:00:05,411 [INFO]:        默认值：申请信息截图
+2019-03-11 14:00:05,415 [INFO]:        是否随机数：false
+2019-03-11 14:00:05,421 [INFO]:        等待时间：0
+2019-03-11 14:00:05,429 [INFO]: 开始执行操作
+2019-03-11 14:00:05,433 [INFO]: file绝对路径：D:\work_space\js_de\debug\SeleniumConfig\bin\Debug\SootScreens\2019-03-11
+2019-03-11 14:00:05,440 [INFO]: real_scrol:1236
+2019-03-11 14:00:05,446 [INFO]: real_top:0
+2019-03-11 14:00:21,964 [INFO]: i:1
+2019-03-11 14:00:21,970 [INFO]: height:450
+2019-03-11 14:00:32,197 [INFO]: i:2
+2019-03-11 14:00:32,203 [INFO]: height:900
+2019-03-11 14:00:32,210 [INFO]: 等待时间：0
+2019-03-11 14:00:33,246 [INFO]: 点击移交
+2019-03-11 14:00:33,345 [INFO]: 点击完成
+2019-03-11 14:00:40,861 [INFO]: 点击工作中心
+2019-03-11 14:00:45,940 [INFO]: 判断如果是新收办件，就开始了点击事件
+2019-03-11 14:00:57,686 [INFO]: 开始运行tastsuit
+2019-03-11 14:00:57,846 [INFO]: [TestNG] Running:
+2019-03-11 14:00:57,856 [INFO]:   自动化测试套
+2019-03-11 14:00:57,869 [INFO]: 
+2019-03-11 14:00:58,378 [INFO]: 文件路径:D:\work_space\js_de\debug\SeleniumConfig\bin\Debug\Assertdata.xlsx
+2019-03-11 14:00:58,612 [INFO]: 
+2019-03-11 14:00:58,623 [INFO]: ===============================================
+2019-03-11 14:00:58,632 [INFO]: 自动化测试套
+2019-03-11 14:00:58,642 [INFO]: Total tests run: 5, Failures: 3, Skips: 0
+2019-03-11 14:00:58,652 [INFO]: ===============================================
+2019-03-11 14:00:58,661 [INFO]: 
+2019-03-11 14:00:59,112 [INFO]: 准备开始发送邮件
+2019-03-11 14:00:59,123 [WARN]: Exception in thread "main" java.lang.NoClassDefFoundError: javax/mail/MessagingException
+2019-03-11 14:00:59,136 [WARN]: 	at configSelenium.ConfigSeleniumStart.main(ConfigSeleniumStart.java:202)
+2019-03-11 14:00:59,146 [WARN]: Caused by: java.lang.ClassNotFoundException: javax.mail.MessagingException
+2019-03-11 14:00:59,156 [WARN]: 	at java.net.URLClassLoader.findClass(Unknown Source)
+2019-03-11 14:00:59,165 [WARN]: 	at java.lang.ClassLoader.loadClass(Unknown Source)
+2019-03-11 14:00:59,173 [WARN]: 	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+2019-03-11 14:00:59,183 [WARN]: 	at java.lang.ClassLoader.loadClass(Unknown Source)
+2019-03-11 14:00:59,200 [WARN]: 	... 1 more
+2019-03-11 14:12:45,191 [INFO]: Microsoft Windows [版本 6.1.7601]
+2019-03-11 14:12:45,196 [INFO]: 版权所有 (c) 2009 Microsoft Corporation。保留所有权利。
+2019-03-11 14:12:45,199 [INFO]: 
+2019-03-11 14:12:45,203 [INFO]: D:\work_space\js_de\debug\SeleniumConfig\bin\Debug>java -jar D:\work_space\js_de\debug\SeleniumConfig\bin\Debug\\SeleniumJAVA\Selenium.jar C#
+2019-03-11 14:12:47,932 [INFO]: path:/D:/work_space/js_de/debug/SeleniumConfig/bin/Debug/SeleniumJAVA/Selenium.jar
+2019-03-11 14:12:47,936 [INFO]: /D:/work_space/js_de/debug/SeleniumConfig/bin/Debug
+2019-03-11 14:12:47,941 [INFO]: 开始准备数据
+2019-03-11 14:12:47,947 [INFO]: 开始缓存总体参数配置文件
+2019-03-11 14:12:48,136 [INFO]: 读取服务地址/D:/work_space/js_de/debug/SeleniumConfig/bin/Debug
+2019-03-11 14:12:48,479 [WARN]: SLF4J: The requested version 1.7.16 by your slf4j binding is not compatible with [1.6]
+2019-03-11 14:12:48,483 [WARN]: SLF4J: See http://www.slf4j.org/codes.html#version_mismatch for further details.
+2019-03-11 14:12:48,939 [INFO]: 14:12:48.936 [main] WARN  net.sf.ehcache.DiskStorePathManager - diskStorePath 'D:\work_space\js_de\debug\SeleniumConfig\bin\Debug\SeleniumJAVA\ehcache' is already used by an existing CacheManager either in the same VM or in a different process.
+2019-03-11 14:12:48,944 [INFO]: The diskStore path for this CacheManager will be set to D:\work_space\js_de\debug\SeleniumConfig\bin\Debug\SeleniumJAVA\ehcache\ehcache_auto_created3950091227151195992diskstore.
+2019-03-11 14:12:48,949 [INFO]: To avoid this warning consider using the CacheManager factory methods to create a singleton CacheManager or specifying a separate ehcache configuration (ehcache.xml) for each CacheManager instance.
+2019-03-11 14:12:48,964 [INFO]: 14:12:48.964 [main] WARN  n.s.e.store.disk.DiskStorageFactory - Data in persistent disk stores is ignored for stores from automatically created directories.
+2019-03-11 14:12:48,969 [INFO]: Remove diskPersistent or resolve the conflicting disk paths in cache configuration.
+2019-03-11 14:12:48,973 [INFO]: Deleting data file D:\work_space\js_de\debug\SeleniumConfig\bin\Debug\SeleniumJAVA\ehcache\ehcache_auto_created3950091227151195992diskstore\active%0053essions%0043ache.data
+2019-03-11 14:12:48,987 [INFO]: 14:12:48.986 [main] WARN  n.s.e.config.CacheConfiguration - Cache 'Common' is set to eternal but also has TTI/TTL set.  To avoid this warning, clean up the config removing conflicting values of eternal, TTI and TTL. Effective configuration for Cache 'Common' will be eternal='true', timeToIdleSeconds='0', timeToLiveSeconds='0'.
+2019-03-11 14:12:48,998 [INFO]: 缓存总体参数配置文件成功！
+2019-03-11 14:12:49,012 [INFO]: 开始缓存SQL配置信息
+2019-03-11 14:12:49,037 [INFO]: 14:12:49.037 [main] WARN  n.s.e.config.CacheConfiguration - Cache 'SQLConfig' is set to eternal but also has TTI/TTL set.  To avoid this warning, clean up the config removing conflicting values of eternal, TTI and TTL. Effective configuration for Cache 'SQLConfig' will be eternal='true', timeToIdleSeconds='0', timeToLiveSeconds='0'.
+2019-03-11 14:12:49,047 [INFO]: 缓存SQL配置信息成功！
+2019-03-11 14:12:49,057 [INFO]: 开始缓存SQL配置的SQL语句信息
+2019-03-11 14:12:50,493 [INFO]: 缓存SQL配置的SQL语句信息成功！
+2019-03-11 14:12:50,503 [INFO]: 开始缓存自动化测试配置方案文件
+2019-03-11 14:12:50,511 [INFO]: 14:12:50.503 [main] WARN  n.s.e.config.CacheConfiguration - Cache 'Schema' is set to eternal but also has TTI/TTL set.  To avoid this warning, clean up the config removing conflicting values of eternal, TTI and TTL. Effective configuration for Cache 'Schema' will be eternal='true', timeToIdleSeconds='0', timeToLiveSeconds='0'.
+2019-03-11 14:12:50,528 [INFO]: 缓存自动化测试配置方案文件成功！
+2019-03-11 14:12:50,537 [INFO]: 开始缓存初始化配置参数成功！
+2019-03-11 14:12:50,546 [INFO]: 14:12:50.524 [main] WARN  n.s.e.config.CacheConfiguration - Cache 'PRODEF' is set to eternal but also has TTI/TTL set.  To avoid this warning, clean up the config removing conflicting values of eternal, TTI and TTL. Effective configuration for Cache 'PRODEF' will be eternal='true', timeToIdleSeconds='0', timeToLiveSeconds='0'.
+2019-03-11 14:12:50,556 [INFO]: 缓存流程配置信息成功！
+2019-03-11 14:12:50,752 [WARN]: Starting ChromeDriver (v2.9.248315) on port 45589
+2019-03-11 14:12:51,641 [INFO]: 初始化ChromeDriver成功！
+2019-03-11 14:12:52,031 [WARN]: Starting ChromeDriver (v2.9.248315) on port 25004
+2019-03-11 14:12:57,169 [INFO]: 初始化WebDriver成功！
+2019-03-11 14:12:57,180 [INFO]: 系统登陆地址：http://192.168.2.119:8082/GisqPlatformExplorer/a/login;JSESSIONID=7a22b82495884077a7860a3b86e8ac2f
+2019-03-11 14:13:00,850 [INFO]: 开始流程自动化测试！
+2019-03-11 14:13:00,857 [INFO]: 流程内码：2d107839-0de3-11e6-b878-000c2984e60c,流程名称首次登记
+2019-03-11 14:13:08,197 [INFO]: 流程启动成功，主框架句柄：CDwindow-35A98C9F-0BB5-42B3-9E71-0C1F677C33E3
+2019-03-11 14:13:08,226 [INFO]: 包的id：38bcedca-df88-11e5-b408-000c29187a9e
+2019-03-11 14:13:08,232 [INFO]: schemaid:fd8c6b9a-6411-47c5-87f0-021a79f47453
+2019-03-11 14:13:08,256 [INFO]: schemaname:测试方案1
+2019-03-11 14:13:08,262 [INFO]: prodef:2d107839-0de3-11e6-b878-000c2984e60c
+2019-03-11 14:13:08,267 [INFO]: prodef:首次登记
+2019-03-11 14:13:08,273 [INFO]: packname:国有建设用地使用权及房屋所有权（大宗地）
+2019-03-11 14:13:08,279 [INFO]: cchild:1aa436eb-3fdf-4aec-97b8-94bd58f78c8f
+2019-03-11 14:13:08,284 [INFO]: childname:3---断言
+2019-03-11 14:13:10,290 [INFO]: 获取所有参数
+2019-03-11 14:13:10,328 [INFO]: sid-075095F3-5F75-4295-B4D1-5843F0D20C8E
+2019-03-11 14:13:10,336 [INFO]: 当前环节环节名称：收件受理,环节内码sid-075095F3-5F75-4295-B4D1-5843F0D20C8E
+2019-03-11 14:13:10,341 [INFO]: 开始操作Ifame，Iframe名称：窗口资料收取
+2019-03-11 14:13:12,149 [INFO]: element.getText：
+2019-03-11 14:13:12,230 [INFO]: element点击完成啦
+2019-03-11 14:13:12,313 [INFO]: 点击完成1
+2019-03-11 14:13:12,342 [INFO]: 获取到所有的iframe了2019-03-11 14:13:12
+2019-03-11 14:13:12,364 [INFO]: ifame地址1是：GisqPlatformExplorer/modules/bizmodel/datums_submit2019-03-11 14:13:12
+2019-03-11 14:13:12,380 [INFO]: 获取到ID是：TAB_IF_bc90d58f-43c4-11e9-b330-00505683a2312019-03-11 14:13:12
+2019-03-11 14:13:14,450 [INFO]: 切换到指定的iframe了2019-03-11 14:13:14
+2019-03-11 14:13:14,457 [INFO]: Iframe地址：GisqPlatformExplorer/modules/bizmodel/datums_submit
+2019-03-11 14:13:14,469 [INFO]: 当前iframe(窗口资料收取)操作元素：
+2019-03-11 14:13:14,476 [INFO]:        定位方式：XPATH
+2019-03-11 14:13:14,483 [INFO]:        定位路径：//div[@role='combobox']
+2019-03-11 14:13:14,490 [INFO]:        操作方式：QT
+2019-03-11 14:13:14,499 [INFO]:        默认值：$("#{ID}").jqxDropDownList('selectIndex', 0 );
+2019-03-11 14:13:14,505 [INFO]:        是否随机数：false
+2019-03-11 14:13:14,511 [INFO]:        等待时间：0
+2019-03-11 14:13:14,522 [INFO]: 开始执行操作
+2019-03-11 14:13:14,778 [INFO]: 等待时间：0
+2019-03-11 14:13:14,784 [INFO]: 当前iframe(窗口资料收取)操作元素：
+2019-03-11 14:13:14,792 [INFO]:        定位方式：ID
+2019-03-11 14:13:14,802 [INFO]:        定位路径：saveDatum
+2019-03-11 14:13:14,826 [INFO]:        操作方式：CLICK
+2019-03-11 14:13:14,833 [INFO]:        默认值：
+2019-03-11 14:13:14,840 [INFO]:        是否随机数：false
+2019-03-11 14:13:14,854 [INFO]:        等待时间：3000
+2019-03-11 14:13:15,091 [INFO]: 开始执行操作
+2019-03-11 14:13:15,219 [INFO]: 我已经点击完成了
+2019-03-11 14:13:15,804 [INFO]: 等待时间：3000
+2019-03-11 14:13:16,841 [INFO]: 开始操作Ifame，Iframe名称：申请信息
+2019-03-11 14:13:19,022 [INFO]: 点击完成1
+2019-03-11 14:13:20,070 [INFO]: 获取到所有的iframe了2019-03-11 14:13:20
+2019-03-11 14:13:20,114 [INFO]: ifame地址1是：GisqQueryList/views/reports/realestate/common/acceptance/Acceptance_HouseRight_Initial.jsp?reportlet=realestate/common/acceptance/Acceptance_HouseRight_Initial.cpt2019-03-11 14:13:20
+2019-03-11 14:13:20,159 [INFO]: 获取到ID是：TAB_IF_bc90ae34-43c4-11e9-b330-00505683a2312019-03-11 14:13:20
+2019-03-11 14:13:22,253 [INFO]: 切换到指定的iframe了2019-03-11 14:13:22
+2019-03-11 14:13:22,262 [INFO]: Iframe地址：GisqQueryList/views/reports/realestate/common/acceptance/Acceptance_HouseRight_Initial.jsp?reportlet=realestate/common/acceptance/Acceptance_HouseRight_Initial.cpt
+2019-03-11 14:13:22,273 [INFO]: 当前iframe(申请信息)操作元素：
+2019-03-11 14:13:22,284 [INFO]:        定位方式：XPATH
+2019-03-11 14:13:22,296 [INFO]:        定位路径：/html/body/div[3]/table/tbody/tr[2]/td[2]
+2019-03-11 14:13:22,306 [INFO]:        操作方式：Assert
+2019-03-11 14:13:22,315 [INFO]:        默认值：申请人
+2019-03-11 14:13:22,325 [INFO]:        是否随机数：false
+2019-03-11 14:13:22,335 [INFO]:        等待时间：0
+2019-03-11 14:13:22,357 [INFO]: 开始执行操作
+2019-03-11 14:13:22,367 [INFO]: 看一下取到值额吗：申请人信息
+2019-03-11 14:13:22,381 [INFO]: 等待时间：0
+2019-03-11 14:13:22,392 [INFO]: 当前iframe(申请信息)操作元素：
+2019-03-11 14:13:22,403 [INFO]:        定位方式：XPATH
+2019-03-11 14:13:22,412 [INFO]:        定位路径：/html/body/div[3]/table/tbody/tr[6]/td[2]
+2019-03-11 14:13:22,423 [INFO]:        操作方式：Assert
+2019-03-11 14:13:22,433 [INFO]:        默认值：不动产单元信息
+2019-03-11 14:13:22,443 [INFO]:        是否随机数：false
+2019-03-11 14:13:22,468 [INFO]:        等待时间：0
+2019-03-11 14:13:22,482 [INFO]: 开始执行操作
+2019-03-11 14:13:22,493 [INFO]: 看一下取到值额吗：不动产单元信息
+2019-03-11 14:13:22,510 [INFO]: 等待时间：0
+2019-03-11 14:13:22,526 [INFO]: 当前iframe(申请信息)操作元素：
+2019-03-11 14:13:22,542 [INFO]:        定位方式：XPATH
+2019-03-11 14:13:22,552 [INFO]:        定位路径：/html/body/div[3]/table/tbody/tr[12]/td[2]
+2019-03-11 14:13:22,563 [INFO]:        操作方式：Assert
+2019-03-11 14:13:22,580 [INFO]:        默认值：项目信息
+2019-03-11 14:13:22,591 [INFO]:        是否随机数：false
+2019-03-11 14:13:22,606 [INFO]:        等待时间：0
+2019-03-11 14:13:22,618 [INFO]: 开始执行操作
+2019-03-11 14:13:22,649 [INFO]: 看一下取到值额吗：项目信息
+2019-03-11 14:13:22,666 [INFO]: 等待时间：0
+2019-03-11 14:13:22,678 [INFO]: 当前iframe(申请信息)操作元素：
+2019-03-11 14:13:22,749 [INFO]:        定位方式：XPATH
+2019-03-11 14:13:22,761 [INFO]:        定位路径：/html/body/div[3]/table/tbody/tr[14]/td[2]
+2019-03-11 14:13:22,779 [INFO]:        操作方式：Assert
+2019-03-11 14:13:22,789 [INFO]:        默认值：开发商名称 
+2019-03-11 14:13:22,849 [INFO]:        是否随机数：false
+2019-03-11 14:13:22,859 [INFO]:        等待时间：0
+2019-03-11 14:13:22,869 [INFO]: 开始执行操作
+2019-03-11 14:13:22,879 [INFO]: 看一下取到值额吗：开发商名称：
+2019-03-11 14:13:22,889 [INFO]: 等待时间：0
+2019-03-11 14:13:22,904 [INFO]: 当前iframe(申请信息)操作元素：
+2019-03-11 14:13:22,913 [INFO]:        定位方式：XPATH
+2019-03-11 14:13:22,924 [INFO]:        定位路径：/html/body/div[3]/table/tbody/tr[14]/td[5]
+2019-03-11 14:13:22,935 [INFO]:        操作方式：Assert
+2019-03-11 14:13:22,944 [INFO]:        默认值：项目
+2019-03-11 14:13:22,954 [INFO]:        是否随机数：false
+2019-03-11 14:13:22,963 [INFO]:        等待时间：0
+2019-03-11 14:13:22,971 [INFO]: 开始执行操作
+2019-03-11 14:13:22,984 [INFO]: 看一下取到值额吗：项目名称：
+2019-03-11 14:13:22,993 [INFO]: 等待时间：0
+2019-03-11 14:13:23,001 [INFO]: 当前iframe(申请信息)操作元素：
+2019-03-11 14:13:23,011 [INFO]:        定位方式：
+2019-03-11 14:13:23,019 [INFO]:        定位路径：
+2019-03-11 14:13:23,029 [INFO]:        操作方式：SHOOT
+2019-03-11 14:13:23,037 [INFO]:        默认值：申请信息截图
+2019-03-11 14:13:23,059 [INFO]:        是否随机数：false
+2019-03-11 14:13:23,066 [INFO]:        等待时间：0
+2019-03-11 14:13:23,078 [INFO]: 开始执行操作
+2019-03-11 14:13:23,089 [INFO]: file绝对路径：D:\work_space\js_de\debug\SeleniumConfig\bin\Debug\SootScreens\2019-03-11
+2019-03-11 14:13:23,100 [INFO]: real_scrol:1236
+2019-03-11 14:13:23,114 [INFO]: real_top:0
+2019-03-11 14:13:39,466 [INFO]: i:1
+2019-03-11 14:13:39,476 [INFO]: height:450
+2019-03-11 14:13:49,715 [INFO]: i:2
+2019-03-11 14:13:49,726 [INFO]: height:900
+2019-03-11 14:13:49,737 [INFO]: 等待时间：0
+2019-03-11 14:13:50,770 [INFO]: 点击移交
+2019-03-11 14:13:50,861 [INFO]: 点击完成
+2019-03-11 14:13:58,477 [INFO]: 点击工作中心
+2019-03-11 14:14:03,547 [INFO]: 判断如果是新收办件，就开始了点击事件
+2019-03-11 14:14:15,678 [INFO]: 开始运行tastsuit
+2019-03-11 14:14:15,854 [INFO]: [TestNG] Running:
+2019-03-11 14:14:15,865 [INFO]:   自动化测试套
+2019-03-11 14:14:15,879 [INFO]: 
+2019-03-11 14:14:16,460 [INFO]: 文件路径:D:\work_space\js_de\debug\SeleniumConfig\bin\Debug\Assertdata.xlsx
+2019-03-11 14:14:17,252 [INFO]: 
+2019-03-11 14:14:17,262 [INFO]: ===============================================
+2019-03-11 14:14:17,286 [INFO]: 自动化测试套
+2019-03-11 14:14:17,295 [INFO]: Total tests run: 5, Failures: 3, Skips: 0
+2019-03-11 14:14:17,306 [INFO]: ===============================================
+2019-03-11 14:14:17,316 [INFO]: 
+2019-03-11 14:14:17,326 [INFO]: 准备开始发送邮件
+2019-03-11 14:14:17,336 [INFO]: 98
+2019-03-11 14:14:18,833 [INFO]: =====邮件已经发送=====
+2019-03-11 14:14:19,202 [INFO]: 
+2019-03-11 17:12:31,954 [INFO]: Microsoft Windows [版本 6.1.7601]
+2019-03-11 17:12:31,968 [INFO]: 版权所有 (c) 2009 Microsoft Corporation。保留所有权利。
+2019-03-11 17:12:31,973 [INFO]: 
+2019-03-11 17:12:31,977 [INFO]: D:\work_space\js_de\debug\SeleniumConfig\bin\Debug>java -jar D:\work_space\js_de\debug\SeleniumConfig\bin\Debug\\SeleniumJAVA\Selenium.jar C#
+2019-03-11 17:12:35,556 [INFO]: path:/D:/work_space/js_de/debug/SeleniumConfig/bin/Debug/SeleniumJAVA/Selenium.jar
+2019-03-11 17:12:35,559 [INFO]: /D:/work_space/js_de/debug/SeleniumConfig/bin/Debug
+2019-03-11 17:12:35,563 [INFO]: 开始准备数据
+2019-03-11 17:12:35,566 [INFO]: 开始缓存总体参数配置文件
+2019-03-11 17:12:35,716 [INFO]: 读取服务地址/D:/work_space/js_de/debug/SeleniumConfig/bin/Debug
+2019-03-11 17:12:35,782 [INFO]: 试试关闭情况--249
+2019-03-11 17:12:35,787 [WARN]: java.lang.NullPointerException
+2019-03-11 17:12:35,792 [WARN]: 	at configSelenium.InitCommonParameter.SetCommonConfigCache(InitCommonParameter.java:47)
+2019-03-11 17:12:35,796 [INFO]: 
+2019-03-11 17:12:35,799 [WARN]: 	at configSelenium.ConfigSeleniumStart.main(ConfigSeleniumStart.java:77)
+2019-03-11 17:18:49,095 [INFO]: Microsoft Windows [版本 6.1.7601]
+2019-03-11 17:18:49,101 [INFO]: 版权所有 (c) 2009 Microsoft Corporation。保留所有权利。
+2019-03-11 17:18:49,106 [INFO]: 
+2019-03-11 17:18:49,111 [INFO]: D:\work_space\js_de\debug\SeleniumConfig\bin\Debug>java -jar D:\work_space\js_de\debug\SeleniumConfig\bin\Debug\\SeleniumJAVA\Selenium.jar C#
+2019-03-11 17:18:50,662 [INFO]: path:/D:/work_space/js_de/debug/SeleniumConfig/bin/Debug/SeleniumJAVA/Selenium.jar
+2019-03-11 17:18:50,667 [INFO]: /D:/work_space/js_de/debug/SeleniumConfig/bin/Debug
+2019-03-11 17:18:50,672 [INFO]: 开始准备数据
+2019-03-11 17:18:50,677 [INFO]: 开始缓存总体参数配置文件
+2019-03-11 17:18:50,823 [INFO]: 读取服务地址/D:/work_space/js_de/debug/SeleniumConfig/bin/Debug
+2019-03-11 17:18:51,099 [WARN]: SLF4J: The requested version 1.7.16 by your slf4j binding is not compatible with [1.6]
+2019-03-11 17:18:51,104 [WARN]: SLF4J: See http://www.slf4j.org/codes.html#version_mismatch for further details.
+2019-03-11 17:18:51,537 [INFO]: 17:18:51.532 [main] WARN  n.s.e.config.CacheConfiguration - Cache 'Common' is set to eternal but also has TTI/TTL set.  To avoid this warning, clean up the config removing conflicting values of eternal, TTI and TTL. Effective configuration for Cache 'Common' will be eternal='true', timeToIdleSeconds='0', timeToLiveSeconds='0'.
+2019-03-11 17:18:51,561 [INFO]: 缓存总体参数配置文件成功！
+2019-03-11 17:18:51,568 [INFO]: 开始缓存SQL配置信息
+2019-03-11 17:18:51,578 [INFO]: 17:18:51.578 [main] WARN  n.s.e.config.CacheConfiguration - Cache 'SQLConfig' is set to eternal but also has TTI/TTL set.  To avoid this warning, clean up the config removing conflicting values of eternal, TTI and TTL. Effective configuration for Cache 'SQLConfig' will be eternal='true', timeToIdleSeconds='0', timeToLiveSeconds='0'.
+2019-03-11 17:18:51,584 [INFO]: 缓存SQL配置信息成功！
+2019-03-11 17:18:51,588 [INFO]: 开始缓存SQL配置的SQL语句信息
+2019-03-11 17:18:52,566 [INFO]: 缓存SQL配置的SQL语句信息成功！
+2019-03-11 17:18:52,575 [INFO]: 开始缓存自动化测试配置方案文件
+2019-03-11 17:18:52,585 [INFO]: 17:18:52.581 [main] WARN  n.s.e.config.CacheConfiguration - Cache 'Schema' is set to eternal but also has TTI/TTL set.  To avoid this warning, clean up the config removing conflicting values of eternal, TTI and TTL. Effective configuration for Cache 'Schema' will be eternal='true', timeToIdleSeconds='0', timeToLiveSeconds='0'.
+2019-03-11 17:18:52,599 [INFO]: 缓存自动化测试配置方案文件成功！
+2019-03-11 17:18:52,608 [INFO]: 开始缓存初始化配置参数成功！
+2019-03-11 17:18:52,617 [INFO]: 17:18:52.615 [main] WARN  n.s.e.config.CacheConfiguration - Cache 'PRODEF' is set to eternal but also has TTI/TTL set.  To avoid this warning, clean up the config removing conflicting values of eternal, TTI and TTL. Effective configuration for Cache 'PRODEF' will be eternal='true', timeToIdleSeconds='0', timeToLiveSeconds='0'.
+2019-03-11 17:18:52,631 [INFO]: 缓存流程配置信息成功！
+2019-03-11 17:18:52,840 [WARN]: Starting ChromeDriver (v2.9.248315) on port 20166
+2019-03-11 17:18:53,742 [INFO]: 初始化ChromeDriver成功！
+2019-03-11 17:18:54,033 [WARN]: Starting ChromeDriver (v2.9.248315) on port 31155
+2019-03-11 17:18:59,059 [INFO]: 初始化WebDriver成功！
+2019-03-11 17:18:59,070 [INFO]: 系统登陆地址：http://192.168.2.119:8082/GisqPlatformExplorer/a/login;JSESSIONID=7a22b82495884077a7860a3b86e8ac2f
+2019-03-11 17:19:02,448 [INFO]: 开始流程自动化测试！
+2019-03-11 17:19:02,459 [INFO]: 流程内码：2d107839-0de3-11e6-b878-000c2984e60c,流程名称首次登记
+2019-03-11 17:19:09,717 [INFO]: 流程启动成功，主框架句柄：CDwindow-CD6D42AB-4116-444B-B105-9946A25B0A10
+2019-03-11 17:19:14,283 [INFO]: 获取所有参数
+2019-03-11 17:19:14,324 [INFO]: sid-075095F3-5F75-4295-B4D1-5843F0D20C8E
+2019-03-11 17:19:14,330 [INFO]: 当前环节环节名称：收件受理,环节内码sid-075095F3-5F75-4295-B4D1-5843F0D20C8E
+2019-03-11 17:19:14,335 [INFO]: 开始操作Ifame，Iframe名称：窗口资料收取
+2019-03-11 17:19:17,888 [INFO]: element.getText：
+2019-03-11 17:19:17,995 [INFO]: element点击完成啦
+2019-03-11 17:19:18,060 [INFO]: 点击完成1
+2019-03-11 17:19:18,077 [INFO]: 获取到所有的iframe了2019-03-11 17:19:18
+2019-03-11 17:19:18,094 [INFO]: ifame地址1是：GisqPlatformExplorer/modules/bizmodel/datums_submit2019-03-11 17:19:18
+2019-03-11 17:19:18,113 [INFO]: 获取到ID是：TAB_IF_baeb63d4-43de-11e9-b330-00505683a2312019-03-11 17:19:18
+2019-03-11 17:19:20,168 [INFO]: 切换到指定的iframe了2019-03-11 17:19:20
+2019-03-11 17:19:20,172 [INFO]: Iframe地址：GisqPlatformExplorer/modules/bizmodel/datums_submit
+2019-03-11 17:19:20,191 [INFO]: 当前iframe(窗口资料收取)操作元素：
+2019-03-11 17:19:20,195 [INFO]:        定位方式：XPATH
+2019-03-11 17:19:20,200 [INFO]:        定位路径：//div[@role='combobox']
+2019-03-11 17:19:20,204 [INFO]:        操作方式：QT
+2019-03-11 17:19:20,220 [INFO]:        默认值：$("#{ID}").jqxDropDownList('selectIndex', 0 );
+2019-03-11 17:19:20,224 [INFO]:        是否随机数：false
+2019-03-11 17:19:20,228 [INFO]:        等待时间：0
+2019-03-11 17:19:20,240 [INFO]: 开始执行操作
+2019-03-11 17:19:20,346 [INFO]: 等待时间：0
+2019-03-11 17:19:20,352 [INFO]: 当前iframe(窗口资料收取)操作元素：
+2019-03-11 17:19:20,358 [INFO]:        定位方式：ID
+2019-03-11 17:19:20,365 [INFO]:        定位路径：saveDatum
+2019-03-11 17:19:20,371 [INFO]:        操作方式：CLICK
+2019-03-11 17:19:20,379 [INFO]:        默认值：
+2019-03-11 17:19:20,386 [INFO]:        是否随机数：false
+2019-03-11 17:19:20,396 [INFO]:        等待时间：3000
+2019-03-11 17:19:20,719 [INFO]: 开始执行操作
+2019-03-11 17:19:20,868 [INFO]: 我已经点击完成了
+2019-03-11 17:19:22,049 [INFO]: 等待时间：3000
+2019-03-11 17:19:23,067 [INFO]: 开始操作Ifame，Iframe名称：申请信息
+2019-03-11 17:19:25,251 [INFO]: 点击完成1
+2019-03-11 17:19:26,286 [INFO]: 获取到所有的iframe了2019-03-11 17:19:26
+2019-03-11 17:19:26,318 [INFO]: ifame地址1是：GisqQueryList/views/reports/realestate/common/acceptance/Acceptance_HouseRight_Initial.jsp?reportlet=realestate/common/acceptance/Acceptance_HouseRight_Initial.cpt2019-03-11 17:19:26
+2019-03-11 17:19:26,335 [INFO]: 获取到ID是：TAB_IF_baeb3c79-43de-11e9-b330-00505683a2312019-03-11 17:19:26
+2019-03-11 17:19:28,416 [INFO]: 切换到指定的iframe了2019-03-11 17:19:28
+2019-03-11 17:19:28,420 [INFO]: Iframe地址：GisqQueryList/views/reports/realestate/common/acceptance/Acceptance_HouseRight_Initial.jsp?reportlet=realestate/common/acceptance/Acceptance_HouseRight_Initial.cpt
+2019-03-11 17:19:28,433 [INFO]: 当前iframe(申请信息)操作元素：
+2019-03-11 17:19:28,439 [INFO]:        定位方式：XPATH
+2019-03-11 17:19:28,459 [INFO]:        定位路径：/html/body/div[3]/table/tbody/tr[2]/td[2]
+2019-03-11 17:19:28,463 [INFO]:        操作方式：Assert
+2019-03-11 17:19:28,467 [INFO]:        默认值：申请人
+2019-03-11 17:19:28,473 [INFO]:        是否随机数：false
+2019-03-11 17:19:28,477 [INFO]:        等待时间：0
+2019-03-11 17:19:28,481 [INFO]: 开始执行操作
+2019-03-11 17:19:28,529 [INFO]: 看一下取到值额吗：申请人信息
+2019-03-11 17:19:28,541 [INFO]: 等待时间：0
+2019-03-11 17:19:28,546 [INFO]: 当前iframe(申请信息)操作元素：
+2019-03-11 17:19:28,551 [INFO]:        定位方式：XPATH
+2019-03-11 17:19:28,557 [INFO]:        定位路径：/html/body/div[3]/table/tbody/tr[6]/td[2]
+2019-03-11 17:19:28,566 [INFO]:        操作方式：Assert
+2019-03-11 17:19:28,571 [INFO]:        默认值：不动产单元信息
+2019-03-11 17:19:28,577 [INFO]:        是否随机数：false
+2019-03-11 17:19:28,588 [INFO]:        等待时间：0
+2019-03-11 17:19:28,596 [INFO]: 开始执行操作
+2019-03-11 17:19:28,616 [INFO]: 看一下取到值额吗：不动产单元信息
+2019-03-11 17:19:28,636 [INFO]: 等待时间：0
+2019-03-11 17:19:28,642 [INFO]: 当前iframe(申请信息)操作元素：
+2019-03-11 17:19:28,648 [INFO]:        定位方式：XPATH
+2019-03-11 17:19:28,653 [INFO]:        定位路径：/html/body/div[3]/table/tbody/tr[12]/td[2]
+2019-03-11 17:19:28,661 [INFO]:        操作方式：Assert
+2019-03-11 17:19:28,667 [INFO]:        默认值：项目信息
+2019-03-11 17:19:28,679 [INFO]:        是否随机数：false
+2019-03-11 17:19:28,686 [INFO]:        等待时间：0
+2019-03-11 17:19:28,710 [INFO]: 开始执行操作
+2019-03-11 17:19:28,749 [INFO]: 看一下取到值额吗：项目信息
+2019-03-11 17:19:28,764 [INFO]: 等待时间：0
+2019-03-11 17:19:28,769 [INFO]: 当前iframe(申请信息)操作元素：
+2019-03-11 17:19:28,775 [INFO]:        定位方式：XPATH
+2019-03-11 17:19:28,781 [INFO]:        定位路径：/html/body/div[3]/table/tbody/tr[14]/td[2]
+2019-03-11 17:19:28,797 [INFO]:        操作方式：Assert
+2019-03-11 17:19:28,808 [INFO]:        默认值：开发商名称 
+2019-03-11 17:19:28,814 [INFO]:        是否随机数：false
+2019-03-11 17:19:28,822 [INFO]:        等待时间：0
+2019-03-11 17:19:28,833 [INFO]: 开始执行操作
+2019-03-11 17:19:28,872 [INFO]: 看一下取到值额吗：开发商名称：
+2019-03-11 17:19:28,883 [INFO]: 等待时间：0
+2019-03-11 17:19:28,890 [INFO]: 当前iframe(申请信息)操作元素：
+2019-03-11 17:19:28,896 [INFO]:        定位方式：XPATH
+2019-03-11 17:19:28,901 [INFO]:        定位路径：/html/body/div[3]/table/tbody/tr[14]/td[5]
+2019-03-11 17:19:28,907 [INFO]:        操作方式：Assert
+2019-03-11 17:19:28,911 [INFO]:        默认值：项目
+2019-03-11 17:19:28,920 [INFO]:        是否随机数：false
+2019-03-11 17:19:28,926 [INFO]:        等待时间：0
+2019-03-11 17:19:28,942 [INFO]: 开始执行操作
+2019-03-11 17:19:28,969 [INFO]: 看一下取到值额吗：项目名称：
+2019-03-11 17:19:28,980 [INFO]: 等待时间：0
+2019-03-11 17:19:28,985 [INFO]: 当前iframe(申请信息)操作元素：
+2019-03-11 17:19:28,991 [INFO]:        定位方式：
+2019-03-11 17:19:29,002 [INFO]:        定位路径：
+2019-03-11 17:19:29,007 [INFO]:        操作方式：SHOOT
+2019-03-11 17:19:29,011 [INFO]:        默认值：申请信息截图
+2019-03-11 17:19:29,016 [INFO]:        是否随机数：false
+2019-03-11 17:19:29,022 [INFO]:        等待时间：0
+2019-03-11 17:19:29,027 [INFO]: 开始执行操作
+2019-03-11 17:19:29,032 [INFO]: file绝对路径：D:\work_space\js_de\debug\SeleniumConfig\bin\Debug\SootScreens\2019-03-11
+2019-03-11 17:19:29,037 [INFO]: real_scrol:1236
+2019-03-11 17:19:29,042 [INFO]: real_top:0
+2019-03-11 17:19:45,395 [INFO]: i:1
+2019-03-11 17:19:45,399 [INFO]: height:450
+2019-03-11 17:19:55,570 [INFO]: i:2
+2019-03-11 17:19:55,575 [INFO]: height:900
+2019-03-11 17:19:55,581 [INFO]: 等待时间：0
+2019-03-11 17:19:56,619 [INFO]: 点击移交
+2019-03-11 17:19:56,702 [INFO]: 点击完成
+2019-03-11 17:20:04,200 [INFO]: 点击工作中心
+2019-03-11 17:20:09,269 [INFO]: 判断如果是新收办件，就开始了点击事件
+2019-03-11 17:20:20,997 [INFO]: 开始运行tastsuit
+2019-03-11 17:20:21,149 [INFO]: [TestNG] Running:
+2019-03-11 17:20:21,155 [INFO]:   自动化测试套
+2019-03-11 17:20:21,161 [INFO]: 
+2019-03-11 17:20:21,630 [INFO]: 文件路径:D:\work_space\js_de\debug\SeleniumConfig\bin\Debug\Assertdata.xlsx
+2019-03-11 17:20:22,032 [INFO]: 
+2019-03-11 17:20:22,065 [INFO]: ===============================================
+2019-03-11 17:20:22,121 [INFO]: 自动化测试套
+2019-03-11 17:20:22,252 [INFO]: Total tests run: 5, Failures: 3, Skips: 0
+2019-03-11 17:20:22,260 [INFO]: ===============================================
+2019-03-11 17:20:22,270 [INFO]: 
+2019-03-11 17:20:22,483 [INFO]: 准备开始发送邮件
+2019-03-11 17:20:22,534 [INFO]: 98
+2019-03-11 17:20:23,318 [INFO]: =====邮件已经发送=====
+2019-03-11 17:20:27,370 [WARN]: org.openqa.selenium.NoSuchFrameException: No frame element found by name or id view_首页0
+2019-03-11 17:20:27,376 [INFO]: 试试关闭情况--249
+2019-03-11 17:20:27,390 [WARN]: Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+2019-03-11 17:20:27,451 [WARN]: System info: host: 'MTC-20180624XMT', ip: '192.168.6.79', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_191'
+2019-03-11 17:20:27,476 [WARN]: Driver info: driver.version: unknown
+2019-03-11 17:20:27,482 [WARN]: 	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.frame(RemoteWebDriver.java:888)
+2019-03-11 17:20:27,488 [WARN]: 	at configSelenium.ConfigSeleniumStart.main(ConfigSeleniumStart.java:152)
+2019-03-11 17:20:29,376 [WARN]: 三月 11, 2019 5:20:29 下午 org.openqa.selenium.os.UnixProcess$SeleniumWatchDog destroyHarder
+2019-03-11 17:20:29,381 [WARN]: 信息: Command failed to close cleanly. Destroying forcefully (v2). org.openqa.selenium.os.UnixProcess$SeleniumWatchDog@2ff15f8c
+2019-03-11 17:20:30,866 [WARN]: 三月 11, 2019 5:20:30 下午 org.openqa.selenium.os.UnixProcess$SeleniumWatchDog destroyHarder
+2019-03-11 17:20:30,871 [WARN]: 信息: Command failed to close cleanly. Destroying forcefully (v2). org.openqa.selenium.os.UnixProcess$SeleniumWatchDog@3ed03652
+2019-03-11 17:20:31,184 [INFO]: 

@@ -1,0 +1,1041 @@
+2019-03-13 17:18:57,960 [INFO]: Microsoft Windows [版本 6.1.7601]
+2019-03-13 17:18:57,972 [INFO]: 版权所有 (c) 2009 Microsoft Corporation。保留所有权利。
+2019-03-13 17:18:57,976 [INFO]: 
+2019-03-13 17:18:57,980 [INFO]: D:\work_space\js_de\debug\SeleniumConfig\bin\Debug>java -jar D:\work_space\js_de\debug\SeleniumConfig\bin\Debug\\SeleniumJAVA\Selenium.jar C#
+2019-03-13 17:19:08,144 [INFO]: path:/D:/work_space/js_de/debug/SeleniumConfig/bin/Debug/SeleniumJAVA/Selenium.jar
+2019-03-13 17:19:08,149 [INFO]: /D:/work_space/js_de/debug/SeleniumConfig/bin/Debug
+2019-03-13 17:19:08,155 [INFO]: 开始准备数据
+2019-03-13 17:19:08,162 [INFO]: 开始缓存总体参数配置文件
+2019-03-13 17:19:08,337 [INFO]: 读取服务地址/D:/work_space/js_de/debug/SeleniumConfig/bin/Debug
+2019-03-13 17:19:08,670 [WARN]: SLF4J: The requested version 1.7.16 by your slf4j binding is not compatible with [1.6]
+2019-03-13 17:19:08,675 [WARN]: SLF4J: See http://www.slf4j.org/codes.html#version_mismatch for further details.
+2019-03-13 17:19:09,198 [INFO]: 17:19:09.195 [main] WARN  n.s.e.config.CacheConfiguration - Cache 'Common' is set to eternal but also has TTI/TTL set.  To avoid this warning, clean up the config removing conflicting values of eternal, TTI and TTL. Effective configuration for Cache 'Common' will be eternal='true', timeToIdleSeconds='0', timeToLiveSeconds='0'.
+2019-03-13 17:19:09,201 [INFO]: 缓存总体参数配置文件成功！
+2019-03-13 17:19:09,229 [INFO]: 开始缓存SQL配置信息
+2019-03-13 17:19:09,233 [INFO]: 17:19:09.227 [main] WARN  n.s.e.config.CacheConfiguration - Cache 'SQLConfig' is set to eternal but also has TTI/TTL set.  To avoid this warning, clean up the config removing conflicting values of eternal, TTI and TTL. Effective configuration for Cache 'SQLConfig' will be eternal='true', timeToIdleSeconds='0', timeToLiveSeconds='0'.
+2019-03-13 17:19:09,237 [INFO]: 缓存SQL配置信息成功！
+2019-03-13 17:19:09,242 [INFO]: 开始缓存SQL配置的SQL语句信息
+2019-03-13 17:19:10,258 [INFO]: 缓存SQL配置的SQL语句信息成功！
+2019-03-13 17:19:10,272 [INFO]: 开始缓存自动化测试配置方案文件
+2019-03-13 17:19:10,289 [INFO]: 17:19:10.276 [main] WARN  n.s.e.config.CacheConfiguration - Cache 'Schema' is set to eternal but also has TTI/TTL set.  To avoid this warning, clean up the config removing conflicting values of eternal, TTI and TTL. Effective configuration for Cache 'Schema' will be eternal='true', timeToIdleSeconds='0', timeToLiveSeconds='0'.
+2019-03-13 17:19:10,309 [INFO]: 缓存自动化测试配置方案文件成功！
+2019-03-13 17:19:10,318 [INFO]: 开始缓存初始化配置参数成功！
+2019-03-13 17:19:10,326 [INFO]: 17:19:10.322 [main] WARN  n.s.e.config.CacheConfiguration - Cache 'PRODEF' is set to eternal but also has TTI/TTL set.  To avoid this warning, clean up the config removing conflicting values of eternal, TTI and TTL. Effective configuration for Cache 'PRODEF' will be eternal='true', timeToIdleSeconds='0', timeToLiveSeconds='0'.
+2019-03-13 17:19:10,353 [INFO]: 缓存流程配置信息成功！
+2019-03-13 17:19:12,992 [WARN]: Starting ChromeDriver (v2.9.248315) on port 36556
+2019-03-13 17:19:13,458 [INFO]: 初始化ChromeDriver成功！
+2019-03-13 17:19:13,826 [WARN]: Starting ChromeDriver (v2.9.248315) on port 49015
+2019-03-13 17:19:18,610 [INFO]: 初始化WebDriver成功！
+2019-03-13 17:19:18,616 [INFO]: 系统登陆地址：http://192.168.2.119:8082/GisqPlatformExplorer/a/login;JSESSIONID=7a22b82495884077a7860a3b86e8ac2f
+2019-03-13 17:19:22,477 [INFO]: 开始流程自动化测试！
+2019-03-13 17:19:22,483 [INFO]: 流程内码：2d107839-0de3-11e6-b878-000c2984e60c,流程名称首次登记
+2019-03-13 17:19:29,855 [INFO]: 流程启动成功，主框架句柄：CDwindow-2CEC105E-B34D-4591-B7E7-4ACC7400D013
+2019-03-13 17:19:31,945 [INFO]: 获取所有参数
+2019-03-13 17:19:32,011 [INFO]: sid-075095F3-5F75-4295-B4D1-5843F0D20C8E
+2019-03-13 17:19:32,020 [INFO]: 当前环节环节名称：收件受理,环节内码sid-075095F3-5F75-4295-B4D1-5843F0D20C8E
+2019-03-13 17:19:32,031 [INFO]: 开始操作Ifame，Iframe名称：窗口资料收取
+2019-03-13 17:19:33,217 [INFO]: element.getText：
+2019-03-13 17:19:33,306 [INFO]: element点击完成啦
+2019-03-13 17:19:33,403 [INFO]: 点击完成1
+2019-03-13 17:19:33,439 [INFO]: 获取到所有的iframe了2019-03-13 17:19:33
+2019-03-13 17:19:33,466 [INFO]: ifame地址1是：GisqPlatformExplorer/modules/bizmodel/datums_submit2019-03-13 17:19:33
+2019-03-13 17:19:33,495 [INFO]: 获取到ID是：TAB_IF_1a289957-4571-11e9-af86-00505683a2312019-03-13 17:19:33
+2019-03-13 17:19:35,582 [INFO]: 切换到指定的iframe了2019-03-13 17:19:35
+2019-03-13 17:19:35,592 [INFO]: Iframe地址：GisqPlatformExplorer/modules/bizmodel/datums_submit
+2019-03-13 17:19:35,620 [INFO]: 当前iframe(窗口资料收取)操作元素：
+2019-03-13 17:19:35,629 [INFO]:        定位方式：XPATH
+2019-03-13 17:19:35,641 [INFO]:        定位路径：//div[@role='combobox']
+2019-03-13 17:19:35,650 [INFO]:        操作方式：QT
+2019-03-13 17:19:35,659 [INFO]:        默认值：$("#{ID}").jqxDropDownList('selectIndex', 0 );
+2019-03-13 17:19:35,670 [INFO]:        是否随机数：false
+2019-03-13 17:19:35,680 [INFO]:        等待时间：0
+2019-03-13 17:19:35,696 [INFO]: 开始执行操作
+2019-03-13 17:19:35,865 [INFO]: 等待时间：0
+2019-03-13 17:19:35,876 [INFO]: 当前iframe(窗口资料收取)操作元素：
+2019-03-13 17:19:35,887 [INFO]:        定位方式：ID
+2019-03-13 17:19:35,898 [INFO]:        定位路径：saveDatum
+2019-03-13 17:19:35,907 [INFO]:        操作方式：CLICK
+2019-03-13 17:19:35,923 [INFO]:        默认值：
+2019-03-13 17:19:35,935 [INFO]:        是否随机数：false
+2019-03-13 17:19:35,948 [INFO]:        等待时间：3000
+2019-03-13 17:19:35,975 [INFO]: 开始执行操作
+2019-03-13 17:19:36,329 [INFO]: 我已经点击完成了
+2019-03-13 17:19:37,307 [INFO]: 等待时间：3000
+2019-03-13 17:19:38,333 [INFO]: 开始操作Ifame，Iframe名称：申请信息
+2019-03-13 17:19:41,677 [INFO]: 点击完成1
+2019-03-13 17:19:41,711 [INFO]: 获取到所有的iframe了2019-03-13 17:19:41
+2019-03-13 17:19:41,756 [INFO]: ifame地址1是：GisqQueryList/views/reports/realestate/common/acceptance/Acceptance_HouseRight_Initial.jsp?reportlet=realestate/common/acceptance/Acceptance_HouseRight_Initial.cpt2019-03-13 17:19:41
+2019-03-13 17:19:41,787 [INFO]: 获取到ID是：TAB_IF_1a2871fb-4571-11e9-af86-00505683a2312019-03-13 17:19:41
+2019-03-13 17:19:43,864 [INFO]: 切换到指定的iframe了2019-03-13 17:19:43
+2019-03-13 17:19:43,873 [INFO]: Iframe地址：GisqQueryList/views/reports/realestate/common/acceptance/Acceptance_HouseRight_Initial.jsp?reportlet=realestate/common/acceptance/Acceptance_HouseRight_Initial.cpt
+2019-03-13 17:19:43,916 [INFO]: 当前iframe(申请信息)操作元素：
+2019-03-13 17:19:43,927 [INFO]:        定位方式：ID
+2019-03-13 17:19:43,936 [INFO]:        定位路径：CXBDC
+2019-03-13 17:19:43,952 [INFO]:        操作方式：CLICK
+2019-03-13 17:19:43,968 [INFO]:        默认值：
+2019-03-13 17:19:43,979 [INFO]:        是否随机数：false
+2019-03-13 17:19:43,987 [INFO]:        等待时间：2000
+2019-03-13 17:19:44,000 [INFO]: 开始执行操作
+2019-03-13 17:19:44,246 [INFO]: 等待时间：2000
+2019-03-13 17:19:44,256 [INFO]: 当前iframe(申请信息)操作元素：
+2019-03-13 17:19:44,275 [INFO]:        定位方式：ID
+2019-03-13 17:19:44,284 [INFO]:        定位路径：iFrameDY
+2019-03-13 17:19:44,294 [INFO]:        操作方式：IFRAME
+2019-03-13 17:19:44,303 [INFO]:        默认值：iFrameDY
+2019-03-13 17:19:44,314 [INFO]:        是否随机数：false
+2019-03-13 17:19:44,345 [INFO]:        等待时间：5000
+2019-03-13 17:19:45,392 [INFO]: 开始执行操作
+2019-03-13 17:19:45,504 [INFO]: 当前iframe(iFrameDY)操作元素：
+2019-03-13 17:19:45,512 [INFO]:       定位方式：ID
+2019-03-13 17:19:45,524 [INFO]:       定位路径：bdcdyh
+2019-03-13 17:19:45,549 [INFO]:       操作方式：SENDKEYS
+2019-03-13 17:19:45,570 [INFO]:       默认值：SDE.FW_H.BDCDYH
+2019-03-13 17:19:45,592 [INFO]:       是否随机数：false
+2019-03-13 17:19:45,604 [INFO]:       等待时间：0
+2019-03-13 17:19:47,137 [INFO]: 执行SQL语句成功！begin
+2019-03-13 17:19:47,144 [INFO]: insert into SDE.FW_H(OBJECTID,BDCDJBSM,BDCDYH,BSM,DYTDMJ,FTTDMJ,FWLX,FWXZ,FWYT,GHYT,JGSJ,QXDM,RKSJ,SCFTJZMJ,SCJZMJ,SCQTJZMJ,SCTNJZMJ,SFJSMJ,TDQLXZ,TDSYQMJ,TDYT,TDYTMC,YFWXZ,YFWYT,YFWYTMC,YGHYT,ZDDM,ZL,ZDBSM,ZRZBSM) values(108832109,108832110,'888793788968GB83818F38385469',108832111,0.00,1.0,'1','96','071','住宅',to_date('2016-10-12','YYYY-MM-DD'),888793,to_date('2019-03-13 17:19:10','YYYY-MM-DD HH24:MI:SS'),5.23,45.23,40,40,1,'1',1,'07','住宅','商品房','07','住宅','07','888793788968GB83818','121231321231',108832112,108832116);
+2019-03-13 17:19:47,153 [INFO]: insert into SDE.T_ZD(ZD_ID,BDCDJBSM,BDCDYH,DJQDM,DJQZH,QXDM,ZDDM,ZD_SYQLX,ZD_TZM) values(108832112,108832113,'888793788968GB83818W00000000','888793788968',83818,888793,'888793788968GB83818','G','B');
+2019-03-13 17:19:47,164 [INFO]: insert into SDE.ST_ZRZ(OBJECTID,BDCDJBSM,BDCDYH,BSM,QXDM) values(108832114,108832115,'888793788968GB83818F3838',108832116,888793);
+2019-03-13 17:19:47,173 [INFO]: insert into BDCDJ.BDCDY(BSM,BDCDYH,DCDZWDYBM,DCZDZHBM,DZWSXH,DZWTZM,GXSJ,QXDM,REV_,DCDZWDYBSM,DCZBSM,DCZDZHBSM) values(108832117,'888793788968GB83818F38385469','FW_H','ST_ZD',5469,'F',to_date('2019-03-13 17:19:10','YYYY-MM-DD HH24:MI:SS'),888793,1,108832110,108832116,108832112);
+2019-03-13 17:19:47,184 [INFO]: insert into BDCDJ.BDCDYZ(BSM,DCZDZHBM,GXSJ,QXDM,REV_,ZDYH,ZDZHDM,ZSXH,DCZBSM,DCZDZHBSM) values(108832118,'ST_ZD',to_date('2019-03-13 17:19:10','YYYY-MM-DD HH24:MI:SS'),888793,1,'888793788968GB83818F3838','888793788968GB83818',3838,108832116,108832112);
+2019-03-13 17:19:47,208 [INFO]: insert into BDCDJ.SF(BSM,GXSJ,REV_,YSJE) values(108832119,to_date('2019-03-13 17:19:10','YYYY-MM-DD HH24:MI:SS'),1,100);
+2019-03-13 17:19:47,217 [INFO]: insert into BDCDJ.DC_DYBH(BSM,BHSJ,BHXW,BHXWMS,BJXMH,DCDYBM,DJDYBM,LCYWH,QXDM,XBDCDYH,XDCBSM,XDJBSM) values(108832120,to_date('2019-03-13 17:19:10','YYYY-MM-DD HH24:MI:SS'),1,'新增','108832121','FW_H','H','108832122',888793,'888793788968GB83818F38385469',108832111,108832110);
+2019-03-13 17:19:47,228 [INFO]: end;
+2019-03-13 17:19:47,242 [INFO]: 
+2019-03-13 17:19:47,657 [INFO]: 当前iframe(iFrameDY)操作元素：
+2019-03-13 17:19:47,665 [INFO]:       定位方式：ID
+2019-03-13 17:19:47,676 [INFO]:       定位路径：btn_search
+2019-03-13 17:19:47,685 [INFO]:       操作方式：CLICK
+2019-03-13 17:19:47,707 [INFO]:       默认值：
+2019-03-13 17:19:47,716 [INFO]:       是否随机数：false
+2019-03-13 17:19:47,729 [INFO]:       等待时间：30000
+2019-03-13 17:19:47,751 [INFO]: 元素可见了吧
+2019-03-13 17:19:47,777 [INFO]: 已经判断完成可点击了：element to be clickable: [[ChromeDriver: chrome on XP (aeb734c826d7775e3f3f4b1e9bb4426b)] -> id: iFrameDY]
+2019-03-13 17:19:48,032 [INFO]: 已经完成点击事件了
+2019-03-13 17:20:00,289 [INFO]: 当前iframe(iFrameDY)操作元素：
+2019-03-13 17:20:00,299 [INFO]:       定位方式：XPATH
+2019-03-13 17:20:00,310 [INFO]:       定位路径：//div[@class='l-grid-hd-cell-text l-grid-hd-cell-btn-checkbox']
+2019-03-13 17:20:00,320 [INFO]:       操作方式：CLICK
+2019-03-13 17:20:00,329 [INFO]:       默认值：
+2019-03-13 17:20:00,338 [INFO]:       是否随机数：false
+2019-03-13 17:20:00,346 [INFO]:       等待时间：0
+2019-03-13 17:20:00,364 [INFO]: 元素可见了吧
+2019-03-13 17:20:00,387 [INFO]: 已经判断完成可点击了：element to be clickable: [[ChromeDriver: chrome on XP (aeb734c826d7775e3f3f4b1e9bb4426b)] -> id: iFrameDY]
+2019-03-13 17:20:00,488 [INFO]: 已经完成点击事件了
+2019-03-13 17:20:00,500 [INFO]: 当前iframe(iFrameDY)操作元素：
+2019-03-13 17:20:00,509 [INFO]:       定位方式：ID
+2019-03-13 17:20:00,519 [INFO]:       定位路径：btn_ok
+2019-03-13 17:20:00,528 [INFO]:       操作方式：CLICK
+2019-03-13 17:20:00,536 [INFO]:       默认值：
+2019-03-13 17:20:00,561 [INFO]:       是否随机数：false
+2019-03-13 17:20:00,569 [INFO]:       等待时间：50000
+2019-03-13 17:20:00,579 [INFO]: 元素可见了吧
+2019-03-13 17:20:00,588 [INFO]: 已经判断完成可点击了：element to be clickable: [[ChromeDriver: chrome on XP (aeb734c826d7775e3f3f4b1e9bb4426b)] -> id: iFrameDY]
+2019-03-13 17:20:00,694 [INFO]: 已经完成点击事件了
+2019-03-13 17:20:25,426 [INFO]: 等待时间：5000
+2019-03-13 17:20:25,435 [INFO]: 当前iframe(申请信息)操作元素：
+2019-03-13 17:20:25,446 [INFO]:        定位方式：ID
+2019-03-13 17:20:25,456 [INFO]:        定位路径：TJSQR
+2019-03-13 17:20:25,465 [INFO]:        操作方式：CLICK
+2019-03-13 17:20:25,475 [INFO]:        默认值：
+2019-03-13 17:20:25,486 [INFO]:        是否随机数：false
+2019-03-13 17:20:25,495 [INFO]:        等待时间：2000
+2019-03-13 17:20:25,507 [INFO]: 开始执行操作
+2019-03-13 17:20:25,999 [INFO]: 等待时间：2000
+2019-03-13 17:20:26,015 [INFO]: 当前iframe(申请信息)操作元素：
+2019-03-13 17:20:26,038 [INFO]:        定位方式：ID
+2019-03-13 17:20:26,059 [INFO]:        定位路径：addSqr
+2019-03-13 17:20:26,069 [INFO]:        操作方式：IFRAME
+2019-03-13 17:20:26,080 [INFO]:        默认值：
+2019-03-13 17:20:26,100 [INFO]:        是否随机数：false
+2019-03-13 17:20:26,110 [INFO]:        等待时间：0
+2019-03-13 17:20:26,183 [INFO]: 开始执行操作
+2019-03-13 17:20:28,257 [INFO]: 当前iframe(addSqr)操作元素：
+2019-03-13 17:20:28,267 [INFO]:       定位方式：ID
+2019-03-13 17:20:28,275 [INFO]:       定位路径：SQRLB
+2019-03-13 17:20:28,285 [INFO]:       操作方式：SENDKEYS
+2019-03-13 17:20:28,294 [INFO]:       默认值：1
+2019-03-13 17:20:28,305 [INFO]:       是否随机数：false
+2019-03-13 17:20:28,317 [INFO]:       等待时间：0
+2019-03-13 17:20:28,407 [INFO]: 当前iframe(addSqr)操作元素：
+2019-03-13 17:20:28,416 [INFO]:       定位方式：ID
+2019-03-13 17:20:28,425 [INFO]:       定位路径：SQRMC
+2019-03-13 17:20:28,435 [INFO]:       操作方式：SENDKEYS
+2019-03-13 17:20:28,447 [INFO]:       默认值：张三丰
+2019-03-13 17:20:28,456 [INFO]:       是否随机数：true
+2019-03-13 17:20:28,465 [INFO]:       等待时间：0
+2019-03-13 17:20:28,805 [INFO]: 当前iframe(addSqr)操作元素：
+2019-03-13 17:20:28,816 [INFO]:       定位方式：ID
+2019-03-13 17:20:28,824 [INFO]:       定位路径：SQRLX
+2019-03-13 17:20:28,845 [INFO]:       操作方式：SENDKEYS
+2019-03-13 17:20:28,856 [INFO]:       默认值：1
+2019-03-13 17:20:28,864 [INFO]:       是否随机数：false
+2019-03-13 17:20:28,874 [INFO]:       等待时间：0
+2019-03-13 17:20:28,973 [INFO]: 当前iframe(addSqr)操作元素：
+2019-03-13 17:20:28,982 [INFO]:       定位方式：ID
+2019-03-13 17:20:29,001 [INFO]:       定位路径：ZJZL
+2019-03-13 17:20:29,012 [INFO]:       操作方式：SENDKEYS
+2019-03-13 17:20:29,024 [INFO]:       默认值：2
+2019-03-13 17:20:29,034 [INFO]:       是否随机数：false
+2019-03-13 17:20:29,042 [INFO]:       等待时间：0
+2019-03-13 17:20:29,268 [INFO]: 当前iframe(addSqr)操作元素：
+2019-03-13 17:20:29,281 [INFO]:       定位方式：ID
+2019-03-13 17:20:29,290 [INFO]:       定位路径：ZJH
+2019-03-13 17:20:29,300 [INFO]:       操作方式：SENDKEYS
+2019-03-13 17:20:29,309 [INFO]:       默认值：测试证件号
+2019-03-13 17:20:29,318 [INFO]:       是否随机数：true
+2019-03-13 17:20:29,329 [INFO]:       等待时间：0
+2019-03-13 17:20:29,649 [INFO]: 当前iframe(addSqr)操作元素：
+2019-03-13 17:20:29,659 [INFO]:       定位方式：ID
+2019-03-13 17:20:29,668 [INFO]:       定位路径：GYFS
+2019-03-13 17:20:29,678 [INFO]:       操作方式：SENDKEYS
+2019-03-13 17:20:29,687 [INFO]:       默认值：1
+2019-03-13 17:20:29,695 [INFO]:       是否随机数：false
+2019-03-13 17:20:29,718 [INFO]:       等待时间：0
+2019-03-13 17:20:29,785 [INFO]: 当前iframe(addSqr)操作元素：
+2019-03-13 17:20:29,793 [INFO]:       定位方式：ID
+2019-03-13 17:20:29,802 [INFO]:       定位路径：YDDH
+2019-03-13 17:20:29,813 [INFO]:       操作方式：SENDKEYS
+2019-03-13 17:20:29,821 [INFO]:       默认值：18966162328
+2019-03-13 17:20:29,842 [INFO]:       是否随机数：false
+2019-03-13 17:20:29,851 [INFO]:       等待时间：0
+2019-03-13 17:20:30,268 [INFO]: 当前iframe(addSqr)操作元素：
+2019-03-13 17:20:30,277 [INFO]:       定位方式：XPATH
+2019-03-13 17:20:30,287 [INFO]:       定位路径：//span[@class=' x-emb-submit']
+2019-03-13 17:20:30,296 [INFO]:       操作方式：CLICK
+2019-03-13 17:20:30,307 [INFO]:       默认值：
+2019-03-13 17:20:30,325 [INFO]:       是否随机数：false
+2019-03-13 17:20:30,335 [INFO]:       等待时间：1000
+2019-03-13 17:20:30,354 [INFO]: 元素可见了吧
+2019-03-13 17:20:30,382 [INFO]: 已经判断完成可点击了：element to be clickable: [[ChromeDriver: chrome on XP (aeb734c826d7775e3f3f4b1e9bb4426b)] -> id: addSqr]
+2019-03-13 17:20:30,634 [INFO]: 已经完成点击事件了
+2019-03-13 17:20:33,741 [INFO]: 等待时间：0
+2019-03-13 17:20:33,749 [INFO]: 当前iframe(申请信息)操作元素：
+2019-03-13 17:20:33,758 [INFO]:        定位方式：XPATH
+2019-03-13 17:20:33,767 [INFO]:        定位路径：//a[@class='jbox-close']
+2019-03-13 17:20:33,778 [INFO]:        操作方式：CLICK
+2019-03-13 17:20:33,789 [INFO]:        默认值：
+2019-03-13 17:20:33,798 [INFO]:        是否随机数：false
+2019-03-13 17:20:33,810 [INFO]:        等待时间：0
+2019-03-13 17:20:33,820 [INFO]: 开始执行操作
+2019-03-13 17:20:33,915 [INFO]: 等待时间：0
+2019-03-13 17:20:33,925 [INFO]: 当前iframe(申请信息)操作元素：
+2019-03-13 17:20:33,948 [INFO]:        定位方式：ID
+2019-03-13 17:20:33,960 [INFO]:        定位路径：HOUSELIST
+2019-03-13 17:20:33,969 [INFO]:        操作方式：IFRAME
+2019-03-13 17:20:33,980 [INFO]:        默认值：HOUSELIST
+2019-03-13 17:20:33,989 [INFO]:        是否随机数：false
+2019-03-13 17:20:34,000 [INFO]:        等待时间：0
+2019-03-13 17:20:34,010 [INFO]: 开始执行操作
+2019-03-13 17:20:36,040 [INFO]: 当前iframe(HOUSELIST)操作元素：
+2019-03-13 17:20:36,048 [INFO]:       定位方式：XPATH
+2019-03-13 17:20:36,058 [INFO]:       定位路径：//span[@command='FwDetail']
+2019-03-13 17:20:36,070 [INFO]:       操作方式：CLICK
+2019-03-13 17:20:36,089 [INFO]:       默认值：
+2019-03-13 17:20:36,101 [INFO]:       是否随机数：false
+2019-03-13 17:20:36,112 [INFO]:       等待时间：0
+2019-03-13 17:20:36,123 [INFO]: 元素可见了吧
+2019-03-13 17:20:36,133 [INFO]: 已经判断完成可点击了：element to be clickable: [[ChromeDriver: chrome on XP (aeb734c826d7775e3f3f4b1e9bb4426b)] -> id: HOUSELIST]
+2019-03-13 17:20:36,758 [INFO]: 已经完成点击事件了
+2019-03-13 17:20:39,151 [INFO]: 等待时间：0
+2019-03-13 17:20:39,162 [INFO]: 当前iframe(申请信息)操作元素：
+2019-03-13 17:20:39,174 [INFO]:        定位方式：ID
+2019-03-13 17:20:39,182 [INFO]:        定位路径：EditHouseInfo
+2019-03-13 17:20:39,194 [INFO]:        操作方式：IFRAME
+2019-03-13 17:20:39,218 [INFO]:        默认值：EditHouseInfo
+2019-03-13 17:20:39,227 [INFO]:        是否随机数：false
+2019-03-13 17:20:39,238 [INFO]:        等待时间：0
+2019-03-13 17:20:39,247 [INFO]: 开始执行操作
+2019-03-13 17:20:41,276 [INFO]: 当前iframe(EditHouseInfo)操作元素：
+2019-03-13 17:20:41,287 [INFO]:       定位方式：ID
+2019-03-13 17:20:41,294 [INFO]:       定位路径：FWZL
+2019-03-13 17:20:41,304 [INFO]:       操作方式：SENDKEYS
+2019-03-13 17:20:41,313 [INFO]:       默认值：测试坐落1
+2019-03-13 17:20:41,326 [INFO]:       是否随机数：true
+2019-03-13 17:20:41,334 [INFO]:       等待时间：0
+2019-03-13 17:20:41,648 [INFO]: 当前iframe(EditHouseInfo)操作元素：
+2019-03-13 17:20:41,659 [INFO]:       定位方式：ID
+2019-03-13 17:20:41,666 [INFO]:       定位路径：YFWYT1
+2019-03-13 17:20:41,677 [INFO]:       操作方式：CLICK
+2019-03-13 17:20:41,699 [INFO]:       默认值：测试用途1
+2019-03-13 17:20:41,708 [INFO]:       是否随机数：false
+2019-03-13 17:20:41,721 [INFO]:       等待时间：0
+2019-03-13 17:20:41,734 [INFO]: 元素可见了吧
+2019-03-13 17:20:41,756 [INFO]: 已经判断完成可点击了：element to be clickable: [[ChromeDriver: chrome on XP (aeb734c826d7775e3f3f4b1e9bb4426b)] -> id: EditHouseInfo]
+2019-03-13 17:20:41,865 [INFO]: 已经完成点击事件了
+2019-03-13 17:20:41,873 [INFO]: 当前iframe(EditHouseInfo)操作元素：
+2019-03-13 17:20:41,882 [INFO]:       定位方式：ID
+2019-03-13 17:20:41,893 [INFO]:       定位路径：TDYTDL
+2019-03-13 17:20:41,905 [INFO]:       操作方式：QT
+2019-03-13 17:20:41,917 [INFO]:       默认值：contentPane.getWidgetByName("TDYTDL").setValue("城镇住宅用地");
+2019-03-13 17:20:41,928 [INFO]:       是否随机数：false
+2019-03-13 17:20:41,935 [INFO]:       等待时间：0
+2019-03-13 17:20:42,009 [INFO]: 当前iframe(EditHouseInfo)操作元素：
+2019-03-13 17:20:42,018 [INFO]:       定位方式：ID
+2019-03-13 17:20:42,028 [INFO]:       定位路径：TDYTDL
+2019-03-13 17:20:42,038 [INFO]:       操作方式：QT
+2019-03-13 17:20:42,049 [INFO]:       默认值：$("#TDYTDL").attr("pval","071")
+2019-03-13 17:20:42,059 [INFO]:       是否随机数：false
+2019-03-13 17:20:42,071 [INFO]:       等待时间：0
+2019-03-13 17:20:42,122 [INFO]: 当前iframe(EditHouseInfo)操作元素：
+2019-03-13 17:20:42,128 [INFO]:       定位方式：ID
+2019-03-13 17:20:42,138 [INFO]:       定位路径：TDQLXZ
+2019-03-13 17:20:42,147 [INFO]:       操作方式：QT
+2019-03-13 17:20:42,159 [INFO]:       默认值：contentPane.getWidgetByName("TDQLXZ").setValue("国有土地");
+2019-03-13 17:20:42,184 [INFO]:       是否随机数：false
+2019-03-13 17:20:42,196 [INFO]:       等待时间：0
+2019-03-13 17:20:42,210 [INFO]: 当前iframe(EditHouseInfo)操作元素：
+2019-03-13 17:20:42,224 [INFO]:       定位方式：ID
+2019-03-13 17:20:42,246 [INFO]:       定位路径：FWJG
+2019-03-13 17:20:42,254 [INFO]:       操作方式：SENDKEYS
+2019-03-13 17:20:42,263 [INFO]:       默认值：6
+2019-03-13 17:20:42,273 [INFO]:       是否随机数：false
+2019-03-13 17:20:42,284 [INFO]:       等待时间：0
+2019-03-13 17:20:42,350 [INFO]: 当前iframe(EditHouseInfo)操作元素：
+2019-03-13 17:20:42,358 [INFO]:       定位方式：XPATH
+2019-03-13 17:20:42,367 [INFO]:       定位路径：//button[@type='button']@@@保存
+2019-03-13 17:20:42,376 [INFO]:       操作方式：CLICK
+2019-03-13 17:20:42,387 [INFO]:       默认值：
+2019-03-13 17:20:42,396 [INFO]:       是否随机数：false
+2019-03-13 17:20:42,407 [INFO]:       等待时间：0
+2019-03-13 17:20:42,557 [INFO]: 元素可见了吧
+2019-03-13 17:20:42,584 [INFO]: 已经判断完成可点击了：element to be clickable: [[ChromeDriver: chrome on XP (aeb734c826d7775e3f3f4b1e9bb4426b)] -> id: EditHouseInfo]
+2019-03-13 17:20:43,041 [INFO]: 已经完成点击事件了
+2019-03-13 17:20:45,408 [INFO]: 等待时间：0
+2019-03-13 17:20:45,418 [INFO]: 当前iframe(申请信息)操作元素：
+2019-03-13 17:20:45,437 [INFO]:        定位方式：XPATH
+2019-03-13 17:20:45,460 [INFO]:        定位路径：//a[@class='jbox-close']
+2019-03-13 17:20:45,468 [INFO]:        操作方式：CLICK
+2019-03-13 17:20:45,481 [INFO]:        默认值：1
+2019-03-13 17:20:45,495 [INFO]:        是否随机数：false
+2019-03-13 17:20:45,507 [INFO]:        等待时间：0
+2019-03-13 17:20:45,522 [INFO]: 开始执行操作
+2019-03-13 17:20:45,617 [INFO]: 等待时间：0
+2019-03-13 17:20:45,627 [INFO]: 当前iframe(申请信息)操作元素：
+2019-03-13 17:20:45,638 [INFO]:        定位方式：ID
+2019-03-13 17:20:45,650 [INFO]:        定位路径：GFHTBH_TDZ
+2019-03-13 17:20:45,666 [INFO]:        操作方式：SENDKEYS
+2019-03-13 17:20:45,680 [INFO]:        默认值：测试国有土地证
+2019-03-13 17:20:45,688 [INFO]:        是否随机数：true
+2019-03-13 17:20:45,700 [INFO]:        等待时间：0
+2019-03-13 17:20:45,724 [INFO]: 开始执行操作
+2019-03-13 17:20:45,864 [INFO]: 等待时间：0
+2019-03-13 17:20:45,874 [INFO]: 当前iframe(申请信息)操作元素：
+2019-03-13 17:20:45,882 [INFO]:        定位方式：ID
+2019-03-13 17:20:45,892 [INFO]:        定位路径：CZRMC
+2019-03-13 17:20:45,905 [INFO]:        操作方式：SENDKEYS
+2019-03-13 17:20:45,913 [INFO]:        默认值：测试持证人名称
+2019-03-13 17:20:45,923 [INFO]:        是否随机数：true
+2019-03-13 17:20:45,946 [INFO]:        等待时间：0
+2019-03-13 17:20:45,979 [INFO]: 开始执行操作
+2019-03-13 17:20:46,367 [INFO]: 等待时间：0
+2019-03-13 17:20:46,375 [INFO]: 当前iframe(申请信息)操作元素：
+2019-03-13 17:20:46,389 [INFO]:        定位方式：ID
+2019-03-13 17:20:46,402 [INFO]:        定位路径：BZ
+2019-03-13 17:20:46,411 [INFO]:        操作方式：SENDKEYS
+2019-03-13 17:20:46,422 [INFO]:        默认值：测试备注
+2019-03-13 17:20:46,433 [INFO]:        是否随机数：true
+2019-03-13 17:20:46,456 [INFO]:        等待时间：0
+2019-03-13 17:20:46,468 [INFO]: 开始执行操作
+2019-03-13 17:20:46,789 [INFO]: 等待时间：0
+2019-03-13 17:20:46,796 [INFO]: 当前iframe(申请信息)操作元素：
+2019-03-13 17:20:46,816 [INFO]:        定位方式：XPATH
+2019-03-13 17:20:46,826 [INFO]:        定位路径：//input[@name='GETSFZXYTDDZ'and@value='0']
+2019-03-13 17:20:46,837 [INFO]:        操作方式：CLICK
+2019-03-13 17:20:46,848 [INFO]:        默认值：
+2019-03-13 17:20:46,859 [INFO]:        是否随机数：false
+2019-03-13 17:20:46,881 [INFO]:        等待时间：0
+2019-03-13 17:20:46,890 [INFO]: 开始执行操作
+2019-03-13 17:20:46,977 [INFO]: 等待时间：0
+2019-03-13 17:20:46,985 [INFO]: 当前iframe(申请信息)操作元素：
+2019-03-13 17:20:47,007 [INFO]:        定位方式：XPATH
+2019-03-13 17:20:47,015 [INFO]:        定位路径：//*[@id="SSXZQ"]
+2019-03-13 17:20:47,028 [INFO]:        操作方式：SENDKEYS
+2019-03-13 17:20:47,044 [INFO]:        默认值：1
+2019-03-13 17:20:47,065 [INFO]:        是否随机数：false
+2019-03-13 17:20:47,079 [INFO]:        等待时间：5000
+2019-03-13 17:20:47,091 [INFO]: 开始执行操作
+2019-03-13 17:20:47,320 [INFO]: 等待时间：5000
+2019-03-13 17:20:47,332 [INFO]: 当前iframe(申请信息)操作元素：
+2019-03-13 17:20:47,344 [INFO]:        定位方式：XPATH
+2019-03-13 17:20:47,355 [INFO]:        定位路径：//span[@class=' x-emb-submit']
+2019-03-13 17:20:47,365 [INFO]:        操作方式：CLICK
+2019-03-13 17:20:47,394 [INFO]:        默认值：
+2019-03-13 17:20:47,402 [INFO]:        是否随机数：false
+2019-03-13 17:20:47,412 [INFO]:        等待时间：3000
+2019-03-13 17:20:47,422 [INFO]: 开始执行操作
+2019-03-13 17:20:47,550 [INFO]: 开始等待大保存完毕
+2019-03-13 17:20:54,044 [INFO]: 大保存完毕
+2019-03-13 17:20:54,050 [INFO]: 等待时间：3000
+2019-03-13 17:20:54,058 [INFO]: 当前iframe(申请信息)操作元素：
+2019-03-13 17:20:54,064 [INFO]:        定位方式：
+2019-03-13 17:20:54,071 [INFO]:        定位路径：
+2019-03-13 17:20:54,077 [INFO]:        操作方式：SHOOT
+2019-03-13 17:20:54,083 [INFO]:        默认值：12
+2019-03-13 17:20:54,092 [INFO]:        是否随机数：false
+2019-03-13 17:20:54,116 [INFO]:        等待时间：0
+2019-03-13 17:20:54,125 [INFO]: 开始执行操作
+2019-03-13 17:20:54,132 [INFO]: file绝对路径：D:\work_space\js_de\debug\SeleniumConfig\bin\Debug\SootScreens\2019-03-13
+2019-03-13 17:20:54,140 [INFO]: real_scrol:1236
+2019-03-13 17:20:54,147 [INFO]: real_top:438
+2019-03-13 17:21:12,370 [INFO]: i:1
+2019-03-13 17:21:12,375 [INFO]: height:450
+2019-03-13 17:21:22,623 [INFO]: i:2
+2019-03-13 17:21:22,629 [INFO]: height:900
+2019-03-13 17:21:22,640 [INFO]: 等待时间：0
+2019-03-13 17:21:23,669 [INFO]: 点击移交
+2019-03-13 17:21:23,765 [INFO]: 点击完成
+2019-03-13 17:21:31,341 [INFO]: 点击工作中心
+2019-03-13 17:21:36,440 [INFO]: 判断如果是新收办件，就开始了点击事件
+2019-03-13 17:21:36,474 [INFO]: ======exception reason=======org.openqa.selenium.ElementNotVisibleException: element not visible
+2019-03-13 17:21:36,487 [WARN]: org.openqa.selenium.ElementNotVisibleException: element not visible
+2019-03-13 17:21:36,498 [INFO]:   (Session info: chrome=34.0.1847.116)
+2019-03-13 17:21:36,513 [WARN]:   (Session info: chrome=34.0.1847.116)
+2019-03-13 17:21:36,524 [INFO]:   (Driver info: chromedriver=2.9.248315,platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+2019-03-13 17:21:36,537 [WARN]:   (Driver info: chromedriver=2.9.248315,platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+2019-03-13 17:21:36,549 [INFO]: Command duration or timeout: 30 milliseconds
+2019-03-13 17:21:36,559 [WARN]: Command duration or timeout: 30 milliseconds
+2019-03-13 17:21:36,576 [INFO]: Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+2019-03-13 17:21:36,611 [WARN]: Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+2019-03-13 17:21:36,620 [INFO]: System info: host: 'MTC-20180624XMT', ip: '192.168.6.79', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_191'
+2019-03-13 17:21:36,632 [WARN]: System info: host: 'MTC-20180624XMT', ip: '192.168.6.79', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_191'
+2019-03-13 17:21:36,644 [INFO]: Driver info: org.openqa.selenium.chrome.ChromeDriver
+2019-03-13 17:21:36,654 [WARN]: Driver info: org.openqa.selenium.chrome.ChromeDriver
+2019-03-13 17:21:36,669 [INFO]: Capabilities [{applicationCacheEnabled=false, rotatable=false, chrome={userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\scoped_dir14504_25572}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=34.0.1847.116, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+2019-03-13 17:21:36,689 [WARN]: Capabilities [{applicationCacheEnabled=false, rotatable=false, chrome={userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\scoped_dir14504_25572}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=34.0.1847.116, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+2019-03-13 17:21:36,698 [INFO]: Session ID: aeb734c826d7775e3f3f4b1e9bb4426b
+2019-03-13 17:21:36,709 [WARN]: Session ID: aeb734c826d7775e3f3f4b1e9bb4426b
+2019-03-13 17:21:36,721 [INFO]: ======exception reason=======org.openqa.selenium.ElementNotVisibleException: element not visible
+2019-03-13 17:21:36,736 [WARN]: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+2019-03-13 17:21:36,747 [INFO]:   (Session info: chrome=34.0.1847.116)
+2019-03-13 17:21:36,793 [WARN]: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+2019-03-13 17:21:36,814 [INFO]:   (Driver info: chromedriver=2.9.248315,platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+2019-03-13 17:21:36,824 [WARN]: 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+2019-03-13 17:21:36,835 [INFO]: Command duration or timeout: 30 milliseconds
+2019-03-13 17:21:36,847 [WARN]: 	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+2019-03-13 17:21:36,861 [INFO]: Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+2019-03-13 17:21:36,871 [WARN]: 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+2019-03-13 17:21:36,885 [INFO]: System info: host: 'MTC-20180624XMT', ip: '192.168.6.79', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_191'
+2019-03-13 17:21:36,894 [WARN]: 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+2019-03-13 17:21:36,904 [INFO]: Driver info: org.openqa.selenium.chrome.ChromeDriver
+2019-03-13 17:21:36,923 [WARN]: 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+2019-03-13 17:21:36,933 [INFO]: Capabilities [{applicationCacheEnabled=false, rotatable=false, chrome={userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\scoped_dir14504_25572}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=34.0.1847.116, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+2019-03-13 17:21:36,942 [WARN]: 	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:269)
+2019-03-13 17:21:36,954 [INFO]: Session ID: aeb734c826d7775e3f3f4b1e9bb4426b
+2019-03-13 17:21:36,962 [WARN]: 	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:80)
+2019-03-13 17:21:36,971 [INFO]: 这里应该是有报错的时候才会执行
+2019-03-13 17:21:36,985 [WARN]: 	at configSelenium.ConfigSeleniumStart.SelectPro(ConfigSeleniumStart.java:873)
+2019-03-13 17:21:36,993 [WARN]: 	at configSelenium.ConfigSeleniumStart.ActdefAction(ConfigSeleniumStart.java:789)
+2019-03-13 17:21:37,002 [WARN]: 	at configSelenium.ConfigSeleniumStart.main(ConfigSeleniumStart.java:196)
+2019-03-13 17:21:37,019 [WARN]: org.openqa.selenium.ElementNotVisibleException: element not visible
+2019-03-13 17:21:37,026 [WARN]:   (Session info: chrome=34.0.1847.116)
+2019-03-13 17:21:37,037 [WARN]:   (Driver info: chromedriver=2.9.248315,platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+2019-03-13 17:21:37,051 [WARN]: Command duration or timeout: 30 milliseconds
+2019-03-13 17:21:37,058 [WARN]: Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+2019-03-13 17:21:37,078 [WARN]: System info: host: 'MTC-20180624XMT', ip: '192.168.6.79', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_191'
+2019-03-13 17:21:37,085 [WARN]: Driver info: org.openqa.selenium.chrome.ChromeDriver
+2019-03-13 17:21:37,092 [WARN]: Capabilities [{applicationCacheEnabled=false, rotatable=false, chrome={userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\scoped_dir14504_25572}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=34.0.1847.116, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+2019-03-13 17:21:37,110 [WARN]: Session ID: aeb734c826d7775e3f3f4b1e9bb4426b
+2019-03-13 17:21:37,118 [WARN]: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+2019-03-13 17:21:37,126 [WARN]: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+2019-03-13 17:21:37,142 [WARN]: 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+2019-03-13 17:21:37,150 [WARN]: 	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+2019-03-13 17:21:37,159 [WARN]: 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+2019-03-13 17:21:37,172 [WARN]: 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+2019-03-13 17:21:37,179 [WARN]: 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+2019-03-13 17:21:37,188 [WARN]: 	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:269)
+2019-03-13 17:21:37,203 [WARN]: 	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:80)
+2019-03-13 17:21:37,211 [WARN]: 	at configSelenium.ConfigSeleniumStart.SelectPro(ConfigSeleniumStart.java:873)
+2019-03-13 17:21:37,220 [WARN]: 	at configSelenium.ConfigSeleniumStart.ActdefAction(ConfigSeleniumStart.java:789)
+2019-03-13 17:21:37,236 [WARN]: 	at configSelenium.ConfigSeleniumStart.main(ConfigSeleniumStart.java:196)
+2019-03-13 17:21:38,488 [WARN]: java.lang.NullPointerException
+2019-03-13 17:21:38,498 [WARN]: 	at configSelenium.ConfigSeleniumStart.ActdefAction(ConfigSeleniumStart.java:807)
+2019-03-13 17:21:38,505 [WARN]: 	at configSelenium.ConfigSeleniumStart.main(ConfigSeleniumStart.java:196)
+2019-03-13 17:21:40,552 [INFO]: 开始流程自动化测试！
+2019-03-13 17:21:40,573 [INFO]: 流程内码：2d107839-0de3-11e6-b878-000c2984e60c,流程名称首次登记
+2019-03-13 17:21:47,791 [INFO]: 流程启动成功，主框架句柄：CDwindow-2CEC105E-B34D-4591-B7E7-4ACC7400D013
+2019-03-13 17:21:50,506 [INFO]: 获取所有参数
+2019-03-13 17:21:50,566 [INFO]: sid-075095F3-5F75-4295-B4D1-5843F0D20C8E
+2019-03-13 17:21:50,573 [INFO]: 当前环节环节名称：收件受理,环节内码sid-075095F3-5F75-4295-B4D1-5843F0D20C8E
+2019-03-13 17:21:50,587 [INFO]: 开始操作Ifame，Iframe名称：窗口资料收取
+2019-03-13 17:21:50,676 [INFO]: element.getText：
+2019-03-13 17:21:50,767 [INFO]: element点击完成啦
+2019-03-13 17:21:50,864 [INFO]: 点击完成1
+2019-03-13 17:21:50,898 [INFO]: 获取到所有的iframe了2019-03-13 17:21:50
+2019-03-13 17:21:50,924 [INFO]: ifame地址1是：GisqPlatformExplorer/modules/bizmodel/datums_submit2019-03-13 17:21:50
+2019-03-13 17:21:50,950 [INFO]: 获取到ID是：TAB_IF_6c2f22fc-4571-11e9-af86-00505683a2312019-03-13 17:21:50
+2019-03-13 17:21:53,032 [INFO]: 切换到指定的iframe了2019-03-13 17:21:53
+2019-03-13 17:21:53,038 [INFO]: Iframe地址：GisqPlatformExplorer/modules/bizmodel/datums_submit
+2019-03-13 17:21:53,051 [INFO]: 当前iframe(窗口资料收取)操作元素：
+2019-03-13 17:21:53,057 [INFO]:        定位方式：XPATH
+2019-03-13 17:21:53,068 [INFO]:        定位路径：//div[@role='combobox']
+2019-03-13 17:21:53,075 [INFO]:        操作方式：QT
+2019-03-13 17:21:53,081 [INFO]:        默认值：$("#{ID}").jqxDropDownList('selectIndex', 0 );
+2019-03-13 17:21:53,090 [INFO]:        是否随机数：false
+2019-03-13 17:21:53,102 [INFO]:        等待时间：0
+2019-03-13 17:21:53,118 [INFO]: 开始执行操作
+2019-03-13 17:21:53,305 [INFO]: 等待时间：0
+2019-03-13 17:21:53,311 [INFO]: 当前iframe(窗口资料收取)操作元素：
+2019-03-13 17:21:53,319 [INFO]:        定位方式：ID
+2019-03-13 17:21:53,325 [INFO]:        定位路径：saveDatum
+2019-03-13 17:21:53,332 [INFO]:        操作方式：CLICK
+2019-03-13 17:21:53,342 [INFO]:        默认值：
+2019-03-13 17:21:53,360 [INFO]:        是否随机数：false
+2019-03-13 17:21:53,379 [INFO]:        等待时间：3000
+2019-03-13 17:21:53,626 [INFO]: 开始执行操作
+2019-03-13 17:21:53,778 [INFO]: 我已经点击完成了
+2019-03-13 17:21:54,564 [INFO]: 等待时间：3000
+2019-03-13 17:21:55,586 [INFO]: 开始操作Ifame，Iframe名称：申请信息
+2019-03-13 17:21:57,805 [INFO]: 点击完成1
+2019-03-13 17:21:58,604 [INFO]: 获取到所有的iframe了2019-03-13 17:21:58
+2019-03-13 17:21:58,637 [INFO]: ifame地址1是：GisqQueryList/views/reports/realestate/common/acceptance/Acceptance_HouseRight_Initial.jsp?reportlet=realestate/common/acceptance/Acceptance_HouseRight_Initial.cpt2019-03-13 17:21:58
+2019-03-13 17:21:58,660 [INFO]: 获取到ID是：TAB_IF_6c2efba0-4571-11e9-af86-00505683a2312019-03-13 17:21:58
+2019-03-13 17:22:00,725 [INFO]: 切换到指定的iframe了2019-03-13 17:22:00
+2019-03-13 17:22:00,744 [INFO]: Iframe地址：GisqQueryList/views/reports/realestate/common/acceptance/Acceptance_HouseRight_Initial.jsp?reportlet=realestate/common/acceptance/Acceptance_HouseRight_Initial.cpt
+2019-03-13 17:22:00,754 [INFO]: 当前iframe(申请信息)操作元素：
+2019-03-13 17:22:00,764 [INFO]:        定位方式：ID
+2019-03-13 17:22:00,774 [INFO]:        定位路径：CXBDC
+2019-03-13 17:22:00,785 [INFO]:        操作方式：CLICK
+2019-03-13 17:22:00,806 [INFO]:        默认值：
+2019-03-13 17:22:00,815 [INFO]:        是否随机数：false
+2019-03-13 17:22:00,825 [INFO]:        等待时间：2000
+2019-03-13 17:22:00,835 [INFO]: 开始执行操作
+2019-03-13 17:22:01,024 [INFO]: 等待时间：2000
+2019-03-13 17:22:01,035 [INFO]: 当前iframe(申请信息)操作元素：
+2019-03-13 17:22:01,045 [INFO]:        定位方式：ID
+2019-03-13 17:22:01,055 [INFO]:        定位路径：iFrameDY
+2019-03-13 17:22:01,075 [INFO]:        操作方式：IFRAME
+2019-03-13 17:22:01,085 [INFO]:        默认值：iFrameDY
+2019-03-13 17:22:01,096 [INFO]:        是否随机数：false
+2019-03-13 17:22:01,108 [INFO]:        等待时间：5000
+2019-03-13 17:22:01,971 [INFO]: 开始执行操作
+2019-03-13 17:22:02,032 [INFO]: 当前iframe(iFrameDY)操作元素：
+2019-03-13 17:22:02,041 [INFO]:       定位方式：ID
+2019-03-13 17:22:02,051 [INFO]:       定位路径：bdcdyh
+2019-03-13 17:22:02,061 [INFO]:       操作方式：SENDKEYS
+2019-03-13 17:22:02,073 [INFO]:       默认值：SDE.FW_H.BDCDYH
+2019-03-13 17:22:02,084 [INFO]:       是否随机数：false
+2019-03-13 17:22:02,110 [INFO]:       等待时间：0
+2019-03-13 17:22:02,151 [WARN]: java.sql.SQLIntegrityConstraintViolationException: ORA-00001: 违反唯一约束条件 (SDE.INXFWHDJBSM)
+2019-03-13 17:22:02,187 [INFO]: ======exception reason=======java.sql.SQLIntegrityConstraintViolationException: ORA-00001: 违反唯一约束条件 (SDE.INXFWHDJBSM)
+2019-03-13 17:22:02,197 [WARN]: ORA-06512: 在 line 2
+2019-03-13 17:22:02,207 [INFO]: ORA-06512: 在 line 2
+2019-03-13 17:22:02,219 [WARN]: 
+2019-03-13 17:22:02,228 [INFO]: 
+2019-03-13 17:22:02,238 [WARN]: 	at oracle.jdbc.driver.SQLStateMapping.newSQLException(SQLStateMapping.java:85)
+2019-03-13 17:22:02,258 [INFO]: 这里应该是有报错的时候才会执行
+2019-03-13 17:22:02,268 [WARN]: 	at oracle.jdbc.driver.DatabaseError.newSQLException(DatabaseError.java:133)
+2019-03-13 17:22:02,286 [WARN]: 	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:206)
+2019-03-13 17:22:02,296 [WARN]: 	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:455)
+2019-03-13 17:22:02,306 [WARN]: 	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:413)
+2019-03-13 17:22:02,320 [WARN]: 	at oracle.jdbc.driver.T4C8Oall.receive(T4C8Oall.java:1034)
+2019-03-13 17:22:02,339 [WARN]: 	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:183)
+2019-03-13 17:22:02,351 [WARN]: 	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:942)
+2019-03-13 17:22:02,361 [WARN]: 	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1222)
+2019-03-13 17:22:02,372 [WARN]: 	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:1770)
+2019-03-13 17:22:02,381 [WARN]: 	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:1739)
+2019-03-13 17:22:02,392 [WARN]: 	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:299)
+2019-03-13 17:22:02,413 [WARN]: 	at util.DataBase.ExecuteSql(DataBase.java:74)
+2019-03-13 17:22:02,423 [WARN]: 	at configSelenium.ConfigSeleniumStart.ActdefAction(ConfigSeleniumStart.java:534)
+2019-03-13 17:22:02,434 [WARN]: 	at configSelenium.ConfigSeleniumStart.main(ConfigSeleniumStart.java:196)
+2019-03-13 17:22:02,443 [WARN]: java.sql.SQLIntegrityConstraintViolationException: ORA-00001: 违反唯一约束条件 (SDE.INXFWHDJBSM)
+2019-03-13 17:22:02,454 [WARN]: ORA-06512: 在 line 2
+2019-03-13 17:22:02,464 [WARN]: 
+2019-03-13 17:22:02,491 [WARN]: 	at oracle.jdbc.driver.SQLStateMapping.newSQLException(SQLStateMapping.java:85)
+2019-03-13 17:22:02,501 [WARN]: 	at oracle.jdbc.driver.DatabaseError.newSQLException(DatabaseError.java:133)
+2019-03-13 17:22:02,510 [WARN]: 	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:206)
+2019-03-13 17:22:02,520 [WARN]: 	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:455)
+2019-03-13 17:22:02,531 [WARN]: 	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:413)
+2019-03-13 17:22:02,541 [WARN]: 	at oracle.jdbc.driver.T4C8Oall.receive(T4C8Oall.java:1034)
+2019-03-13 17:22:02,569 [WARN]: 	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:183)
+2019-03-13 17:22:02,577 [WARN]: 	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:942)
+2019-03-13 17:22:02,588 [WARN]: 	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1222)
+2019-03-13 17:22:02,597 [WARN]: 	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:1770)
+2019-03-13 17:22:02,608 [WARN]: 	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:1739)
+2019-03-13 17:22:02,624 [WARN]: 	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:299)
+2019-03-13 17:22:02,648 [WARN]: 	at util.DataBase.ExecuteSql(DataBase.java:74)
+2019-03-13 17:22:02,659 [WARN]: 	at configSelenium.ConfigSeleniumStart.ActdefAction(ConfigSeleniumStart.java:534)
+2019-03-13 17:22:02,669 [WARN]: 	at configSelenium.ConfigSeleniumStart.main(ConfigSeleniumStart.java:196)
+2019-03-13 17:22:04,226 [WARN]: [170.398][SEVERE]: Unable to receive message from renderer
+2019-03-13 17:22:04,332 [INFO]: 我尝试继续执行下面的流程---802
+2019-03-13 17:22:04,364 [WARN]: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+2019-03-13 17:22:04,375 [WARN]: from unknown error: web view not found
+2019-03-13 17:22:04,387 [WARN]:   (Session info: chrome=34.0.1847.116)
+2019-03-13 17:22:04,398 [WARN]:   (Driver info: chromedriver=2.9.248315,platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+2019-03-13 17:22:04,408 [WARN]: Command duration or timeout: 31 milliseconds
+2019-03-13 17:22:04,444 [WARN]: Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+2019-03-13 17:22:04,454 [WARN]: System info: host: 'MTC-20180624XMT', ip: '192.168.6.79', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_191'
+2019-03-13 17:22:04,470 [WARN]: Driver info: org.openqa.selenium.chrome.ChromeDriver
+2019-03-13 17:22:04,481 [WARN]: Capabilities [{applicationCacheEnabled=false, rotatable=false, chrome={userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\scoped_dir14504_25572}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=34.0.1847.116, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+2019-03-13 17:22:04,491 [WARN]: Session ID: aeb734c826d7775e3f3f4b1e9bb4426b
+2019-03-13 17:22:04,502 [WARN]: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+2019-03-13 17:22:04,518 [WARN]: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+2019-03-13 17:22:04,529 [WARN]: 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+2019-03-13 17:22:04,539 [WARN]: 	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+2019-03-13 17:22:04,550 [WARN]: 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+2019-03-13 17:22:04,563 [WARN]: 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+2019-03-13 17:22:04,598 [WARN]: 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+2019-03-13 17:22:04,607 [WARN]: 	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.defaultContent(RemoteWebDriver.java:912)
+2019-03-13 17:22:04,619 [WARN]: 	at configSelenium.ConfigSeleniumStart.ActdefAction(ConfigSeleniumStart.java:809)
+2019-03-13 17:22:04,630 [WARN]: 	at configSelenium.ConfigSeleniumStart.main(ConfigSeleniumStart.java:196)
+2019-03-13 17:22:04,701 [INFO]: 
+2019-03-13 17:29:27,358 [INFO]: Microsoft Windows [版本 6.1.7601]
+2019-03-13 17:29:27,363 [INFO]: 版权所有 (c) 2009 Microsoft Corporation。保留所有权利。
+2019-03-13 17:29:27,367 [INFO]: 
+2019-03-13 17:29:27,369 [INFO]: D:\work_space\js_de\debug\SeleniumConfig\bin\Debug>java -jar D:\work_space\js_de\debug\SeleniumConfig\bin\Debug\\SeleniumJAVA\Selenium.jar C#
+2019-03-13 17:29:27,776 [INFO]: path:/D:/work_space/js_de/debug/SeleniumConfig/bin/Debug/SeleniumJAVA/Selenium.jar
+2019-03-13 17:29:27,780 [INFO]: /D:/work_space/js_de/debug/SeleniumConfig/bin/Debug
+2019-03-13 17:29:27,786 [INFO]: 开始准备数据
+2019-03-13 17:29:27,789 [INFO]: 开始缓存总体参数配置文件
+2019-03-13 17:29:27,945 [INFO]: 读取服务地址/D:/work_space/js_de/debug/SeleniumConfig/bin/Debug
+2019-03-13 17:29:28,642 [INFO]: 17:29:28.640 [main] WARN  n.s.e.config.CacheConfiguration - Cache 'Common' is set to eternal but also has TTI/TTL set.  To avoid this warning, clean up the config removing conflicting values of eternal, TTI and TTL. Effective configuration for Cache 'Common' will be eternal='true', timeToIdleSeconds='0', timeToLiveSeconds='0'.
+2019-03-13 17:29:28,645 [INFO]: 缓存总体参数配置文件成功！
+2019-03-13 17:29:28,650 [INFO]: 开始缓存SQL配置信息
+2019-03-13 17:29:28,676 [INFO]: 17:29:28.675 [main] WARN  n.s.e.config.CacheConfiguration - Cache 'SQLConfig' is set to eternal but also has TTI/TTL set.  To avoid this warning, clean up the config removing conflicting values of eternal, TTI and TTL. Effective configuration for Cache 'SQLConfig' will be eternal='true', timeToIdleSeconds='0', timeToLiveSeconds='0'.
+2019-03-13 17:29:28,683 [INFO]: 缓存SQL配置信息成功！
+2019-03-13 17:29:28,694 [INFO]: 开始缓存SQL配置的SQL语句信息
+2019-03-13 17:29:29,486 [WARN]: SLF4J: The requested version 1.7.16 by your slf4j binding is not compatible with [1.6]
+2019-03-13 17:29:29,491 [WARN]: SLF4J: See http://www.slf4j.org/codes.html#version_mismatch for further details.
+2019-03-13 17:29:29,757 [INFO]: 缓存SQL配置的SQL语句信息成功！
+2019-03-13 17:29:29,766 [INFO]: 开始缓存自动化测试配置方案文件
+2019-03-13 17:29:29,774 [INFO]: 17:29:29.767 [main] WARN  n.s.e.config.CacheConfiguration - Cache 'Schema' is set to eternal but also has TTI/TTL set.  To avoid this warning, clean up the config removing conflicting values of eternal, TTI and TTL. Effective configuration for Cache 'Schema' will be eternal='true', timeToIdleSeconds='0', timeToLiveSeconds='0'.
+2019-03-13 17:29:29,786 [INFO]: 缓存自动化测试配置方案文件成功！
+2019-03-13 17:29:29,795 [INFO]: 开始缓存初始化配置参数成功！
+2019-03-13 17:29:29,809 [INFO]: 17:29:29.808 [main] WARN  n.s.e.config.CacheConfiguration - Cache 'PRODEF' is set to eternal but also has TTI/TTL set.  To avoid this warning, clean up the config removing conflicting values of eternal, TTI and TTL. Effective configuration for Cache 'PRODEF' will be eternal='true', timeToIdleSeconds='0', timeToLiveSeconds='0'.
+2019-03-13 17:29:29,828 [INFO]: 缓存流程配置信息成功！
+2019-03-13 17:29:30,019 [WARN]: Starting ChromeDriver (v2.9.248315) on port 28157
+2019-03-13 17:29:30,413 [INFO]: 初始化ChromeDriver成功！
+2019-03-13 17:29:30,755 [WARN]: Starting ChromeDriver (v2.9.248315) on port 28333
+2019-03-13 17:29:36,481 [INFO]: 初始化WebDriver成功！
+2019-03-13 17:29:36,485 [INFO]: 系统登陆地址：http://192.168.2.119:8082/GisqPlatformExplorer/a/login;JSESSIONID=7a22b82495884077a7860a3b86e8ac2f
+2019-03-13 17:29:40,087 [INFO]: 开始流程自动化测试！
+2019-03-13 17:29:40,093 [INFO]: 流程内码：2d107839-0de3-11e6-b878-000c2984e60c,流程名称首次登记
+2019-03-13 17:29:47,416 [INFO]: 流程启动成功，主框架句柄：CDwindow-2BEFF252-33C8-4995-8FCD-1C68B48AC724
+2019-03-13 17:29:49,532 [INFO]: 获取所有参数
+2019-03-13 17:29:49,604 [INFO]: sid-075095F3-5F75-4295-B4D1-5843F0D20C8E
+2019-03-13 17:29:49,612 [INFO]: 当前环节环节名称：收件受理,环节内码sid-075095F3-5F75-4295-B4D1-5843F0D20C8E
+2019-03-13 17:29:49,617 [INFO]: 开始操作Ifame，Iframe名称：窗口资料收取
+2019-03-13 17:29:51,516 [INFO]: element.getText：
+2019-03-13 17:29:51,601 [INFO]: element点击完成啦
+2019-03-13 17:29:51,693 [INFO]: 点击完成1
+2019-03-13 17:29:51,732 [INFO]: 获取到所有的iframe了2019-03-13 17:29:51
+2019-03-13 17:29:52,548 [INFO]: ifame地址1是：GisqPlatformExplorer/modules/bizmodel/datums_submit2019-03-13 17:29:51
+2019-03-13 17:29:52,553 [INFO]: 获取到ID是：TAB_IF_8a983632-4572-11e9-af86-00505683a2312019-03-13 17:29:51
+2019-03-13 17:29:53,837 [INFO]: 切换到指定的iframe了2019-03-13 17:29:53
+2019-03-13 17:29:53,843 [INFO]: Iframe地址：GisqPlatformExplorer/modules/bizmodel/datums_submit
+2019-03-13 17:29:53,875 [INFO]: 当前iframe(窗口资料收取)操作元素：
+2019-03-13 17:29:53,880 [INFO]:        定位方式：XPATH
+2019-03-13 17:29:53,885 [INFO]:        定位路径：//div[@role='combobox']
+2019-03-13 17:29:53,890 [INFO]:        操作方式：QT
+2019-03-13 17:29:53,895 [INFO]:        默认值：$("#{ID}").jqxDropDownList('selectIndex', 0 );
+2019-03-13 17:29:53,900 [INFO]:        是否随机数：false
+2019-03-13 17:29:53,906 [INFO]:        等待时间：0
+2019-03-13 17:29:53,935 [INFO]: 开始执行操作
+2019-03-13 17:29:54,169 [INFO]: 等待时间：0
+2019-03-13 17:29:54,174 [INFO]: 当前iframe(窗口资料收取)操作元素：
+2019-03-13 17:29:54,191 [INFO]:        定位方式：ID
+2019-03-13 17:29:54,198 [INFO]:        定位路径：saveDatum
+2019-03-13 17:29:54,205 [INFO]:        操作方式：CLICK
+2019-03-13 17:29:54,214 [INFO]:        默认值：
+2019-03-13 17:29:54,219 [INFO]:        是否随机数：false
+2019-03-13 17:29:54,225 [INFO]:        等待时间：3000
+2019-03-13 17:29:54,463 [INFO]: 开始执行操作
+2019-03-13 17:29:54,671 [INFO]: 我已经点击完成了
+2019-03-13 17:29:55,253 [INFO]: 等待时间：3000
+2019-03-13 17:29:56,275 [INFO]: 开始操作Ifame，Iframe名称：申请信息
+2019-03-13 17:29:58,444 [INFO]: 点击完成1
+2019-03-13 17:29:59,830 [INFO]: 获取到所有的iframe了2019-03-13 17:29:59
+2019-03-13 17:29:59,897 [INFO]: ifame地址1是：GisqQueryList/views/reports/realestate/common/acceptance/Acceptance_HouseRight_Initial.jsp?reportlet=realestate/common/acceptance/Acceptance_HouseRight_Initial.cpt2019-03-13 17:29:59
+2019-03-13 17:29:59,916 [INFO]: 获取到ID是：TAB_IF_8a97e7c6-4572-11e9-af86-00505683a2312019-03-13 17:29:59
+2019-03-13 17:30:02,012 [INFO]: 切换到指定的iframe了2019-03-13 17:30:02
+2019-03-13 17:30:02,023 [INFO]: Iframe地址：GisqQueryList/views/reports/realestate/common/acceptance/Acceptance_HouseRight_Initial.jsp?reportlet=realestate/common/acceptance/Acceptance_HouseRight_Initial.cpt
+2019-03-13 17:30:02,072 [INFO]: 当前iframe(申请信息)操作元素：
+2019-03-13 17:30:02,078 [INFO]:        定位方式：XPATH
+2019-03-13 17:30:02,083 [INFO]:        定位路径：/html/body/div[3]/table/tbody/tr[2]/td[2]
+2019-03-13 17:30:02,091 [INFO]:        操作方式：Assert
+2019-03-13 17:30:02,097 [INFO]:        默认值：申请人
+2019-03-13 17:30:02,106 [INFO]:        是否随机数：false
+2019-03-13 17:30:02,112 [INFO]:        等待时间：0
+2019-03-13 17:30:02,126 [INFO]: 开始执行操作
+2019-03-13 17:30:02,163 [INFO]: 看一下取到值额吗：申请人信息
+2019-03-13 17:30:02,187 [INFO]: 等待时间：0
+2019-03-13 17:30:02,192 [INFO]: 当前iframe(申请信息)操作元素：
+2019-03-13 17:30:02,199 [INFO]:        定位方式：XPATH
+2019-03-13 17:30:02,209 [INFO]:        定位路径：/html/body/div[3]/table/tbody/tr[6]/td[2]
+2019-03-13 17:30:02,222 [INFO]:        操作方式：Assert
+2019-03-13 17:30:02,229 [INFO]:        默认值：不动产单元信息
+2019-03-13 17:30:02,233 [INFO]:        是否随机数：false
+2019-03-13 17:30:02,238 [INFO]:        等待时间：0
+2019-03-13 17:30:02,308 [INFO]: 开始执行操作
+2019-03-13 17:30:02,375 [INFO]: 看一下取到值额吗：不动产单元信息
+2019-03-13 17:30:02,408 [INFO]: 等待时间：0
+2019-03-13 17:30:02,438 [INFO]: 当前iframe(申请信息)操作元素：
+2019-03-13 17:30:02,462 [INFO]:        定位方式：XPATH
+2019-03-13 17:30:02,467 [INFO]:        定位路径：/html/body/div[3]/table/tbody/tr[12]/td[2]
+2019-03-13 17:30:02,472 [INFO]:        操作方式：Assert
+2019-03-13 17:30:02,478 [INFO]:        默认值：项目信息
+2019-03-13 17:30:02,483 [INFO]:        是否随机数：false
+2019-03-13 17:30:02,488 [INFO]:        等待时间：0
+2019-03-13 17:30:02,581 [INFO]: 开始执行操作
+2019-03-13 17:30:02,629 [INFO]: 看一下取到值额吗：项目信息
+2019-03-13 17:30:02,644 [INFO]: 等待时间：0
+2019-03-13 17:30:02,654 [INFO]: 当前iframe(申请信息)操作元素：
+2019-03-13 17:30:02,660 [INFO]:        定位方式：XPATH
+2019-03-13 17:30:02,666 [INFO]:        定位路径：/html/body/div[3]/table/tbody/tr[14]/td[2]
+2019-03-13 17:30:02,671 [INFO]:        操作方式：Assert
+2019-03-13 17:30:02,687 [INFO]:        默认值：开发商名称 
+2019-03-13 17:30:02,692 [INFO]:        是否随机数：false
+2019-03-13 17:30:02,699 [INFO]:        等待时间：0
+2019-03-13 17:30:02,714 [INFO]: 开始执行操作
+2019-03-13 17:30:02,752 [INFO]: 看一下取到值额吗：开发商名称：
+2019-03-13 17:30:02,763 [INFO]: 等待时间：0
+2019-03-13 17:30:02,789 [INFO]: 当前iframe(申请信息)操作元素：
+2019-03-13 17:30:02,799 [INFO]:        定位方式：XPATH
+2019-03-13 17:30:02,806 [INFO]:        定位路径：/html/body/div[3]/table/tbody/tr[14]/td[5]
+2019-03-13 17:30:02,812 [INFO]:        操作方式：Assert
+2019-03-13 17:30:02,817 [INFO]:        默认值：项目
+2019-03-13 17:30:02,824 [INFO]:        是否随机数：false
+2019-03-13 17:30:02,830 [INFO]:        等待时间：0
+2019-03-13 17:30:02,836 [INFO]: 开始执行操作
+2019-03-13 17:30:02,852 [INFO]: 看一下取到值额吗：项目名称：
+2019-03-13 17:30:02,869 [INFO]: 等待时间：0
+2019-03-13 17:30:02,874 [INFO]: 当前iframe(申请信息)操作元素：
+2019-03-13 17:30:02,879 [INFO]:        定位方式：
+2019-03-13 17:30:02,885 [INFO]:        定位路径：
+2019-03-13 17:30:02,889 [INFO]:        操作方式：SHOOT
+2019-03-13 17:30:02,894 [INFO]:        默认值：申请信息截图
+2019-03-13 17:30:02,900 [INFO]:        是否随机数：false
+2019-03-13 17:30:02,905 [INFO]:        等待时间：0
+2019-03-13 17:30:02,910 [INFO]: 开始执行操作
+2019-03-13 17:30:02,915 [INFO]: file绝对路径：D:\work_space\js_de\debug\SeleniumConfig\bin\Debug\SootScreens\2019-03-13
+2019-03-13 17:30:02,933 [INFO]: real_scrol:1236
+2019-03-13 17:30:02,938 [INFO]: real_top:0
+2019-03-13 17:30:19,427 [INFO]: i:1
+2019-03-13 17:30:19,433 [INFO]: height:450
+2019-03-13 17:30:29,653 [INFO]: i:2
+2019-03-13 17:30:29,657 [INFO]: height:900
+2019-03-13 17:30:29,662 [INFO]: 等待时间：0
+2019-03-13 17:30:30,709 [INFO]: 点击移交
+2019-03-13 17:30:30,802 [INFO]: 点击完成
+2019-03-13 17:30:38,421 [INFO]: 点击工作中心
+2019-03-13 17:30:43,488 [INFO]: 判断如果是新收办件，就开始了点击事件
+2019-03-13 17:30:59,448 [WARN]: org.openqa.selenium.NoSuchFrameException: No frame element found by name or id view_首页0
+2019-03-13 17:30:59,453 [INFO]: ======exception reason=======org.openqa.selenium.NoSuchFrameException: No frame element found by name or id view_首页0
+2019-03-13 17:30:59,460 [WARN]: Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+2019-03-13 17:30:59,470 [INFO]: Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+2019-03-13 17:30:59,479 [WARN]: System info: host: 'MTC-20180624XMT', ip: '192.168.6.79', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_191'
+2019-03-13 17:30:59,487 [INFO]: System info: host: 'MTC-20180624XMT', ip: '192.168.6.79', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_191'
+2019-03-13 17:30:59,509 [WARN]: Driver info: driver.version: unknown
+2019-03-13 17:30:59,518 [INFO]: Driver info: driver.version: unknown
+2019-03-13 17:30:59,528 [WARN]: 	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.frame(RemoteWebDriver.java:888)
+2019-03-13 17:30:59,536 [INFO]: ======exception reason=======org.openqa.selenium.NoSuchFrameException: No frame element found by name or id view_首页0
+2019-03-13 17:30:59,543 [WARN]: 	at configSelenium.ConfigSeleniumStart.SelectPro(ConfigSeleniumStart.java:896)
+2019-03-13 17:30:59,552 [INFO]: Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+2019-03-13 17:30:59,561 [WARN]: 	at configSelenium.ConfigSeleniumStart.ActdefAction(ConfigSeleniumStart.java:789)
+2019-03-13 17:30:59,569 [INFO]: System info: host: 'MTC-20180624XMT', ip: '192.168.6.79', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_191'
+2019-03-13 17:30:59,587 [WARN]: 	at configSelenium.ConfigSeleniumStart.main(ConfigSeleniumStart.java:196)
+2019-03-13 17:30:59,595 [INFO]: Driver info: driver.version: unknown
+2019-03-13 17:30:59,604 [WARN]: org.openqa.selenium.NoSuchFrameException: No frame element found by name or id view_首页0
+2019-03-13 17:30:59,612 [INFO]: 这里应该是有报错的时候才会执行
+2019-03-13 17:30:59,620 [WARN]: Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+2019-03-13 17:30:59,628 [WARN]: System info: host: 'MTC-20180624XMT', ip: '192.168.6.79', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_191'
+2019-03-13 17:30:59,650 [WARN]: Driver info: driver.version: unknown
+2019-03-13 17:30:59,660 [WARN]: 	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.frame(RemoteWebDriver.java:888)
+2019-03-13 17:30:59,671 [WARN]: 	at configSelenium.ConfigSeleniumStart.SelectPro(ConfigSeleniumStart.java:896)
+2019-03-13 17:30:59,679 [WARN]: 	at configSelenium.ConfigSeleniumStart.ActdefAction(ConfigSeleniumStart.java:789)
+2019-03-13 17:30:59,688 [WARN]: 	at configSelenium.ConfigSeleniumStart.main(ConfigSeleniumStart.java:196)
+2019-03-13 17:31:01,476 [WARN]: [90.722][SEVERE]: Unable to receive message from renderer
+2019-03-13 17:31:01,497 [INFO]: 我尝试继续执行下面的流程---802
+2019-03-13 17:31:01,524 [WARN]: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+2019-03-13 17:31:01,532 [WARN]: from unknown error: web view not found
+2019-03-13 17:31:01,542 [WARN]:   (Session info: chrome=34.0.1847.116)
+2019-03-13 17:31:01,553 [WARN]:   (Driver info: chromedriver=2.9.248315,platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+2019-03-13 17:31:01,567 [WARN]: Command duration or timeout: 7 milliseconds
+2019-03-13 17:31:01,579 [WARN]: Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+2019-03-13 17:31:01,604 [WARN]: System info: host: 'MTC-20180624XMT', ip: '192.168.6.79', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_191'
+2019-03-13 17:31:01,635 [WARN]: Driver info: org.openqa.selenium.chrome.ChromeDriver
+2019-03-13 17:31:01,655 [WARN]: Capabilities [{applicationCacheEnabled=false, rotatable=false, chrome={userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\scoped_dir15432_12472}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=34.0.1847.116, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+2019-03-13 17:31:01,665 [WARN]: Session ID: fd57e96cc606ca49c6eec1ccc20a4fdb
+2019-03-13 17:31:01,673 [WARN]: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+2019-03-13 17:31:01,682 [WARN]: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+2019-03-13 17:31:01,693 [WARN]: 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+2019-03-13 17:31:01,701 [WARN]: 	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+2019-03-13 17:31:01,712 [WARN]: 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+2019-03-13 17:31:01,726 [WARN]: 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+2019-03-13 17:31:01,735 [WARN]: 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+2019-03-13 17:31:01,752 [WARN]: 	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.defaultContent(RemoteWebDriver.java:912)
+2019-03-13 17:31:01,762 [WARN]: 	at configSelenium.ConfigSeleniumStart.ActdefAction(ConfigSeleniumStart.java:809)
+2019-03-13 17:31:01,772 [WARN]: 	at configSelenium.ConfigSeleniumStart.main(ConfigSeleniumStart.java:196)
+2019-03-13 17:31:01,780 [WARN]: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+2019-03-13 17:31:01,792 [WARN]: from unknown error: web view not found
+2019-03-13 17:31:01,818 [WARN]:   (Session info: chrome=34.0.1847.116)
+2019-03-13 17:31:01,827 [WARN]:   (Driver info: chromedriver=2.9.248315,platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+2019-03-13 17:31:01,837 [WARN]: Command duration or timeout: 5 milliseconds
+2019-03-13 17:31:01,846 [WARN]: Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+2019-03-13 17:31:01,869 [INFO]: 
+2019-03-13 17:31:01,881 [WARN]: System info: host: 'MTC-20180624XMT', ip: '192.168.6.79', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_191'
+2019-03-13 17:31:01,896 [WARN]: Driver info: org.openqa.selenium.chrome.ChromeDriver
+2019-03-13 17:31:01,905 [WARN]: Capabilities [{applicationCacheEnabled=false, rotatable=false, chrome={userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\scoped_dir15432_12472}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=34.0.1847.116, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+2019-03-13 17:31:01,915 [WARN]: Session ID: fd57e96cc606ca49c6eec1ccc20a4fdb
+2019-03-13 17:31:01,925 [WARN]: *** Element info: {Using=css selector, value=frame[name='view_首页0'],iframe[name='view_首页0']}
+2019-03-13 17:31:01,943 [WARN]: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+2019-03-13 17:31:01,955 [WARN]: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+2019-03-13 17:31:01,965 [WARN]: 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+2019-03-13 17:31:01,972 [WARN]: 	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+2019-03-13 17:31:01,979 [WARN]: 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+2019-03-13 17:31:01,989 [WARN]: 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+2019-03-13 17:31:01,997 [WARN]: 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+2019-03-13 17:31:02,004 [WARN]: 	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:383)
+2019-03-13 17:31:02,012 [WARN]: 	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByCssSelector(RemoteWebDriver.java:451)
+2019-03-13 17:31:02,036 [WARN]: 	at org.openqa.selenium.By$ByCssSelector.findElements(By.java:437)
+2019-03-13 17:31:02,044 [WARN]: 	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:346)
+2019-03-13 17:31:02,052 [WARN]: 	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.frame(RemoteWebDriver.java:881)
+2019-03-13 17:31:02,060 [WARN]: 	at configSelenium.ConfigSeleniumStart.main(ConfigSeleniumStart.java:154)
+2019-03-13 17:43:14,746 [INFO]: Microsoft Windows [版本 6.1.7601]
+2019-03-13 17:43:14,752 [INFO]: 版权所有 (c) 2009 Microsoft Corporation。保留所有权利。
+2019-03-13 17:43:14,755 [INFO]: 
+2019-03-13 17:43:14,759 [INFO]: D:\work_space\js_de\debug\SeleniumConfig\bin\Debug>java -jar D:\work_space\js_de\debug\SeleniumConfig\bin\Debug\\SeleniumJAVA\Selenium.jar C#
+2019-03-13 17:43:17,621 [INFO]: path:/D:/work_space/js_de/debug/SeleniumConfig/bin/Debug/SeleniumJAVA/Selenium.jar
+2019-03-13 17:43:17,625 [INFO]: /D:/work_space/js_de/debug/SeleniumConfig/bin/Debug
+2019-03-13 17:43:17,635 [INFO]: 开始准备数据
+2019-03-13 17:43:17,639 [INFO]: 开始缓存总体参数配置文件
+2019-03-13 17:43:17,808 [INFO]: 读取服务地址/D:/work_space/js_de/debug/SeleniumConfig/bin/Debug
+2019-03-13 17:43:18,096 [WARN]: SLF4J: The requested version 1.7.16 by your slf4j binding is not compatible with [1.6]
+2019-03-13 17:43:18,100 [WARN]: SLF4J: See http://www.slf4j.org/codes.html#version_mismatch for further details.
+2019-03-13 17:43:18,561 [INFO]: 17:43:18.559 [main] WARN  n.s.e.config.CacheConfiguration - Cache 'Common' is set to eternal but also has TTI/TTL set.  To avoid this warning, clean up the config removing conflicting values of eternal, TTI and TTL. Effective configuration for Cache 'Common' will be eternal='true', timeToIdleSeconds='0', timeToLiveSeconds='0'.
+2019-03-13 17:43:18,567 [INFO]: 缓存总体参数配置文件成功！
+2019-03-13 17:43:18,570 [INFO]: 开始缓存SQL配置信息
+2019-03-13 17:43:18,618 [INFO]: 17:43:18.617 [main] WARN  n.s.e.config.CacheConfiguration - Cache 'SQLConfig' is set to eternal but also has TTI/TTL set.  To avoid this warning, clean up the config removing conflicting values of eternal, TTI and TTL. Effective configuration for Cache 'SQLConfig' will be eternal='true', timeToIdleSeconds='0', timeToLiveSeconds='0'.
+2019-03-13 17:43:18,642 [INFO]: 缓存SQL配置信息成功！
+2019-03-13 17:43:18,651 [INFO]: 开始缓存SQL配置的SQL语句信息
+2019-03-13 17:43:19,801 [INFO]: 缓存SQL配置的SQL语句信息成功！
+2019-03-13 17:43:19,810 [INFO]: 开始缓存自动化测试配置方案文件
+2019-03-13 17:43:19,821 [INFO]: 17:43:19.814 [main] WARN  n.s.e.config.CacheConfiguration - Cache 'Schema' is set to eternal but also has TTI/TTL set.  To avoid this warning, clean up the config removing conflicting values of eternal, TTI and TTL. Effective configuration for Cache 'Schema' will be eternal='true', timeToIdleSeconds='0', timeToLiveSeconds='0'.
+2019-03-13 17:43:19,846 [INFO]: 缓存自动化测试配置方案文件成功！
+2019-03-13 17:43:19,855 [INFO]: 开始缓存初始化配置参数成功！
+2019-03-13 17:43:19,870 [INFO]: 17:43:19.849 [main] WARN  n.s.e.config.CacheConfiguration - Cache 'PRODEF' is set to eternal but also has TTI/TTL set.  To avoid this warning, clean up the config removing conflicting values of eternal, TTI and TTL. Effective configuration for Cache 'PRODEF' will be eternal='true', timeToIdleSeconds='0', timeToLiveSeconds='0'.
+2019-03-13 17:43:19,883 [INFO]: 缓存流程配置信息成功！
+2019-03-13 17:43:20,113 [WARN]: Starting ChromeDriver (v2.9.248315) on port 29967
+2019-03-13 17:43:21,001 [INFO]: 初始化ChromeDriver成功！
+2019-03-13 17:43:21,344 [WARN]: Starting ChromeDriver (v2.9.248315) on port 11624
+2019-03-13 17:43:25,718 [INFO]: 初始化WebDriver成功！
+2019-03-13 17:43:25,730 [INFO]: 系统登陆地址：http://192.168.2.119:8082/GisqPlatformExplorer/a/login;JSESSIONID=7a22b82495884077a7860a3b86e8ac2f
+2019-03-13 17:43:29,267 [INFO]: 开始流程自动化测试！
+2019-03-13 17:43:29,272 [INFO]: 流程内码：2d107839-0de3-11e6-b878-000c2984e60c,流程名称首次登记
+2019-03-13 17:43:36,634 [INFO]: 流程启动成功，主框架句柄：CDwindow-1259A4DB-193E-4D8E-9442-A46CA5A98A0E
+2019-03-13 17:43:39,323 [INFO]: 获取所有参数
+2019-03-13 17:43:39,485 [INFO]: sid-075095F3-5F75-4295-B4D1-5843F0D20C8E
+2019-03-13 17:43:39,498 [INFO]: 当前环节环节名称：收件受理,环节内码sid-075095F3-5F75-4295-B4D1-5843F0D20C8E
+2019-03-13 17:43:39,503 [INFO]: 开始操作Ifame，Iframe名称：窗口资料收取
+2019-03-13 17:43:39,643 [INFO]: element.getText：
+2019-03-13 17:43:39,727 [INFO]: element点击完成啦
+2019-03-13 17:43:39,851 [INFO]: 点击完成1
+2019-03-13 17:43:39,881 [INFO]: 获取到所有的iframe了2019-03-13 17:43:39
+2019-03-13 17:43:39,907 [INFO]: ifame地址1是：GisqPlatformExplorer/modules/bizmodel/datums_submit2019-03-13 17:43:39
+2019-03-13 17:43:39,924 [INFO]: 获取到ID是：TAB_IF_78610d7d-4574-11e9-af86-00505683a2312019-03-13 17:43:39
+2019-03-13 17:43:41,973 [INFO]: 切换到指定的iframe了2019-03-13 17:43:41
+2019-03-13 17:43:41,978 [INFO]: Iframe地址：GisqPlatformExplorer/modules/bizmodel/datums_submit
+2019-03-13 17:43:42,001 [INFO]: 当前iframe(窗口资料收取)操作元素：
+2019-03-13 17:43:42,008 [INFO]:        定位方式：XPATH
+2019-03-13 17:43:42,014 [INFO]:        定位路径：//div[@role='combobox']
+2019-03-13 17:43:42,019 [INFO]:        操作方式：QT
+2019-03-13 17:43:42,024 [INFO]:        默认值：$("#{ID}").jqxDropDownList('selectIndex', 0 );
+2019-03-13 17:43:42,029 [INFO]:        是否随机数：false
+2019-03-13 17:43:42,046 [INFO]:        等待时间：0
+2019-03-13 17:43:42,057 [INFO]: 开始执行操作
+2019-03-13 17:43:42,213 [INFO]: 等待时间：0
+2019-03-13 17:43:42,218 [INFO]: 当前iframe(窗口资料收取)操作元素：
+2019-03-13 17:43:42,229 [INFO]:        定位方式：ID
+2019-03-13 17:43:42,236 [INFO]:        定位路径：saveDatum
+2019-03-13 17:43:42,242 [INFO]:        操作方式：CLICK
+2019-03-13 17:43:42,248 [INFO]:        默认值：
+2019-03-13 17:43:42,253 [INFO]:        是否随机数：false
+2019-03-13 17:43:42,271 [INFO]:        等待时间：3000
+2019-03-13 17:43:42,483 [INFO]: 开始执行操作
+2019-03-13 17:43:42,624 [INFO]: 我已经点击完成了
+2019-03-13 17:43:43,600 [INFO]: 等待时间：3000
+2019-03-13 17:43:44,637 [INFO]: 开始操作Ifame，Iframe名称：申请信息
+2019-03-13 17:43:47,579 [INFO]: 点击完成1
+2019-03-13 17:43:47,597 [INFO]: 获取到所有的iframe了2019-03-13 17:43:47
+2019-03-13 17:43:47,628 [INFO]: ifame地址1是：GisqQueryList/views/reports/realestate/common/acceptance/Acceptance_HouseRight_Initial.jsp?reportlet=realestate/common/acceptance/Acceptance_HouseRight_Initial.cpt2019-03-13 17:43:47
+2019-03-13 17:43:47,653 [INFO]: 获取到ID是：TAB_IF_7860e721-4574-11e9-af86-00505683a2312019-03-13 17:43:47
+2019-03-13 17:43:49,716 [INFO]: 切换到指定的iframe了2019-03-13 17:43:49
+2019-03-13 17:43:49,721 [INFO]: Iframe地址：GisqQueryList/views/reports/realestate/common/acceptance/Acceptance_HouseRight_Initial.jsp?reportlet=realestate/common/acceptance/Acceptance_HouseRight_Initial.cpt
+2019-03-13 17:43:49,736 [INFO]: 当前iframe(申请信息)操作元素：
+2019-03-13 17:43:49,741 [INFO]:        定位方式：XPATH
+2019-03-13 17:43:49,747 [INFO]:        定位路径：/html/body/div[3]/table/tbody/tr[2]/td[2]
+2019-03-13 17:43:49,753 [INFO]:        操作方式：Assert
+2019-03-13 17:43:49,758 [INFO]:        默认值：申请人
+2019-03-13 17:43:49,769 [INFO]:        是否随机数：false
+2019-03-13 17:43:49,775 [INFO]:        等待时间：0
+2019-03-13 17:43:49,792 [INFO]: 开始执行操作
+2019-03-13 17:43:49,877 [INFO]: 看一下取到值额吗：申请人信息
+2019-03-13 17:43:49,903 [INFO]: 等待时间：0
+2019-03-13 17:43:49,908 [INFO]: 当前iframe(申请信息)操作元素：
+2019-03-13 17:43:49,917 [INFO]:        定位方式：XPATH
+2019-03-13 17:43:49,923 [INFO]:        定位路径：/html/body/div[3]/table/tbody/tr[6]/td[2]
+2019-03-13 17:43:49,928 [INFO]:        操作方式：Assert
+2019-03-13 17:43:49,935 [INFO]:        默认值：不动产单元信息
+2019-03-13 17:43:49,940 [INFO]:        是否随机数：false
+2019-03-13 17:43:49,945 [INFO]:        等待时间：0
+2019-03-13 17:43:49,965 [INFO]: 开始执行操作
+2019-03-13 17:43:50,001 [INFO]: 看一下取到值额吗：不动产单元信息
+2019-03-13 17:43:50,012 [INFO]: 等待时间：0
+2019-03-13 17:43:50,028 [INFO]: 当前iframe(申请信息)操作元素：
+2019-03-13 17:43:50,035 [INFO]:        定位方式：XPATH
+2019-03-13 17:43:50,040 [INFO]:        定位路径：/html/body/div[3]/table/tbody/tr[12]/td[2]
+2019-03-13 17:43:50,046 [INFO]:        操作方式：Assert
+2019-03-13 17:43:50,052 [INFO]:        默认值：项目信息
+2019-03-13 17:43:50,057 [INFO]:        是否随机数：false
+2019-03-13 17:43:50,063 [INFO]:        等待时间：0
+2019-03-13 17:43:50,072 [INFO]: 开始执行操作
+2019-03-13 17:43:50,119 [INFO]: 看一下取到值额吗：项目信息
+2019-03-13 17:43:50,131 [INFO]: 等待时间：0
+2019-03-13 17:43:50,140 [INFO]: 当前iframe(申请信息)操作元素：
+2019-03-13 17:43:50,159 [INFO]:        定位方式：XPATH
+2019-03-13 17:43:50,164 [INFO]:        定位路径：/html/body/div[3]/table/tbody/tr[14]/td[2]
+2019-03-13 17:43:50,170 [INFO]:        操作方式：Assert
+2019-03-13 17:43:50,176 [INFO]:        默认值：开发商名称 
+2019-03-13 17:43:50,181 [INFO]:        是否随机数：false
+2019-03-13 17:43:50,186 [INFO]:        等待时间：0
+2019-03-13 17:43:50,257 [INFO]: 开始执行操作
+2019-03-13 17:43:50,331 [INFO]: 看一下取到值额吗：开发商名称：
+2019-03-13 17:43:50,345 [INFO]: 等待时间：0
+2019-03-13 17:43:50,352 [INFO]: 当前iframe(申请信息)操作元素：
+2019-03-13 17:43:50,358 [INFO]:        定位方式：XPATH
+2019-03-13 17:43:50,363 [INFO]:        定位路径：/html/body/div[3]/table/tbody/tr[14]/td[5]
+2019-03-13 17:43:50,369 [INFO]:        操作方式：Assert
+2019-03-13 17:43:50,375 [INFO]:        默认值：项目
+2019-03-13 17:43:50,380 [INFO]:        是否随机数：false
+2019-03-13 17:43:50,385 [INFO]:        等待时间：0
+2019-03-13 17:43:50,405 [INFO]: 开始执行操作
+2019-03-13 17:43:50,442 [INFO]: 看一下取到值额吗：项目名称：
+2019-03-13 17:43:50,455 [INFO]: 等待时间：0
+2019-03-13 17:43:50,460 [INFO]: 当前iframe(申请信息)操作元素：
+2019-03-13 17:43:50,465 [INFO]:        定位方式：
+2019-03-13 17:43:50,471 [INFO]:        定位路径：
+2019-03-13 17:43:50,477 [INFO]:        操作方式：SHOOT
+2019-03-13 17:43:50,484 [INFO]:        默认值：申请信息截图
+2019-03-13 17:43:50,489 [INFO]:        是否随机数：false
+2019-03-13 17:43:50,494 [INFO]:        等待时间：0
+2019-03-13 17:43:50,500 [INFO]: 开始执行操作
+2019-03-13 17:43:50,505 [INFO]: file绝对路径：D:\work_space\js_de\debug\SeleniumConfig\bin\Debug\SootScreens\2019-03-13
+2019-03-13 17:43:50,516 [INFO]: real_scrol:1236
+2019-03-13 17:43:50,521 [INFO]: real_top:0
+2019-03-13 17:44:06,881 [INFO]: i:1
+2019-03-13 17:44:06,889 [INFO]: height:450
+2019-03-13 17:44:17,057 [INFO]: i:2
+2019-03-13 17:44:17,062 [INFO]: height:900
+2019-03-13 17:44:17,068 [INFO]: 等待时间：0
+2019-03-13 17:44:18,094 [INFO]: 点击移交
+2019-03-13 17:44:18,279 [INFO]: 点击完成
+2019-03-13 17:44:25,817 [INFO]: 点击工作中心
+2019-03-13 17:44:30,888 [INFO]: 判断如果是新收办件，就开始了点击事件
+2019-03-13 17:44:30,910 [INFO]: ======exception reason=======org.openqa.selenium.ElementNotVisibleException: element not visible
+2019-03-13 17:44:30,914 [WARN]: org.openqa.selenium.ElementNotVisibleException: element not visible
+2019-03-13 17:44:30,919 [INFO]:   (Session info: chrome=34.0.1847.116)
+2019-03-13 17:44:30,925 [WARN]:   (Session info: chrome=34.0.1847.116)
+2019-03-13 17:44:30,931 [INFO]:   (Driver info: chromedriver=2.9.248315,platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+2019-03-13 17:44:30,948 [WARN]:   (Driver info: chromedriver=2.9.248315,platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+2019-03-13 17:44:30,953 [INFO]: Command duration or timeout: 19 milliseconds
+2019-03-13 17:44:30,958 [WARN]: Command duration or timeout: 19 milliseconds
+2019-03-13 17:44:30,962 [INFO]: Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+2019-03-13 17:44:30,967 [WARN]: Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+2019-03-13 17:44:30,971 [INFO]: System info: host: 'MTC-20180624XMT', ip: '192.168.6.79', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_191'
+2019-03-13 17:44:30,976 [WARN]: System info: host: 'MTC-20180624XMT', ip: '192.168.6.79', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_191'
+2019-03-13 17:44:30,981 [INFO]: Driver info: org.openqa.selenium.chrome.ChromeDriver
+2019-03-13 17:44:30,995 [WARN]: Driver info: org.openqa.selenium.chrome.ChromeDriver
+2019-03-13 17:44:30,999 [INFO]: Capabilities [{applicationCacheEnabled=false, rotatable=false, chrome={userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\scoped_dir16204_19878}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=34.0.1847.116, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+2019-03-13 17:44:31,004 [WARN]: Capabilities [{applicationCacheEnabled=false, rotatable=false, chrome={userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\scoped_dir16204_19878}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=34.0.1847.116, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+2019-03-13 17:44:31,008 [INFO]: Session ID: fe772171b3c42d1d3bda0d39ed8fb2fb
+2019-03-13 17:44:31,013 [WARN]: Session ID: fe772171b3c42d1d3bda0d39ed8fb2fb
+2019-03-13 17:44:31,018 [INFO]: ======exception reason=======org.openqa.selenium.ElementNotVisibleException: element not visible
+2019-03-13 17:44:31,022 [WARN]: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+2019-03-13 17:44:31,041 [INFO]:   (Session info: chrome=34.0.1847.116)
+2019-03-13 17:44:31,046 [WARN]: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+2019-03-13 17:44:31,052 [INFO]:   (Driver info: chromedriver=2.9.248315,platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+2019-03-13 17:44:31,057 [WARN]: 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+2019-03-13 17:44:31,062 [INFO]: Command duration or timeout: 19 milliseconds
+2019-03-13 17:44:31,067 [WARN]: 	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+2019-03-13 17:44:31,072 [INFO]: Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+2019-03-13 17:44:31,077 [WARN]: 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+2019-03-13 17:44:31,082 [INFO]: System info: host: 'MTC-20180624XMT', ip: '192.168.6.79', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_191'
+2019-03-13 17:44:31,088 [WARN]: 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+2019-03-13 17:44:31,093 [INFO]: Driver info: org.openqa.selenium.chrome.ChromeDriver
+2019-03-13 17:44:31,097 [WARN]: 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+2019-03-13 17:44:31,103 [INFO]: Capabilities [{applicationCacheEnabled=false, rotatable=false, chrome={userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\scoped_dir16204_19878}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=34.0.1847.116, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+2019-03-13 17:44:31,107 [WARN]: 	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:269)
+2019-03-13 17:44:31,113 [INFO]: Session ID: fe772171b3c42d1d3bda0d39ed8fb2fb
+2019-03-13 17:44:31,118 [WARN]: 	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:80)
+2019-03-13 17:44:31,123 [WARN]: 	at configSelenium.ConfigSeleniumStart.SelectPro(ConfigSeleniumStart.java:884)
+2019-03-13 17:44:31,134 [WARN]: 	at configSelenium.ConfigSeleniumStart.ActdefAction(ConfigSeleniumStart.java:789)
+2019-03-13 17:44:31,141 [WARN]: 	at configSelenium.ConfigSeleniumStart.main(ConfigSeleniumStart.java:196)
+2019-03-13 17:44:33,029 [WARN]: org.openqa.selenium.ElementNotVisibleException: element not visible
+2019-03-13 17:44:33,036 [INFO]: 这里应该是有报错的时候才会执行
+2019-03-13 17:44:33,044 [WARN]:   (Session info: chrome=34.0.1847.116)
+2019-03-13 17:44:33,054 [INFO]: 我尝试继续执行下面的流程---802
+2019-03-13 17:44:33,059 [WARN]:   (Driver info: chromedriver=2.9.248315,platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+2019-03-13 17:44:33,065 [WARN]: Command duration or timeout: 19 milliseconds
+2019-03-13 17:44:33,072 [WARN]: Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+2019-03-13 17:44:33,078 [WARN]: System info: host: 'MTC-20180624XMT', ip: '192.168.6.79', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_191'
+2019-03-13 17:44:33,100 [WARN]: Driver info: org.openqa.selenium.chrome.ChromeDriver
+2019-03-13 17:44:33,106 [WARN]: Capabilities [{applicationCacheEnabled=false, rotatable=false, chrome={userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\scoped_dir16204_19878}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=34.0.1847.116, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+2019-03-13 17:44:33,111 [WARN]: Session ID: fe772171b3c42d1d3bda0d39ed8fb2fb
+2019-03-13 17:44:33,116 [WARN]: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+2019-03-13 17:44:33,123 [WARN]: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+2019-03-13 17:44:33,132 [WARN]: 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+2019-03-13 17:44:33,138 [WARN]: 	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+2019-03-13 17:44:33,143 [WARN]: 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+2019-03-13 17:44:33,149 [WARN]: 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+2019-03-13 17:44:33,163 [WARN]: 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+2019-03-13 17:44:33,169 [WARN]: 	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:269)
+2019-03-13 17:44:33,174 [WARN]: 	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:80)
+2019-03-13 17:44:33,181 [WARN]: 	at configSelenium.ConfigSeleniumStart.SelectPro(ConfigSeleniumStart.java:884)
+2019-03-13 17:44:33,186 [WARN]: 	at configSelenium.ConfigSeleniumStart.ActdefAction(ConfigSeleniumStart.java:789)
+2019-03-13 17:44:33,198 [WARN]: 	at configSelenium.ConfigSeleniumStart.main(ConfigSeleniumStart.java:196)
+2019-03-13 17:44:33,206 [WARN]: org.openqa.selenium.ElementNotVisibleException: element not visible
+2019-03-13 17:44:33,214 [WARN]:   (Session info: chrome=34.0.1847.116)
+2019-03-13 17:44:33,221 [WARN]:   (Driver info: chromedriver=2.9.248315,platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+2019-03-13 17:44:33,230 [WARN]: Command duration or timeout: 19 milliseconds
+2019-03-13 17:44:33,236 [WARN]: Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+2019-03-13 17:44:33,242 [WARN]: System info: host: 'MTC-20180624XMT', ip: '192.168.6.79', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_191'
+2019-03-13 17:44:33,248 [WARN]: Driver info: org.openqa.selenium.chrome.ChromeDriver
+2019-03-13 17:44:33,257 [WARN]: Capabilities [{applicationCacheEnabled=false, rotatable=false, chrome={userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\scoped_dir16204_19878}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=34.0.1847.116, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+2019-03-13 17:44:33,262 [WARN]: Session ID: fe772171b3c42d1d3bda0d39ed8fb2fb
+2019-03-13 17:44:33,268 [WARN]: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+2019-03-13 17:44:33,274 [WARN]: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+2019-03-13 17:44:33,281 [WARN]: 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+2019-03-13 17:44:33,289 [WARN]: 	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+2019-03-13 17:44:33,294 [WARN]: 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+2019-03-13 17:44:33,300 [WARN]: 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+2019-03-13 17:44:33,307 [WARN]: 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+2019-03-13 17:44:33,321 [WARN]: 	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:269)
+2019-03-13 17:44:33,325 [WARN]: 	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:80)
+2019-03-13 17:44:33,330 [WARN]: 	at configSelenium.ConfigSeleniumStart.SelectPro(ConfigSeleniumStart.java:884)
+2019-03-13 17:44:33,336 [WARN]: 	at configSelenium.ConfigSeleniumStart.ActdefAction(ConfigSeleniumStart.java:789)
+2019-03-13 17:44:33,350 [WARN]: 	at configSelenium.ConfigSeleniumStart.main(ConfigSeleniumStart.java:196)
+2019-03-13 17:44:33,356 [WARN]: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+2019-03-13 17:44:33,361 [WARN]: from unknown error: web view not found
+2019-03-13 17:44:33,371 [WARN]:   (Session info: chrome=34.0.1847.116)
+2019-03-13 17:44:33,384 [WARN]:   (Driver info: chromedriver=2.9.248315,platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+2019-03-13 17:44:33,389 [WARN]: Command duration or timeout: 9 milliseconds
+2019-03-13 17:44:33,393 [WARN]: Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+2019-03-13 17:44:33,399 [WARN]: System info: host: 'MTC-20180624XMT', ip: '192.168.6.79', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_191'
+2019-03-13 17:44:33,405 [WARN]: Driver info: org.openqa.selenium.chrome.ChromeDriver
+2019-03-13 17:44:33,411 [WARN]: Capabilities [{applicationCacheEnabled=false, rotatable=false, chrome={userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\scoped_dir16204_19878}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=34.0.1847.116, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+2019-03-13 17:44:33,421 [WARN]: Session ID: fe772171b3c42d1d3bda0d39ed8fb2fb
+2019-03-13 17:44:33,428 [WARN]: *** Element info: {Using=css selector, value=frame[name='view_首页0'],iframe[name='view_首页0']}
+2019-03-13 17:44:33,436 [WARN]: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+2019-03-13 17:44:33,442 [WARN]: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+2019-03-13 17:44:33,448 [WARN]: 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+2019-03-13 17:44:33,455 [WARN]: 	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+2019-03-13 17:44:33,462 [WARN]: 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+2019-03-13 17:44:33,474 [WARN]: 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+2019-03-13 17:44:33,481 [WARN]: 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+2019-03-13 17:44:33,487 [WARN]: 	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:383)
+2019-03-13 17:44:33,493 [WARN]: 	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByCssSelector(RemoteWebDriver.java:451)
+2019-03-13 17:44:33,505 [WARN]: 	at org.openqa.selenium.By$ByCssSelector.findElements(By.java:437)
+2019-03-13 17:44:33,510 [WARN]: 	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:346)
+2019-03-13 17:44:33,518 [WARN]: 	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.frame(RemoteWebDriver.java:881)
+2019-03-13 17:44:33,539 [WARN]: 	at configSelenium.ConfigSeleniumStart.main(ConfigSeleniumStart.java:154)
+2019-03-13 17:44:33,562 [INFO]: 

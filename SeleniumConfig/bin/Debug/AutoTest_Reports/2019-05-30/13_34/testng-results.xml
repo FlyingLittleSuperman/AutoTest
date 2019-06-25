@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[资料收取<br/><img src="E:\work_space\js_de\debug\SeleniumConfig\bin\Debug\SootScreens\2019-05-30\13_35_19\资料收取.png"  hight="300" width="300"  onclick="javascript:window.open(this.src);"/>]]>
+    </line>
+    <line>
+      <![CDATA[大保存界面<br/><img src="E:\work_space\js_de\debug\SeleniumConfig\bin\Debug\SootScreens\2019-05-30\13_35_19\大保存界面.png"  hight="300" width="300"  onclick="javascript:window.open(this.src);"/>]]>
+    </line>
+    <line>
+      <![CDATA[大保存界面(2)<br/><img src="E:\work_space\js_de\debug\SeleniumConfig\bin\Debug\SootScreens\2019-05-30\13_35_19\大保存界面(2).png"  hight="300" width="300" onclick="javascript:window.open(this.src);" />]]>
+    </line>
+    <line>
+      <![CDATA[大保存界面(3)<br/><img src="E:\work_space\js_de\debug\SeleniumConfig\bin\Debug\SootScreens\2019-05-30\13_35_19\大保存界面(3).png"  hight="300" width="300" onclick="javascript:window.open(this.src);" />]]>
+    </line>
+    <line>
+      <![CDATA[业务号：20190530-0000326]]>
+    </line>
+    <line>
+      <![CDATA[该流程未完成，请留意!]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+  </reporter-output>
+  <suite name="国有房地登记-房地一般抵押登记-首次登记-房地一般抵押首次-单独所有（干晓圆）" duration-ms="193" started-at="2019-05-30T05:37:24Z" finished-at="2019-05-30T05:37:25Z">
+    <groups>
+    </groups>
+    <test name="断言详情查看" duration-ms="193" started-at="2019-05-30T05:37:24Z" finished-at="2019-05-30T05:37:25Z">
+      <class name="Test.DataProviderSet_Assert">
+        <test-method status="PASS" signature="insetToExcel()[pri:0, instance:Test.DataProviderSet_Assert@4ccd6c09]" name="insetToExcel" is-config="true" duration-ms="107" started-at="2019-05-30T05:37:24Z" finished-at="2019-05-30T05:37:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- insetToExcel -->
+        <test-method status="PASS" signature="star(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Test.DataProviderSet_Assert@4ccd6c09]" name="star" duration-ms="2" started-at="2019-05-30T05:37:25Z" data-provider="AssertData" finished-at="2019-05-30T05:37:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[实际结果：房地权利人474177]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[预期结果：房地权利人474177]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[qlrmc断言]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- star -->
+        <test-method status="FAIL" signature="star(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Test.DataProviderSet_Assert@4ccd6c09]" name="star" duration-ms="0" started-at="2019-05-30T05:37:25Z" data-provider="AssertData" finished-at="2019-05-30T05:37:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[实际结果：房地权利人474177]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[预期结果：null]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[qlrmc断言]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.junit.ComparisonFailure">
+            <message>
+              <![CDATA[expected:<"[null]"> but was:<"[房地权利人474177]">]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.junit.ComparisonFailure: expected:<"[null]"> but was:<"[房地权利人474177]">
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at Test.DataProviderSet_Assert.star(DataProviderSet_Assert.java:40)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at configSelenium.ConfigSeleniumStart.dotestng(ConfigSeleniumStart.java:1577)
+at configSelenium.ConfigSeleniumStart.main(ConfigSeleniumStart.java:297)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.junit.ComparisonFailure -->
+          <reporter-output>
+            <line>
+              <![CDATA[]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- star -->
+        <test-method status="PASS" signature="deleteExcel()[pri:0, instance:Test.DataProviderSet_Assert@4ccd6c09]" name="deleteExcel" is-config="true" duration-ms="61" started-at="2019-05-30T05:37:25Z" finished-at="2019-05-30T05:37:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteExcel -->
+      </class> <!-- Test.DataProviderSet_Assert -->
+    </test> <!-- 断言详情查看 -->
+  </suite> <!-- 国有房地登记-房地一般抵押登记-首次登记-房地一般抵押首次-单独所有（干晓圆） -->
+</testng-results>

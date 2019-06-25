@@ -8,7 +8,7 @@
     <listeners>
         <listener class-name="org.uncommons.reportng.HTMLReporter"/>
         <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
-        <!--<listener class-name="AssertListener"/>-->
+        <!--<listener class-name="Test.emailMessage"/>-->
     </listeners>
     <test name="测试申请人" parallel="true" verbose="10">
 

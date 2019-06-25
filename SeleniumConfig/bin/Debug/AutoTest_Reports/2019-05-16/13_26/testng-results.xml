@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[大保存<br/><img src="E:\work_space\js_de\debug\SeleniumConfig\bin\Debug\SootScreens\2019-05-16\13_27\大保存.png"  hight="300" width="300"  onclick="javascript:window.open(this.src);"/>]]>
+    </line>
+    <line>
+      <![CDATA[大保存(2)<br/><img src="E:\work_space\js_de\debug\SeleniumConfig\bin\Debug\SootScreens\2019-05-16\13_27\大保存(2).png"  hight="300" width="300" onclick="javascript:window.open(this.src);" />]]>
+    </line>
+    <line>
+      <![CDATA[业务号：20190516-0000838]]>
+    </line>
+    <line>
+      <![CDATA[该流程已正常走完!]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[业务号：20190516-0000841]]>
+    </line>
+    <line>
+      <![CDATA[该流程已正常走完!]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[流程环节报错信息：org.openqa.selenium.TimeoutException: Timed out after 30 seconds waiting for visibility of all elements located by By.xpath: //a[@title='审批表']
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'SuperMan-Wangyan20180625', ip: '192.168.6.79', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, chrome={userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\scoped_dir2268_5472}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=34.0.1847.116, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: b4669dc8483e3a35cb6f242f09f72e67]]>
+    </line>
+    <line>
+      <![CDATA[环节操作-报错截图2019-05-16 13_26<br/><img src="E:\work_space\js_de\debug\SeleniumConfig\bin\Debug\SootScreens\2019-05-16\13_27\环节操作-报错截图2019-05-16 13_26.png"  hight="300" width="300"  onclick="javascript:window.open(this.src);"/>]]>
+    </line>
+    <line>
+      <![CDATA[流程环节报错信息：org.openqa.selenium.TimeoutException: Timed out after 30 seconds waiting for visibility of all elements located by By.xpath: //a[@title='审批表']
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'SuperMan-Wangyan20180625', ip: '192.168.6.79', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, chrome={userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\scoped_dir2268_5472}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=34.0.1847.116, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: b4669dc8483e3a35cb6f242f09f72e67]]>
+    </line>
+    <line>
+      <![CDATA[环节操作-报错截图2019-05-16 13_26<br/><img src="E:\work_space\js_de\debug\SeleniumConfig\bin\Debug\SootScreens\2019-05-16\13_27\环节操作-报错截图2019-05-16 13_26.png"  hight="300" width="300"  onclick="javascript:window.open(this.src);"/>]]>
+    </line>
+    <line>
+      <![CDATA[流程环节报错信息：org.openqa.selenium.TimeoutException: Timed out after 30 seconds waiting for visibility of all elements located by By.xpath: //a[@title='审批表']
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'SuperMan-Wangyan20180625', ip: '192.168.6.79', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, chrome={userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\scoped_dir2268_5472}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=34.0.1847.116, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: b4669dc8483e3a35cb6f242f09f72e67]]>
+    </line>
+    <line>
+      <![CDATA[环节操作-报错截图2019-05-16 13_26<br/><img src="E:\work_space\js_de\debug\SeleniumConfig\bin\Debug\SootScreens\2019-05-16\13_27\环节操作-报错截图2019-05-16 13_26.png"  hight="300" width="300"  onclick="javascript:window.open(this.src);"/>]]>
+    </line>
+    <line>
+      <![CDATA[执行报错信息：Timed out after 30 seconds waiting for visibility of all elements located by By.xpath: //a[@title='审批表']
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'SuperMan-Wangyan20180625', ip: '192.168.6.79', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, chrome={userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\scoped_dir2268_5472}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=34.0.1847.116, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: b4669dc8483e3a35cb6f242f09f72e67]]>
+    </line>
+    <line>
+      <![CDATA[执行方案-报错截图2019-05-16 13_26<br/><img src="E:\work_space\js_de\debug\SeleniumConfig\bin\Debug\SootScreens\2019-05-16\13_27\执行方案-报错截图2019-05-16 13_26.png"  hight="300" width="300"  onclick="javascript:window.open(this.src);"/>]]>
+    </line>
+    <line>
+      <![CDATA[强行退出]]>
+    </line>
+    <line>
+      <![CDATA[该流程已正常走完!]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+  </reporter-output>
+  <suite name="预购商品房预告登记流程-预购商品房预告登记-预购商品房预告更正登记-预购商品房-预告更正登记（王岩）" duration-ms="1" started-at="2019-05-16T05:42:10Z" finished-at="2019-05-16T05:42:10Z">
+    <groups>
+    </groups>
+    <test name="断言详情查看" duration-ms="1" started-at="2019-05-16T05:42:10Z" finished-at="2019-05-16T05:42:10Z">
+      <class name="Test.NoAssert">
+        <test-method status="PASS" signature="showReport()[pri:0, instance:Test.NoAssert@1d6747d6]" name="showReport" duration-ms="0" started-at="2019-05-16T05:42:10Z" finished-at="2019-05-16T05:42:10Z">
+          <reporter-output>
+            <line>
+              <![CDATA[]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- showReport -->
+      </class> <!-- Test.NoAssert -->
+    </test> <!-- 断言详情查看 -->
+  </suite> <!-- 预购商品房预告登记流程-预购商品房预告登记-预购商品房预告更正登记-预购商品房-预告更正登记（王岩） -->
+</testng-results>

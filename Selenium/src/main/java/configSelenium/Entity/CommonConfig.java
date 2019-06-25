@@ -5,13 +5,14 @@ import java.io.Serializable;
 /**
  * Created by Administrator on 2016/12/21.
  */
-public class CommonConfig implements Serializable {
+public class CommonConfig implements Serializable  {
     private String ChromeDriverUrl; //ChromeDriver地址
     private String PhatomJSDriverUrl; //PhatomJSDriver地址
     private String LoginUrl;//系统登陆地址
     private String LoginUserName;//系统登陆用户
     private String YJName;//移交人名称
     private String ReceiveEmailAdd;//邮件接收人地址
+    private Boolean SendEmail;//设置是否接收邮件
     private String LoginPassWord; //系统登陆密码
     private String FirstPageIframe; //首页iframe名称
     private String CreateProIframe;//新建办件iframe名称
@@ -136,6 +137,7 @@ public class CommonConfig implements Serializable {
     }
 
     private String DbName;
+    private String DbIpAdress;
     private String DbUserName;
     private String DbPassWord;
 
@@ -146,5 +148,22 @@ public class CommonConfig implements Serializable {
 
     public void setReceiveEmailAdd(String receiveEmailAdd) {
         ReceiveEmailAdd = receiveEmailAdd;
+    }
+
+
+    public Boolean getSendEmail() {
+        return SendEmail;
+    }
+
+    public void setSendEmail(Boolean sendEmail) {
+        SendEmail = sendEmail;
+    }
+
+    public String getDbIpAdress() {
+        return DbIpAdress;
+    }
+
+    public void setDbIpAdress(String dbIpAdress) {
+        DbIpAdress = dbIpAdress;
     }
 }

@@ -1,0 +1,27 @@
+2019-03-20 15:14:21,765 [main] ERROR [util.LoggerUtils] - java.sql.SQLException: ORA-28000: the account is locked
+
+	at oracle.jdbc.driver.SQLStateMapping.newSQLException(SQLStateMapping.java:70)
+	at oracle.jdbc.driver.DatabaseError.newSQLException(DatabaseError.java:133)
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:206)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:455)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:406)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:399)
+	at oracle.jdbc.driver.T4CTTIoauthenticate.receiveOauth(T4CTTIoauthenticate.java:799)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:368)
+	at oracle.jdbc.driver.PhysicalConnection.<init>(PhysicalConnection.java:508)
+	at oracle.jdbc.driver.T4CConnection.<init>(T4CConnection.java:203)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:33)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:510)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at util.DataBase.<clinit>(DataBase.java:42)
+	at configSelenium.InitCommonParameter.FilterValue(InitCommonParameter.java:481)
+	at configSelenium.InitCommonParameter.InitSqlConfigBatchSql(InitCommonParameter.java:391)
+	at configSelenium.ConfigSeleniumStart.main(ConfigSeleniumStart.java:90)
+
+2019-03-20 15:14:21,770 [main] ERROR [util.LoggerUtils] - java.lang.RuntimeException: 获取数据库连接失败！
+	at util.DataBase.<clinit>(DataBase.java:49)
+	at configSelenium.InitCommonParameter.FilterValue(InitCommonParameter.java:481)
+	at configSelenium.InitCommonParameter.InitSqlConfigBatchSql(InitCommonParameter.java:391)
+	at configSelenium.ConfigSeleniumStart.main(ConfigSeleniumStart.java:90)
+

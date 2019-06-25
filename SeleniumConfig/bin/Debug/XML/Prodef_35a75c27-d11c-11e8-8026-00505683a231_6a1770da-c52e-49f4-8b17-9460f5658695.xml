@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Element>
+  <Prodef ID="35a75c27-d11c-11e8-8026-00505683a231" Name="转移登记" PackageID="38bcedca-df88-11e5-b408-000c29187a9e">
+    <Actdef ID="sid-0BDAD184-954C-41C5-B601-D131E9DA88F6" Name="收件受理">
+      <iframe>
+        <iframeChild ID="22206f10-d697-4df8-8a32-14436a7ab31c" Name="窗口资料收取" URL="GisqPlatformExplorer/modules/bizmodel/datums_submit">
+          <LocationElement ID="bdfae885-43d2-460a-9714-a3e6120f9d31" LocationType="ID" Path="123" OperateType="CLICK" Order="1" DefaultValue="123" SqlSchemaId="" Introduce="123" IsRandom="False" WaitSecond="123" />
+        </iframeChild>
+        <iframeChild ID="f18eb520-e05d-11e5-8188-000c29187a9e" Name="申请信息" URL="GisqQueryList/views/reports/realestate/common/acceptance/Acceptance_HouseRight_Initial.jsp?reportlet=realestate/common/acceptance/Acceptance_HouseRight_Initial.cpt" />
+      </iframe>
+    </Actdef>
+  </Prodef>
+</Element>

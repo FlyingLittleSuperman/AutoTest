@@ -1,0 +1,4 @@
+2019-05-05 08:55:36,450 [ERROR]: http://192.168.2.119:8082/GisqPlatformDesigner-Rest/service/workflow/modelcategories-all?parentId=
+2019-05-05 08:55:37,728 [ERROR]: System.Net.WebException: 操作超时
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 SeleniumConfig.CommonClass.RestUserLoginService.HttpRequest(HttpWebRequest request)

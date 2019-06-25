@@ -5,7 +5,7 @@ import java.io.Serializable;
 /**
  * Created by Administrator on 2017/1/4.
  */
-public class TableRelation implements Serializable {
+public class TableRelation implements Serializable  {
     public String getTableRelationId() {
         return tableRelationId;
     }

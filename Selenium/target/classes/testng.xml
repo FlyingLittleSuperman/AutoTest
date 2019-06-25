@@ -1,25 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="119自动化测试" parallel="false" >
-
+<suite name="119登记自动化测试" parallel="true"  >
 
     <listeners>
         <listener class-name="org.uncommons.reportng.HTMLReporter"/>
         <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
-        <!--<listener class-name="AssertListener"/>-->
+        <!--<listener class-name="Test.emailMessage"/>-->
+            <!-- class-name的值填写为时间创建的监听器的路径 -->
+
+
     </listeners>
+    <test name="测试申请人" parallel="true" verbose="10">
 
 
-    <test name="119登记系统测试-权利人名称" parallel="false" verbose="10" >
-
-        <classes>
-            <class name="configSelenium.ConfigSeleniumStart">
-                <!--<methods>-->
-                    <!--<include name="AssertReult"></include>-->
-                <!--</methods>-->
-            </class>
-        </classes>
     </test>
+
 
 
 </suite>

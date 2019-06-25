@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Element>
+  <Prodef ID="ad6052f9-755d-11e9-b06b-fa163ea73528" Name="预购商品房预告注销登记" PackageID="fa382454-5207-11e5-b3a7-000c2948487c">
+    <Actdef ID="sid-9D698075-6E3B-40B7-B83B-FC426E0C397D" Name="收件受理">
+      <iframe>
+        <iframeChild ID="6a33850e-1a20-422e-8c16-077da323c4b3" Name="窗口资料收取" URL="GisqPlatformExplorer/modules/bizmodel/datums_submit">
+          <LocationElement ID="19833837-810d-4151-9064-4e5d46ec83e7" LocationType="XPATH" Path="//div[@role='combobox']" OperateType="QT" Order="1" DefaultValue="$(&quot;#{ID}&quot;).jqxDropDownList('selectIndex', 0 );" Introduce="资料类别" SqlSchemaId="" IsRandom="False" WaitSecond="0">
+            <ChildLocationElement ID="248077d3-014e-457a-b26d-da6fa9c9cad9" LocationType="NAME" Path="1" OperateType="SENDKEYS" Order="1" DefaultValue="11" />
+          </LocationElement>
+          <LocationElement ID="1abd678c-ce5e-4343-8e1c-54b1d214f781" LocationType="ID" Path="saveDatum" OperateType="CLICK" Order="2" DefaultValue="" Introduce="保存窗口资料" SqlSchemaId="" IsRandom="False" WaitSecond="0" />
+        </iframeChild>
+        <iframeChild ID="1e88b338-5863-11e5-9903-000c2948487c" Name="申请信息" URL="GisqQueryList/views/reports/realestate/common/acceptance/Acceptance_UnForeNotice.jsp?reportlet=realestate/common/acceptance/Acceptance_UnForeNotice.cpt">
+          <LocationElement ID="4dfdabf6-b134-4a85-aba4-7420fa5f8e6d" LocationType="ID" Path="CXBDC" OperateType="CLICK" Order="1" DefaultValue="" Introduce="添加单元" IsRandom="False" WaitSecond="0" SqlSchemaId="" />
+          <LocationElement ID="a5b30b31-48d3-433d-a2ad-f4a1ad4027d8" LocationType="ID" Path="iFrameDY" OperateType="IFRAME" Order="2" DefaultValue="iFrameDY" Introduce="弹出单元查询页面" IsRandom="False" WaitSecond="0" SqlSchemaId="" IsNameRandom="False">
+            <ChildLocationElement ID="653f74dd-6e21-45ba-b169-c27aff7d0221" LocationType="ID" Path="bdcdyh" OperateType="SENDKEYS" Order="2" DefaultValue="selenium_pro_ygdj_h" Introduce="不动产单元号" IsRandom="False" WaitSecond="0" SqlSchemaId="" IsNameRandom="False" />
+            <ChildLocationElement ID="4ab1542c-3d4d-448e-b511-2c94da3012e5" LocationType="ID" Path="btn_search" OperateType="CLICK" Order="3" DefaultValue="" Introduce="查询" IsRandom="False" WaitSecond="0" SqlSchemaId="" />
+            <ChildLocationElement ID="9d02b5aa-29c3-430b-88f4-8e15e1c10dcf" LocationType="XPATH" Path="//div[@class='l-grid-hd-cell-text l-grid-hd-cell-btn-checkbox']" OperateType="CLICK" Order="4" DefaultValue="" Introduce="全选" IsRandom="False" WaitSecond="3" SqlSchemaId="" IsNameRandom="False" />
+            <ChildLocationElement ID="e6104470-2b54-4b7b-989f-df5a3703c7ac" LocationType="ID" Path="btn_ok" OperateType="CLICK" Order="5" DefaultValue="" Introduce="确认选择" IsRandom="False" WaitSecond="0" SqlSchemaId="" />
+          </LocationElement>
+          <LocationElement ID="edae2286-4d3d-4b30-81f3-9b4b835f8c19" LocationType="ID" Path="MMDJYY" OperateType="SENDKEYS" Order="3" DefaultValue="预购商品房预告-注销登记" SqlSchemaId="" Introduce="填写申请理由" IsRandom="False" WaitSecond="0" IsNameRandom="False" />
+          <LocationElement ID="cda529c0-19ed-45c6-a003-76191cd61eab" LocationType="ID" Path="SSXZQ" OperateType="SENDKEYS" Order="4" DefaultValue="1" SqlSchemaId="" Introduce="行政区赋值" IsRandom="False" IsNameRandom="False" WaitSecond="0" />
+          <LocationElement ID="c81be7bd-a6fc-4416-84ff-3f06b13b5ee4" LocationType="ID" Path="BZ" OperateType="SENDKEYS" Order="5" DefaultValue="备注信息" SqlSchemaId="" Introduce="备注" IsRandom="False" WaitSecond="0" IsNameRandom="False" />
+          <LocationElement ID="34eb6854-0636-4d38-ac98-0b107ae3f20c" LocationType="XPATH" Path="//span[@class=' x-emb-submit']" OperateType="CLICK" Order="6" DefaultValue="" Introduce="大保存" IsRandom="False" WaitSecond="0" SqlSchemaId="" IsNameRandom="False" />
+        </iframeChild>
+      </iframe>
+    </Actdef>
+    <Actdef ID="sid-8F52E985-3A48-4F45-AA0E-3C556CFBFB74" Name="初审">
+      <iframe>
+        <iframeChild ID="1a4a0c9b-106d-4668-80b5-9ef11c26852a" Name="审批表" URL="realestate/ReportServer?reportlet=realestate/common/approveform/ApproveFormYG.cpt">
+          <LocationElement ID="14795e53-013a-48f7-a65a-20da09cc685f" LocationType="XPATH" Path="//*[@id=&quot;content-container&quot;]/div[2]/div[2]/div/div/table/tbody/tr/td[2]/div/table/tbody/tr/td[1]/div" OperateType="CLICK" Order="1" DefaultValue="" Introduce="切换到意见页" IsRandom="False" WaitSecond="0" SqlSchemaId="" />
+          <LocationElement ID="60f16b90-82a9-4f9d-997d-ac6c1c0442d5" LocationType="XPATH" Path="//*[@id=&quot;fr-btn-&quot;]/tbody/tr[2]/td[2]/em/button" OperateType="CLICK" Order="2" DefaultValue="" SqlSchemaId="" Introduce="保存" IsRandom="False" IsNAMERandom="False" WaitSecond="0" />
+        </iframeChild>
+      </iframe>
+    </Actdef>
+    <Actdef ID="sid-069B55A3-32CA-45D4-9995-91F0EE932506" Name="复审">
+      <iframe>
+        <iframeChild ID="df7566a5-2b5f-44ee-988e-5b45f0ca03c3" Name="审批表" URL="realestate/ReportServer?reportlet=realestate/common/approveform/ApproveFormYG.cpt">
+          <LocationElement ID="14795e53-013a-48f7-a65a-20da09cc685f" LocationType="XPATH" Path="//*[@id=&quot;content-container&quot;]/div[2]/div[2]/div/div/table/tbody/tr/td[2]/div/table/tbody/tr/td[1]/div" OperateType="CLICK" Order="1" DefaultValue="" Introduce="切换到意见页" IsRandom="False" WaitSecond="0" SqlSchemaId="" />
+          <LocationElement ID="f3717e61-fe09-49fc-8f23-ffe5ac0fe00f" LocationType="XPATH" Path="//*[@id=&quot;fr-btn-&quot;]/tbody/tr[2]/td[2]/em/button" OperateType="CLICK" Order="2" DefaultValue="" SqlSchemaId="" Introduce="保存" IsRandom="False" WaitSecond="0" IsNameRandom="False" />
+          <LocationElement ID="b99062f1-8ac4-49ae-b98c-2af4d6493752" LocationType="ID" Path="C13" OperateType="FR2" Order="3" DefaultValue="核定意见" SqlSchemaId="" Introduce="核定意见" IsRandom="True" IsNameRandom="False" WaitSecond="0" />
+          <LocationElement ID="f9aa951b-411c-4c24-b516-472b5624156d" LocationType="ID" Path="E14" OperateType="FR2" Order="4" DefaultValue="自动化测试" SqlSchemaId="" Introduce="核定负责人" IsRandom="False" IsNameRandom="False" WaitSecond="0" />
+          <LocationElement ID="99a09ed2-2523-4331-bb6f-c7d5b5fd133d" LocationType="ID" Path="L14" OperateType="FR2" Order="5" DefaultValue="{NOW}" SqlSchemaId="" Introduce="核定时间" IsRandom="False" IsNameRandom="False" WaitSecond="0" />
+          <LocationElement ID="f3717e61-fe09-49fc-8f23-ffe5ac0fe00f" LocationType="XPATH" Path="//*[@id=&quot;fr-btn-&quot;]/tbody/tr[2]/td[2]/em/button" OperateType="CLICK" Order="6" DefaultValue="" SqlSchemaId="" Introduce="保存" IsRandom="False" WaitSecond="0" IsNameRandom="False" />
+        </iframeChild>
+      </iframe>
+    </Actdef>
+    <Actdef ID="sid-A54C39F1-99F2-4FCB-9D03-5B7063B52923" Name="登簿">
+      <iframe>
+        <iframeChild ID="7a4d2ca3-5864-11e5-9903-000c2948487c" Name="登簿" URL="GisqQueryList/views/reports/realestate/common/recordregbook/UnCertiRecordRegBook.jsp?reportlet=realestate/common/recordregbook/UnCertiRecordRegBook.cpt">
+          <LocationElement ID="332f26c1-e36d-4645-ac5a-ddcc6b727de0" LocationType="XPATH" Path="//button[@type='button']@@@保存" OperateType="CLICK" Order="1" DefaultValue="" Introduce="保存" IsRandom="False" WaitSecond="0" SqlSchemaId="" IsNameRandom="False" />
+          <LocationElement ID="646bbdbc-b8fa-4cdf-9d43-480604abf2b0" LocationType="XPATH" Path="//button[@type='button']@@@确认登簿" OperateType="CLICK" Order="2" DefaultValue="" Introduce="确认登簿" IsRandom="False" WaitSecond="2" SqlSchemaId="" IsNameRandom="False" />
+          <LocationElement ID="c9b10375-1d5c-4cb2-84fe-885199202ab1" LocationType="XPATH" Path="//div[@class='btnSure novTime']" OperateType="CLICK" Order="3" DefaultValue="" Introduce="提示确认选择" IsRandom="False" WaitSecond="0" SqlSchemaId="" IsNameRandom="False" />
+        </iframeChild>
+      </iframe>
+    </Actdef>
+    <Actdef ID="sid-C2D5697E-27A5-4E1B-AE99-64D998259B05" Name="发证">
+      <iframe>
+        <iframeChild ID="9042484b-f24b-11e5-89c3-000c29187a9e" Name="登记证明" URL="realestate/ReportServer?reportlet=realestate/recerti/UnFornoticeCertiForm.cpt" />
+      </iframe>
+    </Actdef>
+  </Prodef>
+</Element>

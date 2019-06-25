@@ -35,7 +35,7 @@ public class DataBase {
                     urlProperties.load(is);
 
                     JdbcDriver = "oracle.jdbc.driver.OracleDriver";
-                    JdbcUrl = "jdbc:oracle:thin:@" + commonConfig.getServiceIP() + ":1521:" + commonConfig.getDbName();
+                    JdbcUrl = "jdbc:oracle:thin:@" + commonConfig.getDbIpAdress() + ":1521:" + commonConfig.getDbName();
                     JdbcUseName = commonConfig.getDbUserName();
                     JdbcPassWord = commonConfig.getDbPassWord();
                     Class.forName(JdbcDriver);

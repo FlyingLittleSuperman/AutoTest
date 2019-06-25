@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[开始准备测试数据 ]]>
+    </line>
+    <line>
+      <![CDATA[资料收取 17_37]]>
+    </line>
+    <line>
+      <![CDATA[<br/><img src="D:\work_space\js_de\debug\SeleniumConfig\bin\Debug\SootScreens\2019-03-19\17_37\资料收取 17_37.png"  hight="900" width="900" />]]>
+    </line>
+    <line>
+      <![CDATA[大保存 17_38]]>
+    </line>
+    <line>
+      <![CDATA[<br/><img src="D:\work_space\js_de\debug\SeleniumConfig\bin\Debug\SootScreens\2019-03-19\17_37\大保存 17_38.png"  hight="900" width="900" />]]>
+    </line>
+    <line>
+      <![CDATA[大保存 17_38(2)]]>
+    </line>
+    <line>
+      <![CDATA[<br/><img src="D:\work_space\js_de\debug\SeleniumConfig\bin\Debug\SootScreens\2019-03-19\17_37\大保存 17_38(2).png"  hight="900" width="900"  />]]>
+    </line>
+    <line>
+      <![CDATA[大保存 17_38(3)]]>
+    </line>
+    <line>
+      <![CDATA[<br/><img src="D:\work_space\js_de\debug\SeleniumConfig\bin\Debug\SootScreens\2019-03-19\17_37\大保存 17_38(3).png"  hight="900" width="900"  />]]>
+    </line>
+    <line>
+      <![CDATA[使用权断言对比]]>
+    </line>
+  </reporter-output>
+  <suite name="三权分置流程-三权分置-宅基地资格权与房屋租赁使用权" duration-ms="260" started-at="2019-03-19T09:39:18Z" finished-at="2019-03-19T09:39:18Z">
+    <groups>
+    </groups>
+    <test name="断言详情查看" duration-ms="260" started-at="2019-03-19T09:39:18Z" finished-at="2019-03-19T09:39:18Z">
+      <class name="Test.DataProviderSet_Assert">
+        <test-method status="PASS" signature="insetToExcel()[pri:0, instance:Test.DataProviderSet_Assert@54a3ab8f]" name="insetToExcel" is-config="true" duration-ms="504" started-at="2019-03-19T17:39:17Z" finished-at="2019-03-19T17:39:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- insetToExcel -->
+        <test-method status="PASS" signature="star(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Test.DataProviderSet_Assert@54a3ab8f]" name="star" duration-ms="124" started-at="2019-03-19T17:39:18Z" data-provider="AssertData" finished-at="2019-03-19T17:39:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[33]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[33]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[使用权断言对比]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[使用权断言对比]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- star -->
+        <test-method status="PASS" signature="deleteExcel()[pri:0, instance:Test.DataProviderSet_Assert@54a3ab8f]" name="deleteExcel" is-config="true" duration-ms="17" started-at="2019-03-19T17:39:18Z" finished-at="2019-03-19T17:39:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteExcel -->
+      </class> <!-- Test.DataProviderSet_Assert -->
+    </test> <!-- 断言详情查看 -->
+  </suite> <!-- 三权分置流程-三权分置-宅基地资格权与房屋租赁使用权 -->
+</testng-results>

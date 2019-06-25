@@ -13,9 +13,9 @@ public class ChangeDriver {
 
         WebDriver webThree = null;
         for (String s : currentThree) {
-            if (s.equals(currentWindow))
+            if (s.equals(currentWindow)) {
                 continue;
-            else {
+            } else {
                 webThree = driver.switchTo().window(s);
                 break;
             }

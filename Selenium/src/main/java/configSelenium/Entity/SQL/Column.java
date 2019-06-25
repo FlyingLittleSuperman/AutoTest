@@ -5,7 +5,7 @@ import java.io.Serializable;
 /**
  * Created by Administrator on 2017/1/4.
  */
-public class Column implements Serializable {
+public class Column  implements Serializable{
     public String getColumnName() {
         return columnName;
     }

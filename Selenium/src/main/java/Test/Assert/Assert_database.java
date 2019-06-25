@@ -12,16 +12,27 @@ public class Assert_database {
     static Connection ct = null;
     static PreparedStatement stmt=null;
 
+    public static void main(String []args) throws SQLException {
+        ResultSet rs =Assert_database.getResult("select t.tdsyqmj,t.mj from djfz_dymx t where ywh='20190613-0001104'");
+
+
+        if(rs.next()){
+            String result = rs.getString(1);
+            String result1 = rs.getString(2);
+            System.out.println(result+"/"+result1);
+
+        }
+    }
+
     public static Connection getConnection(){
         try {
             if(ct!=null&&!ct.isClosed()) {
                 return ct;
             }
-            Class.forName(DataBase.JdbcDriver);
-//            Class.forName("oracle.jdbc.driver.OracleDriver");
-            ct=DriverManager.getConnection(DataBase.JdbcUrl,DataBase.JdbcUseName,DataBase.JdbcPassWord);
-//            ct=DriverManager.getConnection("jdbc:oracle:thin:@192.168.2.119:1521:testbdc","bdcdj","bdcdj119");
-
+//            Class.forName(DataBase.JdbcDriver);
+//            ct=DriverManager.getConnection(DataBase.JdbcUrl,DataBase.JdbcUseName,DataBase.JdbcPassWord);
+            Class.forName("oracle.jdbc.driver.OracleDriver");
+            ct=DriverManager.getConnection("jdbc:oracle:thin:@192.168.2.119:1521:testbdc","bdcdj","bdcdj119");
             if(ct==null) {
                 throw new Exception("获取连接失败！");
             }
@@ -49,27 +60,15 @@ public class Assert_database {
 
         } catch (Exception e) {
             e.printStackTrace();
-        } finally {
-
-            try {
-
-//                stmt.close();
-            } catch (Exception er) {
-                er.printStackTrace();
-            }
-            try {
-//                ct.close();
-
-            } catch (Exception er) {
-                er.printStackTrace();
-            }
         }
+
 
         return rs;
     }
 
+
     public static void getClose(){
-        System.out.println("要关闭了");
+
         if(stmt!=null){
             try {
                 stmt.close();
@@ -88,55 +87,4 @@ public class Assert_database {
         }
     }
 
-    public static void main(String[] args) throws SQLException {
-//        ResultSet rs=null;
-//        String result="";
-//
-//        rs=getResult("select qlrmc from slsq where ywh='20190223-0001931'");
-//        if(rs.next()){
-//            result=rs.getString(1);
-//            System.out.println("result:"+result);
-//        }
-//        getClose();
-
-
-//        ResultSet rs = null;
-//        PreparedStatement stmt=null;
-//        Connection ct = null;
-//        try {
-////            Class.forName(DataBase.JdbcDriver);
-////            Connection ct=DataBase.connection;
-//            Class.forName("oracle.jdbc.driver.OracleDriver");
-//            ct= DriverManager.getConnection("jdbc:oracle:thin:@192.168.2.119:1521:testbdc","bdcdj","bdcdj119");
-//            System.out.println("成功了");
-//            stmt=ct.prepareCall("select qlrmc from slsq where ywh='20190223-0001931'");
-//            rs=stmt.executeQuery();
-//
-//            ResultSetMetaData rsmd=rs.getMetaData();
-////            int columns=rsmd.getColumnCount();  //获取结果集的列数
-//            if(rs.next()) {
-//                System.out.println("null:"+rs.getString(1));
-//            }
-//
-//
-//        } catch (Exception e) {
-//            e.printStackTrace();
-//        } finally {
-//
-//            try {
-//
-//                stmt.close();
-//            } catch (Exception er) {
-//                er.printStackTrace();
-//            }
-//            try {
-//                ct.close();
-//
-//            } catch (Exception er) {
-//                er.printStackTrace();
-//            }
-//
-//
-//        }
-    }
 }

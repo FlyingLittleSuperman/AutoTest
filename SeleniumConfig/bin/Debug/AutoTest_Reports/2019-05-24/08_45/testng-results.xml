@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[流程环节操作-报错信息：org.openqa.selenium.TimeoutException: Timed out after 30 seconds waiting for visibility of all elements located by By.xpath: //a[@title='窗口资料收取']
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'SuperMan-Wangyan20180625', ip: '192.168.6.79', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, chrome={userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\scoped_dir16548_7737}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=34.0.1847.116, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 16232db4093d1037fa0dc093dd6a6c36]]>
+    </line>
+    <line>
+      <![CDATA[环节操作-报错截图2019-05-24 08_45<br/><img src="E:\work_space\js_de\debug\SeleniumConfig\bin\Debug\SootScreens\2019-05-24\08_46_06\环节操作-报错截图2019-05-24 08_45.png"  hight="300" width="300"  onclick="javascript:window.open(this.src);"/>]]>
+    </line>
+    <line>
+      <![CDATA[执行报错信息：unknown error: closeTaskExt is not defined
+  (Session info: chrome=34.0.1847.116)
+  (Driver info: chromedriver=2.9.248315,platform=Windows NT 6.3 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 39 milliseconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'SuperMan-Wangyan20180625', ip: '192.168.6.79', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, chrome={userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\scoped_dir16548_7737}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=34.0.1847.116, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 16232db4093d1037fa0dc093dd6a6c36]]>
+    </line>
+    <line>
+      <![CDATA[执行方案-报错截图2019-05-24 08_46_06<br/><img src="E:\work_space\js_de\debug\SeleniumConfig\bin\Debug\SootScreens\2019-05-24\08_46_06\执行方案-报错截图2019-05-24 08_46_06.png"  hight="300" width="300"  onclick="javascript:window.open(this.src);"/>]]>
+    </line>
+    <line>
+      <![CDATA[强行退出]]>
+    </line>
+    <line>
+      <![CDATA[已关闭相关服务进程]]>
+    </line>
+    <line>
+      <![CDATA[业务号：20190524-0001123]]>
+    </line>
+    <line>
+      <![CDATA[该流程未完成，请留意!]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+  </reporter-output>
+  <suite name="11.8预购商品房预告登记-预购商品房预告登记-预购商品房抵押权预告登记-11.8-预购商品房-抵押权预告登记（王岩）" duration-ms="16" started-at="2019-05-24T00:46:11Z" finished-at="2019-05-24T00:46:11Z">
+    <groups>
+    </groups>
+    <test name="断言详情查看" duration-ms="16" started-at="2019-05-24T00:46:11Z" finished-at="2019-05-24T00:46:11Z">
+      <class name="Test.NoAssert">
+        <test-method status="PASS" signature="showReport()[pri:0, instance:Test.NoAssert@6401b8a4]" name="showReport" duration-ms="3" started-at="2019-05-24T00:46:11Z" finished-at="2019-05-24T00:46:11Z">
+          <reporter-output>
+            <line>
+              <![CDATA[]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- showReport -->
+      </class> <!-- Test.NoAssert -->
+    </test> <!-- 断言详情查看 -->
+  </suite> <!-- 11.8预购商品房预告登记-预购商品房预告登记-预购商品房抵押权预告登记-11.8-预购商品房-抵押权预告登记（王岩） -->
+</testng-results>

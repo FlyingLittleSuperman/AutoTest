@@ -40,7 +40,6 @@ public class StaticValue {
         if(ApplicationPath==null){
             try {
                 String path = ConfigSeleniumStart.class.getProtectionDomain().getCodeSource().getLocation().getPath();
-                System.out.println("path:"+path);
                 path = java.net.URLDecoder.decode(path, "UTF-8");
                 path = path.replace("/SeleniumJAVA/Selenium.jar","");
                 ApplicationPath = path;

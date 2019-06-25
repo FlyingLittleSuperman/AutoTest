@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[资料收取-assert_3<br/><img src=\\"E:\work_space\js_de\debug\SeleniumConfig\bin\Debug\SootScreens\2019-05-22\12_24_16\资料收取-assert_3.png\\"  hight=\\"300\\" width=\\"300\\"  onclick=\\"javascript:window.open(this.src);\\"/>]]>
+    </line>
+    <line>
+      <![CDATA[收件受理-环节移交异常！转出校验信息为：
+请添加需要登记的不动产单元！ 请添加办件相关申请人！
+]]>
+    </line>
+    <line>
+      <![CDATA[转出校验提示框-2019-05-22 12_25_07<br/><img src=\\"E:\work_space\js_de\debug\SeleniumConfig\bin\Debug\SootScreens\2019-05-22\12_24_16\转出校验提示框-2019-05-22 12_25_07.png\\"  hight=\\"300\\" width=\\"300\\"  onclick=\\"javascript:window.open(this.src);\\"/>]]>
+    </line>
+    <line>
+      <![CDATA[业务号：20190522-0007131]]>
+    </line>
+    <line>
+      <![CDATA[该流程未完成，请留意!]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[org.junit.ComparisonFailure: expected:<\\"[添加什么]\\"> but was:<\\"[    添加]\\">]]>
+    </line>
+    <line>
+      <![CDATA[    sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)]]>
+    </line>
+    <line>
+      <![CDATA[    sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)]]>
+    </line>
+    <line>
+      <![CDATA[    sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)]]>
+    </line>
+    <line>
+      <![CDATA[    Test.DataProviderSet_Assert.star(DataProviderSet_Assert.java:39)]]>
+    </line>
+    <line>
+      <![CDATA[    sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)]]>
+    </line>
+    <line>
+      <![CDATA[    sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)]]>
+    </line>
+    <line>
+      <![CDATA[    sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)]]>
+    </line>
+    <line>
+      <![CDATA[    java.lang.reflect.Method.invoke(Unknown Source)]]>
+    </line>
+    <line>
+      <![CDATA[    org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)]]>
+    </line>
+    <line>
+      <![CDATA[    org.testng.internal.Invoker.invokeMethod(Invoker.java:583)]]>
+    </line>
+    <line>
+      <![CDATA[    org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)]]>
+    </line>
+    <line>
+      <![CDATA[    org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)]]>
+    </line>
+    <line>
+      <![CDATA[    org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)]]>
+    </line>
+    <line>
+      <![CDATA[    org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)]]>
+    </line>
+    <line>
+      <![CDATA[    org.testng.TestRunner.privateRun(TestRunner.java:648)]]>
+    </line>
+    <line>
+      <![CDATA[    org.testng.TestRunner.run(TestRunner.java:505)]]>
+    </line>
+    <line>
+      <![CDATA[    org.testng.SuiteRunner.runTest(SuiteRunner.java:455)]]>
+    </line>
+    <line>
+      <![CDATA[    org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)]]>
+    </line>
+    <line>
+      <![CDATA[    org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)]]>
+    </line>
+    <line>
+      <![CDATA[    org.testng.SuiteRunner.run(SuiteRunner.java:364)]]>
+    </line>
+    <line>
+      <![CDATA[    org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)]]>
+    </line>
+    <line>
+      <![CDATA[    org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)]]>
+    </line>
+    <line>
+      <![CDATA[    org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)]]>
+    </line>
+    <line>
+      <![CDATA[    org.testng.TestNG.runSuitesLocally(TestNG.java:1137)]]>
+    </line>
+    <line>
+      <![CDATA[    org.testng.TestNG.runSuites(TestNG.java:1049)]]>
+    </line>
+    <line>
+      <![CDATA[    org.testng.TestNG.run(TestNG.java:1017)]]>
+    </line>
+    <line>
+      <![CDATA[    configSelenium.ConfigSeleniumStart.dotestng(ConfigSeleniumStart.java:1600)]]>
+    </line>
+    <line>
+      <![CDATA[    configSelenium.ConfigSeleniumStart.main(ConfigSeleniumStart.java:325)]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+  </reporter-output>
+  <suite name="调试-国有建设用地使用权及房屋所有权（单套）-首次登记-assert_3" duration-ms="1" started-at="2019-05-22T04:25:09Z" finished-at="2019-05-22T04:25:09Z">
+    <groups>
+    </groups>
+    <test name="断言详情查看" duration-ms="1" started-at="2019-05-22T04:25:09Z" finished-at="2019-05-22T04:25:09Z">
+      <class name="Test.NoAssert">
+        <test-method status="PASS" signature="showReport()[pri:0, instance:Test.NoAssert@175c50f0]" name="showReport" duration-ms="0" started-at="2019-05-22T04:25:09Z" finished-at="2019-05-22T04:25:09Z">
+          <reporter-output>
+            <line>
+              <![CDATA[]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- showReport -->
+      </class> <!-- Test.NoAssert -->
+    </test> <!-- 断言详情查看 -->
+  </suite> <!-- 调试-国有建设用地使用权及房屋所有权（单套）-首次登记-assert_3 -->
+</testng-results>

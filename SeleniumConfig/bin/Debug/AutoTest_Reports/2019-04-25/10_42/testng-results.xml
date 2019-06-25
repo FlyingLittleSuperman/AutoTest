@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" total="3" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[资料收取 10_43<br/><img src="E:\work_space\js_de\debug\SeleniumConfig\bin\Debug\SootScreens\2019-04-25\10_43\资料收取 10_43.png"  hight="300" width="300"  onclick="javascript:window.open(this.src);"/>]]>
+    </line>
+    <line>
+      <![CDATA[收件受理环节移交异常！转出校验信息为：
+请添加需要登记的不动产单元！ 请添加办件相关申请人！
+]]>
+    </line>
+    <line>
+      <![CDATA[业务号：20190425-0006015]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+  </reporter-output>
+  <suite name="所有首次登记流程-国有建设用地使用权及房屋所有权（单套）-首次登记-assert_3" duration-ms="549" started-at="2019-04-25T02:43:28Z" finished-at="2019-04-25T02:43:28Z">
+    <groups>
+    </groups>
+    <test name="断言详情查看" duration-ms="549" started-at="2019-04-25T02:43:28Z" finished-at="2019-04-25T02:43:28Z">
+      <class name="Test.DataProviderSet_Assert">
+        <test-method status="PASS" signature="insetToExcel()[pri:0, instance:Test.DataProviderSet_Assert@4b2e7daa]" name="insetToExcel" is-config="true" duration-ms="431" started-at="2019-04-25T10:43:28Z" finished-at="2019-04-25T10:43:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- insetToExcel -->
+        <test-method status="FAIL" signature="star(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Test.DataProviderSet_Assert@4b2e7daa]" name="star" duration-ms="28" started-at="2019-04-25T10:43:28Z" data-provider="AssertData" finished-at="2019-04-25T10:43:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[实际结果：申请人信息]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[预期结果：申请信息]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-申请人信息标题断言]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.junit.ComparisonFailure">
+            <message>
+              <![CDATA[expected:<"申请[]信息"> but was:<"申请[人]信息">]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.junit.ComparisonFailure: expected:<"申请[]信息"> but was:<"申请[人]信息">
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at Test.DataProviderSet_Assert.star(DataProviderSet_Assert.java:37)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at configSelenium.ConfigSeleniumStart.dotestng(ConfigSeleniumStart.java:1454)
+	at configSelenium.ConfigSeleniumStart.main(ConfigSeleniumStart.java:257)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.junit.ComparisonFailure -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- star -->
+        <test-method status="PASS" signature="star(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Test.DataProviderSet_Assert@4b2e7daa]" name="star" duration-ms="2" started-at="2019-04-25T10:43:28Z" data-provider="AssertData" finished-at="2019-04-25T10:43:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[实际结果：项目信息]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[预期结果：项目信息]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-项目信息标题断言]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- star -->
+        <test-method status="PASS" signature="deleteExcel()[pri:0, instance:Test.DataProviderSet_Assert@4b2e7daa]" name="deleteExcel" is-config="true" duration-ms="8" started-at="2019-04-25T10:43:28Z" finished-at="2019-04-25T10:43:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteExcel -->
+        <test-method status="FAIL" signature="star(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Test.DataProviderSet_Assert@4b2e7daa]" name="star" duration-ms="0" started-at="2019-04-25T10:43:28Z" data-provider="AssertData" finished-at="2019-04-25T10:43:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[实际结果：    添加]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[预期结果：听]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-添加]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.junit.ComparisonFailure">
+            <message>
+              <![CDATA[expected:<"[听]"> but was:<"[    添加]">]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.junit.ComparisonFailure: expected:<"[听]"> but was:<"[    添加]">
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at Test.DataProviderSet_Assert.star(DataProviderSet_Assert.java:37)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at configSelenium.ConfigSeleniumStart.dotestng(ConfigSeleniumStart.java:1454)
+	at configSelenium.ConfigSeleniumStart.main(ConfigSeleniumStart.java:257)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.junit.ComparisonFailure -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- star -->
+      </class> <!-- Test.DataProviderSet_Assert -->
+    </test> <!-- 断言详情查看 -->
+  </suite> <!-- 所有首次登记流程-国有建设用地使用权及房屋所有权（单套）-首次登记-assert_3 -->
+</testng-results>

@@ -88,6 +88,8 @@ public class LocationElement implements Serializable{
     private String DefaultValue;//默认值
     private String Introduce;//资料说明
     private Boolean IsRandom;//默认值是否加随机数
+    private Boolean IsNameRandom;//是否生成人名随机数
+
     private List<ChildLocationElement> childLocationElementList;
 
     public Integer getWaitSecond() {
@@ -110,4 +112,11 @@ public class LocationElement implements Serializable{
 
     private String SqlSchemaId;//sql方案内码
 
+    public Boolean getNameRandom() {
+        return IsNameRandom;
+    }
+
+    public void setNameRandom(Boolean nameRandom) {
+        IsNameRandom = nameRandom;
+    }
 }

@@ -1,0 +1,177 @@
+<html>
+<head>
+<title>TestNG:  断言详情查看</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>断言详情查看</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/2/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Apr 28 14:11:42 CST 2019</td>
+</tr>
+<tr><td>Total time:</td><td>0 seconds (666 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Test.DataProviderSet_Assert.star()'><b>star</b><br>Test class: Test.DataProviderSet_Assert<br>Parameters: 实际结果：申请人信息, 预期结果：申请信息, -申请人信息标题断言</td>
+<td><div><pre>org.junit.ComparisonFailure: expected:&lt;&quot;申请[]信息&quot;&gt; but was:&lt;&quot;申请[人]信息&quot;&gt;
+	at Test.DataProviderSet_Assert.star(DataProviderSet_Assert.java:38)
+	at configSelenium.ConfigSeleniumStart.dotestng(ConfigSeleniumStart.java:1468)
+	at configSelenium.ConfigSeleniumStart.main(ConfigSeleniumStart.java:260)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2059286523", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2059286523'><pre>org.junit.ComparisonFailure: expected:&lt;&quot;申请[]信息&quot;&gt; but was:&lt;&quot;申请[人]信息&quot;&gt;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at Test.DataProviderSet_Assert.star(DataProviderSet_Assert.java:38)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at configSelenium.ConfigSeleniumStart.dotestng(ConfigSeleniumStart.java:1468)
+	at configSelenium.ConfigSeleniumStart.main(ConfigSeleniumStart.java:260)
+</pre></div></td>
+<td>0</td>
+<td>Test.DataProviderSet_Assert@1de2d467</td></tr>
+<tr>
+<td title='Test.DataProviderSet_Assert.star()'><b>star</b><br>Test class: Test.DataProviderSet_Assert<br>Parameters: 实际结果：    添加, 预期结果：听, -添加</td>
+<td><div><pre>org.junit.ComparisonFailure: expected:&lt;&quot;[听]&quot;&gt; but was:&lt;&quot;[    添加]&quot;&gt;
+	at Test.DataProviderSet_Assert.star(DataProviderSet_Assert.java:38)
+	at configSelenium.ConfigSeleniumStart.dotestng(ConfigSeleniumStart.java:1468)
+	at configSelenium.ConfigSeleniumStart.main(ConfigSeleniumStart.java:260)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace9158231", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace9158231'><pre>org.junit.ComparisonFailure: expected:&lt;&quot;[听]&quot;&gt; but was:&lt;&quot;[    添加]&quot;&gt;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at Test.DataProviderSet_Assert.star(DataProviderSet_Assert.java:38)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at configSelenium.ConfigSeleniumStart.dotestng(ConfigSeleniumStart.java:1468)
+	at configSelenium.ConfigSeleniumStart.main(ConfigSeleniumStart.java:260)
+</pre></div></td>
+<td>0</td>
+<td>Test.DataProviderSet_Assert@1de2d467</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Test.DataProviderSet_Assert.star()'><b>star</b><br>Test class: Test.DataProviderSet_Assert<br>Parameters: 实际结果：项目信息, 预期结果：项目信息, -项目信息标题断言<br/>
+<a href="#Output-840367790" onClick='toggleBox("Output-840367790", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-840367790" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-840367790">
+<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>Test.DataProviderSet_Assert@1de2d467</td></tr>
+</table><p>
+</body>
+</html>

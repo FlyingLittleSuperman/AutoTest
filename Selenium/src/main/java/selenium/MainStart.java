@@ -43,14 +43,14 @@ public class MainStart {
 
             ChromeOptions options = new ChromeOptions();
             options.addArguments("disable-extensions=Chrome Automation Extension"); //采用默认的谷歌配置参数
-            options.addExtensions(new File("C:\\Program Files (x86)\\timevale\\天印签章PDF版\\npSOFSignApi.dll"));
+//            options.addExtensions(new File("C:\\Program Files (x86)\\timevale\\天印签章PDF版\\npSOFSignApi.dll"));
             //options.addExtensions(new File("C:\\Users\\swang\\AppData\\Local\\Google\\Chrome\\UserData\\Default\\Extensions\\ijaobnmmgonppmablhldddpfmgpklbfh\\1.6.0_0.crx"));
             //options.addArguments("C:\\Users\\Administrator.MTC-20151016FIN\\AppData\\Local\\Google\\Chrome\\User Data\\Default"); //采用默认的谷歌配置参数
             driver = new ChromeDriver(options);
 
             //WebDriver driver = new RemoteWebDriver(service.getUrl(), DesiredCapabilities.chrome());
             driver.manage().window().maximize();
-            driver.get("http://192.168.7.200:8082/GisqPlatformExplorer/a/login;JSESSIONID=7a22b82495884077a7860a3b86e8ac2f");
+            driver.get("http://192.168.2.119:8082/GisqPlatformExplorer/a/login;JSESSIONID=7a22b82495884077a7860a3b86e8ac2f");
             WebElement username = driver.findElement(By.id("username"));
             username.sendKeys("zscs");
             WebElement password = driver.findElement(By.id("password"));
@@ -73,6 +73,8 @@ public class MainStart {
             System.out.print("主框架句柄：" + currentWindow);
 
             WebDriver webNewWindow = ChangeDriver.change(driver, currentWindow);
+            webNewWindow.switchTo().defaultContent();
+
 
 
             String url = webNewWindow.getCurrentUrl();

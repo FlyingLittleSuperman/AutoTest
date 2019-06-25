@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[收件受理-环节移交异常！转出校验信息为：
+请添加办件相关申请人！ 请添加需要登记的不动产单元！
+]]>
+    </line>
+    <line>
+      <![CDATA[转出校验提示框-2019-05-24 13_51_37<br/><img src="E:\work_space\js_de\debug\SeleniumConfig\bin\Debug\SootScreens\2019-05-24\13_51_37\转出校验提示框-2019-05-24 13_51_37.png"  hight="300" width="300"  onclick="javascript:window.open(this.src);"/>]]>
+    </line>
+    <line>
+      <![CDATA[业务号：20190524-0001145]]>
+    </line>
+    <line>
+      <![CDATA[该流程未完成，请留意!]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+  </reporter-output>
+  <suite name="11.8预购商品房预告登记-国有建设用地使用权及房屋所有权-首次登记-123" duration-ms="18" started-at="2019-05-24T05:51:37Z" finished-at="2019-05-24T05:51:37Z">
+    <groups>
+    </groups>
+    <test name="断言详情查看" duration-ms="18" started-at="2019-05-24T05:51:37Z" finished-at="2019-05-24T05:51:37Z">
+      <class name="Test.NoAssert">
+        <test-method status="PASS" signature="showReport()[pri:0, instance:Test.NoAssert@11f2c02a]" name="showReport" duration-ms="3" started-at="2019-05-24T05:51:37Z" finished-at="2019-05-24T05:51:37Z">
+          <reporter-output>
+            <line>
+              <![CDATA[]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- showReport -->
+      </class> <!-- Test.NoAssert -->
+    </test> <!-- 断言详情查看 -->
+  </suite> <!-- 11.8预购商品房预告登记-国有建设用地使用权及房屋所有权-首次登记-123 -->
+</testng-results>

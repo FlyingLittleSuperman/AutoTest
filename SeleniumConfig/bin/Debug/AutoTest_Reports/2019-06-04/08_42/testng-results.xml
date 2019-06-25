@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[流程环节操作-报错信息：org.openqa.selenium.TimeoutException: Timed out after 30 seconds waiting for visibility of all elements located by By.xpath: //a[@title='窗口资料收取']
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'SuperMan-Wangyan20180625', ip: '192.168.6.79', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, chrome={userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\scoped_dir26400_11685}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=34.0.1847.116, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 52517be291aa91a2c3ba8e1ab218b33f]]>
+    </line>
+    <line>
+      <![CDATA[环节操作-报错截图2019-06-04_08_42<br/><img src="E:\work_space\js_de\debug\SeleniumConfig\bin\Debug\SootScreens\2019-06-04\08_44_28\环节操作-报错截图2019-06-04_08_42.png"  hight="300" width="300"  onclick="javascript:window.open(this.src);"/>]]>
+    </line>
+    <line>
+      <![CDATA[执行报错信息：Timed out after 30 seconds waiting for visibility of all elements located by By.xpath: //a[@title='窗口资料收取']
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'SuperMan-Wangyan20180625', ip: '192.168.6.79', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, chrome={userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\scoped_dir26400_11685}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=34.0.1847.116, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 52517be291aa91a2c3ba8e1ab218b33f]]>
+    </line>
+    <line>
+      <![CDATA[强行退出]]>
+    </line>
+    <line>
+      <![CDATA[业务号：20190604-0000590]]>
+    </line>
+    <line>
+      <![CDATA[该流程未完成，请留意!]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+  </reporter-output>
+  <suite name="国有房地登记-国有建设用地使用权及房屋所有权（单套）-首次登记-assert_2" duration-ms="26" started-at="2019-06-04T00:44:29Z" finished-at="2019-06-04T00:44:29Z">
+    <groups>
+    </groups>
+    <test name="断言详情查看" duration-ms="26" started-at="2019-06-04T00:44:29Z" finished-at="2019-06-04T00:44:29Z">
+      <class name="Test.NoAssert">
+        <test-method status="PASS" signature="showReport()[pri:0, instance:Test.NoAssert@a74d2f4]" name="showReport" duration-ms="4" started-at="2019-06-04T00:44:29Z" finished-at="2019-06-04T00:44:29Z">
+          <reporter-output>
+            <line>
+              <![CDATA[]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- showReport -->
+      </class> <!-- Test.NoAssert -->
+    </test> <!-- 断言详情查看 -->
+  </suite> <!-- 国有房地登记-国有建设用地使用权及房屋所有权（单套）-首次登记-assert_2 -->
+</testng-results>

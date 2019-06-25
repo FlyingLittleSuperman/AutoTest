@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [所有首次登记流程-国有建设用地使用权及房屋所有权（单套）-首次登记-assert_123]">
+  <test thread-count="5" name="断言详情查看(failed)">
+    <classes>
+      <class name="Test.DataProviderSet_Assert">
+        <methods>
+          <include name="insetToExcel"/>
+          <include name="deleteExcel"/>
+          <include name="star"/>
+        </methods>
+      </class> <!-- Test.DataProviderSet_Assert -->
+    </classes>
+  </test> <!-- 断言详情查看(failed) -->
+</suite> <!-- Failed suite [所有首次登记流程-国有建设用地使用权及房屋所有权（单套）-首次登记-assert_123] -->

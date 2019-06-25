@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[流程环节报错信息：java.lang.NullPointerException]]>
+    </line>
+    <line>
+      <![CDATA[环节操作-报错截图2019-05-16 10_13<br/><img src="E:\work_space\js_de\debug\SeleniumConfig\bin\Debug\SootScreens\2019-05-16\10_18\环节操作-报错截图2019-05-16 10_13.png"  hight="300" width="300"  onclick="javascript:window.open(this.src);"/>]]>
+    </line>
+    <line>
+      <![CDATA[流程环节报错信息：java.lang.NullPointerException]]>
+    </line>
+    <line>
+      <![CDATA[环节操作-报错截图2019-05-16 10_13<br/><img src="E:\work_space\js_de\debug\SeleniumConfig\bin\Debug\SootScreens\2019-05-16\10_18\环节操作-报错截图2019-05-16 10_13.png"  hight="300" width="300"  onclick="javascript:window.open(this.src);"/>]]>
+    </line>
+    <line>
+      <![CDATA[流程环节报错信息：java.lang.NullPointerException]]>
+    </line>
+    <line>
+      <![CDATA[环节操作-报错截图2019-05-16 10_13<br/><img src="E:\work_space\js_de\debug\SeleniumConfig\bin\Debug\SootScreens\2019-05-16\10_18\环节操作-报错截图2019-05-16 10_13.png"  hight="300" width="300"  onclick="javascript:window.open(this.src);"/>]]>
+    </line>
+    <line>
+      <![CDATA[流程环节报错信息：java.lang.NullPointerException]]>
+    </line>
+    <line>
+      <![CDATA[环节操作-报错截图2019-05-16 10_13<br/><img src="E:\work_space\js_de\debug\SeleniumConfig\bin\Debug\SootScreens\2019-05-16\10_18\环节操作-报错截图2019-05-16 10_13.png"  hight="300" width="300"  onclick="javascript:window.open(this.src);"/>]]>
+    </line>
+    <line>
+      <![CDATA[流程环节报错信息：java.lang.NullPointerException]]>
+    </line>
+    <line>
+      <![CDATA[环节操作-报错截图2019-05-16 10_13<br/><img src="E:\work_space\js_de\debug\SeleniumConfig\bin\Debug\SootScreens\2019-05-16\10_18\环节操作-报错截图2019-05-16 10_13.png"  hight="300" width="300"  onclick="javascript:window.open(this.src);"/>]]>
+    </line>
+    <line>
+      <![CDATA[执行报错信息：null]]>
+    </line>
+    <line>
+      <![CDATA[执行方案-报错截图2019-05-16 10_13<br/><img src="E:\work_space\js_de\debug\SeleniumConfig\bin\Debug\SootScreens\2019-05-16\10_18\执行方案-报错截图2019-05-16 10_13.png"  hight="300" width="300"  onclick="javascript:window.open(this.src);"/>]]>
+    </line>
+    <line>
+      <![CDATA[强行退出]]>
+    </line>
+    <line>
+      <![CDATA[该流程未完成，请留意!]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+  </reporter-output>
+  <suite name="调试-预购商品房预告登记-预购商品房预告更正登记-预购商品房-预告更正登记（王岩）" duration-ms="1" started-at="2019-05-16T02:19:21Z" finished-at="2019-05-16T02:19:21Z">
+    <groups>
+    </groups>
+    <test name="断言详情查看" duration-ms="1" started-at="2019-05-16T02:19:21Z" finished-at="2019-05-16T02:19:21Z">
+      <class name="Test.NoAssert">
+        <test-method status="PASS" signature="showReport()[pri:0, instance:Test.NoAssert@1e6d6473]" name="showReport" duration-ms="0" started-at="2019-05-16T02:19:21Z" finished-at="2019-05-16T02:19:21Z">
+          <reporter-output>
+            <line>
+              <![CDATA[]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- showReport -->
+      </class> <!-- Test.NoAssert -->
+    </test> <!-- 断言详情查看 -->
+  </suite> <!-- 调试-预购商品房预告登记-预购商品房预告更正登记-预购商品房-预告更正登记（王岩） -->
+</testng-results>

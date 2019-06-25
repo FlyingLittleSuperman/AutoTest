@@ -5,7 +5,7 @@ import java.io.Serializable;
 /**
  * Created by Administrator on 2016/12/21.
  */
-public class ChildLocationElement implements Serializable {
+public class ChildLocationElement implements Serializable  {
     private String id;
     private String LocationType; //定位方式
 
@@ -79,6 +79,7 @@ public class ChildLocationElement implements Serializable {
     private String DefaultValue;//默认值
     private String Introduce;//资料说明
     private Boolean IsRandom;//默认值是否加随机数
+    private Boolean IsNameRandom;//是否生成人名随机数
 
     public Integer getWaitSecond() {
         return WaitSecond;
@@ -99,4 +100,12 @@ public class ChildLocationElement implements Serializable {
     }
 
     private String sqlSchemaId;//SQL方案内码
+
+    public Boolean getNameRandom() {
+        return IsNameRandom;
+    }
+
+    public void setNameRandom(Boolean nameRandom) {
+        IsNameRandom = nameRandom;
+    }
 }

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[开始准备测试数据 ]]>
+    </line>
+    <line>
+      <![CDATA[大保存 18_49]]>
+    </line>
+    <line>
+      <![CDATA[<br/><img src="D:\work_space\js_de\debug\SeleniumConfig\bin\Debug\SootScreens\2019-03-20\18_49\大保存 18_49.png"  hight="900" width="900" />]]>
+    </line>
+    <line>
+      <![CDATA[大保存 18_49(2)]]>
+    </line>
+    <line>
+      <![CDATA[<br/><img src="D:\work_space\js_de\debug\SeleniumConfig\bin\Debug\SootScreens\2019-03-20\18_49\大保存 18_49(2).png"  hight="900" width="900"  />]]>
+    </line>
+    <line>
+      <![CDATA[大保存 18_49(3)]]>
+    </line>
+    <line>
+      <![CDATA[<br/><img src="D:\work_space\js_de\debug\SeleniumConfig\bin\Debug\SootScreens\2019-03-20\18_49\大保存 18_49(3).png"  hight="900" width="900"  />]]>
+    </line>
+    <line>
+      <![CDATA[使用权断言对比]]>
+    </line>
+  </reporter-output>
+  <suite name="三权分置流程-三权分置-宅基地资格权与房屋租赁使用权" duration-ms="128" started-at="2019-03-20T10:51:56Z" finished-at="2019-03-20T10:51:56Z">
+    <groups>
+    </groups>
+    <test name="断言详情查看" duration-ms="128" started-at="2019-03-20T10:51:56Z" finished-at="2019-03-20T10:51:56Z">
+      <class name="Test.DataProviderSet_Assert">
+        <test-method status="PASS" signature="insetToExcel()[pri:0, instance:Test.DataProviderSet_Assert@64d7b720]" name="insetToExcel" is-config="true" duration-ms="458" started-at="2019-03-20T18:51:55Z" finished-at="2019-03-20T18:51:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- insetToExcel -->
+        <test-method status="PASS" signature="star(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Test.DataProviderSet_Assert@64d7b720]" name="star" duration-ms="40" started-at="2019-03-20T18:51:56Z" data-provider="AssertData" finished-at="2019-03-20T18:51:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[33]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[33]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[使用权断言对比]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[使用权断言对比]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- star -->
+      </class> <!-- Test.DataProviderSet_Assert -->
+    </test> <!-- 断言详情查看 -->
+  </suite> <!-- 三权分置流程-三权分置-宅基地资格权与房屋租赁使用权 -->
+</testng-results>

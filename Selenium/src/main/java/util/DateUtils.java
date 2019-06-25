@@ -32,6 +32,10 @@ public class DateUtils extends org.apache.commons.lang3.time.DateUtils {
         return getDate("yyyy-MM-dd");
     }
 
+
+    public static String getDatesh() {
+        return getDate("yyyy年MM月dd日");
+    }
     /**
      * 得到当前日期字符串 格式（yyyy-MM-dd） pattern可以为："yyyy-MM-dd" "HH:mm:ss" "E"
      */

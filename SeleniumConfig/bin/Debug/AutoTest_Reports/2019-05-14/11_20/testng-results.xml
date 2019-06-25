@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[资料收取<br/><img src="E:\work_space\js_de\debug\SeleniumConfig\bin\Debug\SootScreens\2019-05-14\11_21\资料收取.png"  hight="300" width="300"  onclick="javascript:window.open(this.src);"/>]]>
+    </line>
+    <line>
+      <![CDATA[申请信息截图<br/><img src="E:\work_space\js_de\debug\SeleniumConfig\bin\Debug\SootScreens\2019-05-14\11_21\申请信息截图.png"  hight="300" width="300"  onclick="javascript:window.open(this.src);"/>]]>
+    </line>
+    <line>
+      <![CDATA[申请信息截图(2)<br/><img src="E:\work_space\js_de\debug\SeleniumConfig\bin\Debug\SootScreens\2019-05-14\11_21\申请信息截图(2).png"  hight="300" width="300" onclick="javascript:window.open(this.src);" />]]>
+    </line>
+    <line>
+      <![CDATA[申请信息截图(3)<br/><img src="E:\work_space\js_de\debug\SeleniumConfig\bin\Debug\SootScreens\2019-05-14\11_21\申请信息截图(3).png"  hight="300" width="300" onclick="javascript:window.open(this.src);" />]]>
+    </line>
+    <line>
+      <![CDATA[收件受理-环节移交异常！转出校验信息为：
+请添加需要登记的不动产单元！ 请添加办件相关申请人！
+]]>
+    </line>
+    <line>
+      <![CDATA[转出校验提示框-2019-05-14 11_20<br/><img src="E:\work_space\js_de\debug\SeleniumConfig\bin\Debug\SootScreens\2019-05-14\11_21\转出校验提示框-2019-05-14 11_20.png"  hight="300" width="300"  onclick="javascript:window.open(this.src);"/>]]>
+    </line>
+    <line>
+      <![CDATA[业务号：20190514-0006815]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+  </reporter-output>
+  <suite name="断言调试-国有建设用地使用权及房屋所有权（单套）-首次登记-assert_1" duration-ms="1" started-at="2019-05-14T03:23:14Z" finished-at="2019-05-14T03:23:14Z">
+    <groups>
+    </groups>
+    <test name="断言详情查看" duration-ms="1" started-at="2019-05-14T03:23:14Z" finished-at="2019-05-14T03:23:14Z">
+      <class name="Test.NoAssert">
+        <test-method status="PASS" signature="showReport()[pri:0, instance:Test.NoAssert@738073dd]" name="showReport" duration-ms="0" started-at="2019-05-14T03:23:14Z" finished-at="2019-05-14T03:23:14Z">
+          <reporter-output>
+            <line>
+              <![CDATA[]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- showReport -->
+      </class> <!-- Test.NoAssert -->
+    </test> <!-- 断言详情查看 -->
+  </suite> <!-- 断言调试-国有建设用地使用权及房屋所有权（单套）-首次登记-assert_1 -->
+</testng-results>

@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Element>
+  <Prodef ID="9bd69816-1efd-11e6-a9dc-0050568c3496" Name="土地行政限制（证书限制）" PackageID="db4d8a2b-9985-11e5-86c5-305a3a80a2ad">
+    <Actdef ID="sid-AED6BE58-0162-4ED6-868D-0433A101FFCD" Name="收件受理">
+      <iframe>
+        <iframeChild ID="20fab0c1-e55b-472e-8dd1-bc5566636d89" Name="窗口资料收取" URL="GisqPlatformExplorer/modules/bizmodel/datums_submit">
+          <LocationElement ID="c0566672-afec-4736-ba3e-28188ef5baa2" LocationType="XPATH" Path="//div[@role='combobox']" OperateType="QT" Order="1" DefaultValue="$(&quot;#{ID}&quot;).jqxDropDownList('selectIndex', 0 );" SqlSchemaId="" Introduce="资料类别-选择第一个值" IsRandom="False" WaitSecond="0" />
+          <LocationElement ID="b807ff32-79cb-4e73-9e71-cb3537ad5edc" LocationType="ID" Path="saveDatum" OperateType="CLICK" Order="2" DefaultValue="" SqlSchemaId="" Introduce="点击‘保存’按钮" IsRandom="False" WaitSecond="0" />
+          <LocationElement ID="189dcc4f-0d90-42cd-b2e8-a0ab7a466fc3" LocationType="" Path="" OperateType="SHOOT" Order="3" DefaultValue="资料收取" SqlSchemaId="" Introduce="资料类别截图" IsRandom="False" WaitSecond="0" IsNameRandom="False" />
+        </iframeChild>
+        <iframeChild ID="e6d35ba2-a561-11e5-985d-0050568da2ed" Name="申请信息" URL="GisqQueryList/views/reports/realestate/common/acceptance/Acceptance_LandUseRight_Limit.jsp?reportlet=realestate/common/acceptance/Acceptance_LandUseRight_Limit.cpt">
+          <LocationElement ID="e012fddc-8e27-49f2-a97a-ff4bb71b68f0" LocationType="ID" Path="CXBDC" OperateType="CLICK" Order="1" DefaultValue="" SqlSchemaId="" Introduce="添加单元" IsRandom="False" WaitSecond="0" />
+          <LocationElement ID="a88add89-91e0-4449-a8a0-32e60bc14bba" LocationType="ID" Path="iFrameDY" OperateType="IFRAME" Order="2" DefaultValue="iFrameDY" SqlSchemaId="" Introduce="弹出单元查询页面" IsRandom="False" WaitSecond="0" IsNameRandom="False">
+            <ChildLocationElement ID="ad56b770-114d-45ff-ae18-c2bbb56c9e80" LocationType="ID" Path="bdcdyh" OperateType="SENDKEYS" Order="1" DefaultValue="selenium_pro_tudidy" SqlSchemaId="" Introduce="输入不动产单元号" IsRandom="False" WaitSecond="0" />
+            <ChildLocationElement ID="6d589888-2838-4dff-ab0b-fd6723189896" LocationType="ID" Path="btn_search" OperateType="CLICK" Order="2" DefaultValue="" SqlSchemaId="" Introduce="查询不动产单元号" IsRandom="False" WaitSecond="0" />
+            <ChildLocationElement ID="359977e9-3bec-40f9-bcc0-fceaff2ec617" LocationType="XPATH" Path="//span[@class='l-grid-row-cell-btn-checkbox']" OperateType="CLICK" Order="3" DefaultValue="" SqlSchemaId="" Introduce="选择单元号" IsRandom="False" WaitSecond="2" IsNameRandom="False" />
+            <ChildLocationElement ID="fc6f385e-aa9d-40e7-b729-aed62945d207" LocationType="ID" Path="btn_ok" OperateType="CLICK" Order="4" DefaultValue="" SqlSchemaId="" Introduce="点击确认选择按钮" IsRandom="False" WaitSecond="0" />
+          </LocationElement>
+          <LocationElement ID="2af8c49f-7786-46ac-8336-dc8cd012d442" LocationType="ID" Path="TJSQR" OperateType="CLICK" Order="3" DefaultValue="" SqlSchemaId="" Introduce="添加申请人" IsRandom="False" WaitSecond="0" />
+          <LocationElement ID="161ccb55-da61-4c67-87c4-d4cac39c61b0" LocationType="ID" Path="addSqr" OperateType="IFRAME" Order="4" DefaultValue="addSqr" SqlSchemaId="" Introduce="弹出添加申请人页面" IsRandom="False" WaitSecond="0" IsNameRandom="False">
+            <ChildLocationElement ID="39b245c4-e935-4827-af58-210aa5b5f6dc" LocationType="ID" Path="SQRMC" OperateType="SENDKEYS" Order="1" DefaultValue="土地行政限制sqr" SqlSchemaId="" Introduce="输入申请人姓名" IsRandom="False" WaitSecond="0" />
+            <ChildLocationElement ID="2e0c10fa-b7ec-4b06-9762-cbe248e0ae62" LocationType="ID" Path="ZJZL" OperateType="SENDKEYS" Order="2" DefaultValue="2" SqlSchemaId="" Introduce="选择证件类型" IsRandom="False" WaitSecond="0" />
+            <ChildLocationElement ID="07c703e6-2c39-4930-a378-b9c5db2d5589" LocationType="ID" Path="ZJH" OperateType="SENDKEYS" Order="3" DefaultValue="20190330" SqlSchemaId="" Introduce="输入证件号" IsRandom="False" WaitSecond="0" />
+            <ChildLocationElement ID="fcedb4a6-a462-42dc-b4f8-a5dc3a7ffa57" LocationType="ID" Path="SQRLB" OperateType="SENDKEYS" Order="4" DefaultValue="16" SqlSchemaId="" Introduce="申请人类别选择" IsRandom="False" WaitSecond="0" />
+            <ChildLocationElement ID="2dc63059-9fa5-4132-8515-dc8cecde0fd3" LocationType="ID" Path="SQRLX" OperateType="SENDKEYS" Order="5" DefaultValue="1" SqlSchemaId="" Introduce="申请人类型选择" IsRandom="False" WaitSecond="0" />
+            <ChildLocationElement ID="588d5965-a5cc-4490-b5e8-351638f792a7" LocationType="ID" Path="SQRGJ" OperateType="SENDKEYS" Order="6" DefaultValue="中国" SqlSchemaId="" Introduce="国籍" IsRandom="False" WaitSecond="0" />
+            <ChildLocationElement ID="16c1c48f-c59a-4c2a-b76b-db7db1aa4122" LocationType="ID" Path="YDDH" OperateType="SENDKEYS" Order="7" DefaultValue="13245679854" SqlSchemaId="" Introduce="申请人移动电话" IsRandom="False" WaitSecond="0" />
+            <ChildLocationElement ID="61a931d7-7543-4d1a-9868-fa1abf87b185" LocationType="XPATH" Path="//span[@class=' x-emb-submit']" OperateType="CLICK" Order="9" DefaultValue="" SqlSchemaId="" Introduce="保存申请人信息" IsRandom="False" WaitSecond="0" />
+          </LocationElement>
+          <LocationElement ID="8c26eb15-cf49-4356-855d-d5c86a65b694" LocationType="XPATH" Path="//*[@id=&quot;jbox&quot;]/table/tbody/tr[2]/td[2]/div/a" OperateType="CLICK" Order="5" DefaultValue="" SqlSchemaId="" Introduce="关闭申请人弹框" IsRandom="False" WaitSecond="0" />
+          <LocationElement ID="000237eb-efa9-4d01-abdb-a1d86dbbadc3" LocationType="ID" Path="TJZXR" OperateType="CLICK" Order="6" DefaultValue="" SqlSchemaId="" Introduce="添加限制执行人信息" IsRandom="False" WaitSecond="0" />
+          <LocationElement ID="f697b802-991e-4639-8b1c-de71806a817d" LocationType="ID" Path="reportFrame" OperateType="IFRAME" Order="7" DefaultValue="" SqlSchemaId="" Introduce="弹出添加限制执行人信息页面" IsRandom="False" WaitSecond="0">
+            <ChildLocationElement ID="130433bc-f48a-41b5-9e3b-1e53ed209742" LocationType="ID" Path="XM" OperateType="SENDKEYS" Order="1" DefaultValue="限制执行人" SqlSchemaId="" Introduce="输入姓名" IsRandom="False" WaitSecond="0" />
+            <ChildLocationElement ID="1a787d5f-5d9e-445b-bb52-909aee511199" LocationType="XPATH" Path="//span[@class=' x-emb-submit']" OperateType="CLICK" Order="2" DefaultValue="" SqlSchemaId="" Introduce="点击保存" IsRandom="False" WaitSecond="0" />
+          </LocationElement>
+          <LocationElement ID="155b65e4-c0eb-4c9a-8be5-5bf11e55bde2" LocationType="XPATH" Path="//*[@id=&quot;jbox&quot;]/table/tbody/tr[2]/td[2]/div/a" OperateType="CLICK" Order="8" DefaultValue="" SqlSchemaId="" Introduce="关闭限制执行人弹框" IsRandom="False" WaitSecond="0" />
+          <LocationElement ID="e57e1761-faa4-4122-bfd5-4c57f6deb45a" LocationType="ID" Path="XZLX" OperateType="SENDKEYS" Order="9" DefaultValue="1" SqlSchemaId="" Introduce="选择限制类型" IsRandom="False" WaitSecond="0" />
+          <LocationElement ID="c5e17ddc-fee8-4af1-9f1f-c499b6896ab7" LocationType="ID" Path="XZWH" OperateType="SENDKEYS" Order="10" DefaultValue="杭交提(2019)0030号" SqlSchemaId="" Introduce="填写限制文号" IsRandom="False" WaitSecond="0" />
+          <LocationElement ID="8d9fd2c6-af69-4d25-babe-a0f4a636819a" LocationType="ID" Path="XZQSSJ" OperateType="SENDKEYS" Order="11" DefaultValue="2019-03-03" SqlSchemaId="" Introduce="选择限制起始时间" IsRandom="False" WaitSecond="0">
+            <ChildLocationElement ID="c1f5b516-5721-45f3-8490-3c8a13d7d87f" LocationType="XPATH" Path="/html/body/div/div[3]/table/tbody/tr[3]/td[1]" OperateType="CLICK" Order="1" DefaultValue="" SqlSchemaId="" Introduce="选择时间" IsRandom="False" WaitSecond="0" />
+          </LocationElement>
+          <LocationElement ID="6e334700-b9aa-4374-9c3e-a25e87b1e8f8" LocationType="ID" Path="XZJSSJ" OperateType="SENDKEYS" Order="12" DefaultValue="2019-03-18" SqlSchemaId="" Introduce="选择限制终止时间" IsRandom="False" WaitSecond="0">
+            <ChildLocationElement ID="53d3a3be-1eb3-40a5-8540-6119817428ee" LocationType="XPATH" Path="/html/body/div/div[3]/table/tbody/tr[6]/td[7]" OperateType="CLICK" Order="1" DefaultValue="" SqlSchemaId="" Introduce="选择限制终止时间" IsRandom="False" WaitSecond="0" />
+          </LocationElement>
+          <LocationElement ID="38652888-ee03-4430-8e28-26ee4029fc8a" LocationType="XPATH" Path="//span[@class=' x-emb-submit']" OperateType="CLICK" Order="13" DefaultValue="" SqlSchemaId="" Introduce="点击保存" IsRandom="False" WaitSecond="0" />
+        </iframeChild>
+        <iframeChild ID="3312dcde-4499-11e9-b330-00505683a231" Name="权利人、单元信息变化确认" URL="realestate/ReportServer?reportlet=realestate/common/xxbhqr.cpt">
+          <LocationElement ID="8e1a9e35-65cd-4497-873e-6dc24ecbd72c" LocationType="XPATH" Path="//*[@id=&quot;fr-btn-&quot;]/tbody/tr[2]/td[2]/em/button" OperateType="CLICK" Order="1" DefaultValue="" SqlSchemaId="" Introduce="点击确认" IsRandom="False" WaitSecond="0" />
+          <LocationElement ID="537b32bc-b23d-4ac6-9d05-a5381016147d" LocationType="XPATH" Path="//*[@id=&quot;easyicon_cn_32showid_32load&quot;]/div[2]" OperateType="CLICK" Order="2" DefaultValue="" SqlSchemaId="" Introduce="点击确认" IsRandom="False" WaitSecond="0" />
+        </iframeChild>
+      </iframe>
+    </Actdef>
+    <Actdef ID="sid-CC17134D-5A9A-4744-AE56-39544F07B920" Name="审核">
+      <iframe>
+        <iframeChild ID="304f4eef-a562-11e5-985d-0050568da2ed" Name="审批表" URL="realestate/ReportServer?reportlet=realestate/common/approveform/ApproveFormTD_ZM.cpt">
+          <LocationElement ID="267eb203-a2bb-4342-95cb-145ba13eb640" LocationType="XPATH" Path="//*[@id=&quot;content-container&quot;]/div[2]/div[2]/div/div/table/tbody/tr/td[2]/div/table/tbody/tr/td[1]/div" OperateType="CLICK" Order="1" DefaultValue="" SqlSchemaId="" Introduce="切换意见页" IsRandom="False" WaitSecond="0" />
+          <LocationElement ID="cd8c456b-1a3d-46b1-9127-0d8945e2da8f" LocationType="ID" Path="GTCSYJ" OperateType="FR" Order="2" DefaultValue="同意" SqlSchemaId="" Introduce="填写初审意见" IsRandom="False" WaitSecond="0" />
+          <LocationElement ID="299e3331-21ec-4fae-8481-170645d31ad8" LocationType="ID" Path="GTFSYJ" OperateType="FR" Order="3" DefaultValue="同意" SqlSchemaId="" Introduce="填写复审意见" IsRandom="False" WaitSecond="0" />
+          <LocationElement ID="0154fb1e-0ccb-45a4-964e-611bbc2f33a9" LocationType="ID" Path="GTFSR" OperateType="FR" Order="4" DefaultValue="亓勤勤" SqlSchemaId="" Introduce="填写复审人" IsRandom="False" WaitSecond="0" />
+          <LocationElement ID="d89c0dd2-19a2-4a2e-9a6e-e9959c8e901c" LocationType="ID" Path="FCFSSJ" OperateType="FR" Order="5" DefaultValue="{NOW}" SqlSchemaId="" Introduce="填写复审时间" IsRandom="False" WaitSecond="0" />
+          <LocationElement ID="4a7fdc89-4fcb-4d15-9266-5c05d473bc7c" LocationType="XPATH" Path="//*[@id=&quot;fr-btn-&quot;]/tbody/tr[2]/td[2]/em/button" OperateType="CLICK" Order="6" DefaultValue="" SqlSchemaId="" Introduce="点击保存" IsRandom="False" WaitSecond="0" />
+        </iframeChild>
+      </iframe>
+    </Actdef>
+    <Actdef ID="sid-581BC958-7B39-439A-B5B8-89E680890970" Name="核定">
+      <iframe>
+        <iframeChild ID="304f4eef-a562-11e5-985d-0050568da2ed" Name="审批表" URL="realestate/ReportServer?reportlet=realestate/common/approveform/ApproveFormTD_ZM.cpt">
+          <LocationElement ID="7bc1d6b1-5c24-462d-bb6c-b463934cfb5c" LocationType="XPATH" Path="//*[@id=&quot;content-container&quot;]/div[2]/div[2]/div/div/table/tbody/tr/td[2]/div/table/tbody/tr/td[1]/div" OperateType="CLICK" Order="1" DefaultValue="" SqlSchemaId="" Introduce="切换意见页" IsRandom="False" WaitSecond="0" />
+          <LocationElement ID="6959523c-702a-4554-a356-00e9885c6501" LocationType="ID" Path="HDYJ" OperateType="FR" Order="2" DefaultValue="同意" SqlSchemaId="" Introduce="填写核定意见" IsRandom="False" WaitSecond="0" />
+          <LocationElement ID="c952e916-dc5e-4188-ad6e-ed110675accf" LocationType="ID" Path="E14" OperateType="FR2" Order="3" DefaultValue="王华" SqlSchemaId="" Introduce="填写核定人" IsRandom="False" WaitSecond="0" IsNameRandom="False" />
+          <LocationElement ID="8fcd61a1-2563-4a9d-8da6-6f4bc52b6718" LocationType="ID" Path="HDRQ" OperateType="FR" Order="4" DefaultValue="{NOW}" SqlSchemaId="" Introduce="填写核定日期" IsRandom="False" WaitSecond="0" />
+          <LocationElement ID="f90256a2-d5c1-4855-92f4-ef1958b0cc1b" LocationType="XPATH" Path="//*[@id=&quot;fr-btn-&quot;]/tbody/tr[2]/td[2]/em/button" OperateType="CLICK" Order="5" DefaultValue="" SqlSchemaId="" Introduce="点击保存按钮" IsRandom="False" WaitSecond="0" />
+          <LocationElement ID="9a052011-19bd-4d00-b333-acdcdb92f55d" LocationType="" Path="" OperateType="FRExport" Order="6" DefaultValue="核定-审批表" SqlSchemaId="" Introduce="输出审核表.pdf" IsRandom="False" WaitSecond="0" />
+        </iframeChild>
+      </iframe>
+    </Actdef>
+  </Prodef>
+</Element>

@@ -1,0 +1,17 @@
+E:\work_space\js_de\debug\SeleniumConfig\bin\Debug\SeleniumConfig.exe.config
+E:\work_space\js_de\debug\SeleniumConfig\obj\Debug\SeleniumConfig.csprojResolveAssemblyReference.cache
+E:\work_space\js_de\debug\SeleniumConfig\obj\Debug\SeleniumConfig.CreateAction.FrmAddChildElementInfo.resources
+E:\work_space\js_de\debug\SeleniumConfig\obj\Debug\SeleniumConfig.MainForms.FrmAddChildProdef.resources
+E:\work_space\js_de\debug\SeleniumConfig\obj\Debug\SeleniumConfig.MainForms.FrmCopyProdefSchema.resources
+E:\work_space\js_de\debug\SeleniumConfig\obj\Debug\SeleniumConfig.SeleniumSchema.FrmAddChildSchema.resources
+E:\work_space\js_de\debug\SeleniumConfig\obj\Debug\SeleniumConfig.Bizdef.FrmBizdef.resources
+E:\work_space\js_de\debug\SeleniumConfig\obj\Debug\SeleniumConfig.DeparmentUser.FrmDepartmentUser.resources
+E:\work_space\js_de\debug\SeleniumConfig\obj\Debug\SeleniumConfig.SeleniumSchema.FrmJAVASeleniumOutPut.resources
+E:\work_space\js_de\debug\SeleniumConfig\obj\Debug\SeleniumConfig.SeleniumSchema.FrmSeleniumSchemacs.resources
+E:\work_space\js_de\debug\SeleniumConfig\obj\Debug\SeleniumConfig.MainForms.FrmSeleuiumConfig.resources
+E:\work_space\js_de\debug\SeleniumConfig\obj\Debug\SeleniumConfig.Properties.Resources.resources
+E:\work_space\js_de\debug\SeleniumConfig\obj\Debug\SeleniumConfig.SQLConfig.FrmAddSqlSchema.resources
+E:\work_space\js_de\debug\SeleniumConfig\obj\Debug\SeleniumConfig.SQLConfig.FrmSelectSchema.resources
+E:\work_space\js_de\debug\SeleniumConfig\obj\Debug\SeleniumConfig.SQLConfig.FrmSqlConfig.resources
+E:\work_space\js_de\debug\SeleniumConfig\obj\Debug\SeleniumConfig.SQLConfig.FrmTableRelation.resources
+E:\work_space\js_de\debug\SeleniumConfig\obj\Debug\SeleniumConfig.csproj.GenerateResource.Cache

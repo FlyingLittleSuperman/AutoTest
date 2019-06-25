@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[资料收取<br/><img src="E:\work_space\js_de\debug\SeleniumConfig\bin\Debug\SootScreens\2019-05-20\11_11\资料收取.png"  hight="300" width="300"  onclick="javascript:window.open(this.src);"/>]]>
+    </line>
+    <line>
+      <![CDATA[收件受理环节移交异常！转出校验信息弹窗没有内容！]]>
+    </line>
+    <line>
+      <![CDATA[业务号：20190520-0006981]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[业务号：20190520-0006981]]>
+    </line>
+    <line>
+      <![CDATA[该流程未完成，请留意!]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+  </reporter-output>
+  <suite name="调试-国有建设用地使用权及房屋所有权（单套）-首次登记-assert_123" duration-ms="1" started-at="2019-05-20T03:13:33Z" finished-at="2019-05-20T03:13:33Z">
+    <groups>
+    </groups>
+    <test name="断言详情查看" duration-ms="1" started-at="2019-05-20T03:13:33Z" finished-at="2019-05-20T03:13:33Z">
+      <class name="Test.NoAssert">
+        <test-method status="PASS" signature="showReport()[pri:0, instance:Test.NoAssert@32f67a24]" name="showReport" duration-ms="1" started-at="2019-05-20T03:13:33Z" finished-at="2019-05-20T03:13:33Z">
+          <reporter-output>
+            <line>
+              <![CDATA[]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- showReport -->
+      </class> <!-- Test.NoAssert -->
+    </test> <!-- 断言详情查看 -->
+  </suite> <!-- 调试-国有建设用地使用权及房屋所有权（单套）-首次登记-assert_123 -->
+</testng-results>

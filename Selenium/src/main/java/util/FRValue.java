@@ -20,12 +20,7 @@ public class FRValue {
 
         String js = "contentPane.curLGP.setCellValue(contentPane.curLGP.write.getWidgetByName(\"" + cellName + "\")." +
                 "options.location,\"" + value + "\");" ;
-//        String js = "var window.FR = options;" +
-//                "contentPane.curLGP.setCellValue(co   ntentPane.curLGP.write.getWidgetByName(\"" + cellName + "\")." +
-//                "window.FR.location,\"" + value + "\");" +
-//                "window.FR = null;";
         System.out.println("帆软");
-
 
         ((JavascriptExecutor) driver).executeScript(js);
     }
@@ -35,11 +30,16 @@ public class FRValue {
 //        String js = "contentPane.curLGP.setCellValue(contentPane.curLGP.write.getWidgetByName(\"" + cellName + "\")." +
 //                "options.location,\"" + value + "\");" ;
         String js = "contentPane.setCellValue(\"" + cellName + "\""+",null," +"\""+ value + "\");" ;
-//        String js1="contentPane.setCellValue(\"C5\",null,\"你好\");" ;
         System.out.println("帆软2");
 
-
         ((JavascriptExecutor) driver).executeScript(js);
+    }
+
+    public static String getFRvalueToAssert(WebDriver driver ,String cellName) {
+        Object resultName;
+        String js = " return contentPane.getWidgetByName(\""+cellName+"\").getValue();" ;
+        resultName=((JavascriptExecutor)driver).executeScript(js);
+        return resultName.toString();
     }
 
 

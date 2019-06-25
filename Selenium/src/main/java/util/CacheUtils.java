@@ -16,7 +16,7 @@ import java.io.File;
  * @author ThinkGem
  * @version 2013-5-29
  */
-public class CacheUtils {
+public class CacheUtils  {
 
 
     private static CacheManager cacheManager;
@@ -25,7 +25,10 @@ public class CacheUtils {
         System.setProperty("logPath", StaticValue.ApplicationPath);
         File file = new File(StaticValue.ApplicationPath + "/SeleniumJAVA/ehcache-local.xml");
         CacheManager manager = new CacheManager(file.getAbsolutePath());
+
+
         cacheManager = manager;
+
         StaticValue.cacheManager = cacheManager;
     }
 
@@ -105,6 +108,7 @@ public class CacheUtils {
     private static Cache getCache(String cacheName) {
         Cache cache = cacheManager.getCache(cacheName);
         if (cache == null) {
+
             cacheManager.addCache(cacheName);
             cache = cacheManager.getCache(cacheName);
             cache.getCacheConfiguration().setEternal(true);

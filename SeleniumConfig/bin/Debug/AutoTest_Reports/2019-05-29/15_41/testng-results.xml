@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+  <reporter-output>
+    <line>
+      <![CDATA[资料收取-assert_3<br/><img src="E:\work_space\js_de\debug\SeleniumConfig\bin\Debug\SootScreens\2019-05-29\15_42_14\资料收取-assert_3.png"  hight="300" width="300"  onclick="javascript:window.open(this.src);"/>]]>
+    </line>
+    <line>
+      <![CDATA[收件受理-环节移交异常！转出校验信息为：
+请添加需要登记的不动产单元！ 请添加办件相关申请人！
+]]>
+    </line>
+    <line>
+      <![CDATA[转出校验提示框-2019-05-29_15_42_55<br/><img src="E:\work_space\js_de\debug\SeleniumConfig\bin\Debug\SootScreens\2019-05-29\15_42_14\转出校验提示框-2019-05-29_15_42_55.png"  hight="300" width="300"  onclick="javascript:window.open(this.src);"/>]]>
+    </line>
+    <line>
+      <![CDATA[业务号：20190529-0000224]]>
+    </line>
+    <line>
+      <![CDATA[该流程未完成，请留意!]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[org.junit.ComparisonFailure: expected:<"[添加什么]"> but was:<"[    添加]">]]>
+    </line>
+  </reporter-output>
+  <suite name="国有房地登记-国有建设用地使用权及房屋所有权（单套）-首次登记-assert_3" duration-ms="97" started-at="2019-05-29T07:42:56Z" finished-at="2019-05-29T07:42:56Z">
+    <groups>
+    </groups>
+    <test name="断言详情查看" duration-ms="97" started-at="2019-05-29T07:42:56Z" finished-at="2019-05-29T07:42:56Z">
+      <class name="Test.DataProviderSet_Assert">
+        <test-method status="PASS" signature="insetToExcel()[pri:0, instance:Test.DataProviderSet_Assert@3f747255]" name="insetToExcel" is-config="true" duration-ms="47" started-at="2019-05-29T07:42:56Z" finished-at="2019-05-29T07:42:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- insetToExcel -->
+        <test-method status="FAIL" signature="star(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Test.DataProviderSet_Assert@3f747255]" name="star" duration-ms="1" started-at="2019-05-29T07:42:56Z" data-provider="AssertData" finished-at="2019-05-29T07:42:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[实际结果：    添加]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[预期结果：添加什么]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-添加]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.junit.ComparisonFailure">
+            <message>
+              <![CDATA[expected:<"[添加什么]"> but was:<"[    添加]">]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.junit.ComparisonFailure: expected:<"[添加什么]"> but was:<"[    添加]">
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at Test.DataProviderSet_Assert.star(DataProviderSet_Assert.java:40)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at configSelenium.ConfigSeleniumStart.dotestng(ConfigSeleniumStart.java:1569)
+at configSelenium.ConfigSeleniumStart.main(ConfigSeleniumStart.java:281)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.junit.ComparisonFailure -->
+          <reporter-output>
+            <line>
+              <![CDATA[]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- star -->
+        <test-method status="PASS" signature="deleteExcel()[pri:0, instance:Test.DataProviderSet_Assert@3f747255]" name="deleteExcel" is-config="true" duration-ms="18" started-at="2019-05-29T07:42:56Z" finished-at="2019-05-29T07:42:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteExcel -->
+      </class> <!-- Test.DataProviderSet_Assert -->
+    </test> <!-- 断言详情查看 -->
+  </suite> <!-- 国有房地登记-国有建设用地使用权及房屋所有权（单套）-首次登记-assert_3 -->
+</testng-results>

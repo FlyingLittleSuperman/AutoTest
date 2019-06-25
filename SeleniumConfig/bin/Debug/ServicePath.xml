@@ -16,13 +16,18 @@
     <ElementInfo ID="RestService" Name="后台服务访问地址"><![CDATA[http://{IP}:8085/GisqRealEstate-Rest/service]]></ElementInfo>
   </ElementTable>
   <ElementTable TableName="ChromeDriver">
-    <ElementInfo ID="ChromeDriverUrl"><![CDATA[C:\Program Files (x86)\Google\Chrome\Application\chromedriver.exe]]></ElementInfo>
+    <ElementInfo ID="ChromeDriverUrl"><![CDATA[E:\Tool\浏览器\GoogleChrome_34.0.1847.116_PortableSoft\GoogleChromePortable\App\Google Chrome\chromedriver.exe]]></ElementInfo>
   </ElementTable>
   <ElementTable TableName="Login">
     <ElementInfo ID="LoginUrl"><![CDATA[http://{IP}:8082/GisqPlatformExplorer/a/login;JSESSIONID=7a22b82495884077a7860a3b86e8ac2f]]></ElementInfo>
-    <ElementInfo ID="LoginUserName"><![CDATA[wangy12]]></ElementInfo>
+    <ElementInfo ID="LoginUserName"><![CDATA[zdh2]]></ElementInfo>
     <ElementInfo ID="LoginPassWord"><![CDATA[1234]]></ElementInfo>
-    <ElementInfo ID="YJName"><![CDATA[王岩]]></ElementInfo>
+    <ElementInfo ID="YJName"><![CDATA[自动化测试2]]></ElementInfo>
+    <ElementInfo ID="ReceiveEmailAdd"><![CDATA[1184013083@qq.com]]></ElementInfo>
+    <ElementInfo ID="SendEmail"><![CDATA[False]]></ElementInfo>
+  </ElementTable>
+  <ElementTable TableName="Local">
+    <ElementInfo ID="ShowResultTime"><![CDATA[]]></ElementInfo>
   </ElementTable>
   <ElementTable TableName="Iframe">
     <ElementInfo ID="FirstPageIframe" Name="首页iframe名称"><![CDATA[view_首页0]]></ElementInfo>
@@ -31,6 +36,7 @@
     <ElementInfo ID="DataCategory" Name="窗口收件资料"><![CDATA[GisqPlatformExplorer/modules/bizmodel/datums_submit]]></ElementInfo>
   </ElementTable>
   <ElementTable TableName="DBConnection">
+    <ElementInfo ID="DbIpAdress" Name="数据库链接地址"><![CDATA[192.168.2.119]]></ElementInfo>
     <ElementInfo ID="DbName" Name="数据库实例名"><![CDATA[testbdc]]></ElementInfo>
     <ElementInfo ID="DbUserName" Name="数据库用户名"><![CDATA[bdcdj]]></ElementInfo>
     <ElementInfo ID="DbPassWord" Name="数据库密码"><![CDATA[bdcdj119]]></ElementInfo>
